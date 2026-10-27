@@ -111,6 +111,25 @@ export default function Practice() {
         />
       </View>
 
+      <SectionTitle title="By section" />
+      <Card padded={false} style={{ paddingHorizontal: space.lg }}>
+        {EXAMS[exam].sections.map((section, i, all) => {
+          const items = pack.items.filter((it) => it.section === section);
+          const done = items.filter((it) => seen.has(it.id)).length;
+          return (
+            <ListRow
+              key={section}
+              testID={`section-${section}`}
+              icon="square.stack.3d.up"
+              title={SECTIONS[section].name}
+              subtitle={`${done} of ${items.length} questions answered`}
+              onPress={() => startDrill(ctx, { sections: [section], types: [], difficulty: 'any', count: 10 })}
+              last={i === all.length - 1}
+            />
+          );
+        })}
+      </Card>
+
       <SectionTitle title="Passages" />
       <Card padded={false} style={{ paddingHorizontal: space.lg }}>
         {passages.map((p, i) => (
@@ -141,25 +160,6 @@ export default function Practice() {
             <ProgressBar value={p.answered / p.total} height={4} />
           </Pressable>
         ))}
-      </Card>
-
-      <SectionTitle title="By section" />
-      <Card padded={false} style={{ paddingHorizontal: space.lg }}>
-        {EXAMS[exam].sections.map((section, i, all) => {
-          const items = pack.items.filter((it) => it.section === section);
-          const done = items.filter((it) => seen.has(it.id)).length;
-          return (
-            <ListRow
-              key={section}
-              testID={`section-${section}`}
-              icon="square.stack.3d.up"
-              title={SECTIONS[section].name}
-              subtitle={`${done} of ${items.length} questions answered`}
-              onPress={() => startDrill(ctx, { sections: [section], types: [], difficulty: 'any', count: 10 })}
-              last={i === all.length - 1}
-            />
-          );
-        })}
       </Card>
 
       <View style={{ marginTop: space.xxl, paddingHorizontal: space.xs }}>
