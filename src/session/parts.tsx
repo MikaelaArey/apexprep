@@ -177,19 +177,32 @@ export function DataTable({ table }: { table: Table }) {
   );
 }
 
+// Comparative reading sets mark their two texts with a "Passage A" / "Passage B"
+// paragraph, shown as a heading and left out of the paragraph numbering.
+const PART_HEADING = /^Passage [AB]$/;
+
 export function PassageText({ passage }: { passage: Passage }) {
+  const numbers = passage.paragraphs.map((p, i) =>
+    PART_HEADING.test(p) ? null : passage.paragraphs.slice(0, i + 1).filter((q) => !PART_HEADING.test(q)).length,
+  );
   return (
     <View style={{ gap: space.lg }}>
-      {passage.paragraphs.map((p, i) => (
-        <View key={i} style={{ flexDirection: 'row', gap: space.sm }}>
-          <T variant="caption" color="textFaint" style={{ width: 14, marginTop: 5 }}>
-            {i + 1}
-          </T>
-          <T variant="reading" style={{ flex: 1 }}>
+      {passage.paragraphs.map((p, i) =>
+        numbers[i] === null ? (
+          <T key={i} variant="headline" accessibilityRole="header" style={{ marginTop: i === 0 ? 0 : space.sm }}>
             {p}
           </T>
-        </View>
-      ))}
+        ) : (
+          <View key={i} style={{ flexDirection: 'row', gap: space.sm }}>
+            <T variant="caption" color="textFaint" style={{ width: 14, marginTop: 5 }}>
+              {numbers[i]}
+            </T>
+            <T variant="reading" style={{ flex: 1 }}>
+              {p}
+            </T>
+          </View>
+        ),
+      )}
       {passage.table ? <DataTable table={passage.table} /> : null}
     </View>
   );

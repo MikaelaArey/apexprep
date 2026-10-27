@@ -226,3 +226,12 @@
   back: >-
     Find the specific claim being tested, then pick the fact that bears most
     directly on its support.
+
+- id: kp-rc-inference
+  section: RC
+  title: Reading Comprehension inferences
+  front: How far beyond the passage can an RC inference go?
+  back: >-
+    Barely at all. The right answer is almost a restatement of specific lines.
+    If you need an outside assumption or a stronger word than the passage uses,
+    it's wrong.

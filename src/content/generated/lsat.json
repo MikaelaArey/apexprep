@@ -1,7 +1,7 @@
 {
  "exam": "LSAT",
- "version": "3913bbbda53b",
- "generatedAt": "2026-10-27T13:22:53.493Z",
+ "version": "d27b4bd0b0d5",
+ "generatedAt": "2026-10-27T13:28:32.806Z",
  "items": [
   {
    "id": "lsat-lr-0100",
@@ -12355,6 +12355,1882 @@
    "status": "review"
   },
   {
+   "id": "lsat-rc-0011",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 1,
+   "type": "rc_main_point",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-main-point"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately expresses the main point of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The evidentiary justification is the best explanation of the doctrine as courts apply it.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "P3 argues that this justification can't explain the hostility requirement."
+    },
+    {
+     "id": "B",
+     "text": "The traditional justifications for adverse possession do not fully account for how the doctrine is applied, which is better explained by the law's concern for a possessor's reliance on the land.",
+     "correct": true,
+     "trap": null,
+     "why": "This covers the critique of both traditional justifications (P3) and the author's alternative (P4)."
+    },
+    {
+     "id": "C",
+     "text": "The doctrine of adverse possession should be abolished because it rewards trespass.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That objection is reported in P1; the author ends up explaining the doctrine, not rejecting it."
+    },
+    {
+     "id": "D",
+     "text": "Property is nothing more than a practical connection between people and places.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author says property is not only abstract rights but also a practical connection."
+    },
+    {
+     "id": "E",
+     "text": "Courts apply adverse possession inconsistently because they misunderstand its purpose.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author faults the traditional justifications, not the courts."
+    }
+   ],
+   "tldr": "Both traditional justifications fall short; protecting the possessor's reliance explains the doctrine better.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 doctrine and objection. P2 two justifications. P3 both fall short. P4 the reliance account."
+    },
+    {
+     "label": "Main point",
+     "body": "The passage's own claim is in P3 and P4 together."
+    }
+   ],
+   "takeaway": "The main point usually combines what the author rejects with what the author proposes instead.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0012",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 2,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author mentions a tenant who stays on after a lease expires primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "suggest that leases are poor evidence of who owns a piece of land",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The point concerns evidence of occupation, not the value of leases."
+    },
+    {
+     "id": "B",
+     "text": "illustrate a case in which a court would award title to the possessor",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The tenant has permission, so the possession isn't hostile and title wouldn't pass."
+    },
+    {
+     "id": "C",
+     "text": "argue that tenants should be able to acquire title by adverse possession",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author never makes that proposal."
+    },
+    {
+     "id": "D",
+     "text": "show that the evidentiary justification cannot explain why possession must be hostile",
+     "correct": true,
+     "trap": null,
+     "why": "Such a tenant gives equally good evidence of long occupation, yet can't gain title because the possession isn't hostile."
+    },
+    {
+     "id": "E",
+     "text": "support the justification based on the owner's neglect",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The tenant example targets the evidentiary justification, and P3 criticizes both."
+    }
+   ],
+   "tldr": "The tenant shows long occupation without hostility, which the evidence rationale can't explain.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "\"If the concern were only evidence, the law would not require that the possession be hostile...\""
+    },
+    {
+     "label": "Role",
+     "body": "The tenant is the counterexample that proves the point."
+    }
+   ],
+   "takeaway": "A hypothetical case right after \"if the concern were only...\" is usually a counterexample.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0013",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 3,
+   "type": "rc_detail",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-viewpoints"
+   ],
+   "difficulty": 1,
+   "targetSec": 78,
+   "prompt": "According to the passage, which one of the following is a requirement for acquiring title by adverse possession?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A court must approve the occupation before it begins.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No such requirement appears in the passage."
+    },
+    {
+     "id": "B",
+     "text": "The occupier must have entered the land with the owner's permission.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Possession must be hostile, meaning without the owner's permission."
+    },
+    {
+     "id": "C",
+     "text": "The occupier must have surveyed the boundaries of the land.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Surveys appear only in the fence example."
+    },
+    {
+     "id": "D",
+     "text": "The occupation must be continuous for a period set by statute.",
+     "correct": true,
+     "trap": null,
+     "why": "P1 lists open, continuous, exclusive and hostile possession for a statutory period."
+    },
+    {
+     "id": "E",
+     "text": "The owner must have received written notice of the occupation.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Notice to the owner isn't listed as a requirement."
+    }
+   ],
+   "tldr": "Open, continuous, exclusive, hostile, for the statutory period.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The first sentence of P1 lists the requirements."
+    },
+    {
+     "label": "Match",
+     "body": "Only continuity for the statutory period appears there."
+    }
+   ],
+   "takeaway": "For detail questions, go back to the line. Don't answer from memory.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0014",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 4,
+   "type": "rc_application",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-analogy"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The justification based on the owner's conduct (paragraph 2) would most clearly support awarding title to the possessor in which one of the following cases?",
+   "options": [
+    {
+     "id": "A",
+     "text": "An owner who lives next door knowingly lets a stranger farm her field openly for fifteen years without objecting.",
+     "correct": true,
+     "trap": null,
+     "why": "Knowingly ignoring an open occupation for over a decade is exactly the neglect this justification relies on."
+    },
+    {
+     "id": "B",
+     "text": "A person occupies vacant land openly for two years.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Two years falls well short of the decade or more the justification describes."
+    },
+    {
+     "id": "C",
+     "text": "A tenant stays on with the owner's permission after a lease expires.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Permissive possession isn't hostile, and the owner isn't neglecting anything."
+    },
+    {
+     "id": "D",
+     "text": "An owner visits her land every year and objects each time to the occupier's presence.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "That owner is asserting her interest, not abandoning it."
+    },
+    {
+     "id": "E",
+     "text": "An owner has no reason to suspect that a neighbor's fence sits a few feet over their unsurveyed boundary.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author uses this case to show where the neglect justification fails."
+    }
+   ],
+   "tldr": "The neglect rationale fits an owner who knowingly does nothing for years.",
+   "steps": [
+    {
+     "label": "The rationale",
+     "body": "An owner who ignores an open occupation for a decade or more has effectively abandoned the land."
+    },
+    {
+     "label": "Match",
+     "body": "Knowledge, inaction and a long period all appear only in the neighbor's case."
+    }
+   ],
+   "takeaway": "Apply a view by checking each of its conditions against the case.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0015",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 5,
+   "type": "rc_attitude",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "The author's attitude toward the reliance account (paragraph 4) can most accurately be described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "skeptical of its usefulness",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author offers it as the better explanation."
+    },
+    {
+     "id": "B",
+     "text": "favorable, while acknowledging that it does not answer every objection to the doctrine",
+     "correct": true,
+     "trap": null,
+     "why": "The author calls it \"more satisfying\" but adds that it \"does not make the doctrine immune from criticism.\""
+    },
+    {
+     "id": "C",
+     "text": "unreservedly enthusiastic",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author explicitly notes the account's limits."
+    },
+    {
+     "id": "D",
+     "text": "neutral, since the author takes no position on the doctrine",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author clearly prefers this account to the traditional ones."
+    },
+    {
+     "id": "E",
+     "text": "grudging, accepting it only because the alternatives fail",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author praises what it recognizes about property, which is more than grudging acceptance."
+    }
+   ],
+   "tldr": "Favorable, with a stated limit.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"A more satisfying account...\" and \"does not make the doctrine immune from criticism.\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Positive, with a qualification."
+    }
+   ],
+   "takeaway": "A qualifier (\"does not make it immune\") rules out extreme attitude answers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0016",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 6,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author would most likely agree with which one of the following statements?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The evidentiary justification has nothing to do with the doctrine.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author says it doesn't fully explain the doctrine, not that it's irrelevant."
+    },
+    {
+     "id": "B",
+     "text": "Owners should be legally required to survey their boundaries regularly.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never proposes any duty to survey."
+    },
+    {
+     "id": "C",
+     "text": "Lost deeds are usually evidence of fraud.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Lost deeds come up only as an evidentiary problem."
+    },
+    {
+     "id": "D",
+     "text": "An adequate account of adverse possession should explain why the doctrine focuses on what the possessor has done.",
+     "correct": true,
+     "trap": null,
+     "why": "The author praises the reliance account precisely because it explains that focus."
+    },
+    {
+     "id": "E",
+     "text": "Adverse possession is rarely invoked in modern courts.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage says nothing about how often the doctrine is used."
+    }
+   ],
+   "tldr": "The author wants the account to explain the doctrine's focus on the possessor.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "The reliance account \"explains why the law asks what the possessor has done.\""
+    },
+    {
+     "label": "Infer",
+     "body": "The author treats explaining that focus as a mark of a good account."
+    }
+   ],
+   "takeaway": "What the author praises an account for doing tells you what the author values.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0017",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p03",
+   "position": 7,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-structure"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately describes the organization of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Two competing legal doctrines are compared, and one of them is endorsed.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Only one doctrine is discussed; the comparison is between justifications for it."
+    },
+    {
+     "id": "B",
+     "text": "A doctrine is criticized, then defended, and finally rejected.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The passage ends by explaining the doctrine, not rejecting it."
+    },
+    {
+     "id": "C",
+     "text": "A problem is described and several solutions are rejected, with no alternative offered.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author does offer an alternative account."
+    },
+    {
+     "id": "D",
+     "text": "A legal doctrine is described and a common objection noted; two traditional justifications are presented and shown to be incomplete; an alternative justification is proposed.",
+     "correct": true,
+     "trap": null,
+     "why": "That matches P1, P2, P3 and P4 in order."
+    },
+    {
+     "id": "E",
+     "text": "The history of a doctrine is traced, followed by predictions about its future.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage makes no historical survey or predictions."
+    }
+   ],
+   "tldr": "Doctrine and objection, two justifications, their flaws, a better account.",
+   "steps": [
+    {
+     "label": "Label each paragraph",
+     "body": "P1 describe and object. P2 justify. P3 critique. P4 propose."
+    },
+    {
+     "label": "Match",
+     "body": "Pick the answer whose sequence matches every step."
+    }
+   ],
+   "takeaway": "For organization questions, label each paragraph's job first, then match the sequence.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0018",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 1,
+   "type": "rc_main_point",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-main-point"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately expresses the main point of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Wegener's hypothesis was rejected mainly because he was not a geologist.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author grants that this played some role but says it obscures the substantive objection."
+    },
+    {
+     "id": "B",
+     "text": "Scientific establishments are generally unwilling to accept new ideas.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author resists exactly this reading of the episode."
+    },
+    {
+     "id": "C",
+     "text": "Wegener's evidence was too weak to support the idea of continental drift.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author calls his evidence impressive; the missing piece was a mechanism."
+    },
+    {
+     "id": "D",
+     "text": "Plate tectonics replaced continental drift after drift was disproved.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Plate tectonics vindicated drift by supplying its mechanism."
+    },
+    {
+     "id": "E",
+     "text": "The long rejection of Wegener's hypothesis reflected a reasonable demand for a mechanism, a demand later met by evidence of seafloor spreading.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage argues the rejection was reasonable (P2–P3) and explains how the mechanism arrived (P4)."
+    }
+   ],
+   "tldr": "Geologists reasonably wanted a mechanism, and seafloor spreading supplied it.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 strong evidence, long rejection. P2 the popular story versus the real objection. P3 the objection was reasonable. P4 the mechanism arrives."
+    },
+    {
+     "label": "Main point",
+     "body": "Reasonable rejection, then vindication once a mechanism appeared."
+    }
+   ],
+   "takeaway": "When an author corrects a popular story, the correction is usually the main point.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0019",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 2,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author mentions that Wegener was a meteorologist primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "argue that outsiders often make important scientific discoveries",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No such general claim is made."
+    },
+    {
+     "id": "B",
+     "text": "suggest that Wegener's evidence came mainly from studies of weather",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "His evidence came from coastlines, fossils, rocks and glacial traces."
+    },
+    {
+     "id": "C",
+     "text": "explain why the mechanisms Wegener proposed were too weak",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage attributes their weakness to physics, not to his training."
+    },
+    {
+     "id": "D",
+     "text": "show that the critics' objection to his mechanism was unfair",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author calls that objection reasonable."
+    },
+    {
+     "id": "E",
+     "text": "concede that part of the popular account of his rejection is accurate",
+     "correct": true,
+     "trap": null,
+     "why": "It follows \"That story contains some truth\" and explains why some critics dismissed him as an outsider."
+    }
+   ],
+   "tldr": "His outsider status is the true part of the \"conservatism\" story.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"That story contains some truth. Wegener was a meteorologist, not a geologist...\""
+    },
+    {
+     "label": "Role",
+     "body": "A concession before the \"But\" that introduces the real objection."
+    }
+   ],
+   "takeaway": "Details sandwiched between \"contains some truth\" and \"But\" are concessions.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0020",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 3,
+   "type": "rc_attitude",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "The author's attitude toward the geologists who rejected Wegener's hypothesis is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "admiring of their foresight in anticipating plate tectonics",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never credits them with anticipating the later theory."
+    },
+    {
+     "id": "B",
+     "text": "indifferent to whether their rejection was justified",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author argues at length that it was justified."
+    },
+    {
+     "id": "C",
+     "text": "largely sympathetic, regarding their main objection as reasonable",
+     "correct": true,
+     "trap": null,
+     "why": "The author says the objection \"was reasonable\" and that they weren't refusing to look at the evidence."
+    },
+    {
+     "id": "D",
+     "text": "critical of their refusal to examine Wegener's evidence",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says they were not refusing to look at the evidence."
+    },
+    {
+     "id": "E",
+     "text": "contemptuous of their conservatism",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author pushes back against the conservatism story."
+    }
+   ],
+   "tldr": "Sympathetic, since their demand for a mechanism was reasonable.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"The objection was reasonable.\""
+    },
+    {
+     "label": "Attitude",
+     "body": "The author defends the skeptics against the popular story."
+    }
+   ],
+   "takeaway": "Watch for the author defending a group that a popular story blames.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0021",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 4,
+   "type": "rc_detail",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-viewpoints"
+   ],
+   "difficulty": 1,
+   "targetSec": 78,
+   "prompt": "According to the passage, which one of the following helped show that new seafloor forms at mid-ocean ridges?",
+   "options": [
+    {
+     "id": "A",
+     "text": "calculations of forces arising from Earth's rotation",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Those calculations showed that Wegener's proposed mechanism was too weak."
+    },
+    {
+     "id": "B",
+     "text": "the matching coastlines of South America and Africa",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That was Wegener's evidence for drift, not for seafloor spreading."
+    },
+    {
+     "id": "C",
+     "text": "symmetrical stripes of rock recording reversals of Earth's magnetic field",
+     "correct": true,
+     "trap": null,
+     "why": "P4 says these stripes, on either side of the ridges, indicated that new seafloor forms and spreads."
+    },
+    {
+     "id": "D",
+     "text": "fossils of the same reptiles on continents separated by oceans",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "Also Wegener's evidence, gathered long before."
+    },
+    {
+     "id": "E",
+     "text": "traces of ancient glaciers that match across the Atlantic",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "Another part of Wegener's original evidence."
+    }
+   ],
+   "tldr": "The magnetic stripes beside the ridges showed seafloor spreading.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "P4 lists mid-ocean ridges and magnetic stripes."
+    },
+    {
+     "label": "Separate the evidence",
+     "body": "Wegener's evidence (P1) is different from the seafloor evidence (P4)."
+    }
+   ],
+   "takeaway": "Keep track of which evidence supports which claim; RC traps swap them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0022",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 5,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The passage most strongly supports which one of the following statements?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The continents move through the solid ocean floor, as Wegener believed.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The continents ride along with the seafloor on plates."
+    },
+    {
+     "id": "B",
+     "text": "Wegener lived to see his hypothesis accepted by most geologists.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage never says when Wegener died or what he saw."
+    },
+    {
+     "id": "C",
+     "text": "The evidence Wegener assembled did not by itself change geologists' minds; a mechanism made it persuasive.",
+     "correct": true,
+     "trap": null,
+     "why": "P4 says the impasse was broken by a different kind of evidence, after which \"the old evidence... was suddenly persuasive.\""
+    },
+    {
+     "id": "D",
+     "text": "Most of Wegener's evidence was later found to be mistaken.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "His old evidence became persuasive once the mechanism was found."
+    },
+    {
+     "id": "E",
+     "text": "Geologists in the 1950s had never heard of Wegener's hypothesis.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing suggests his hypothesis was unknown."
+    }
+   ],
+   "tldr": "The same evidence persuaded once a mechanism existed.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "\"With a mechanism in hand, the old evidence for drift was suddenly persuasive.\""
+    },
+    {
+     "label": "Infer",
+     "body": "The evidence alone hadn't been enough."
+    }
+   ],
+   "takeaway": "Look for the sentence that explains a change; the inference usually paraphrases it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0023",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 6,
+   "type": "rc_application",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-analogy"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "Which one of the following is most analogous to the history of Wegener's hypothesis as the author describes it?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A diagnosis that fits all of a patient's symptoms is doubted because no known disease process could produce them together, until a new test reveals one.",
+     "correct": true,
+     "trap": null,
+     "why": "Strong fit to the evidence, doubt over the missing mechanism, then acceptance once the mechanism appears."
+    },
+    {
+     "id": "B",
+     "text": "Two rival theories explain the same evidence equally well, and scientists remain divided.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "The episode ended with a clear resolution."
+    },
+    {
+     "id": "C",
+     "text": "A theory is rejected after its supporting evidence is found to be fabricated.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Wegener's evidence was sound; the problem was a missing mechanism."
+    },
+    {
+     "id": "D",
+     "text": "A theory with little supporting evidence is accepted because its mechanism is plausible.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "Wegener had plenty of evidence but no plausible mechanism, the reverse."
+    },
+    {
+     "id": "E",
+     "text": "A theory is accepted quickly because its author is famous, and is later abandoned.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Wegener's theory was rejected for decades, not accepted quickly."
+    }
+   ],
+   "tldr": "Good evidence, no mechanism, then a mechanism and acceptance.",
+   "steps": [
+    {
+     "label": "Abstract the story",
+     "body": "Evidence fits; process seems impossible; new findings supply the process; acceptance follows."
+    },
+    {
+     "label": "Match",
+     "body": "Only the diagnosis case has all four stages."
+    }
+   ],
+   "takeaway": "Strip the passage's story to its stages, then match an answer stage by stage.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0024",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p04",
+   "position": 7,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author would be most likely to endorse which one of the following principles?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Hypotheses proposed by scientists outside a field deserve less scrutiny than others.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author never says outsiders deserve different treatment."
+    },
+    {
+     "id": "B",
+     "text": "Scientists should accept whichever hypothesis fits the most observations, whatever its mechanism.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author defends withholding assent from a hypothesis that fit many observations but lacked a mechanism."
+    },
+    {
+     "id": "C",
+     "text": "Fossil evidence is more reliable than geological evidence.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage doesn't rank kinds of evidence."
+    },
+    {
+     "id": "D",
+     "text": "An account of what happened should be compatible with some account of how it could have happened.",
+     "correct": true,
+     "trap": null,
+     "why": "The author describes exactly this insistence as reasonable in P3."
+    },
+    {
+     "id": "E",
+     "text": "A hypothesis should be rejected if its author was trained in a different field.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author treats dismissal of Wegener as an outsider as the weakest part of the story."
+    }
+   ],
+   "tldr": "The author endorses demanding a possible \"how\" for any \"what.\"",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "Geologists insisted \"an account of what happened must be compatible with an account of how it could happen.\""
+    },
+    {
+     "label": "Author's stance",
+     "body": "The author calls that objection reasonable."
+    }
+   ],
+   "takeaway": "Principles the author attributes to a group and then praises are principles the author endorses.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0025",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 1,
+   "type": "rc_main_point",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-main-point"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately expresses the main point of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Homer's repetitions are a flaw that modern readers are right to criticize.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The passage argues the repetitions reflect an art with different demands."
+    },
+    {
+     "id": "B",
+     "text": "Homer's poems were composed entirely in performance and were never written down.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "P4 notes that some scholars think the poems were written down, perhaps with the poet's help."
+    },
+    {
+     "id": "C",
+     "text": "Parry's theory has been refuted by evidence of large-scale design in the poems.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author says the theory left questions open but changed the terms of the debate."
+    },
+    {
+     "id": "D",
+     "text": "Parry's account of Homer's epithets as tools of oral composition, supported by fieldwork with oral singers, transformed how Homer's repetitions are understood, though some questions remain open.",
+     "correct": true,
+     "trap": null,
+     "why": "It covers the theory (P1–P2), the fieldwork (P3) and its impact and limits (P4)."
+    },
+    {
+     "id": "E",
+     "text": "The Yugoslav singers memorized fixed texts of their songs.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "They never performed a song in exactly the same words twice."
+    }
+   ],
+   "tldr": "Parry recast Homer's repetitions as oral tools, a view that transformed the field despite open questions.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 puzzle and Parry's idea. P2 epithets fit the meter. P3 fieldwork. P4 impact and limits."
+    },
+    {
+     "label": "Main point",
+     "body": "The theory's argument and its transforming effect, with limits."
+    }
+   ],
+   "takeaway": "Include the author's qualifications in the main point when the passage stresses them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0026",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 2,
+   "type": "rc_detail",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-viewpoints"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "According to the passage, Parry argued that a system of fixed epithets would be",
+   "options": [
+    {
+     "id": "A",
+     "text": "indispensable to a poet composing aloud at speed before an audience",
+     "correct": true,
+     "trap": null,
+     "why": "P2 says such a system would be \"indispensable to one composing aloud, at speed, before an audience.\""
+    },
+    {
+     "id": "B",
+     "text": "unrelated to the meter of the line",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Parry showed the epithets are tightly bound to meter."
+    },
+    {
+     "id": "C",
+     "text": "a sign of a poet's lack of originality",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the modern reader's view, which Parry challenged."
+    },
+    {
+     "id": "D",
+     "text": "useful mainly to poets composing slowly in writing",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Parry said it would be \"of little use\" to such poets."
+    },
+    {
+     "id": "E",
+     "text": "an invention of Homer himself",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Parry saw the formulas as part of a tradition, not one poet's invention."
+    }
+   ],
+   "tldr": "The formulas are essential for composing aloud, fast.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The middle of P2."
+    },
+    {
+     "label": "Match",
+     "body": "Indispensable for oral composition at speed."
+    }
+   ],
+   "takeaway": "Distinguish the author's or scholar's view from the \"modern readers'\" view the passage sets against it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0027",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 3,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author describes singers who insisted that a song was the same \"word for word\" primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "prove that Homer's poems were never performed the same way twice",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The Yugoslav evidence supports the theory but proves nothing directly about Homer's performances."
+    },
+    {
+     "id": "B",
+     "text": "show that the singers understood a song's identity differently from the way a fixed text would define it",
+     "correct": true,
+     "trap": null,
+     "why": "The paragraph concludes that for these singers a song's identity lay in its story and traditional elements."
+    },
+    {
+     "id": "C",
+     "text": "suggest that the singers were deliberately misleading the researchers",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The point is a different concept of sameness, not dishonesty."
+    },
+    {
+     "id": "D",
+     "text": "criticize the methods Lord used to interview singers",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No criticism of method appears."
+    },
+    {
+     "id": "E",
+     "text": "cast doubt on the accuracy of Parry and Lord's recordings",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The recordings are what reveal the variation."
+    }
+   ],
+   "tldr": "The singers' \"same song\" meant the same story, not the same words.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The anecdote is followed by \"For these performers, a song's identity lay in its story...\""
+    },
+    {
+     "label": "Role",
+     "body": "It illustrates a different idea of what makes a song the same."
+    }
+   ],
+   "takeaway": "The sentence after an anecdote usually tells you what the anecdote is for.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0028",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 4,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The critics mentioned in paragraph 4 would be most likely to agree with which one of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Homer was a literate poet who composed every line in writing.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Some scholars suggest an oral poet's composition was written down, not that Homer composed in writing."
+    },
+    {
+     "id": "B",
+     "text": "The overall structure of the Iliad is difficult to explain as the product of performance alone.",
+     "correct": true,
+     "trap": null,
+     "why": "They point to large-scale design \"that seems hard to achieve in performance.\""
+    },
+    {
+     "id": "C",
+     "text": "The Yugoslav songs are older than the Homeric poems.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage doesn't compare their ages."
+    },
+    {
+     "id": "D",
+     "text": "Parry was wrong that Homer's epithets are bound to meter.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The critics question large-scale design, not the metrical analysis."
+    },
+    {
+     "id": "E",
+     "text": "Repetition is always a flaw in poetry.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Nothing indicates the critics hold this view."
+    }
+   ],
+   "tldr": "The critics doubt that performance alone could produce the poems' overall design.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "Large-scale design \"seems hard to achieve in performance.\""
+    },
+    {
+     "label": "Infer",
+     "body": "They doubt performance alone explains the poems' structure."
+    }
+   ],
+   "takeaway": "Attribute to each group only what the passage says that group says.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0029",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 5,
+   "type": "rc_attitude",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "The author's attitude toward Parry's theory can most accurately be described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "skeptical of its value overall",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author credits it with transforming the field."
+    },
+    {
+     "id": "B",
+     "text": "uncritically accepting of every part of it",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author notes the critics' objections."
+    },
+    {
+     "id": "C",
+     "text": "purely neutral, reporting the theory without evaluating it",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "\"Insight\" and \"transformed\" are evaluations."
+    },
+    {
+     "id": "D",
+     "text": "admiring of its central insight, while acknowledging questions it left open",
+     "correct": true,
+     "trap": null,
+     "why": "The author says it \"transformed Homeric studies\" and \"changed the terms of the debate,\" though it \"did not settle every question.\""
+    },
+    {
+     "id": "E",
+     "text": "dismissive, because it ignores the poems' large-scale design",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the critics' concern, and the author still credits the theory."
+    }
+   ],
+   "tldr": "Admiring, with acknowledged limits.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"Transformed,\" \"insight,\" \"though it did not settle every question.\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Positive and measured."
+    }
+   ],
+   "takeaway": "Evaluative words such as \"insight\" and \"transformed\" reveal attitude even in an explanatory passage.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0030",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 6,
+   "type": "rc_application",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-analogy"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "Which one of the following best exemplifies the kind of skill that the last sentence of the passage attributes to a poet in an oral tradition?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A scholar who catalogs every epithet used in Homer",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Cataloging formulas isn't composing with them."
+    },
+    {
+     "id": "B",
+     "text": "A composer who invents a new scale that no one has used before",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That is originality, the value the passage contrasts with oral artistry."
+    },
+    {
+     "id": "C",
+     "text": "A jazz musician improvising a solo by combining familiar phrases from the tradition in fresh and fitting ways",
+     "correct": true,
+     "trap": null,
+     "why": "Skill lies in using traditional units well, in real time, before an audience."
+    },
+    {
+     "id": "D",
+     "text": "An actor who memorizes a script and never departs from it",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That treats the work as a fixed text, which the singers didn't."
+    },
+    {
+     "id": "E",
+     "text": "A novelist who revises a manuscript for years to remove every phrase that sounds familiar",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The oral poet's skill lies not in avoiding the traditional phrase."
+    }
+   ],
+   "tldr": "Skill means using traditional pieces well in live performance.",
+   "steps": [
+    {
+     "label": "The skill",
+     "body": "\"Not in avoiding the traditional phrase but in using it well.\""
+    },
+    {
+     "label": "Match",
+     "body": "The improviser combines familiar phrases fittingly, on the spot."
+    }
+   ],
+   "takeaway": "Analogy answers must match the defining feature, not just the subject area.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0031",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p05",
+   "position": 7,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "As used in the last sentence of the passage, \"different demands\" refers most directly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "the expectations of modern readers trained to prize originality",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "Those are the expectations of written literature that oral art is contrasted with."
+    },
+    {
+     "id": "B",
+     "text": "the difficulty of creating large-scale design in performance",
+     "correct": false,
+     "trap": "distortion",
+     "why": "That is the critics' objection, not what the \"different demands\" of oral art refers to."
+    },
+    {
+     "id": "C",
+     "text": "the challenge of translating the poems into other languages",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Translation isn't discussed."
+    },
+    {
+     "id": "D",
+     "text": "the need to compose quickly before an audience while keeping to the meter",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 explains that formulas serve a poet composing aloud, at speed, in meter."
+    },
+    {
+     "id": "E",
+     "text": "the requirements of producing a fixed written text",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The oral singers had no fixed text."
+    }
+   ],
+   "tldr": "Oral composition demands speed, meter and an audience.",
+   "steps": [
+    {
+     "label": "Trace back",
+     "body": "The demands of oral art were laid out in P2."
+    },
+    {
+     "label": "Match",
+     "body": "Composing aloud, at speed, within the meter."
+    }
+   ],
+   "takeaway": "Phrases in a conclusion often point back to an earlier paragraph; find it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0032",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 1,
+   "type": "rc_comparative",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-comparative"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately describes the relationship between the two passages?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Passage A criticizes a policy that passage B defends.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "A defends nudges; B criticizes them."
+    },
+    {
+     "id": "B",
+     "text": "Passage B offers new evidence that undermines the findings described in passage A.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "B accepts that defaults work; it questions how and for whom."
+    },
+    {
+     "id": "C",
+     "text": "Both passages argue that defaults should be eliminated.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Both say some influence is unavoidable, and A endorses defaults."
+    },
+    {
+     "id": "D",
+     "text": "Passage A presents evidence for a policy approach and argues for it; passage B raises concerns about that approach's transparency and its effects on some people.",
+     "correct": true,
+     "trap": null,
+     "why": "A argues from the enrollment evidence to nudges; B questions their accountability and their fit for everyone."
+    },
+    {
+     "id": "E",
+     "text": "Passage B summarizes passage A without evaluating it.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "B clearly evaluates nudges."
+    }
+   ],
+   "tldr": "A argues for nudges; B challenges their transparency and one-size-fits-all effects.",
+   "steps": [
+    {
+     "label": "A's stance",
+     "body": "Defaults work, influence is unavoidable, so set good defaults."
+    },
+    {
+     "label": "B's stance",
+     "body": "Nudges escape scrutiny and don't suit everyone."
+    }
+   ],
+   "takeaway": "Summarize each passage's stance in a few words before reading the answers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0033",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 2,
+   "type": "rc_comparative",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-comparative"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The authors of both passages would most likely agree that",
+   "options": [
+    {
+     "id": "A",
+     "text": "automatic enrollment leaves every worker better off",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "B says it can leave some workers worse off."
+    },
+    {
+     "id": "B",
+     "text": "laws that require saving are preferable to defaults",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "B contrasts laws with defaults to make a point about visibility, but never says laws are better."
+    },
+    {
+     "id": "C",
+     "text": "behavioral economics has little to teach policymakers",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "A draws a policy lesson from it, and B doesn't dispute the findings."
+    },
+    {
+     "id": "D",
+     "text": "most people notice the defaults on enrollment forms",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "B says defaults work because most people never notice them."
+    },
+    {
+     "id": "E",
+     "text": "institutions cannot avoid influencing the choices people make",
+     "correct": true,
+     "trap": null,
+     "why": "A says institutions \"cannot avoid influencing choices\"; B calls such influence something \"they cannot avoid.\""
+    }
+   ],
+   "tldr": "Both say influence on choices is unavoidable.",
+   "steps": [
+    {
+     "label": "A",
+     "body": "\"Institutions cannot avoid influencing choices.\""
+    },
+    {
+     "label": "B",
+     "body": "\"...whether institutions should influence choices, which they cannot avoid...\""
+    }
+   ],
+   "takeaway": "Agreement questions need a line from each passage. Find both before choosing.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0034",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 3,
+   "type": "rc_comparative",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-comparative"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author of passage B would most likely respond to the claim in passage A that nudges \"preserve freedom\" by arguing that",
+   "options": [
+    {
+     "id": "A",
+     "text": "people who save more for retirement are generally happier",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Happiness isn't B's concern."
+    },
+    {
+     "id": "B",
+     "text": "workers are usually prohibited from opting out of retirement plans",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Both passages assume opting out is possible."
+    },
+    {
+     "id": "C",
+     "text": "a freedom to opt out means little if people never notice the default they could reject",
+     "correct": true,
+     "trap": null,
+     "why": "B says defaults work \"precisely because most people never notice\" them, which hollows out the freedom A cites."
+    },
+    {
+     "id": "D",
+     "text": "freedom matters less than long-term welfare",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "B argues for visibility and contestability, which protect freedom; it doesn't downgrade freedom."
+    },
+    {
+     "id": "E",
+     "text": "defaults have no measurable effect on behavior",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "B's worry depends on defaults being effective."
+    }
+   ],
+   "tldr": "B would say an unnoticed option isn't much of a freedom.",
+   "steps": [
+    {
+     "label": "A's claim",
+     "body": "Anyone can choose otherwise, so freedom is preserved."
+    },
+    {
+     "label": "B's reply",
+     "body": "Defaults work because they go unnoticed, so the freedom is mostly nominal."
+    }
+   ],
+   "takeaway": "To predict one author's response, find the line in their passage that targets the other's claim.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0035",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 4,
+   "type": "rc_detail",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-viewpoints"
+   ],
+   "difficulty": 1,
+   "targetSec": 78,
+   "prompt": "According to passage A, automatic enrollment raised participation in retirement plans even though",
+   "options": [
+    {
+     "id": "A",
+     "text": "workers were not allowed to opt out",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Workers were left free to opt out."
+    },
+    {
+     "id": "B",
+     "text": "the plans had been made mandatory by law",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Enrollment was a default, not a legal requirement."
+    },
+    {
+     "id": "C",
+     "text": "most workers were unaware that the plans existed",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Passage A doesn't say this."
+    },
+    {
+     "id": "D",
+     "text": "employers offered larger matching contributions",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The terms were unchanged."
+    },
+    {
+     "id": "E",
+     "text": "the terms of the plans had not changed",
+     "correct": true,
+     "trap": null,
+     "why": "Passage A says \"Nothing about the plan's terms has changed; only the default has.\""
+    }
+   ],
+   "tldr": "Same plan, new default, much higher participation.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The second sentence of passage A."
+    },
+    {
+     "label": "Match",
+     "body": "The terms were unchanged."
+    }
+   ],
+   "takeaway": "For detail questions, the exact words are usually one or two sentences from the claim.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0036",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 5,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "Passage B suggests that a worker with high-interest debts who is automatically enrolled in a retirement plan",
+   "options": [
+    {
+     "id": "A",
+     "text": "might be better off contributing less, or nothing, until the debts are paid",
+     "correct": true,
+     "trap": null,
+     "why": "B says such workers can be locked into contributions that leave them worse off."
+    },
+    {
+     "id": "B",
+     "text": "is certain to opt out of the plan",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "B's worry is that such workers may not opt out, because defaults go unnoticed."
+    },
+    {
+     "id": "C",
+     "text": "saves less overall than workers without debts",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "B makes no comparison of total savings."
+    },
+    {
+     "id": "D",
+     "text": "is legally required to remain in the plan",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Workers can opt out."
+    },
+    {
+     "id": "E",
+     "text": "is the kind of worker that nudges are designed to help",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "B describes these workers as ones the default can harm."
+    }
+   ],
+   "tldr": "For such workers, the default contribution can be a bad deal.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "Defaults \"can also lock others... into contributions that leave them worse off.\""
+    },
+    {
+     "label": "Infer",
+     "body": "Contributing less would serve them better."
+    }
+   ],
+   "takeaway": "Inference answers echo the passage closely; \"certain\" and \"always\" are red flags.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0037",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 6,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "In passage B, the reference to a law that requires saving serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "argue that saving for retirement should be legally required",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "B uses the law as a contrast, not as a proposal."
+    },
+    {
+     "id": "B",
+     "text": "highlight that nudges escape the open debate and accountability that apply to laws",
+     "correct": true,
+     "trap": null,
+     "why": "A law is debated openly and can be voted down; a buried default \"works precisely because most people never notice it.\""
+    },
+    {
+     "id": "C",
+     "text": "show that laws are more effective than defaults",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Effectiveness isn't compared."
+    },
+    {
+     "id": "D",
+     "text": "give an example of a default that people notice",
+     "correct": false,
+     "trap": "distortion",
+     "why": "A law isn't a default."
+    },
+    {
+     "id": "E",
+     "text": "concede that nudges are more democratic than laws",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The contrast suggests the opposite."
+    }
+   ],
+   "tldr": "Laws face open debate; buried defaults don't.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The contrast in B's first paragraph."
+    },
+    {
+     "label": "Role",
+     "body": "It makes vivid the accountability gap that B finds troubling."
+    }
+   ],
+   "takeaway": "A contrast case is usually there to make the main case's defining feature stand out.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0038",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p06",
+   "position": 7,
+   "type": "rc_attitude",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately describes the attitude of the author of passage A toward nudges?",
+   "options": [
+    {
+     "id": "A",
+     "text": "confident that they can serve people's long-term interests without restricting freedom",
+     "correct": true,
+     "trap": null,
+     "why": "A says nudges preserve freedom while steering people toward outcomes they'd endorse on reflection."
+    },
+    {
+     "id": "B",
+     "text": "doubtful that they change behavior",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "A opens with evidence of a dramatic effect."
+    },
+    {
+     "id": "C",
+     "text": "opposed to their use in retirement planning",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Retirement saving is A's main example of a good nudge."
+    },
+    {
+     "id": "D",
+     "text": "troubled by their lack of transparency",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is passage B's concern."
+    },
+    {
+     "id": "E",
+     "text": "neutral about whether they should be used",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "A draws a clear policy lesson in their favor."
+    }
+   ],
+   "tldr": "Passage A is confident and favorable.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"The policy lesson seems clear... nudges preserve freedom...\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Favorable and confident."
+    }
+   ],
+   "takeaway": "In comparative sets, don't let one passage's attitude bleed into the other's.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "lsat-rc-0001",
    "version": 1,
    "exam": "LSAT",
@@ -13035,6 +14911,100 @@
  ],
  "passages": [
   {
+   "id": "lsat-rc-p03",
+   "exam": "LSAT",
+   "section": "RC",
+   "title": "Squatters' rights",
+   "domain": "law",
+   "paragraphs": [
+    "The common-law doctrine of adverse possession allows a person who occupies land belonging to another to acquire legal title to it, provided the occupation is open, continuous, exclusive and hostile to the owner's claim for a period set by statute, often between ten and twenty years. To many people the doctrine seems to reward trespass. If ownership means anything, it might be thought, it means that one's property cannot be taken simply because one has failed to visit it.",
+    "Defenders of the doctrine have traditionally offered two justifications. The first is evidentiary: after many years, deeds are lost and witnesses die, and a rule that settles title in favor of long, open possession spares courts the impossible task of reconstructing ancient transactions. The second concerns the owner's conduct: an owner who ignores an open occupation of her land for a decade or more has, in effect, abandoned it, and the law should not protect interests that their holders do not bother to assert.",
+    "Neither justification fully explains the doctrine as courts apply it. If the concern were only evidence, the law would not require that the possession be hostile; a tenant who stays on with the owner's permission after a lease expires provides just as good evidence of long occupation. And if the concern were the owner's neglect, it would be odd that the doctrine applies even when the owner had no practical reason to suspect the occupation, as when a neighbor's fence sits a few feet over a boundary that neither party has ever surveyed.",
+    "A more satisfying account looks not to the owner but to the possessor. Over years, a person who builds, plants and lives on land develops a relationship to it, made of expectations, investments and a sense of home, that the law has reason to respect. On this view, adverse possession protects reliance. It recognizes that property is not only a set of abstract rights recorded in a registry but also a practical connection between people and places, one that time can create as well as dissolve. This account does not make the doctrine immune from criticism, but it explains why the law asks what the possessor has done, not merely what the owner has failed to do."
+   ],
+   "mini": false,
+   "itemIds": [
+    "lsat-rc-0011",
+    "lsat-rc-0012",
+    "lsat-rc-0013",
+    "lsat-rc-0014",
+    "lsat-rc-0015",
+    "lsat-rc-0016",
+    "lsat-rc-0017"
+   ]
+  },
+  {
+   "id": "lsat-rc-p04",
+   "exam": "LSAT",
+   "section": "RC",
+   "title": "Why drift took so long",
+   "domain": "natural science",
+   "paragraphs": [
+    "When Alfred Wegener proposed in 1912 that the continents had once been joined and had since drifted apart, he assembled an impressive body of evidence. The coastlines of South America and Africa fit together like puzzle pieces; fossils of the same land-dwelling reptiles appeared on continents now separated by oceans; and rock formations and traces of ancient glaciers matched across the Atlantic. Yet for nearly half a century most geologists rejected his hypothesis.",
+    "It is tempting to read this rejection as a cautionary tale about scientific conservatism: a lone visionary dismissed by an establishment unwilling to abandon its assumptions. That story contains some truth. Wegener was a meteorologist, not a geologist, and some critics dismissed him as an outsider. But the story obscures a more substantive objection. Wegener could not explain how continents moved. The mechanisms he proposed, such as forces arising from Earth's rotation, were shown by physicists to be far too weak to push continents through the solid ocean floor.",
+    "The objection was reasonable. A hypothesis that fits many observations but requires a process that appears physically impossible is, in an important sense, incomplete. Geologists who withheld assent were not refusing to look at the evidence; they were insisting that an account of what happened must be compatible with an account of how it could happen.",
+    "The impasse was broken not by more evidence of the kind Wegener had gathered but by evidence of a different kind. In the 1950s and 1960s, surveys of the ocean floor revealed a global system of mid-ocean ridges and, on either side of them, symmetrical stripes of rock recording reversals of Earth's magnetic field. These findings indicated that new seafloor was continually forming at the ridges and spreading outward. The continents, it turned out, did not plow through the ocean floor at all; they rode along with it on moving plates. With a mechanism in hand, the old evidence for drift was suddenly persuasive, and plate tectonics became the organizing framework of geology within a decade."
+   ],
+   "mini": false,
+   "itemIds": [
+    "lsat-rc-0018",
+    "lsat-rc-0019",
+    "lsat-rc-0020",
+    "lsat-rc-0021",
+    "lsat-rc-0022",
+    "lsat-rc-0023",
+    "lsat-rc-0024"
+   ]
+  },
+  {
+   "id": "lsat-rc-p05",
+   "exam": "LSAT",
+   "section": "RC",
+   "title": "Formulas and the singer",
+   "domain": "humanities",
+   "paragraphs": [
+    "Readers of Homer have long noticed that his heroes rarely appear without an epithet. Achilles is \"swift-footed,\" Hector \"of the shining helmet,\" the dawn \"rosy-fingered.\" To modern readers trained to prize originality, such repetition can seem a flaw, or at best a quaint ornament. In the 1920s and 1930s, the American scholar Milman Parry offered a different explanation: the epithets were tools.",
+    "Parry showed that Homer's epithets are tightly bound to meter. Each name has a small set of fixed phrases that fill particular positions in the line, so that a poet who needs to name Achilles at the end of a line has, in effect, a ready-made unit that fits. Such a system, Parry argued, would be of little use to a poet composing slowly in writing, but indispensable to one composing aloud, at speed, before an audience. The formulas were evidence that the Homeric poems emerged from a tradition of oral composition.",
+    "To test the idea, Parry and his student Albert Lord traveled to Yugoslavia, where singers still performed long heroic songs without writing. Their recordings showed singers who could perform for hours by combining traditional formulas and story patterns, and who never performed a song in exactly the same words twice. Asked whether a song was the same as one sung the night before, a singer would insist that it was, word for word, though the recordings showed otherwise. For these performers, a song's identity lay in its story and its traditional elements, not in a fixed text.",
+    "The theory transformed Homeric studies, though it did not settle every question. Critics have pointed out that the Iliad and the Odyssey display a degree of large-scale design that seems hard to achieve in performance, and some scholars argue that the poems as we have them reflect a moment when an oral poet's composition was written down, perhaps with the poet's help. Even so, Parry's insight changed the terms of the debate. Repetition that once looked like a lapse of artistry came to be seen as the signature of an art with different demands, an art in which a poet's skill lay not in avoiding the traditional phrase but in using it well."
+   ],
+   "mini": false,
+   "itemIds": [
+    "lsat-rc-0025",
+    "lsat-rc-0026",
+    "lsat-rc-0027",
+    "lsat-rc-0028",
+    "lsat-rc-0029",
+    "lsat-rc-0030",
+    "lsat-rc-0031"
+   ]
+  },
+  {
+   "id": "lsat-rc-p06",
+   "exam": "LSAT",
+   "section": "RC",
+   "title": "Defaults and their critics",
+   "domain": "social science",
+   "paragraphs": [
+    "Passage A",
+    "When employers enroll new workers in a retirement savings plan automatically, leaving them free to opt out, participation soars, in some studies from under half to over ninety percent. Nothing about the plan's terms has changed; only the default has. For behavioral economists, this is a vivid demonstration that human choices are shaped by features of the decision environment that a purely rational agent would ignore.",
+    "The policy lesson seems clear. If defaults matter this much, institutions cannot avoid influencing choices; some default must be set, and it might as well be one that serves people's long-term interests. Such nudges preserve freedom, since anyone can choose otherwise, while steering people toward outcomes they themselves would endorse on reflection. Few people, asked in a calm moment, wish they had saved less for retirement.",
+    "Passage B",
+    "Proponents of nudges describe them as gentle, but their gentleness is part of what makes them troubling. A law that requires saving is debated openly and can be voted down; a default buried in an enrollment form works precisely because most people never notice it. Influence that works by escaping attention is hard to hold accountable.",
+    "Nor is it clear whose interests a default serves. Automatic enrollment helps workers who would otherwise save too little, but it can also lock others, such as those carrying high-interest debts, into contributions that leave them worse off. A default is a single answer imposed on a varied population. The question is not whether institutions should influence choices, which they cannot avoid, but whether they should do so in ways that people can see and contest."
+   ],
+   "mini": false,
+   "itemIds": [
+    "lsat-rc-0032",
+    "lsat-rc-0033",
+    "lsat-rc-0034",
+    "lsat-rc-0035",
+    "lsat-rc-0036",
+    "lsat-rc-0037",
+    "lsat-rc-0038"
+   ]
+  },
+  {
    "id": "lsat-rc-p01",
    "exam": "LSAT",
    "section": "RC",
@@ -13482,6 +15452,14 @@
    "title": "Strengthening a passage claim",
    "front": "How do strengthen and weaken questions work in RC?",
    "back": "Find the specific claim being tested, then pick the fact that bears most directly on its support.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-inference",
+   "section": "RC",
+   "title": "Reading Comprehension inferences",
+   "front": "How far beyond the passage can an RC inference go?",
+   "back": "Barely at all. The right answer is almost a restatement of specific lines. If you need an outside assumption or a stronger word than the passage uses, it's wrong.",
    "exam": "LSAT"
   }
  ]
