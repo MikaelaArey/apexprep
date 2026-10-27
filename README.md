@@ -5,6 +5,15 @@ Native) with a Daily 5, Quick Drills, passage sets, spaced review that plans aro
 the test date, streaks, stats, and explanations for every answer choice. It works
 fully offline; accounts and backup run on Supabase.
 
+The game layer:
+
+- **The Climb:** each section from easiest to hardest, ten questions a floor.
+- **Ranked bank:** every question with its difficulty level, from Warm-up to Boss.
+- **Badges:** 26 tiered badges.
+- **Sprout:** a study buddy who cheers combos and comebacks and grows as you level
+  up. It can be turned off and stays hidden in Pure Study.
+- **Score history:** official and practice test scores, charted against your goal.
+
 ## Run it
 
 ```bash
@@ -29,30 +38,36 @@ publishable key in `.env.local` (see `.env.example`).
 
 | Path | What's there |
 |---|---|
-| `content/` | The question bank, as YAML. Edit here, then `npm run content`. |
+| `content/` | The question bank, as YAML. Edit here, then `npm run content`. Files ending in `-gen.yaml` are generated. |
+| `scripts/item-models/` | Code that generates questions: MCAT calculations, concept sets and LSAT formal logic. |
 | `src/content/` | Taxonomy (sections, question types, trap labels) and the compiled packs. |
-| `src/engine/` | Pure logic: streaks, XP, mastery, FSRS-6 spaced review, session building, stats. |
+| `src/engine/` | Pure logic: streaks, XP, mastery, FSRS-6 spaced review, session building, stats, difficulty levels, the Climb, badges, scores and Sprout's lines. |
 | `src/data/` | On-device SQLite storage (the source of truth). |
 | `src/state/` | App store and derived data (streak, due reviews, today's plan). |
 | `src/sync/` | Supabase sync engine and accounts. |
-| `src/app/` | Screens (Expo Router). `src/session/` holds the study-session screens. |
+| `src/app/` | Screens (Expo Router). `src/session/` holds the study-session screens; `src/ui/` holds shared pieces such as Sprout, confetti and badge medals. |
 | `supabase/` | Database schema, and a local stand-in for testing sync. |
 | `.maestro/` | UI flows that drive the app in the simulator. |
 
 ## Questions
 
-All questions are original practice items written for ApexPrep, not official
-AAMC or LSAC content. Every item still needs review by a top scorer before it's
-marked `status: live`. The authoring guide is [docs/CONTENT.md](docs/CONTENT.md).
+The bank has 1,037 MCAT questions and 256 LSAT questions. All are original
+practice items written for ApexPrep, not official AAMC or LSAC content. Every
+item still needs review by a top scorer before it's marked `status: live`.
+
+- How to write questions: [docs/CONTENT.md](docs/CONTENT.md).
+- Where the questions come from, how they were checked and what an expert should
+  review first: [docs/CONTENT-REVIEW.md](docs/CONTENT-REVIEW.md).
 
 ```bash
-npm run content             # validate and compile content/ into the app's packs
+npm run items               # regenerate the *-gen.yaml files from scripts/item-models/
+npm run content             # validate, rank by difficulty and compile into the app's packs
 ```
 
 ## Tests
 
 ```bash
-npm test                    # unit tests: engine, content integrity (102 tests)
+npm test                    # unit tests: engine, game layer, and a check of every question
 npm run test:sync           # sync engine against a local Postgres + PostgREST stand-in
 npm run typecheck && npx eslint .
 ```
@@ -61,7 +76,7 @@ UI flows (simulator must be booted and the dev server running):
 
 ```bash
 maestro test .maestro/onboarding.yaml .maestro/daily5.yaml .maestro/tour.yaml   # Expo Go
-maestro test .maestro/native/first-run.yaml .maestro/native/review.yaml        # native build
+maestro test .maestro/native/                                                   # native build
 ```
 
 The dev-only link `apexprep://dev-reset?onboarded=1&exam=LSAT&demo=1` resets the

@@ -112,7 +112,7 @@
     - id: mcat-cars-0003
       type: cars_inference
       family: cars_rwt
-      kps: [kp-cars-main-idea]
+      kps: [kp-cars-inference]
       difficulty: 2
       prompt: >-
         Based on the passage, the author would most likely say that a strictly

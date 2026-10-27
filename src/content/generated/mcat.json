@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "f1bb8cbd8d3a",
- "generatedAt": "2026-10-27T22:48:40.060Z",
+ "version": "d21d611d3290",
+ "generatedAt": "2026-10-27T22:52:04.741Z",
  "items": [
   {
    "id": "mcat-bb-6000",
@@ -32703,7 +32703,7 @@
    "type": "cars_inference",
    "family": "cars_rwt",
    "knowledgePoints": [
-    "kp-cars-main-idea"
+    "kp-cars-inference"
    ],
    "difficulty": 3,
    "rating": 3.25,

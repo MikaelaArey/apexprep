@@ -38,7 +38,9 @@ appId: com.mikaelaarey.apexprep
 - tapOn:
     id: "settings-close"
 - extendedWaitUntil:
-    visible: "Bio/Biochem"
+    visible:
+      id: "exam-badge"
+      text: ".*MCAT.*"
     timeout: 5000
 - takeScreenshot: e4-home-mcat
 - tapOn:

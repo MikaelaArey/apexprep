@@ -52,6 +52,7 @@
     "ios": "expo run:ios",
     "ios:native": "expo run:ios",
     "content": "node scripts/build-content.mjs",
+    "items": "node scripts/generate-items.mjs",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "expo lint",
