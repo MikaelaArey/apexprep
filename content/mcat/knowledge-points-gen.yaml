@@ -314,6 +314,22 @@
   back: >-
     Alkali metals have one valence electron to lose (low ionization energy). Noble gases have full valence
     shells and the highest ionization energies in each period.
+- id: kp-mcat-substitution-elimination
+  section: CP
+  title: SN1, SN2, E1 and E2
+  front: What favors SN1, SN2, E1 and E2?
+  back: >-
+    SN2: one step, strong nucleophile, methyl or primary carbon, inversion. SN1: carbocation, tertiary
+    substrate, weak nucleophile in a protic solvent. E2: one step with a strong, often bulky, base. E1:
+    carbocation, then loss of a proton.
+- id: kp-mcat-fluid-principles
+  section: CP
+  title: Fluid principles
+  front: 'Pascal, Archimedes, continuity, Bernoulli and Poiseuille: what does each say?'
+  back: >-
+    Pascal: pressure applied to an enclosed fluid is transmitted undiminished. Archimedes: buoyant force =
+    weight of fluid displaced. Continuity: A₁v₁ = A₂v₂. Bernoulli: faster flow, lower pressure. Poiseuille:
+    flow ∝ r⁴.
 - id: kp-mcat-hormone-sources
   section: BB
   title: Where hormones come from
@@ -485,6 +501,21 @@
   title: Vitamins
   front: Which vitamins are fat-soluble?
   back: A, D, E and K. They are stored in fat and the liver, so they can build up to toxic levels.
+- id: kp-mcat-gene-regulation
+  section: BB
+  title: Gene regulation
+  front: How do inducible and repressible operons differ, and how do eukaryotes open or close chromatin?
+  back: >-
+    Inducible operons (lac) are off until an inducer inactivates the repressor; repressible operons (trp) are
+    on until a corepressor activates it. Histone acetylation opens chromatin; DNA methylation usually silences
+    genes.
+- id: kp-mcat-lab-techniques
+  section: BB
+  title: Lab techniques
+  front: 'Southern, Northern or Western blot: what does each detect?'
+  back: >-
+    Southern: DNA. Northern: RNA. Western: protein, detected with antibodies. PCR amplifies DNA; RT-PCR copies
+    RNA into DNA first; ELISA measures a protein or antibody with an enzyme-linked antibody.
 - id: kp-mcat-group-processes
   section: PS
   title: Group processes
@@ -637,3 +668,18 @@
   back: >-
     GAD: constant, wide-ranging worry for 6+ months. Panic disorder: unexpected panic attacks plus fear of
     more. Specific phobia: intense fear of one object or situation.
+- id: kp-mcat-heuristics-biases
+  section: PS
+  title: Heuristics and biases
+  front: 'Availability vs. representativeness vs. anchoring: what does each rely on?'
+  back: >-
+    Availability: how easily examples come to mind. Representativeness: how well something matches a typical
+    case, ignoring base rates. Anchoring: estimates stay close to a first number.
+- id: kp-mcat-prejudice-bias
+  section: PS
+  title: Stereotypes, prejudice and discrimination
+  front: How do stereotypes, prejudice and discrimination differ?
+  back: >-
+    Stereotype: a belief about a group (thought). Prejudice: an attitude toward a group (feeling).
+    Discrimination: unequal treatment (action). Institutional discrimination is built into policies and
+    practices.
