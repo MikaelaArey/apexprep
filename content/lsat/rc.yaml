@@ -1,0 +1,252 @@
+# LSAT Reading Comprehension: original passages and questions written for ApexPrep.
+# Not official LSAT content.
+
+- passage:
+    id: lsat-rc-p01
+    title: Plain-language drafting
+    domain: law
+    paragraphs:
+      - >-
+        For most of the twentieth century, legal documents were written in a style
+        that ordinary readers found nearly impenetrable: long sentences, archaic
+        terms such as "heretofore" and "witnesseth," and strings of synonyms like
+        "give, devise, and bequeath." Defenders of this style argued that its
+        phrases had been tested in court for generations, so their meanings were
+        settled; changing even a single word, they warned, would invite new
+        litigation over what the new word meant.
+      - >-
+        Beginning in the 1970s, a plain-language movement challenged this view. Its
+        advocates pointed out that many supposedly settled phrases had in fact been
+        litigated repeatedly, which suggested that their meanings were less certain
+        than defenders claimed. They also observed that documents nobody could read
+        imposed costs of their own: consumers signed agreements they did not
+        understand, and disputes arose precisely because the parties had never
+        shared an understanding of their obligations. Several jurisdictions
+        eventually required that certain consumer contracts be written in clear,
+        everyday language.
+      - >-
+        Critics of the movement have not disappeared. Some argue that plain language
+        sacrifices precision, since ordinary words carry ordinary ambiguities. Yet
+        clarity and precision are less at odds than the critics suppose: a sentence
+        that a layperson can parse is often one that a judge can parse more reliably
+        as well. The deeper lesson of the plain-language movement may be that the
+        precision of a legal text depends less on its vocabulary than on how
+        carefully its drafter has thought through the situations it must govern.
+  items:
+    - id: lsat-rc-0001
+      type: rc_main_point
+      family: reading
+      kps: [kp-rc-main-point]
+      difficulty: 2
+      prompt: Which one of the following most accurately expresses the main point of the passage?
+      options:
+        - text: >-
+            Legal documents should avoid all technical terms so that consumers can
+            understand them.
+          trap: too_strong
+          why: The author never calls for banning all technical terms.
+        - text: >-
+            Although traditional legal drafting was defended as precise, plain
+            language need not sacrifice precision, which depends more on careful
+            drafting than on vocabulary.
+          correct: true
+          why: >-
+            It covers the traditional view, the movement's challenge and the
+            author's own conclusion in the final paragraph.
+        - text: >-
+            The plain-language movement has failed because critics still claim that
+            plain language sacrifices precision.
+          trap: distortion
+          why: The critics' persistence isn't presented as the movement's failure.
+        - text: >-
+            Archaic legal phrases were litigated repeatedly during the twentieth
+            century.
+          trap: too_narrow
+          why: That's one detail from the second paragraph, not the main point.
+        - text: >-
+            Jurisdictions that require plain-language contracts have fewer legal
+            disputes than those that do not.
+          trap: unsupported
+          why: The passage never compares dispute rates across jurisdictions.
+      tldr: >-
+        The passage moves from the traditional defense to the author's claim that
+        precision comes from careful drafting, not archaic words.
+      steps:
+        - label: Map
+          body: >-
+            P1: the traditional style and its defense. P2: the movement's
+            challenge. P3: critics answered, then the author's lesson.
+        - label: Author
+          body: >-
+            The author's own view is in P3: clarity and precision aren't really at
+            odds.
+        - label: Match
+          body: The right answer has to reach that conclusion, not stop at a detail.
+      takeaway: >-
+        A main-point answer covers the whole passage and lands on the author's own
+        position.
+      siblings: []
+
+    - id: lsat-rc-0002
+      type: rc_function
+      family: reading
+      kps: [kp-rc-function]
+      difficulty: 3
+      prompt: >-
+        The author mentions that many supposedly settled phrases "had in fact been
+        litigated repeatedly" (second paragraph) primarily in order to
+      options:
+        - text: undermine the defenders' claim that traditional phrases had settled meanings
+          correct: true
+          why: >-
+            If the phrases kept ending up in court, their meanings weren't settled,
+            which is exactly what the defenders claimed.
+        - text: show that plain-language documents produce less litigation
+          trap: unsupported
+          why: The detail is about traditional phrases, not plain-language documents.
+        - text: illustrate the archaic vocabulary of traditional legal documents
+          trap: distortion
+          why: The vocabulary examples come in the first paragraph. This detail does a different job.
+        - text: suggest that courts have been hostile to the plain-language movement
+          trap: unsupported
+          why: Nothing in the passage describes courts' attitude toward the movement.
+        - text: concede a point to critics of the plain-language movement
+          trap: wrong_direction
+          why: It's a point against the traditional style, made by the movement's advocates.
+      tldr: >-
+        Repeated litigation shows the "settled" meanings weren't settled, rebutting
+        the defenders.
+      steps:
+        - label: Locate
+          body: >-
+            The detail opens P2, where advocates "challenged this view," meaning the
+            defenders' view from P1.
+        - label: Purpose
+          body: The defenders said meanings were settled. Repeated lawsuits suggest otherwise.
+      takeaway: >-
+        For function questions, ask what claim the detail supports or undercuts in
+        its paragraph.
+      siblings: []
+
+    - id: lsat-rc-0003
+      type: rc_attitude
+      family: reading
+      kps: [kp-rc-extreme-language]
+      difficulty: 2
+      prompt: >-
+        The author's attitude toward the critics described in the third paragraph can
+        most accurately be described as
+      options:
+        - text: respectful agreement
+          trap: wrong_direction
+          why: The author argues against the critics with "Yet…"
+        - text: measured disagreement
+          correct: true
+          why: >-
+            The author rejects their claim ("less at odds than the critics suppose")
+            without hostility.
+        - text: open contempt
+          trap: too_strong
+          why: Nothing in the tone is scornful.
+        - text: complete indifference
+          trap: contradicts
+          why: The author takes the time to rebut them.
+        - text: reluctant acceptance
+          trap: wrong_direction
+          why: The author doesn't accept the critics' claim.
+      tldr: >-
+        "Yet clarity and precision are less at odds than the critics suppose" is
+        polite disagreement.
+      steps:
+        - label: Locate
+          body: P3 presents the critics, then pivots with "Yet."
+        - label: Calibrate
+          body: The author disagrees, but calmly. Extreme tones like contempt overshoot.
+      takeaway: >-
+        RC authors rarely sneer. When an author disagrees, pick the measured answer
+        over the extreme one.
+      siblings: []
+
+    - id: lsat-rc-0004
+      type: rc_detail
+      family: reading
+      kps: [kp-rc-viewpoints]
+      difficulty: 1
+      prompt: According to the passage, defenders of the traditional style argued that
+      options:
+        - text: changing tested wording could invite litigation over the meaning of new words
+          correct: true
+          why: The first paragraph says exactly this.
+        - text: consumers rarely understand the contracts they sign
+          trap: wrong_viewpoint
+          why: That's the plain-language advocates' point, not the defenders'.
+        - text: archaic terms are more elegant than everyday language
+          trap: unsupported
+          why: The passage never mentions elegance.
+        - text: legal documents should be read only by lawyers
+          trap: too_strong
+          why: The passage never attributes this to anyone.
+        - text: plain language is too informal for use in court
+          trap: unsupported
+          why: >-
+            The critics in P3 worry about precision, not formality, and they aren't
+            the defenders.
+      tldr: The defenders' argument, in P1, is that changing tested words invites new lawsuits.
+      steps:
+        - label: Locate
+          body: The defenders appear only in the first paragraph.
+        - label: Match
+          body: "Their claim: phrases tested in court are settled, and new words invite litigation."
+      takeaway: >-
+        On detail questions, go back to the lines about that group. The trap is a
+        true statement from someone else.
+      siblings: []
+
+    - id: lsat-rc-0005
+      type: rc_inference
+      family: reading
+      kps: [kp-rc-extreme-language]
+      difficulty: 3
+      prompt: The author would be most likely to agree with which one of the following statements?
+      options:
+        - text: A contract drafted in archaic language is never enforceable.
+          trap: too_strong
+          why: The author never questions whether traditional documents can be enforced.
+        - text: >-
+            A drafter who carefully anticipates the situations a contract must govern
+            can write a precise contract in everyday language.
+          correct: true
+          why: >-
+            The final sentence ties precision to how carefully the drafter thinks
+            things through, not to vocabulary.
+        - text: Plain-language contracts eliminate disputes between the parties.
+          trap: too_strong
+          why: >-
+            The passage says unreadable documents cause some disputes, not that plain
+            language ends them.
+        - text: Judges are less capable than laypeople of interpreting archaic terms.
+          trap: distortion
+          why: The passage says judges parse clear sentences more reliably, not this.
+        - text: >-
+            The plain-language movement began because courts required simpler
+            documents.
+          trap: distortion
+          why: >-
+            The movement came first, and some jurisdictions later required plain
+            language.
+      tldr: >-
+        The author locates precision in careful thinking, so everyday words can be
+        precise.
+      steps:
+        - label: Locate
+          body: The author's strongest claim is the last sentence of P3.
+        - label: Infer
+          body: >-
+            If precision depends on the drafter's care rather than vocabulary,
+            everyday words can be precise.
+        - label: Eliminate
+          body: Absolutes ("never," "eliminate") overshoot what the author says.
+      takeaway: >-
+        The best inference stays close to the author's stated view. Absolutes are
+        usually traps.
+      siblings: []

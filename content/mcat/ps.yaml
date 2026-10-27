@@ -1,0 +1,150 @@
+# MCAT Psychological, Social, and Biological Foundations of Behavior: original
+# practice questions for ApexPrep. Not official AAMC content.
+
+- id: mcat-ps-0001
+  type: learning
+  family: psychology
+  kps: [kp-mcat-reinforcement]
+  outline: { category: 7C, sirs: 1 }
+  difficulty: 2
+  prompt: >-
+    Every time Maya cleans her room, her parents stop the daily reminders she finds
+    annoying. Over the next month, Maya cleans her room more often. Which process
+    best explains this change?
+  options:
+    - text: Positive reinforcement
+      trap: lookalike
+      why: Positive reinforcement adds something pleasant. Here something unpleasant is removed.
+    - text: Negative reinforcement
+      correct: true
+      why: Removing an unpleasant stimulus (the reminders) makes the behavior more frequent.
+    - text: Positive punishment
+      trap: wrong_direction
+      why: Punishment makes a behavior less frequent. Maya cleans more.
+    - text: Classical conditioning
+      trap: lookalike
+      why: >-
+        Classical conditioning pairs two stimuli. This is about the consequences of
+        a voluntary behavior, which is operant conditioning.
+  tldr: The reminders (unpleasant) are removed when she cleans, so cleaning increases. That's negative reinforcement.
+  steps:
+    - label: Direction
+      body: The behavior becomes more frequent, so it's reinforcement.
+    - label: Add or remove
+      body: Something unpleasant is taken away, so it's negative.
+  takeaway: >-
+    Reinforcement increases a behavior and punishment decreases it. Positive adds a
+    stimulus; negative removes one.
+  siblings: []
+
+- id: mcat-ps-0002
+  type: social_psych
+  family: psychology
+  kps: [kp-mcat-attribution]
+  outline: { category: 8B, sirs: 1 }
+  difficulty: 3
+  prompt: >-
+    When a coworker arrives late, Jordan concludes that the coworker is
+    irresponsible. When Jordan arrives late, Jordan blames the traffic. This pattern
+    best illustrates which of the following?
+  options:
+    - text: The actor–observer bias
+      correct: true
+      why: >-
+        Jordan explains others' behavior by disposition and Jordan's own by
+        situation. That contrast defines the actor–observer bias.
+    - text: The fundamental attribution error
+      trap: half_right
+      why: >-
+        That covers only the half about judging the coworker. The question
+        describes the self–other contrast.
+    - text: Confirmation bias
+      trap: lookalike
+      why: Confirmation bias is seeking evidence for what you already believe.
+    - text: The just-world hypothesis
+      trap: lookalike
+      why: That's the belief that people get what they deserve.
+  tldr: Their lateness is character, my lateness is traffic. That self–other split is the actor–observer bias.
+  steps:
+    - label: Others
+      body: The coworker's lateness is blamed on disposition ("irresponsible").
+    - label: Self
+      body: Jordan's own lateness is blamed on the situation ("traffic").
+    - label: Name
+      body: Different attributions for the same behavior depending on who does it is actor–observer bias.
+  takeaway: >-
+    The fundamental attribution error is about judging others. The actor–observer
+    bias is the contrast between how we judge others and ourselves.
+  siblings: []
+
+- id: mcat-ps-0003
+  type: research_methods
+  family: psychology
+  kps: [kp-mcat-correlation]
+  outline: { sirs: 3 }
+  difficulty: 1
+  prompt: >-
+    A survey of 2,000 college students finds that students who sleep more hours per
+    night tend to have higher GPAs. Which conclusion is best supported by this
+    finding?
+  options:
+    - text: Getting more sleep causes students' GPAs to rise.
+      trap: overreach
+      why: A survey shows an association, not cause and effect.
+    - text: >-
+        Sleep duration and GPA are associated, but the survey cannot show which, if
+        either, causes the other.
+      correct: true
+      why: Correlational data support an association only. Confounders like workload could drive both.
+    - text: Earning a higher GPA causes students to sleep more.
+      trap: overreach
+      why: Reversing the direction is still a causal claim the survey can't support.
+    - text: Sleep duration and GPA are unrelated in the general population.
+      trap: contradicts
+      why: The survey found a relationship. It just can't explain it.
+  tldr: A correlation shows the two go together, not that one causes the other.
+  steps:
+    - label: Design
+      body: A survey measures variables without manipulating them. It's correlational.
+    - label: Limit
+      body: It can't rule out reverse causation or confounders (stress, workload, health).
+    - label: Match
+      body: Only the association claim is supported.
+  takeaway: Correlational studies support associations, not causal direction.
+  siblings: []
+
+- id: mcat-ps-0004
+  type: sociology_theory
+  family: sociology
+  kps: [kp-mcat-functionalism]
+  outline: { category: 9A, sirs: 1 }
+  difficulty: 1
+  prompt: >-
+    A sociologist argues that schools persist because they sort people into
+    occupations and pass on shared values, helping society function smoothly. This
+    argument most closely reflects which perspective?
+  options:
+    - text: Functionalism
+      correct: true
+      why: Functionalism explains institutions by the stabilizing functions they serve.
+    - text: Conflict theory
+      trap: lookalike
+      why: >-
+        Conflict theory would say schools reproduce inequality and serve powerful
+        groups.
+    - text: Symbolic interactionism
+      trap: lookalike
+      why: Symbolic interactionism looks at everyday meanings and face-to-face interaction.
+    - text: Social constructionism
+      trap: lookalike
+      why: Social constructionism asks how shared meanings create social reality.
+  tldr: Explaining an institution by the functions that keep society stable is functionalism.
+  steps:
+    - label: Key words
+      body: "\"Sort people,\" \"pass on shared values,\" \"function smoothly\": all about stability and roles."
+    - label: Match
+      body: That's the functionalist lens. Conflict theory would focus on inequality instead.
+  takeaway: >-
+    Functionalism asks what an institution does for social stability. Conflict
+    theory asks whom it benefits.
+  siblings: []

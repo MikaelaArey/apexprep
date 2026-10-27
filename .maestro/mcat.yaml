@@ -1,0 +1,47 @@
+# MCAT track: the enzyme-kinetics mini-passage with its data table, then a Daily 5 question.
+appId: host.exp.Exponent
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: MCAT
+      DEMO: "0"
+- tapOn: "Practice"
+- extendedWaitUntil:
+    visible:
+      id: "passage-mcat-bb-p01"
+    timeout: 5000
+- takeScreenshot: 70-mcat-practice
+- tapOn:
+    id: "passage-mcat-bb-p01"
+- extendedWaitUntil:
+    visible:
+      id: "start-questions"
+    timeout: 5000
+- takeScreenshot: 71-mcat-passage
+- tapOn:
+    id: "start-questions"
+- tapOn:
+    id: "option-B"
+- tapOn:
+    id: "confidence-sure"
+- tapOn:
+    id: "check"
+- extendedWaitUntil:
+    visible:
+      id: "next"
+    timeout: 5000
+- takeScreenshot: 72-mcat-explanation
+- tapOn:
+    id: "next"
+- tapOn:
+    id: "open-passage"
+- extendedWaitUntil:
+    visible:
+      id: "passage-close"
+    timeout: 5000
+- scroll
+- takeScreenshot: 73-mcat-passage-sheet
+- tapOn:
+    id: "passage-close"
+- takeScreenshot: 74-mcat-q2

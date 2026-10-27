@@ -1,0 +1,21 @@
+# Cold-starts the app, then resets it to a fresh, onboarded state (dev builds only).
+# Callers pass EXAM (LSAT or MCAT) and DEMO ("1" loads three weeks of history).
+appId: host.exp.Exponent
+---
+- stopApp
+- openLink: "exp://127.0.0.1:8081?__expo_disable_fab=1"
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 30000
+- openLink: "exp://127.0.0.1:8081/--/dev-reset?onboarded=1&exam=${EXAM}&demo=${DEMO}"
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      text: ".*Start Daily 5.*"
+    timeout: 30000

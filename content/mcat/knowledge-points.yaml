@@ -1,0 +1,168 @@
+# MCAT knowledge points. Each one becomes a concept card in spaced review.
+
+- id: kp-mcat-henderson-hasselbalch
+  section: CP
+  title: Buffer pH
+  front: How do you find a buffer's pH from its pKa and the base-to-acid ratio?
+  back: >-
+    pH = pKa + log([A⁻]/[HA]). Each tenfold increase in [A⁻]/[HA] raises the pH
+    by 1 unit above the pKa.
+
+- id: kp-mcat-parallel-resistors
+  section: CP
+  title: Resistors in parallel
+  front: What's the equivalent resistance of two resistors in parallel?
+  back: >-
+    R = R₁R₂/(R₁ + R₂), which is smaller than either resistor. Each branch has
+    the full voltage, and the branch currents add.
+
+- id: kp-mcat-gibbs-temperature
+  section: CP
+  title: Spontaneity and temperature
+  front: When is a reaction with ΔH > 0 and ΔS > 0 spontaneous?
+  back: >-
+    Above T = ΔH/ΔS, from ΔG = ΔH − TΔS. Convert kJ to J (or J to kJ) first.
+
+- id: kp-mcat-continuity
+  section: CP
+  title: Continuity equation
+  front: A pipe narrows. What happens to the speed of the fluid?
+  back: >-
+    A₁v₁ = A₂v₂, so speed rises in proportion to the drop in area. By Bernoulli's
+    principle, pressure falls where speed rises.
+
+- id: kp-mcat-gas-kelvin
+  section: CP
+  title: Gas laws use kelvin
+  front: >-
+    A rigid container of gas is heated from 27 °C to 327 °C. What happens to the
+    pressure?
+  back: >-
+    Convert to kelvin: 300 K → 600 K. At constant volume P ∝ T, so pressure
+    doubles.
+
+- id: kp-mcat-competitive-inhibition
+  section: BB
+  title: Competitive inhibition
+  front: What does a competitive inhibitor do to Km and Vmax?
+  back: >-
+    Km rises and Vmax is unchanged, because enough substrate can outcompete the
+    inhibitor. Apparent Km = Km(1 + [I]/Ki).
+
+- id: kp-mcat-inhibition-types
+  section: BB
+  title: Telling inhibitors apart
+  front: How do noncompetitive and uncompetitive inhibition change Km and Vmax?
+  back: >-
+    Noncompetitive: Vmax falls, Km unchanged. Uncompetitive: Vmax and Km both
+    fall. Competitive: Km rises, Vmax unchanged.
+
+- id: kp-mcat-km-from-data
+  section: BB
+  title: Reading Km from data
+  front: How do you read Km from a table of reaction rates?
+  back: >-
+    Estimate Vmax from the plateau at high [S], then find the [S] where V₀ is half
+    of Vmax.
+
+- id: kp-mcat-charged-side-chains
+  section: BB
+  title: Charged side chains
+  front: Which amino acid side chains are charged at pH 7.4?
+  back: >-
+    Positive: lysine and arginine (histidine only partly). Negative: aspartate and
+    glutamate.
+
+- id: kp-mcat-okazaki
+  section: BB
+  title: Okazaki fragments
+  front: Why is the lagging strand made in fragments?
+  back: >-
+    DNA polymerase adds nucleotides only to a 3′ end, so synthesis runs 5′→3′. On
+    the lagging template that direction points away from the fork, so it's made in
+    short Okazaki fragments, each with its own primer.
+
+- id: kp-mcat-adh
+  section: BB
+  title: ADH and water balance
+  front: >-
+    Which hormone conserves water when someone is dehydrated, and where is it
+    released?
+  back: >-
+    ADH (vasopressin). It's made in the hypothalamus, released from the posterior
+    pituitary, and inserts aquaporins in the collecting duct.
+
+- id: kp-mcat-hardy-weinberg
+  section: BB
+  title: Hardy–Weinberg
+  front: The recessive phenotype frequency is q². How do you find the carrier frequency?
+  back: q = √(q²), p = 1 − q, and heterozygotes = 2pq.
+
+- id: kp-mcat-reinforcement
+  section: PS
+  title: Reinforcement and punishment
+  front: Removing something unpleasant to make a behavior more frequent is called…?
+  back: >-
+    Negative reinforcement. Reinforcement increases a behavior; punishment
+    decreases it. "Positive" adds a stimulus; "negative" removes one.
+
+- id: kp-mcat-attribution
+  section: PS
+  title: Attribution biases
+  front: >-
+    "When they're late, it's their character. When I'm late, it's the traffic."
+    Which bias is this?
+  back: >-
+    Actor–observer bias. The fundamental attribution error is only the half about
+    judging other people.
+
+- id: kp-mcat-correlation
+  section: PS
+  title: Correlation vs. causation
+  front: A survey finds a correlation between two variables. What can it conclude?
+  back: >-
+    An association only. Without an experiment, or controls for confounders, it
+    can't show which variable (if either) causes the other.
+
+- id: kp-mcat-functionalism
+  section: PS
+  title: Sociological perspectives
+  front: >-
+    "Institutions persist because they keep society running smoothly." Which
+    perspective is that?
+  back: >-
+    Functionalism. Conflict theory stresses inequality and power; symbolic
+    interactionism stresses everyday meanings and interactions.
+
+- id: kp-cars-main-idea
+  section: CARS
+  title: CARS main idea
+  front: How do you test a CARS main-idea answer?
+  back: >-
+    It must capture the author's overall claim, not a view the author argues
+    against and not one paragraph's detail.
+
+- id: kp-cars-author-function
+  section: CARS
+  title: Why authors describe opposing views
+  front: Why would an author point out the appeal of a view the author rejects?
+  back: >-
+    To concede its attraction before arguing against it. Look for the "Yet" or
+    "But" that follows.
+
+- id: kp-cars-application
+  section: CARS
+  title: Applying the author's view
+  front: >-
+    "Which practice would the author most likely endorse?" What are you matching?
+  back: >-
+    The author's own recommendations and values, often in the last paragraph, not
+    the views of critics the author rejects.
+
+- id: kp-cars-challenge
+  section: CARS
+  title: Challenging a claim
+  front: What does the right answer to "Which finding would most challenge the author's claim?" do?
+  back: >-
+    It directly undercuts the claim's key support. Answers that are merely
+    unrelated or mildly negative don't count.

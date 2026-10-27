@@ -1,0 +1,329 @@
+# MCAT Biological and Biochemical Foundations: original practice questions for ApexPrep.
+# Not official AAMC content.
+
+- id: mcat-bb-0001
+  type: enzyme_kinetics
+  family: biochem
+  kps: [kp-mcat-competitive-inhibition, kp-mcat-inhibition-types]
+  outline: { category: 1A, sirs: 1 }
+  difficulty: 2
+  prompt: >-
+    A competitive inhibitor is added to an enzyme-catalyzed reaction. Compared with
+    the uninhibited reaction, how do the apparent Km and Vmax change?
+  options:
+    - text: Km increases; Vmax is unchanged.
+      correct: true
+      why: >-
+        The inhibitor competes for the active site, so more substrate is needed for
+        half-maximal rate, but enough substrate still reaches the same Vmax.
+    - text: Km is unchanged; Vmax decreases.
+      trap: lookalike
+      why: That's the pattern for noncompetitive inhibition.
+    - text: Km and Vmax both decrease.
+      trap: lookalike
+      why: That's the pattern for uncompetitive inhibition.
+    - text: Km decreases; Vmax is unchanged.
+      trap: sign_flip
+      why: Competition makes the enzyme look less affine for substrate, so Km rises.
+  tldr: Competitive inhibitors raise Km and leave Vmax unchanged.
+  steps:
+    - label: Mechanism
+      body: The inhibitor binds the active site, competing directly with substrate.
+    - label: Km
+      body: More substrate is needed to reach half of Vmax, so the apparent Km rises.
+    - label: Vmax
+      body: At very high [S], substrate outcompetes the inhibitor, so Vmax is unchanged.
+  takeaway: "Competitive: Km up, Vmax same. Noncompetitive: Vmax down. Uncompetitive: both down."
+  siblings: [mcat-bb-0007]
+
+- id: mcat-bb-0002
+  type: amino_acids
+  family: biochem
+  kps: [kp-mcat-charged-side-chains]
+  outline: { category: 1A, sirs: 1 }
+  difficulty: 1
+  prompt: >-
+    At physiological pH (7.4), which amino acid has a side chain that carries a net
+    positive charge?
+  options:
+    - text: Aspartate
+      trap: wrong_direction
+      why: Aspartate's carboxylate side chain is negatively charged at pH 7.4.
+    - text: Lysine
+      correct: true
+      why: >-
+        Lysine's side-chain amino group (pKa ≈ 10.5) stays protonated, and
+        positively charged, at pH 7.4.
+    - text: Serine
+      trap: lookalike
+      why: Serine is polar because of its hydroxyl group, but it's uncharged.
+    - text: Leucine
+      trap: lookalike
+      why: Leucine has a nonpolar, uncharged side chain.
+  tldr: Lysine's side chain pKa is about 10.5, so it's protonated and positive at pH 7.4.
+  steps:
+    - label: Rule
+      body: >-
+        A group is protonated when the pH is below its pKa. Lysine's side chain has
+        pKa ≈ 10.5.
+    - label: Apply
+      body: 7.4 < 10.5, so lysine's amino group carries a + charge.
+  takeaway: "Positive at pH 7.4: lysine and arginine. Negative: aspartate and glutamate."
+  siblings: []
+
+- id: mcat-bb-0003
+  type: molecular_biology
+  family: biology
+  kps: [kp-mcat-okazaki]
+  outline: { category: 1B, sirs: 1 }
+  difficulty: 2
+  prompt: Why is the lagging strand synthesized discontinuously during DNA replication?
+  options:
+    - text: >-
+        DNA polymerase can add nucleotides only to a free 3′ end, so new strands
+        grow only in the 5′→3′ direction.
+      correct: true
+      why: >-
+        On the lagging template, 5′→3′ synthesis points away from the fork, so the
+        strand is made in short pieces as the fork opens.
+    - text: DNA polymerase synthesizes new DNA only in the 3′→5′ direction.
+      trap: sign_flip
+      why: Synthesis runs 5′→3′. The template is read 3′→5′.
+    - text: >-
+        Helicase unwinds the lagging-strand template more slowly than the
+        leading-strand template.
+      trap: false_fact
+      why: Helicase unwinds both template strands together at the fork.
+    - text: Primase can lay down RNA primers only on the leading strand.
+      trap: false_fact
+      why: >-
+        Primase works on both strands. The lagging strand needs a new primer for
+        every Okazaki fragment.
+  tldr: Polymerase only extends 3′ ends, so on the lagging template it must work in fragments.
+  steps:
+    - label: Recall
+      body: DNA polymerase adds nucleotides to a 3′-OH. New DNA grows 5′→3′.
+    - label: Apply
+      body: >-
+        The two template strands are antiparallel. On one, 5′→3′ synthesis follows
+        the fork; on the other it runs away from it.
+    - label: Result
+      body: The lagging strand is built as Okazaki fragments, each starting from a primer.
+  takeaway: >-
+    The lagging strand is discontinuous because synthesis is 5′→3′ only, which runs
+    away from the fork on that template.
+  siblings: []
+
+- id: mcat-bb-0004
+  type: endocrine
+  family: biology
+  kps: [kp-mcat-adh]
+  outline: { category: 3A, sirs: 2 }
+  difficulty: 2
+  prompt: >-
+    A hiker becomes dehydrated. Which hormonal change would most directly increase
+    water reabsorption in the collecting ducts of the hiker's kidneys?
+  options:
+    - text: Increased release of ADH (vasopressin) from the posterior pituitary
+      correct: true
+      why: >-
+        ADH inserts aquaporins into collecting-duct cells, so more water returns to
+        the blood.
+    - text: Increased release of ADH from the anterior pituitary
+      trap: lookalike
+      why: >-
+        ADH is made in the hypothalamus and released from the posterior pituitary,
+        not the anterior.
+    - text: Decreased secretion of aldosterone from the adrenal cortex
+      trap: wrong_direction
+      why: Less aldosterone means less sodium (and water) reabsorption.
+    - text: Increased secretion of atrial natriuretic peptide
+      trap: wrong_direction
+      why: >-
+        ANP promotes sodium and water excretion. It's released when blood volume is
+        high, not low.
+  tldr: Dehydration triggers ADH release from the posterior pituitary, adding aquaporins in the collecting duct.
+  steps:
+    - label: Trigger
+      body: Dehydration raises plasma osmolarity, which hypothalamic osmoreceptors detect.
+    - label: Response
+      body: The posterior pituitary releases ADH.
+    - label: Effect
+      body: ADH adds aquaporin-2 channels to collecting-duct cells, so more water is reabsorbed.
+  takeaway: >-
+    ADH (vasopressin) is made in the hypothalamus and released from the posterior
+    pituitary. It saves water at the collecting duct.
+  siblings: []
+
+- id: mcat-bb-0005
+  type: genetics
+  family: biology
+  kps: [kp-mcat-hardy-weinberg]
+  outline: { category: 1C, sirs: 2 }
+  difficulty: 2
+  prompt: >-
+    In a population in Hardy–Weinberg equilibrium, 16% of individuals show a
+    recessive phenotype. What percentage of the population is heterozygous?
+  options:
+    - text: 16%
+      trap: lookalike
+      why: That's q², the homozygous recessive frequency, not 2pq.
+    - text: 24%
+      trap: skipped_step
+      why: That's pq. Heterozygotes are 2pq.
+    - text: 36%
+      trap: lookalike
+      why: That's p², the homozygous dominant frequency.
+    - text: 48%
+      correct: true
+      why: q = √0.16 = 0.4, p = 0.6, and 2pq = 2 × 0.6 × 0.4 = 0.48.
+  tldr: q² = 0.16, so q = 0.4, p = 0.6, and 2pq = 0.48.
+  steps:
+    - label: Find q
+      body: The recessive phenotype is q² = 0.16, so q = 0.4.
+    - label: Find p
+      body: p = 1 − 0.4 = 0.6.
+    - label: Compute
+      body: Heterozygotes = 2pq = 2 × 0.6 × 0.4 = 0.48, which is 48%.
+  takeaway: Take the square root of the recessive phenotype frequency to get q, then use 2pq for carriers.
+  siblings: []
+
+- passage:
+    id: mcat-bb-p01
+    title: Inhibition of enzyme E by compound X
+    domain: biochemistry
+    mini: true
+    paragraphs:
+      - >-
+        Enzyme E catalyzes the conversion of substrate S to product P. To
+        characterize a newly synthesized compound, X, researchers measured the
+        initial reaction velocity (V₀) of purified enzyme E at several substrate
+        concentrations, both without X and in the presence of 10 µM X. Enzyme
+        concentration, temperature and pH were held constant. The results are shown
+        in Table 1.
+      - >-
+        In a follow-up experiment, the researchers found that the inhibition caused
+        by X was fully reversed after X was removed from the solution by dialysis.
+    table:
+      caption: Table 1. Initial velocity of enzyme E with and without compound X
+      columns: ["[S] (mM)", "V₀, no X (µM/min)", "V₀, 10 µM X (µM/min)"]
+      rows:
+        - ["0.5", "33", "20"]
+        - ["1.0", "50", "33"]
+        - ["2.0", "67", "50"]
+        - ["10", "91", "83"]
+        - ["50", "98", "96"]
+  items:
+    - id: mcat-bb-0006
+      type: enzyme_kinetics
+      family: biochem
+      kps: [kp-mcat-km-from-data]
+      outline: { category: 1A, sirs: 4 }
+      difficulty: 2
+      prompt: Based on Table 1, what is the approximate Km of enzyme E in the absence of X?
+      options:
+        - text: 0.5 mM
+          trap: misread_data
+          why: At 0.5 mM, V₀ is about a third of Vmax, not half.
+        - text: 1.0 mM
+          correct: true
+          why: Vmax is about 100 µM/min, and V₀ reaches half of that (50) at 1.0 mM.
+        - text: 2.0 mM
+          trap: misread_data
+          why: That's where V₀ is half of Vmax with X present, the apparent Km with inhibitor.
+        - text: 50 mM
+          trap: lookalike
+          why: That's where the enzyme is nearly saturated, close to Vmax, not half of it.
+      tldr: Vmax ≈ 100 µM/min, and V₀ = 50 (half of Vmax) at [S] = 1.0 mM.
+      steps:
+        - label: Vmax
+          body: Without X, V₀ plateaus near 100 µM/min (98 at 50 mM).
+        - label: Half
+          body: Km is the [S] that gives V₀ = Vmax/2 ≈ 50 µM/min.
+        - label: Read
+          body: The no-X column hits 50 µM/min at 1.0 mM.
+      takeaway: To read Km from data, estimate Vmax from the plateau, then find where V₀ is half of it.
+      siblings: []
+
+    - id: mcat-bb-0007
+      type: enzyme_kinetics
+      family: biochem
+      kps: [kp-mcat-competitive-inhibition, kp-mcat-inhibition-types]
+      outline: { category: 1A, sirs: 4 }
+      difficulty: 3
+      prompt: Which type of inhibition by compound X is most consistent with the data?
+      options:
+        - text: Competitive
+          correct: true
+          why: >-
+            At high [S] the rates converge (98 vs. 96), so Vmax is unchanged, while
+            the half-maximal [S] rises from 1.0 to 2.0 mM.
+        - text: Noncompetitive
+          trap: lookalike
+          why: Noncompetitive inhibition lowers Vmax, so high [S] wouldn't restore the rate.
+        - text: Uncompetitive
+          trap: lookalike
+          why: Uncompetitive inhibition lowers both Vmax and Km. Here Km rises.
+        - text: Irreversible
+          trap: contradicts
+          why: >-
+            Dialysis fully reversed the inhibition, and an irreversible inhibitor
+            would lower Vmax.
+      tldr: Same Vmax at high [S], higher Km, and reversible by dialysis means competitive.
+      steps:
+        - label: Vmax
+          body: At 50 mM S, V₀ is 98 without X and 96 with X, essentially the same Vmax.
+        - label: Km
+          body: Half of Vmax (≈ 50) is reached at 1.0 mM without X and 2.0 mM with X.
+        - label: Reversibility
+          body: Dialysis removes the effect, so X binds reversibly.
+      takeaway: >-
+        Converging rates at high [S] plus a higher apparent Km is the signature of
+        competitive inhibition.
+      siblings: [mcat-bb-0001]
+
+    - id: mcat-bb-0008
+      type: enzyme_kinetics
+      family: biochem
+      kps: [kp-mcat-competitive-inhibition]
+      outline: { category: 1A, sirs: 2 }
+      difficulty: 4
+      targetSec: 120
+      prompt: >-
+        If the experiment were repeated with 20 µM X instead of 10 µM X, which V₀
+        would be expected at [S] = 50 mM?
+      options:
+        - text: About 94 µM/min
+          correct: true
+          why: >-
+            Doubling X raises the apparent Km to about 3 mM, so V₀ = 100 × 50/53 ≈ 94.
+            It's slightly lower but still near Vmax.
+        - text: About 48 µM/min
+          trap: lookalike
+          why: >-
+            Halving the rate is how you might treat a noncompetitive inhibitor. High
+            [S] overcomes a competitive one.
+        - text: About 0 µM/min
+          trap: too_strong
+          why: >-
+            Competitive inhibition is overcome by enough substrate, and 50 mM is far
+            above Km.
+        - text: About 99 µM/min
+          trap: wrong_direction
+          why: More inhibitor can't push V₀ above the uninhibited rate of 98.
+      tldr: >-
+        Apparent Km = Km(1 + [I]/Ki). Ki = 10 µM, so at 20 µM Km becomes 3 mM, and
+        V₀ = 100 × 50/53 ≈ 94.
+      steps:
+        - label: Ki
+          body: >-
+            At 10 µM X the apparent Km doubled (1 → 2 mM), so 1 + 10/Ki = 2 and
+            Ki = 10 µM.
+        - label: New Km
+          body: At 20 µM X, apparent Km = 1 mM × (1 + 20/10) = 3 mM.
+        - label: Rate
+          body: V₀ = Vmax[S]/(Km + [S]) = 100 × 50/(3 + 50) ≈ 94 µM/min.
+      takeaway: >-
+        For competitive inhibitors, apparent Km = Km(1 + [I]/Ki), and saturating
+        substrate still gets close to Vmax.
+      siblings: []

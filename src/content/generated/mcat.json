@@ -1,0 +1,1693 @@
+{
+ "exam": "MCAT",
+ "version": "1cc800762e46",
+ "generatedAt": "2026-10-26T21:57:10.263Z",
+ "items": [
+  {
+   "id": "mcat-bb-0001",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "enzyme_kinetics",
+   "family": "biochem",
+   "knowledgePoints": [
+    "kp-mcat-competitive-inhibition",
+    "kp-mcat-inhibition-types"
+   ],
+   "outline": {
+    "category": "1A",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "A competitive inhibitor is added to an enzyme-catalyzed reaction. Compared with the uninhibited reaction, how do the apparent Km and Vmax change?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Km increases; Vmax is unchanged.",
+     "correct": true,
+     "trap": null,
+     "why": "The inhibitor competes for the active site, so more substrate is needed for half-maximal rate, but enough substrate still reaches the same Vmax."
+    },
+    {
+     "id": "B",
+     "text": "Km is unchanged; Vmax decreases.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's the pattern for noncompetitive inhibition."
+    },
+    {
+     "id": "C",
+     "text": "Km and Vmax both decrease.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's the pattern for uncompetitive inhibition."
+    },
+    {
+     "id": "D",
+     "text": "Km decreases; Vmax is unchanged.",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Competition makes the enzyme look less affine for substrate, so Km rises."
+    }
+   ],
+   "tldr": "Competitive inhibitors raise Km and leave Vmax unchanged.",
+   "steps": [
+    {
+     "label": "Mechanism",
+     "body": "The inhibitor binds the active site, competing directly with substrate."
+    },
+    {
+     "label": "Km",
+     "body": "More substrate is needed to reach half of Vmax, so the apparent Km rises."
+    },
+    {
+     "label": "Vmax",
+     "body": "At very high [S], substrate outcompetes the inhibitor, so Vmax is unchanged."
+    }
+   ],
+   "takeaway": "Competitive: Km up, Vmax same. Noncompetitive: Vmax down. Uncompetitive: both down.",
+   "siblings": [
+    "mcat-bb-0007"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0002",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "amino_acids",
+   "family": "biochem",
+   "knowledgePoints": [
+    "kp-mcat-charged-side-chains"
+   ],
+   "outline": {
+    "category": "1A",
+    "sirs": 1
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "At physiological pH (7.4), which amino acid has a side chain that carries a net positive charge?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Aspartate",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Aspartate's carboxylate side chain is negatively charged at pH 7.4."
+    },
+    {
+     "id": "B",
+     "text": "Lysine",
+     "correct": true,
+     "trap": null,
+     "why": "Lysine's side-chain amino group (pKa ≈ 10.5) stays protonated, and positively charged, at pH 7.4."
+    },
+    {
+     "id": "C",
+     "text": "Serine",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Serine is polar because of its hydroxyl group, but it's uncharged."
+    },
+    {
+     "id": "D",
+     "text": "Leucine",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Leucine has a nonpolar, uncharged side chain."
+    }
+   ],
+   "tldr": "Lysine's side chain pKa is about 10.5, so it's protonated and positive at pH 7.4.",
+   "steps": [
+    {
+     "label": "Rule",
+     "body": "A group is protonated when the pH is below its pKa. Lysine's side chain has pKa ≈ 10.5."
+    },
+    {
+     "label": "Apply",
+     "body": "7.4 < 10.5, so lysine's amino group carries a + charge."
+    }
+   ],
+   "takeaway": "Positive at pH 7.4: lysine and arginine. Negative: aspartate and glutamate.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0003",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "molecular_biology",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-okazaki"
+   ],
+   "outline": {
+    "category": "1B",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Why is the lagging strand synthesized discontinuously during DNA replication?",
+   "options": [
+    {
+     "id": "A",
+     "text": "DNA polymerase can add nucleotides only to a free 3′ end, so new strands grow only in the 5′→3′ direction.",
+     "correct": true,
+     "trap": null,
+     "why": "On the lagging template, 5′→3′ synthesis points away from the fork, so the strand is made in short pieces as the fork opens."
+    },
+    {
+     "id": "B",
+     "text": "DNA polymerase synthesizes new DNA only in the 3′→5′ direction.",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Synthesis runs 5′→3′. The template is read 3′→5′."
+    },
+    {
+     "id": "C",
+     "text": "Helicase unwinds the lagging-strand template more slowly than the leading-strand template.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Helicase unwinds both template strands together at the fork."
+    },
+    {
+     "id": "D",
+     "text": "Primase can lay down RNA primers only on the leading strand.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Primase works on both strands. The lagging strand needs a new primer for every Okazaki fragment."
+    }
+   ],
+   "tldr": "Polymerase only extends 3′ ends, so on the lagging template it must work in fragments.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "DNA polymerase adds nucleotides to a 3′-OH. New DNA grows 5′→3′."
+    },
+    {
+     "label": "Apply",
+     "body": "The two template strands are antiparallel. On one, 5′→3′ synthesis follows the fork; on the other it runs away from it."
+    },
+    {
+     "label": "Result",
+     "body": "The lagging strand is built as Okazaki fragments, each starting from a primer."
+    }
+   ],
+   "takeaway": "The lagging strand is discontinuous because synthesis is 5′→3′ only, which runs away from the fork on that template.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0004",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "endocrine",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-adh"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 2
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "A hiker becomes dehydrated. Which hormonal change would most directly increase water reabsorption in the collecting ducts of the hiker's kidneys?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Increased release of ADH (vasopressin) from the posterior pituitary",
+     "correct": true,
+     "trap": null,
+     "why": "ADH inserts aquaporins into collecting-duct cells, so more water returns to the blood."
+    },
+    {
+     "id": "B",
+     "text": "Increased release of ADH from the anterior pituitary",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "ADH is made in the hypothalamus and released from the posterior pituitary, not the anterior."
+    },
+    {
+     "id": "C",
+     "text": "Decreased secretion of aldosterone from the adrenal cortex",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Less aldosterone means less sodium (and water) reabsorption."
+    },
+    {
+     "id": "D",
+     "text": "Increased secretion of atrial natriuretic peptide",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "ANP promotes sodium and water excretion. It's released when blood volume is high, not low."
+    }
+   ],
+   "tldr": "Dehydration triggers ADH release from the posterior pituitary, adding aquaporins in the collecting duct.",
+   "steps": [
+    {
+     "label": "Trigger",
+     "body": "Dehydration raises plasma osmolarity, which hypothalamic osmoreceptors detect."
+    },
+    {
+     "label": "Response",
+     "body": "The posterior pituitary releases ADH."
+    },
+    {
+     "label": "Effect",
+     "body": "ADH adds aquaporin-2 channels to collecting-duct cells, so more water is reabsorbed."
+    }
+   ],
+   "takeaway": "ADH (vasopressin) is made in the hypothalamus and released from the posterior pituitary. It saves water at the collecting duct.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0005",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "genetics",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-hardy-weinberg"
+   ],
+   "outline": {
+    "category": "1C",
+    "sirs": 2
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "In a population in Hardy–Weinberg equilibrium, 16% of individuals show a recessive phenotype. What percentage of the population is heterozygous?",
+   "options": [
+    {
+     "id": "A",
+     "text": "16%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's q², the homozygous recessive frequency, not 2pq."
+    },
+    {
+     "id": "B",
+     "text": "24%",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That's pq. Heterozygotes are 2pq."
+    },
+    {
+     "id": "C",
+     "text": "36%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's p², the homozygous dominant frequency."
+    },
+    {
+     "id": "D",
+     "text": "48%",
+     "correct": true,
+     "trap": null,
+     "why": "q = √0.16 = 0.4, p = 0.6, and 2pq = 2 × 0.6 × 0.4 = 0.48."
+    }
+   ],
+   "tldr": "q² = 0.16, so q = 0.4, p = 0.6, and 2pq = 0.48.",
+   "steps": [
+    {
+     "label": "Find q",
+     "body": "The recessive phenotype is q² = 0.16, so q = 0.4."
+    },
+    {
+     "label": "Find p",
+     "body": "p = 1 − 0.4 = 0.6."
+    },
+    {
+     "label": "Compute",
+     "body": "Heterozygotes = 2pq = 2 × 0.6 × 0.4 = 0.48, which is 48%."
+    }
+   ],
+   "takeaway": "Take the square root of the recessive phenotype frequency to get q, then use 2pq for carriers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0006",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p01",
+   "position": 1,
+   "type": "enzyme_kinetics",
+   "family": "biochem",
+   "knowledgePoints": [
+    "kp-mcat-km-from-data"
+   ],
+   "outline": {
+    "category": "1A",
+    "sirs": 4
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Based on Table 1, what is the approximate Km of enzyme E in the absence of X?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.5 mM",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "At 0.5 mM, V₀ is about a third of Vmax, not half."
+    },
+    {
+     "id": "B",
+     "text": "1.0 mM",
+     "correct": true,
+     "trap": null,
+     "why": "Vmax is about 100 µM/min, and V₀ reaches half of that (50) at 1.0 mM."
+    },
+    {
+     "id": "C",
+     "text": "2.0 mM",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That's where V₀ is half of Vmax with X present, the apparent Km with inhibitor."
+    },
+    {
+     "id": "D",
+     "text": "50 mM",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's where the enzyme is nearly saturated, close to Vmax, not half of it."
+    }
+   ],
+   "tldr": "Vmax ≈ 100 µM/min, and V₀ = 50 (half of Vmax) at [S] = 1.0 mM.",
+   "steps": [
+    {
+     "label": "Vmax",
+     "body": "Without X, V₀ plateaus near 100 µM/min (98 at 50 mM)."
+    },
+    {
+     "label": "Half",
+     "body": "Km is the [S] that gives V₀ = Vmax/2 ≈ 50 µM/min."
+    },
+    {
+     "label": "Read",
+     "body": "The no-X column hits 50 µM/min at 1.0 mM."
+    }
+   ],
+   "takeaway": "To read Km from data, estimate Vmax from the plateau, then find where V₀ is half of it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0007",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p01",
+   "position": 2,
+   "type": "enzyme_kinetics",
+   "family": "biochem",
+   "knowledgePoints": [
+    "kp-mcat-competitive-inhibition",
+    "kp-mcat-inhibition-types"
+   ],
+   "outline": {
+    "category": "1A",
+    "sirs": 4
+   },
+   "difficulty": 3,
+   "targetSec": 97,
+   "prompt": "Which type of inhibition by compound X is most consistent with the data?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Competitive",
+     "correct": true,
+     "trap": null,
+     "why": "At high [S] the rates converge (98 vs. 96), so Vmax is unchanged, while the half-maximal [S] rises from 1.0 to 2.0 mM."
+    },
+    {
+     "id": "B",
+     "text": "Noncompetitive",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Noncompetitive inhibition lowers Vmax, so high [S] wouldn't restore the rate."
+    },
+    {
+     "id": "C",
+     "text": "Uncompetitive",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Uncompetitive inhibition lowers both Vmax and Km. Here Km rises."
+    },
+    {
+     "id": "D",
+     "text": "Irreversible",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Dialysis fully reversed the inhibition, and an irreversible inhibitor would lower Vmax."
+    }
+   ],
+   "tldr": "Same Vmax at high [S], higher Km, and reversible by dialysis means competitive.",
+   "steps": [
+    {
+     "label": "Vmax",
+     "body": "At 50 mM S, V₀ is 98 without X and 96 with X, essentially the same Vmax."
+    },
+    {
+     "label": "Km",
+     "body": "Half of Vmax (≈ 50) is reached at 1.0 mM without X and 2.0 mM with X."
+    },
+    {
+     "label": "Reversibility",
+     "body": "Dialysis removes the effect, so X binds reversibly."
+    }
+   ],
+   "takeaway": "Converging rates at high [S] plus a higher apparent Km is the signature of competitive inhibition.",
+   "siblings": [
+    "mcat-bb-0001"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0008",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p01",
+   "position": 3,
+   "type": "enzyme_kinetics",
+   "family": "biochem",
+   "knowledgePoints": [
+    "kp-mcat-competitive-inhibition"
+   ],
+   "outline": {
+    "category": "1A",
+    "sirs": 2
+   },
+   "difficulty": 4,
+   "targetSec": 120,
+   "prompt": "If the experiment were repeated with 20 µM X instead of 10 µM X, which V₀ would be expected at [S] = 50 mM?",
+   "options": [
+    {
+     "id": "A",
+     "text": "About 94 µM/min",
+     "correct": true,
+     "trap": null,
+     "why": "Doubling X raises the apparent Km to about 3 mM, so V₀ = 100 × 50/53 ≈ 94. It's slightly lower but still near Vmax."
+    },
+    {
+     "id": "B",
+     "text": "About 48 µM/min",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Halving the rate is how you might treat a noncompetitive inhibitor. High [S] overcomes a competitive one."
+    },
+    {
+     "id": "C",
+     "text": "About 0 µM/min",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Competitive inhibition is overcome by enough substrate, and 50 mM is far above Km."
+    },
+    {
+     "id": "D",
+     "text": "About 99 µM/min",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "More inhibitor can't push V₀ above the uninhibited rate of 98."
+    }
+   ],
+   "tldr": "Apparent Km = Km(1 + [I]/Ki). Ki = 10 µM, so at 20 µM Km becomes 3 mM, and V₀ = 100 × 50/53 ≈ 94.",
+   "steps": [
+    {
+     "label": "Ki",
+     "body": "At 10 µM X the apparent Km doubled (1 → 2 mM), so 1 + 10/Ki = 2 and Ki = 10 µM."
+    },
+    {
+     "label": "New Km",
+     "body": "At 20 µM X, apparent Km = 1 mM × (1 + 20/10) = 3 mM."
+    },
+    {
+     "label": "Rate",
+     "body": "V₀ = Vmax[S]/(Km + [S]) = 100 × 50/(3 + 50) ≈ 94 µM/min."
+    }
+   ],
+   "takeaway": "For competitive inhibitors, apparent Km = Km(1 + [I]/Ki), and saturating substrate still gets close to Vmax.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0001",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p01",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "The central thesis of the passage is that",
+   "options": [
+    {
+     "id": "A",
+     "text": "translations of poetry should preserve the literal meaning of the original.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That's the critics' position, which the author argues against."
+    },
+    {
+     "id": "B",
+     "text": "because fidelity has several dimensions, a good translation reflects a deliberate judgment about which of them to preserve.",
+     "correct": true,
+     "trap": null,
+     "why": "This joins the opening claim (fidelity pulls several ways) to the author's ideal of translations that \"spend their fidelity\" where it matters most."
+    },
+    {
+     "id": "C",
+     "text": "translators should feel free to substitute their own images for the poet's.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author rejects free rewriting in the third paragraph."
+    },
+    {
+     "id": "D",
+     "text": "poetry cannot be translated without destroying its value.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author praises some translations as persuasive."
+    }
+   ],
+   "tldr": "Fidelity has many dimensions, so the best translations choose deliberately what to keep.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1: fidelity pulls in several directions. P2: literalism rejected. P3: free rewriting rejected; deliberate choice praised. P4: make the choices visible."
+    },
+    {
+     "label": "Thesis",
+     "body": "The common thread is deliberate, visible judgment about which fidelity matters."
+    }
+   ],
+   "takeaway": "The main idea is the author's position, not a view the author rejects along the way.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0002",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p01",
+   "position": 2,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author describes the critics' position as having \"the appeal of modesty\" (paragraph 2) most likely in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "acknowledge its attraction before arguing that it rests on an unstated ranking of values",
+     "correct": true,
+     "trap": null,
+     "why": "The next sentence turns (\"Yet modesty can conceal its own presumption\") to show literalism quietly ranks meaning first."
+    },
+    {
+     "id": "B",
+     "text": "endorse the critics' approach as the most defensible one",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author goes on to criticize the critics' approach."
+    },
+    {
+     "id": "C",
+     "text": "suggest that critics are more modest than translators",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The modesty described belongs to the translator in the critics' view, not to critics."
+    },
+    {
+     "id": "D",
+     "text": "show that poets prefer literal translations of their work",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says many poets would reject literalism's ranking."
+    }
+   ],
+   "tldr": "The author concedes literalism's appeal, then says \"Yet…\" to expose its hidden ranking.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The phrase is followed immediately by \"Yet modesty can conceal its own presumption.\""
+    },
+    {
+     "label": "Purpose",
+     "body": "It's a concession that sets up the author's counterargument."
+    }
+   ],
+   "takeaway": "Authors often name an opposing view's appeal just before arguing against it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0003",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p01",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Based on the passage, the author would most likely say that a strictly literal translation of a comic poem",
+   "options": [
+    {
+     "id": "A",
+     "text": "could be faithful to the poem's meaning while failing to convey its humor.",
+     "correct": true,
+     "trap": null,
+     "why": "The first paragraph says a translation \"may preserve the rhyme and lose the joke\" and be faithful to literal meaning but \"false to its music.\""
+    },
+    {
+     "id": "B",
+     "text": "is the only honest way to translate such a poem.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That's closer to the critics' view, which the author disputes."
+    },
+    {
+     "id": "C",
+     "text": "would be more faithful than any other translation in every respect.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author's point is that no translation is faithful in every respect."
+    },
+    {
+     "id": "D",
+     "text": "should never be attempted by a careful translator.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author never forbids literal translation, only questions its priority."
+    }
+   ],
+   "tldr": "Literal accuracy can coexist with losing what makes the poem funny.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "P1 lists ways fidelity splits, including keeping one feature and losing \"the joke.\""
+    },
+    {
+     "label": "Apply",
+     "body": "A literal comic translation keeps meaning but may lose wit."
+    }
+   ],
+   "takeaway": "CARS inferences stay close to what the author explicitly argues.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0004",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p01",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following practices would the author most likely endorse?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Publishing a translation with a preface that explains which features of the original the translator chose to preserve",
+     "correct": true,
+     "trap": null,
+     "why": "The last paragraph recommends exactly this kind of note."
+    },
+    {
+     "id": "B",
+     "text": "Requiring translators to preserve the original rhyme scheme in every case",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author wants translators to choose what to keep, not follow a fixed rule."
+    },
+    {
+     "id": "C",
+     "text": "Discouraging readers from comparing translations with their originals",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author wants readers able to hold translators to account."
+    },
+    {
+     "id": "D",
+     "text": "Replacing difficult images in the original with more familiar ones",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author criticizes substituting one's own images for the poet's."
+    }
+   ],
+   "tldr": "The author wants translators' choices made visible, for example in a brief note.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "P4 gives the author's recommendation outright."
+    },
+    {
+     "label": "Match",
+     "body": "A preface explaining what was kept and lost is that recommendation in practice."
+    }
+   ],
+   "takeaway": "Application answers match the author's own recommendations, usually stated near the end.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0005",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p01",
+   "position": 5,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 4,
+   "targetSec": 102,
+   "prompt": "Which of the following findings, if true, would most challenge the author's argument against strict literalism in paragraph 2?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Nearly all poets who have commented on the translation of their work say they value accurate rendering of meaning above sound and rhythm.",
+     "correct": true,
+     "trap": null,
+     "why": "The author's objection rests on the claim that many poets would reject ranking meaning first. This finding contradicts it."
+    },
+    {
+     "id": "B",
+     "text": "Many readers enjoy translations that preserve the original rhyme.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Readers' enjoyment doesn't address whether poets rank meaning first."
+    },
+    {
+     "id": "C",
+     "text": "Some translators include explanatory notes with their translations.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "This fits the author's recommendation, but it doesn't challenge the argument."
+    },
+    {
+     "id": "D",
+     "text": "Literal translations are usually quicker to produce than free ones.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Speed of translation isn't part of the argument."
+    }
+   ],
+   "tldr": "The argument leans on what poets value. Showing poets do rank meaning first undercuts it.",
+   "steps": [
+    {
+     "label": "Isolate",
+     "body": "P2's objection: literalism ranks meaning above sound and tone, \"a ranking many poets would reject.\""
+    },
+    {
+     "label": "Attack",
+     "body": "Evidence that poets actually accept that ranking removes the objection's support."
+    }
+   ],
+   "takeaway": "To challenge a claim, attack its key support directly, not a side issue.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0001",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "acids_bases",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-henderson-hasselbalch"
+   ],
+   "outline": {
+    "category": "5A",
+    "sirs": 2
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "A buffer is prepared from acetic acid (pKa = 4.76) and sodium acetate. If the acetate concentration is ten times the acetic acid concentration, what is the pH of the buffer?",
+   "options": [
+    {
+     "id": "A",
+     "text": "3.76",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Using log([HA]/[A⁻]) flips the sign and gives 4.76 − 1."
+    },
+    {
+     "id": "B",
+     "text": "4.76",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "pH equals pKa only when [A⁻] = [HA]. Here the ratio is 10."
+    },
+    {
+     "id": "C",
+     "text": "5.76",
+     "correct": true,
+     "trap": null,
+     "why": "pH = 4.76 + log(10) = 4.76 + 1 = 5.76."
+    },
+    {
+     "id": "D",
+     "text": "6.76",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "log 10 is 1, not 2."
+    }
+   ],
+   "tldr": "pH = pKa + log([A⁻]/[HA]) = 4.76 + log 10 = 5.76.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "Henderson–Hasselbalch: pH = pKa + log([A⁻]/[HA])."
+    },
+    {
+     "label": "Compute",
+     "body": "[A⁻]/[HA] = 10 and log 10 = 1, so pH = 4.76 + 1 = 5.76."
+    },
+    {
+     "label": "Check",
+     "body": "More base than acid should push the pH above the pKa. It does."
+    }
+   ],
+   "takeaway": "Each tenfold increase in [A⁻]/[HA] raises a buffer's pH by exactly one unit above its pKa.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0002",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "circuits",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-parallel-resistors"
+   ],
+   "outline": {
+    "category": "4C",
+    "sirs": 2
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "A 6 Ω resistor and a 3 Ω resistor are connected in parallel across an ideal 12 V battery. What total current does the battery supply?",
+   "options": [
+    {
+     "id": "A",
+     "text": "1.3 A",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That treats the resistors as if they were in series (12 V ÷ 9 Ω)."
+    },
+    {
+     "id": "B",
+     "text": "2.0 A",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That's only the current through the 6 Ω branch."
+    },
+    {
+     "id": "C",
+     "text": "4.0 A",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That's only the current through the 3 Ω branch."
+    },
+    {
+     "id": "D",
+     "text": "6.0 A",
+     "correct": true,
+     "trap": null,
+     "why": "R = (6 × 3)/(6 + 3) = 2 Ω, so I = 12 V ÷ 2 Ω = 6 A."
+    }
+   ],
+   "tldr": "In parallel, R = 6·3/(6+3) = 2 Ω, so I = 12/2 = 6 A.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "Two resistors in parallel: R = R₁R₂/(R₁ + R₂)."
+    },
+    {
+     "label": "Compute",
+     "body": "R = 18/9 = 2 Ω, and I = V/R = 12/2 = 6 A."
+    },
+    {
+     "label": "Check",
+     "body": "Branch currents are 12/6 = 2 A and 12/3 = 4 A. They add to 6 A, which matches."
+    }
+   ],
+   "takeaway": "Parallel resistance is smaller than the smallest branch. Each branch sees the full voltage and the currents add.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0003",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "thermodynamics",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-gibbs-temperature"
+   ],
+   "outline": {
+    "category": "5E",
+    "sirs": 2
+   },
+   "difficulty": 3,
+   "targetSec": 97,
+   "prompt": "A reaction has ΔH = +40 kJ/mol and ΔS = +100 J/(mol·K). Assuming both values are independent of temperature, under what conditions is the reaction spontaneous?",
+   "options": [
+    {
+     "id": "A",
+     "text": "At all temperatures",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's the case for ΔH < 0 and ΔS > 0. A positive ΔH needs a high T."
+    },
+    {
+     "id": "B",
+     "text": "Only below 400 K",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Below 400 K, ΔH outweighs TΔS and ΔG is positive."
+    },
+    {
+     "id": "C",
+     "text": "Only above 400 K",
+     "correct": true,
+     "trap": null,
+     "why": "ΔG < 0 when T > ΔH/ΔS = 40,000 J ÷ 100 J/K = 400 K."
+    },
+    {
+     "id": "D",
+     "text": "Only above 0.4 K",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "That comes from dividing kJ by J without converting units."
+    }
+   ],
+   "tldr": "ΔG = ΔH − TΔS < 0 when T > 40,000 ÷ 100 = 400 K.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "ΔG = ΔH − TΔS. Spontaneous means ΔG < 0."
+    },
+    {
+     "label": "Units",
+     "body": "ΔH = +40 kJ/mol = +40,000 J/mol."
+    },
+    {
+     "label": "Compute",
+     "body": "TΔS must exceed ΔH, so T > 40,000 ÷ 100 = 400 K."
+    }
+   ],
+   "takeaway": "With ΔH > 0 and ΔS > 0, a reaction is spontaneous only above T = ΔH/ΔS, after matching the units.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0004",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "fluids",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-continuity"
+   ],
+   "outline": {
+    "category": "4B",
+    "sirs": 2
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Water flows steadily through a horizontal pipe that narrows from a cross-sectional area of 4.0 cm² to 1.0 cm². If the water moves at 2.0 m/s in the wide section, how fast does it move in the narrow section?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.5 m/s",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That inverts the ratio. Water speeds up in the narrow section."
+    },
+    {
+     "id": "B",
+     "text": "2.0 m/s",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The volume flow rate stays constant, not the speed."
+    },
+    {
+     "id": "C",
+     "text": "4.0 m/s",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That scales by the ratio of the pipe's widths (2×) instead of its areas (4×)."
+    },
+    {
+     "id": "D",
+     "text": "8.0 m/s",
+     "correct": true,
+     "trap": null,
+     "why": "A₁v₁ = A₂v₂, so v₂ = (4.0 × 2.0)/1.0 = 8.0 m/s."
+    }
+   ],
+   "tldr": "Area drops 4×, so speed rises 4×, from 2 m/s to 8 m/s.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "Continuity for an incompressible fluid: A₁v₁ = A₂v₂."
+    },
+    {
+     "label": "Compute",
+     "body": "v₂ = A₁v₁/A₂ = (4.0 × 2.0)/1.0 = 8.0 m/s."
+    },
+    {
+     "label": "Check",
+     "body": "A narrower pipe must carry the same volume per second, so the water speeds up."
+    }
+   ],
+   "takeaway": "Fluid speed scales inversely with cross-sectional area. Halve the radius and the speed quadruples.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0005",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "gases",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-gas-kelvin"
+   ],
+   "outline": {
+    "category": "4B",
+    "sirs": 2
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "A sealed, rigid container of an ideal gas is heated from 27 °C to 327 °C. What happens to the pressure of the gas?",
+   "options": [
+    {
+     "id": "A",
+     "text": "It increases by a factor of about 12.",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "That uses Celsius (327 ÷ 27). Gas laws need kelvin."
+    },
+    {
+     "id": "B",
+     "text": "It doubles.",
+     "correct": true,
+     "trap": null,
+     "why": "300 K → 600 K, and at constant volume P ∝ T."
+    },
+    {
+     "id": "C",
+     "text": "It stays the same.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "A rigid container keeps the volume constant, not the pressure."
+    },
+    {
+     "id": "D",
+     "text": "It is cut in half.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Heating a gas at constant volume raises its pressure."
+    }
+   ],
+   "tldr": "27 °C = 300 K and 327 °C = 600 K, so pressure doubles at constant volume.",
+   "steps": [
+    {
+     "label": "Convert",
+     "body": "27 + 273 = 300 K and 327 + 273 = 600 K."
+    },
+    {
+     "label": "Apply",
+     "body": "Rigid container means constant V, so P₁/T₁ = P₂/T₂."
+    },
+    {
+     "label": "Compute",
+     "body": "T doubles, so P doubles."
+    }
+   ],
+   "takeaway": "Always convert to kelvin before using a gas law.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0001",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "learning",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-reinforcement"
+   ],
+   "outline": {
+    "category": "7C",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Every time Maya cleans her room, her parents stop the daily reminders she finds annoying. Over the next month, Maya cleans her room more often. Which process best explains this change?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Positive reinforcement",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Positive reinforcement adds something pleasant. Here something unpleasant is removed."
+    },
+    {
+     "id": "B",
+     "text": "Negative reinforcement",
+     "correct": true,
+     "trap": null,
+     "why": "Removing an unpleasant stimulus (the reminders) makes the behavior more frequent."
+    },
+    {
+     "id": "C",
+     "text": "Positive punishment",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Punishment makes a behavior less frequent. Maya cleans more."
+    },
+    {
+     "id": "D",
+     "text": "Classical conditioning",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Classical conditioning pairs two stimuli. This is about the consequences of a voluntary behavior, which is operant conditioning."
+    }
+   ],
+   "tldr": "The reminders (unpleasant) are removed when she cleans, so cleaning increases. That's negative reinforcement.",
+   "steps": [
+    {
+     "label": "Direction",
+     "body": "The behavior becomes more frequent, so it's reinforcement."
+    },
+    {
+     "label": "Add or remove",
+     "body": "Something unpleasant is taken away, so it's negative."
+    }
+   ],
+   "takeaway": "Reinforcement increases a behavior and punishment decreases it. Positive adds a stimulus; negative removes one.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0002",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "social_psych",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-attribution"
+   ],
+   "outline": {
+    "category": "8B",
+    "sirs": 1
+   },
+   "difficulty": 3,
+   "targetSec": 97,
+   "prompt": "When a coworker arrives late, Jordan concludes that the coworker is irresponsible. When Jordan arrives late, Jordan blames the traffic. This pattern best illustrates which of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The actor–observer bias",
+     "correct": true,
+     "trap": null,
+     "why": "Jordan explains others' behavior by disposition and Jordan's own by situation. That contrast defines the actor–observer bias."
+    },
+    {
+     "id": "B",
+     "text": "The fundamental attribution error",
+     "correct": false,
+     "trap": "half_right",
+     "why": "That covers only the half about judging the coworker. The question describes the self–other contrast."
+    },
+    {
+     "id": "C",
+     "text": "Confirmation bias",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Confirmation bias is seeking evidence for what you already believe."
+    },
+    {
+     "id": "D",
+     "text": "The just-world hypothesis",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's the belief that people get what they deserve."
+    }
+   ],
+   "tldr": "Their lateness is character, my lateness is traffic. That self–other split is the actor–observer bias.",
+   "steps": [
+    {
+     "label": "Others",
+     "body": "The coworker's lateness is blamed on disposition (\"irresponsible\")."
+    },
+    {
+     "label": "Self",
+     "body": "Jordan's own lateness is blamed on the situation (\"traffic\")."
+    },
+    {
+     "label": "Name",
+     "body": "Different attributions for the same behavior depending on who does it is actor–observer bias."
+    }
+   ],
+   "takeaway": "The fundamental attribution error is about judging others. The actor–observer bias is the contrast between how we judge others and ourselves.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0003",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "research_methods",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-correlation"
+   ],
+   "outline": {
+    "sirs": 3
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "A survey of 2,000 college students finds that students who sleep more hours per night tend to have higher GPAs. Which conclusion is best supported by this finding?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Getting more sleep causes students' GPAs to rise.",
+     "correct": false,
+     "trap": "overreach",
+     "why": "A survey shows an association, not cause and effect."
+    },
+    {
+     "id": "B",
+     "text": "Sleep duration and GPA are associated, but the survey cannot show which, if either, causes the other.",
+     "correct": true,
+     "trap": null,
+     "why": "Correlational data support an association only. Confounders like workload could drive both."
+    },
+    {
+     "id": "C",
+     "text": "Earning a higher GPA causes students to sleep more.",
+     "correct": false,
+     "trap": "overreach",
+     "why": "Reversing the direction is still a causal claim the survey can't support."
+    },
+    {
+     "id": "D",
+     "text": "Sleep duration and GPA are unrelated in the general population.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The survey found a relationship. It just can't explain it."
+    }
+   ],
+   "tldr": "A correlation shows the two go together, not that one causes the other.",
+   "steps": [
+    {
+     "label": "Design",
+     "body": "A survey measures variables without manipulating them. It's correlational."
+    },
+    {
+     "label": "Limit",
+     "body": "It can't rule out reverse causation or confounders (stress, workload, health)."
+    },
+    {
+     "label": "Match",
+     "body": "Only the association claim is supported."
+    }
+   ],
+   "takeaway": "Correlational studies support associations, not causal direction.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0004",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "sociology_theory",
+   "family": "sociology",
+   "knowledgePoints": [
+    "kp-mcat-functionalism"
+   ],
+   "outline": {
+    "category": "9A",
+    "sirs": 1
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "A sociologist argues that schools persist because they sort people into occupations and pass on shared values, helping society function smoothly. This argument most closely reflects which perspective?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Functionalism",
+     "correct": true,
+     "trap": null,
+     "why": "Functionalism explains institutions by the stabilizing functions they serve."
+    },
+    {
+     "id": "B",
+     "text": "Conflict theory",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Conflict theory would say schools reproduce inequality and serve powerful groups."
+    },
+    {
+     "id": "C",
+     "text": "Symbolic interactionism",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Symbolic interactionism looks at everyday meanings and face-to-face interaction."
+    },
+    {
+     "id": "D",
+     "text": "Social constructionism",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Social constructionism asks how shared meanings create social reality."
+    }
+   ],
+   "tldr": "Explaining an institution by the functions that keep society stable is functionalism.",
+   "steps": [
+    {
+     "label": "Key words",
+     "body": "\"Sort people,\" \"pass on shared values,\" \"function smoothly\": all about stability and roles."
+    },
+    {
+     "label": "Match",
+     "body": "That's the functionalist lens. Conflict theory would focus on inequality instead."
+    }
+   ],
+   "takeaway": "Functionalism asks what an institution does for social stability. Conflict theory asks whom it benefits.",
+   "siblings": [],
+   "status": "review"
+  }
+ ],
+ "passages": [
+  {
+   "id": "mcat-bb-p01",
+   "exam": "MCAT",
+   "section": "BB",
+   "title": "Inhibition of enzyme E by compound X",
+   "domain": "biochemistry",
+   "paragraphs": [
+    "Enzyme E catalyzes the conversion of substrate S to product P. To characterize a newly synthesized compound, X, researchers measured the initial reaction velocity (V₀) of purified enzyme E at several substrate concentrations, both without X and in the presence of 10 µM X. Enzyme concentration, temperature and pH were held constant. The results are shown in Table 1.",
+    "In a follow-up experiment, the researchers found that the inhibition caused by X was fully reversed after X was removed from the solution by dialysis."
+   ],
+   "table": {
+    "caption": "Table 1. Initial velocity of enzyme E with and without compound X",
+    "columns": [
+     "[S] (mM)",
+     "V₀, no X (µM/min)",
+     "V₀, 10 µM X (µM/min)"
+    ],
+    "rows": [
+     [
+      "0.5",
+      "33",
+      "20"
+     ],
+     [
+      "1.0",
+      "50",
+      "33"
+     ],
+     [
+      "2.0",
+      "67",
+      "50"
+     ],
+     [
+      "10",
+      "91",
+      "83"
+     ],
+     [
+      "50",
+      "98",
+      "96"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-bb-0006",
+    "mcat-bb-0007",
+    "mcat-bb-0008"
+   ]
+  },
+  {
+   "id": "mcat-cars-p01",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The translator's freedom",
+   "domain": "humanities",
+   "paragraphs": [
+    "It is often said that a translation should be faithful to its original, as though fidelity were a single, obvious virtue. But a translator of poetry quickly discovers that fidelity pulls in several directions at once. A line may be faithful to the literal meaning of its source and false to its music; it may preserve the rhyme and lose the joke. Every translation is therefore a record of choices about which kinds of faithfulness matter most.",
+    "Some critics respond by demanding that translators stay as close as possible to the literal sense, on the grounds that the reader of a translation deserves to know what the poet actually said. This position has the appeal of modesty: the translator, on this view, is a servant who should not presume to improve on a master. Yet modesty can conceal its own presumption. To decide that literal sense is what the poet \"actually said\" is already to rank meaning above sound, rhythm and tone, a ranking many poets would reject.",
+    "The alternative is not license. A translator who rewrites freely, substituting her own images for the poet's, has produced a new poem, perhaps a fine one, but she has abandoned the reader who wanted access to the original. The most persuasive translations I know are neither literal nor free in this sense. They begin from a judgment about what is most alive in the original (its argument, its wit, its sorrow) and they spend their fidelity there, accepting losses elsewhere.",
+    "Readers can hold translators to account only if those judgments are made visible. A brief note explaining what the translator chose to preserve, and what she let go, would do more for the honest reader than any amount of insistence on fidelity in the abstract."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0001",
+    "mcat-cars-0002",
+    "mcat-cars-0003",
+    "mcat-cars-0004",
+    "mcat-cars-0005"
+   ]
+  }
+ ],
+ "knowledgePoints": [
+  {
+   "id": "kp-mcat-henderson-hasselbalch",
+   "section": "CP",
+   "title": "Buffer pH",
+   "front": "How do you find a buffer's pH from its pKa and the base-to-acid ratio?",
+   "back": "pH = pKa + log([A⁻]/[HA]). Each tenfold increase in [A⁻]/[HA] raises the pH by 1 unit above the pKa.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-parallel-resistors",
+   "section": "CP",
+   "title": "Resistors in parallel",
+   "front": "What's the equivalent resistance of two resistors in parallel?",
+   "back": "R = R₁R₂/(R₁ + R₂), which is smaller than either resistor. Each branch has the full voltage, and the branch currents add.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-gibbs-temperature",
+   "section": "CP",
+   "title": "Spontaneity and temperature",
+   "front": "When is a reaction with ΔH > 0 and ΔS > 0 spontaneous?",
+   "back": "Above T = ΔH/ΔS, from ΔG = ΔH − TΔS. Convert kJ to J (or J to kJ) first.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-continuity",
+   "section": "CP",
+   "title": "Continuity equation",
+   "front": "A pipe narrows. What happens to the speed of the fluid?",
+   "back": "A₁v₁ = A₂v₂, so speed rises in proportion to the drop in area. By Bernoulli's principle, pressure falls where speed rises.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-gas-kelvin",
+   "section": "CP",
+   "title": "Gas laws use kelvin",
+   "front": "A rigid container of gas is heated from 27 °C to 327 °C. What happens to the pressure?",
+   "back": "Convert to kelvin: 300 K → 600 K. At constant volume P ∝ T, so pressure doubles.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-competitive-inhibition",
+   "section": "BB",
+   "title": "Competitive inhibition",
+   "front": "What does a competitive inhibitor do to Km and Vmax?",
+   "back": "Km rises and Vmax is unchanged, because enough substrate can outcompete the inhibitor. Apparent Km = Km(1 + [I]/Ki).",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-inhibition-types",
+   "section": "BB",
+   "title": "Telling inhibitors apart",
+   "front": "How do noncompetitive and uncompetitive inhibition change Km and Vmax?",
+   "back": "Noncompetitive: Vmax falls, Km unchanged. Uncompetitive: Vmax and Km both fall. Competitive: Km rises, Vmax unchanged.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-km-from-data",
+   "section": "BB",
+   "title": "Reading Km from data",
+   "front": "How do you read Km from a table of reaction rates?",
+   "back": "Estimate Vmax from the plateau at high [S], then find the [S] where V₀ is half of Vmax.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-charged-side-chains",
+   "section": "BB",
+   "title": "Charged side chains",
+   "front": "Which amino acid side chains are charged at pH 7.4?",
+   "back": "Positive: lysine and arginine (histidine only partly). Negative: aspartate and glutamate.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-okazaki",
+   "section": "BB",
+   "title": "Okazaki fragments",
+   "front": "Why is the lagging strand made in fragments?",
+   "back": "DNA polymerase adds nucleotides only to a 3′ end, so synthesis runs 5′→3′. On the lagging template that direction points away from the fork, so it's made in short Okazaki fragments, each with its own primer.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-adh",
+   "section": "BB",
+   "title": "ADH and water balance",
+   "front": "Which hormone conserves water when someone is dehydrated, and where is it released?",
+   "back": "ADH (vasopressin). It's made in the hypothalamus, released from the posterior pituitary, and inserts aquaporins in the collecting duct.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-hardy-weinberg",
+   "section": "BB",
+   "title": "Hardy–Weinberg",
+   "front": "The recessive phenotype frequency is q². How do you find the carrier frequency?",
+   "back": "q = √(q²), p = 1 − q, and heterozygotes = 2pq.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-reinforcement",
+   "section": "PS",
+   "title": "Reinforcement and punishment",
+   "front": "Removing something unpleasant to make a behavior more frequent is called…?",
+   "back": "Negative reinforcement. Reinforcement increases a behavior; punishment decreases it. \"Positive\" adds a stimulus; \"negative\" removes one.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-attribution",
+   "section": "PS",
+   "title": "Attribution biases",
+   "front": "\"When they're late, it's their character. When I'm late, it's the traffic.\" Which bias is this?",
+   "back": "Actor–observer bias. The fundamental attribution error is only the half about judging other people.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-correlation",
+   "section": "PS",
+   "title": "Correlation vs. causation",
+   "front": "A survey finds a correlation between two variables. What can it conclude?",
+   "back": "An association only. Without an experiment, or controls for confounders, it can't show which variable (if either) causes the other.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-functionalism",
+   "section": "PS",
+   "title": "Sociological perspectives",
+   "front": "\"Institutions persist because they keep society running smoothly.\" Which perspective is that?",
+   "back": "Functionalism. Conflict theory stresses inequality and power; symbolic interactionism stresses everyday meanings and interactions.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-cars-main-idea",
+   "section": "CARS",
+   "title": "CARS main idea",
+   "front": "How do you test a CARS main-idea answer?",
+   "back": "It must capture the author's overall claim, not a view the author argues against and not one paragraph's detail.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-cars-author-function",
+   "section": "CARS",
+   "title": "Why authors describe opposing views",
+   "front": "Why would an author point out the appeal of a view the author rejects?",
+   "back": "To concede its attraction before arguing against it. Look for the \"Yet\" or \"But\" that follows.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-cars-application",
+   "section": "CARS",
+   "title": "Applying the author's view",
+   "front": "\"Which practice would the author most likely endorse?\" What are you matching?",
+   "back": "The author's own recommendations and values, often in the last paragraph, not the views of critics the author rejects.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-cars-challenge",
+   "section": "CARS",
+   "title": "Challenging a claim",
+   "front": "What does the right answer to \"Which finding would most challenge the author's claim?\" do?",
+   "back": "It directly undercuts the claim's key support. Answers that are merely unrelated or mildly negative don't count.",
+   "exam": "MCAT"
+  }
+ ]
+}

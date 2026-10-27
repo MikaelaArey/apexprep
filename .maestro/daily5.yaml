@@ -1,0 +1,72 @@
+# Plays a full Daily 5 from Home: answer, read the explanation, tag misses, finish.
+appId: host.exp.Exponent
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: LSAT
+      DEMO: "0"
+- tapOn:
+    id: "home-cta"
+- extendedWaitUntil:
+    visible:
+      id: "check"
+    timeout: 10000
+- takeScreenshot: 10-question
+- tapOn:
+    id: "option-B"
+- tapOn:
+    id: "confidence-sure"
+- takeScreenshot: 11-selected
+- tapOn:
+    id: "check"
+- extendedWaitUntil:
+    visible:
+      id: "explanation"
+    timeout: 5000
+- takeScreenshot: 12-explanation-top
+- scrollUntilVisible:
+    element:
+      id: "next"
+    direction: DOWN
+- scroll
+- takeScreenshot: 13-explanation-more
+- scroll
+- takeScreenshot: 14-explanation-end
+- tapOn:
+    id: "miss-misread"
+    optional: true
+- tapOn:
+    id: "next"
+- repeat:
+    times: 4
+    commands:
+      - extendedWaitUntil:
+          visible:
+            id: "check"
+          timeout: 10000
+      - tapOn:
+          id: "option-A"
+      - tapOn:
+          id: "confidence-unsure"
+      - tapOn:
+          id: "check"
+      - extendedWaitUntil:
+          visible:
+            id: "next"
+          timeout: 5000
+      - takeScreenshot: 2x-explanation
+      - tapOn:
+          id: "next"
+- extendedWaitUntil:
+    visible:
+      id: "summary"
+    timeout: 10000
+- takeScreenshot: 15-summary
+- tapOn:
+    id: "summary-done"
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 10000
+- takeScreenshot: 16-home-after

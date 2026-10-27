@@ -1,0 +1,41 @@
+# Walks through first-run onboarding as an LSAT student and lands on Home.
+appId: host.exp.Exponent
+---
+- runFlow: _launch.yaml
+- extendedWaitUntil:
+    visible:
+      id: "onboarding-start"
+    timeout: 15000
+- tapOn:
+    id: "onboarding-start"
+- takeScreenshot: 02-exam
+- tapOn:
+    id: "pick-LSAT"
+- tapOn:
+    id: "onboarding-next"
+- takeScreenshot: 03-date
+- tapOn:
+    id: "no-test-date"
+- takeScreenshot: 04-target
+- tapOn:
+    id: "target-up"
+- tapOn:
+    id: "target-up"
+- assertVisible:
+    id: "target-value"
+    text: "167"
+- tapOn:
+    id: "onboarding-next"
+- takeScreenshot: 05-goal
+- tapOn:
+    id: "goal-10"
+- tapOn:
+    id: "onboarding-next"
+- takeScreenshot: 06-habit
+- tapOn:
+    id: "skip-reminders"
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 10000
+- takeScreenshot: 07-home

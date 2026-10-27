@@ -1,0 +1,182 @@
+# MCAT Chemical and Physical Foundations: original practice questions for ApexPrep.
+# Not official AAMC content. Every item needs expert review before status: live.
+
+- id: mcat-cp-0001
+  type: acids_bases
+  family: gen_chem
+  kps: [kp-mcat-henderson-hasselbalch]
+  outline: { category: 5A, sirs: 2 }
+  difficulty: 2
+  prompt: >-
+    A buffer is prepared from acetic acid (pKa = 4.76) and sodium acetate. If the
+    acetate concentration is ten times the acetic acid concentration, what is the
+    pH of the buffer?
+  options:
+    - text: "3.76"
+      trap: sign_flip
+      why: Using log([HA]/[A⁻]) flips the sign and gives 4.76 − 1.
+    - text: "4.76"
+      trap: lookalike
+      why: pH equals pKa only when [A⁻] = [HA]. Here the ratio is 10.
+    - text: "5.76"
+      correct: true
+      why: pH = 4.76 + log(10) = 4.76 + 1 = 5.76.
+    - text: "6.76"
+      trap: power_of_ten
+      why: log 10 is 1, not 2.
+  tldr: pH = pKa + log([A⁻]/[HA]) = 4.76 + log 10 = 5.76.
+  steps:
+    - label: Recall
+      body: "Henderson–Hasselbalch: pH = pKa + log([A⁻]/[HA])."
+    - label: Compute
+      body: "[A⁻]/[HA] = 10 and log 10 = 1, so pH = 4.76 + 1 = 5.76."
+    - label: Check
+      body: More base than acid should push the pH above the pKa. It does.
+  takeaway: >-
+    Each tenfold increase in [A⁻]/[HA] raises a buffer's pH by exactly one unit
+    above its pKa.
+  siblings: []
+
+- id: mcat-cp-0002
+  type: circuits
+  family: physics
+  kps: [kp-mcat-parallel-resistors]
+  outline: { category: 4C, sirs: 2 }
+  difficulty: 2
+  prompt: >-
+    A 6 Ω resistor and a 3 Ω resistor are connected in parallel across an ideal
+    12 V battery. What total current does the battery supply?
+  options:
+    - text: 1.3 A
+      trap: lookalike
+      why: That treats the resistors as if they were in series (12 V ÷ 9 Ω).
+    - text: 2.0 A
+      trap: skipped_step
+      why: That's only the current through the 6 Ω branch.
+    - text: 4.0 A
+      trap: skipped_step
+      why: That's only the current through the 3 Ω branch.
+    - text: 6.0 A
+      correct: true
+      why: R = (6 × 3)/(6 + 3) = 2 Ω, so I = 12 V ÷ 2 Ω = 6 A.
+  tldr: In parallel, R = 6·3/(6+3) = 2 Ω, so I = 12/2 = 6 A.
+  steps:
+    - label: Recall
+      body: "Two resistors in parallel: R = R₁R₂/(R₁ + R₂)."
+    - label: Compute
+      body: R = 18/9 = 2 Ω, and I = V/R = 12/2 = 6 A.
+    - label: Check
+      body: >-
+        Branch currents are 12/6 = 2 A and 12/3 = 4 A. They add to 6 A, which
+        matches.
+  takeaway: >-
+    Parallel resistance is smaller than the smallest branch. Each branch sees the
+    full voltage and the currents add.
+  siblings: []
+
+- id: mcat-cp-0003
+  type: thermodynamics
+  family: gen_chem
+  kps: [kp-mcat-gibbs-temperature]
+  outline: { category: 5E, sirs: 2 }
+  difficulty: 3
+  prompt: >-
+    A reaction has ΔH = +40 kJ/mol and ΔS = +100 J/(mol·K). Assuming both values
+    are independent of temperature, under what conditions is the reaction
+    spontaneous?
+  options:
+    - text: At all temperatures
+      trap: lookalike
+      why: That's the case for ΔH < 0 and ΔS > 0. A positive ΔH needs a high T.
+    - text: Only below 400 K
+      trap: sign_flip
+      why: Below 400 K, ΔH outweighs TΔS and ΔG is positive.
+    - text: Only above 400 K
+      correct: true
+      why: ΔG < 0 when T > ΔH/ΔS = 40,000 J ÷ 100 J/K = 400 K.
+    - text: Only above 0.4 K
+      trap: power_of_ten
+      why: That comes from dividing kJ by J without converting units.
+  tldr: ΔG = ΔH − TΔS < 0 when T > 40,000 ÷ 100 = 400 K.
+  steps:
+    - label: Recall
+      body: ΔG = ΔH − TΔS. Spontaneous means ΔG < 0.
+    - label: Units
+      body: ΔH = +40 kJ/mol = +40,000 J/mol.
+    - label: Compute
+      body: TΔS must exceed ΔH, so T > 40,000 ÷ 100 = 400 K.
+  takeaway: >-
+    With ΔH > 0 and ΔS > 0, a reaction is spontaneous only above T = ΔH/ΔS, after
+    matching the units.
+  siblings: []
+
+- id: mcat-cp-0004
+  type: fluids
+  family: physics
+  kps: [kp-mcat-continuity]
+  outline: { category: 4B, sirs: 2 }
+  difficulty: 2
+  prompt: >-
+    Water flows steadily through a horizontal pipe that narrows from a
+    cross-sectional area of 4.0 cm² to 1.0 cm². If the water moves at 2.0 m/s in
+    the wide section, how fast does it move in the narrow section?
+  options:
+    - text: 0.5 m/s
+      trap: wrong_direction
+      why: That inverts the ratio. Water speeds up in the narrow section.
+    - text: 2.0 m/s
+      trap: lookalike
+      why: The volume flow rate stays constant, not the speed.
+    - text: 4.0 m/s
+      trap: lookalike
+      why: >-
+        That scales by the ratio of the pipe's widths (2×) instead of its areas
+        (4×).
+    - text: 8.0 m/s
+      correct: true
+      why: A₁v₁ = A₂v₂, so v₂ = (4.0 × 2.0)/1.0 = 8.0 m/s.
+  tldr: Area drops 4×, so speed rises 4×, from 2 m/s to 8 m/s.
+  steps:
+    - label: Recall
+      body: "Continuity for an incompressible fluid: A₁v₁ = A₂v₂."
+    - label: Compute
+      body: v₂ = A₁v₁/A₂ = (4.0 × 2.0)/1.0 = 8.0 m/s.
+    - label: Check
+      body: A narrower pipe must carry the same volume per second, so the water speeds up.
+  takeaway: >-
+    Fluid speed scales inversely with cross-sectional area. Halve the radius and
+    the speed quadruples.
+  siblings: []
+
+- id: mcat-cp-0005
+  type: gases
+  family: gen_chem
+  kps: [kp-mcat-gas-kelvin]
+  outline: { category: 4B, sirs: 2 }
+  difficulty: 1
+  prompt: >-
+    A sealed, rigid container of an ideal gas is heated from 27 °C to 327 °C. What
+    happens to the pressure of the gas?
+  options:
+    - text: It increases by a factor of about 12.
+      trap: power_of_ten
+      why: That uses Celsius (327 ÷ 27). Gas laws need kelvin.
+    - text: It doubles.
+      correct: true
+      why: 300 K → 600 K, and at constant volume P ∝ T.
+    - text: It stays the same.
+      trap: lookalike
+      why: A rigid container keeps the volume constant, not the pressure.
+    - text: It is cut in half.
+      trap: wrong_direction
+      why: Heating a gas at constant volume raises its pressure.
+  tldr: 27 °C = 300 K and 327 °C = 600 K, so pressure doubles at constant volume.
+  steps:
+    - label: Convert
+      body: 27 + 273 = 300 K and 327 + 273 = 600 K.
+    - label: Apply
+      body: "Rigid container means constant V, so P₁/T₁ = P₂/T₂."
+    - label: Compute
+      body: T doubles, so P doubles.
+  takeaway: Always convert to kelvin before using a gas law.
+  siblings: []

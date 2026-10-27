@@ -1,0 +1,141 @@
+# LSAT knowledge points. Each one becomes a concept card in spaced review.
+# front = the prompt shown on the card; back = the answer.
+
+- id: kp-lsat-rival-cause
+  section: LR
+  title: Rival causes
+  front: >-
+    An argument concludes that X causes Y because X and Y show up together.
+    What's the strongest way to weaken it?
+  back: >-
+    Name a rival cause: something else that differs between the groups and could
+    produce Y. Reversed causation (Y causes X) and a skewed sample also work.
+
+- id: kp-lsat-strengthen-causal
+  section: LR
+  title: Strengthening a causal claim
+  front: >-
+    How do you strengthen "X caused the difference between these two groups"?
+  back: >-
+    Rule out the alternatives: show the groups were alike before X (same baseline),
+    or that no other factor differs between them.
+
+- id: kp-lsat-negation-test
+  section: LR
+  title: The negation test
+  front: How do you confirm that an answer is a necessary assumption?
+  back: >-
+    Negate it. If the negated version wrecks the argument, the argument needs it.
+    If the argument survives, it isn't necessary.
+
+- id: kp-lsat-contrapositive
+  section: LR
+  title: Contrapositives
+  front: >-
+    "If A, then B." What else must be true?
+  back: >-
+    If not B, then not A. "If B, then A" does not follow; that's a reversal.
+
+- id: kp-lsat-sufficient-bridge
+  section: LR
+  title: Sufficient assumptions
+  front: What does the right answer to a sufficient assumption question do?
+  back: >-
+    It links the premises to the conclusion's new term so that, added to the
+    premises, the conclusion is guaranteed. Check the direction of every
+    conditional.
+
+- id: kp-lsat-necessary-vs-sufficient
+  section: LR
+  title: Necessary vs. sufficient
+  front: >-
+    "Every successful restaurant advertises." Does advertising guarantee success?
+  back: >-
+    No. Advertising is necessary for success, not sufficient. Treating a
+    requirement as a guarantee is one of the most common LSAT flaws.
+
+- id: kp-lsat-part-whole
+  section: LR
+  title: Parts and wholes
+  front: Each part of a whole has a property. Does the whole have it too?
+  back: >-
+    Not necessarily. Assuming it does is the composition flaw. Assuming each
+    part shares a property of the whole is the division flaw.
+
+- id: kp-lsat-numbers-proportions
+  section: LR
+  title: Numbers vs. proportions
+  front: >-
+    Fewer than half of the eligible students studied abroad. What follows about
+    the counts?
+  back: >-
+    Eligible students outnumber those who went by more than two to one. But a
+    record number who went doesn't prove a record number were eligible.
+
+- id: kp-lsat-conclusion-signals
+  section: LR
+  title: Finding the main conclusion
+  front: >-
+    An argument opens with someone else's view, then says "But this view cannot be
+    right." Where is the main conclusion?
+  back: >-
+    In the rejection itself: "this view cannot be right." The sentences after it
+    are the evidence for that rejection.
+
+- id: kp-lsat-concession
+  section: LR
+  title: Concessions
+  front: What does "Admittedly" or "Granted" usually signal?
+  back: >-
+    A concession: a point the author accepts even though it seems to cut against
+    the conclusion. It is neither the conclusion nor support for it.
+
+- id: kp-lsat-paradox-both
+  section: LR
+  title: Resolving a paradox
+  front: What must the right answer to a paradox question do?
+  back: >-
+    Show how both surprising facts can be true at once, without denying either
+    one.
+
+- id: kp-lsat-principle-match
+  section: LR
+  title: Matching a principle
+  front: How do you choose a principle that justifies an argument?
+  back: >-
+    Match it to this argument's specific evidence and conclusion. It should carry
+    you from the premises to the conclusion, and no further.
+
+- id: kp-rc-main-point
+  section: RC
+  title: Main point
+  front: What makes a main-point answer correct in Reading Comprehension?
+  back: >-
+    It covers the whole passage, including the author's own position, not one
+    paragraph's detail or a view the author argues against.
+
+- id: kp-rc-function
+  section: RC
+  title: Function questions
+  front: >-
+    "The author mentions X primarily in order to…" What are you really being
+    asked?
+  back: >-
+    Why X is there: which claim in its paragraph it supports or undercuts.
+
+- id: kp-rc-viewpoints
+  section: RC
+  title: Tracking viewpoints
+  front: >-
+    A question asks what the "defenders" argued. What's the most common trap?
+  back: >-
+    An answer that appears in the passage but belongs to a different group.
+    Track who says what.
+
+- id: kp-rc-extreme-language
+  section: RC
+  title: Extreme answers
+  front: Why are "always," "never" and "eliminates" risky in RC answers?
+  back: >-
+    Passages rarely support absolutes. Prefer the answer the text actually proves,
+    even if it sounds modest.

@@ -1,0 +1,4 @@
+# Dev helper: accept iOS's "Open in Expo Go?" prompt after `expo start --ios`.
+appId: host.exp.Exponent
+---
+- tapOn: "Open"

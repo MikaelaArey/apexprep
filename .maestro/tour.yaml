@@ -1,0 +1,97 @@
+# Visits every screen with three weeks of demo history loaded.
+appId: host.exp.Exponent
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: LSAT
+      DEMO: "1"
+- takeScreenshot: 20-home
+- tapOn: "Practice"
+- extendedWaitUntil:
+    visible:
+      id: "mode-drill"
+    timeout: 5000
+- takeScreenshot: 21-practice
+- tapOn:
+    id: "mode-drill"
+- extendedWaitUntil:
+    visible:
+      id: "drill-start"
+    timeout: 5000
+- tapOn:
+    id: "drill-section-LR"
+- takeScreenshot: 22-drill
+- tapOn:
+    id: "drill-start"
+- extendedWaitUntil:
+    visible:
+      id: "check"
+    timeout: 8000
+- tapOn:
+    id: "session-close"
+- extendedWaitUntil:
+    visible: "Keep going"
+    timeout: 5000
+- tapOn: "End session"
+- extendedWaitUntil:
+    visible:
+      id: "mode-drill"
+    timeout: 8000
+- tapOn:
+    id: "passage-lsat-rc-p01"
+- extendedWaitUntil:
+    visible:
+      id: "start-questions"
+    timeout: 8000
+- takeScreenshot: 23-passage-read
+- tapOn:
+    id: "start-questions"
+- extendedWaitUntil:
+    visible:
+      id: "check"
+    timeout: 8000
+- takeScreenshot: 24-passage-question
+- tapOn:
+    id: "open-passage"
+- extendedWaitUntil:
+    visible:
+      id: "passage-close"
+    timeout: 5000
+- takeScreenshot: 25-passage-sheet
+- tapOn:
+    id: "passage-close"
+- tapOn:
+    id: "session-close"
+- extendedWaitUntil:
+    visible: "Keep going"
+    timeout: 5000
+- tapOn: "End session"
+- extendedWaitUntil:
+    visible:
+      id: "mode-drill"
+    timeout: 8000
+- tapOn: "Review"
+- extendedWaitUntil:
+    visible:
+      id: "start-review"
+    timeout: 5000
+- takeScreenshot: 26-review
+- tapOn: "Stats"
+- extendedWaitUntil:
+    visible:
+      id: "leaks"
+    timeout: 5000
+- takeScreenshot: 27-stats
+- scroll
+- takeScreenshot: 28-stats-more
+- scroll
+- takeScreenshot: 29-stats-end
+- tapOn: "Home"
+- tapOn:
+    id: "streak-button"
+- extendedWaitUntil:
+    visible:
+      id: "streak-count"
+    timeout: 5000
+- takeScreenshot: 30-streak

@@ -1,0 +1,7 @@
+# Opens (or reloads) the app in Expo Go from the local dev server.
+appId: host.exp.Exponent
+---
+- openLink: "exp://127.0.0.1:8081?__expo_disable_fab=1&__expo_disable_onboarding=1"
+- tapOn:
+    text: "Open"
+    optional: true

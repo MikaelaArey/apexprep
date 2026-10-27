@@ -1,0 +1,1363 @@
+{
+ "exam": "LSAT",
+ "version": "c20260023fb0",
+ "generatedAt": "2026-10-26T21:57:10.259Z",
+ "items": [
+  {
+   "id": "lsat-lr-0001",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Residents of Marlow who drink at least two cups of green tea a day report fewer colds than residents who do not. Therefore, drinking green tea strengthens the immune system.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Green tea contains antioxidants that have shown health benefits in laboratory studies.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "If anything this supports the argument. A weakener has to attack the link between the tea and the colds."
+    },
+    {
+     "id": "B",
+     "text": "Marlow residents who drink green tea daily are also far more likely to exercise regularly and sleep at least seven hours a night.",
+     "correct": true,
+     "trap": null,
+     "why": "It offers a rival cause for the fewer colds, so the tea may be a bystander."
+    },
+    {
+     "id": "C",
+     "text": "Some residents who drink green tea daily still report catching colds.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The claim is that tea drinkers get fewer colds, not none. A few colds don't contradict it."
+    },
+    {
+     "id": "D",
+     "text": "Coffee drinkers in Marlow report more colds than green tea drinkers do.",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Coffee drinkers are a new group. Comparing them can't explain why tea drinkers get fewer colds."
+    },
+    {
+     "id": "E",
+     "text": "The survey of Marlow residents was conducted during the winter.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "Winter affects both groups alike, so it can't explain the gap between them."
+    }
+   ],
+   "tldr": "A rival cause (exercise, sleep) explains the gap, not the tea.",
+   "steps": [
+    {
+     "label": "Task",
+     "body": "Weaken. Find the fact that most undermines the conclusion."
+    },
+    {
+     "label": "Core",
+     "body": "Evidence: tea drinkers report fewer colds. Conclusion: tea strengthens immunity."
+    },
+    {
+     "label": "Gap",
+     "body": "A correlation is treated as a cause. Prephrase: something else about tea drinkers keeps colds away."
+    }
+   ],
+   "takeaway": "Arguments that jump from correlation to cause fall to a rival cause that differs between the groups.",
+   "siblings": [
+    "lsat-lr-0002"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0002",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Over the past decade, the districts of Halverton with the most public libraries have had the lowest rates of juvenile crime. So building additional libraries in the districts with the highest rates of juvenile crime would reduce juvenile crime in those districts.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Some districts of Halverton with few public libraries also have low rates of juvenile crime.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "A few exceptions don't undo a general pattern, and they don't show that libraries are irrelevant."
+    },
+    {
+     "id": "B",
+     "text": "The districts of Halverton with the most public libraries also have the highest household incomes and the most after-school programs.",
+     "correct": true,
+     "trap": null,
+     "why": "Income and after-school programs are rival explanations for the low crime, so adding libraries alone might change nothing."
+    },
+    {
+     "id": "C",
+     "text": "Libraries throughout Halverton have extended their evening hours in recent years.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "The change applies to every district, so it can't account for differences between them."
+    },
+    {
+     "id": "D",
+     "text": "Juvenile crime in Halverton as a whole has declined over the past decade.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "A citywide decline says nothing about why some districts have lower rates than others."
+    },
+    {
+     "id": "E",
+     "text": "Most of Halverton's libraries were built more than thirty years ago.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The age of the buildings has no bearing on whether libraries reduce crime."
+    }
+   ],
+   "tldr": "Wealth and after-school programs could explain the low crime, so more libraries may not help.",
+   "steps": [
+    {
+     "label": "Task",
+     "body": "Weaken a prediction that rests on a correlation."
+    },
+    {
+     "label": "Core",
+     "body": "Evidence: more libraries go with less juvenile crime. Conclusion: adding libraries will cut crime."
+    },
+    {
+     "label": "Gap",
+     "body": "It assumes the libraries cause the low crime. Prephrase: something else about those districts keeps crime low."
+    }
+   ],
+   "takeaway": "When a plan copies one feature of a successful group, look for the other features that group has.",
+   "siblings": [
+    "lsat-lr-0001"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0003",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "strengthen",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-strengthen-causal"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Patients at Elmridge Clinic who used a new mobile reminder app took their medication on schedule far more consistently than patients who did not use the app. The clinic's director concludes that the app causes patients to take their medication more consistently.",
+   "prompt": "Which one of the following, if true, most strengthens the director's argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The app was developed by a company that also manufactures medication.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Who made the app says nothing about whether it changes patients' behavior."
+    },
+    {
+     "id": "B",
+     "text": "Before the app was introduced, the patients who later chose to use it had been no more consistent in taking their medication than other patients.",
+     "correct": true,
+     "trap": null,
+     "why": "It rules out the main alternative: that the app users were already the more consistent patients."
+    },
+    {
+     "id": "C",
+     "text": "Some patients who used the app nonetheless missed several doses of their medication.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The claim is about consistency compared with other patients. Some missed doses are expected either way."
+    },
+    {
+     "id": "D",
+     "text": "Many clinics other than Elmridge have also begun recommending mobile reminder apps.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Other clinics' recommendations aren't evidence about this app's effect."
+    },
+    {
+     "id": "E",
+     "text": "Patients who did not use the app were more likely to report unpleasant side effects from their medication.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That's a rival reason the non-users skipped doses, so it weakens the argument."
+    }
+   ],
+   "tldr": "Showing both groups started out equally consistent rules out self-selection.",
+   "steps": [
+    {
+     "label": "Task",
+     "body": "Strengthen a causal conclusion drawn from a comparison."
+    },
+    {
+     "label": "Core",
+     "body": "App users were more consistent than non-users, so the app caused the consistency."
+    },
+    {
+     "label": "Gap",
+     "body": "The users chose the app. Maybe the more conscientious patients are the ones who chose it."
+    },
+    {
+     "label": "Fix",
+     "body": "Show the two groups were alike before the app arrived."
+    }
+   ],
+   "takeaway": "To strengthen \"X caused the difference,\" show the groups were alike before X.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0004",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Critic: The novel Tidewater should not be assigned in introductory literature courses. Its plot turns on several historical events that most first-year students have never heard of, so those students would miss the point of the novel's central conflict.",
+   "prompt": "Which one of the following is an assumption on which the critic's argument depends?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Novels assigned in introductory literature courses should contain no historical references at all.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument doesn't need to ban every reference, only the kind that blocks understanding."
+    },
+    {
+     "id": "B",
+     "text": "Tidewater does not itself provide enough information about those historical events for an unfamiliar reader to grasp its central conflict.",
+     "correct": true,
+     "trap": null,
+     "why": "Negate it: if the novel explains the events itself, students wouldn't miss the point and the argument collapses."
+    },
+    {
+     "id": "C",
+     "text": "Most first-year students would enjoy Tidewater if they understood its historical references.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument is about understanding the conflict, not enjoyment."
+    },
+    {
+     "id": "D",
+     "text": "Advanced literature courses are a better place for novels with complex plots.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The critic never says where the novel should be assigned, so this isn't required."
+    },
+    {
+     "id": "E",
+     "text": "Tidewater is the only novel whose plot turns on unfamiliar historical events.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Other novels could share the problem. The argument doesn't depend on Tidewater being unique."
+    }
+   ],
+   "tldr": "If the novel explained the history itself, students wouldn't miss the point, so the argument needs it not to.",
+   "steps": [
+    {
+     "label": "Task",
+     "body": "Necessary assumption. Find what the argument can't survive without."
+    },
+    {
+     "label": "Core",
+     "body": "Evidence: students don't know the history. Conclusion: they'd miss the novel's point, so don't assign it."
+    },
+    {
+     "label": "Gap",
+     "body": "Not knowing history beforehand only matters if the book doesn't fill it in."
+    },
+    {
+     "label": "Check",
+     "body": "Negate the answer. If Tidewater explains the events, the argument fails."
+    }
+   ],
+   "takeaway": "Use the negation test. A necessary assumption, once negated, breaks the argument.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0005",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "sufficient_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-sufficient-bridge",
+    "kp-lsat-contrapositive"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Anyone who qualifies for the Morrow Fellowship has published original research. Dana has not published any original research. Therefore, Dana is not eligible for the faculty travel grant.",
+   "prompt": "The conclusion follows logically if which one of the following is assumed?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Anyone who has published original research is eligible for the faculty travel grant.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "This tells us who is eligible, not who isn't. It can't rule Dana out."
+    },
+    {
+     "id": "B",
+     "text": "Only people who qualify for the Morrow Fellowship are eligible for the faculty travel grant.",
+     "correct": true,
+     "trap": null,
+     "why": "Grant → Fellowship → published. Dana hasn't published, so Dana can't qualify, so Dana isn't eligible."
+    },
+    {
+     "id": "C",
+     "text": "Anyone who qualifies for the Morrow Fellowship is eligible for the faculty travel grant.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That's Fellowship → grant, the wrong direction. We need grant → Fellowship."
+    },
+    {
+     "id": "D",
+     "text": "Most people who are eligible for the faculty travel grant have published original research.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "\"Most\" leaves room for Dana to be eligible anyway, so the conclusion isn't guaranteed."
+    },
+    {
+     "id": "E",
+     "text": "Dana has applied for the Morrow Fellowship in the past.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Applying says nothing about qualifying or about the grant."
+    }
+   ],
+   "tldr": "If only Fellowship-qualified people can get the grant, Dana (unpublished, so not qualified) can't get it.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Premise: Fellowship → published. Contrapositive: not published → not Fellowship."
+    },
+    {
+     "label": "Apply",
+     "body": "Dana hasn't published, so Dana doesn't qualify for the Fellowship."
+    },
+    {
+     "label": "Gap",
+     "body": "The conclusion is about the travel grant, a new term. We need: not Fellowship → not grant, which is the same as grant → Fellowship."
+    }
+   ],
+   "takeaway": "\"Only X are Y\" means Y → X. In sufficient assumption questions, the right answer chains the new term to the premises in the needed direction.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0006",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-necessary-vs-sufficient"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Every successful restaurant in Lindale advertises on local radio. Café Orla advertises on local radio, so it will surely be successful.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "takes for granted that a condition required for success is enough to guarantee it",
+     "correct": true,
+     "trap": null,
+     "why": "Radio ads are necessary for success in Lindale, not sufficient. Plenty of failing restaurants might advertise too."
+    },
+    {
+     "id": "B",
+     "text": "relies on too small a sample of restaurants to support a general conclusion",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The premise covers every successful restaurant. Sample size isn't the issue."
+    },
+    {
+     "id": "C",
+     "text": "assumes that what is true of restaurants in Lindale is true of restaurants everywhere",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion stays in Lindale; it never generalizes beyond it."
+    },
+    {
+     "id": "D",
+     "text": "attacks the reputation of Café Orla instead of evaluating its advertising",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument says nothing about Café Orla's reputation."
+    },
+    {
+     "id": "E",
+     "text": "confuses a cause of a restaurant's success with an effect of it",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument makes no causal claim, only a conditional one, so this isn't the mistake."
+    }
+   ],
+   "tldr": "Advertising is required for success, but the argument treats it as a guarantee.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Premise: successful → advertises. The argument concludes: advertises → successful."
+    },
+    {
+     "label": "Flaw",
+     "body": "That reverses the conditional, treating a necessary condition as a sufficient one."
+    }
+   ],
+   "takeaway": "\"All successful X do Y\" never means \"doing Y makes X successful.\"",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0007",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-part-whole"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Each of the five programs in the Kestrel software suite runs quickly on older computers. So the Kestrel suite, with all five programs running at once, will run quickly on older computers.",
+   "prompt": "Which one of the following most accurately describes a flaw in the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "It presumes that what is true of each part of a whole is true of the whole.",
+     "correct": true,
+     "trap": null,
+     "why": "Programs that are fast alone can be slow together, since they compete for the same memory and processor."
+    },
+    {
+     "id": "B",
+     "text": "It presumes that what is true of a whole is true of each of its parts.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That's the division flaw, the mirror image. Here the reasoning runs part → whole."
+    },
+    {
+     "id": "C",
+     "text": "It relies on testimony from the software's developers.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No testimony appears in the argument."
+    },
+    {
+     "id": "D",
+     "text": "It treats one possible cause of slow performance as the only cause.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument never identifies a cause of slowness."
+    },
+    {
+     "id": "E",
+     "text": "It draws a conclusion about all computers from evidence about older computers.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about older computers only."
+    }
+   ],
+   "tldr": "Five fast programs can still be slow when they run together.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Each part (program) is fast, so the whole (the suite running together) must be fast."
+    },
+    {
+     "label": "Flaw",
+     "body": "That's composition: properties of parts don't automatically transfer to the whole."
+    }
+   ],
+   "takeaway": "Composition assumes parts → whole. Division assumes whole → parts. Both are flaws.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0008",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "most_strongly_supported",
+   "family": "inference",
+   "knowledgePoints": [
+    "kp-lsat-numbers-proportions"
+   ],
+   "difficulty": 4,
+   "targetSec": 84,
+   "stimulus": "Every Brennan College student who studies abroad must first complete two years of a foreign language. Of the Brennan students who were eligible to study abroad this year, fewer than half chose to do so. Even so, the number of Brennan students studying abroad this year is the highest in the college's history.",
+   "prompt": "If the statements above are true, which one of the following is most strongly supported by them?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Fewer Brennan students are studying abroad this year than in some previous year.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "This year's number is the highest ever, so this contradicts the stimulus."
+    },
+    {
+     "id": "B",
+     "text": "This year, more than twice as many Brennan students were eligible to study abroad as actually did so.",
+     "correct": true,
+     "trap": null,
+     "why": "Everyone who went was eligible, and fewer than half of the eligible went, so eligible students outnumber those who went by more than two to one."
+    },
+    {
+     "id": "C",
+     "text": "More Brennan students were eligible to study abroad this year than in any previous year.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Tempting, but a past year could have had more eligible students and a lower participation rate."
+    },
+    {
+     "id": "D",
+     "text": "Brennan College recently increased its foreign language requirement.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Nothing in the stimulus mentions a change in the requirement."
+    },
+    {
+     "id": "E",
+     "text": "Most Brennan students who complete two years of a foreign language do not want to study abroad.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Choosing not to go isn't the same as not wanting to. Cost or scheduling could explain it."
+    }
+   ],
+   "tldr": "All who went were eligible, and under half of the eligible went, so eligible students outnumber them more than two to one.",
+   "steps": [
+    {
+     "label": "Task",
+     "body": "Most strongly supported. Find what the facts prove, not what's merely likely."
+    },
+    {
+     "label": "Combine",
+     "body": "Students abroad ⊆ eligible students, and abroad < ½ × eligible. So eligible > 2 × abroad."
+    },
+    {
+     "label": "Trap",
+     "body": "A record number abroad doesn't mean a record number eligible. Counts and rates can move independently."
+    }
+   ],
+   "takeaway": "Proportions constrain counts. \"Fewer than half went\" means non-goers outnumber goers, but a record count of goers doesn't imply a record pool.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0009",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "main_conclusion",
+   "family": "structure",
+   "knowledgePoints": [
+    "kp-lsat-conclusion-signals"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Some economists argue that raising the minimum wage always reduces employment. But this view cannot be right. Several regions that raised their minimum wage last year saw employment grow, and economists who study those regions found no evidence that employment would have grown faster without the increase.",
+   "prompt": "Which one of the following most accurately expresses the conclusion drawn in the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Raising the minimum wage never reduces employment.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author denies \"always reduces,\" which is not the same as claiming \"never reduces.\""
+    },
+    {
+     "id": "B",
+     "text": "It is not the case that raising the minimum wage always reduces employment.",
+     "correct": true,
+     "trap": null,
+     "why": "That's the claim \"this view cannot be right,\" spelled out. Everything after it is evidence for it."
+    },
+    {
+     "id": "C",
+     "text": "Employment grew last year in several regions that raised their minimum wage.",
+     "correct": false,
+     "trap": "restates_premise",
+     "why": "This is evidence the author offers, not what the evidence is meant to show."
+    },
+    {
+     "id": "D",
+     "text": "Economists who study regional employment are more reliable than other economists.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument never compares the reliability of economists."
+    },
+    {
+     "id": "E",
+     "text": "Raising the minimum wage tends to increase employment.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author only shows that raises don't always cut jobs, not that they usually add them."
+    }
+   ],
+   "tldr": "The conclusion is the rejection itself: raising the minimum wage doesn't always reduce employment.",
+   "steps": [
+    {
+     "label": "Find",
+     "body": "\"But this view cannot be right\" is the author's position. Translate \"this view\" back into words."
+    },
+    {
+     "label": "Check",
+     "body": "The regional data support it, so they're premises, not the conclusion."
+    },
+    {
+     "label": "Calibrate",
+     "body": "Denying \"always\" isn't asserting \"never.\" Keep the answer exactly that strong."
+    }
+   ],
+   "takeaway": "When an author rejects someone else's view, the rejection is usually the main conclusion. Match its strength exactly.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0010",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "role",
+   "family": "structure",
+   "knowledgePoints": [
+    "kp-lsat-concession"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Museum director: Some board members want to charge admission to pay for new exhibits. But an admission fee would discourage the students and low-income families our charter obliges us to serve. Admittedly, a fee would raise substantial revenue. Still, we should fund the exhibits through private donations instead.",
+   "prompt": "The claim that a fee would raise substantial revenue plays which one of the following roles in the director's argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "It is the main conclusion of the argument.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The conclusion is that the museum should seek private donations instead."
+    },
+    {
+     "id": "B",
+     "text": "It is a consideration the director concedes that might seem to count against the conclusion.",
+     "correct": true,
+     "trap": null,
+     "why": "\"Admittedly\" signals a concession: revenue is a point in the fee's favor that the director acknowledges."
+    },
+    {
+     "id": "C",
+     "text": "It is offered as direct support for the argument's conclusion.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Revenue from a fee argues for the fee, not for seeking donations instead."
+    },
+    {
+     "id": "D",
+     "text": "It is a claim that the director tries to show is false.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The director accepts the claim. She just thinks other factors outweigh it."
+    },
+    {
+     "id": "E",
+     "text": "It is an intermediate conclusion supported by the claim about the museum's charter.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The charter point supports the main conclusion, not the revenue claim."
+    }
+   ],
+   "tldr": "\"Admittedly\" marks a concession: revenue counts against the conclusion, and the director grants it.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Conclusion: fund exhibits through donations. Support: a fee would deter those the charter requires serving."
+    },
+    {
+     "label": "Role",
+     "body": "The revenue claim points the other way, and the director grants it before rejecting the fee anyway."
+    }
+   ],
+   "takeaway": "Concession signals (\"admittedly,\" \"granted,\" \"although\") mark points the author accepts but argues past.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0011",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "paradox",
+   "family": "paradox",
+   "knowledgePoints": [
+    "kp-lsat-paradox-both"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "After the town of Pell installed brighter streetlights on its main roads, the number of nighttime traffic accidents on those roads increased, even though the brighter lights make it easier for drivers to see.",
+   "prompt": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The brighter streetlights cost more to operate than the old ones did.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Operating cost has nothing to do with the number of accidents."
+    },
+    {
+     "id": "B",
+     "text": "After the new lights were installed, many drivers who had avoided Pell's main roads at night began using them, greatly increasing nighttime traffic.",
+     "correct": true,
+     "trap": null,
+     "why": "More cars on the road can mean more accidents in total, even if each driver sees better."
+    },
+    {
+     "id": "C",
+     "text": "Most residents of Pell approved of the decision to install the new lights.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Residents' approval doesn't explain the accident numbers."
+    },
+    {
+     "id": "D",
+     "text": "Brighter streetlights also make it easier for pedestrians to see oncoming cars.",
+     "correct": false,
+     "trap": "deepens",
+     "why": "Another safety benefit makes the rise in accidents even more puzzling."
+    },
+    {
+     "id": "E",
+     "text": "Several other towns that installed brighter streetlights saw nighttime accidents decrease.",
+     "correct": false,
+     "trap": "deepens",
+     "why": "That makes Pell's increase more surprising, not less."
+    }
+   ],
+   "tldr": "Better visibility can coexist with more accidents if many more people drive at night.",
+   "steps": [
+    {
+     "label": "Facts",
+     "body": "Brighter lights improve visibility, yet nighttime accidents rose."
+    },
+    {
+     "label": "Prephrase",
+     "body": "Something else changed: more drivers, faster driving, or more risk-taking."
+    },
+    {
+     "label": "Check",
+     "body": "The right answer keeps both facts true. More traffic does that: the rate per driver can fall while the total rises."
+    }
+   ],
+   "takeaway": "Resolve a paradox by explaining how both facts hold. Totals can rise while per-person rates fall.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0012",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "principle",
+   "family": "principle",
+   "knowledgePoints": [
+    "kp-lsat-principle-match"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Columnist: The city should not adopt the proposed downtown parking rules. Although the rules would ease traffic congestion, they would make it much harder for disabled residents to reach the medical offices located downtown.",
+   "prompt": "Which one of the following principles, if valid, most helps to justify the columnist's reasoning?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A city should adopt any policy that would ease congestion downtown.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "This supports adopting the rules, the opposite of the columnist's conclusion."
+    },
+    {
+     "id": "B",
+     "text": "A policy that would significantly impede disabled residents' access to medical care should not be adopted, even if it has other benefits.",
+     "correct": true,
+     "trap": null,
+     "why": "It matches the evidence (harder access to medical offices) to the conclusion (don't adopt), even granting the congestion benefit."
+    },
+    {
+     "id": "C",
+     "text": "Cities should provide more parking near medical offices than near other businesses.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "This doesn't address whether these particular rules should be rejected."
+    },
+    {
+     "id": "D",
+     "text": "No policy should be adopted unless every resident supports it.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The columnist's argument is about access to medical care, not unanimous support."
+    },
+    {
+     "id": "E",
+     "text": "Congestion downtown is a more serious problem than limited access to medical offices.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "This would favor adopting the rules."
+    }
+   ],
+   "tldr": "The principle has to say that harming disabled residents' access to care outweighs the congestion benefit.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Benefit: less congestion. Cost: disabled residents lose access to care. Conclusion: don't adopt."
+    },
+    {
+     "label": "Match",
+     "body": "The principle should rank that cost above that benefit, specifically and without overreaching."
+    }
+   ],
+   "takeaway": "A justifying principle connects this argument's evidence to its conclusion, and doesn't go further.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0001",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p01",
+   "position": 1,
+   "type": "rc_main_point",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-main-point"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately expresses the main point of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Legal documents should avoid all technical terms so that consumers can understand them.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author never calls for banning all technical terms."
+    },
+    {
+     "id": "B",
+     "text": "Although traditional legal drafting was defended as precise, plain language need not sacrifice precision, which depends more on careful drafting than on vocabulary.",
+     "correct": true,
+     "trap": null,
+     "why": "It covers the traditional view, the movement's challenge and the author's own conclusion in the final paragraph."
+    },
+    {
+     "id": "C",
+     "text": "The plain-language movement has failed because critics still claim that plain language sacrifices precision.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The critics' persistence isn't presented as the movement's failure."
+    },
+    {
+     "id": "D",
+     "text": "Archaic legal phrases were litigated repeatedly during the twentieth century.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "That's one detail from the second paragraph, not the main point."
+    },
+    {
+     "id": "E",
+     "text": "Jurisdictions that require plain-language contracts have fewer legal disputes than those that do not.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage never compares dispute rates across jurisdictions."
+    }
+   ],
+   "tldr": "The passage moves from the traditional defense to the author's claim that precision comes from careful drafting, not archaic words.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1: the traditional style and its defense. P2: the movement's challenge. P3: critics answered, then the author's lesson."
+    },
+    {
+     "label": "Author",
+     "body": "The author's own view is in P3: clarity and precision aren't really at odds."
+    },
+    {
+     "label": "Match",
+     "body": "The right answer has to reach that conclusion, not stop at a detail."
+    }
+   ],
+   "takeaway": "A main-point answer covers the whole passage and lands on the author's own position.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0002",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p01",
+   "position": 2,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author mentions that many supposedly settled phrases \"had in fact been litigated repeatedly\" (second paragraph) primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "undermine the defenders' claim that traditional phrases had settled meanings",
+     "correct": true,
+     "trap": null,
+     "why": "If the phrases kept ending up in court, their meanings weren't settled, which is exactly what the defenders claimed."
+    },
+    {
+     "id": "B",
+     "text": "show that plain-language documents produce less litigation",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The detail is about traditional phrases, not plain-language documents."
+    },
+    {
+     "id": "C",
+     "text": "illustrate the archaic vocabulary of traditional legal documents",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The vocabulary examples come in the first paragraph. This detail does a different job."
+    },
+    {
+     "id": "D",
+     "text": "suggest that courts have been hostile to the plain-language movement",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing in the passage describes courts' attitude toward the movement."
+    },
+    {
+     "id": "E",
+     "text": "concede a point to critics of the plain-language movement",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "It's a point against the traditional style, made by the movement's advocates."
+    }
+   ],
+   "tldr": "Repeated litigation shows the \"settled\" meanings weren't settled, rebutting the defenders.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The detail opens P2, where advocates \"challenged this view,\" meaning the defenders' view from P1."
+    },
+    {
+     "label": "Purpose",
+     "body": "The defenders said meanings were settled. Repeated lawsuits suggest otherwise."
+    }
+   ],
+   "takeaway": "For function questions, ask what claim the detail supports or undercuts in its paragraph.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0003",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p01",
+   "position": 3,
+   "type": "rc_attitude",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "The author's attitude toward the critics described in the third paragraph can most accurately be described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "respectful agreement",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author argues against the critics with \"Yet…\""
+    },
+    {
+     "id": "B",
+     "text": "measured disagreement",
+     "correct": true,
+     "trap": null,
+     "why": "The author rejects their claim (\"less at odds than the critics suppose\") without hostility."
+    },
+    {
+     "id": "C",
+     "text": "open contempt",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Nothing in the tone is scornful."
+    },
+    {
+     "id": "D",
+     "text": "complete indifference",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author takes the time to rebut them."
+    },
+    {
+     "id": "E",
+     "text": "reluctant acceptance",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author doesn't accept the critics' claim."
+    }
+   ],
+   "tldr": "\"Yet clarity and precision are less at odds than the critics suppose\" is polite disagreement.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "P3 presents the critics, then pivots with \"Yet.\""
+    },
+    {
+     "label": "Calibrate",
+     "body": "The author disagrees, but calmly. Extreme tones like contempt overshoot."
+    }
+   ],
+   "takeaway": "RC authors rarely sneer. When an author disagrees, pick the measured answer over the extreme one.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0004",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p01",
+   "position": 4,
+   "type": "rc_detail",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-viewpoints"
+   ],
+   "difficulty": 1,
+   "targetSec": 78,
+   "prompt": "According to the passage, defenders of the traditional style argued that",
+   "options": [
+    {
+     "id": "A",
+     "text": "changing tested wording could invite litigation over the meaning of new words",
+     "correct": true,
+     "trap": null,
+     "why": "The first paragraph says exactly this."
+    },
+    {
+     "id": "B",
+     "text": "consumers rarely understand the contracts they sign",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That's the plain-language advocates' point, not the defenders'."
+    },
+    {
+     "id": "C",
+     "text": "archaic terms are more elegant than everyday language",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage never mentions elegance."
+    },
+    {
+     "id": "D",
+     "text": "legal documents should be read only by lawyers",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The passage never attributes this to anyone."
+    },
+    {
+     "id": "E",
+     "text": "plain language is too informal for use in court",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The critics in P3 worry about precision, not formality, and they aren't the defenders."
+    }
+   ],
+   "tldr": "The defenders' argument, in P1, is that changing tested words invites new lawsuits.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The defenders appear only in the first paragraph."
+    },
+    {
+     "label": "Match",
+     "body": "Their claim: phrases tested in court are settled, and new words invite litigation."
+    }
+   ],
+   "takeaway": "On detail questions, go back to the lines about that group. The trap is a true statement from someone else.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0005",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p01",
+   "position": 5,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author would be most likely to agree with which one of the following statements?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A contract drafted in archaic language is never enforceable.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author never questions whether traditional documents can be enforced."
+    },
+    {
+     "id": "B",
+     "text": "A drafter who carefully anticipates the situations a contract must govern can write a precise contract in everyday language.",
+     "correct": true,
+     "trap": null,
+     "why": "The final sentence ties precision to how carefully the drafter thinks things through, not to vocabulary."
+    },
+    {
+     "id": "C",
+     "text": "Plain-language contracts eliminate disputes between the parties.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The passage says unreadable documents cause some disputes, not that plain language ends them."
+    },
+    {
+     "id": "D",
+     "text": "Judges are less capable than laypeople of interpreting archaic terms.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The passage says judges parse clear sentences more reliably, not this."
+    },
+    {
+     "id": "E",
+     "text": "The plain-language movement began because courts required simpler documents.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The movement came first, and some jurisdictions later required plain language."
+    }
+   ],
+   "tldr": "The author locates precision in careful thinking, so everyday words can be precise.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The author's strongest claim is the last sentence of P3."
+    },
+    {
+     "label": "Infer",
+     "body": "If precision depends on the drafter's care rather than vocabulary, everyday words can be precise."
+    },
+    {
+     "label": "Eliminate",
+     "body": "Absolutes (\"never,\" \"eliminate\") overshoot what the author says."
+    }
+   ],
+   "takeaway": "The best inference stays close to the author's stated view. Absolutes are usually traps.",
+   "siblings": [],
+   "status": "review"
+  }
+ ],
+ "passages": [
+  {
+   "id": "lsat-rc-p01",
+   "exam": "LSAT",
+   "section": "RC",
+   "title": "Plain-language drafting",
+   "domain": "law",
+   "paragraphs": [
+    "For most of the twentieth century, legal documents were written in a style that ordinary readers found nearly impenetrable: long sentences, archaic terms such as \"heretofore\" and \"witnesseth,\" and strings of synonyms like \"give, devise, and bequeath.\" Defenders of this style argued that its phrases had been tested in court for generations, so their meanings were settled; changing even a single word, they warned, would invite new litigation over what the new word meant.",
+    "Beginning in the 1970s, a plain-language movement challenged this view. Its advocates pointed out that many supposedly settled phrases had in fact been litigated repeatedly, which suggested that their meanings were less certain than defenders claimed. They also observed that documents nobody could read imposed costs of their own: consumers signed agreements they did not understand, and disputes arose precisely because the parties had never shared an understanding of their obligations. Several jurisdictions eventually required that certain consumer contracts be written in clear, everyday language.",
+    "Critics of the movement have not disappeared. Some argue that plain language sacrifices precision, since ordinary words carry ordinary ambiguities. Yet clarity and precision are less at odds than the critics suppose: a sentence that a layperson can parse is often one that a judge can parse more reliably as well. The deeper lesson of the plain-language movement may be that the precision of a legal text depends less on its vocabulary than on how carefully its drafter has thought through the situations it must govern."
+   ],
+   "mini": false,
+   "itemIds": [
+    "lsat-rc-0001",
+    "lsat-rc-0002",
+    "lsat-rc-0003",
+    "lsat-rc-0004",
+    "lsat-rc-0005"
+   ]
+  }
+ ],
+ "knowledgePoints": [
+  {
+   "id": "kp-lsat-rival-cause",
+   "section": "LR",
+   "title": "Rival causes",
+   "front": "An argument concludes that X causes Y because X and Y show up together. What's the strongest way to weaken it?",
+   "back": "Name a rival cause: something else that differs between the groups and could produce Y. Reversed causation (Y causes X) and a skewed sample also work.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-strengthen-causal",
+   "section": "LR",
+   "title": "Strengthening a causal claim",
+   "front": "How do you strengthen \"X caused the difference between these two groups\"?",
+   "back": "Rule out the alternatives: show the groups were alike before X (same baseline), or that no other factor differs between them.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-negation-test",
+   "section": "LR",
+   "title": "The negation test",
+   "front": "How do you confirm that an answer is a necessary assumption?",
+   "back": "Negate it. If the negated version wrecks the argument, the argument needs it. If the argument survives, it isn't necessary.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-contrapositive",
+   "section": "LR",
+   "title": "Contrapositives",
+   "front": "\"If A, then B.\" What else must be true?",
+   "back": "If not B, then not A. \"If B, then A\" does not follow; that's a reversal.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-sufficient-bridge",
+   "section": "LR",
+   "title": "Sufficient assumptions",
+   "front": "What does the right answer to a sufficient assumption question do?",
+   "back": "It links the premises to the conclusion's new term so that, added to the premises, the conclusion is guaranteed. Check the direction of every conditional.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-necessary-vs-sufficient",
+   "section": "LR",
+   "title": "Necessary vs. sufficient",
+   "front": "\"Every successful restaurant advertises.\" Does advertising guarantee success?",
+   "back": "No. Advertising is necessary for success, not sufficient. Treating a requirement as a guarantee is one of the most common LSAT flaws.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-part-whole",
+   "section": "LR",
+   "title": "Parts and wholes",
+   "front": "Each part of a whole has a property. Does the whole have it too?",
+   "back": "Not necessarily. Assuming it does is the composition flaw. Assuming each part shares a property of the whole is the division flaw.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-numbers-proportions",
+   "section": "LR",
+   "title": "Numbers vs. proportions",
+   "front": "Fewer than half of the eligible students studied abroad. What follows about the counts?",
+   "back": "Eligible students outnumber those who went by more than two to one. But a record number who went doesn't prove a record number were eligible.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-conclusion-signals",
+   "section": "LR",
+   "title": "Finding the main conclusion",
+   "front": "An argument opens with someone else's view, then says \"But this view cannot be right.\" Where is the main conclusion?",
+   "back": "In the rejection itself: \"this view cannot be right.\" The sentences after it are the evidence for that rejection.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-concession",
+   "section": "LR",
+   "title": "Concessions",
+   "front": "What does \"Admittedly\" or \"Granted\" usually signal?",
+   "back": "A concession: a point the author accepts even though it seems to cut against the conclusion. It is neither the conclusion nor support for it.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-paradox-both",
+   "section": "LR",
+   "title": "Resolving a paradox",
+   "front": "What must the right answer to a paradox question do?",
+   "back": "Show how both surprising facts can be true at once, without denying either one.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-principle-match",
+   "section": "LR",
+   "title": "Matching a principle",
+   "front": "How do you choose a principle that justifies an argument?",
+   "back": "Match it to this argument's specific evidence and conclusion. It should carry you from the premises to the conclusion, and no further.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-main-point",
+   "section": "RC",
+   "title": "Main point",
+   "front": "What makes a main-point answer correct in Reading Comprehension?",
+   "back": "It covers the whole passage, including the author's own position, not one paragraph's detail or a view the author argues against.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-function",
+   "section": "RC",
+   "title": "Function questions",
+   "front": "\"The author mentions X primarily in order to…\" What are you really being asked?",
+   "back": "Why X is there: which claim in its paragraph it supports or undercuts.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-viewpoints",
+   "section": "RC",
+   "title": "Tracking viewpoints",
+   "front": "A question asks what the \"defenders\" argued. What's the most common trap?",
+   "back": "An answer that appears in the passage but belongs to a different group. Track who says what.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-extreme-language",
+   "section": "RC",
+   "title": "Extreme answers",
+   "front": "Why are \"always,\" \"never\" and \"eliminates\" risky in RC answers?",
+   "back": "Passages rarely support absolutes. Prefer the answer the text actually proves, even if it sounds modest.",
+   "exam": "LSAT"
+  }
+ ]
+}

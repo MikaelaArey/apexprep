@@ -1,0 +1,212 @@
+# MCAT Critical Analysis and Reasoning Skills: original passages for ApexPrep.
+# Not official AAMC content.
+
+- passage:
+    id: mcat-cars-p01
+    title: The translator's freedom
+    domain: humanities
+    paragraphs:
+      - >-
+        It is often said that a translation should be faithful to its original, as
+        though fidelity were a single, obvious virtue. But a translator of poetry
+        quickly discovers that fidelity pulls in several directions at once. A line
+        may be faithful to the literal meaning of its source and false to its music;
+        it may preserve the rhyme and lose the joke. Every translation is therefore
+        a record of choices about which kinds of faithfulness matter most.
+      - >-
+        Some critics respond by demanding that translators stay as close as possible
+        to the literal sense, on the grounds that the reader of a translation
+        deserves to know what the poet actually said. This position has the appeal
+        of modesty: the translator, on this view, is a servant who should not
+        presume to improve on a master. Yet modesty can conceal its own presumption.
+        To decide that literal sense is what the poet "actually said" is already to
+        rank meaning above sound, rhythm and tone, a ranking many poets would reject.
+      - >-
+        The alternative is not license. A translator who rewrites freely,
+        substituting her own images for the poet's, has produced a new poem, perhaps
+        a fine one, but she has abandoned the reader who wanted access to the
+        original. The most persuasive translations I know are neither literal nor
+        free in this sense. They begin from a judgment about what is most alive in
+        the original (its argument, its wit, its sorrow) and they spend their
+        fidelity there, accepting losses elsewhere.
+      - >-
+        Readers can hold translators to account only if those judgments are made
+        visible. A brief note explaining what the translator chose to preserve, and
+        what she let go, would do more for the honest reader than any amount of
+        insistence on fidelity in the abstract.
+  items:
+    - id: mcat-cars-0001
+      type: cars_main_idea
+      family: cars_foc
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The central thesis of the passage is that
+      options:
+        - text: translations of poetry should preserve the literal meaning of the original.
+          trap: wrong_viewpoint
+          why: That's the critics' position, which the author argues against.
+        - text: >-
+            because fidelity has several dimensions, a good translation reflects a
+            deliberate judgment about which of them to preserve.
+          correct: true
+          why: >-
+            This joins the opening claim (fidelity pulls several ways) to the
+            author's ideal of translations that "spend their fidelity" where it
+            matters most.
+        - text: translators should feel free to substitute their own images for the poet's.
+          trap: contradicts
+          why: The author rejects free rewriting in the third paragraph.
+        - text: poetry cannot be translated without destroying its value.
+          trap: too_strong
+          why: The author praises some translations as persuasive.
+      tldr: >-
+        Fidelity has many dimensions, so the best translations choose deliberately
+        what to keep.
+      steps:
+        - label: Map
+          body: >-
+            P1: fidelity pulls in several directions. P2: literalism rejected. P3: free
+            rewriting rejected; deliberate choice praised. P4: make the choices
+            visible.
+        - label: Thesis
+          body: The common thread is deliberate, visible judgment about which fidelity matters.
+      takeaway: >-
+        The main idea is the author's position, not a view the author rejects along
+        the way.
+      siblings: []
+
+    - id: mcat-cars-0002
+      type: cars_function
+      family: cars_rwt
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: >-
+        The author describes the critics' position as having "the appeal of modesty"
+        (paragraph 2) most likely in order to
+      options:
+        - text: >-
+            acknowledge its attraction before arguing that it rests on an unstated
+            ranking of values
+          correct: true
+          why: >-
+            The next sentence turns ("Yet modesty can conceal its own presumption")
+            to show literalism quietly ranks meaning first.
+        - text: endorse the critics' approach as the most defensible one
+          trap: wrong_direction
+          why: The author goes on to criticize the critics' approach.
+        - text: suggest that critics are more modest than translators
+          trap: distortion
+          why: The modesty described belongs to the translator in the critics' view, not to critics.
+        - text: show that poets prefer literal translations of their work
+          trap: contradicts
+          why: The author says many poets would reject literalism's ranking.
+      tldr: The author concedes literalism's appeal, then says "Yet…" to expose its hidden ranking.
+      steps:
+        - label: Locate
+          body: The phrase is followed immediately by "Yet modesty can conceal its own presumption."
+        - label: Purpose
+          body: It's a concession that sets up the author's counterargument.
+      takeaway: Authors often name an opposing view's appeal just before arguing against it.
+      siblings: []
+
+    - id: mcat-cars-0003
+      type: cars_inference
+      family: cars_rwt
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: >-
+        Based on the passage, the author would most likely say that a strictly
+        literal translation of a comic poem
+      options:
+        - text: could be faithful to the poem's meaning while failing to convey its humor.
+          correct: true
+          why: >-
+            The first paragraph says a translation "may preserve the rhyme and lose
+            the joke" and be faithful to literal meaning but "false to its music."
+        - text: is the only honest way to translate such a poem.
+          trap: wrong_viewpoint
+          why: That's closer to the critics' view, which the author disputes.
+        - text: would be more faithful than any other translation in every respect.
+          trap: too_strong
+          why: The author's point is that no translation is faithful in every respect.
+        - text: should never be attempted by a careful translator.
+          trap: too_strong
+          why: The author never forbids literal translation, only questions its priority.
+      tldr: Literal accuracy can coexist with losing what makes the poem funny.
+      steps:
+        - label: Locate
+          body: P1 lists ways fidelity splits, including keeping one feature and losing "the joke."
+        - label: Apply
+          body: A literal comic translation keeps meaning but may lose wit.
+      takeaway: CARS inferences stay close to what the author explicitly argues.
+      siblings: []
+
+    - id: mcat-cars-0004
+      type: cars_application
+      family: cars_rbt
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following practices would the author most likely endorse?
+      options:
+        - text: >-
+            Publishing a translation with a preface that explains which features of
+            the original the translator chose to preserve
+          correct: true
+          why: The last paragraph recommends exactly this kind of note.
+        - text: Requiring translators to preserve the original rhyme scheme in every case
+          trap: too_strong
+          why: >-
+            The author wants translators to choose what to keep, not follow a fixed
+            rule.
+        - text: Discouraging readers from comparing translations with their originals
+          trap: wrong_direction
+          why: The author wants readers able to hold translators to account.
+        - text: Replacing difficult images in the original with more familiar ones
+          trap: contradicts
+          why: The author criticizes substituting one's own images for the poet's.
+      tldr: The author wants translators' choices made visible, for example in a brief note.
+      steps:
+        - label: Locate
+          body: P4 gives the author's recommendation outright.
+        - label: Match
+          body: A preface explaining what was kept and lost is that recommendation in practice.
+      takeaway: Application answers match the author's own recommendations, usually stated near the end.
+      siblings: []
+
+    - id: mcat-cars-0005
+      type: cars_challenge
+      family: cars_rbt
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: >-
+        Which of the following findings, if true, would most challenge the author's
+        argument against strict literalism in paragraph 2?
+      options:
+        - text: >-
+            Nearly all poets who have commented on the translation of their work say
+            they value accurate rendering of meaning above sound and rhythm.
+          correct: true
+          why: >-
+            The author's objection rests on the claim that many poets would reject
+            ranking meaning first. This finding contradicts it.
+        - text: Many readers enjoy translations that preserve the original rhyme.
+          trap: out_of_scope
+          why: Readers' enjoyment doesn't address whether poets rank meaning first.
+        - text: Some translators include explanatory notes with their translations.
+          trap: true_irrelevant
+          why: This fits the author's recommendation, but it doesn't challenge the argument.
+        - text: Literal translations are usually quicker to produce than free ones.
+          trap: out_of_scope
+          why: Speed of translation isn't part of the argument.
+      tldr: >-
+        The argument leans on what poets value. Showing poets do rank meaning first
+        undercuts it.
+      steps:
+        - label: Isolate
+          body: >-
+            P2's objection: literalism ranks meaning above sound and tone, "a ranking
+            many poets would reject."
+        - label: Attack
+          body: Evidence that poets actually accept that ranking removes the objection's support.
+      takeaway: To challenge a claim, attack its key support directly, not a side issue.
+      siblings: []

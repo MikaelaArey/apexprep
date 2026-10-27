@@ -1,0 +1,30 @@
+# One review task: a question (answer it) or a concept card (reveal and rate Good).
+appId: host.exp.Exponent
+---
+- runFlow:
+    when:
+      visible:
+        id: "check"
+    commands:
+      - tapOn:
+          id: "option-A"
+      - tapOn:
+          id: "check"
+      - extendedWaitUntil:
+          visible:
+            id: "next"
+          timeout: 5000
+      - takeScreenshot: 41-review-question
+      - tapOn:
+          id: "next"
+- runFlow:
+    when:
+      visible:
+        id: "reveal-card"
+    commands:
+      - takeScreenshot: 42-card-front
+      - tapOn:
+          id: "reveal-card"
+      - takeScreenshot: 43-card-back
+      - tapOn:
+          id: "rate-3"

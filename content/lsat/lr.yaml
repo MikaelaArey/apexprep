@@ -1,0 +1,660 @@
+# LSAT Logical Reasoning: original practice questions written for ApexPrep.
+# Not official LSAT content. Every item needs expert review before status: live.
+
+- id: lsat-lr-0001
+  type: weaken
+  family: argument_evaluation
+  kps: [kp-lsat-rival-cause]
+  difficulty: 2
+  stimulus: >-
+    Residents of Marlow who drink at least two cups of green tea a day report fewer
+    colds than residents who do not. Therefore, drinking green tea strengthens the
+    immune system.
+  prompt: Which one of the following, if true, most seriously weakens the argument?
+  options:
+    - text: >-
+        Green tea contains antioxidants that have shown health benefits in
+        laboratory studies.
+      trap: wrong_direction
+      why: >-
+        If anything this supports the argument. A weakener has to attack the link
+        between the tea and the colds.
+    - text: >-
+        Marlow residents who drink green tea daily are also far more likely to
+        exercise regularly and sleep at least seven hours a night.
+      correct: true
+      why: >-
+        It offers a rival cause for the fewer colds, so the tea may be a bystander.
+    - text: Some residents who drink green tea daily still report catching colds.
+      trap: too_weak
+      why: >-
+        The claim is that tea drinkers get fewer colds, not none. A few colds don't
+        contradict it.
+    - text: Coffee drinkers in Marlow report more colds than green tea drinkers do.
+      trap: irrelevant_comparison
+      why: >-
+        Coffee drinkers are a new group. Comparing them can't explain why tea
+        drinkers get fewer colds.
+    - text: The survey of Marlow residents was conducted during the winter.
+      trap: doesnt_differentiate
+      why: >-
+        Winter affects both groups alike, so it can't explain the gap between them.
+  tldr: A rival cause (exercise, sleep) explains the gap, not the tea.
+  steps:
+    - label: Task
+      body: Weaken. Find the fact that most undermines the conclusion.
+    - label: Core
+      body: >-
+        Evidence: tea drinkers report fewer colds. Conclusion: tea strengthens
+        immunity.
+    - label: Gap
+      body: >-
+        A correlation is treated as a cause. Prephrase: something else about tea
+        drinkers keeps colds away.
+  takeaway: >-
+    Arguments that jump from correlation to cause fall to a rival cause that
+    differs between the groups.
+  siblings: [lsat-lr-0002]
+
+- id: lsat-lr-0002
+  type: weaken
+  family: argument_evaluation
+  kps: [kp-lsat-rival-cause]
+  difficulty: 3
+  stimulus: >-
+    Over the past decade, the districts of Halverton with the most public libraries
+    have had the lowest rates of juvenile crime. So building additional libraries in
+    the districts with the highest rates of juvenile crime would reduce juvenile
+    crime in those districts.
+  prompt: Which one of the following, if true, most seriously weakens the argument?
+  options:
+    - text: >-
+        Some districts of Halverton with few public libraries also have low rates of
+        juvenile crime.
+      trap: too_weak
+      why: >-
+        A few exceptions don't undo a general pattern, and they don't show that
+        libraries are irrelevant.
+    - text: >-
+        The districts of Halverton with the most public libraries also have the
+        highest household incomes and the most after-school programs.
+      correct: true
+      why: >-
+        Income and after-school programs are rival explanations for the low crime,
+        so adding libraries alone might change nothing.
+    - text: >-
+        Libraries throughout Halverton have extended their evening hours in recent
+        years.
+      trap: doesnt_differentiate
+      why: >-
+        The change applies to every district, so it can't account for differences
+        between them.
+    - text: Juvenile crime in Halverton as a whole has declined over the past decade.
+      trap: doesnt_differentiate
+      why: >-
+        A citywide decline says nothing about why some districts have lower rates
+        than others.
+    - text: Most of Halverton's libraries were built more than thirty years ago.
+      trap: out_of_scope
+      why: The age of the buildings has no bearing on whether libraries reduce crime.
+  tldr: >-
+    Wealth and after-school programs could explain the low crime, so more libraries
+    may not help.
+  steps:
+    - label: Task
+      body: Weaken a prediction that rests on a correlation.
+    - label: Core
+      body: >-
+        Evidence: more libraries go with less juvenile crime. Conclusion: adding
+        libraries will cut crime.
+    - label: Gap
+      body: >-
+        It assumes the libraries cause the low crime. Prephrase: something else about
+        those districts keeps crime low.
+  takeaway: >-
+    When a plan copies one feature of a successful group, look for the other
+    features that group has.
+  siblings: [lsat-lr-0001]
+
+- id: lsat-lr-0003
+  type: strengthen
+  family: argument_evaluation
+  kps: [kp-lsat-strengthen-causal]
+  difficulty: 3
+  stimulus: >-
+    Patients at Elmridge Clinic who used a new mobile reminder app took their
+    medication on schedule far more consistently than patients who did not use the
+    app. The clinic's director concludes that the app causes patients to take their
+    medication more consistently.
+  prompt: Which one of the following, if true, most strengthens the director's argument?
+  options:
+    - text: The app was developed by a company that also manufactures medication.
+      trap: out_of_scope
+      why: Who made the app says nothing about whether it changes patients' behavior.
+    - text: >-
+        Before the app was introduced, the patients who later chose to use it had
+        been no more consistent in taking their medication than other patients.
+      correct: true
+      why: >-
+        It rules out the main alternative: that the app users were already the more
+        consistent patients.
+    - text: >-
+        Some patients who used the app nonetheless missed several doses of their
+        medication.
+      trap: too_weak
+      why: >-
+        The claim is about consistency compared with other patients. Some missed
+        doses are expected either way.
+    - text: >-
+        Many clinics other than Elmridge have also begun recommending mobile
+        reminder apps.
+      trap: out_of_scope
+      why: Other clinics' recommendations aren't evidence about this app's effect.
+    - text: >-
+        Patients who did not use the app were more likely to report unpleasant side
+        effects from their medication.
+      trap: wrong_direction
+      why: >-
+        That's a rival reason the non-users skipped doses, so it weakens the
+        argument.
+  tldr: Showing both groups started out equally consistent rules out self-selection.
+  steps:
+    - label: Task
+      body: Strengthen a causal conclusion drawn from a comparison.
+    - label: Core
+      body: >-
+        App users were more consistent than non-users, so the app caused the
+        consistency.
+    - label: Gap
+      body: >-
+        The users chose the app. Maybe the more conscientious patients are the ones
+        who chose it.
+    - label: Fix
+      body: Show the two groups were alike before the app arrived.
+  takeaway: >-
+    To strengthen "X caused the difference," show the groups were alike before X.
+  siblings: []
+
+- id: lsat-lr-0004
+  type: necessary_assumption
+  family: assumption
+  kps: [kp-lsat-negation-test]
+  difficulty: 3
+  stimulus: >-
+    Critic: The novel Tidewater should not be assigned in introductory literature
+    courses. Its plot turns on several historical events that most first-year
+    students have never heard of, so those students would miss the point of the
+    novel's central conflict.
+  prompt: Which one of the following is an assumption on which the critic's argument depends?
+  options:
+    - text: >-
+        Novels assigned in introductory literature courses should contain no
+        historical references at all.
+      trap: too_strong
+      why: >-
+        The argument doesn't need to ban every reference, only the kind that blocks
+        understanding.
+    - text: >-
+        Tidewater does not itself provide enough information about those historical
+        events for an unfamiliar reader to grasp its central conflict.
+      correct: true
+      why: >-
+        Negate it: if the novel explains the events itself, students wouldn't miss
+        the point and the argument collapses.
+    - text: >-
+        Most first-year students would enjoy Tidewater if they understood its
+        historical references.
+      trap: out_of_scope
+      why: The argument is about understanding the conflict, not enjoyment.
+    - text: >-
+        Advanced literature courses are a better place for novels with complex
+        plots.
+      trap: out_of_scope
+      why: >-
+        The critic never says where the novel should be assigned, so this isn't
+        required.
+    - text: >-
+        Tidewater is the only novel whose plot turns on unfamiliar historical
+        events.
+      trap: too_strong
+      why: >-
+        Other novels could share the problem. The argument doesn't depend on
+        Tidewater being unique.
+  tldr: >-
+    If the novel explained the history itself, students wouldn't miss the point, so
+    the argument needs it not to.
+  steps:
+    - label: Task
+      body: Necessary assumption. Find what the argument can't survive without.
+    - label: Core
+      body: >-
+        Evidence: students don't know the history. Conclusion: they'd miss the
+        novel's point, so don't assign it.
+    - label: Gap
+      body: >-
+        Not knowing history beforehand only matters if the book doesn't fill it in.
+    - label: Check
+      body: Negate the answer. If Tidewater explains the events, the argument fails.
+  takeaway: >-
+    Use the negation test. A necessary assumption, once negated, breaks the
+    argument.
+  siblings: []
+
+- id: lsat-lr-0005
+  type: sufficient_assumption
+  family: assumption
+  kps: [kp-lsat-sufficient-bridge, kp-lsat-contrapositive]
+  difficulty: 3
+  stimulus: >-
+    Anyone who qualifies for the Morrow Fellowship has published original research.
+    Dana has not published any original research. Therefore, Dana is not eligible
+    for the faculty travel grant.
+  prompt: The conclusion follows logically if which one of the following is assumed?
+  options:
+    - text: >-
+        Anyone who has published original research is eligible for the faculty
+        travel grant.
+      trap: reversal
+      why: >-
+        This tells us who is eligible, not who isn't. It can't rule Dana out.
+    - text: >-
+        Only people who qualify for the Morrow Fellowship are eligible for the
+        faculty travel grant.
+      correct: true
+      why: >-
+        Grant → Fellowship → published. Dana hasn't published, so Dana can't
+        qualify, so Dana isn't eligible.
+    - text: >-
+        Anyone who qualifies for the Morrow Fellowship is eligible for the faculty
+        travel grant.
+      trap: reversal
+      why: >-
+        That's Fellowship → grant, the wrong direction. We need grant → Fellowship.
+    - text: >-
+        Most people who are eligible for the faculty travel grant have published
+        original research.
+      trap: too_weak
+      why: >-
+        "Most" leaves room for Dana to be eligible anyway, so the conclusion isn't
+        guaranteed.
+    - text: Dana has applied for the Morrow Fellowship in the past.
+      trap: out_of_scope
+      why: Applying says nothing about qualifying or about the grant.
+  tldr: >-
+    If only Fellowship-qualified people can get the grant, Dana (unpublished, so not
+    qualified) can't get it.
+  steps:
+    - label: Map
+      body: >-
+        Premise: Fellowship → published. Contrapositive: not published → not
+        Fellowship.
+    - label: Apply
+      body: Dana hasn't published, so Dana doesn't qualify for the Fellowship.
+    - label: Gap
+      body: >-
+        The conclusion is about the travel grant, a new term. We need: not
+        Fellowship → not grant, which is the same as grant → Fellowship.
+  takeaway: >-
+    "Only X are Y" means Y → X. In sufficient assumption questions, the right answer
+    chains the new term to the premises in the needed direction.
+  siblings: []
+
+- id: lsat-lr-0006
+  type: flaw
+  family: flaw_parallel
+  kps: [kp-lsat-necessary-vs-sufficient]
+  difficulty: 1
+  stimulus: >-
+    Every successful restaurant in Lindale advertises on local radio. Café Orla
+    advertises on local radio, so it will surely be successful.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: >-
+        takes for granted that a condition required for success is enough to
+        guarantee it
+      correct: true
+      why: >-
+        Radio ads are necessary for success in Lindale, not sufficient. Plenty of
+        failing restaurants might advertise too.
+    - text: >-
+        relies on too small a sample of restaurants to support a general conclusion
+      trap: not_present
+      why: The premise covers every successful restaurant. Sample size isn't the issue.
+    - text: >-
+        assumes that what is true of restaurants in Lindale is true of restaurants
+        everywhere
+      trap: not_present
+      why: The conclusion stays in Lindale; it never generalizes beyond it.
+    - text: attacks the reputation of Café Orla instead of evaluating its advertising
+      trap: not_present
+      why: The argument says nothing about Café Orla's reputation.
+    - text: confuses a cause of a restaurant's success with an effect of it
+      trap: not_present
+      why: >-
+        The argument makes no causal claim, only a conditional one, so this isn't
+        the mistake.
+  tldr: Advertising is required for success, but the argument treats it as a guarantee.
+  steps:
+    - label: Map
+      body: >-
+        Premise: successful → advertises. The argument concludes: advertises →
+        successful.
+    - label: Flaw
+      body: >-
+        That reverses the conditional, treating a necessary condition as a
+        sufficient one.
+  takeaway: >-
+    "All successful X do Y" never means "doing Y makes X successful."
+  siblings: []
+
+- id: lsat-lr-0007
+  type: flaw
+  family: flaw_parallel
+  kps: [kp-lsat-part-whole]
+  difficulty: 2
+  stimulus: >-
+    Each of the five programs in the Kestrel software suite runs quickly on older
+    computers. So the Kestrel suite, with all five programs running at once, will
+    run quickly on older computers.
+  prompt: Which one of the following most accurately describes a flaw in the argument?
+  options:
+    - text: It presumes that what is true of each part of a whole is true of the whole.
+      correct: true
+      why: >-
+        Programs that are fast alone can be slow together, since they compete for
+        the same memory and processor.
+    - text: It presumes that what is true of a whole is true of each of its parts.
+      trap: reversal
+      why: That's the division flaw, the mirror image. Here the reasoning runs part → whole.
+    - text: It relies on testimony from the software's developers.
+      trap: not_present
+      why: No testimony appears in the argument.
+    - text: It treats one possible cause of slow performance as the only cause.
+      trap: not_present
+      why: The argument never identifies a cause of slowness.
+    - text: It draws a conclusion about all computers from evidence about older computers.
+      trap: not_present
+      why: The conclusion is about older computers only.
+  tldr: Five fast programs can still be slow when they run together.
+  steps:
+    - label: Map
+      body: >-
+        Each part (program) is fast, so the whole (the suite running together) must
+        be fast.
+    - label: Flaw
+      body: >-
+        That's composition: properties of parts don't automatically transfer to the
+        whole.
+  takeaway: >-
+    Composition assumes parts → whole. Division assumes whole → parts. Both are
+    flaws.
+  siblings: []
+
+- id: lsat-lr-0008
+  type: most_strongly_supported
+  family: inference
+  kps: [kp-lsat-numbers-proportions]
+  difficulty: 4
+  stimulus: >-
+    Every Brennan College student who studies abroad must first complete two years
+    of a foreign language. Of the Brennan students who were eligible to study abroad
+    this year, fewer than half chose to do so. Even so, the number of Brennan
+    students studying abroad this year is the highest in the college's history.
+  prompt: >-
+    If the statements above are true, which one of the following is most strongly
+    supported by them?
+  options:
+    - text: Fewer Brennan students are studying abroad this year than in some previous year.
+      trap: contradicts
+      why: This year's number is the highest ever, so this contradicts the stimulus.
+    - text: >-
+        This year, more than twice as many Brennan students were eligible to study
+        abroad as actually did so.
+      correct: true
+      why: >-
+        Everyone who went was eligible, and fewer than half of the eligible went, so
+        eligible students outnumber those who went by more than two to one.
+    - text: >-
+        More Brennan students were eligible to study abroad this year than in any
+        previous year.
+      trap: unsupported
+      why: >-
+        Tempting, but a past year could have had more eligible students and a lower
+        participation rate.
+    - text: Brennan College recently increased its foreign language requirement.
+      trap: out_of_scope
+      why: Nothing in the stimulus mentions a change in the requirement.
+    - text: >-
+        Most Brennan students who complete two years of a foreign language do not
+        want to study abroad.
+      trap: too_strong
+      why: >-
+        Choosing not to go isn't the same as not wanting to. Cost or scheduling could
+        explain it.
+  tldr: >-
+    All who went were eligible, and under half of the eligible went, so eligible
+    students outnumber them more than two to one.
+  steps:
+    - label: Task
+      body: Most strongly supported. Find what the facts prove, not what's merely likely.
+    - label: Combine
+      body: >-
+        Students abroad ⊆ eligible students, and abroad < ½ × eligible. So
+        eligible > 2 × abroad.
+    - label: Trap
+      body: >-
+        A record number abroad doesn't mean a record number eligible. Counts and
+        rates can move independently.
+  takeaway: >-
+    Proportions constrain counts. "Fewer than half went" means non-goers outnumber
+    goers, but a record count of goers doesn't imply a record pool.
+  siblings: []
+
+- id: lsat-lr-0009
+  type: main_conclusion
+  family: structure
+  kps: [kp-lsat-conclusion-signals]
+  difficulty: 2
+  stimulus: >-
+    Some economists argue that raising the minimum wage always reduces employment.
+    But this view cannot be right. Several regions that raised their minimum wage
+    last year saw employment grow, and economists who study those regions found no
+    evidence that employment would have grown faster without the increase.
+  prompt: Which one of the following most accurately expresses the conclusion drawn in the argument?
+  options:
+    - text: Raising the minimum wage never reduces employment.
+      trap: too_strong
+      why: >-
+        The author denies "always reduces," which is not the same as claiming
+        "never reduces."
+    - text: It is not the case that raising the minimum wage always reduces employment.
+      correct: true
+      why: >-
+        That's the claim "this view cannot be right," spelled out. Everything after
+        it is evidence for it.
+    - text: Employment grew last year in several regions that raised their minimum wage.
+      trap: restates_premise
+      why: This is evidence the author offers, not what the evidence is meant to show.
+    - text: >-
+        Economists who study regional employment are more reliable than other
+        economists.
+      trap: out_of_scope
+      why: The argument never compares the reliability of economists.
+    - text: Raising the minimum wage tends to increase employment.
+      trap: too_strong
+      why: >-
+        The author only shows that raises don't always cut jobs, not that they
+        usually add them.
+  tldr: >-
+    The conclusion is the rejection itself: raising the minimum wage doesn't always
+    reduce employment.
+  steps:
+    - label: Find
+      body: >-
+        "But this view cannot be right" is the author's position. Translate "this
+        view" back into words.
+    - label: Check
+      body: The regional data support it, so they're premises, not the conclusion.
+    - label: Calibrate
+      body: Denying "always" isn't asserting "never." Keep the answer exactly that strong.
+  takeaway: >-
+    When an author rejects someone else's view, the rejection is usually the main
+    conclusion. Match its strength exactly.
+  siblings: []
+
+- id: lsat-lr-0010
+  type: role
+  family: structure
+  kps: [kp-lsat-concession]
+  difficulty: 2
+  stimulus: >-
+    Museum director: Some board members want to charge admission to pay for new
+    exhibits. But an admission fee would discourage the students and low-income
+    families our charter obliges us to serve. Admittedly, a fee would raise
+    substantial revenue. Still, we should fund the exhibits through private
+    donations instead.
+  prompt: >-
+    The claim that a fee would raise substantial revenue plays which one of the
+    following roles in the director's argument?
+  options:
+    - text: It is the main conclusion of the argument.
+      trap: wrong_direction
+      why: The conclusion is that the museum should seek private donations instead.
+    - text: >-
+        It is a consideration the director concedes that might seem to count against
+        the conclusion.
+      correct: true
+      why: >-
+        "Admittedly" signals a concession: revenue is a point in the fee's favor
+        that the director acknowledges.
+    - text: It is offered as direct support for the argument's conclusion.
+      trap: wrong_direction
+      why: >-
+        Revenue from a fee argues for the fee, not for seeking donations instead.
+    - text: It is a claim that the director tries to show is false.
+      trap: distortion
+      why: The director accepts the claim. She just thinks other factors outweigh it.
+    - text: >-
+        It is an intermediate conclusion supported by the claim about the museum's
+        charter.
+      trap: distortion
+      why: The charter point supports the main conclusion, not the revenue claim.
+  tldr: >-
+    "Admittedly" marks a concession: revenue counts against the conclusion, and the
+    director grants it.
+  steps:
+    - label: Map
+      body: >-
+        Conclusion: fund exhibits through donations. Support: a fee would deter
+        those the charter requires serving.
+    - label: Role
+      body: >-
+        The revenue claim points the other way, and the director grants it before
+        rejecting the fee anyway.
+  takeaway: >-
+    Concession signals ("admittedly," "granted," "although") mark points the author
+    accepts but argues past.
+  siblings: []
+
+- id: lsat-lr-0011
+  type: paradox
+  family: paradox
+  kps: [kp-lsat-paradox-both]
+  difficulty: 2
+  stimulus: >-
+    After the town of Pell installed brighter streetlights on its main roads, the
+    number of nighttime traffic accidents on those roads increased, even though the
+    brighter lights make it easier for drivers to see.
+  prompt: >-
+    Which one of the following, if true, most helps to resolve the apparent
+    discrepancy described above?
+  options:
+    - text: The brighter streetlights cost more to operate than the old ones did.
+      trap: out_of_scope
+      why: Operating cost has nothing to do with the number of accidents.
+    - text: >-
+        After the new lights were installed, many drivers who had avoided Pell's
+        main roads at night began using them, greatly increasing nighttime traffic.
+      correct: true
+      why: >-
+        More cars on the road can mean more accidents in total, even if each driver
+        sees better.
+    - text: Most residents of Pell approved of the decision to install the new lights.
+      trap: out_of_scope
+      why: Residents' approval doesn't explain the accident numbers.
+    - text: Brighter streetlights also make it easier for pedestrians to see oncoming cars.
+      trap: deepens
+      why: >-
+        Another safety benefit makes the rise in accidents even more puzzling.
+    - text: >-
+        Several other towns that installed brighter streetlights saw nighttime
+        accidents decrease.
+      trap: deepens
+      why: That makes Pell's increase more surprising, not less.
+  tldr: Better visibility can coexist with more accidents if many more people drive at night.
+  steps:
+    - label: Facts
+      body: Brighter lights improve visibility, yet nighttime accidents rose.
+    - label: Prephrase
+      body: >-
+        Something else changed: more drivers, faster driving, or more
+        risk-taking.
+    - label: Check
+      body: >-
+        The right answer keeps both facts true. More traffic does that: the rate per
+        driver can fall while the total rises.
+  takeaway: >-
+    Resolve a paradox by explaining how both facts hold. Totals can rise while
+    per-person rates fall.
+  siblings: []
+
+- id: lsat-lr-0012
+  type: principle
+  family: principle
+  kps: [kp-lsat-principle-match]
+  difficulty: 2
+  stimulus: >-
+    Columnist: The city should not adopt the proposed downtown parking rules.
+    Although the rules would ease traffic congestion, they would make it much harder
+    for disabled residents to reach the medical offices located downtown.
+  prompt: >-
+    Which one of the following principles, if valid, most helps to justify the
+    columnist's reasoning?
+  options:
+    - text: A city should adopt any policy that would ease congestion downtown.
+      trap: wrong_direction
+      why: This supports adopting the rules, the opposite of the columnist's conclusion.
+    - text: >-
+        A policy that would significantly impede disabled residents' access to
+        medical care should not be adopted, even if it has other benefits.
+      correct: true
+      why: >-
+        It matches the evidence (harder access to medical offices) to the conclusion
+        (don't adopt), even granting the congestion benefit.
+    - text: Cities should provide more parking near medical offices than near other businesses.
+      trap: out_of_scope
+      why: This doesn't address whether these particular rules should be rejected.
+    - text: No policy should be adopted unless every resident supports it.
+      trap: too_strong
+      why: >-
+        The columnist's argument is about access to medical care, not unanimous
+        support.
+    - text: Congestion downtown is a more serious problem than limited access to medical offices.
+      trap: wrong_direction
+      why: This would favor adopting the rules.
+  tldr: >-
+    The principle has to say that harming disabled residents' access to care
+    outweighs the congestion benefit.
+  steps:
+    - label: Map
+      body: >-
+        Benefit: less congestion. Cost: disabled residents lose access to care.
+        Conclusion: don't adopt.
+    - label: Match
+      body: >-
+        The principle should rank that cost above that benefit, specifically and
+        without overreaching.
+  takeaway: >-
+    A justifying principle connects this argument's evidence to its conclusion, and
+    doesn't go further.
+  siblings: []

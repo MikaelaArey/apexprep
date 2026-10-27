@@ -1,0 +1,79 @@
+# Review session, Settings, Account, then the MCAT track.
+appId: host.exp.Exponent
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: LSAT
+      DEMO: "1"
+- tapOn: "Review"
+- tapOn:
+    id: "start-review"
+- repeat:
+    times: 7
+    commands:
+      - runFlow: _review-step.yaml
+- extendedWaitUntil:
+    visible:
+      id: "summary"
+    timeout: 8000
+- takeScreenshot: 44-review-summary
+- tapOn:
+    id: "summary-done"
+- tapOn: "Stats"
+- scrollUntilVisible:
+    element:
+      id: "calendar"
+    direction: DOWN
+- takeScreenshot: 45-calendar
+- tapOn: "Home"
+- tapOn:
+    id: "open-settings"
+- extendedWaitUntil:
+    visible:
+      id: "settings-close"
+    timeout: 5000
+- takeScreenshot: 46-settings
+- scroll
+- takeScreenshot: 47-settings-more
+- tapOn:
+    id: "account-row"
+- extendedWaitUntil:
+    visible:
+      id: "account-close"
+    timeout: 5000
+- takeScreenshot: 48-account
+- tapOn:
+    id: "account-close"
+- scrollUntilVisible:
+    element:
+      id: "settings-exam-MCAT"
+    direction: UP
+- tapOn:
+    id: "settings-exam-MCAT"
+- tapOn:
+    id: "settings-close"
+- tapOn: "Practice"
+- extendedWaitUntil:
+    visible:
+      id: "passage-mcat-bb-p01"
+    timeout: 5000
+- takeScreenshot: 49-mcat-practice
+- tapOn:
+    id: "passage-mcat-bb-p01"
+- extendedWaitUntil:
+    visible:
+      id: "start-questions"
+    timeout: 5000
+- takeScreenshot: 50-mcat-passage
+- tapOn:
+    id: "start-questions"
+- tapOn:
+    id: "option-B"
+- tapOn:
+    id: "check"
+- extendedWaitUntil:
+    visible:
+      id: "next"
+    timeout: 5000
+- takeScreenshot: 51-mcat-explanation

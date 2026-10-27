@@ -1,0 +1,15 @@
+appId: host.exp.Exponent
+---
+- tapOn: "Home"
+- tapOn:
+    id: "open-settings"
+- extendedWaitUntil:
+    visible:
+      id: "settings-exam-MCAT"
+    timeout: 5000
+- tapOn:
+    id: "settings-exam-MCAT"
+- takeScreenshot: 60-after-mcat-tap
+- tapOn:
+    id: "settings-close"
+- takeScreenshot: 61-home-after
