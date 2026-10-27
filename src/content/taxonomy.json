@@ -3,25 +3,77 @@
     "LSAT": {
       "name": "LSAT",
       "full": "Law School Admission Test",
-      "sections": ["LR", "RC"],
-      "score": { "min": 120, "max": 180, "default": 165 },
+      "sections": [
+        "LR",
+        "RC"
+      ],
+      "score": {
+        "min": 120,
+        "max": 180,
+        "default": 165
+      },
       "optionCount": 5
     },
     "MCAT": {
       "name": "MCAT",
       "full": "Medical College Admission Test",
-      "sections": ["CP", "CARS", "BB", "PS"],
-      "score": { "min": 472, "max": 528, "default": 510 },
+      "sections": [
+        "CP",
+        "CARS",
+        "BB",
+        "PS"
+      ],
+      "score": {
+        "min": 472,
+        "max": 528,
+        "default": 510
+      },
       "optionCount": 4
     }
   },
   "sections": {
-    "LR": { "exam": "LSAT", "short": "LR", "name": "Logical Reasoning", "weight": 0.667, "targetSec": 84 },
-    "RC": { "exam": "LSAT", "short": "RC", "name": "Reading Comprehension", "weight": 0.333, "targetSec": 78 },
-    "CP": { "exam": "MCAT", "short": "C/P", "name": "Chem/Phys", "weight": 0.25, "targetSec": 97 },
-    "CARS": { "exam": "MCAT", "short": "CARS", "name": "CARS", "weight": 0.25, "targetSec": 102 },
-    "BB": { "exam": "MCAT", "short": "B/B", "name": "Bio/Biochem", "weight": 0.25, "targetSec": 97 },
-    "PS": { "exam": "MCAT", "short": "P/S", "name": "Psych/Soc", "weight": 0.25, "targetSec": 97 }
+    "LR": {
+      "exam": "LSAT",
+      "short": "LR",
+      "name": "Logical Reasoning",
+      "weight": 0.667,
+      "targetSec": 84
+    },
+    "RC": {
+      "exam": "LSAT",
+      "short": "RC",
+      "name": "Reading Comprehension",
+      "weight": 0.333,
+      "targetSec": 78
+    },
+    "CP": {
+      "exam": "MCAT",
+      "short": "C/P",
+      "name": "Chem/Phys",
+      "weight": 0.25,
+      "targetSec": 97
+    },
+    "CARS": {
+      "exam": "MCAT",
+      "short": "CARS",
+      "name": "CARS",
+      "weight": 0.25,
+      "targetSec": 102
+    },
+    "BB": {
+      "exam": "MCAT",
+      "short": "B/B",
+      "name": "Bio/Biochem",
+      "weight": 0.25,
+      "targetSec": 97
+    },
+    "PS": {
+      "exam": "MCAT",
+      "short": "P/S",
+      "name": "Psych/Soc",
+      "weight": 0.25,
+      "targetSec": 97
+    }
   },
   "families": {
     "assumption": "Assumption",
@@ -44,96 +96,348 @@
     "cars_rbt": "Reasoning Beyond the Text"
   },
   "types": {
-    "necessary_assumption": { "name": "Necessary Assumption", "section": "LR" },
-    "sufficient_assumption": { "name": "Sufficient Assumption", "section": "LR" },
-    "weaken": { "name": "Weaken", "section": "LR" },
-    "strengthen": { "name": "Strengthen", "section": "LR" },
-    "evaluate": { "name": "Evaluate", "section": "LR" },
-    "flaw": { "name": "Flaw", "section": "LR" },
-    "parallel_flaw": { "name": "Parallel Flaw", "section": "LR" },
-    "parallel_reasoning": { "name": "Parallel Reasoning", "section": "LR" },
-    "most_strongly_supported": { "name": "Most Strongly Supported", "section": "LR" },
-    "must_be_true": { "name": "Must Be True", "section": "LR" },
-    "must_be_false": { "name": "Must Be False", "section": "LR" },
-    "main_conclusion": { "name": "Main Conclusion", "section": "LR" },
-    "role": { "name": "Role", "section": "LR" },
-    "method": { "name": "Method of Reasoning", "section": "LR" },
-    "point_at_issue": { "name": "Point at Issue", "section": "LR" },
-    "principle": { "name": "Principle", "section": "LR" },
-    "paradox": { "name": "Paradox", "section": "LR" },
-
-    "rc_main_point": { "name": "Main Point", "section": "RC" },
-    "rc_function": { "name": "Function", "section": "RC" },
-    "rc_attitude": { "name": "Author's Attitude", "section": "RC" },
-    "rc_detail": { "name": "Detail", "section": "RC" },
-    "rc_inference": { "name": "Inference", "section": "RC" },
-    "rc_application": { "name": "Application", "section": "RC" },
-    "rc_comparative": { "name": "Comparative", "section": "RC" },
-
-    "acids_bases": { "name": "Acids & bases", "section": "CP" },
-    "thermodynamics": { "name": "Thermodynamics", "section": "CP" },
-    "circuits": { "name": "Circuits", "section": "CP" },
-    "fluids": { "name": "Fluids", "section": "CP" },
-    "gases": { "name": "Gases", "section": "CP" },
-    "electrochemistry": { "name": "Electrochemistry", "section": "CP" },
-    "kinetics_equilibrium": { "name": "Kinetics & equilibrium", "section": "CP" },
-    "optics": { "name": "Light & optics", "section": "CP" },
-    "kinematics": { "name": "Kinematics & forces", "section": "CP" },
-    "orgo_reactions": { "name": "Organic reactions", "section": "CP" },
-
-    "enzyme_kinetics": { "name": "Enzyme kinetics", "section": "BB" },
-    "amino_acids": { "name": "Amino acids & proteins", "section": "BB" },
-    "molecular_biology": { "name": "Molecular biology", "section": "BB" },
-    "endocrine": { "name": "Endocrine system", "section": "BB" },
-    "nervous_system": { "name": "Nervous system", "section": "BB" },
-    "genetics": { "name": "Genetics", "section": "BB" },
-    "metabolism": { "name": "Metabolism", "section": "BB" },
-    "immune": { "name": "Immune system", "section": "BB" },
-    "cell_biology": { "name": "Cell biology", "section": "BB" },
-    "cardio_resp": { "name": "Circulation & respiration", "section": "BB" },
-
-    "learning": { "name": "Learning & conditioning", "section": "PS" },
-    "social_psych": { "name": "Social psychology", "section": "PS" },
-    "research_methods": { "name": "Research methods", "section": "PS" },
-    "sociology_theory": { "name": "Sociological theory", "section": "PS" },
-    "memory_cognition": { "name": "Memory & cognition", "section": "PS" },
-    "development": { "name": "Development", "section": "PS" },
-    "stratification": { "name": "Social stratification", "section": "PS" },
-    "sensation_perception": { "name": "Sensation & perception", "section": "PS" },
-    "identity_personality": { "name": "Identity & personality", "section": "PS" },
-
-    "cars_main_idea": { "name": "Main idea", "section": "CARS" },
-    "cars_function": { "name": "Function", "section": "CARS" },
-    "cars_inference": { "name": "Inference", "section": "CARS" },
-    "cars_application": { "name": "Application", "section": "CARS" },
-    "cars_challenge": { "name": "Strengthen & challenge", "section": "CARS" },
-    "cars_tone": { "name": "Tone", "section": "CARS" }
+    "necessary_assumption": {
+      "name": "Necessary Assumption",
+      "section": "LR"
+    },
+    "sufficient_assumption": {
+      "name": "Sufficient Assumption",
+      "section": "LR"
+    },
+    "weaken": {
+      "name": "Weaken",
+      "section": "LR"
+    },
+    "strengthen": {
+      "name": "Strengthen",
+      "section": "LR"
+    },
+    "evaluate": {
+      "name": "Evaluate",
+      "section": "LR"
+    },
+    "flaw": {
+      "name": "Flaw",
+      "section": "LR"
+    },
+    "parallel_flaw": {
+      "name": "Parallel Flaw",
+      "section": "LR"
+    },
+    "parallel_reasoning": {
+      "name": "Parallel Reasoning",
+      "section": "LR"
+    },
+    "most_strongly_supported": {
+      "name": "Most Strongly Supported",
+      "section": "LR"
+    },
+    "must_be_true": {
+      "name": "Must Be True",
+      "section": "LR"
+    },
+    "must_be_false": {
+      "name": "Must Be False",
+      "section": "LR"
+    },
+    "main_conclusion": {
+      "name": "Main Conclusion",
+      "section": "LR"
+    },
+    "role": {
+      "name": "Role",
+      "section": "LR"
+    },
+    "method": {
+      "name": "Method of Reasoning",
+      "section": "LR"
+    },
+    "point_at_issue": {
+      "name": "Point at Issue",
+      "section": "LR"
+    },
+    "principle": {
+      "name": "Principle",
+      "section": "LR"
+    },
+    "paradox": {
+      "name": "Paradox",
+      "section": "LR"
+    },
+    "rc_main_point": {
+      "name": "Main Point",
+      "section": "RC"
+    },
+    "rc_function": {
+      "name": "Function",
+      "section": "RC"
+    },
+    "rc_attitude": {
+      "name": "Author's Attitude",
+      "section": "RC"
+    },
+    "rc_detail": {
+      "name": "Detail",
+      "section": "RC"
+    },
+    "rc_inference": {
+      "name": "Inference",
+      "section": "RC"
+    },
+    "rc_application": {
+      "name": "Application",
+      "section": "RC"
+    },
+    "rc_comparative": {
+      "name": "Comparative",
+      "section": "RC"
+    },
+    "acids_bases": {
+      "name": "Acids & bases",
+      "section": "CP"
+    },
+    "thermodynamics": {
+      "name": "Thermodynamics",
+      "section": "CP"
+    },
+    "circuits": {
+      "name": "Circuits",
+      "section": "CP"
+    },
+    "fluids": {
+      "name": "Fluids",
+      "section": "CP"
+    },
+    "gases": {
+      "name": "Gases",
+      "section": "CP"
+    },
+    "electrochemistry": {
+      "name": "Electrochemistry",
+      "section": "CP"
+    },
+    "kinetics_equilibrium": {
+      "name": "Kinetics & equilibrium",
+      "section": "CP"
+    },
+    "optics": {
+      "name": "Light & optics",
+      "section": "CP"
+    },
+    "kinematics": {
+      "name": "Kinematics & forces",
+      "section": "CP"
+    },
+    "orgo_reactions": {
+      "name": "Organic reactions",
+      "section": "CP"
+    },
+    "enzyme_kinetics": {
+      "name": "Enzyme kinetics",
+      "section": "BB"
+    },
+    "amino_acids": {
+      "name": "Amino acids & proteins",
+      "section": "BB"
+    },
+    "molecular_biology": {
+      "name": "Molecular biology",
+      "section": "BB"
+    },
+    "endocrine": {
+      "name": "Endocrine system",
+      "section": "BB"
+    },
+    "nervous_system": {
+      "name": "Nervous system",
+      "section": "BB"
+    },
+    "genetics": {
+      "name": "Genetics",
+      "section": "BB"
+    },
+    "metabolism": {
+      "name": "Metabolism",
+      "section": "BB"
+    },
+    "immune": {
+      "name": "Immune system",
+      "section": "BB"
+    },
+    "cell_biology": {
+      "name": "Cell biology",
+      "section": "BB"
+    },
+    "cardio_resp": {
+      "name": "Circulation & respiration",
+      "section": "BB"
+    },
+    "learning": {
+      "name": "Learning & conditioning",
+      "section": "PS"
+    },
+    "social_psych": {
+      "name": "Social psychology",
+      "section": "PS"
+    },
+    "research_methods": {
+      "name": "Research methods",
+      "section": "PS"
+    },
+    "sociology_theory": {
+      "name": "Sociological theory",
+      "section": "PS"
+    },
+    "memory_cognition": {
+      "name": "Memory & cognition",
+      "section": "PS"
+    },
+    "development": {
+      "name": "Development",
+      "section": "PS"
+    },
+    "stratification": {
+      "name": "Social stratification",
+      "section": "PS"
+    },
+    "sensation_perception": {
+      "name": "Sensation & perception",
+      "section": "PS"
+    },
+    "identity_personality": {
+      "name": "Identity & personality",
+      "section": "PS"
+    },
+    "cars_main_idea": {
+      "name": "Main idea",
+      "section": "CARS"
+    },
+    "cars_function": {
+      "name": "Function",
+      "section": "CARS"
+    },
+    "cars_inference": {
+      "name": "Inference",
+      "section": "CARS"
+    },
+    "cars_application": {
+      "name": "Application",
+      "section": "CARS"
+    },
+    "cars_challenge": {
+      "name": "Strengthen & challenge",
+      "section": "CARS"
+    },
+    "cars_tone": {
+      "name": "Tone",
+      "section": "CARS"
+    }
   },
   "traps": {
-    "reversal": { "name": "Reversed condition", "desc": "Flips the logic: treats what's needed as a guarantee, or the reverse." },
-    "out_of_scope": { "name": "Out of scope", "desc": "Brings in something the argument or passage never addresses." },
-    "too_strong": { "name": "Too strong", "desc": "Goes further than the evidence supports (all, never, only)." },
-    "too_weak": { "name": "Too weak", "desc": "True or relevant, but not strong enough to do the job." },
-    "wrong_direction": { "name": "Wrong direction", "desc": "Does the opposite of what the question asks." },
-    "restates_premise": { "name": "Restates a premise", "desc": "Repeats evidence instead of doing the question's task." },
-    "irrelevant_comparison": { "name": "Irrelevant comparison", "desc": "Compares groups or things the argument doesn't depend on." },
-    "doesnt_differentiate": { "name": "Doesn't separate the groups", "desc": "Affects both sides equally, so it can't explain a difference." },
-    "not_present": { "name": "Not in the argument", "desc": "Describes a flaw or move the argument doesn't actually make." },
-    "half_right": { "name": "Half right", "desc": "Starts correctly, then adds a part that's wrong or unsupported." },
-    "deepens": { "name": "Deepens the puzzle", "desc": "Makes the discrepancy harder to explain, not easier." },
-    "contradicts": { "name": "Contradicts the text", "desc": "Conflicts with something the stimulus or passage states." },
-    "unsupported": { "name": "Could be true", "desc": "Might be true, but nothing in the text proves it." },
-    "too_narrow": { "name": "Too narrow", "desc": "Covers one detail or paragraph, not the whole passage." },
-    "wrong_viewpoint": { "name": "Wrong viewpoint", "desc": "Gives a view held by someone other than the one asked about." },
-    "distortion": { "name": "Distortion", "desc": "Uses the passage's words but twists what they mean." },
-    "sign_flip": { "name": "Flipped sign", "desc": "Right idea, wrong direction or sign (+/−, increase/decrease)." },
-    "power_of_ten": { "name": "Unit or power-of-10 slip", "desc": "Dropped a unit conversion or an order of magnitude." },
-    "lookalike": { "name": "Look-alike concept", "desc": "Confuses a similar-sounding concept, formula or structure." },
-    "skipped_step": { "name": "Skipped step", "desc": "Stops one step short of the full calculation." },
-    "misread_data": { "name": "Misread the data", "desc": "Pulls the wrong value from a table, graph or condition." },
-    "true_irrelevant": { "name": "True but irrelevant", "desc": "A correct statement that doesn't answer this question." },
-    "false_fact": { "name": "Factually wrong", "desc": "States something that isn't true about the science." },
-    "overreach": { "name": "Overreach", "desc": "Claims more than the data or study design can show." }
+    "reversal": {
+      "name": "Reversed condition",
+      "desc": "Flips the logic: treats what's needed as a guarantee, or the reverse."
+    },
+    "out_of_scope": {
+      "name": "Out of scope",
+      "desc": "Brings in something the argument or passage never addresses."
+    },
+    "too_strong": {
+      "name": "Too strong",
+      "desc": "Goes further than the evidence supports (all, never, only)."
+    },
+    "too_weak": {
+      "name": "Too weak",
+      "desc": "True or relevant, but not strong enough to do the job."
+    },
+    "wrong_direction": {
+      "name": "Wrong direction",
+      "desc": "Does the opposite of what the question asks."
+    },
+    "restates_premise": {
+      "name": "Restates a premise",
+      "desc": "Repeats evidence instead of doing the question's task."
+    },
+    "irrelevant_comparison": {
+      "name": "Irrelevant comparison",
+      "desc": "Compares groups or things the argument doesn't depend on."
+    },
+    "doesnt_differentiate": {
+      "name": "Doesn't separate the groups",
+      "desc": "Affects both sides equally, so it can't explain a difference."
+    },
+    "not_present": {
+      "name": "Not in the argument",
+      "desc": "Describes a flaw or move the argument doesn't actually make."
+    },
+    "half_right": {
+      "name": "Half right",
+      "desc": "Starts correctly, then adds a part that's wrong or unsupported."
+    },
+    "deepens": {
+      "name": "Deepens the puzzle",
+      "desc": "Makes the discrepancy harder to explain, not easier."
+    },
+    "contradicts": {
+      "name": "Contradicts the text",
+      "desc": "Conflicts with something the stimulus or passage states."
+    },
+    "unsupported": {
+      "name": "Could be true",
+      "desc": "Might be true, but nothing in the text proves it."
+    },
+    "too_narrow": {
+      "name": "Too narrow",
+      "desc": "Covers one detail or paragraph, not the whole passage."
+    },
+    "wrong_viewpoint": {
+      "name": "Wrong viewpoint",
+      "desc": "Gives a view held by someone other than the one asked about."
+    },
+    "distortion": {
+      "name": "Distortion",
+      "desc": "Uses the passage's words but twists what they mean."
+    },
+    "sign_flip": {
+      "name": "Flipped sign",
+      "desc": "Right idea, wrong direction or sign (+/−, increase/decrease)."
+    },
+    "power_of_ten": {
+      "name": "Unit or power-of-10 slip",
+      "desc": "Dropped a unit conversion or an order of magnitude."
+    },
+    "lookalike": {
+      "name": "Look-alike concept",
+      "desc": "Confuses a similar-sounding concept, formula or structure."
+    },
+    "skipped_step": {
+      "name": "Skipped step",
+      "desc": "Stops one step short of the full calculation."
+    },
+    "misread_data": {
+      "name": "Misread the data",
+      "desc": "Pulls the wrong value from a table, graph or condition."
+    },
+    "true_irrelevant": {
+      "name": "True but irrelevant",
+      "desc": "A correct statement that doesn't answer this question."
+    },
+    "false_fact": {
+      "name": "Factually wrong",
+      "desc": "States something that isn't true about the science."
+    },
+    "overreach": {
+      "name": "Overreach",
+      "desc": "Claims more than the data or study design can show."
+    },
+    "different_structure": {
+      "name": "Different structure",
+      "desc": "Shares the topic or some wording, but not the pattern of reasoning."
+    },
+    "not_in_dispute": {
+      "name": "Not in dispute",
+      "desc": "Both speakers agree on it, or at least one never takes a side."
+    }
   },
   "missReasons": {
     "didnt_know": "Didn't know it",

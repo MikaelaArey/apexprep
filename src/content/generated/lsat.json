@@ -1,7 +1,7 @@
 {
  "exam": "LSAT",
- "version": "c20260023fb0",
- "generatedAt": "2026-10-26T21:57:10.259Z",
+ "version": "2198748ba511",
+ "generatedAt": "2026-10-27T00:53:28.802Z",
  "items": [
   {
    "id": "lsat-lr-0001",
@@ -73,7 +73,8 @@
    ],
    "takeaway": "Arguments that jump from correlation to cause fall to a rival cause that differs between the groups.",
    "siblings": [
-    "lsat-lr-0002"
+    "lsat-lr-0002",
+    "lsat-lr-0017"
    ],
    "status": "review"
   },
@@ -224,7 +225,9 @@
     }
    ],
    "takeaway": "To strengthen \"X caused the difference,\" show the groups were alike before X.",
-   "siblings": [],
+   "siblings": [
+    "lsat-lr-0022"
+   ],
    "status": "review"
   },
   {
@@ -300,7 +303,9 @@
     }
    ],
    "takeaway": "Use the negation test. A necessary assumption, once negated, breaks the argument.",
-   "siblings": [],
+   "siblings": [
+    "lsat-lr-0021"
+   ],
    "status": "review"
   },
   {
@@ -373,7 +378,9 @@
     }
    ],
    "takeaway": "\"Only X are Y\" means Y → X. In sufficient assumption questions, the right answer chains the new term to the premises in the needed direction.",
-   "siblings": [],
+   "siblings": [
+    "lsat-lr-0018"
+   ],
    "status": "review"
   },
   {
@@ -441,7 +448,9 @@
     }
    ],
    "takeaway": "\"All successful X do Y\" never means \"doing Y makes X successful.\"",
-   "siblings": [],
+   "siblings": [
+    "lsat-lr-0014"
+   ],
    "status": "review"
   },
   {
@@ -581,7 +590,9 @@
     }
    ],
    "takeaway": "Proportions constrain counts. \"Fewer than half went\" means non-goers outnumber goers, but a record count of goers doesn't imply a record pool.",
-   "siblings": [],
+   "siblings": [
+    "lsat-lr-0023"
+   ],
    "status": "review"
   },
   {
@@ -793,7 +804,9 @@
     }
    ],
    "takeaway": "Resolve a paradox by explaining how both facts hold. Totals can rise while per-person rates fall.",
-   "siblings": [],
+   "siblings": [
+    "lsat-lr-0024"
+   ],
    "status": "review"
   },
   {
@@ -862,6 +875,883 @@
    ],
    "takeaway": "A justifying principle connects this argument's evidence to its conclusion, and doesn't go further.",
    "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0013",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "parallel_reasoning",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-parallel-structure",
+    "kp-lsat-contrapositive"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "If Lena takes the overnight train, she will arrive before the conference begins. If she arrives before the conference begins, she will give the opening talk. But Lena will not give the opening talk. So Lena will not take the overnight train.",
+   "prompt": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+   "options": [
+    {
+     "id": "A",
+     "text": "If the bakery opens early, it will sell out of bread by noon. If it sells out by noon, the owner will bake a second batch. The owner will not bake a second batch. So the bakery will not open early.",
+     "correct": true,
+     "trap": null,
+     "why": "Same chain (A → B, B → C), same denial of the last link (not C), same valid conclusion (not A)."
+    },
+    {
+     "id": "B",
+     "text": "If the bakery opens early, it will sell out of bread by noon. The bakery will sell out of bread by noon. So the bakery will open early.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "This affirms the result to conclude the condition, which is invalid. The original is valid."
+    },
+    {
+     "id": "C",
+     "text": "If the bakery opens early, it will sell out by noon, and if it sells out by noon, the owner will bake a second batch. So if the owner bakes a second batch, the bakery opened early.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "It reverses the chain's direction instead of denying its end."
+    },
+    {
+     "id": "D",
+     "text": "If the bakery does not open early, it will not sell out by noon. The bakery will not open early. So the owner will not bake a second batch.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Its premises and conclusion don't line up with the original's chain-and-denial pattern."
+    },
+    {
+     "id": "E",
+     "text": "The bakery will open early only if it sells out by noon. The bakery will sell out by noon. So the bakery will open early.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "\"Only if\" introduces a necessary condition. Meeting it doesn't guarantee the bakery opens early."
+    }
+   ],
+   "tldr": "The original denies the end of a chain to deny its start (A→B→C, not C, so not A). Only A matches.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Overnight train → arrive early → opening talk. Not opening talk. So not overnight train."
+    },
+    {
+     "label": "Abstract",
+     "body": "A → B, B → C, not C, therefore not A. That's a valid chained contrapositive."
+    },
+    {
+     "label": "Match",
+     "body": "Find the same links and the same move. Ignore the topic entirely."
+    }
+   ],
+   "takeaway": "Parallel questions test structure. Translate the stimulus into letters, then find the answer with the same letters.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0014",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "parallel_flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-parallel-structure",
+    "kp-lsat-necessary-vs-sufficient"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Every licensed pilot has passed a vision test. Marco has passed a vision test. So Marco must be a licensed pilot.",
+   "prompt": "Which one of the following arguments exhibits flawed reasoning most similar to that exhibited by the argument above?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Every certified lifeguard has completed a first-aid course. Priya has completed a first-aid course. So Priya must be a certified lifeguard.",
+     "correct": true,
+     "trap": null,
+     "why": "Same flaw: meeting a requirement is treated as proof of belonging to the group."
+    },
+    {
+     "id": "B",
+     "text": "Every certified lifeguard has completed a first-aid course. Priya has not completed a first-aid course. So Priya is not a certified lifeguard.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "This is the valid contrapositive, so there's no flaw to match."
+    },
+    {
+     "id": "C",
+     "text": "Most certified lifeguards are strong swimmers. Priya is a certified lifeguard. So Priya is probably a strong swimmer.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "A cautious probabilistic inference, not the reversal in the original."
+    },
+    {
+     "id": "D",
+     "text": "Every certified lifeguard has completed a first-aid course. Priya is a certified lifeguard. So Priya has completed a first-aid course.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "This applies the rule correctly. It's valid."
+    },
+    {
+     "id": "E",
+     "text": "Some first-aid instructors are certified lifeguards. Priya is a first-aid instructor. So Priya is a certified lifeguard.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Flawed, but it misuses \"some,\" a different error from the original's reversal."
+    }
+   ],
+   "tldr": "The original treats a requirement (passing a vision test) as a guarantee. Only A makes the same mistake.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Pilot → passed test. Marco passed the test. So Marco is a pilot."
+    },
+    {
+     "label": "Name the flaw",
+     "body": "It reverses the conditional, treating a necessary condition as sufficient."
+    },
+    {
+     "label": "Match",
+     "body": "Find the answer with the same reversal. Valid arguments can't match a flawed one."
+    }
+   ],
+   "takeaway": "In parallel flaw questions, name the flaw first, then eliminate every answer that's valid or flawed in a different way.",
+   "siblings": [
+    "lsat-lr-0006"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0015",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "point_at_issue",
+   "family": "structure",
+   "knowledgePoints": [
+    "kp-lsat-point-at-issue"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Amara: The city's new bike lanes have made downtown streets safer. Serious collisions there have dropped by a third since the lanes opened.\nDesmond: The drop in collisions isn't due to the bike lanes. The city lowered the downtown speed limit at the same time, and slower traffic alone would explain the decline.",
+   "prompt": "Amara and Desmond disagree over whether",
+   "options": [
+    {
+     "id": "A",
+     "text": "serious collisions downtown have declined since the bike lanes opened",
+     "correct": false,
+     "trap": "not_in_dispute",
+     "why": "Desmond accepts the decline. He disputes its cause."
+    },
+    {
+     "id": "B",
+     "text": "the bike lanes are responsible for the decline in serious collisions downtown",
+     "correct": true,
+     "trap": null,
+     "why": "Amara credits the bike lanes; Desmond credits the lower speed limit instead."
+    },
+    {
+     "id": "C",
+     "text": "the downtown speed limit should be lowered further",
+     "correct": false,
+     "trap": "not_in_dispute",
+     "why": "Neither speaker says anything about lowering it further."
+    },
+    {
+     "id": "D",
+     "text": "bike lanes make streets safer in every city",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Both speakers talk only about this city's downtown."
+    },
+    {
+     "id": "E",
+     "text": "the city should build more bike lanes",
+     "correct": false,
+     "trap": "not_in_dispute",
+     "why": "Neither speaker makes a recommendation."
+    }
+   ],
+   "tldr": "They agree collisions fell; they disagree about whether the bike lanes caused it.",
+   "steps": [
+    {
+     "label": "Amara",
+     "body": "Collisions fell, and the bike lanes made the streets safer."
+    },
+    {
+     "label": "Desmond",
+     "body": "Collisions fell, but the lower speed limit, not the lanes, explains it."
+    },
+    {
+     "label": "Test",
+     "body": "The answer must be something both address and disagree on. Only the cause qualifies."
+    }
+   ],
+   "takeaway": "For disagreement questions, check each answer against both speakers. Each must have a view, and the views must conflict.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0016",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "method",
+   "family": "structure",
+   "knowledgePoints": [
+    "kp-lsat-counterexample"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Critic: The mayor claims that no public project in this city has ever been finished on time. But the Harbor Bridge, a public project, opened two months ahead of schedule.",
+   "prompt": "The critic responds to the mayor's claim by",
+   "options": [
+    {
+     "id": "A",
+     "text": "offering a counterexample to a general claim",
+     "correct": true,
+     "trap": null,
+     "why": "One project finished early is enough to refute \"no public project has ever been on time.\""
+    },
+    {
+     "id": "B",
+     "text": "questioning the mayor's motives for making the claim",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The critic never mentions the mayor's motives."
+    },
+    {
+     "id": "C",
+     "text": "arguing that most public projects in the city are finished on time",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The critic cites one project. That says nothing about most projects."
+    },
+    {
+     "id": "D",
+     "text": "showing that the mayor's claim contradicts itself",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The claim is contradicted by a fact, not by itself."
+    },
+    {
+     "id": "E",
+     "text": "providing evidence that the Harbor Bridge cost less than projected",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost is never mentioned. The point is the schedule."
+    }
+   ],
+   "tldr": "A single on-time project refutes \"no project has ever been on time.\" That's a counterexample.",
+   "steps": [
+    {
+     "label": "Claim",
+     "body": "Mayor: no public project here has ever been finished on time."
+    },
+    {
+     "label": "Reply",
+     "body": "The critic names one public project that was early."
+    },
+    {
+     "label": "Method",
+     "body": "One counterexample defeats a universal claim."
+    }
+   ],
+   "takeaway": "\"Never\" and \"always\" claims fall to a single counterexample, but one example doesn't prove the opposite generalization.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0017",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "evaluate",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-evaluate",
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Since the town of Brook Falls began offering free swimming lessons for children, drowning incidents involving children there have fallen sharply. So the free lessons have made children in Brook Falls safer around water.",
+   "prompt": "Which one of the following would be most useful to know in evaluating the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Whether other towns near Brook Falls offer swimming lessons for adults",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Adult lessons in other towns don't bear on what caused Brook Falls' decline."
+    },
+    {
+     "id": "B",
+     "text": "Whether Brook Falls began posting lifeguards at its public beaches when the lessons began",
+     "correct": true,
+     "trap": null,
+     "why": "If yes, lifeguards are a rival cause and the argument weakens. If no, a major alternative is ruled out and it strengthens."
+    },
+    {
+     "id": "C",
+     "text": "Whether most children in Brook Falls enjoy swimming",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Enjoyment doesn't affect whether the lessons caused the drop in drownings."
+    },
+    {
+     "id": "D",
+     "text": "How many adults in Brook Falls know how to swim",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "The argument is about children; adult swimming ability doesn't test the causal claim."
+    },
+    {
+     "id": "E",
+     "text": "Whether drowning incidents are more common in summer than in winter",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "Seasonal patterns apply before and after the lessons alike."
+    }
+   ],
+   "tldr": "Knowing whether lifeguards arrived at the same time would either rule out or reveal a rival cause.",
+   "steps": [
+    {
+     "label": "Core",
+     "body": "Drownings fell after free lessons began, so the lessons made children safer."
+    },
+    {
+     "label": "Gap",
+     "body": "Something else that changed at the same time could explain the drop."
+    },
+    {
+     "label": "Test",
+     "body": "The right question has an answer that matters either way. Lifeguards does."
+    }
+   ],
+   "takeaway": "An evaluate answer is a question whose answer would strengthen the argument one way and weaken it the other.",
+   "siblings": [
+    "lsat-lr-0001"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0018",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "must_be_true",
+   "family": "inference",
+   "knowledgePoints": [
+    "kp-lsat-contrapositive"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Every member of the debate team takes a logic course. No one who takes a logic course is exempt from the writing requirement. Carla is exempt from the writing requirement.",
+   "prompt": "If the statements above are true, which one of the following must also be true?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Carla is not a member of the debate team.",
+     "correct": true,
+     "trap": null,
+     "why": "Exempt → no logic course → not on the debate team (two contrapositives chained)."
+    },
+    {
+     "id": "B",
+     "text": "Carla does not take any courses.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "We only know she doesn't take a logic course."
+    },
+    {
+     "id": "C",
+     "text": "Everyone who takes a logic course is a member of the debate team.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That reverses \"debate team → logic course.\""
+    },
+    {
+     "id": "D",
+     "text": "Some members of the debate team are exempt from the writing requirement.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Every debate member takes logic, and no logic student is exempt."
+    },
+    {
+     "id": "E",
+     "text": "Carla takes a logic course but is not on the debate team.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Logic students aren't exempt, and Carla is, so she can't take logic."
+    }
+   ],
+   "tldr": "Exempt → no logic course → not on the debate team.",
+   "steps": [
+    {
+     "label": "Chain",
+     "body": "Debate → logic → not exempt."
+    },
+    {
+     "label": "Contrapositive",
+     "body": "Exempt → not logic → not debate."
+    },
+    {
+     "label": "Apply",
+     "body": "Carla is exempt, so she isn't on the debate team."
+    }
+   ],
+   "takeaway": "Chain the conditionals, then run the contrapositive backward from the fact you're given.",
+   "siblings": [
+    "lsat-lr-0005"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0019",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-source-attack"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Dr. Reyes argues that the new zoning plan will raise housing costs. But Dr. Reyes owns several rental properties in the city, so her argument should be dismissed.",
+   "prompt": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "rejects an argument because of a fact about the person making it rather than the argument's merits",
+     "correct": true,
+     "trap": null,
+     "why": "Owning rentals might give her a motive, but it says nothing about whether she's right."
+    },
+    {
+     "id": "B",
+     "text": "assumes that housing costs will rise regardless of the zoning plan",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument makes no prediction about housing costs."
+    },
+    {
+     "id": "C",
+     "text": "relies on the opinion of a single expert",
+     "correct": false,
+     "trap": "not_present",
+     "why": "It doesn't rely on her opinion; it dismisses it."
+    },
+    {
+     "id": "D",
+     "text": "confuses a cause of rising housing costs with an effect of them",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No causal claim is made."
+    },
+    {
+     "id": "E",
+     "text": "fails to explain why the zoning plan was proposed",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The plan's origins aren't relevant to the flaw."
+    }
+   ],
+   "tldr": "It dismisses her argument because of who she is, not what she argues.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Conclusion: dismiss Dr. Reyes's argument. Reason: she owns rental properties."
+    },
+    {
+     "label": "Flaw",
+     "body": "A possible bias doesn't make an argument wrong. The argument never addresses her evidence."
+    }
+   ],
+   "takeaway": "Attacking the arguer (ad hominem) is a flaw. Motives can raise suspicion but can't refute reasoning.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0020",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-sampling"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "A survey of members of the Riverside Cycling Club found that 85 percent support adding bike lanes to Main Street. So most residents of Riverside support adding bike lanes to Main Street.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Members of the Riverside Cycling Club ride bicycles far more often than most Riverside residents do.",
+     "correct": true,
+     "trap": null,
+     "why": "The sample differs from residents in exactly the way that shapes views on bike lanes, so it isn't representative."
+    },
+    {
+     "id": "B",
+     "text": "The survey was conducted by the club's own volunteers.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "It hints at bias but doesn't show the results misrepresent residents."
+    },
+    {
+     "id": "C",
+     "text": "Some club members do not live on Main Street.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is about Riverside residents, not Main Street residents."
+    },
+    {
+     "id": "D",
+     "text": "Bike lanes have been added to streets in several nearby towns.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Other towns don't tell us what Riverside residents think."
+    },
+    {
+     "id": "E",
+     "text": "Most club members who support the bike lanes also support wider sidewalks.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Views on sidewalks don't affect whether the sample represents residents."
+    }
+   ],
+   "tldr": "Cyclists aren't typical residents, so a cycling club can't speak for the town on bike lanes.",
+   "steps": [
+    {
+     "label": "Core",
+     "body": "Club members support bike lanes, so most residents do."
+    },
+    {
+     "label": "Gap",
+     "body": "It assumes club members represent all residents."
+    },
+    {
+     "label": "Attack",
+     "body": "Show the sample differs in a way that matters. Frequent cyclists do."
+    }
+   ],
+   "takeaway": "Survey arguments fall when the sample differs from the population in a way that bears on the question asked.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0021",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Library director: Our new self-checkout kiosks will reduce the time patrons wait in line. After all, patrons who use the kiosks won't need to wait for a staff member to check out their books.",
+   "prompt": "Which one of the following is an assumption required by the director's argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Most patrons prefer self-checkout to checking out with a staff member.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Even a minority using the kiosks could shorten lines. \"Most\" isn't required."
+    },
+    {
+     "id": "B",
+     "text": "At least some patrons will use the self-checkout kiosks rather than wait for a staff member.",
+     "correct": true,
+     "trap": null,
+     "why": "Negate it and no one uses the kiosks, so lines can't get shorter."
+    },
+    {
+     "id": "C",
+     "text": "The kiosks cost less to operate than hiring more staff would.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost has nothing to do with waiting time."
+    },
+    {
+     "id": "D",
+     "text": "Staff members will be reassigned to other tasks once the kiosks are installed.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument doesn't need this, and if true it might lengthen lines."
+    },
+    {
+     "id": "E",
+     "text": "Every patron who uses the kiosks will finish checking out in under a minute.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Kiosks can help without every checkout being that fast."
+    }
+   ],
+   "tldr": "If nobody uses the kiosks, waiting time can't fall, so the argument needs some to use them.",
+   "steps": [
+    {
+     "label": "Core",
+     "body": "Kiosk users skip the staff line, so waiting time will fall."
+    },
+    {
+     "label": "Gap",
+     "body": "That only works if someone actually uses the kiosks."
+    },
+    {
+     "label": "Check",
+     "body": "Negate B (\"no patrons use them\") and the argument collapses."
+    }
+   ],
+   "takeaway": "Necessary assumptions are often modest (\"at least some\"). Answers with \"most\" or \"every\" usually ask for more than the argument needs.",
+   "siblings": [
+    "lsat-lr-0004"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0022",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "strengthen",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-strengthen-causal"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "After the Greenvale school district began serving breakfast to all students at no cost, the district's average attendance rose by four percentage points. The superintendent concludes that the free breakfast program improved attendance.",
+   "prompt": "Which one of the following, if true, most strengthens the superintendent's argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Attendance in neighboring districts that did not offer free breakfast stayed the same over the same period.",
+     "correct": true,
+     "trap": null,
+     "why": "It rules out a regional trend that would have raised attendance anyway."
+    },
+    {
+     "id": "B",
+     "text": "Many Greenvale students had already been eating breakfast at home before the program began.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "If many already ate breakfast, the program changed less, which undercuts it."
+    },
+    {
+     "id": "C",
+     "text": "The free breakfast program has cost the district more than expected.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't bear on whether breakfast improved attendance."
+    },
+    {
+     "id": "D",
+     "text": "Greenvale also began a new attendance-reward program that year.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That's a rival cause, so it weakens the argument."
+    },
+    {
+     "id": "E",
+     "text": "Some students who eat the free breakfast still miss school occasionally.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The claim is about average attendance; some absences are expected either way."
+    }
+   ],
+   "tldr": "If similar districts without free breakfast saw no change, the breakfast is the likelier cause.",
+   "steps": [
+    {
+     "label": "Core",
+     "body": "Free breakfast began, then attendance rose, so breakfast raised attendance."
+    },
+    {
+     "label": "Alternatives",
+     "body": "A regional trend or another new program could explain the rise."
+    },
+    {
+     "label": "Fix",
+     "body": "A comparison group without the program, and without the rise, rules out a trend."
+    }
+   ],
+   "takeaway": "A comparison group that didn't get the change, and didn't improve, is one of the strongest strengtheners for a causal claim.",
+   "siblings": [
+    "lsat-lr-0003"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0023",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-numbers-proportions"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The share of Fairport's budget spent on parks fell from 6 percent last year to 5 percent this year. Clearly, Fairport is spending less money on its parks than it did last year.",
+   "prompt": "The reasoning in the argument is flawed because it",
+   "options": [
+    {
+     "id": "A",
+     "text": "overlooks the possibility that Fairport's total budget grew enough that 5 percent of it is more money than 6 percent of last year's budget",
+     "correct": true,
+     "trap": null,
+     "why": "A smaller share of a bigger budget can still be more money."
+    },
+    {
+     "id": "B",
+     "text": "assumes that parks are the most important part of the budget",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument says nothing about importance."
+    },
+    {
+     "id": "C",
+     "text": "compares figures from only two years",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Comparing two years is fine. The problem is mixing shares with amounts."
+    },
+    {
+     "id": "D",
+     "text": "takes for granted that spending on parks should never decrease",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No such value judgment appears."
+    },
+    {
+     "id": "E",
+     "text": "confuses the number of parks with the amount spent on them",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The number of parks is never mentioned."
+    }
+   ],
+   "tldr": "A smaller percentage of a larger budget can be more dollars.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "The parks' share of the budget fell from 6% to 5%."
+    },
+    {
+     "label": "Conclusion",
+     "body": "Parks are getting less money."
+    },
+    {
+     "label": "Gap",
+     "body": "It ignores the size of the total. Percentages alone can't show amounts."
+    }
+   ],
+   "takeaway": "When evidence is a percentage and the conclusion is an amount (or the reverse), check whether the total changed.",
+   "siblings": [
+    "lsat-lr-0008"
+   ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0024",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "paradox",
+   "family": "paradox",
+   "knowledgePoints": [
+    "kp-lsat-paradox-both"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "A hospital installed hand-sanitizer stations outside every patient room, and staff used them far more often than they had used the old sinks. Yet the number of reported hospital-acquired infections rose over the following year.",
+   "prompt": "Which one of the following, if true, most helps to explain the apparent discrepancy?",
+   "options": [
+    {
+     "id": "A",
+     "text": "When the stations were installed, the hospital began testing every patient for infections, so many infections that once went undetected were now reported.",
+     "correct": true,
+     "trap": null,
+     "why": "Reported infections can rise even if actual infections fell, because more are being found."
+    },
+    {
+     "id": "B",
+     "text": "Hand sanitizer is less expensive than soap and water.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't explain the rise in reported infections."
+    },
+    {
+     "id": "C",
+     "text": "Sanitizer kills many of the germs that cause hospital-acquired infections.",
+     "correct": false,
+     "trap": "deepens",
+     "why": "That makes a rise in infections more surprising, not less."
+    },
+    {
+     "id": "D",
+     "text": "Staff at many other hospitals also use sanitizer stations.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Other hospitals don't explain this hospital's numbers."
+    },
+    {
+     "id": "E",
+     "text": "The number of patients the hospital treated stayed the same.",
+     "correct": false,
+     "trap": "deepens",
+     "why": "It rules out patient volume as an explanation, so the puzzle remains."
+    }
+   ],
+   "tldr": "Wider testing made more infections visible, so reported numbers rose despite better hygiene.",
+   "steps": [
+    {
+     "label": "Facts",
+     "body": "Hand hygiene improved, yet reported infections rose."
+    },
+    {
+     "label": "Notice",
+     "body": "The stimulus says \"reported.\" Reporting can change even if reality doesn't."
+    },
+    {
+     "label": "Resolve",
+     "body": "More testing finds more cases, which reconciles both facts."
+    }
+   ],
+   "takeaway": "Watch for \"reported\" or \"recorded\" in paradoxes. A change in measurement can explain a surprising rise.",
+   "siblings": [
+    "lsat-lr-0011"
+   ],
    "status": "review"
   },
   {
@@ -1206,6 +2096,341 @@
    "takeaway": "The best inference stays close to the author's stated view. Absolutes are usually traps.",
    "siblings": [],
    "status": "review"
+  },
+  {
+   "id": "lsat-rc-0006",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p02",
+   "position": 1,
+   "type": "rc_main_point",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-main-point"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "Which one of the following most accurately expresses the main point of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Migratory songbirds navigate primarily by observing the stars.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Caged birds orient correctly even when they can't see the sky."
+    },
+    {
+     "id": "B",
+     "text": "Although evidence suggests that birds sense Earth's magnetic field, perhaps through light-sensitive proteins, how they do so remains unsettled and may involve more than one mechanism.",
+     "correct": true,
+     "trap": null,
+     "why": "It covers the evidence for a magnetic sense, the leading hypothesis and the skeptics' doubts."
+    },
+    {
+     "id": "C",
+     "text": "Light-sensitive proteins in birds' eyes have been shown to turn magnetic information into signals the brain can use.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The passage says no one has yet traced how that would happen."
+    },
+    {
+     "id": "D",
+     "text": "Iron-containing structures, not proteins, are the source of birds' magnetic sense.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Some researchers suspect iron structures \"also\" play a role, not instead of proteins."
+    },
+    {
+     "id": "E",
+     "text": "The mid-twentieth-century experiments on caged birds were poorly designed.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage treats those experiments as the starting evidence."
+    }
+   ],
+   "tldr": "Birds seem to sense magnetism, maybe via eye proteins, but the mechanism is unsettled and may involve several senses.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 shows birds sense the field. P2 gives the protein hypothesis. P3 gives the skeptics' doubts and a multi-sense view."
+    },
+    {
+     "label": "Match",
+     "body": "The main point must hold all three paragraphs together, including the uncertainty."
+    }
+   ],
+   "takeaway": "When a passage ends on open questions, the main point usually keeps that uncertainty.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0007",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p02",
+   "position": 2,
+   "type": "rc_function",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The author mentions that birds' orientation is disrupted by weak radio-frequency noise primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "describe evidence that supporters cite for a chemical, light-based magnetic sense",
+     "correct": true,
+     "trap": null,
+     "why": "It's one of the effects supporters say is hard to explain unless the sense is chemical."
+    },
+    {
+     "id": "B",
+     "text": "show that birds cannot navigate in cities",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage never discusses cities."
+    },
+    {
+     "id": "C",
+     "text": "argue that iron-containing structures are the true sensors",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "The iron idea appears in the skeptics' paragraph, not with this evidence."
+    },
+    {
+     "id": "D",
+     "text": "explain why caged birds become restless at migration time",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Restlessness comes up in paragraph 1 and has a different role."
+    },
+    {
+     "id": "E",
+     "text": "cast doubt on the claim that birds sense magnetic fields at all",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The detail supports a particular account of the magnetic sense."
+    }
+   ],
+   "tldr": "The radio-noise finding is evidence supporters use for the protein hypothesis.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "Paragraph 2, in the sentence that begins \"Supporters point out.\""
+    },
+    {
+     "label": "Purpose",
+     "body": "It backs the claim that the magnetic sense is chemical."
+    }
+   ],
+   "takeaway": "Check who is speaking when a detail appears. Here it's the hypothesis's supporters.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0008",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p02",
+   "position": 3,
+   "type": "rc_detail",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-viewpoints"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "According to the passage, skeptics of the light-sensitive-protein hypothesis point out that",
+   "options": [
+    {
+     "id": "A",
+     "text": "the proposed sensor proteins also occur in animals not known to navigate by magnetism",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 3 says exactly this."
+    },
+    {
+     "id": "B",
+     "text": "caged birds cannot sense magnetic fields",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Paragraph 1 says caged birds orient correctly."
+    },
+    {
+     "id": "C",
+     "text": "radio-frequency noise has no effect on birds' orientation",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Supporters report that it disrupts orientation, and skeptics don't dispute it."
+    },
+    {
+     "id": "D",
+     "text": "birds rely only on landmarks during their first migration",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Landmarks are never mentioned."
+    },
+    {
+     "id": "E",
+     "text": "the proteins are missing from the eyes of most migratory birds",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The skeptics' point is that the proteins are widespread, not missing."
+    }
+   ],
+   "tldr": "Skeptics note the proteins are common even in animals that don't navigate magnetically.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The skeptics speak in paragraph 3."
+    },
+    {
+     "label": "Match",
+     "body": "Their first point is how widespread the proteins are."
+    }
+   ],
+   "takeaway": "For \"according to\" questions, find the group's own lines and match them closely.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0009",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p02",
+   "position": 4,
+   "type": "rc_inference",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 3,
+   "targetSec": 78,
+   "prompt": "The passage most strongly suggests that the researchers who suspect a role for iron-containing structures would agree that",
+   "options": [
+    {
+     "id": "A",
+     "text": "a bird might use different senses to hold a direction and to judge its position",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 3 says birds \"may combine several senses\" in this way."
+    },
+    {
+     "id": "B",
+     "text": "light-sensitive proteins play no part in bird navigation",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "They suspect iron structures \"also\" play a role, which doesn't rule out proteins."
+    },
+    {
+     "id": "C",
+     "text": "migratory birds cannot detect the strength of the magnetic field",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "They propose iron structures might detect exactly that."
+    },
+    {
+     "id": "D",
+     "text": "the mid-twentieth-century experiments should be repeated",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing suggests they want those experiments repeated."
+    },
+    {
+     "id": "E",
+     "text": "birds navigate more accurately at night than during the day",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage makes no such comparison."
+    }
+   ],
+   "tldr": "The iron-structure researchers think birds may combine senses for direction and position.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The final two sentences of paragraph 3."
+    },
+    {
+     "label": "Infer",
+     "body": "\"Also\" signals an addition. The multi-sense view separates direction from position."
+    }
+   ],
+   "takeaway": "Small words like \"also\" often decide inference questions. They signal addition, not replacement.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-rc-0010",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "RC",
+   "passageId": "lsat-rc-p02",
+   "position": 5,
+   "type": "rc_attitude",
+   "family": "reading",
+   "knowledgePoints": [
+    "kp-rc-extreme-language"
+   ],
+   "difficulty": 2,
+   "targetSec": 78,
+   "prompt": "The author's attitude toward the light-sensitive-protein hypothesis can most accurately be described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "dismissive",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author calls the hypothesis influential and presents its evidence fairly."
+    },
+    {
+     "id": "B",
+     "text": "unreservedly enthusiastic",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author gives the skeptics' doubts real weight."
+    },
+    {
+     "id": "C",
+     "text": "open but cautious",
+     "correct": true,
+     "trap": null,
+     "why": "The author takes the hypothesis seriously but stresses that \"the case is not closed.\""
+    },
+    {
+     "id": "D",
+     "text": "indifferent",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author engages with the evidence on both sides."
+    },
+    {
+     "id": "E",
+     "text": "hostile",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Nothing in the tone is hostile."
+    }
+   ],
+   "tldr": "The author treats the hypothesis as serious but unproven.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"Influential,\" fair summary of support, then \"the case is not closed\" and the skeptics' points."
+    },
+    {
+     "label": "Calibrate",
+     "body": "That's measured interest, not enthusiasm or dismissal."
+    }
+   ],
+   "takeaway": "Science passages that weigh evidence usually signal cautious openness, not strong opinion.",
+   "siblings": [],
+   "status": "review"
   }
  ],
  "passages": [
@@ -1227,6 +2452,26 @@
     "lsat-rc-0003",
     "lsat-rc-0004",
     "lsat-rc-0005"
+   ]
+  },
+  {
+   "id": "lsat-rc-p02",
+   "exam": "LSAT",
+   "section": "RC",
+   "title": "How birds find north",
+   "domain": "natural science",
+   "paragraphs": [
+    "Many migratory songbirds travel thousands of kilometers between their breeding and wintering grounds, often at night and, in their first year, without adults to follow. How they hold a course has long puzzled biologists. Experiments in the mid-twentieth century showed that caged birds grow restless at migration time and orient in the seasonally appropriate direction even when they cannot see the sky, which suggested that they could sense Earth's magnetic field.",
+    "One influential hypothesis holds that this magnetic sense depends on light-sensitive proteins in the birds' eyes. According to this view, the magnetic field subtly alters chemical reactions inside these proteins, allowing a bird to perceive the field's direction, perhaps as a pattern overlaid on its vision. Supporters point out that in laboratory tests, birds' magnetic orientation is disrupted under certain colors of light and by weak radio-frequency noise, effects that are hard to explain unless the sense is chemical.",
+    "Skeptics caution that the case is not closed. The proposed sensor proteins occur in many animals that are not known to navigate magnetically, and no one has yet traced how a change in these proteins would become a signal the brain can use. Some researchers suspect that tiny iron-containing structures also play a role, perhaps by detecting the field's strength rather than its direction. On this view, birds may combine several senses, using one to hold a direction and another to judge where they are."
+   ],
+   "mini": false,
+   "itemIds": [
+    "lsat-rc-0006",
+    "lsat-rc-0007",
+    "lsat-rc-0008",
+    "lsat-rc-0009",
+    "lsat-rc-0010"
    ]
   }
  ],
@@ -1357,6 +2602,54 @@
    "title": "Extreme answers",
    "front": "Why are \"always,\" \"never\" and \"eliminates\" risky in RC answers?",
    "back": "Passages rarely support absolutes. Prefer the answer the text actually proves, even if it sounds modest.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-parallel-structure",
+   "section": "LR",
+   "title": "Parallel reasoning",
+   "front": "How do you match a parallel reasoning answer?",
+   "back": "Match the structure, not the topic: the same conditional links, the same quantifiers (all, most, some) and the same kind of conclusion. A valid argument needs a valid match; a flawed one needs the same flaw.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-point-at-issue",
+   "section": "LR",
+   "title": "Point at issue",
+   "front": "What must be true of the right answer to a disagreement question?",
+   "back": "Both speakers must take a position on it, and their positions must conflict. If either speaker is silent on it, or they agree, it's wrong.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-counterexample",
+   "section": "LR",
+   "title": "Counterexamples",
+   "front": "Someone claims \"no X has ever been Y,\" and the reply names one X that was Y. What method is that?",
+   "back": "A counterexample. One case is enough to refute a universal claim, but it doesn't show that most X are Y.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-evaluate",
+   "section": "LR",
+   "title": "Evaluate questions",
+   "front": "What makes an answer right on an \"evaluate the argument\" question?",
+   "back": "Its answer would matter either way: one answer strengthens the argument and the other weakens it. Rival causes are the usual target.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-source-attack",
+   "section": "LR",
+   "title": "Attacking the source",
+   "front": "\"Her argument should be dismissed because she owns rental property.\" What's the flaw?",
+   "back": "An ad hominem: it attacks the person instead of the reasoning. A motive to argue something doesn't make the argument wrong.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-sampling",
+   "section": "LR",
+   "title": "Unrepresentative samples",
+   "front": "A survey of a cycling club shows support for bike lanes. Why can't you conclude that most residents support them?",
+   "back": "The sample isn't representative: club members differ from residents in exactly the way that affects the answer.",
    "exam": "LSAT"
   }
  ]

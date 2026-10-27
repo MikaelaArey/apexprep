@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "1cc800762e46",
- "generatedAt": "2026-10-26T21:57:10.263Z",
+ "version": "ca1fc0b275f5",
+ "generatedAt": "2026-10-27T00:53:28.815Z",
  "items": [
   {
    "id": "mcat-bb-0001",
@@ -546,6 +546,206 @@
     }
    ],
    "takeaway": "For competitive inhibitors, apparent Km = Km(1 + [I]/Ki), and saturating substrate still gets close to Vmax.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0009",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "metabolism",
+   "family": "biochem",
+   "knowledgePoints": [
+    "kp-mcat-pfk1"
+   ],
+   "outline": {
+    "category": "1D",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Which enzyme catalyzes the committed, rate-limiting step of glycolysis?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Hexokinase",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Hexokinase catalyzes the first step, but glucose-6-phosphate can still enter other pathways."
+    },
+    {
+     "id": "B",
+     "text": "Phosphofructokinase-1",
+     "correct": true,
+     "trap": null,
+     "why": "PFK-1 makes fructose-1,6-bisphosphate, the first step unique to glycolysis."
+    },
+    {
+     "id": "C",
+     "text": "Pyruvate kinase",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "It's regulated and catalyzes the last step, but it isn't the committed step."
+    },
+    {
+     "id": "D",
+     "text": "Glyceraldehyde-3-phosphate dehydrogenase",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "An important energy-yielding step, but not the main control point."
+    }
+   ],
+   "tldr": "PFK-1 commits glucose to glycolysis by making fructose-1,6-bisphosphate.",
+   "steps": [
+    {
+     "label": "Committed step",
+     "body": "The first irreversible step that leads only to glycolysis."
+    },
+    {
+     "label": "Identify",
+     "body": "Fructose-6-phosphate → fructose-1,6-bisphosphate, catalyzed by PFK-1."
+    },
+    {
+     "label": "Regulation",
+     "body": "ATP and citrate inhibit it; AMP and fructose-2,6-bisphosphate activate it."
+    }
+   ],
+   "takeaway": "PFK-1 is glycolysis's main control point: energy-rich signals slow it, and energy-poor signals speed it up.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0010",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "nervous_system",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-action-potential"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 1
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "What causes the rapid depolarization phase of a neuron's action potential?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Voltage-gated Na⁺ channels open and Na⁺ flows into the cell.",
+     "correct": true,
+     "trap": null,
+     "why": "The inward rush of Na⁺ drives the membrane potential sharply positive."
+    },
+    {
+     "id": "B",
+     "text": "Voltage-gated K⁺ channels open and K⁺ flows out of the cell.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's repolarization, which follows depolarization."
+    },
+    {
+     "id": "C",
+     "text": "The Na⁺/K⁺-ATPase pumps three Na⁺ out for every two K⁺ in.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The pump maintains the gradients but is too slow to drive the spike."
+    },
+    {
+     "id": "D",
+     "text": "Cl⁻ ions flow into the cell.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Cl⁻ influx makes the inside more negative, which hyperpolarizes."
+    }
+   ],
+   "tldr": "Depolarization is Na⁺ rushing in through voltage-gated channels.",
+   "steps": [
+    {
+     "label": "Threshold",
+     "body": "Once the membrane reaches threshold, voltage-gated Na⁺ channels open."
+    },
+    {
+     "label": "Spike",
+     "body": "Na⁺ flows down its gradient into the cell, rapidly depolarizing it."
+    },
+    {
+     "label": "Recovery",
+     "body": "Na⁺ channels inactivate and K⁺ channels open, repolarizing the cell."
+    }
+   ],
+   "takeaway": "Na⁺ in: depolarize. K⁺ out: repolarize. The pump resets the gradients.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0011",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": null,
+   "position": null,
+   "type": "immune",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-mhc-tcells"
+   ],
+   "outline": {
+    "category": "3B",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Which cells directly kill virus-infected host cells that display viral antigens on MHC class I molecules?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Cytotoxic (CD8⁺) T cells",
+     "correct": true,
+     "trap": null,
+     "why": "CD8⁺ T cells recognize antigen on MHC I and destroy the infected cell."
+    },
+    {
+     "id": "B",
+     "text": "Helper (CD4⁺) T cells",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Helper T cells read MHC class II and coordinate the response; they don't kill directly."
+    },
+    {
+     "id": "C",
+     "text": "Plasma cells",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Plasma cells secrete antibodies; they don't kill cells."
+    },
+    {
+     "id": "D",
+     "text": "Neutrophils",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Neutrophils mostly engulf bacteria; they don't read MHC I."
+    }
+   ],
+   "tldr": "MHC I + viral antigen is the signal CD8⁺ cytotoxic T cells act on.",
+   "steps": [
+    {
+     "label": "MHC I",
+     "body": "Nearly all nucleated cells display internal (including viral) peptides on MHC I."
+    },
+    {
+     "label": "Match",
+     "body": "CD8 binds MHC I, so CD8⁺ cytotoxic T cells recognize and kill the cell."
+    }
+   ],
+   "takeaway": "CD8 ↔ MHC I (8 × 1 = 8); CD4 ↔ MHC II (4 × 2 = 8).",
    "siblings": [],
    "status": "review"
   },
@@ -1190,6 +1390,270 @@
    "status": "review"
   },
   {
+   "id": "mcat-cp-0006",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "electrochemistry",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-galvanic"
+   ],
+   "outline": {
+    "category": "4C",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "In a galvanic cell, at which electrode does oxidation occur, and in which direction do electrons flow through the external wire?",
+   "options": [
+    {
+     "id": "A",
+     "text": "At the anode; electrons flow from the anode to the cathode.",
+     "correct": true,
+     "trap": null,
+     "why": "Oxidation releases electrons at the anode, and they travel through the wire to the cathode."
+    },
+    {
+     "id": "B",
+     "text": "At the cathode; electrons flow from the cathode to the anode.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Reduction, not oxidation, happens at the cathode."
+    },
+    {
+     "id": "C",
+     "text": "At the anode; electrons flow from the cathode to the anode.",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Right electrode, wrong direction. Electrons leave the anode."
+    },
+    {
+     "id": "D",
+     "text": "At the cathode; electrons flow from the anode to the cathode.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Right direction, wrong electrode for oxidation."
+    }
+   ],
+   "tldr": "Oxidation at the anode releases electrons, which flow through the wire to the cathode.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "\"An Ox, Red Cat\": anode oxidation, cathode reduction."
+    },
+    {
+     "label": "Flow",
+     "body": "Electrons are produced at the anode and consumed at the cathode, so they move anode → cathode."
+    }
+   ],
+   "takeaway": "In every electrochemical cell, oxidation is at the anode and electrons flow out of it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0007",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "kinetics_equilibrium",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-le-chatelier"
+   ],
+   "outline": {
+    "category": "5E",
+    "sirs": 2
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "For the exothermic reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium, which change shifts the equilibrium toward NH₃?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Raising the temperature",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "For an exothermic reaction, heat acts like a product, so adding it shifts toward reactants."
+    },
+    {
+     "id": "B",
+     "text": "Increasing the pressure by decreasing the container volume",
+     "correct": true,
+     "trap": null,
+     "why": "The product side has 2 moles of gas versus 4, so higher pressure favors NH₃."
+    },
+    {
+     "id": "C",
+     "text": "Adding a catalyst",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "A catalyst speeds both directions equally; equilibrium doesn't move."
+    },
+    {
+     "id": "D",
+     "text": "Removing some H₂",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Removing a reactant shifts the equilibrium toward reactants."
+    }
+   ],
+   "tldr": "Higher pressure favors the side with fewer gas moles, which is NH₃ (2 vs. 4).",
+   "steps": [
+    {
+     "label": "Count",
+     "body": "Reactants have 1 + 3 = 4 gas moles; products have 2."
+    },
+    {
+     "label": "Apply",
+     "body": "Compressing the system shifts it toward fewer moles, which is toward NH₃."
+    },
+    {
+     "label": "Check",
+     "body": "Heat would push it back (exothermic), and catalysts don't shift it at all."
+    }
+   ],
+   "takeaway": "Pressure changes favor the side with fewer gas moles. Catalysts change the rate, never the position of equilibrium.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0008",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "optics",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-thin-lens"
+   ],
+   "outline": {
+    "category": "4D",
+    "sirs": 2
+   },
+   "difficulty": 3,
+   "targetSec": 97,
+   "prompt": "An object is placed 30 cm in front of a converging lens with a focal length of 10 cm. Where does the image form?",
+   "options": [
+    {
+     "id": "A",
+     "text": "7.5 cm from the lens",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "That adds 1/30 to 1/10 instead of subtracting it."
+    },
+    {
+     "id": "B",
+     "text": "15 cm on the opposite side of the lens (a real image)",
+     "correct": true,
+     "trap": null,
+     "why": "1/dᵢ = 1/10 − 1/30 = 2/30, so dᵢ = 15 cm, positive and therefore real."
+    },
+    {
+     "id": "C",
+     "text": "15 cm on the same side as the object (a virtual image)",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The distance is right, but a positive dᵢ means a real image on the far side."
+    },
+    {
+     "id": "D",
+     "text": "20 cm from the lens",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That subtracts the focal length from the object distance, which isn't the lens equation."
+    }
+   ],
+   "tldr": "1/dᵢ = 1/10 − 1/30 = 1/15, so a real image forms 15 cm behind the lens.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "1/f = 1/dₒ + 1/dᵢ."
+    },
+    {
+     "label": "Compute",
+     "body": "1/dᵢ = 1/10 − 1/30 = 3/30 − 1/30 = 2/30, so dᵢ = 15 cm."
+    },
+    {
+     "label": "Interpret",
+     "body": "Positive dᵢ means a real, inverted image on the opposite side."
+    }
+   ],
+   "takeaway": "Outside the focal length, a converging lens makes a real, inverted image. Inside it, the image is virtual and upright.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0009",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": null,
+   "position": null,
+   "type": "kinematics",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-free-fall"
+   ],
+   "outline": {
+    "category": "4A",
+    "sirs": 2
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "A ball is dropped from rest from a height of 20 m. Ignoring air resistance and using g ≈ 10 m/s², how long does it take to reach the ground?",
+   "options": [
+    {
+     "id": "A",
+     "text": "About 1.4 s",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses h = gt² and drops the ½."
+    },
+    {
+     "id": "B",
+     "text": "2 s",
+     "correct": true,
+     "trap": null,
+     "why": "20 = ½(10)t², so t² = 4 and t = 2 s."
+    },
+    {
+     "id": "C",
+     "text": "4 s",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That's t², not t. Take the square root."
+    },
+    {
+     "id": "D",
+     "text": "It depends on the ball's mass.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Without air resistance, every object falls with the same acceleration."
+    }
+   ],
+   "tldr": "h = ½gt² → 20 = 5t² → t = 2 s.",
+   "steps": [
+    {
+     "label": "Recall",
+     "body": "For a drop from rest, h = ½gt²."
+    },
+    {
+     "label": "Compute",
+     "body": "20 = ½ × 10 × t² = 5t², so t² = 4 and t = 2 s."
+    }
+   ],
+   "takeaway": "For a drop from rest, t = √(2h/g), independent of mass.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-ps-0001",
    "version": 1,
    "exam": "MCAT",
@@ -1451,6 +1915,197 @@
    "takeaway": "Functionalism asks what an institution does for social stability. Conflict theory asks whom it benefits.",
    "siblings": [],
    "status": "review"
+  },
+  {
+   "id": "mcat-ps-0005",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "memory_cognition",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-encoding-specificity"
+   ],
+   "outline": {
+    "category": "6B",
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "Students who study vocabulary in the same room where they later take the test recall more words than students who study somewhere else. This finding best illustrates",
+   "options": [
+    {
+     "id": "A",
+     "text": "context-dependent memory",
+     "correct": true,
+     "trap": null,
+     "why": "Matching the physical setting at study and test provides retrieval cues."
+    },
+    {
+     "id": "B",
+     "text": "state-dependent memory",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's about matching internal states, like mood or alertness, not the room."
+    },
+    {
+     "id": "C",
+     "text": "the serial position effect",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's about remembering items at the start and end of a list."
+    },
+    {
+     "id": "D",
+     "text": "proactive interference",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's old learning disrupting new learning."
+    }
+   ],
+   "tldr": "Same room at study and test means better retrieval cues. That's context-dependent memory.",
+   "steps": [
+    {
+     "label": "Spot the variable",
+     "body": "The only difference is the physical setting of study versus test."
+    },
+    {
+     "label": "Name it",
+     "body": "External setting matching is context-dependent memory, an example of encoding specificity."
+    }
+   ],
+   "takeaway": "External setting: context-dependent. Internal state: state-dependent.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0006",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "development",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-piaget"
+   ],
+   "outline": {
+    "category": "6B",
+    "sirs": 1
+   },
+   "difficulty": 1,
+   "targetSec": 97,
+   "prompt": "A 4-year-old insists that a tall, thin glass holds more juice than a short, wide glass, even after watching the same juice poured from one to the other. According to Piaget, the child has not yet mastered",
+   "options": [
+    {
+     "id": "A",
+     "text": "conservation",
+     "correct": true,
+     "trap": null,
+     "why": "Understanding that quantity stays the same when shape changes develops in the concrete operational stage."
+    },
+    {
+     "id": "B",
+     "text": "object permanence",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That develops in infancy (sensorimotor stage), long before age 4."
+    },
+    {
+     "id": "C",
+     "text": "abstract reasoning",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That belongs to the formal operational stage, but this task doesn't require it."
+    },
+    {
+     "id": "D",
+     "text": "secure attachment",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Attachment comes from a different theory and isn't about quantities."
+    }
+   ],
+   "tldr": "Judging amount by height means the child lacks conservation, which is typical before about age 7.",
+   "steps": [
+    {
+     "label": "Stage",
+     "body": "A 4-year-old is in Piaget's preoperational stage."
+    },
+    {
+     "label": "Skill",
+     "body": "Conservation, knowing amount doesn't change with shape, arrives in the concrete operational stage."
+    }
+   ],
+   "takeaway": "Piaget's order: sensorimotor (object permanence), preoperational, concrete operational (conservation), formal operational (abstract thought).",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0007",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": null,
+   "position": null,
+   "type": "social_psych",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-dissonance"
+   ],
+   "outline": {
+    "sirs": 1
+   },
+   "difficulty": 2,
+   "targetSec": 97,
+   "prompt": "After paying for an expensive gym membership she rarely uses, Dana convinces herself that the membership was worth it because the gym has a great sauna. This is best explained by",
+   "options": [
+    {
+     "id": "A",
+     "text": "cognitive dissonance",
+     "correct": true,
+     "trap": null,
+     "why": "She changes her belief about the membership to fit her costly choice."
+    },
+    {
+     "id": "B",
+     "text": "the bystander effect",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's about people failing to help when others are present."
+    },
+    {
+     "id": "C",
+     "text": "social facilitation",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's about performing differently in front of others."
+    },
+    {
+     "id": "D",
+     "text": "the mere-exposure effect",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That's liking something more through repeated exposure. She rarely goes."
+    }
+   ],
+   "tldr": "She justifies a costly choice by changing her belief, which is how dissonance gets reduced.",
+   "steps": [
+    {
+     "label": "Conflict",
+     "body": "\"I paid a lot\" clashes with \"I rarely use it.\""
+    },
+    {
+     "label": "Resolution",
+     "body": "She adjusts her belief (\"it's worth it for the sauna\") to reduce the discomfort."
+    }
+   ],
+   "takeaway": "Cognitive dissonance is resolved by changing beliefs or behavior. Effort justification is the classic example.",
+   "siblings": [],
+   "status": "review"
   }
  ],
  "passages": [
@@ -1687,6 +2342,86 @@
    "title": "Challenging a claim",
    "front": "What does the right answer to \"Which finding would most challenge the author's claim?\" do?",
    "back": "It directly undercuts the claim's key support. Answers that are merely unrelated or mildly negative don't count.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-galvanic",
+   "section": "CP",
+   "title": "Galvanic cells",
+   "front": "In a galvanic cell, where does oxidation happen and which way do electrons flow?",
+   "back": "\"An Ox, Red Cat\": oxidation at the anode, reduction at the cathode. Electrons flow from anode to cathode through the external wire.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-le-chatelier",
+   "section": "CP",
+   "title": "Le Chatelier's principle",
+   "front": "For N₂ + 3H₂ ⇌ 2NH₃ (exothermic), what shifts the equilibrium toward NH₃?",
+   "back": "Higher pressure (fewer gas moles on the product side), lower temperature, or adding a reactant. A catalyst speeds both directions and doesn't shift it.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-thin-lens",
+   "section": "CP",
+   "title": "Thin lens equation",
+   "front": "How do you find where a converging lens forms an image?",
+   "back": "1/f = 1/dₒ + 1/dᵢ. A positive dᵢ is a real, inverted image on the far side of the lens.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-free-fall",
+   "section": "CP",
+   "title": "Free fall",
+   "front": "How long does an object dropped from rest take to fall a height h?",
+   "back": "h = ½gt², so t = √(2h/g). The time doesn't depend on mass (ignoring air resistance).",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-pfk1",
+   "section": "BB",
+   "title": "Glycolysis regulation",
+   "front": "Which enzyme catalyzes the committed, rate-limiting step of glycolysis?",
+   "back": "Phosphofructokinase-1 (fructose-6-phosphate → fructose-1,6-bisphosphate). It's inhibited by ATP and citrate and activated by AMP and fructose-2,6-bisphosphate.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-action-potential",
+   "section": "BB",
+   "title": "Action potential phases",
+   "front": "What drives depolarization and repolarization in an action potential?",
+   "back": "Depolarization: voltage-gated Na⁺ channels open and Na⁺ rushes in. Repolarization: Na⁺ channels inactivate and voltage-gated K⁺ channels let K⁺ out.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-mhc-tcells",
+   "section": "BB",
+   "title": "MHC and T cells",
+   "front": "Which T cells kill infected cells, and which MHC do they read?",
+   "back": "Cytotoxic CD8⁺ T cells recognize antigen on MHC class I and kill the cell. Helper CD4⁺ T cells recognize MHC class II on antigen-presenting cells.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-encoding-specificity",
+   "section": "PS",
+   "title": "Context-dependent memory",
+   "front": "Why do people recall more when tested in the room where they studied?",
+   "back": "Encoding specificity: retrieval works best when cues at recall match those at encoding. External setting = context-dependent; internal state = state-dependent.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-piaget",
+   "section": "PS",
+   "title": "Piaget's stages",
+   "front": "Which Piagetian milestone is missing when a child thinks a taller glass holds more juice?",
+   "back": "Conservation, acquired in the concrete operational stage (about 7–11). Object permanence comes earlier (sensorimotor); abstract reasoning later (formal operational).",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-dissonance",
+   "section": "PS",
+   "title": "Cognitive dissonance",
+   "front": "Why do people talk themselves into liking things they paid a lot for?",
+   "back": "Cognitive dissonance: holding conflicting beliefs and actions is uncomfortable, so people change a belief to justify what they did (effort justification).",
    "exam": "MCAT"
   }
  ]

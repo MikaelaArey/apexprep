@@ -46,40 +46,44 @@ export function QuestionTask({
   const askConfidence = useStore((s) => s.settings.confidence);
   const answerQuestion = useStore((s) => s.answerQuestion);
   const completeQuestion = useStore((s) => s.completeQuestion);
-  const pending = useStore((s) => s.session?.current);
 
-  const [phase, setPhase] = useState<Phase>(passage && !passageSeen ? 'read' : 'answer');
-  const [selected, setSelected] = useState<OptionId | null>(null);
+  // If the app closed after this question was answered but before moving on,
+  // reopen it on its explanation.
+  const [resumed] = useState(() => {
+    const { session, attempts } = useStore.getState();
+    const current = session?.current;
+    const existing = current && attempts.find((a) => a.id === current.attemptId && a.itemId === itemId);
+    return existing ? { attempt: existing, cardsAdded: current.cardsAdded } : null;
+  });
+
+  const [phase, setPhase] = useState<Phase>(resumed ? 'explain' : passage && !passageSeen ? 'read' : 'answer');
+  const [selected, setSelected] = useState<OptionId | null>(resumed?.attempt.selected ?? null);
   const [firstPick, setFirstPick] = useState<OptionId | null>(null);
   const [struck, setStruck] = useState<Set<OptionId>>(new Set());
   const [confidence, setConfidence] = useState<Confidence | null>(null);
-  const [attempt, setAttempt] = useState<Attempt | null>(null);
-  const [cardsAdded, setCardsAdded] = useState<string[]>([]);
+  const [attempt, setAttempt] = useState<Attempt | null>(resumed?.attempt ?? null);
+  const [cardsAdded, setCardsAdded] = useState<string[]>(resumed?.cardsAdded ?? []);
   const [showPassage, setShowPassage] = useState(false);
   const [speaking, setSpeaking] = useState(false);
-  const startedAt = useRef(Date.now());
+  const [timerKey, setTimerKey] = useState(0);
+  const startedAt = useRef(0);
   const revealedAt = useRef(0);
   const scrollRef = useRef<ScrollViewInstance>(null);
   const scrollOnLayout = useRef(false);
 
-  // Resume an answered-but-not-finished question after an app restart.
   useEffect(() => {
-    if (!pending || attempt) return;
-    const existing = useStore.getState().attempts.find((a) => a.id === pending.attemptId && a.itemId === itemId);
-    if (existing) {
-      setAttempt(existing);
-      setSelected(existing.selected);
-      setCardsAdded(pending.cardsAdded);
-      setPhase('explain');
-      revealedAt.current = Date.now();
-    }
-  }, [pending, attempt, itemId]);
+    if (resumed) revealedAt.current = Date.now();
+    return () => void Speech.stop();
+  }, [resumed]);
 
-  useEffect(() => () => void Speech.stop(), []);
+  // The answer clock starts whenever the answering phase begins.
+  useEffect(() => {
+    if (phase === 'answer') startedAt.current = Date.now();
+  }, [phase]);
 
   const startAnswering = () => {
     if (passage) onPassageSeen(passage.id);
-    startedAt.current = Date.now();
+    setTimerKey((k) => k + 1);
     setPhase('answer');
     scrollRef.current?.scrollTo({ y: 0, animated: false });
   };
@@ -167,7 +171,7 @@ export function QuestionTask({
 
   const headerRight =
     phase === 'answer' ? (
-      <Timer start={startedAt.current} running target={item.targetSec * 1000} />
+      <Timer key={timerKey} running target={item.targetSec * 1000} />
     ) : passage && phase === 'explain' ? (
       <PassageButton onPress={() => setShowPassage(true)} />
     ) : null;

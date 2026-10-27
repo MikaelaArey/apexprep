@@ -1,6 +1,6 @@
 // A concept card in spaced review: recall the answer, reveal it, rate it.
 
-import { useMemo, useRef, useState } from 'react';
+import { useState } from 'react';
 import { Pressable, ScrollView, View } from 'react-native';
 import { kpMap } from '@/content';
 import { SECTIONS } from '@/content/labels';
@@ -34,14 +34,17 @@ export function CardTask({ kpId, index, total, onClose }: { kpId: string; index:
   const row = useStore((s) => s.cards[kpId]);
   const testDate = useStore((s) => (row ? s.settings.plans[row.exam].testDate : null));
   const rateCard = useStore((s) => s.rateCard);
-  const [revealed, setRevealed] = useState(false);
-  const started = useRef(Date.now());
-  const now = Date.now();
-  const preview = useMemo(
-    () => (row ? previewIntervals(row.card, now, daysUntil(testDate, now)) : null),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [row, testDate, revealed],
-  );
+  const [started] = useState(Date.now);
+  const [reveal, setReveal] = useState<{ at: number; preview: Record<Rating, number> } | null>(null);
+  const revealed = reveal !== null;
+  const preview = reveal?.preview ?? null;
+  const now = reveal?.at ?? started;
+
+  const show = () => {
+    if (!row) return;
+    const at = Date.now();
+    setReveal({ at, preview: previewIntervals(row.card, at, daysUntil(testDate, at)) });
+  };
 
   if (!kp || !row) {
     return null;
@@ -92,7 +95,7 @@ export function CardTask({ kpId, index, total, onClose }: { kpId: string; index:
                   onPress={() => {
                     if (rating === 1) haptic.error();
                     else haptic.success();
-                    rateCard(kpId, rating, Date.now() - started.current);
+                    rateCard(kpId, rating, Date.now() - started);
                   }}
                   style={({ pressed }) => ({
                     flex: 1,
@@ -117,7 +120,7 @@ export function CardTask({ kpId, index, total, onClose }: { kpId: string; index:
             </View>
           </>
         ) : (
-          <Button testID="reveal-card" title="Show answer" onPress={() => setRevealed(true)} />
+          <Button testID="reveal-card" title="Show answer" onPress={show} />
         )}
       </BottomBar>
     </View>

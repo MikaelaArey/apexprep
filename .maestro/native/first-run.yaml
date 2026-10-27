@@ -1,0 +1,67 @@
+# Native app (expo run:ios build): fresh install → onboarding with reminders →
+# a full Daily 5 → Home. clearState gives a true first launch.
+appId: com.mikaelaarey.apexprep
+---
+- launchApp:
+    clearState: true
+    permissions:
+      notifications: unset
+- extendedWaitUntil:
+    visible:
+      id: "onboarding-start"
+    timeout: 60000
+- tapOn:
+    id: "onboarding-start"
+- tapOn:
+    id: "pick-MCAT"
+- tapOn:
+    id: "onboarding-next"
+- tapOn:
+    id: "no-test-date"
+- tapOn:
+    id: "onboarding-next"
+- tapOn:
+    id: "goal-20"
+- tapOn:
+    id: "onboarding-next"
+- tapOn:
+    id: "enable-reminders"
+- tapOn:
+    text: "Allow"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 15000
+- takeScreenshot: n1-home
+- tapOn:
+    id: "home-cta"
+- repeat:
+    times: 5
+    commands:
+      - extendedWaitUntil:
+          visible:
+            id: "check"
+          timeout: 10000
+      - tapOn:
+          id: "option-C"
+      - tapOn:
+          id: "check"
+      - extendedWaitUntil:
+          visible:
+            id: "next"
+          timeout: 5000
+      - tapOn:
+          id: "next"
+- extendedWaitUntil:
+    visible:
+      id: "summary"
+    timeout: 10000
+- takeScreenshot: n2-summary
+- tapOn:
+    id: "summary-done"
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 10000
+- takeScreenshot: n3-home-after

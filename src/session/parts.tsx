@@ -47,9 +47,10 @@ export function SessionHeader({
   );
 }
 
-/** Elapsed time since `start`; isolated so only it re-renders every second. */
-export function Timer({ start, running, target }: { start: number; running: boolean; target: number }) {
-  const [now, setNow] = useState(Date.now());
+/** Time since it mounted (remount with a new key to restart); isolated so only it re-renders every second. */
+export function Timer({ running, target }: { running: boolean; target: number }) {
+  const [start] = useState(Date.now);
+  const [now, setNow] = useState(Date.now);
   useEffect(() => {
     if (!running) return;
     const t = setInterval(() => setNow(Date.now()), 1000);

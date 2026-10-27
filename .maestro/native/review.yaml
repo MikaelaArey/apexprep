@@ -1,0 +1,27 @@
+# Native app: three weeks of history, then a full spaced-review session.
+appId: com.mikaelaarey.apexprep
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: LSAT
+      DEMO: "1"
+- tapOn: "Review"
+- tapOn:
+    id: "start-review"
+- repeat:
+    times: 30
+    while:
+      notVisible:
+        id: "summary"
+    commands:
+      - runFlow: _review-step.yaml
+- extendedWaitUntil:
+    visible:
+      id: "summary"
+    timeout: 8000
+- takeScreenshot: r-summary
+- tapOn:
+    id: "summary-done"
+- tapOn: "Review"
+- takeScreenshot: r-review-after

@@ -139,3 +139,58 @@
   back: >-
     Passages rarely support absolutes. Prefer the answer the text actually proves,
     even if it sounds modest.
+
+- id: kp-lsat-parallel-structure
+  section: LR
+  title: Parallel reasoning
+  front: How do you match a parallel reasoning answer?
+  back: >-
+    Match the structure, not the topic: the same conditional links, the same
+    quantifiers (all, most, some) and the same kind of conclusion. A valid
+    argument needs a valid match; a flawed one needs the same flaw.
+
+- id: kp-lsat-point-at-issue
+  section: LR
+  title: Point at issue
+  front: What must be true of the right answer to a disagreement question?
+  back: >-
+    Both speakers must take a position on it, and their positions must conflict.
+    If either speaker is silent on it, or they agree, it's wrong.
+
+- id: kp-lsat-counterexample
+  section: LR
+  title: Counterexamples
+  front: >-
+    Someone claims "no X has ever been Y," and the reply names one X that was Y.
+    What method is that?
+  back: >-
+    A counterexample. One case is enough to refute a universal claim, but it
+    doesn't show that most X are Y.
+
+- id: kp-lsat-evaluate
+  section: LR
+  title: Evaluate questions
+  front: What makes an answer right on an "evaluate the argument" question?
+  back: >-
+    Its answer would matter either way: one answer strengthens the argument and
+    the other weakens it. Rival causes are the usual target.
+
+- id: kp-lsat-source-attack
+  section: LR
+  title: Attacking the source
+  front: >-
+    "Her argument should be dismissed because she owns rental property." What's
+    the flaw?
+  back: >-
+    An ad hominem: it attacks the person instead of the reasoning. A motive to
+    argue something doesn't make the argument wrong.
+
+- id: kp-lsat-sampling
+  section: LR
+  title: Unrepresentative samples
+  front: >-
+    A survey of a cycling club shows support for bike lanes. Why can't you
+    conclude that most residents support them?
+  back: >-
+    The sample isn't representative: club members differ from residents in
+    exactly the way that affects the answer.

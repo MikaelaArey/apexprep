@@ -1,0 +1,17 @@
+# Native app: fresh install state, then the dev reset link (onboarded, optional demo history).
+appId: com.mikaelaarey.apexprep
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible:
+      id: "onboarding-start"
+    timeout: 60000
+- openLink: "apexprep://dev-reset?onboarded=1&exam=${EXAM}&demo=${DEMO}"
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 30000

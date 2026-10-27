@@ -4,7 +4,8 @@ import { DatePicker, Host } from '@expo/ui/swift-ui';
 import { datePickerStyle, tint } from '@expo/ui/swift-ui/modifiers';
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
+import * as Notifications from 'expo-notifications';
 import { Alert, Pressable, ScrollView, Switch, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { EXAMS } from '@/content/labels';
@@ -90,6 +91,10 @@ export default function Settings() {
   const resetProgress = useStore((s) => s.resetProgress);
   const lastSyncAt = useStore((s) => s.meta.lastSyncAt as number | undefined);
   const account = useAccount();
+  const [scheduled, setScheduled] = useState<number | null>(null);
+  useEffect(() => {
+    if (__DEV__) Notifications.getAllScheduledNotificationsAsync().then((n) => setScheduled(n.length)).catch(() => setScheduled(null));
+  }, [settings.reminder]);
   const exam = settings.exam;
   const plan = settings.plans[exam];
   const info = EXAMS[exam];
@@ -232,6 +237,11 @@ export default function Settings() {
 
         {__DEV__ ? (
           <Group title="Developer" note="Only in development builds.">
+            <Row testID="dev-scheduled" label="Scheduled reminders">
+              <T variant="callout" color="textMuted">
+                {scheduled ?? '—'}
+              </T>
+            </Row>
             <Row
               testID="dev-demo"
               label="Load 3 weeks of demo history"

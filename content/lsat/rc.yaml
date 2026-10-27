@@ -250,3 +250,210 @@
         The best inference stays close to the author's stated view. Absolutes are
         usually traps.
       siblings: []
+
+- passage:
+    id: lsat-rc-p02
+    title: How birds find north
+    domain: natural science
+    paragraphs:
+      - >-
+        Many migratory songbirds travel thousands of kilometers between their
+        breeding and wintering grounds, often at night and, in their first year,
+        without adults to follow. How they hold a course has long puzzled
+        biologists. Experiments in the mid-twentieth century showed that caged
+        birds grow restless at migration time and orient in the seasonally
+        appropriate direction even when they cannot see the sky, which suggested
+        that they could sense Earth's magnetic field.
+      - >-
+        One influential hypothesis holds that this magnetic sense depends on
+        light-sensitive proteins in the birds' eyes. According to this view, the
+        magnetic field subtly alters chemical reactions inside these proteins,
+        allowing a bird to perceive the field's direction, perhaps as a pattern
+        overlaid on its vision. Supporters point out that in laboratory tests,
+        birds' magnetic orientation is disrupted under certain colors of light and
+        by weak radio-frequency noise, effects that are hard to explain unless the
+        sense is chemical.
+      - >-
+        Skeptics caution that the case is not closed. The proposed sensor proteins
+        occur in many animals that are not known to navigate magnetically, and no
+        one has yet traced how a change in these proteins would become a signal
+        the brain can use. Some researchers suspect that tiny iron-containing
+        structures also play a role, perhaps by detecting the field's strength
+        rather than its direction. On this view, birds may combine several senses,
+        using one to hold a direction and another to judge where they are.
+  items:
+    - id: lsat-rc-0006
+      type: rc_main_point
+      family: reading
+      kps: [kp-rc-main-point]
+      difficulty: 2
+      prompt: Which one of the following most accurately expresses the main point of the passage?
+      options:
+        - text: Migratory songbirds navigate primarily by observing the stars.
+          trap: contradicts
+          why: Caged birds orient correctly even when they can't see the sky.
+        - text: >-
+            Although evidence suggests that birds sense Earth's magnetic field,
+            perhaps through light-sensitive proteins, how they do so remains
+            unsettled and may involve more than one mechanism.
+          correct: true
+          why: It covers the evidence for a magnetic sense, the leading hypothesis and the skeptics' doubts.
+        - text: >-
+            Light-sensitive proteins in birds' eyes have been shown to turn magnetic
+            information into signals the brain can use.
+          trap: contradicts
+          why: The passage says no one has yet traced how that would happen.
+        - text: Iron-containing structures, not proteins, are the source of birds' magnetic sense.
+          trap: too_strong
+          why: Some researchers suspect iron structures "also" play a role, not instead of proteins.
+        - text: The mid-twentieth-century experiments on caged birds were poorly designed.
+          trap: unsupported
+          why: The passage treats those experiments as the starting evidence.
+      tldr: >-
+        Birds seem to sense magnetism, maybe via eye proteins, but the mechanism is
+        unsettled and may involve several senses.
+      steps:
+        - label: Map
+          body: >-
+            P1 shows birds sense the field. P2 gives the protein hypothesis. P3 gives
+            the skeptics' doubts and a multi-sense view.
+        - label: Match
+          body: The main point must hold all three paragraphs together, including the uncertainty.
+      takeaway: When a passage ends on open questions, the main point usually keeps that uncertainty.
+      siblings: []
+
+    - id: lsat-rc-0007
+      type: rc_function
+      family: reading
+      kps: [kp-rc-function]
+      difficulty: 3
+      prompt: >-
+        The author mentions that birds' orientation is disrupted by weak
+        radio-frequency noise primarily in order to
+      options:
+        - text: describe evidence that supporters cite for a chemical, light-based magnetic sense
+          correct: true
+          why: It's one of the effects supporters say is hard to explain unless the sense is chemical.
+        - text: show that birds cannot navigate in cities
+          trap: unsupported
+          why: The passage never discusses cities.
+        - text: argue that iron-containing structures are the true sensors
+          trap: wrong_viewpoint
+          why: The iron idea appears in the skeptics' paragraph, not with this evidence.
+        - text: explain why caged birds become restless at migration time
+          trap: distortion
+          why: Restlessness comes up in paragraph 1 and has a different role.
+        - text: cast doubt on the claim that birds sense magnetic fields at all
+          trap: wrong_direction
+          why: The detail supports a particular account of the magnetic sense.
+      tldr: The radio-noise finding is evidence supporters use for the protein hypothesis.
+      steps:
+        - label: Locate
+          body: Paragraph 2, in the sentence that begins "Supporters point out."
+        - label: Purpose
+          body: It backs the claim that the magnetic sense is chemical.
+      takeaway: Check who is speaking when a detail appears. Here it's the hypothesis's supporters.
+      siblings: []
+
+    - id: lsat-rc-0008
+      type: rc_detail
+      family: reading
+      kps: [kp-rc-viewpoints]
+      difficulty: 2
+      prompt: >-
+        According to the passage, skeptics of the light-sensitive-protein hypothesis
+        point out that
+      options:
+        - text: the proposed sensor proteins also occur in animals not known to navigate by magnetism
+          correct: true
+          why: Paragraph 3 says exactly this.
+        - text: caged birds cannot sense magnetic fields
+          trap: contradicts
+          why: Paragraph 1 says caged birds orient correctly.
+        - text: radio-frequency noise has no effect on birds' orientation
+          trap: contradicts
+          why: Supporters report that it disrupts orientation, and skeptics don't dispute it.
+        - text: birds rely only on landmarks during their first migration
+          trap: unsupported
+          why: Landmarks are never mentioned.
+        - text: the proteins are missing from the eyes of most migratory birds
+          trap: distortion
+          why: The skeptics' point is that the proteins are widespread, not missing.
+      tldr: Skeptics note the proteins are common even in animals that don't navigate magnetically.
+      steps:
+        - label: Locate
+          body: The skeptics speak in paragraph 3.
+        - label: Match
+          body: Their first point is how widespread the proteins are.
+      takeaway: For "according to" questions, find the group's own lines and match them closely.
+      siblings: []
+
+    - id: lsat-rc-0009
+      type: rc_inference
+      family: reading
+      kps: [kp-rc-extreme-language]
+      difficulty: 3
+      prompt: >-
+        The passage most strongly suggests that the researchers who suspect a role
+        for iron-containing structures would agree that
+      options:
+        - text: a bird might use different senses to hold a direction and to judge its position
+          correct: true
+          why: Paragraph 3 says birds "may combine several senses" in this way.
+        - text: light-sensitive proteins play no part in bird navigation
+          trap: too_strong
+          why: They suspect iron structures "also" play a role, which doesn't rule out proteins.
+        - text: migratory birds cannot detect the strength of the magnetic field
+          trap: contradicts
+          why: They propose iron structures might detect exactly that.
+        - text: the mid-twentieth-century experiments should be repeated
+          trap: unsupported
+          why: Nothing suggests they want those experiments repeated.
+        - text: birds navigate more accurately at night than during the day
+          trap: unsupported
+          why: The passage makes no such comparison.
+      tldr: The iron-structure researchers think birds may combine senses for direction and position.
+      steps:
+        - label: Locate
+          body: The final two sentences of paragraph 3.
+        - label: Infer
+          body: >-
+            "Also" signals an addition. The multi-sense view separates direction
+            from position.
+      takeaway: Small words like "also" often decide inference questions. They signal addition, not replacement.
+      siblings: []
+
+    - id: lsat-rc-0010
+      type: rc_attitude
+      family: reading
+      kps: [kp-rc-extreme-language]
+      difficulty: 2
+      prompt: >-
+        The author's attitude toward the light-sensitive-protein hypothesis can most
+        accurately be described as
+      options:
+        - text: dismissive
+          trap: too_strong
+          why: The author calls the hypothesis influential and presents its evidence fairly.
+        - text: unreservedly enthusiastic
+          trap: too_strong
+          why: The author gives the skeptics' doubts real weight.
+        - text: open but cautious
+          correct: true
+          why: The author takes the hypothesis seriously but stresses that "the case is not closed."
+        - text: indifferent
+          trap: contradicts
+          why: The author engages with the evidence on both sides.
+        - text: hostile
+          trap: too_strong
+          why: Nothing in the tone is hostile.
+      tldr: The author treats the hypothesis as serious but unproven.
+      steps:
+        - label: Evidence
+          body: >-
+            "Influential," fair summary of support, then "the case is not closed" and
+            the skeptics' points.
+        - label: Calibrate
+          body: That's measured interest, not enthusiasm or dismissal.
+      takeaway: Science passages that weigh evidence usually signal cautious openness, not strong opinion.
+      siblings: []

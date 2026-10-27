@@ -19,8 +19,7 @@ const BACKOFF_DAYS = [0, 1, 2, 3, 5, 7, 9, 14];
 const COUNTDOWN_DAYS = [30, 14, 7, 1];
 
 export async function hasPermission(): Promise<boolean> {
-  const p = await Notifications.getPermissionsAsync();
-  return p.granted || p.ios?.status === Notifications.IosAuthorizationStatus.PROVISIONAL;
+  return (await Notifications.getPermissionsAsync()).granted;
 }
 
 export async function requestPermission(): Promise<boolean> {

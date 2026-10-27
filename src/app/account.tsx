@@ -171,7 +171,15 @@ export default function Account() {
                 onPress={() =>
                   Alert.alert('Sign out?', 'Your progress stays in your account. This iPhone will start fresh.', [
                     { text: 'Cancel', style: 'cancel' },
-                    { text: 'Sign out', style: 'destructive', onPress: () => run('signout', signOut) },
+                    {
+                      text: 'Sign out',
+                      style: 'destructive',
+                      onPress: () =>
+                        run('signout', async () => {
+                          if (router.canDismiss()) router.dismissAll();
+                          await signOut();
+                        }),
+                    },
                   ])
                 }
               />
@@ -183,7 +191,16 @@ export default function Account() {
               onPress={() =>
                 Alert.alert('Delete your account?', 'This permanently deletes your account and all of your progress, on this iPhone and on our server. It can’t be undone.', [
                   { text: 'Cancel', style: 'cancel' },
-                  { text: 'Delete', style: 'destructive', onPress: () => run('delete', deleteAccount) },
+                  {
+                    text: 'Delete',
+                    style: 'destructive',
+                    onPress: () =>
+                      run('delete', async () => {
+                        const result = await deleteAccount();
+                        if (result.ok && router.canDismiss()) router.dismissAll();
+                        return result;
+                      }),
+                  },
                 ])
               }
             />

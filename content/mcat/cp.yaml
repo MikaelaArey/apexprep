@@ -180,3 +180,135 @@
       body: T doubles, so P doubles.
   takeaway: Always convert to kelvin before using a gas law.
   siblings: []
+
+- id: mcat-cp-0006
+  type: electrochemistry
+  family: gen_chem
+  kps: [kp-mcat-galvanic]
+  outline: { category: 4C, sirs: 1 }
+  difficulty: 2
+  prompt: >-
+    In a galvanic cell, at which electrode does oxidation occur, and in which
+    direction do electrons flow through the external wire?
+  options:
+    - text: At the anode; electrons flow from the anode to the cathode.
+      correct: true
+      why: Oxidation releases electrons at the anode, and they travel through the wire to the cathode.
+    - text: At the cathode; electrons flow from the cathode to the anode.
+      trap: lookalike
+      why: Reduction, not oxidation, happens at the cathode.
+    - text: At the anode; electrons flow from the cathode to the anode.
+      trap: sign_flip
+      why: Right electrode, wrong direction. Electrons leave the anode.
+    - text: At the cathode; electrons flow from the anode to the cathode.
+      trap: lookalike
+      why: Right direction, wrong electrode for oxidation.
+  tldr: Oxidation at the anode releases electrons, which flow through the wire to the cathode.
+  steps:
+    - label: Recall
+      body: '"An Ox, Red Cat": anode oxidation, cathode reduction.'
+    - label: Flow
+      body: Electrons are produced at the anode and consumed at the cathode, so they move anode → cathode.
+  takeaway: In every electrochemical cell, oxidation is at the anode and electrons flow out of it.
+  siblings: []
+
+- id: mcat-cp-0007
+  type: kinetics_equilibrium
+  family: gen_chem
+  kps: [kp-mcat-le-chatelier]
+  outline: { category: 5E, sirs: 2 }
+  difficulty: 2
+  prompt: >-
+    For the exothermic reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium, which
+    change shifts the equilibrium toward NH₃?
+  options:
+    - text: Raising the temperature
+      trap: wrong_direction
+      why: For an exothermic reaction, heat acts like a product, so adding it shifts toward reactants.
+    - text: Increasing the pressure by decreasing the container volume
+      correct: true
+      why: The product side has 2 moles of gas versus 4, so higher pressure favors NH₃.
+    - text: Adding a catalyst
+      trap: lookalike
+      why: A catalyst speeds both directions equally; equilibrium doesn't move.
+    - text: Removing some H₂
+      trap: wrong_direction
+      why: Removing a reactant shifts the equilibrium toward reactants.
+  tldr: Higher pressure favors the side with fewer gas moles, which is NH₃ (2 vs. 4).
+  steps:
+    - label: Count
+      body: Reactants have 1 + 3 = 4 gas moles; products have 2.
+    - label: Apply
+      body: Compressing the system shifts it toward fewer moles, which is toward NH₃.
+    - label: Check
+      body: Heat would push it back (exothermic), and catalysts don't shift it at all.
+  takeaway: >-
+    Pressure changes favor the side with fewer gas moles. Catalysts change the
+    rate, never the position of equilibrium.
+  siblings: []
+
+- id: mcat-cp-0008
+  type: optics
+  family: physics
+  kps: [kp-mcat-thin-lens]
+  outline: { category: 4D, sirs: 2 }
+  difficulty: 3
+  prompt: >-
+    An object is placed 30 cm in front of a converging lens with a focal length of
+    10 cm. Where does the image form?
+  options:
+    - text: 7.5 cm from the lens
+      trap: sign_flip
+      why: That adds 1/30 to 1/10 instead of subtracting it.
+    - text: 15 cm on the opposite side of the lens (a real image)
+      correct: true
+      why: 1/dᵢ = 1/10 − 1/30 = 2/30, so dᵢ = 15 cm, positive and therefore real.
+    - text: 15 cm on the same side as the object (a virtual image)
+      trap: lookalike
+      why: The distance is right, but a positive dᵢ means a real image on the far side.
+    - text: 20 cm from the lens
+      trap: lookalike
+      why: That subtracts the focal length from the object distance, which isn't the lens equation.
+  tldr: 1/dᵢ = 1/10 − 1/30 = 1/15, so a real image forms 15 cm behind the lens.
+  steps:
+    - label: Recall
+      body: 1/f = 1/dₒ + 1/dᵢ.
+    - label: Compute
+      body: 1/dᵢ = 1/10 − 1/30 = 3/30 − 1/30 = 2/30, so dᵢ = 15 cm.
+    - label: Interpret
+      body: Positive dᵢ means a real, inverted image on the opposite side.
+  takeaway: >-
+    Outside the focal length, a converging lens makes a real, inverted image. Inside
+    it, the image is virtual and upright.
+  siblings: []
+
+- id: mcat-cp-0009
+  type: kinematics
+  family: physics
+  kps: [kp-mcat-free-fall]
+  outline: { category: 4A, sirs: 2 }
+  difficulty: 1
+  prompt: >-
+    A ball is dropped from rest from a height of 20 m. Ignoring air resistance and
+    using g ≈ 10 m/s², how long does it take to reach the ground?
+  options:
+    - text: About 1.4 s
+      trap: lookalike
+      why: That uses h = gt² and drops the ½.
+    - text: 2 s
+      correct: true
+      why: 20 = ½(10)t², so t² = 4 and t = 2 s.
+    - text: 4 s
+      trap: skipped_step
+      why: That's t², not t. Take the square root.
+    - text: It depends on the ball's mass.
+      trap: false_fact
+      why: Without air resistance, every object falls with the same acceleration.
+  tldr: h = ½gt² → 20 = 5t² → t = 2 s.
+  steps:
+    - label: Recall
+      body: For a drop from rest, h = ½gt².
+    - label: Compute
+      body: 20 = ½ × 10 × t² = 5t², so t² = 4 and t = 2 s.
+  takeaway: For a drop from rest, t = √(2h/g), independent of mass.
+  siblings: []

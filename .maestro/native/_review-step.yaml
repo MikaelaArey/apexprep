@@ -1,0 +1,31 @@
+appId: com.mikaelaarey.apexprep
+---
+- runFlow:
+    when:
+      visible:
+        id: "check"
+    commands:
+      - tapOn:
+          id: "option-A"
+      - tapOn:
+          id: "check"
+      - extendedWaitUntil:
+          visible:
+            id: "next"
+          timeout: 5000
+      - tapOn:
+          id: "next"
+- runFlow:
+    when:
+      visible:
+        id: "reveal-card"
+    commands:
+      - tapOn:
+          id: "reveal-card"
+      - extendedWaitUntil:
+          visible:
+            id: "rate-3"
+          timeout: 5000
+      - takeScreenshot: r-card-back
+      - tapOn:
+          id: "rate-3"

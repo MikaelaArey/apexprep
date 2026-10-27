@@ -166,3 +166,89 @@
   back: >-
     It directly undercuts the claim's key support. Answers that are merely
     unrelated or mildly negative don't count.
+
+- id: kp-mcat-galvanic
+  section: CP
+  title: Galvanic cells
+  front: In a galvanic cell, where does oxidation happen and which way do electrons flow?
+  back: >-
+    "An Ox, Red Cat": oxidation at the anode, reduction at the cathode. Electrons
+    flow from anode to cathode through the external wire.
+
+- id: kp-mcat-le-chatelier
+  section: CP
+  title: Le Chatelier's principle
+  front: >-
+    For N₂ + 3H₂ ⇌ 2NH₃ (exothermic), what shifts the equilibrium toward NH₃?
+  back: >-
+    Higher pressure (fewer gas moles on the product side), lower temperature, or
+    adding a reactant. A catalyst speeds both directions and doesn't shift it.
+
+- id: kp-mcat-thin-lens
+  section: CP
+  title: Thin lens equation
+  front: How do you find where a converging lens forms an image?
+  back: >-
+    1/f = 1/dₒ + 1/dᵢ. A positive dᵢ is a real, inverted image on the far side of
+    the lens.
+
+- id: kp-mcat-free-fall
+  section: CP
+  title: Free fall
+  front: How long does an object dropped from rest take to fall a height h?
+  back: >-
+    h = ½gt², so t = √(2h/g). The time doesn't depend on mass (ignoring air
+    resistance).
+
+- id: kp-mcat-pfk1
+  section: BB
+  title: Glycolysis regulation
+  front: Which enzyme catalyzes the committed, rate-limiting step of glycolysis?
+  back: >-
+    Phosphofructokinase-1 (fructose-6-phosphate → fructose-1,6-bisphosphate).
+    It's inhibited by ATP and citrate and activated by AMP and
+    fructose-2,6-bisphosphate.
+
+- id: kp-mcat-action-potential
+  section: BB
+  title: Action potential phases
+  front: What drives depolarization and repolarization in an action potential?
+  back: >-
+    Depolarization: voltage-gated Na⁺ channels open and Na⁺ rushes in.
+    Repolarization: Na⁺ channels inactivate and voltage-gated K⁺ channels let K⁺
+    out.
+
+- id: kp-mcat-mhc-tcells
+  section: BB
+  title: MHC and T cells
+  front: Which T cells kill infected cells, and which MHC do they read?
+  back: >-
+    Cytotoxic CD8⁺ T cells recognize antigen on MHC class I and kill the cell.
+    Helper CD4⁺ T cells recognize MHC class II on antigen-presenting cells.
+
+- id: kp-mcat-encoding-specificity
+  section: PS
+  title: Context-dependent memory
+  front: Why do people recall more when tested in the room where they studied?
+  back: >-
+    Encoding specificity: retrieval works best when cues at recall match those at
+    encoding. External setting = context-dependent; internal state =
+    state-dependent.
+
+- id: kp-mcat-piaget
+  section: PS
+  title: Piaget's stages
+  front: Which Piagetian milestone is missing when a child thinks a taller glass holds more juice?
+  back: >-
+    Conservation, acquired in the concrete operational stage (about 7–11).
+    Object permanence comes earlier (sensorimotor); abstract reasoning later
+    (formal operational).
+
+- id: kp-mcat-dissonance
+  section: PS
+  title: Cognitive dissonance
+  front: Why do people talk themselves into liking things they paid a lot for?
+  back: >-
+    Cognitive dissonance: holding conflicting beliefs and actions is
+    uncomfortable, so people change a belief to justify what they did (effort
+    justification).

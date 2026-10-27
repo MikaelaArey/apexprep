@@ -165,7 +165,8 @@ describe('session building', () => {
   });
 
   it('falls back to the concept card when every question was seen recently', () => {
-    const recent = ['lsat-lr-0001', 'lsat-lr-0002'].map((id) => attempt(id, false, NOW - 1000));
+    const withKp = packFor('LSAT').items.filter((i) => i.knowledgePoints.includes('kp-lsat-rival-cause'));
+    const recent = withKp.map((i) => attempt(i.id, false, NOW - 1000));
     const card = { kpId: 'kp-lsat-rival-cause', exam: 'LSAT' as const, card: { ...newCard(NOW), due: NOW - 1000 }, source: 'miss' as const, addedAt: NOW, updatedAt: NOW };
     const tasks = buildReviewQueue(ctx('LSAT', recent, { cards: [card] }));
     expect(tasks[0]).toEqual({ kpId: 'kp-lsat-rival-cause', kind: 'card', itemId: null });

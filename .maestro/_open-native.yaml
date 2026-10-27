@@ -1,0 +1,11 @@
+# Dev helper: accept "Open in ApexPrep?" after `expo run:ios`, then wait for the app.
+appId: com.mikaelaarey.apexprep
+---
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      text: ".*(Start Daily 5|Get started|Continue).*"
+    timeout: 60000
+- takeScreenshot: 90-native-app

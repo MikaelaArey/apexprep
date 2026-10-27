@@ -327,3 +327,98 @@
         For competitive inhibitors, apparent Km = Km(1 + [I]/Ki), and saturating
         substrate still gets close to Vmax.
       siblings: []
+
+- id: mcat-bb-0009
+  type: metabolism
+  family: biochem
+  kps: [kp-mcat-pfk1]
+  outline: { category: 1D, sirs: 1 }
+  difficulty: 2
+  prompt: Which enzyme catalyzes the committed, rate-limiting step of glycolysis?
+  options:
+    - text: Hexokinase
+      trap: lookalike
+      why: Hexokinase catalyzes the first step, but glucose-6-phosphate can still enter other pathways.
+    - text: Phosphofructokinase-1
+      correct: true
+      why: PFK-1 makes fructose-1,6-bisphosphate, the first step unique to glycolysis.
+    - text: Pyruvate kinase
+      trap: lookalike
+      why: It's regulated and catalyzes the last step, but it isn't the committed step.
+    - text: Glyceraldehyde-3-phosphate dehydrogenase
+      trap: lookalike
+      why: An important energy-yielding step, but not the main control point.
+  tldr: PFK-1 commits glucose to glycolysis by making fructose-1,6-bisphosphate.
+  steps:
+    - label: Committed step
+      body: The first irreversible step that leads only to glycolysis.
+    - label: Identify
+      body: Fructose-6-phosphate → fructose-1,6-bisphosphate, catalyzed by PFK-1.
+    - label: Regulation
+      body: ATP and citrate inhibit it; AMP and fructose-2,6-bisphosphate activate it.
+  takeaway: >-
+    PFK-1 is glycolysis's main control point: energy-rich signals slow it, and
+    energy-poor signals speed it up.
+  siblings: []
+
+- id: mcat-bb-0010
+  type: nervous_system
+  family: biology
+  kps: [kp-mcat-action-potential]
+  outline: { category: 3A, sirs: 1 }
+  difficulty: 1
+  prompt: What causes the rapid depolarization phase of a neuron's action potential?
+  options:
+    - text: Voltage-gated Na⁺ channels open and Na⁺ flows into the cell.
+      correct: true
+      why: The inward rush of Na⁺ drives the membrane potential sharply positive.
+    - text: Voltage-gated K⁺ channels open and K⁺ flows out of the cell.
+      trap: lookalike
+      why: That's repolarization, which follows depolarization.
+    - text: The Na⁺/K⁺-ATPase pumps three Na⁺ out for every two K⁺ in.
+      trap: lookalike
+      why: The pump maintains the gradients but is too slow to drive the spike.
+    - text: Cl⁻ ions flow into the cell.
+      trap: wrong_direction
+      why: Cl⁻ influx makes the inside more negative, which hyperpolarizes.
+  tldr: Depolarization is Na⁺ rushing in through voltage-gated channels.
+  steps:
+    - label: Threshold
+      body: Once the membrane reaches threshold, voltage-gated Na⁺ channels open.
+    - label: Spike
+      body: Na⁺ flows down its gradient into the cell, rapidly depolarizing it.
+    - label: Recovery
+      body: Na⁺ channels inactivate and K⁺ channels open, repolarizing the cell.
+  takeaway: "Na⁺ in: depolarize. K⁺ out: repolarize. The pump resets the gradients."
+  siblings: []
+
+- id: mcat-bb-0011
+  type: immune
+  family: biology
+  kps: [kp-mcat-mhc-tcells]
+  outline: { category: 3B, sirs: 1 }
+  difficulty: 2
+  prompt: >-
+    Which cells directly kill virus-infected host cells that display viral
+    antigens on MHC class I molecules?
+  options:
+    - text: Cytotoxic (CD8⁺) T cells
+      correct: true
+      why: CD8⁺ T cells recognize antigen on MHC I and destroy the infected cell.
+    - text: Helper (CD4⁺) T cells
+      trap: lookalike
+      why: Helper T cells read MHC class II and coordinate the response; they don't kill directly.
+    - text: Plasma cells
+      trap: lookalike
+      why: Plasma cells secrete antibodies; they don't kill cells.
+    - text: Neutrophils
+      trap: lookalike
+      why: Neutrophils mostly engulf bacteria; they don't read MHC I.
+  tldr: MHC I + viral antigen is the signal CD8⁺ cytotoxic T cells act on.
+  steps:
+    - label: MHC I
+      body: Nearly all nucleated cells display internal (including viral) peptides on MHC I.
+    - label: Match
+      body: CD8 binds MHC I, so CD8⁺ cytotoxic T cells recognize and kill the cell.
+  takeaway: "CD8 ↔ MHC I (8 × 1 = 8); CD4 ↔ MHC II (4 × 2 = 8)."
+  siblings: []

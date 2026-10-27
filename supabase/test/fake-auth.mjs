@@ -2,6 +2,7 @@
 //   /auth/v1/*  minimal GoTrue (anonymous sign-up, email codes, refresh, user, logout)
 //   /rest/v1/*  proxied to PostgREST on :54330
 // Users are written to auth.users in the local Postgres with psql.
+import { Buffer } from 'node:buffer';
 import { createHmac, randomUUID } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { createServer } from 'node:http';

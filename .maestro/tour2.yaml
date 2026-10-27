@@ -10,7 +10,10 @@ appId: host.exp.Exponent
 - tapOn:
     id: "start-review"
 - repeat:
-    times: 7
+    times: 30
+    while:
+      notVisible:
+        id: "summary"
     commands:
       - runFlow: _review-step.yaml
 - extendedWaitUntil:

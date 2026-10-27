@@ -1,0 +1,6 @@
+appId: com.mikaelaarey.apexprep
+---
+- tapOn:
+    text: "Open"
+    optional: true
+- waitForAnimationToEnd

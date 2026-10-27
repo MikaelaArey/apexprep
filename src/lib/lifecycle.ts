@@ -57,6 +57,7 @@ export function useAppLifecycle(ready: boolean) {
   useEffect(() => {
     if (!ready) return;
     const run = () => {
+      if (!useStore.getState().settings.onboarded) return;
       refreshReminders();
       syncNow().catch(() => undefined);
     };

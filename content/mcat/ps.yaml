@@ -148,3 +148,101 @@
     Functionalism asks what an institution does for social stability. Conflict
     theory asks whom it benefits.
   siblings: []
+
+- id: mcat-ps-0005
+  type: memory_cognition
+  family: psychology
+  kps: [kp-mcat-encoding-specificity]
+  outline: { category: 6B, sirs: 1 }
+  difficulty: 2
+  prompt: >-
+    Students who study vocabulary in the same room where they later take the test
+    recall more words than students who study somewhere else. This finding best
+    illustrates
+  options:
+    - text: context-dependent memory
+      correct: true
+      why: Matching the physical setting at study and test provides retrieval cues.
+    - text: state-dependent memory
+      trap: lookalike
+      why: That's about matching internal states, like mood or alertness, not the room.
+    - text: the serial position effect
+      trap: lookalike
+      why: That's about remembering items at the start and end of a list.
+    - text: proactive interference
+      trap: lookalike
+      why: That's old learning disrupting new learning.
+  tldr: Same room at study and test means better retrieval cues. That's context-dependent memory.
+  steps:
+    - label: Spot the variable
+      body: The only difference is the physical setting of study versus test.
+    - label: Name it
+      body: External setting matching is context-dependent memory, an example of encoding specificity.
+  takeaway: "External setting: context-dependent. Internal state: state-dependent."
+  siblings: []
+
+- id: mcat-ps-0006
+  type: development
+  family: psychology
+  kps: [kp-mcat-piaget]
+  outline: { category: 6B, sirs: 1 }
+  difficulty: 1
+  prompt: >-
+    A 4-year-old insists that a tall, thin glass holds more juice than a short,
+    wide glass, even after watching the same juice poured from one to the other.
+    According to Piaget, the child has not yet mastered
+  options:
+    - text: conservation
+      correct: true
+      why: Understanding that quantity stays the same when shape changes develops in the concrete operational stage.
+    - text: object permanence
+      trap: lookalike
+      why: That develops in infancy (sensorimotor stage), long before age 4.
+    - text: abstract reasoning
+      trap: lookalike
+      why: That belongs to the formal operational stage, but this task doesn't require it.
+    - text: secure attachment
+      trap: lookalike
+      why: Attachment comes from a different theory and isn't about quantities.
+  tldr: Judging amount by height means the child lacks conservation, which is typical before about age 7.
+  steps:
+    - label: Stage
+      body: A 4-year-old is in Piaget's preoperational stage.
+    - label: Skill
+      body: Conservation, knowing amount doesn't change with shape, arrives in the concrete operational stage.
+  takeaway: "Piaget's order: sensorimotor (object permanence), preoperational, concrete operational (conservation), formal operational (abstract thought)."
+  siblings: []
+
+- id: mcat-ps-0007
+  type: social_psych
+  family: psychology
+  kps: [kp-mcat-dissonance]
+  outline: { sirs: 1 }
+  difficulty: 2
+  prompt: >-
+    After paying for an expensive gym membership she rarely uses, Dana convinces
+    herself that the membership was worth it because the gym has a great sauna.
+    This is best explained by
+  options:
+    - text: cognitive dissonance
+      correct: true
+      why: She changes her belief about the membership to fit her costly choice.
+    - text: the bystander effect
+      trap: lookalike
+      why: That's about people failing to help when others are present.
+    - text: social facilitation
+      trap: lookalike
+      why: That's about performing differently in front of others.
+    - text: the mere-exposure effect
+      trap: lookalike
+      why: That's liking something more through repeated exposure. She rarely goes.
+  tldr: She justifies a costly choice by changing her belief, which is how dissonance gets reduced.
+  steps:
+    - label: Conflict
+      body: '"I paid a lot" clashes with "I rarely use it."'
+    - label: Resolution
+      body: She adjusts her belief ("it's worth it for the sauna") to reduce the discomfort.
+  takeaway: >-
+    Cognitive dissonance is resolved by changing beliefs or behavior. Effort
+    justification is the classic example.
+  siblings: []
