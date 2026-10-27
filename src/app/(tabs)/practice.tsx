@@ -92,6 +92,25 @@ export default function Practice() {
         />
       </View>
 
+      <View style={{ flexDirection: 'row', gap: space.md, marginTop: space.md }}>
+        <ModeCard
+          testID="mode-climb"
+          icon="mountain.2.fill"
+          title="The Climb"
+          body="Easiest to hardest, ten questions a floor."
+          meta="Clear floors to reach the summit"
+          onPress={() => router.push('/climb')}
+        />
+        <ModeCard
+          testID="mode-bank"
+          icon="list.number"
+          title="Ranked bank"
+          body="Every question, ranked by difficulty."
+          meta={`${pack.items.length} questions`}
+          onPress={() => router.push('/bank')}
+        />
+      </View>
+
       <SectionTitle title="Passages" />
       <Card padded={false} style={{ paddingHorizontal: space.lg }}>
         {passages.map((p, i) => (

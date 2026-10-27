@@ -9,7 +9,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes cortisol?
   options:
     - text: Adrenal cortex
@@ -44,7 +44,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes aldosterone?
   options:
     - text: Adrenal cortex
@@ -79,7 +79,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes epinephrine during a fight-or-flight response?
   options:
     - text: Adrenal medulla
@@ -116,7 +116,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: ADH is released into the bloodstream from which structure?
   options:
     - text: Posterior pituitary
@@ -151,7 +151,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Oxytocin is released into the bloodstream from which structure?
   options:
     - text: Posterior pituitary
@@ -186,7 +186,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes calcitonin?
   options:
     - text: Thyroid gland
@@ -221,7 +221,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes the hormone that raises blood calcium by stimulating bone resorption?
   options:
     - text: Parathyroid glands
@@ -256,7 +256,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes glucagon?
   options:
     - text: Pancreatic islets
@@ -291,7 +291,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes melatonin?
   options:
     - text: Pineal gland
@@ -328,7 +328,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which organ secretes erythropoietin when blood oxygen is low?
   options:
     - text: Kidneys
@@ -363,7 +363,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes TSH?
   options:
     - text: Anterior pituitary
@@ -400,7 +400,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes GnRH?
   options:
     - text: Hypothalamus
@@ -439,7 +439,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which organ releases atrial natriuretic peptide?
   options:
     - text: Heart
@@ -474,7 +474,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes most of a man’s testosterone?
   options:
     - text: Testes
@@ -511,7 +511,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: During the luteal phase, progesterone is secreted mainly by which structure?
   options:
     - text: Ovaries
@@ -548,7 +548,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes FSH and LH?
   options:
     - text: Anterior pituitary
@@ -585,7 +585,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which structure secretes T4?
   options:
     - text: Thyroid gland
@@ -620,7 +620,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which organ secretes renin when blood pressure falls?
   options:
     - text: Kidneys
@@ -1188,7 +1188,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone is a steroid?
   options:
     - text: Cortisol
@@ -1227,7 +1227,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone is derived from cholesterol?
   options:
     - text: Testosterone
@@ -1305,7 +1305,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone acts mainly through a receptor tyrosine kinase?
   options:
     - text: Insulin
@@ -1344,7 +1344,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone most likely needs a carrier protein to travel in the blood?
   options:
     - text: Estradiol
@@ -1383,7 +1383,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone is made from tryptophan?
   options:
     - text: Melatonin
@@ -1422,7 +1422,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone exerts its effects mainly by entering the cell and changing gene transcription?
   options:
     - text: Aldosterone
@@ -1461,7 +1461,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone acts fastest, through a second-messenger cascade, during a fight-or-flight response?
   options:
     - text: Epinephrine
@@ -2264,7 +2264,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Cells of the adrenal cortex, which make large amounts of steroid hormones, would have an especially
     extensive:
@@ -2301,7 +2301,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Pancreatic acinar cells, which secrete large amounts of digestive enzymes, would have an especially
     extensive:
@@ -2338,7 +2338,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Tagging enzymes with mannose-6-phosphate, which directs them to lysosomes, happens in the:'
   options:
     - text: Golgi apparatus
@@ -2375,7 +2375,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'In Tay–Sachs disease, gangliosides build up because an enzyme is missing from the:'
   options:
     - text: Lysosome
@@ -2412,7 +2412,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Liver cells exposed to high doses of the drug phenobarbital respond by expanding their:'
   options:
     - text: Smooth endoplasmic reticulum
@@ -2447,7 +2447,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Very-long-chain fatty acids accumulate in disorders caused by defective:'
   options:
     - text: Peroxisome
@@ -2486,7 +2486,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A drug that blocks the breakdown of ubiquitin-tagged cytosolic proteins inhibits the:'
   options:
     - text: Proteasome
@@ -2523,7 +2523,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which organelle is inherited only from the mother in humans and carries its own circular DNA?
   options:
     - text: Mitochondrion
@@ -2560,7 +2560,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Ribosomal RNA is transcribed and assembled into ribosomal subunits in the:'
   options:
     - text: Nucleolus
@@ -2595,7 +2595,7 @@
   outline:
     category: 2A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'During mitosis in an animal cell, spindle microtubules are organized from the:'
   options:
     - text: Centrosome
@@ -2630,7 +2630,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which enzyme catalyzes the committed, rate-limiting step of glycolysis?
   options:
     - text: Phosphofructokinase-1
@@ -2671,7 +2671,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which enzyme catalyzes the rate-limiting step of the citric acid cycle?
   options:
     - text: Isocitrate dehydrogenase
@@ -2712,7 +2712,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Statins lower cholesterol by inhibiting:'
   options:
     - text: HMG-CoA reductase
@@ -2751,7 +2751,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A deficiency of which enzyme leaves red blood cells short of NADPH and vulnerable to oxidative damage?
   options:
     - text: Glucose-6-phosphate dehydrogenase
@@ -2792,7 +2792,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which enzyme links glycolysis to the citric acid cycle?
   options:
     - text: Pyruvate dehydrogenase
@@ -2831,7 +2831,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Oligomycin blocks the proton channel of which enzyme, halting oxidative ATP production?
   options:
     - text: ATP synthase
@@ -2870,7 +2870,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which enzyme makes oxaloacetate from pyruvate in the first step of gluconeogenesis?
   options:
     - text: Pyruvate carboxylase
@@ -2907,7 +2907,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which gluconeogenic enzyme bypasses the PFK-1 step?
   options:
     - text: Fructose-1,6-bisphosphatase
@@ -2942,7 +2942,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: During fasting, glucagon activates which enzyme to break down liver glycogen?
   options:
     - text: Glycogen phosphorylase
@@ -3018,7 +3018,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which glycolytic enzyme makes ATP by substrate-level phosphorylation in glycolysis’s final step?
   options:
     - text: Pyruvate kinase
@@ -3055,7 +3055,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which enzyme combines acetyl-CoA with oxaloacetate?
   options:
     - text: Citrate synthase
@@ -3094,7 +3094,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'In most tissues (not the liver), glucose is trapped inside the cell by:'
   options:
     - text: Hexokinase
@@ -3396,7 +3396,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: HIV infects and depletes which cells, crippling both antibody and cell-mediated responses?
   options:
     - text: Helper T cell
@@ -3439,7 +3439,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A virus-infected cell displaying viral peptides on MHC I is killed by a:'
   options:
     - text: Cytotoxic T cell
@@ -3482,7 +3482,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A tumor cell that stops displaying MHC I to evade T cells is still vulnerable to which cell?
   options:
     - text: Natural killer cell
@@ -3517,7 +3517,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which cells secrete most of the antibodies in the blood?
   options:
     - text: Plasma cell
@@ -3552,7 +3552,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: The itching and swelling of a mosquito bite come mainly from histamine released by which cells?
   options:
     - text: Mast cell
@@ -3591,7 +3591,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A patient with a tapeworm infection would most likely show elevated levels of which white blood cell?
   options:
     - text: Eosinophil
@@ -3628,7 +3628,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Pus at a site of bacterial infection consists largely of dead:'
   options:
     - text: Neutrophil
@@ -3665,7 +3665,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which cells capture antigen in tissues and carry it to lymph nodes to activate naive T cells?
   options:
     - text: Dendritic cell
@@ -3706,7 +3706,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Which phagocyte, derived from monocytes, engulfs pathogens in tissues and displays their peptides on MHC
     II?
@@ -3745,7 +3745,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Glucose appears in the urine of a patient with very high blood glucose because transport capacity has been
     exceeded in the:
@@ -3790,7 +3790,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Loop diuretics such as furosemide block Na⁺–K⁺–2Cl⁻ transport in the:'
   options:
     - text: Thick ascending limb of the loop of Henle
@@ -3833,7 +3833,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which segment is permeable to water but not to salt?
   options:
     - text: Descending limb of the loop of Henle
@@ -3876,7 +3876,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: ADH acts mainly on which segment to concentrate the urine?
   options:
     - text: Collecting duct
@@ -3917,7 +3917,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Albumin normally fails to cross which part of the nephron?
   options:
     - text: Glomerulus
@@ -3956,7 +3956,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Where is most filtered sodium and water reabsorbed?
   options:
     - text: Proximal convoluted tubule
@@ -3997,7 +3997,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Thiazide diuretics block Na⁺–Cl⁻ cotransport in the:'
   options:
     - text: Distal convoluted tubule
@@ -5141,7 +5141,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Deoxygenated blood returning from the body first enters which chamber?
   options:
     - text: Right atrium
@@ -5178,7 +5178,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Blood leaving the right ventricle travels next through the:'
   options:
     - text: Pulmonary artery
@@ -5215,7 +5215,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Oxygenated blood returns from the lungs through the:'
   options:
     - text: Pulmonary veins
@@ -5252,7 +5252,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which chamber pumps blood into the aorta?
   options:
     - text: Left ventricle
@@ -5289,7 +5289,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which vessel carries deoxygenated blood away from the heart?
   options:
     - text: Pulmonary artery
@@ -5326,7 +5326,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Blood passes through the mitral valve from the left atrium into the:'
   options:
     - text: Left ventricle
@@ -5363,7 +5363,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which chamber has the thickest muscular wall?
   options:
     - text: Left ventricle
@@ -5400,7 +5400,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which vessels carry oxygenated blood toward the heart?
   options:
     - text: Pulmonary veins
@@ -5437,7 +5437,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Blood passes through the tricuspid valve from the right atrium into the:'
   options:
     - text: Right ventricle
@@ -5474,7 +5474,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Crossing red-flowered and white-flowered snapdragons produces pink-flowered offspring. Which concept does
     this best illustrate?
@@ -5511,7 +5511,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A person with type AB blood expresses both A and B antigens on her red blood cells. Which concept does
     this best illustrate?
@@ -5552,7 +5552,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     In Labrador retrievers, one gene sets black versus brown pigment, but a second gene can block pigment
     deposition entirely, producing yellow dogs. Which concept does this best illustrate?
@@ -5589,7 +5589,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A single mutation in the fibrillin gene affects the skeleton, eyes and heart in Marfan syndrome. Which
     concept does this best illustrate?
@@ -5628,7 +5628,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Only 70% of people who carry a dominant disease allele ever develop the disease. Which concept does this
     best illustrate?
@@ -5669,7 +5669,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Everyone with a particular dominant allele has the disorder, but some have mild symptoms and others severe
     ones. Which concept does this best illustrate?
@@ -5706,7 +5706,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Two genes that sit close together on a chromosome are inherited together far more often than independent
     assortment predicts. Which concept does this best illustrate?
@@ -5747,7 +5747,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Human height shows a continuous, bell-shaped distribution shaped by many genes. Which concept does this
     best illustrate?
@@ -5786,7 +5786,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A few settlers found an island population, and a rare allele carried by one of them becomes common there.
     Which evolutionary process does this best illustrate?
@@ -5823,7 +5823,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A hurricane kills 90% of a lizard population at random, sharply reducing its genetic diversity. Which
     evolutionary process does this best illustrate?
@@ -5860,7 +5860,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Human birth weights cluster around an intermediate value because very small and very large babies have
     lower survival. Which evolutionary process does this best illustrate?
@@ -5897,7 +5897,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After decades of insecticide use, the average insecticide resistance of a mosquito population steadily
     increases. Which evolutionary process does this best illustrate?
@@ -5934,7 +5934,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     On an island with only tiny seeds and very hard seeds, finches with either very small or very large beaks
     thrive. Which evolutionary process does this best illustrate?
@@ -5971,7 +5971,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Peacocks’ elaborate tails make them easier for predators to catch but greatly increase their mating
     success. Which evolutionary process does this best illustrate?
@@ -6008,7 +6008,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A worker bee, which never reproduces, dies defending the hive and the queen, its mother. Which
     evolutionary process does this best illustrate?
@@ -6045,7 +6045,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Pollen blown between two meadows makes their plant populations genetically more similar. Which
     evolutionary process does this best illustrate?
@@ -6082,7 +6082,7 @@
   outline:
     category: 1C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     In a population of 20 beetles, an allele’s frequency drops from 50% to 10% over a few generations purely
     by chance. Which evolutionary process does this best illustrate?
@@ -6119,7 +6119,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Epinephrine binding to a β-adrenergic receptor activates adenylyl cyclase through a:'
   options:
     - text: G protein–coupled receptor
@@ -6164,7 +6164,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'When insulin binds its receptor, the receptor phosphorylates itself on tyrosines. This receptor is a:'
   options:
     - text: Receptor tyrosine kinase
@@ -6209,7 +6209,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Acetylcholine binding at the neuromuscular junction directly opens a cation channel. This receptor is a:'
   options:
     - text: Ligand-gated ion channel
@@ -6254,7 +6254,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Cortisol diffuses through the membrane and binds a receptor that acts as a transcription factor. This is
     an:
@@ -6301,7 +6301,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A receptor that activates phospholipase C through a Gq protein is a:'
   options:
     - text: G protein–coupled receptor
@@ -6346,7 +6346,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Growth factor receptors that activate the Ras–MAPK pathway are typically:'
   options:
     - text: Receptor tyrosine kinase
@@ -6391,7 +6391,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'GABA-A receptors, which let Cl⁻ into the cell within milliseconds of GABA binding, are:'
   options:
     - text: Ligand-gated ion channel
@@ -6436,7 +6436,7 @@
   outline:
     category: 3A
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Thyroid hormone changes gene expression by binding an:'
   options:
     - text: Intracellular receptor
@@ -6799,7 +6799,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'PTH raises blood calcium partly by indirectly activating:'
   options:
     - text: Osteoclast
@@ -6834,7 +6834,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which cells secrete new bone matrix during fracture repair?
   options:
     - text: Osteoblast
@@ -6869,7 +6869,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Cells trapped in lacunae that sense mechanical stress on bone are:'
   options:
     - text: Osteocyte
@@ -6904,7 +6904,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The cartilage of the growth plate is made by:'
   options:
     - text: Chondrocyte
@@ -6939,7 +6939,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Calcitonin lowers blood calcium by inhibiting:'
   options:
     - text: Osteoclast
@@ -6974,7 +6974,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Osteoporosis develops when bone resorption outpaces formation. The resorbing cells are:'
   options:
     - text: Osteoclast
@@ -7410,7 +7410,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'DNA replication occurs during:'
   options:
     - text: S phase
@@ -7445,7 +7445,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Sister chromatids separate during:'
   options:
     - text: Anaphase
@@ -7480,7 +7480,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Chromosomes align at the cell’s equator during:'
   options:
     - text: Metaphase
@@ -7515,7 +7515,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Chromatin condenses and the nuclear envelope breaks down during:'
   options:
     - text: Prophase
@@ -7550,7 +7550,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Nuclear envelopes re-form around each set of chromosomes during:'
   options:
     - text: Telophase
@@ -7585,7 +7585,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'A cell that has permanently stopped dividing, such as a mature neuron, is in:'
   options:
     - text: G0 phase
@@ -7620,7 +7620,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Most cell growth before DNA synthesis occurs in:'
   options:
     - text: G1 phase
@@ -7655,7 +7655,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Checks that DNA replication is complete and undamaged, just before mitosis, occur in:'
   options:
     - text: G2 phase
@@ -7690,7 +7690,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Crossing over between homologous chromosomes occurs during:'
   options:
     - text: Prophase I
@@ -7725,7 +7725,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Homologous chromosomes separate during:'
   options:
     - text: Anaphase I
@@ -7760,7 +7760,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'In meiosis, sister chromatids separate during:'
   options:
     - text: Anaphase II
@@ -7795,7 +7795,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Tetrads line up at the metaphase plate during:'
   options:
     - text: Metaphase I
@@ -7830,7 +7830,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Nondisjunction of homologous chromosomes occurs in:'
   options:
     - text: Anaphase I
@@ -7865,7 +7865,7 @@
   outline:
     category: 2C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'In a haploid cell, unpaired chromosomes line up individually at the metaphase plate during:'
   options:
     - text: Metaphase II
@@ -8122,7 +8122,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A surge of which hormone triggers ovulation?
   options:
     - text: LH
@@ -8157,7 +8157,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone, secreted by the corpus luteum, maintains the endometrium during the luteal phase?
   options:
     - text: Progesterone
@@ -8192,7 +8192,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone made by the early embryo keeps the corpus luteum alive and is detected by pregnancy tests?
   options:
     - text: hCG
@@ -8227,7 +8227,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hormone stimulates follicle growth early in the follicular phase?
   options:
     - text: FSH
@@ -8262,7 +8262,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Rising levels of which hormone from developing follicles thicken the endometrium in the follicular phase?
   options:
     - text: Estrogen
@@ -8297,7 +8297,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which hypothalamic hormone stimulates the release of FSH and LH?
   options:
     - text: GnRH
@@ -8332,7 +8332,7 @@
   outline:
     category: 3B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: In males, which hormone stimulates Sertoli cells to support spermatogenesis?
   options:
     - text: FSH
@@ -8367,7 +8367,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'An inhibitor raises the apparent Km but leaves Vmax unchanged. This is:'
   options:
     - text: Competitive inhibition
@@ -8410,7 +8410,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'An inhibitor lowers Vmax without changing Km. This is:'
   options:
     - text: Noncompetitive inhibition
@@ -8455,7 +8455,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'An inhibitor lowers both Vmax and Km by the same factor. This is:'
   options:
     - text: Uncompetitive inhibition
@@ -8498,7 +8498,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'An inhibitor’s effect can be overcome by adding more substrate. This is:'
   options:
     - text: Competitive inhibition
@@ -8541,7 +8541,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'An inhibitor binds only to the enzyme–substrate complex. This is:'
   options:
     - text: Uncompetitive inhibition
@@ -8631,7 +8631,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'On a Lineweaver–Burk plot, inhibited and uninhibited lines cross on the y-axis. This indicates:'
   options:
     - text: Competitive inhibition
@@ -8674,7 +8674,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'On a Lineweaver–Burk plot, inhibited and uninhibited lines cross on the x-axis. This indicates:'
   options:
     - text: Noncompetitive inhibition
@@ -8719,7 +8719,7 @@
   outline:
     category: 1A
     sirs: 1
-  difficulty: 2
+  difficulty: 4
   prompt: 'On a Lineweaver–Burk plot, the inhibited line runs parallel to the uninhibited one. This indicates:'
   options:
     - text: Uncompetitive inhibition
@@ -8762,7 +8762,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which polysaccharide has β-1,4 linkages that humans cannot digest?
   options:
     - text: Cellulose
@@ -8799,7 +8799,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which highly branched glucose polymer stores energy in the liver and muscle?
   options:
     - text: Glycogen
@@ -8836,7 +8836,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which plant storage polymer is a mostly unbranched chain of α-1,4-linked glucose?
   options:
     - text: Amylose
@@ -8873,7 +8873,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which molecule stores the most energy per gram in adipose tissue?
   options:
     - text: Triacylglycerol
@@ -8910,7 +8910,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which amphipathic molecule forms the bilayer of cell membranes?
   options:
     - text: Phospholipid
@@ -8949,7 +8949,7 @@
   outline:
     category: 1D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which lipid is the precursor of steroid hormones and helps moderate membrane fluidity?
   options:
     - text: Cholesterol

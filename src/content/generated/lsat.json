@@ -1,7 +1,7 @@
 {
  "exam": "LSAT",
- "version": "ad33d38da8fe",
- "generatedAt": "2026-10-27T14:25:27.375Z",
+ "version": "53f125d65c6e",
+ "generatedAt": "2026-10-27T18:54:38.926Z",
  "items": [
   {
    "id": "lsat-lr-0300",
@@ -17,6 +17,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 63,
    "targetSec": 84,
    "stimulus": "The bike lanes the city added to Main Street last year have made the street safer. In the year after the lanes were installed, traffic accidents on Main Street fell by a third.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -86,6 +88,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.89,
+   "rank": 127,
    "targetSec": 84,
    "stimulus": "Since the Brookfield Library began lending e-books two years ago, checkouts of its print books have fallen by 20 percent. Clearly, many patrons who once borrowed print books from the library now borrow e-books instead.",
    "prompt": "The argument requires assuming which one of the following?",
@@ -155,6 +159,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 66,
    "targetSec": 84,
    "stimulus": "Critics claim that the new biology textbook is too difficult for ninth graders. But the textbook was written by a team of experienced high school biology teachers. So the critics are mistaken.",
    "prompt": "Which one of the following is an assumption on which the argument depends?",
@@ -223,7 +229,9 @@
     "kp-lsat-plan",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.98,
+   "rank": 163,
    "targetSec": 84,
    "stimulus": "To reduce littering in Lake Park, the city plans to double the number of trash cans in the park. Because people litter mainly when no trash can is in sight, the plan will reduce littering.",
    "prompt": "The argument depends on assuming which one of the following?",
@@ -292,7 +300,9 @@
     "kp-lsat-rival-cause",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.25,
+   "rank": 35,
    "targetSec": 84,
    "stimulus": "Students at Hillside School scored higher on this year's state reading exam than students at Valley School. So Hillside's reading curriculum is more effective than Valley's.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -361,7 +371,9 @@
     "kp-lsat-sampling",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.22,
+   "rank": 25,
    "targetSec": 84,
    "stimulus": "In a poll of 1,000 voters reached on landline telephones, 62 percent said they support the library bond measure. So the measure is likely to pass.",
    "prompt": "The argument depends on the assumption that",
@@ -430,7 +442,9 @@
     "kp-lsat-reverse-causation",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.21,
+   "rank": 24,
    "targetSec": 84,
    "stimulus": "People who meditate daily report lower levels of stress than people who do not. So daily meditation reduces stress.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -499,7 +513,9 @@
     "kp-lsat-analogy",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.95,
+   "rank": 156,
    "targetSec": 84,
    "stimulus": "When the city banned smoking in restaurants, owners predicted they would lose customers, but restaurant revenues rose the following year. Owners now predict that a proposed ban on cell phone use in restaurants will drive customers away. This prediction is likely to prove just as mistaken.",
    "prompt": "The argument depends on the assumption that",
@@ -569,6 +585,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 2,
+   "rating": 2.42,
+   "rank": 85,
    "targetSec": 84,
    "stimulus": "Kenji wants to join the university's honors program, which admits only students with a grade-point average of at least 3.7. His average is now 3.5, but he plans to raise it to 3.7 by taking three electives next semester. So after next semester Kenji will meet the honors program's grade requirement.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -637,7 +655,9 @@
     "kp-lsat-rival-cause",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 27,
    "targetSec": 84,
    "stimulus": "Our new advertising campaign has succeeded in drawing attention to our website: visits to the site rose 40 percent during the six weeks the campaign ran.",
    "prompt": "The argument requires assuming which one of the following?",
@@ -706,7 +726,9 @@
     "kp-lsat-plan",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3,
+   "rank": 165,
    "targetSec": 84,
    "stimulus": "A farm cooperative now pays distributors a fee to deliver its produce to city restaurants. It plans to deliver the produce itself, and the restaurants will pay the same prices as before. Because it will no longer pay the distributors' fees, the cooperative expects its members' profits to rise.",
    "prompt": "The cooperative's expectation depends on which one of the following assumptions?",
@@ -775,7 +797,9 @@
     "kp-lsat-rival-cause",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.25,
+   "rank": 36,
    "targetSec": 84,
    "stimulus": "After Riverton raised its minimum wage last spring, unemployment among the city's teenagers rose sharply. Evidently, the higher minimum wage caused the rise in teenage unemployment.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -843,7 +867,9 @@
    "knowledgePoints": [
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.26,
+   "rank": 40,
    "targetSec": 84,
    "stimulus": "Over the past decade, the number of applicants to Hartwell College has grown by about 5 percent every year. So Hartwell should expect more applicants next year than it received this year.",
    "prompt": "The argument depends on the assumption that",
@@ -912,7 +938,9 @@
     "kp-lsat-numbers-proportions",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.26,
+   "rank": 42,
    "targetSec": 84,
    "stimulus": "Region X reported more cases of influenza this winter than Region Y did. So influenza was more widespread in Region X than in Region Y this winter.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -981,6 +1009,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 106,
    "targetSec": 84,
    "stimulus": "The ancient building had no windows and a single narrow entrance, and archaeologists found large quantities of grain residue on its floor. It must originally have been built as a granary.",
    "prompt": "The argument depends on assuming which one of the following?",
@@ -1050,6 +1080,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 134,
    "targetSec": 84,
    "stimulus": "The average sale price of houses in Linwood rose by 15 percent last year. So people who owned homes in Linwood at the start of last year saw their homes increase in value.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -1119,6 +1151,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 4,
+   "rating": 3.45,
+   "rank": 175,
    "targetSec": 84,
    "stimulus": "Of the restaurants that have been open in Fairview for more than twenty years, nearly all serve traditional local dishes. Clearly, serving traditional local dishes helps a restaurant survive in Fairview.",
    "prompt": "The argument depends on the assumption that",
@@ -1188,6 +1222,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 46,
    "targetSec": 84,
    "stimulus": "Patients who took part in the hospital's new physical therapy program recovered from knee surgery faster than patients who did not. So the program speeds recovery from knee surgery.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -1256,7 +1292,9 @@
     "kp-lsat-plan",
     "kp-lsat-negation-test"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.21,
+   "rank": 22,
    "targetSec": 84,
    "stimulus": "Installing solar panels on the town hall would reduce the town's electricity bills. Therefore, the town should install solar panels on the town hall.",
    "prompt": "The argument depends on the assumption that",
@@ -1325,6 +1363,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 109,
    "targetSec": 84,
    "stimulus": "People who drink green tea daily have lower blood levels of protein C-7, a protein released during inflammation, than people who don't. So drinking green tea daily reduces inflammation.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -1394,6 +1434,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 107,
    "targetSec": 84,
    "stimulus": "To cut its paper costs, the Kessling office will require employees to print documents double-sided. Since double-sided printing uses half as many sheets per document, the office's paper costs will fall.",
    "prompt": "The argument depends on assuming which one of the following?",
@@ -1463,6 +1505,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.89,
+   "rank": 129,
    "targetSec": 84,
    "stimulus": "When the Oak Street Bakery began posting its daily specials online, its sales rose. So the other bakeries in town would also increase their sales by posting their daily specials online.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -1532,6 +1576,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 4,
+   "rating": 3.48,
+   "rank": 177,
    "targetSec": 84,
    "stimulus": "Most employees at Calloway Inc. work more than fifty hours a week. So Calloway is not a company that values its employees' well-being.",
    "prompt": "The argument depends on the assumption that",
@@ -1601,6 +1647,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 142,
    "targetSec": 84,
    "stimulus": "Of the drivers stopped at a sobriety checkpoint on Route 9 last weekend, fewer than one percent were driving under the influence of alcohol. So drunk driving is not a serious problem in the county.",
    "prompt": "Which one of the following is an assumption required by the argument?",
@@ -1670,6 +1718,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 2,
+   "rating": 2.33,
+   "rank": 76,
    "targetSec": 84,
    "stimulus": "Dr. Ruiz, who has studied the region's wildlife for thirty years, says that the region's gray wolf population is growing. So the gray wolf population in the region is growing.",
    "prompt": "The argument depends on the assumption that",
@@ -1738,6 +1788,8 @@
     "kp-lsat-flaw-equivocation"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 61,
    "targetSec": 84,
    "stimulus": "The museum describes its new exhibit as a \"free\" experience, meaning visitors may explore its rooms in any order they choose. Yet the museum charges admission to the exhibit. So the museum's description is false.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -1806,6 +1858,8 @@
     "kp-lsat-flaw-circular"
    ],
    "difficulty": 2,
+   "rating": 2.33,
+   "rank": 77,
    "targetSec": 84,
    "stimulus": "Columnist: Greenfield's mayor is the most trustworthy official in the region. After all, she has never told the public anything false, and we can be confident of that because a trustworthy official like her would never mislead the public.",
    "prompt": "The reasoning in the columnist's argument is flawed because it",
@@ -1874,6 +1928,8 @@
     "kp-lsat-flaw-false-choice"
    ],
    "difficulty": 1,
+   "rating": 1.67,
+   "rank": 13,
    "targetSec": 84,
    "stimulus": "Either the city raises property taxes or it closes two of its public libraries. Since raising property taxes would hurt the city's homeowners, the city should close the libraries.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -1942,6 +1998,8 @@
     "kp-lsat-flaw-authority"
    ],
    "difficulty": 1,
+   "rating": 1.76,
+   "rank": 19,
    "targetSec": 84,
    "stimulus": "Dr. Lim, a renowned cardiologist, says that the new tax on sugary drinks will have no effect on the local economy. So the tax will have no effect on the local economy.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2010,6 +2068,8 @@
     "kp-lsat-flaw-popularity"
    ],
    "difficulty": 1,
+   "rating": 1.67,
+   "rank": 14,
    "targetSec": 84,
    "stimulus": "A recent poll found that 70 percent of residents believe the proposed highway will reduce traffic downtown. Since so many residents agree, the highway will reduce downtown traffic.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -2078,6 +2138,8 @@
     "kp-lsat-flaw-straw-man"
    ],
    "difficulty": 2,
+   "rating": 2.31,
+   "rank": 70,
    "targetSec": 84,
    "stimulus": "Councilor Diaz has proposed lowering the speed limit on Elm Street from 35 to 25 miles per hour. But banning cars from Elm Street entirely would devastate the businesses there. Diaz's proposal should therefore be rejected.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2146,6 +2208,8 @@
     "kp-lsat-flaw-hasty"
    ],
    "difficulty": 1,
+   "rating": 1.65,
+   "rank": 10,
    "targetSec": 84,
    "stimulus": "Last month I ate at two restaurants in Port Ellis, and both served undercooked fish. Clearly, the restaurants in Port Ellis do not follow food-safety standards.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -2214,6 +2278,8 @@
     "kp-lsat-flaw-absence"
    ],
    "difficulty": 1,
+   "rating": 1.59,
+   "rank": 1,
    "targetSec": 84,
    "stimulus": "No study has ever shown that the herbal supplement Calmera improves sleep. Therefore, Calmera does not improve sleep.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2282,6 +2348,8 @@
     "kp-lsat-flaw-possible-certain"
    ],
    "difficulty": 2,
+   "rating": 2.29,
+   "rank": 54,
    "targetSec": 84,
    "stimulus": "The proposed factory could release pollutants into the Redwater River. Pollution in the river would harm the fish that local anglers depend on. So if the factory is built, the anglers' catch will decline.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2350,6 +2418,8 @@
     "kp-lsat-flaw-post-hoc"
    ],
    "difficulty": 1,
+   "rating": 1.65,
+   "rank": 9,
    "targetSec": 84,
    "stimulus": "Shortly after the town of Millbrook painted its fire hydrants bright yellow, the number of house fires in Millbrook declined. Evidently, the yellow paint helped prevent house fires.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2418,6 +2488,8 @@
     "kp-lsat-flaw-alternatives"
    ],
    "difficulty": 2,
+   "rating": 2.35,
+   "rank": 82,
    "targetSec": 84,
    "stimulus": "To cut its carbon emissions by 20 percent, the Halcyon Corporation must stop operating its oldest factory, since that factory produces 20 percent of the company's emissions.",
    "prompt": "Which one of the following most accurately describes a flaw in the argument?",
@@ -2486,6 +2558,8 @@
     "kp-lsat-necessary-vs-sufficient"
    ],
    "difficulty": 1,
+   "rating": 1.72,
+   "rank": 16,
    "targetSec": 84,
    "stimulus": "To be admitted to the Bellmont Conservatory, an applicant must pass a rigorous audition. Theo passed the audition, so he will be admitted to the conservatory.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2553,7 +2627,9 @@
    "knowledgePoints": [
     "kp-lsat-part-whole"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 29,
    "targetSec": 84,
    "stimulus": "The Westfield Symphony won this year's statewide orchestra competition. So each of its musicians must be among the best musicians in the state.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -2622,6 +2698,8 @@
     "kp-lsat-numbers-proportions"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 44,
    "targetSec": 84,
    "stimulus": "This year, 40 percent of the cars sold at Avalon Motors were electric, up from 25 percent last year. So Avalon Motors sold more electric cars this year than last year.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2690,6 +2768,8 @@
     "kp-lsat-sampling"
    ],
    "difficulty": 2,
+   "rating": 2.31,
+   "rank": 72,
    "targetSec": 84,
    "stimulus": "To find out whether residents of Clearwater support building a new public pool, the city surveyed people leaving its existing community swim center. Ninety percent supported the new pool. Clearly, most Clearwater residents support it.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -2758,6 +2838,8 @@
     "kp-lsat-source-attack"
    ],
    "difficulty": 1,
+   "rating": 1.67,
+   "rank": 12,
    "targetSec": 84,
    "stimulus": "Professor Okafor's study concludes that the city's new bus routes have shortened commute times. But Professor Okafor rides the bus to work every day, so her conclusion cannot be trusted.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2825,7 +2907,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.25,
+   "rank": 38,
    "targetSec": 84,
    "stimulus": "Children who eat breakfast every day earn higher grades than children who skip breakfast. So eating breakfast every day improves children's grades.",
    "prompt": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
@@ -2893,7 +2977,9 @@
    "knowledgePoints": [
     "kp-lsat-reverse-causation"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.19,
+   "rank": 20,
    "targetSec": 84,
    "stimulus": "People who own dogs report being happier than people who do not. So owning a dog makes people happier.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -2961,7 +3047,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-equivocation"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 26,
    "targetSec": 84,
    "stimulus": "Critic: The science museum describes natural selection as a theory. But a theory is just a guess. So the museum admits that natural selection is only a guess.",
    "prompt": "The critic's reasoning is flawed because it",
@@ -3029,7 +3117,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-circular"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.26,
+   "rank": 39,
    "targetSec": 84,
    "stimulus": "The Riverside Review publishes only the finest poetry, because every poem it prints meets the highest standards. And we know the poems meet those standards because they appear in the Riverside Review.",
    "prompt": "The argument's reasoning is flawed because it",
@@ -3098,6 +3188,8 @@
     "kp-lsat-flaw-false-choice"
    ],
    "difficulty": 1,
+   "rating": 1.65,
+   "rank": 8,
    "targetSec": 84,
    "stimulus": "Ana: Either you support the new stadium or you don't care about our city's economy. You've said you oppose the stadium, so clearly you don't care about the economy.",
    "prompt": "The reasoning in Ana's argument is flawed because it",
@@ -3166,6 +3258,8 @@
     "kp-lsat-flaw-authority"
    ],
    "difficulty": 1,
+   "rating": 1.65,
+   "rank": 11,
    "targetSec": 84,
    "stimulus": "The famous actor Jonah Price uses Brightsmile toothpaste and says it is the best on the market. So Brightsmile must be the best toothpaste available.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -3234,6 +3328,8 @@
     "kp-lsat-flaw-hasty"
    ],
    "difficulty": 1,
+   "rating": 1.63,
+   "rank": 5,
    "targetSec": 84,
    "stimulus": "My grandfather smoked a pack of cigarettes a day and lived to be ninety-five. So smoking cannot be as harmful to health as doctors claim.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3302,6 +3398,8 @@
     "kp-lsat-flaw-absence"
    ],
    "difficulty": 1,
+   "rating": 1.59,
+   "rank": 2,
    "targetSec": 84,
    "stimulus": "No one has ever shown that the old Harlow mansion is not haunted. So the mansion must be haunted.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3369,7 +3467,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-possible-certain"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 30,
    "targetSec": 84,
    "stimulus": "Most first-time novelists do not earn back their publisher's advance. Dana is a first-time novelist. So Dana will not earn back her advance.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -3438,6 +3538,8 @@
     "kp-lsat-part-whole"
    ],
    "difficulty": 2,
+   "rating": 2.28,
+   "rank": 52,
    "targetSec": 84,
    "stimulus": "Each player on the Rockport team is among the most skilled players in the league. Therefore, the Rockport team will surely be one of the best teams in the league this season.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3506,6 +3608,8 @@
     "kp-lsat-sampling"
    ],
    "difficulty": 2,
+   "rating": 2.33,
+   "rank": 78,
    "targetSec": 84,
    "stimulus": "A magazine invited readers to mail in a survey about job satisfaction. Of the 3,000 readers who responded, 80 percent said they were unhappy at work. Clearly, most of the magazine's readers are dissatisfied with their jobs.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -3574,6 +3678,8 @@
     "kp-lsat-source-attack"
    ],
    "difficulty": 1,
+   "rating": 1.75,
+   "rank": 17,
    "targetSec": 84,
    "stimulus": "Senator Hale argues that the city should ban plastic shopping bags. But Senator Hale herself was photographed carrying groceries in plastic bags last month. So her argument should be rejected.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3642,6 +3748,8 @@
     "kp-lsat-flaw-equivocation"
    ],
    "difficulty": 3,
+   "rating": 2.89,
+   "rank": 128,
    "targetSec": 84,
    "stimulus": "The study found a statistically significant difference between the two groups' reading scores. A significant difference is an important difference. So the study found that the difference between the groups' reading scores is important.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3710,6 +3818,8 @@
     "kp-lsat-numbers-proportions"
    ],
    "difficulty": 2,
+   "rating": 2.29,
+   "rank": 57,
    "targetSec": 84,
    "stimulus": "Reported bicycle thefts rose by 50 percent last year in Danbury but by only 10 percent in Easton. So bicycle theft is now a bigger problem in Danbury than in Easton.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -3778,6 +3888,8 @@
     "kp-lsat-analogy"
    ],
    "difficulty": 2,
+   "rating": 2.29,
+   "rank": 55,
    "targetSec": 84,
    "stimulus": "A ship needs a single captain whose orders are obeyed without debate. A nation is like a ship. So a nation should be ruled by a single leader whose orders are obeyed without debate.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3846,6 +3958,8 @@
     "kp-lsat-necessary-vs-sufficient"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 45,
    "targetSec": 84,
    "stimulus": "The orchid will flower only if it gets at least six hours of sunlight a day. Since it is now getting eight hours of sunlight a day, it will flower.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -3914,6 +4028,8 @@
     "kp-lsat-necessary-vs-sufficient"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 60,
    "targetSec": 84,
    "stimulus": "Any candidate who wins the teachers' union's endorsement will win the election. Morales did not win the union's endorsement. So Morales will not win the election.",
    "prompt": "The argument's reasoning is flawed because it",
@@ -3981,7 +4097,9 @@
    "knowledgePoints": [
     "kp-lsat-reverse-causation"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.21,
+   "rank": 23,
    "targetSec": 84,
    "stimulus": "Cities with more police officers per resident tend to have higher crime rates. So hiring more police officers tends to increase crime.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4050,6 +4168,8 @@
     "kp-lsat-flaw-circular"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 50,
    "targetSec": 84,
    "stimulus": "We can trust this encyclopedia's account of the war, because the encyclopedia is reliable. And we know it is reliable because its accounts, including this one, are accurate.",
    "prompt": "Which one of the following most accurately describes a flaw in the argument?",
@@ -4118,6 +4238,8 @@
     "kp-lsat-flaw-absence"
    ],
    "difficulty": 1,
+   "rating": 1.64,
+   "rank": 6,
    "targetSec": 84,
    "stimulus": "The defense has not proven that the defendant was somewhere else at the time of the robbery. Therefore, the defendant must have been at the scene.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4185,7 +4307,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-possible-certain"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.99,
+   "rank": 164,
    "targetSec": 84,
    "stimulus": "Housing experts predict that home prices in Millport will rise over the coming year. Therefore, anyone who buys a house in Millport this year will be able to sell it next year for more than they paid.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4254,6 +4378,8 @@
     "kp-lsat-flaw-straw-man"
    ],
    "difficulty": 1,
+   "rating": 1.75,
+   "rank": 18,
    "targetSec": 84,
    "stimulus": "My opponent says the school district should reduce its budget by two percent. But I will never support a plan that leaves our children without teachers or textbooks.",
    "prompt": "The reasoning above is most vulnerable to criticism on the grounds that it",
@@ -4321,7 +4447,9 @@
    "knowledgePoints": [
     "kp-lsat-quantifiers"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.95,
+   "rank": 157,
    "targetSec": 84,
    "stimulus": "Most professional chess players began playing chess before the age of ten. So most people who begin playing chess before the age of ten go on to become professional chess players.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4389,7 +4517,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-absence"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.81,
+   "rank": 89,
    "targetSec": 84,
    "stimulus": "Every witness agrees that the robber was tall. But eyewitness testimony is notoriously unreliable. So the robber was probably not tall.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4457,7 +4587,9 @@
    "knowledgePoints": [
     "kp-lsat-sampling"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.8,
+   "rank": 88,
    "targetSec": 84,
    "stimulus": "The buildings that survive from ancient Rome are remarkably sturdy. Clearly, Roman builders built sturdier buildings than modern builders do.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4526,6 +4658,8 @@
     "kp-lsat-part-whole"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 62,
    "targetSec": 84,
    "stimulus": "The average household income in Brentwood is higher than the average household income in Carlisle. So the Ito household, which is in Brentwood, has a higher income than the Park household, which is in Carlisle.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4593,7 +4727,9 @@
    "knowledgePoints": [
     "kp-lsat-plan"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.26,
+   "rank": 41,
    "targetSec": 84,
    "stimulus": "Building the new subway line will cause years of construction noise for the residents of Elm District. Therefore, the city should not build the new subway line.",
    "prompt": "The argument is most vulnerable to criticism on the grounds that it",
@@ -4661,7 +4797,9 @@
    "knowledgePoints": [
     "kp-lsat-numbers-proportions"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.85,
+   "rank": 96,
    "targetSec": 84,
    "stimulus": "Most of the car accidents in the county occur within five miles of the drivers' homes. So driving near home is more dangerous than driving far from home.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4730,6 +4868,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 2,
+   "rating": 2.31,
+   "rank": 71,
    "targetSec": 84,
    "stimulus": "People who carry lighters are more likely than others to develop lung cancer. So carrying a lighter increases a person's risk of lung cancer.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4797,7 +4937,9 @@
    "knowledgePoints": [
     "kp-lsat-quantifiers"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.81,
+   "rank": 90,
    "targetSec": 84,
    "stimulus": "Some members of the planning committee support the proposed zoning change. So some members of the planning committee do not support it.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4865,7 +5007,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-authority"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.95,
+   "rank": 158,
    "targetSec": 84,
    "stimulus": "Economists disagree about whether the proposed tax cut would increase economic growth. So no one can know whether it would, and the government should ignore economists' advice on the matter.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -4933,7 +5077,9 @@
    "knowledgePoints": [
     "kp-lsat-numbers-proportions"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.85,
+   "rank": 97,
    "targetSec": 84,
    "stimulus": "The chance that any particular ticket will win the state lottery is one in ten million. So the person who won last week's lottery must have cheated.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -5001,7 +5147,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-consequences"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 28,
    "targetSec": 84,
    "stimulus": "If people came to believe that free will is an illusion, many of them would behave less responsibly. Therefore, free will is not an illusion.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -5069,7 +5217,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.85,
+   "rank": 98,
    "targetSec": 84,
    "stimulus": "Since the city opened an anonymous hotline for reporting workplace harassment, reports of workplace harassment have doubled. Clearly, the hotline has made the city's workplaces less safe.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -5138,6 +5288,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 2,
+   "rating": 2.29,
+   "rank": 58,
    "targetSec": 84,
    "stimulus": "At Linden High School, none of the students who do not take music theory play in the orchestra. Only students who are on the swim team take music theory.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -5216,6 +5368,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 2,
+   "rating": 2.29,
+   "rank": 59,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, unless an employee has a company car, that employee did not attend the spring retreat. No employee who does not speak Spanish has a company car.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -5294,6 +5448,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 67,
    "targetSec": 84,
    "stimulus": "At the Harbor Animal Shelter, dogs that are over five years old have all been vaccinated. If a dog does not get along with cats, then it has not been vaccinated.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -5371,7 +5527,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.25,
+   "rank": 37,
    "targetSec": 84,
    "stimulus": "In the Varga Collection, every painting that is insured was painted before 1900. If a painting has been restored, then it is insured.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -5450,6 +5608,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 68,
    "targetSec": 84,
    "stimulus": "In the Fernhill Hiking Club, none of the members who do not lead group hikes have climbed Mount Avery. Members who are certified in first aid have all climbed Mount Avery.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -5527,7 +5687,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.84,
+   "rank": 93,
    "targetSec": 84,
    "stimulus": "On Calder Street, restaurants that have outdoor seating are never open on Mondays. Only restaurants that are open on Mondays serve breakfast.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -5606,6 +5768,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.89,
+   "rank": 130,
    "targetSec": 84,
    "stimulus": "On the Brightway car lot, only cars that were built after 2020 have heated seats. None of the cars that were built after 2020 come with a warranty.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -5684,6 +5848,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 112,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, unless a plant needs direct sunlight, it does not flower in spring. None of the plants that require daily watering need direct sunlight.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -5762,6 +5928,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 139,
    "targetSec": 84,
    "stimulus": "On this year's Harwick Prize shortlist, none of the novels that have not been translated are set in the future. Novels that have been translated were never published in paperback.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -5839,7 +6007,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.84,
+   "rank": 94,
    "targetSec": 84,
    "stimulus": "In the Lakeview building, no apartment that does not allow pets has a balcony. Apartments that face the lake never allow pets.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -5918,6 +6088,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 147,
    "targetSec": 84,
    "stimulus": "In the Riverside soccer league, unless a player has scored a goal this season, that player does not wear contact lenses. Players who do not play defense all wear contact lenses.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -5996,6 +6168,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 148,
    "targetSec": 84,
    "stimulus": "At Danforth College, every course that does not meet on Fridays satisfies the science requirement. If a course is not taught by a visiting professor, then it does not meet on Fridays.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -6074,6 +6248,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 136,
    "targetSec": 84,
    "stimulus": "At the Oakmont food bank, none of the volunteers who do not drive a delivery route work the Saturday shift. Every volunteer who does not speak French works the Saturday shift.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -6152,6 +6328,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 143,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, only bird species that nest on the ground are protected by law. If a bird species does not migrate south in winter, then it is protected by law.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -6230,6 +6408,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 140,
    "targetSec": 84,
    "stimulus": "At Quillon Software, engineers who do not mentor new hires are all on the security team. Unless an engineer writes code in Rust, that engineer does not mentor new hires.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -6308,6 +6488,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 191,
    "targetSec": 84,
    "stimulus": "At the Westbrook clinic, every patient who is over sixty-five sees Dr. Osei. No patient sees Dr. Osei unless that patient has a referral. If a patient received a flu shot, then that patient does not have a referral.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -6386,6 +6568,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.54,
+   "rank": 181,
    "targetSec": 84,
    "stimulus": "On Birch Lane, houses that were built before 1950 are all painted white. None of the houses that have a garage are painted white. None of the houses that were not built before 1950 have solar panels.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -6463,7 +6647,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.57,
+   "rank": 198,
    "targetSec": 84,
    "stimulus": "In Professor Ng's seminar, no student who did not present in the first week has submitted a thesis proposal. No student who majors in history speaks Mandarin. No student who does not major in history presented in the first week.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -6542,6 +6728,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 188,
    "targetSec": 84,
    "stimulus": "At the Corwin Science Museum, every exhibit that requires a separate ticket is suitable for young children. Only exhibits that require a separate ticket are interactive. If an exhibit features live animals, then it is not suitable for young children.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -6620,6 +6808,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.54,
+   "rank": 182,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, every tea that is grown in India contains caffeine. If a tea is not grown in India, then it is not blended with spices. Teas that contain caffeine are never sold loose-leaf.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -6698,6 +6888,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.55,
+   "rank": 185,
    "targetSec": 84,
    "stimulus": "At the Spoke Shop, no bicycle that has disc brakes is sold with a lock. Every bicycle that weighs under ten kilograms has disc brakes. Bicycles that have a carbon frame are all sold with a lock.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -6775,7 +6967,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.57,
+   "rank": 199,
    "targetSec": 84,
    "stimulus": "In the Ridgeway city council race, candidates who support the transit plan never live downtown. No candidate has held office before unless that candidate supports the transit plan. No candidate who does not live downtown was endorsed by the Ridgeway Gazette.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -6853,7 +7047,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.61,
+   "rank": 210,
    "targetSec": 84,
    "stimulus": "At this year's Northlight film festival, if a film is a documentary, then it premiered at the festival. Films that premiered at the festival are never in languages other than English. None of the films that are not in languages other than English run under ninety minutes.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -6931,7 +7127,9 @@
    "knowledgePoints": [
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.63,
+   "rank": 215,
    "targetSec": 84,
    "stimulus": "At Halden Public Library, no cardholder who did not join before 2020 borrows audiobooks. If a cardholder does not volunteer at the book sale, then that cardholder does not live outside the county. If a cardholder joined before 2020, then that cardholder does not volunteer at the book sale.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -7010,6 +7208,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.57,
+   "rank": 195,
    "targetSec": 84,
    "stimulus": "At Linden High School, no student takes music theory unless that student sings in the choir. None of the students who play in the orchestra sing in the choir. Only students who play in the orchestra are on the swim team.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -7089,6 +7289,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 119,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, at least one employee who speaks Spanish has a company car. If an employee speaks Spanish, then that employee works in sales.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -7168,6 +7370,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 120,
    "targetSec": 84,
    "stimulus": "At the Harbor Animal Shelter, unless a dog is house-trained, it has not been vaccinated. Some dogs that get along with cats have been vaccinated.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -7246,7 +7450,9 @@
     "kp-lsat-quantifiers",
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.84,
+   "rank": 95,
    "targetSec": 84,
    "stimulus": "In the Varga Collection, paintings that are insured are all on display. Some paintings that were painted before 1900 are insured.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -7326,6 +7532,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 141,
    "targetSec": 84,
    "stimulus": "In the Fernhill Hiking Club, if a member has climbed Mount Avery, then that member leads group hikes. Some members who are certified in first aid have climbed Mount Avery.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -7405,6 +7613,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.85,
+   "rank": 99,
    "targetSec": 84,
    "stimulus": "On Calder Street, at least one restaurant that takes reservations serves breakfast. No restaurant that does not have outdoor seating serves breakfast.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -7484,6 +7694,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 113,
    "targetSec": 84,
    "stimulus": "On the Brightway car lot, no car that comes with a warranty was built after 2020. Some cars that come with a warranty have heated seats.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -7563,6 +7775,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.86,
+   "rank": 103,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, no plant that needs direct sunlight flowers in spring. Some plants that flower in spring are native to the region.",
    "prompt": "Which one of the following must be true on the basis of the statements above?",
@@ -7642,6 +7856,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 144,
    "targetSec": 84,
    "stimulus": "On this year's Harwick Prize shortlist, at least one novel that was published in paperback was written by a first-time author. Novels that were written by a first-time author have never been translated.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -7721,6 +7937,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.86,
+   "rank": 104,
    "targetSec": 84,
    "stimulus": "In the Lakeview building, none of the apartments that face the lake have a balcony. Some apartments that have two bedrooms face the lake.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -7800,6 +8018,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.86,
+   "rank": 101,
    "targetSec": 84,
    "stimulus": "In the Riverside soccer league, no player who has scored a goal this season wears contact lenses. Some players who wear contact lenses play defense.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -7879,6 +8099,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.57,
+   "rank": 196,
    "targetSec": 84,
    "stimulus": "At Danforth College, at least one course that is taught by a visiting professor meets on Fridays. No course satisfies the science requirement unless it requires a final paper. No course that does not satisfy the science requirement meets on Fridays.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -7958,6 +8180,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.55,
+   "rank": 186,
    "targetSec": 84,
    "stimulus": "At the Oakmont food bank, if a volunteer speaks French, then that volunteer has completed safety training. Volunteers who work the Saturday shift all speak French. Some volunteers who drive a delivery route work the Saturday shift.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -8036,7 +8260,9 @@
     "kp-lsat-quantifiers",
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.57,
+   "rank": 200,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, only bird species that nest on the ground are protected by law. Some bird species that migrate south in winter eat insects. If a bird species migrates south in winter, then it is protected by law.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -8116,6 +8342,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.55,
+   "rank": 184,
    "targetSec": 84,
    "stimulus": "At Quillon Software, every engineer who is on the security team mentors new hires. If an engineer writes code in Rust, then that engineer is on the security team. Some engineers who work remotely write code in Rust.",
    "prompt": "If the statements above are true, which one of the following must be true?",
@@ -8195,6 +8423,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 192,
    "targetSec": 84,
    "stimulus": "At the Westbrook clinic, at least one patient who has a referral received a flu shot. Every patient who received a flu shot is over sixty-five. None of the patients who do not see Dr. Osei are over sixty-five.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -8273,6 +8503,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 121,
    "targetSec": 84,
    "stimulus": "On Birch Lane, no house that does not have a garage is painted white. Therefore, no house is painted white unless it was built before 1950.",
    "prompt": "The conclusion of the argument follows logically if which one of the following is assumed?",
@@ -8349,6 +8581,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.89,
+   "rank": 131,
    "targetSec": 84,
    "stimulus": "In Professor Ng's seminar, no student who has not submitted a thesis proposal majors in history. Hence, only students who presented in the first week major in history.",
    "prompt": "The conclusion of the argument follows logically if which one of the following is assumed?",
@@ -8425,6 +8659,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 149,
    "targetSec": 84,
    "stimulus": "At the Corwin Science Museum, if an exhibit is not interactive, then it does not feature live animals. So if an exhibit features live animals, then it requires a separate ticket.",
    "prompt": "Which one of the following, if assumed, enables the conclusion above to be properly drawn?",
@@ -8501,6 +8737,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 150,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, none of the teas that are not grown in India are blended with spices. Therefore, none of the teas that are not grown in India contain caffeine.",
    "prompt": "The conclusion of the argument follows logically if which one of the following is assumed?",
@@ -8577,6 +8815,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 137,
    "targetSec": 84,
    "stimulus": "At the Spoke Shop, if a bicycle is sold with a lock, then it has a carbon frame. So no bicycle that does not have a carbon frame has disc brakes.",
    "prompt": "The conclusion drawn above follows logically if which one of the following is assumed?",
@@ -8653,6 +8893,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.92,
+   "rank": 152,
    "targetSec": 84,
    "stimulus": "In the Ridgeway city council race, only candidates who live downtown have held office before. It follows that if a candidate does not live downtown, then that candidate does not support the transit plan.",
    "prompt": "The conclusion drawn above follows logically if which one of the following is assumed?",
@@ -8728,7 +8970,9 @@
    "knowledgePoints": [
     "kp-lsat-sufficient-bridge"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.94,
+   "rank": 155,
    "targetSec": 84,
    "stimulus": "At this year's Northlight film festival, if a film did not premiere at the festival, then it does not run under ninety minutes. It follows that no film that runs under ninety minutes is a documentary.",
    "prompt": "Which one of the following, if assumed, enables the conclusion above to be properly drawn?",
@@ -8805,6 +9049,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 145,
    "targetSec": 84,
    "stimulus": "At Halden Public Library, if a cardholder does not live outside the county, then that cardholder did not join before 2020. So no cardholder who volunteers at the book sale joined before 2020.",
    "prompt": "The conclusion drawn above follows logically if which one of the following is assumed?",
@@ -8881,6 +9127,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.89,
+   "rank": 132,
    "targetSec": 84,
    "stimulus": "At Linden High School, no student who does not play in the orchestra takes music theory. So none of the students who sing in the choir take music theory.",
    "prompt": "Which one of the following, if assumed, enables the conclusion above to be properly drawn?",
@@ -8957,6 +9205,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 114,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, some employees who have a company car attended the spring retreat. It follows that some employees who attended the spring retreat work in sales.",
    "prompt": "The conclusion drawn above follows logically if which one of the following is assumed?",
@@ -9033,6 +9283,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 122,
    "targetSec": 84,
    "stimulus": "At the Harbor Animal Shelter, at least one dog that is house-trained has been vaccinated. Therefore, some dogs that are house-trained are over five years old.",
    "prompt": "The conclusion of the argument follows logically if which one of the following is assumed?",
@@ -9109,6 +9361,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 115,
    "targetSec": 84,
    "stimulus": "In the Varga Collection, some paintings that are on display are insured. It follows that at least one painting that was painted before 1900 is insured.",
    "prompt": "The conclusion drawn above follows logically if which one of the following is assumed?",
@@ -9185,6 +9439,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 4,
+   "rating": 3.5,
+   "rank": 179,
    "targetSec": 84,
    "stimulus": "In the Fernhill Hiking Club, some members who own a tent are certified in first aid. So some members who are certified in first aid have not climbed Mount Avery.",
    "prompt": "Which one of the following, if assumed, enables the conclusion above to be properly drawn?",
@@ -9261,6 +9517,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 4,
+   "rating": 3.47,
+   "rank": 176,
    "targetSec": 84,
    "stimulus": "On Calder Street, at least one restaurant that takes reservations serves breakfast. So at least one restaurant that takes reservations does not have outdoor seating.",
    "prompt": "Which one of the following, if assumed, enables the conclusion above to be properly drawn?",
@@ -9337,6 +9595,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 4,
+   "rating": 3.48,
+   "rank": 178,
    "targetSec": 84,
    "stimulus": "On the Brightway car lot, some cars that have heated seats are electric. Hence, at least one car that has heated seats was not built after 2020.",
    "prompt": "The conclusion of the argument follows logically if which one of the following is assumed?",
@@ -9412,7 +9672,9 @@
    "knowledgePoints": [
     "kp-lsat-sufficient-bridge"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.59,
+   "rank": 204,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, if a plant does not need direct sunlight, then it does not flower in spring. If a plant requires daily watering, then it is native to the region. Hence, no plant requires daily watering unless it needs direct sunlight.",
    "prompt": "The conclusion of the argument follows logically if which one of the following is assumed?",
@@ -9488,7 +9750,9 @@
    "knowledgePoints": [
     "kp-lsat-sufficient-bridge"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.63,
+   "rank": 214,
    "targetSec": 84,
    "stimulus": "On this year's Harwick Prize shortlist, if a novel has not been translated, then it is not set in the future. If a novel was written by a first-time author, then it was published in paperback. Hence, no novel was written by a first-time author unless it has been translated.",
    "prompt": "The conclusion drawn above follows logically if which one of the following is assumed?",
@@ -9565,6 +9829,8 @@
     "kp-lsat-sufficient-bridge"
    ],
    "difficulty": 4,
+   "rating": 3.55,
+   "rank": 187,
    "targetSec": 84,
    "stimulus": "In the Lakeview building, no apartment has two bedrooms unless it faces the lake. If an apartment allows pets, then it has a balcony. It follows that no apartment that does not face the lake allows pets.",
    "prompt": "Which one of the following, if assumed, enables the conclusion above to be properly drawn?",
@@ -9642,6 +9908,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.88,
+   "rank": 124,
    "targetSec": 84,
    "stimulus": "In the Riverside soccer league, if a player wears contact lenses, then that player plays defense. At least one player who wears contact lenses is a team captain.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -9721,6 +9989,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 116,
    "targetSec": 84,
    "stimulus": "At Danforth College, at least one course that meets on Fridays satisfies the science requirement. Only courses that require a final paper satisfy the science requirement.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -9800,6 +10070,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 117,
    "targetSec": 84,
    "stimulus": "At the Oakmont food bank, none of the volunteers who do not work the Saturday shift speak French. Some volunteers who drive a delivery route speak French.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -9879,6 +10151,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 138,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, at least one bird species that is protected by law nests on the ground. Every bird species that is protected by law migrates south in winter.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -9957,7 +10231,9 @@
     "kp-lsat-must-be-false",
     "kp-lsat-quantifiers"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.83,
+   "rank": 92,
    "targetSec": 84,
    "stimulus": "At Quillon Software, some engineers who work remotely write code in Rust. Every engineer who works remotely mentors new hires.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -10037,6 +10313,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.86,
+   "rank": 102,
    "targetSec": 84,
    "stimulus": "At the Westbrook clinic, at least one patient who received a flu shot sees Dr. Osei. Patients who have a referral never see Dr. Osei.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -10116,6 +10394,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.88,
+   "rank": 125,
    "targetSec": 84,
    "stimulus": "On Birch Lane, at least one house that has a garage was built before 1950. If a house has a garage, then it does not have solar panels.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -10195,6 +10475,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.91,
+   "rank": 146,
    "targetSec": 84,
    "stimulus": "In Professor Ng's seminar, if a student has submitted a thesis proposal, then that student did not present in the first week. Some students who presented in the first week speak Mandarin.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -10274,6 +10556,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.88,
+   "rank": 126,
    "targetSec": 84,
    "stimulus": "At the Corwin Science Museum, if an exhibit requires a separate ticket, then it does not feature live animals. Some exhibits that require a separate ticket are interactive.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -10353,6 +10637,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 118,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, some teas that are grown in India are sold loose-leaf. None of the teas that are blended with spices are grown in India.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -10431,7 +10717,9 @@
     "kp-lsat-must-be-false",
     "kp-lsat-quantifiers"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.57,
+   "rank": 197,
    "targetSec": 84,
    "stimulus": "At the Spoke Shop, if a bicycle is not sold with a lock, then it does not have a carbon frame. Only bicycles that have a carbon frame have disc brakes. Some bicycles that weigh under ten kilograms have disc brakes.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -10510,7 +10798,9 @@
     "kp-lsat-must-be-false",
     "kp-lsat-quantifiers"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.61,
+   "rank": 209,
    "targetSec": 84,
    "stimulus": "In the Ridgeway city council race, at least one candidate who was endorsed by the Ridgeway Gazette supports the transit plan. Candidates who were endorsed by the Ridgeway Gazette all live downtown. If a candidate has not held office before, then that candidate does not live downtown.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -10590,6 +10880,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 189,
    "targetSec": 84,
    "stimulus": "At this year's Northlight film festival, every film that is a documentary premiered at the festival. No film premiered at the festival unless it is in a language other than English. Some films that are documentaries run under ninety minutes.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -10669,6 +10961,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 4,
+   "rating": 3.53,
+   "rank": 180,
    "targetSec": 84,
    "stimulus": "At Halden Public Library, some cardholders who joined before 2020 volunteer at the book sale. No cardholder who does not live outside the county borrows audiobooks. Every cardholder who volunteers at the book sale borrows audiobooks.",
    "prompt": "If the statements above are true, which one of the following must be false?",
@@ -10748,6 +11042,8 @@
     "kp-lsat-quantifiers"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 190,
    "targetSec": 84,
    "stimulus": "At Linden High School, no student who does not sing in the choir plays in the orchestra. Some students who are on the swim team take music theory. No student takes music theory unless that student plays in the orchestra.",
    "prompt": "If the statements above are true, each of the following could be true EXCEPT:",
@@ -10825,7 +11121,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3,
+   "rank": 166,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, unless an employee speaks Spanish, that employee does not work in sales. None of the employees who do not work in sales have a company car. Therefore, if an employee has a company car, then that employee speaks Spanish.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -10897,7 +11195,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.01,
+   "rank": 168,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, if a plant needs direct sunlight, then it is native to the region. No plant that does not require daily watering is native to the region. It follows that no plant that does not require daily watering needs direct sunlight.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -10969,7 +11269,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.04,
+   "rank": 172,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, every bird species that migrates south in winter is protected by law. If a bird species does not migrate south in winter, then it does not nest on the ground. Therefore, every bird species that nests on the ground is protected by law.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11041,7 +11343,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.59,
+   "rank": 205,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, no tea that is not grown in India is blended with spices. None of the teas that are sold loose-leaf are grown in India. It follows that teas that are blended with spices are never sold loose-leaf.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11113,7 +11417,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.59,
+   "rank": 206,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, no employee who speaks Spanish has a company car. If an employee does not speak Spanish, then that employee did not attend the spring retreat. So no employee who has a company car attended the spring retreat.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11185,7 +11491,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.57,
+   "rank": 201,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, plants that need direct sunlight are all native to the region. None of the plants that require daily watering are native to the region. Therefore, plants that need direct sunlight never require daily watering.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11257,7 +11565,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.61,
+   "rank": 211,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, at least one bird species that nests on the ground migrates south in winter. Unless a bird species eats insects, it does not migrate south in winter. So some bird species that nest on the ground eat insects.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11330,6 +11640,8 @@
     "kp-lsat-parallel-structure"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 193,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, at least one tea that contains caffeine is blended with spices. Only teas that are grown in India are blended with spices. So some teas that are grown in India contain caffeine.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11402,6 +11714,8 @@
     "kp-lsat-parallel-structure"
    ],
    "difficulty": 4,
+   "rating": 3.54,
+   "rank": 183,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, at least one employee who speaks Spanish works in sales. Only employees who attended the spring retreat work in sales. So some employees who attended the spring retreat speak Spanish.",
    "prompt": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
@@ -11473,7 +11787,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3,
+   "rank": 167,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, unless a plant flowers in spring, it does not need direct sunlight. Only plants that are native to the region flower in spring. So every plant that is native to the region needs direct sunlight.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11545,7 +11861,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.01,
+   "rank": 170,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, every bird species that eats insects is protected by law. Unless a bird species migrates south in winter, it is not protected by law. Therefore, bird species that migrate south in winter all eat insects.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11617,7 +11935,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.97,
+   "rank": 162,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, no tea is blended with spices unless it is sold loose-leaf. Only teas that are blended with spices contain caffeine. Hence, unless a tea contains caffeine, it is not sold loose-leaf.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11689,7 +12009,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.59,
+   "rank": 207,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, employees who attended the spring retreat all speak Spanish. Unless an employee speaks Spanish, that employee does not work in sales. Hence, no employee attended the spring retreat unless that employee works in sales.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11761,7 +12083,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.61,
+   "rank": 212,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, no plant that does not flower in spring is native to the region. Only plants that flower in spring require daily watering. So unless a plant is native to the region, it does not require daily watering.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11833,7 +12157,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.66,
+   "rank": 217,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, bird species that nest on the ground are all protected by law. Only bird species that are protected by law migrate south in winter. Hence, if a bird species does not nest on the ground, then it does not migrate south in winter.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11905,7 +12231,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.58,
+   "rank": 202,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, every tea that is sold loose-leaf is grown in India. None of the teas that do not contain caffeine are sold loose-leaf. Therefore, teas that are grown in India all contain caffeine.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -11977,7 +12305,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.65,
+   "rank": 216,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, if an employee does not speak Spanish, then that employee does not have a company car. If an employee did not attend the spring retreat, then that employee does not have a company car. Therefore, employees who attended the spring retreat all speak Spanish.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -12049,7 +12379,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.62,
+   "rank": 213,
    "targetSec": 84,
    "stimulus": "In the Kessler Greenhouse, none of the plants that are not native to the region need direct sunlight. Unless a plant flowers in spring, it does not need direct sunlight. Hence, only plants that are native to the region flower in spring.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -12121,7 +12453,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.59,
+   "rank": 208,
    "targetSec": 84,
    "stimulus": "At the Maple Marsh preserve, some bird species that migrate south in winter eat insects. Some bird species that nest on the ground migrate south in winter. Hence, some bird species that eat insects nest on the ground.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -12193,7 +12527,9 @@
    "knowledgePoints": [
     "kp-lsat-parallel-structure"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.58,
+   "rank": 203,
    "targetSec": 84,
    "stimulus": "At Ember Tea House, some teas that contain caffeine are sold loose-leaf. Some teas that are sold loose-leaf are grown in India. It follows that at least one tea that is grown in India contains caffeine.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -12266,6 +12602,8 @@
     "kp-lsat-parallel-structure"
    ],
    "difficulty": 4,
+   "rating": 3.56,
+   "rank": 194,
    "targetSec": 84,
    "stimulus": "At Corvel Logistics, some employees who attended the spring retreat speak Spanish. Some employees who have a company car speak Spanish. Therefore, some employees who attended the spring retreat have a company car.",
    "prompt": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?",
@@ -12337,7 +12675,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 31,
    "targetSec": 84,
    "stimulus": "The new reading app must improve children's literacy. In the schools that adopted it this year, students' reading scores rose by 12 percent.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12405,7 +12745,9 @@
    "knowledgePoints": [
     "kp-lsat-plan"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.93,
+   "rank": 153,
    "targetSec": 84,
    "stimulus": "To reduce rush-hour traffic congestion downtown, the city will raise parking fees there. Higher fees will discourage people from driving downtown, so congestion will decrease.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12474,6 +12816,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 3,
+   "rating": 2.92,
+   "rank": 151,
    "targetSec": 84,
    "stimulus": "Children who eat dinner with their families most nights are less likely than other children to use illegal drugs as teenagers. So families that want to keep their children away from drugs should eat dinner together.",
    "prompt": "Which one of the following, if true, most seriously undermines the argument?",
@@ -12542,6 +12886,8 @@
     "kp-lsat-sampling"
    ],
    "difficulty": 2,
+   "rating": 2.28,
+   "rank": 53,
    "targetSec": 84,
    "stimulus": "A survey of members of the city's gyms found that 80 percent want the city to build more bike paths. So most of the city's residents want more bike paths.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12610,6 +12956,8 @@
     "kp-lsat-analogy"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 135,
    "targetSec": 84,
    "stimulus": "Talking on a hands-free phone while driving is no more dangerous than talking with a passenger, since both involve the same kind of conversation. So drivers should be allowed to use hands-free phones.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12678,7 +13026,9 @@
     "kp-lsat-rival-cause",
     "kp-lsat-numbers-proportions"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.03,
+   "rank": 171,
    "targetSec": 84,
    "stimulus": "Most people struck by lightning are men. So there must be some physical difference between men and women that makes men more likely to be struck by lightning.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12747,6 +13097,8 @@
     "kp-lsat-flaw-post-hoc"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 47,
    "targetSec": 84,
    "stimulus": "Since the city began adding fluoride to its water ten years ago, tooth decay among its children has dropped by half. Fluoridation, then, is responsible for the decline.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12814,7 +13166,9 @@
    "knowledgePoints": [
     "kp-lsat-flaw-possible-certain"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.19,
+   "rank": 21,
    "targetSec": 84,
    "stimulus": "Zentrix's share price will rise next quarter. Its new tablet has received excellent reviews from technology critics.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12883,6 +13237,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 3,
+   "rating": 2.86,
+   "rank": 100,
    "targetSec": 84,
    "stimulus": "Archaeologists have found that nearly every house in the ancient city of Tessa had a large cistern for storing rainwater. This shows that Tessa's climate was dry.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -12951,6 +13307,8 @@
     "kp-lsat-plan"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 110,
    "targetSec": 84,
    "stimulus": "After the Dalton Mall installed security cameras, shoplifting there fell by 30 percent. So installing cameras in all of the city's malls would reduce shoplifting in the city.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13018,7 +13376,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.96,
+   "rank": 161,
    "targetSec": 84,
    "stimulus": "In a large study, people who drank three or more cups of coffee a day lived longer, on average, than people who drank no coffee. So drinking coffee extends life.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13087,6 +13447,8 @@
     "kp-lsat-analogy"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 48,
    "targetSec": 84,
    "stimulus": "When Norland banned single-use plastic bags, plastic litter on its beaches fell by half. So a similar ban in Southport would cut plastic litter on Southport's beaches by half.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13155,6 +13517,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 3,
+   "rating": 2.88,
+   "rank": 123,
    "targetSec": 84,
    "stimulus": "Since the city installed speed cameras on Harbor Road, the number of speeding tickets issued there has risen sharply. So the cameras have failed to reduce speeding on Harbor Road.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13223,6 +13587,8 @@
     "kp-lsat-sampling"
    ],
    "difficulty": 2,
+   "rating": 2.27,
+   "rank": 49,
    "targetSec": 84,
    "stimulus": "In our survey, 70 percent of respondents said they would buy a fully electric pickup truck. So electric pickups will soon make up a majority of pickup truck sales.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13290,7 +13656,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 32,
    "targetSec": 84,
    "stimulus": "Students who take private music lessons score higher on math tests than students who do not. So music lessons improve math skills.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13358,7 +13726,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.23,
+   "rank": 33,
    "targetSec": 84,
    "stimulus": "Sales of the store's organic produce have doubled over the past year. Clearly, shoppers are increasingly willing to pay more for organic food.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13427,6 +13797,8 @@
     "kp-lsat-source-attack"
    ],
    "difficulty": 2,
+   "rating": 2.31,
+   "rank": 73,
    "targetSec": 84,
    "stimulus": "The diary of a nineteenth-century sailor describes a violent storm that wrecked a merchant ship off the coast of Alder Point in 1854. So a merchant ship was wrecked off Alder Point that year.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13495,6 +13867,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 64,
    "targetSec": 84,
    "stimulus": "Two years ago the city raised its tax on hotel rooms, and since then the number of conventions held in the city has fallen sharply. Clearly, the higher tax has driven conventions away.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13562,7 +13936,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.26,
+   "rank": 43,
    "targetSec": 84,
    "stimulus": "In a clinical trial, 60 percent of patients who took an herbal remedy for headaches reported that their headaches improved. So the remedy is effective against headaches.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13631,6 +14007,8 @@
     "kp-lsat-plan"
    ],
    "difficulty": 2,
+   "rating": 2.31,
+   "rank": 75,
    "targetSec": 84,
    "stimulus": "To increase use of the campus library, the board plans to keep it open until midnight. Many students have said they would use the library more if it stayed open later.",
    "prompt": "Which one of the following, if true, most seriously calls into question the board's plan?",
@@ -13699,6 +14077,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 111,
    "targetSec": 84,
    "stimulus": "The number of people diagnosed with a particular sleep disorder has risen sharply over the past thirty years. So the disorder has become much more common over that time.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13766,7 +14146,9 @@
    "knowledgePoints": [
     "kp-lsat-sampling"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.24,
+   "rank": 34,
    "targetSec": 84,
    "stimulus": "Ninety percent of the customers who filled out our feedback form said they were satisfied with their purchases. So our customers are overwhelmingly satisfied.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13835,6 +14217,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 2,
+   "rating": 2.34,
+   "rank": 81,
    "targetSec": 84,
    "stimulus": "Plants grown in the east wing of the greenhouse, which were watered with a new fertilizer solution, grew taller than plants of the same species in the west wing, which received plain water. So the fertilizer promotes plant growth.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13903,6 +14287,8 @@
     "kp-lsat-flaw-possible-certain"
    ],
    "difficulty": 1,
+   "rating": 1.62,
+   "rank": 4,
    "targetSec": 84,
    "stimulus": "The Hawks have won their last ten games against the Eagles. So the Hawks will win tomorrow's game against the Eagles.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -13970,7 +14356,9 @@
    "knowledgePoints": [
     "kp-lsat-plan"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
+   "rating": 2.81,
+   "rank": 91,
    "targetSec": 84,
    "stimulus": "Switching the company's delivery fleet to electric vans will save money, because electricity costs far less per mile than gasoline.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -14039,6 +14427,8 @@
     "kp-lsat-rival-cause"
    ],
    "difficulty": 2,
+   "rating": 2.44,
+   "rank": 86,
    "targetSec": 84,
    "stimulus": "Residents of Marlow who drink at least two cups of green tea a day report fewer colds than residents who do not. Therefore, drinking green tea strengthens the immune system.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -14113,7 +14503,9 @@
    "knowledgePoints": [
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.12,
+   "rank": 174,
    "targetSec": 84,
    "stimulus": "Over the past decade, the districts of Halverton with the most public libraries have had the lowest rates of juvenile crime. So building additional libraries in the districts with the highest rates of juvenile crime would reduce juvenile crime in those districts.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -14187,7 +14579,9 @@
    "knowledgePoints": [
     "kp-lsat-strengthen-causal"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.96,
+   "rank": 160,
    "targetSec": 84,
    "stimulus": "Patients at Elmridge Clinic who used a new mobile reminder app took their medication on schedule far more consistently than patients who did not use the app. The clinic's director concludes that the app causes patients to take their medication more consistently.",
    "prompt": "Which one of the following, if true, most strengthens the director's argument?",
@@ -14265,7 +14659,9 @@
    "knowledgePoints": [
     "kp-lsat-negation-test"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.95,
+   "rank": 159,
    "targetSec": 84,
    "stimulus": "Critic: The novel Tidewater should not be assigned in introductory literature courses. Its plot turns on several historical events that most first-year students have never heard of, so those students would miss the point of the novel's central conflict.",
    "prompt": "Which one of the following is an assumption on which the critic's argument depends?",
@@ -14345,6 +14741,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 3,
+   "rating": 2.87,
+   "rank": 108,
    "targetSec": 84,
    "stimulus": "Anyone who qualifies for the Morrow Fellowship has published original research. Dana has not published any original research. Therefore, Dana is not eligible for the faculty travel grant.",
    "prompt": "The conclusion follows logically if which one of the following is assumed?",
@@ -14419,6 +14817,8 @@
     "kp-lsat-necessary-vs-sufficient"
    ],
    "difficulty": 1,
+   "rating": 1.61,
+   "rank": 3,
    "targetSec": 84,
    "stimulus": "Every successful restaurant in Lindale advertises on local radio. Café Orla advertises on local radio, so it will surely be successful.",
    "prompt": "The reasoning in the argument is flawed because the argument",
@@ -14489,6 +14889,8 @@
     "kp-lsat-part-whole"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 65,
    "targetSec": 84,
    "stimulus": "Each of the five programs in the Kestrel software suite runs quickly on older computers. So the Kestrel suite, with all five programs running at once, will run quickly on older computers.",
    "prompt": "Which one of the following most accurately describes a flaw in the argument?",
@@ -14556,7 +14958,9 @@
    "knowledgePoints": [
     "kp-lsat-numbers-proportions"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
+   "rating": 3.67,
+   "rank": 218,
    "targetSec": 84,
    "stimulus": "Every Brennan College student who studies abroad must first complete two years of a foreign language. Of the Brennan students who were eligible to study abroad this year, fewer than half chose to do so. Even so, the number of Brennan students studying abroad this year is the highest in the college's history.",
    "prompt": "If the statements above are true, which one of the following is most strongly supported by them?",
@@ -14631,6 +15035,8 @@
     "kp-lsat-conclusion-signals"
    ],
    "difficulty": 2,
+   "rating": 2.41,
+   "rank": 84,
    "targetSec": 84,
    "stimulus": "Some economists argue that raising the minimum wage always reduces employment. But this view cannot be right. Several regions that raised their minimum wage last year saw employment grow, and economists who study those regions found no evidence that employment would have grown faster without the increase.",
    "prompt": "Which one of the following most accurately expresses the conclusion drawn in the argument?",
@@ -14703,6 +15109,8 @@
     "kp-lsat-concession"
    ],
    "difficulty": 2,
+   "rating": 2.61,
+   "rank": 87,
    "targetSec": 84,
    "stimulus": "Museum director: Some board members want to charge admission to pay for new exhibits. But an admission fee would discourage the students and low-income families our charter obliges us to serve. Admittedly, a fee would raise substantial revenue. Still, we should fund the exhibits through private donations instead.",
    "prompt": "The claim that a fee would raise substantial revenue plays which one of the following roles in the director's argument?",
@@ -14771,6 +15179,8 @@
     "kp-lsat-paradox-both"
    ],
    "difficulty": 2,
+   "rating": 2.33,
+   "rank": 80,
    "targetSec": 84,
    "stimulus": "After the town of Pell installed brighter streetlights on its main roads, the number of nighttime traffic accidents on those roads increased, even though the brighter lights make it easier for drivers to see.",
    "prompt": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
@@ -14845,6 +15255,8 @@
     "kp-lsat-principle-match"
    ],
    "difficulty": 2,
+   "rating": 2.33,
+   "rank": 79,
    "targetSec": 84,
    "stimulus": "Columnist: The city should not adopt the proposed downtown parking rules. Although the rules would ease traffic congestion, they would make it much harder for disabled residents to reach the medical offices located downtown.",
    "prompt": "Which one of the following principles, if valid, most helps to justify the columnist's reasoning?",
@@ -14913,7 +15325,9 @@
     "kp-lsat-parallel-structure",
     "kp-lsat-contrapositive"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.01,
+   "rank": 169,
    "targetSec": 84,
    "stimulus": "If Lena takes the overnight train, she will arrive before the conference begins. If she arrives before the conference begins, she will give the opening talk. But Lena will not give the opening talk. So Lena will not take the overnight train.",
    "prompt": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
@@ -14987,6 +15401,8 @@
     "kp-lsat-necessary-vs-sufficient"
    ],
    "difficulty": 3,
+   "rating": 2.86,
+   "rank": 105,
    "targetSec": 84,
    "stimulus": "Every licensed pilot has passed a vision test. Marco has passed a vision test. So Marco must be a licensed pilot.",
    "prompt": "Which one of the following arguments exhibits flawed reasoning most similar to that exhibited by the argument above?",
@@ -15061,6 +15477,8 @@
     "kp-lsat-point-at-issue"
    ],
    "difficulty": 2,
+   "rating": 2.39,
+   "rank": 83,
    "targetSec": 84,
    "stimulus": "Amara: The city's new bike lanes have made downtown streets safer. Serious collisions there have dropped by a third since the lanes opened.\nDesmond: The drop in collisions isn't due to the bike lanes. The city lowered the downtown speed limit at the same time, and slower traffic alone would explain the decline.",
    "prompt": "Amara and Desmond disagree over whether",
@@ -15133,6 +15551,8 @@
     "kp-lsat-counterexample"
    ],
    "difficulty": 1,
+   "rating": 1.65,
+   "rank": 7,
    "targetSec": 84,
    "stimulus": "Critic: The mayor claims that no public project in this city has ever been finished on time. But the Harbor Bridge, a public project, opened two months ahead of schedule.",
    "prompt": "The critic responds to the mayor's claim by",
@@ -15205,7 +15625,9 @@
     "kp-lsat-evaluate",
     "kp-lsat-rival-cause"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.09,
+   "rank": 173,
    "targetSec": 84,
    "stimulus": "Since the town of Brook Falls began offering free swimming lessons for children, drowning incidents involving children there have fallen sharply. So the free lessons have made children in Brook Falls safer around water.",
    "prompt": "Which one of the following would be most useful to know in evaluating the argument?",
@@ -15280,6 +15702,8 @@
     "kp-lsat-contrapositive"
    ],
    "difficulty": 2,
+   "rating": 2.3,
+   "rank": 69,
    "targetSec": 84,
    "stimulus": "Every member of the debate team takes a logic course. No one who takes a logic course is exempt from the writing requirement. Carla is exempt from the writing requirement.",
    "prompt": "If the statements above are true, which one of the following must also be true?",
@@ -15354,6 +15778,8 @@
     "kp-lsat-source-attack"
    ],
    "difficulty": 1,
+   "rating": 1.69,
+   "rank": 15,
    "targetSec": 84,
    "stimulus": "Dr. Reyes argues that the new zoning plan will raise housing costs. But Dr. Reyes owns several rental properties in the city, so her argument should be dismissed.",
    "prompt": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
@@ -15422,6 +15848,8 @@
     "kp-lsat-sampling"
    ],
    "difficulty": 2,
+   "rating": 2.29,
+   "rank": 56,
    "targetSec": 84,
    "stimulus": "A survey of members of the Riverside Cycling Club found that 85 percent support adding bike lanes to Main Street. So most residents of Riverside support adding bike lanes to Main Street.",
    "prompt": "Which one of the following, if true, most seriously weakens the argument?",
@@ -15494,6 +15922,8 @@
     "kp-lsat-negation-test"
    ],
    "difficulty": 2,
+   "rating": 2.31,
+   "rank": 74,
    "targetSec": 84,
    "stimulus": "Library director: Our new self-checkout kiosks will reduce the time patrons wait in line. After all, patrons who use the kiosks won't need to wait for a staff member to check out their books.",
    "prompt": "Which one of the following is an assumption required by the director's argument?",
@@ -15568,6 +15998,8 @@
     "kp-lsat-strengthen-causal"
    ],
    "difficulty": 3,
+   "rating": 2.9,
+   "rank": 133,
    "targetSec": 84,
    "stimulus": "After the Greenvale school district began serving breakfast to all students at no cost, the district's average attendance rose by four percentage points. The superintendent concludes that the free breakfast program improved attendance.",
    "prompt": "Which one of the following, if true, most strengthens the superintendent's argument?",
@@ -15642,6 +16074,8 @@
     "kp-lsat-numbers-proportions"
    ],
    "difficulty": 2,
+   "rating": 2.28,
+   "rank": 51,
    "targetSec": 84,
    "stimulus": "The share of Fairport's budget spent on parks fell from 6 percent last year to 5 percent this year. Clearly, Fairport is spending less money on its parks than it did last year.",
    "prompt": "The reasoning in the argument is flawed because it",
@@ -15715,7 +16149,9 @@
    "knowledgePoints": [
     "kp-lsat-paradox-both"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 2.93,
+   "rank": 154,
    "targetSec": 84,
    "stimulus": "A hospital installed hand-sanitizer stations outside every patient room, and staff used them far more often than they had used the old sinks. Yet the number of reported hospital-acquired infections rose over the following year.",
    "prompt": "Which one of the following, if true, most helps to explain the apparent discrepancy?",
@@ -15790,6 +16226,8 @@
     "kp-rc-main-point"
    ],
    "difficulty": 2,
+   "rating": 2.76,
+   "rank": 16,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately expresses the main point of the passage?",
    "options": [
@@ -15857,6 +16295,8 @@
     "kp-rc-function"
    ],
    "difficulty": 3,
+   "rating": 3.4,
+   "rank": 23,
    "targetSec": 78,
    "prompt": "The author mentions a tenant who stays on after a lease expires primarily in order to",
    "options": [
@@ -15924,6 +16364,8 @@
     "kp-rc-viewpoints"
    ],
    "difficulty": 1,
+   "rating": 1.85,
+   "rank": 2,
    "targetSec": 78,
    "prompt": "According to the passage, which one of the following is a requirement for acquiring title by adverse possession?",
    "options": [
@@ -15990,7 +16432,9 @@
    "knowledgePoints": [
     "kp-rc-analogy"
    ],
-   "difficulty": 3,
+   "difficulty": 5,
+   "rating": 3.83,
+   "rank": 37,
    "targetSec": 78,
    "prompt": "The justification based on the owner's conduct (paragraph 2) would most clearly support awarding title to the possessor in which one of the following cases?",
    "options": [
@@ -16058,6 +16502,8 @@
     "kp-rc-extreme-language"
    ],
    "difficulty": 2,
+   "rating": 2.75,
+   "rank": 14,
    "targetSec": 78,
    "prompt": "The author's attitude toward the reliance account (paragraph 4) can most accurately be described as",
    "options": [
@@ -16124,7 +16570,9 @@
    "knowledgePoints": [
     "kp-rc-inference"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 27,
    "targetSec": 78,
    "prompt": "The author would most likely agree with which one of the following statements?",
    "options": [
@@ -16191,7 +16639,9 @@
    "knowledgePoints": [
     "kp-rc-structure"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
+   "rating": 3.12,
+   "rank": 18,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately describes the organization of the passage?",
    "options": [
@@ -16259,6 +16709,8 @@
     "kp-rc-main-point"
    ],
    "difficulty": 2,
+   "rating": 2.72,
+   "rank": 12,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately expresses the main point of the passage?",
    "options": [
@@ -16326,6 +16778,8 @@
     "kp-rc-function"
    ],
    "difficulty": 3,
+   "rating": 3.35,
+   "rank": 19,
    "targetSec": 78,
    "prompt": "The author mentions that Wegener was a meteorologist primarily in order to",
    "options": [
@@ -16393,6 +16847,8 @@
     "kp-rc-extreme-language"
    ],
    "difficulty": 2,
+   "rating": 2.7,
+   "rank": 10,
    "targetSec": 78,
    "prompt": "The author's attitude toward the geologists who rejected Wegener's hypothesis is best described as",
    "options": [
@@ -16460,6 +16916,8 @@
     "kp-rc-viewpoints"
    ],
    "difficulty": 1,
+   "rating": 2.05,
+   "rank": 4,
    "targetSec": 78,
    "prompt": "According to the passage, which one of the following helped show that new seafloor forms at mid-ocean ridges?",
    "options": [
@@ -16527,6 +16985,8 @@
     "kp-rc-inference"
    ],
    "difficulty": 3,
+   "rating": 3.55,
+   "rank": 26,
    "targetSec": 78,
    "prompt": "The passage most strongly supports which one of the following statements?",
    "options": [
@@ -16593,7 +17053,9 @@
    "knowledgePoints": [
     "kp-rc-analogy"
    ],
-   "difficulty": 3,
+   "difficulty": 5,
+   "rating": 3.86,
+   "rank": 38,
    "targetSec": 78,
    "prompt": "Which one of the following is most analogous to the history of Wegener's hypothesis as the author describes it?",
    "options": [
@@ -16660,7 +17122,9 @@
    "knowledgePoints": [
     "kp-rc-inference"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.57,
+   "rank": 31,
    "targetSec": 78,
    "prompt": "The author would be most likely to endorse which one of the following principles?",
    "options": [
@@ -16728,6 +17192,8 @@
     "kp-rc-main-point"
    ],
    "difficulty": 2,
+   "rating": 2.68,
+   "rank": 8,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately expresses the main point of the passage?",
    "options": [
@@ -16794,7 +17260,9 @@
    "knowledgePoints": [
     "kp-rc-viewpoints"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.25,
+   "rank": 6,
    "targetSec": 78,
    "prompt": "According to the passage, Parry argued that a system of fixed epithets would be",
    "options": [
@@ -16862,6 +17330,8 @@
     "kp-rc-function"
    ],
    "difficulty": 3,
+   "rating": 3.35,
+   "rank": 20,
    "targetSec": 78,
    "prompt": "The author describes singers who insisted that a song was the same \"word for word\" primarily in order to",
    "options": [
@@ -16928,7 +17398,9 @@
    "knowledgePoints": [
     "kp-rc-inference"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 30,
    "targetSec": 78,
    "prompt": "The critics mentioned in paragraph 4 would be most likely to agree with which one of the following?",
    "options": [
@@ -16996,6 +17468,8 @@
     "kp-rc-extreme-language"
    ],
    "difficulty": 2,
+   "rating": 2.75,
+   "rank": 13,
    "targetSec": 78,
    "prompt": "The author's attitude toward Parry's theory can most accurately be described as",
    "options": [
@@ -17062,7 +17536,9 @@
    "knowledgePoints": [
     "kp-rc-analogy"
    ],
-   "difficulty": 3,
+   "difficulty": 5,
+   "rating": 3.79,
+   "rank": 36,
    "targetSec": 78,
    "prompt": "Which one of the following best exemplifies the kind of skill that the last sentence of the passage attributes to a poet in an oral tradition?",
    "options": [
@@ -17129,7 +17605,9 @@
    "knowledgePoints": [
     "kp-rc-inference"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.65,
+   "rank": 34,
    "targetSec": 78,
    "prompt": "As used in the last sentence of the passage, \"different demands\" refers most directly to",
    "options": [
@@ -17196,7 +17674,9 @@
    "knowledgePoints": [
     "kp-rc-comparative"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
+   "rating": 3.37,
+   "rank": 21,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately describes the relationship between the two passages?",
    "options": [
@@ -17263,7 +17743,9 @@
    "knowledgePoints": [
     "kp-rc-comparative"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.65,
+   "rank": 32,
    "targetSec": 78,
    "prompt": "The authors of both passages would most likely agree that",
    "options": [
@@ -17330,7 +17812,9 @@
    "knowledgePoints": [
     "kp-rc-comparative"
    ],
-   "difficulty": 3,
+   "difficulty": 5,
+   "rating": 3.7,
+   "rank": 35,
    "targetSec": 78,
    "prompt": "The author of passage B would most likely respond to the claim in passage A that nudges \"preserve freedom\" by arguing that",
    "options": [
@@ -17398,6 +17882,8 @@
     "kp-rc-viewpoints"
    ],
    "difficulty": 1,
+   "rating": 1.85,
+   "rank": 1,
    "targetSec": 78,
    "prompt": "According to passage A, automatic enrollment raised participation in retirement plans even though",
    "options": [
@@ -17464,7 +17950,9 @@
    "knowledgePoints": [
     "kp-rc-inference"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 28,
    "targetSec": 78,
    "prompt": "Passage B suggests that a worker with high-interest debts who is automatically enrolled in a retirement plan",
    "options": [
@@ -17532,6 +18020,8 @@
     "kp-rc-function"
    ],
    "difficulty": 3,
+   "rating": 3.4,
+   "rank": 22,
    "targetSec": 78,
    "prompt": "In passage B, the reference to a law that requires saving serves mainly to",
    "options": [
@@ -17599,6 +18089,8 @@
     "kp-rc-extreme-language"
    ],
    "difficulty": 2,
+   "rating": 2.75,
+   "rank": 15,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately describes the attitude of the author of passage A toward nudges?",
    "options": [
@@ -17666,6 +18158,8 @@
     "kp-rc-main-point"
    ],
    "difficulty": 2,
+   "rating": 2.78,
+   "rank": 17,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately expresses the main point of the passage?",
    "options": [
@@ -17737,6 +18231,8 @@
     "kp-rc-function"
    ],
    "difficulty": 3,
+   "rating": 3.4,
+   "rank": 24,
    "targetSec": 78,
    "prompt": "The author mentions that many supposedly settled phrases \"had in fact been litigated repeatedly\" (second paragraph) primarily in order to",
    "options": [
@@ -17804,6 +18300,8 @@
     "kp-rc-extreme-language"
    ],
    "difficulty": 2,
+   "rating": 2.7,
+   "rank": 11,
    "targetSec": 78,
    "prompt": "The author's attitude toward the critics described in the third paragraph can most accurately be described as",
    "options": [
@@ -17871,6 +18369,8 @@
     "kp-rc-viewpoints"
    ],
    "difficulty": 1,
+   "rating": 1.9,
+   "rank": 3,
    "targetSec": 78,
    "prompt": "According to the passage, defenders of the traditional style argued that",
    "options": [
@@ -17937,7 +18437,9 @@
    "knowledgePoints": [
     "kp-rc-extreme-language"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.65,
+   "rank": 33,
    "targetSec": 78,
    "prompt": "The author would be most likely to agree with which one of the following statements?",
    "options": [
@@ -18008,7 +18510,9 @@
    "knowledgePoints": [
     "kp-rc-main-point"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.67,
+   "rank": 7,
    "targetSec": 78,
    "prompt": "Which one of the following most accurately expresses the main point of the passage?",
    "options": [
@@ -18076,6 +18580,8 @@
     "kp-rc-function"
    ],
    "difficulty": 3,
+   "rating": 3.45,
+   "rank": 25,
    "targetSec": 78,
    "prompt": "The author mentions that birds' orientation is disrupted by weak radio-frequency noise primarily in order to",
    "options": [
@@ -18142,7 +18648,9 @@
    "knowledgePoints": [
     "kp-rc-viewpoints"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
+   "rating": 2.25,
+   "rank": 5,
    "targetSec": 78,
    "prompt": "According to the passage, skeptics of the light-sensitive-protein hypothesis point out that",
    "options": [
@@ -18209,7 +18717,9 @@
    "knowledgePoints": [
     "kp-rc-extreme-language"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 29,
    "targetSec": 78,
    "prompt": "The passage most strongly suggests that the researchers who suspect a role for iron-containing structures would agree that",
    "options": [
@@ -18277,6 +18787,8 @@
     "kp-rc-extreme-language"
    ],
    "difficulty": 2,
+   "rating": 2.7,
+   "rank": 9,
    "targetSec": 78,
    "prompt": "The author's attitude toward the light-sensitive-protein hypothesis can most accurately be described as",
    "options": [

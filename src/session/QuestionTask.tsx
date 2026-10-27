@@ -2,16 +2,21 @@
 
 import * as Speech from 'expo-speech';
 import { useEffect, useRef, useState } from 'react';
-import { ScrollView, View, type ScrollViewInstance } from 'react-native';
+import { Pressable, ScrollView, View, type ScrollViewInstance } from 'react-native';
 import { itemMap, passageMap } from '@/content';
 import { SECTIONS, typeName } from '@/content/labels';
-import type { OptionId } from '@/content/types';
+import type { Item, OptionId } from '@/content/types';
 import type { Attempt, Confidence } from '@/data/types';
+import { coachLine, reactTo, type CoachLine } from '@/engine/coach';
 import { haptic } from '@/lib/haptics';
+import { useSproutStage } from '@/state/gamification';
 import { useStore } from '@/state/store';
+import { Icon } from '@/ui/Icon';
 import { Button, Chip, Eyebrow, Pill } from '@/ui/kit';
+import { LevelMeter } from '@/ui/LevelMeter';
 import { T } from '@/ui/Text';
-import { space, useColors } from '@/ui/theme';
+import { radius, space, useColors } from '@/ui/theme';
+import { CoachToast } from './CoachToast';
 import { Explanation, spokenExplanation } from './Explanation';
 import { BottomBar, DataTable, OptionRow, PassageButton, PassageSheet, PassageText, SessionHeader, Timer, type OptionState } from './parts';
 
@@ -22,6 +27,29 @@ const CONFIDENCE: { id: Confidence; label: string }[] = [
   { id: 'unsure', label: 'Unsure' },
   { id: 'guess', label: 'Guess' },
 ];
+
+/** Wall-clock time, for timing answers in event handlers. */
+const now = () => Date.now();
+
+/** Combo count and Sprout's reaction to an answer, from this session's earlier answers. */
+function reactionTo(result: Attempt, index: number, item: Item): { combo: number; line: CoachLine | null } {
+  const { session, attempts } = useStore.getState();
+  const prior = (session?.results ?? []).filter((r) => r.kind === 'question');
+  let combo = 0;
+  if (result.correct) {
+    combo = 1;
+    for (let i = prior.length - 1; i >= 0 && prior[i].correct; i--) combo += 1;
+  }
+  const event = reactTo({
+    correct: result.correct,
+    combo,
+    index,
+    boss: item.difficulty === 5,
+    comeback: result.correct && attempts.some((a) => a.itemId === item.id && a.id !== result.id && !a.correct),
+    missedLast: prior.length > 0 && prior[prior.length - 1].correct === false,
+  });
+  return { combo, line: event ? coachLine(event, result.id, item.exam, { n: combo }) : null };
+}
 
 export function QuestionTask({
   itemId,
@@ -44,6 +72,8 @@ export function QuestionTask({
   const item = itemMap.get(itemId)!;
   const passage = item.passageId ? passageMap.get(item.passageId) : undefined;
   const askConfidence = useStore((s) => s.settings.confidence);
+  const coachOn = useStore((s) => s.settings.coach && !s.settings.pureStudy);
+  const sprout = useSproutStage();
   const answerQuestion = useStore((s) => s.answerQuestion);
   const completeQuestion = useStore((s) => s.completeQuestion);
 
@@ -66,6 +96,9 @@ export function QuestionTask({
   const [showPassage, setShowPassage] = useState(false);
   const [speaking, setSpeaking] = useState(false);
   const [timerKey, setTimerKey] = useState(0);
+  const [coach, setCoach] = useState<CoachLine | null>(null);
+  const [combo, setCombo] = useState(0);
+  const [barHeight, setBarHeight] = useState(0);
   const startedAt = useRef(0);
   const revealedAt = useRef(0);
   const scrollRef = useRef<ScrollViewInstance>(null);
@@ -119,13 +152,16 @@ export function QuestionTask({
       confidence: askConfidence ? confidence : null,
       eliminated: [...struck],
       changed: firstPick !== null && firstPick !== selected,
-      ms: Date.now() - startedAt.current,
+      ms: now() - startedAt.current,
     });
     if (result.correct) haptic.success();
     else haptic.error();
+    const reaction = reactionTo(result, index, item);
+    setCombo(reaction.combo);
+    if (reaction.line && coachOn) setCoach(reaction.line);
     setAttempt(result);
     setCardsAdded(useStore.getState().session?.current?.cardsAdded ?? []);
-    revealedAt.current = Date.now();
+    revealedAt.current = now();
     scrollOnLayout.current = true;
     setPhase('explain');
   };
@@ -202,13 +238,42 @@ export function QuestionTask({
     <View style={{ flex: 1, backgroundColor: c.bg }}>
       <SessionHeader index={index} total={total} onClose={onClose} right={headerRight} />
       <ScrollView ref={scrollRef} testID="question-scroll" contentContainerStyle={{ padding: space.lg, paddingBottom: space.xxxl }}>
-        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: space.md }}>
-          <Eyebrow>
-            {SECTIONS[item.section].short} · {typeName(item.type)}
-            {isReview ? ' · Review' : ''}
-          </Eyebrow>
-          {passage && phase === 'answer' ? <PassageButton onPress={() => setShowPassage(true)} /> : null}
+        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.sm, marginBottom: space.md }}>
+          <View style={{ flexShrink: 1 }}>
+            <Eyebrow>
+              {SECTIONS[item.section].short} · {typeName(item.type)}
+              {isReview ? ' · Review' : ''}
+            </Eyebrow>
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm }}>
+            {phase === 'explain' && combo >= 2 ? (
+              <View
+                testID="combo"
+                accessibilityLabel={`${combo} correct in a row`}
+                style={{ flexDirection: 'row', alignItems: 'center', gap: 3, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.pill, backgroundColor: c.warningSoft }}>
+                <Icon name="flame.fill" size={12} color={c.streak} />
+                <T variant="caption" weight="700" style={{ color: c.streak }}>
+                  ×{combo}
+                </T>
+              </View>
+            ) : null}
+            <LevelMeter level={item.difficulty} compact />
+          </View>
         </View>
+        {passage && phase === 'answer' ? (
+          <View style={{ alignItems: 'flex-end', marginTop: -space.xs, marginBottom: space.sm }}>
+            <PassageButton onPress={() => setShowPassage(true)} />
+          </View>
+        ) : null}
+        {__DEV__ && phase === 'answer' ? (
+          // Development builds only: lets UI tests pick the right answer.
+          <Pressable
+            testID="dev-correct"
+            accessibilityLabel="Developer: select the correct answer"
+            onPress={() => setSelected(item.options.find((o) => o.correct)!.id)}
+            style={{ position: 'absolute', top: 0, right: 0, width: 28, height: 28 }}
+          />
+        ) : null}
         {item.stimulus ? (
           <T variant="reading" style={{ marginBottom: space.lg }}>
             {item.stimulus}
@@ -241,7 +306,8 @@ export function QuestionTask({
         ) : null}
       </ScrollView>
 
-      <BottomBar>
+      <View onLayout={(e) => setBarHeight(e.nativeEvent.layout.height)}>
+        <BottomBar>
         {phase === 'answer' ? (
           <>
             {askConfidence ? (
@@ -272,7 +338,9 @@ export function QuestionTask({
             <Button testID="next" title={index + 1 >= total ? 'Finish' : 'Next'} icon="arrow.right" onPress={next} style={{ flex: 1.6 }} />
           </View>
         )}
-      </BottomBar>
+        </BottomBar>
+      </View>
+      {phase === 'explain' && coach ? <CoachToast line={coach} stage={sprout.stage} bottom={barHeight} /> : null}
       {passage ? <PassageSheet passage={passage} visible={showPassage} onClose={() => setShowPassage(false)} /> : null}
     </View>
   );

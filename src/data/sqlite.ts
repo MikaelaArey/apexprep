@@ -69,7 +69,7 @@ class SqliteRepo implements Repo {
     await this.db.runAsync(
       'INSERT INTO kv (key, value, updated_at, synced) VALUES (?, ?, ?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at, synced = excluded.synced',
       key,
-      JSON.stringify(value),
+      JSON.stringify(value ?? null),
       Date.now(),
       synced ? 1 : 0,
     );

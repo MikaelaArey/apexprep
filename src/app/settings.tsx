@@ -194,6 +194,11 @@ export default function Settings() {
             )}
           </Row>
           {plan.testDate ? <Row label="Clear test date" onPress={() => setPlan({ testDate: null })} /> : null}
+          <Row testID="scores-row" label="Score history" onPress={() => router.push('/scores')}>
+            <T variant="callout" color="textMuted">
+              {settings.scores.filter((e) => e.exam === exam).length || 'None yet'}
+            </T>
+          </Row>
           <Row label={`Target score (${info.score.min}–${info.score.max})`} last>
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.xs }}>
               <IconButton icon="minus" label="Lower target" onPress={() => setPlan({ target: Math.max(info.score.min, plan.target - 1) })} />
@@ -238,7 +243,10 @@ export default function Settings() {
           </Row>
         </Group>
 
-        <Group title="Studying" note="Pure Study hides XP, levels and celebrations, and keeps everything else.">
+        <Group title="Studying" note="Pure Study hides XP, levels, badges, Sprout and celebrations, and keeps everything else.">
+          <Row label="Sprout, your study buddy">
+            <Switch testID="coach-switch" value={settings.coach} onValueChange={(v) => update({ coach: v })} trackColor={{ true: c.primary }} />
+          </Row>
           <Row label="Ask how sure I am">
             <Switch testID="confidence-switch" value={settings.confidence} onValueChange={(v) => update({ confidence: v })} trackColor={{ true: c.primary }} />
           </Row>

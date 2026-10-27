@@ -1,0 +1,171 @@
+# Native app: the game layer. Home shows Sprout and the new tiles; the Climb's first
+# floor is answered correctly (combo, Sprout's reactions, a badge, floor cleared);
+# then the ranked bank, badges, score log with a personal best, and stats.
+appId: com.mikaelaarey.apexprep
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: MCAT
+      DEMO: "0"
+- extendedWaitUntil:
+    visible:
+      id: "sprout-card"
+    timeout: 10000
+- takeScreenshot: g01-home
+- scrollUntilVisible:
+    element:
+      id: "tile-climb"
+    direction: DOWN
+    centerElement: true
+- takeScreenshot: g02-home-tiles
+- tapOn:
+    id: "tile-climb"
+- extendedWaitUntil:
+    visible:
+      id: "climb-start"
+    timeout: 5000
+- takeScreenshot: g03-climb
+- tapOn:
+    id: "climb-start"
+- repeat:
+    times: 3
+    commands:
+      - extendedWaitUntil:
+          visible:
+            id: "dev-correct"
+          timeout: 8000
+      - tapOn:
+          id: "dev-correct"
+      - tapOn:
+          id: "check"
+      - extendedWaitUntil:
+          visible:
+            id: "next"
+          timeout: 5000
+      - takeScreenshot: g04-answer
+      - tapOn:
+          id: "next"
+- repeat:
+    times: 7
+    commands:
+      - extendedWaitUntil:
+          visible:
+            id: "dev-correct"
+          timeout: 8000
+      - tapOn:
+          id: "dev-correct"
+      - tapOn:
+          id: "check"
+      - extendedWaitUntil:
+          visible:
+            id: "next"
+          timeout: 5000
+      - tapOn:
+          id: "next"
+- extendedWaitUntil:
+    visible:
+      id: "summary"
+    timeout: 8000
+- takeScreenshot: g06-summary
+- tapOn:
+    id: "summary-done"
+- extendedWaitUntil:
+    visible:
+      id: "climb-close"
+    timeout: 5000
+- takeScreenshot: g07-climb-after
+- tapOn:
+    id: "climb-close"
+- extendedWaitUntil:
+    visible:
+      id: "home-cta"
+    timeout: 5000
+- scrollUntilVisible:
+    element:
+      id: "tile-bank"
+    direction: DOWN
+    centerElement: true
+- tapOn:
+    id: "tile-bank"
+- extendedWaitUntil:
+    visible:
+      id: "bank-list"
+    timeout: 5000
+- takeScreenshot: g08-bank
+- swipe:
+    start: 85%, 31%
+    end: 15%, 31%
+- tapOn:
+    id: "bank-level-5"
+- takeScreenshot: g09-bank-boss
+- tapOn:
+    id: "bank-close"
+- scrollUntilVisible:
+    element:
+      id: "next-badges"
+    direction: DOWN
+    centerElement: true
+- takeScreenshot: g10-almost-there
+- tapOn:
+    id: "next-badges"
+- extendedWaitUntil:
+    visible:
+      id: "badges-close"
+    timeout: 5000
+- takeScreenshot: g11-badges
+- tapOn:
+    id: "badges-close"
+- scrollUntilVisible:
+    element:
+      id: "open-settings"
+    direction: UP
+- tapOn:
+    id: "open-settings"
+- extendedWaitUntil:
+    visible:
+      id: "scores-row"
+    timeout: 5000
+- tapOn:
+    id: "scores-row"
+- extendedWaitUntil:
+    visible:
+      id: "score-add"
+    timeout: 5000
+- takeScreenshot: g12-scores-empty
+- tapOn:
+    id: "score-add"
+- extendedWaitUntil:
+    visible:
+      id: "score-save"
+    timeout: 5000
+- tapOn:
+    id: "score-CP-minus"
+- tapOn:
+    id: "score-CP-minus"
+- tapOn:
+    id: "score-BB-minus"
+- takeScreenshot: g13-score-form
+- tapOn:
+    id: "score-save"
+- extendedWaitUntil:
+    visible:
+      id: "score-add"
+    timeout: 5000
+- tapOn:
+    id: "score-add"
+- extendedWaitUntil:
+    visible:
+      id: "score-save"
+    timeout: 5000
+- tapOn:
+    id: "score-PS-plus"
+- tapOn:
+    id: "score-CARS-plus"
+- tapOn:
+    id: "score-save"
+- extendedWaitUntil:
+    visible:
+      id: "score-pb"
+    timeout: 5000
+- takeScreenshot: g14-scores-pb

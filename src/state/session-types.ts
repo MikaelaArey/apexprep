@@ -28,6 +28,8 @@ export interface ActiveSession {
   startedAt: number;
   /** Set between answering a question and moving on from its explanation. */
   current: { attemptId: string; cardsAdded: string[] } | null;
+  /** For Climb sessions: which floor is being attempted. */
+  climb?: { key: string; floor: number; checkpoint: boolean };
 }
 
 export interface SessionSummary {
@@ -44,4 +46,6 @@ export interface SessionSummary {
   dailyGoalReached: boolean;
   streakRepaired: boolean;
   nextReviewAt: number | null;
+  /** For Climb sessions: the floor attempted and whether it was cleared. */
+  climb?: { key: string; floor: number; checkpoint: boolean; cleared: boolean; needed: number; firstClear: boolean };
 }

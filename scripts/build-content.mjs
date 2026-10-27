@@ -190,6 +190,8 @@ function buildItem(raw, exam, section, where, passageId, position) {
     knowledgePoints: data.kps,
     ...(data.outline ? { outline: data.outline } : {}),
     difficulty: data.difficulty,
+    rating: 0,
+    rank: 0,
     targetSec: data.targetSec ?? taxonomy.sections[section].targetSec,
     ...(data.stimulus ? { stimulus: data.stimulus } : {}),
     prompt: data.prompt,
@@ -208,6 +210,69 @@ function buildItem(raw, exam, section, where, passageId, position) {
     siblings: data.siblings,
     status: data.status ?? 'review',
   };
+}
+
+// ---------- Difficulty ranking ----------
+// Authors rate each question 1–5, but generated families all start at the same
+// rating, so the build calibrates. A rubric scores each question's demands (its
+// format, the number of solution steps, passage reading, reading load and how
+// subtle its wrong answers are), questions are ranked within their section, and
+// the five levels are cut at fixed percentiles: the hardest tenth of each section
+// is "Boss". Rankings are relative to the bank, not a prediction of exam scores.
+const LEVEL_CUTS = [0.2, 0.45, 0.7, 0.9]; // Warm-up | Easy | Medium | Hard | Boss
+const SUBTLE_TRAPS = new Set([
+  'distortion', 'half_right', 'too_narrow', 'wrong_viewpoint', 'skipped_step', 'sign_flip',
+  'power_of_ten', 'misread_data', 'irrelevant_comparison', 'doesnt_differentiate',
+]);
+const PASSAGE_BASE = {
+  cars_main_idea: 2.7, cars_tone: 2.7, cars_function: 3.0, cars_inference: 3.2, cars_application: 3.4, cars_challenge: 3.7,
+  rc_detail: 2.2, rc_main_point: 2.6, rc_attitude: 2.7, rc_function: 3.0, rc_inference: 3.2, rc_application: 3.4, rc_comparative: 3.3,
+};
+const wordsIn = (s) => (s ? s.split(/\s+/).filter(Boolean).length : 0);
+
+function difficultyRating(item) {
+  const authored = item.difficulty;
+  const stemWords = wordsIn(item.stimulus) + wordsIn(item.prompt);
+  const optionWords = item.options.reduce((n, o) => n + wordsIn(o.text), 0) / item.options.length;
+  const subtle = item.options.filter((o) => SUBTLE_TRAPS.has(o.trap)).length;
+  const concept = item.model?.startsWith('concept-');
+  const calc = item.exam === 'MCAT' && item.model && !concept;
+  let r;
+  if (item.section === 'CARS' || item.section === 'RC') {
+    // Reading sets: the skill tested matters most, then how long the choices are.
+    r = (PASSAGE_BASE[item.type] ?? 3.0) + (authored - 2) * 0.35 + Math.min(0.4, Math.max(0, optionWords - 12) * 0.03) + subtle * 0.05;
+  } else if (concept) {
+    // Concept drills: one-line recall is easiest; scenarios and research design are
+    // harder. Length counts a little, but the material's difficulty counts most.
+    r = 1.3 + Math.min(0.5, stemWords * 0.006) + ((item.outline?.sirs ?? 1) - 1) * 0.3 + (authored - 2) * 0.45 + subtle * 0.05;
+  } else if (calc) {
+    // Calculations: each extra step, logs or exponents, and every number to juggle.
+    const work = `${item.prompt} ${item.steps.map((st) => st.body).join(' ')}`;
+    const numbers = (item.prompt.match(/\d+(\.\d+)?/g) ?? []).length;
+    const heavy = /\blog\b|\bln\b|√|\^|×\s?10|10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]/.test(work);
+    r = 1.5 + 0.35 * (item.steps.length - 1) + (heavy ? 0.3 : 0) + 0.05 * Math.min(8, numbers) + (authored - 2) * 0.45;
+  } else {
+    // Hand-written discretes and arguments: the author's rating, plus reading load.
+    r = 1.4 + (authored - 1) * 0.6 + Math.min(0.6, stemWords / 150) + subtle * 0.08;
+  }
+  if (item.passageId && item.section !== 'CARS' && item.section !== 'RC') r += 0.6; // science passages
+  return Math.round(Math.max(1, Math.min(5, r)) * 100) / 100;
+}
+
+/** Sets each item's rating, its rank within its section (1 = easiest) and its level (1–5). */
+function rankDifficulty(items) {
+  for (const item of items) item.rating = difficultyRating(item);
+  const sections = [...new Set(items.map((i) => i.section))];
+  for (const section of sections) {
+    const group = items
+      .filter((i) => i.section === section)
+      .sort((a, b) => a.rating - b.rating || a.difficulty - b.difficulty || wordsIn(a.prompt) - wordsIn(b.prompt) || a.id.localeCompare(b.id));
+    group.forEach((item, i) => {
+      const percentile = (i + 1) / group.length;
+      item.rank = i + 1;
+      item.difficulty = 1 + LEVEL_CUTS.filter((cut) => percentile > cut).length;
+    });
+  }
 }
 
 function buildExam(exam) {
@@ -304,6 +369,7 @@ function buildExam(exam) {
   const usedKps = new Set(items.flatMap((i) => i.knowledgePoints));
   for (const kp of knowledgePoints) if (!usedKps.has(kp.id)) warn(kp.id, 'knowledge point is not used by any question');
 
+  rankDifficulty(items);
   const body = { items, passages, knowledgePoints };
   const version = createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0, 12);
   return { exam, version, generatedAt: new Date().toISOString(), ...body };
@@ -341,10 +407,11 @@ for (const pack of packs) {
     .sort()
     .map((k) => `${k} ${Math.round((100 * positions[k]) / pack.items.length)}%`)
     .join(' ');
+  const levels = [1, 2, 3, 4, 5].map((l) => pack.items.filter((i) => i.difficulty === l).length).join('/');
   const generated = pack.items.filter((i) => i.model).length;
   console.log(
     `${pack.exam}: ${pack.items.length} questions (${summary}${generated ? `; ${generated} from item models` : ''}), ` +
-      `${pack.passages.length} passages, ${pack.knowledgePoints.length} concept cards · answers ${spread} · v${pack.version}`,
+      `${pack.passages.length} passages, ${pack.knowledgePoints.length} concept cards · levels ${levels} · answers ${spread} · v${pack.version}`,
   );
 }
 console.log(checkOnly ? 'Content is valid.' : `Wrote ${packs.length} packs to src/content/generated/.`);

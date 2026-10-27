@@ -9,7 +9,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent converts a primary alcohol to an aldehyde without over-oxidizing it?
   options:
     - text: PCC
@@ -46,7 +46,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent oxidizes 1-propanol all the way to propanoic acid?
   options:
     - text: Chromic acid (Jones reagent)
@@ -85,7 +85,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent reduces a ketone to a secondary alcohol but leaves an ester in the same molecule untouched?
   options:
     - text: NaBH₄
@@ -122,7 +122,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent reduces an ester to two alcohols?
   options:
     - text: LiAlH₄
@@ -157,7 +157,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent converts cyclohexene to an epoxide?
   options:
     - text: mCPBA
@@ -192,7 +192,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent converts a carboxylic acid into an acyl chloride?
   options:
     - text: SOCl₂
@@ -229,7 +229,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Adding which reagent to acetone, followed by acid workup, gives a tertiary alcohol?
   options:
     - text: Grignard reagent (RMgBr)
@@ -266,7 +266,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagents split 2-methyl-2-butene into acetone and acetaldehyde?
   options:
     - text: O₃, then (CH₃)₂S
@@ -301,7 +301,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent converts an alkene to an alkane?
   options:
     - text: H₂ with Pd/C
@@ -338,7 +338,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which reagent can reduce a carboxylic acid to a primary alcohol?
   options:
     - text: LiAlH₄
@@ -768,7 +768,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which technique best separates two liquids that boil at 78 °C and 82 °C?
   options:
     - text: Fractional distillation
@@ -809,7 +809,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which technique separates proteins by mass alone after denaturing them?
   options:
     - text: SDS-PAGE
@@ -846,7 +846,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Benzoic acid is moved from an ether layer into water by adding aqueous NaOH. This technique is:'
   options:
     - text: Liquid–liquid extraction
@@ -887,7 +887,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which technique would separate two native proteins of the same size but different net charge?
   options:
     - text: Ion-exchange chromatography
@@ -922,7 +922,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A protein with a histidine tag is purified on a column of immobilized nickel. This is:'
   options:
     - text: Affinity chromatography
@@ -957,7 +957,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: In which technique do the largest proteins elute first?
   options:
     - text: Gel filtration chromatography
@@ -996,7 +996,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which technique separates proteins according to the pH at which they carry no net charge?
   options:
     - text: Isoelectric focusing
@@ -1033,7 +1033,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which technique best separates water (bp 100 °C) from ethylene glycol (bp 197 °C)?
   options:
     - text: Simple distillation
@@ -1068,7 +1068,7 @@
   outline:
     category: 5C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A crude solid is dissolved in hot ethanol and cooled slowly so that pure crystals form. This is:'
   options:
     - text: Recrystallization
@@ -1109,7 +1109,7 @@
   outline:
     category: 4A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The newton is equivalent to:'
   options:
     - text: kg·m/s²
@@ -1144,7 +1144,7 @@
   outline:
     category: 4A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The joule is equivalent to:'
   options:
     - text: kg·m²/s²
@@ -1179,7 +1179,7 @@
   outline:
     category: 4A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The watt is equivalent to:'
   options:
     - text: kg·m²/s³
@@ -1214,7 +1214,7 @@
   outline:
     category: 4A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The pascal is equivalent to:'
   options:
     - text: kg/(m·s²)
@@ -1249,7 +1249,7 @@
   outline:
     category: 4A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Momentum has units of:'
   options:
     - text: kg·m/s
@@ -1284,7 +1284,7 @@
   outline:
     category: 4A
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The unit of impulse, the newton-second, is equivalent to:'
   options:
     - text: kg·m/s
@@ -1786,7 +1786,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A reaction with ΔH < 0 and ΔS > 0 is:'
   options:
     - text: Spontaneous at all temperatures
@@ -1825,7 +1825,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A reaction with ΔH > 0 and ΔS < 0 is:'
   options:
     - text: Nonspontaneous at all temperatures
@@ -1864,7 +1864,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A reaction with ΔH > 0 and ΔS > 0 is:'
   options:
     - text: Spontaneous only at high temperatures
@@ -1903,7 +1903,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A reaction with ΔH < 0 and ΔS < 0 is:'
   options:
     - text: Spontaneous only at low temperatures
@@ -1942,7 +1942,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Ice melting (ΔH > 0, ΔS > 0) at 1 atm is:'
   options:
     - text: Spontaneous only at high temperatures
@@ -1981,7 +1981,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Water freezing (ΔH < 0, ΔS < 0) at 1 atm is:'
   options:
     - text: Spontaneous only at low temperatures
@@ -2059,7 +2059,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: '(2R,3R)-2,3-dibromopentane and (2S,3S)-2,3-dibromopentane are:'
   options:
     - text: Enantiomers
@@ -2094,7 +2094,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: '(2R,3R)-2,3-dibromopentane and (2R,3S)-2,3-dibromopentane are:'
   options:
     - text: Diastereomers
@@ -2129,7 +2129,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: '(2R,3S)-2,3-dibromobutane, which has an internal plane of symmetry, is a:'
   options:
     - text: Meso compound
@@ -2164,7 +2164,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: '1-Propanol and 2-propanol are:'
   options:
     - text: Constitutional isomers
@@ -2199,7 +2199,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'The staggered and eclipsed forms of ethane are:'
   options:
     - text: Conformational isomers
@@ -2234,7 +2234,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'D-glucose and D-galactose, which differ only in configuration at C-4, are:'
   options:
     - text: Diastereomers
@@ -2269,7 +2269,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Which kind of isomer pair has identical boiling points but rotates plane-polarized light in opposite
     directions?
@@ -2306,7 +2306,7 @@
   outline:
     category: 5B
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Butane and 2-methylpropane are:'
   options:
     - text: Constitutional isomers
@@ -2341,7 +2341,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The glucose and fructose in sucrose are joined by a:'
   options:
     - text: Glycosidic bond
@@ -2376,7 +2376,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Triglycerides link fatty acids to glycerol through:'
   options:
     - text: Ester bond
@@ -2411,7 +2411,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Nucleotides within a single DNA strand are linked by:'
   options:
     - text: Phosphodiester bond
@@ -2446,7 +2446,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Amino acids in a protein’s primary structure are linked by:'
   options:
     - text: Peptide bond
@@ -2481,7 +2481,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'Two cysteine side chains can form a covalent:'
   options:
     - text: Disulfide bond
@@ -2516,7 +2516,7 @@
   outline:
     category: 5D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: 'The two strands of the DNA double helix are held together by:'
   options:
     - text: Hydrogen bond
@@ -2551,7 +2551,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which kind of electromagnetic radiation has the shortest wavelength?
   options:
     - text: Gamma rays
@@ -2590,7 +2590,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which kind of electromagnetic radiation has the lowest photon energy?
   options:
     - text: Radio waves
@@ -2627,7 +2627,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which region of the spectrum is used to probe bond vibrations?
   options:
     - text: Infrared
@@ -2666,7 +2666,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Electronic transitions in conjugated molecules absorb mainly in which region?
   options:
     - text: Ultraviolet
@@ -2705,7 +2705,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which region lies just beyond violet light in frequency?
   options:
     - text: Ultraviolet
@@ -3879,7 +3879,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A gas expands while exchanging no heat with its surroundings. Which kind of process is this?
   options:
     - text: Adiabatic
@@ -3914,7 +3914,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A gas is compressed slowly while its temperature stays constant. Which kind of process is this?
   options:
     - text: Isothermal
@@ -3949,7 +3949,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: A gas is heated in a rigid, sealed container. Which kind of process is this?
   options:
     - text: Isochoric
@@ -3984,7 +3984,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A gas is heated in a cylinder with a freely moving piston, so its pressure stays constant. Which kind of
     process is this?
@@ -4021,7 +4021,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: In which process does a gas do no work?
   options:
     - text: Isochoric
@@ -4056,7 +4056,7 @@
   outline:
     category: 5E
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: In which process is the change in internal energy of an ideal gas zero?
   options:
     - text: Isothermal
@@ -4091,7 +4091,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A store security mirror that shows a wide area with small, upright images is a:'
   options:
     - text: Convex mirror
@@ -4136,7 +4136,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A magnifying glass is a:'
   options:
     - text: Converging lens
@@ -4181,7 +4181,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Glasses that correct nearsightedness (myopia) use a:'
   options:
     - text: Diverging lens
@@ -4226,7 +4226,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'Glasses that correct farsightedness (hyperopia) use a:'
   options:
     - text: Converging lens
@@ -4271,7 +4271,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A makeup mirror that shows an enlarged, upright face when held close is a:'
   options:
     - text: Concave mirror
@@ -4316,7 +4316,7 @@
   outline:
     category: 4D
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which forms a virtual image the same size as the object and as far behind it as the object is in front?
   options:
     - text: Plane mirror
@@ -4361,7 +4361,7 @@
   outline:
     category: 4C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A zinc electrode in ZnSO₄ and a copper electrode in CuSO₄, joined by a wire and a salt bridge, produce
     current on their own. This is a:
@@ -4402,7 +4402,7 @@
   outline:
     category: 4C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A cell that uses an external power source to drive a nonspontaneous reaction is a:'
   options:
     - text: Electrolytic cell
@@ -4443,7 +4443,7 @@
   outline:
     category: 4C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'A cell with two copper electrodes in CuSO₄ solutions of different concentrations is a:'
   options:
     - text: Concentration cell
@@ -4484,7 +4484,7 @@
   outline:
     category: 4C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: 'While a phone’s rechargeable battery is being charged, it operates as a(n):'
   options:
     - text: Electrolytic cell
@@ -4525,7 +4525,7 @@
   outline:
     category: 4C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: In which type of cell is the anode the positive electrode?
   options:
     - text: Electrolytic cell
@@ -4566,7 +4566,7 @@
   outline:
     category: 4C
     sirs: 1
-  difficulty: 2
+  difficulty: 3
   prompt: Which cell has a standard cell potential of zero but still produces a voltage?
   options:
     - text: Concentration cell
@@ -4823,7 +4823,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which group’s elements react violently with water to form strong bases and +1 ions?
   options:
     - text: Alkali metals
@@ -4866,7 +4866,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which group has full valence shells and is nearly unreactive?
   options:
     - text: Noble gases
@@ -4907,7 +4907,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which group forms −1 ions and exists as diatomic molecules?
   options:
     - text: Halogens
@@ -4946,7 +4946,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which group forms +2 ions such as Mg²⁺ and Ca²⁺?
   options:
     - text: Alkaline earth metals
@@ -4985,7 +4985,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: >-
     Which elements often form colored compounds and several oxidation states because of partly filled d
     orbitals?
@@ -5028,7 +5028,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which group has the highest first ionization energy in each period?
   options:
     - text: Noble gases
@@ -5069,7 +5069,7 @@
   outline:
     category: 4E
     sirs: 1
-  difficulty: 2
+  difficulty: 1
   prompt: Which group contains the most electronegative element of each period (setting aside the noble gases)?
   options:
     - text: Halogens

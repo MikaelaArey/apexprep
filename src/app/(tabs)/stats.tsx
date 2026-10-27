@@ -3,16 +3,20 @@ import { useMemo } from 'react';
 import { View } from 'react-native';
 import { itemMap } from '@/content';
 import { EXAMS, MISS_REASONS, SECTIONS, typeName } from '@/content/labels';
+import { LEVELS } from '@/engine/difficulty';
 import { tierFor, TIER_LABEL } from '@/engine/mastery';
+import { SCORE_RULES, scoreTrend } from '@/engine/scores';
 import { computeStats } from '@/engine/stats';
 import { dayKey, lastNDays, weekday } from '@/engine/time';
 import { levelTitle } from '@/engine/xp';
 import { startDrill } from '@/state/actions';
 import { useActivity, useExam, useExamAttempts, useNow, useRatings, useSelectContext, useStreak, useXp } from '@/state/derived';
+import { useBadges } from '@/state/gamification';
 import { useStore } from '@/state/store';
+import { ScoreChart } from '@/ui/ScoreChart';
 import { ExamBadge } from '@/ui/ExamBadge';
 import { clock, pct } from '@/ui/format';
-import { Button, Card, Empty, Eyebrow, ProgressBar, SectionTitle, StatTile } from '@/ui/kit';
+import { Button, Card, Empty, Eyebrow, ListRow, ProgressBar, SectionTitle, StatTile } from '@/ui/kit';
 import { TabScreen } from '@/ui/Screen';
 import { T } from '@/ui/Text';
 import { space, useColors } from '@/ui/theme';
@@ -87,6 +91,39 @@ function Calendar() {
   );
 }
 
+function ScoresCard() {
+  const exam = useExam();
+  const scores = useStore((s) => s.settings.scores);
+  const target = useStore((s) => s.settings.plans[exam].target);
+  const trend = scoreTrend(scores, exam, target);
+  const rules = SCORE_RULES[exam];
+  return (
+    <Card testID="scores-card" style={{ gap: space.md }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
+        <Eyebrow>Practice test scores</Eyebrow>
+        <T variant="footnote" color="textMuted">
+          Goal {target}
+        </T>
+      </View>
+      {trend.entries.length > 0 ? (
+        <ScoreChart entries={trend.entries} target={target} min={rules.total.min} max={rules.total.max} />
+      ) : (
+        <T variant="subhead" color="textMuted">
+          Log your full-length practice tests to see your trend against your goal.
+        </T>
+      )}
+      <Button
+        testID="stats-scores"
+        kind="secondary"
+        size="md"
+        title={trend.entries.length ? 'Score history' : 'Log a score'}
+        icon={trend.entries.length ? 'chart.line.uptrend.xyaxis' : 'plus'}
+        onPress={() => router.push(trend.entries.length ? '/scores' : '/score-edit')}
+      />
+    </Card>
+  );
+}
+
 export default function Stats() {
   const c = useColors();
   const exam = useExam();
@@ -98,6 +135,17 @@ export default function Stats() {
   const pure = useStore((s) => s.settings.pureStudy);
   const now = useNow();
   const stats = useMemo(() => computeStats(attempts, EXAMS[exam].sections, itemMap, ratings, now), [attempts, exam, ratings, now]);
+  const badges = useBadges(exam);
+  const byLevel = useMemo(() => {
+    const rows = ([1, 2, 3, 4, 5] as const).map((level) => ({ level, n: 0, correct: 0 }));
+    for (const a of attempts) {
+      const d = itemMap.get(a.itemId)?.difficulty;
+      if (!d) continue;
+      rows[d - 1].n += 1;
+      if (a.correct) rows[d - 1].correct += 1;
+    }
+    return rows;
+  }, [attempts]);
 
   if (stats.total === 0) {
     return (
@@ -105,6 +153,8 @@ export default function Stats() {
         <Card>
           <Empty icon="chart.bar" title="No stats yet" body="Answer a few questions and your accuracy, weak spots and pacing will show up here." />
         </Card>
+        <View style={{ height: space.lg }} />
+        <ScoresCard />
       </TabScreen>
     );
   }
@@ -118,6 +168,37 @@ export default function Stats() {
         <StatTile label="Streak" value={`${streak.current}d`} sub={`Best ${streak.best} days`} />
         {!pure ? <StatTile label="Level" value={String(xp.level)} sub={`${levelTitle(xp.level)} · ${xp.total} XP`} /> : null}
       </View>
+
+      <SectionTitle title="Practice tests" />
+      <ScoresCard />
+
+      <SectionTitle title="By difficulty" />
+      <Card testID="by-level" style={{ gap: space.md }}>
+        {byLevel.map((r) => (
+          <BarRow
+            key={r.level}
+            label={LEVELS[r.level].name}
+            value={r.correct}
+            max={r.n}
+            right={r.n ? `${pct(r.correct, r.n)} of ${r.n}` : 'Not tried'}
+            color={r.level === 5 ? c.streak : r.level === 4 ? c.warning : c.primary}
+          />
+        ))}
+        <Button testID="stats-bank" kind="ghost" size="md" title="Browse the ranked question bank" icon="list.number" onPress={() => router.push('/bank')} />
+      </Card>
+
+      {!pure ? (
+        <Card padded={false} style={{ paddingHorizontal: space.lg, marginTop: space.lg }}>
+          <ListRow
+            testID="stats-badges"
+            icon="trophy.fill"
+            title="Badges"
+            subtitle={`${badges.filter((b) => b.tier > 0).length} of ${badges.length} earned`}
+            onPress={() => router.push('/badges')}
+            last
+          />
+        </Card>
+      ) : null}
 
       <SectionTitle title="Biggest weak spots" />
       <Card testID="leaks">

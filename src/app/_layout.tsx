@@ -68,6 +68,11 @@ export default function RootLayout() {
         <Stack.Screen name="streak" options={{ presentation: 'modal' }} />
         <Stack.Screen name="settings" options={{ presentation: 'modal' }} />
         <Stack.Screen name="account" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="climb" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="bank" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="badges" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="scores" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="score-edit" options={{ presentation: 'modal' }} />
         <Stack.Screen name="dev-reset" options={{ animation: 'none' }} />
       </Stack>
       {/* First run: onboarding covers the app until it's done. Keeping the navigator

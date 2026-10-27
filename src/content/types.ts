@@ -42,7 +42,12 @@ export interface Item {
   knowledgePoints: string[];
   /** AAMC content category and Scientific Inquiry & Reasoning Skill (MCAT only). */
   outline?: { category?: string; sirs?: number };
+  /** Level 1–5 (Warm-up … Boss): the item's difficulty percentile within its section. */
   difficulty: Difficulty;
+  /** Calibrated difficulty score (1.00–5.00) that the ranking is based on. */
+  rating: number;
+  /** Position within its section, from 1 (easiest) to the section's size (hardest). */
+  rank: number;
   targetSec: number;
   stimulus?: string;
   prompt: string;

@@ -485,7 +485,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     When a classmate trips on the stairs, Ana decides he is clumsy. When she trips on the same stairs, she
     blames the wet floor. Which bias does this best illustrate?
@@ -528,7 +528,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After a coworker misses a deadline, Ravi concludes she is lazy. He never learns that her child was in the
     hospital that week. Which bias does this best illustrate?
@@ -573,7 +573,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Jon credits his A in chemistry to his hard work but blames his D in history on unfair questions. Which
     bias does this best illustrate?
@@ -616,7 +616,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Told that a stranger lost her job in a mass layoff, Mara insists the woman must have done something to
     deserve it. Which bias does this best illustrate?
@@ -661,7 +661,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Interviewers rate a very attractive job candidate as more intelligent and trustworthy, though nothing in
     the interview showed either trait. Which bias does this best illustrate?
@@ -702,7 +702,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A voter who believes a senator is corrupt reads every news story about her but remembers only the
     unflattering ones. Which bias does this best illustrate?
@@ -745,7 +745,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Told that certain students are “late bloomers” who will soon excel, teachers give them extra attention,
     and those students’ scores rise. Which bias does this best illustrate?
@@ -792,7 +792,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Women reminded of a stereotype about gender and math just before a math test score lower than women who
     were not reminded. Which bias does this best illustrate?
@@ -833,7 +833,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Participants randomly sorted into a “blue team” and a “red team” give more reward money to members of
     their own arbitrary team. Which bias does this best illustrate?
@@ -874,7 +874,7 @@
   outline:
     category: 8B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After the election, Dev insists he always knew the underdog would win, though he predicted the opposite
     beforehand. Which bias does this best illustrate?
@@ -915,7 +915,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A charity asks residents to sign a petition, then weeks later asks the same residents to donate. Those who
     signed donate far more often. Which concept does this best illustrate?
@@ -960,7 +960,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A friend asks you to help him move every weekend for a month. When you refuse, he asks for help on just
     one Saturday, and you agree. Which concept does this best illustrate?
@@ -1005,7 +1005,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After paying a steep fee to join a hiking club with dull meetings, members rate the club more favorably
     than people who joined for free. Which concept does this best illustrate?
@@ -1054,7 +1054,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A smoker who knows smoking is harmful starts telling herself the health risks are exaggerated. Which
     concept does this best illustrate?
@@ -1099,7 +1099,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A voter who cares deeply about a ballot measure studies both campaigns’ evidence and changes her mind
     because one side’s data are stronger. Which concept does this best illustrate?
@@ -1144,7 +1144,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A shopper flipping through a magazine buys a sports drink because a famous athlete appears in its ad.
     Which concept does this best illustrate?
@@ -1189,7 +1189,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Participants shown unfamiliar Chinese characters rate the ones they saw most often as the most pleasant,
     without knowing their meanings. Which concept does this best illustrate?
@@ -1232,7 +1232,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A car dealer agrees to a low price, then “discovers” extra fees after the buyer has committed. Most buyers
     still sign. Which concept does this best illustrate?
@@ -1275,7 +1275,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After being criticized by his boss, a manager comes home and yells at his dog. Which defense mechanism is
     this?
@@ -1312,7 +1312,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A teenager with strong aggressive urges becomes a dedicated competitive boxer. Which defense mechanism is
     this?
@@ -1349,7 +1349,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A man who is attracted to his coworker becomes convinced that she is the one flirting with him. Which
     defense mechanism is this?
@@ -1386,7 +1386,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A student who dislikes her roommate goes out of her way to be extremely, almost theatrically, nice to her.
     Which defense mechanism is this?
@@ -1423,7 +1423,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After being rejected by a selective program, Tom says he never really wanted to go there anyway because
     the location was bad. Which defense mechanism is this?
@@ -1460,7 +1460,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Months after a car accident, a survivor cannot recall the crash at all, though she was conscious
     throughout. Which defense mechanism is this?
@@ -1497,7 +1497,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A patient told he has a serious heart condition keeps insisting the test results must belong to someone
     else. Which defense mechanism is this?
@@ -1534,7 +1534,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A six-year-old begins sucking his thumb and wetting the bed again after his baby sister is born. Which
     defense mechanism is this?
@@ -1571,7 +1571,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Facing exam stress, a student decides to set aside her worries about a family conflict until the weekend
     so she can focus. Which defense mechanism is this?
@@ -1608,7 +1608,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After her diagnosis, a physician discusses her own cancer only in terms of staging criteria and survival
     statistics, never her feelings. Which defense mechanism is this?
@@ -2072,7 +2072,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A gambler keeps pulling a slot machine’s lever, which pays out after an unpredictable number of pulls.
     Which reinforcement schedule is this?
@@ -2119,7 +2119,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A salesperson earns a commission after every fifth sale and takes a short break after each commission.
     Which reinforcement schedule is this?
@@ -2166,7 +2166,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A rat receives a pellet for the first lever press after each 60-second period, and its pressing speeds up
     as each minute ends. Which reinforcement schedule is this?
@@ -2213,7 +2213,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A person checks her email throughout the day because new messages arrive at unpredictable times. Which
     reinforcement schedule is this?
@@ -2260,7 +2260,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A teacher gives pop quizzes at random times, so students review a little every day. Which reinforcement
     schedule is this?
@@ -2307,7 +2307,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     While a puppy is first learning to sit, its owner gives it a treat every single time it sits. Which
     reinforcement schedule is this?
@@ -2356,7 +2356,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: Which schedule produces behavior that is most resistant to extinction?
   options:
     - text: Variable-ratio schedule
@@ -2401,7 +2401,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Which schedule tends to produce a “scalloped” pattern, with responding accelerating just before
     reinforcement is due?
@@ -2448,7 +2448,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Every time a nurse swabs a child’s arm with alcohol, an injection follows. Soon the child flinches as soon
     as she smells alcohol. Here, the smell of alcohol is the:
@@ -2489,7 +2489,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Every time a nurse swabs a child’s arm with alcohol, an injection follows. Soon the child flinches as soon
     as she smells alcohol. Her flinching at the smell is the:
@@ -2528,7 +2528,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Every time a nurse swabs a child’s arm with alcohol, an injection follows. Soon the child flinches as soon
     as she smells alcohol. The injection is the:
@@ -2567,7 +2567,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A man gets food poisoning after eating shrimp and now feels nauseated at the mere sight of shrimp. The
     nausea caused by the food poisoning itself was the:
@@ -2606,7 +2606,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A man gets food poisoning after eating shrimp and now feels nauseated at the mere sight of shrimp. The
     nausea he now feels when he sees shrimp is the:
@@ -2645,7 +2645,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     In Watson’s “Little Albert” study, a loud bang paired with a white rat made Albert fear the rat. After
     conditioning, the rat was the:
@@ -2686,7 +2686,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     In Watson’s “Little Albert” study, a loud bang paired with a white rat made Albert fear the rat. The loud
     bang was the:
@@ -2725,7 +2725,7 @@
   outline:
     category: 7C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A cat runs to the kitchen whenever it hears the can opener, because the sound has always come right before
     its meals. The running at the sound is the:
@@ -3063,7 +3063,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After switching from Spanish to French classes, a student keeps producing Spanish words when trying to
     recall French vocabulary. Which memory phenomenon is this?
@@ -3104,7 +3104,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After memorizing her new phone number, Priya can no longer recall her old one. Which memory phenomenon is
     this?
@@ -3141,7 +3141,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Asked to recall a 20-word list immediately, participants best remember the last few words. Which memory
     phenomenon is this?
@@ -3182,7 +3182,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     When recall of a 20-word list is delayed by a 30-second distraction task, participants still remember the
     first few words best. Which memory phenomenon is this?
@@ -3225,7 +3225,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Students who review flashcards for 20 minutes on each of four days outperform students who study for 80
     minutes the night before. Which memory phenomenon is this?
@@ -3270,7 +3270,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Divers who learned word lists underwater recalled them better underwater than on land. Which memory
     phenomenon is this?
@@ -3313,7 +3313,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A man who memorized a speech while anxious recalls it more easily when he is anxious again. Which memory
     phenomenon is this?
@@ -3356,7 +3356,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Witnesses asked how fast cars were going when they “smashed” into each other later report seeing broken
     glass that wasn’t there. Which memory phenomenon is this?
@@ -3393,7 +3393,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Kai vividly “remembers” a childhood trip to the beach that he actually only heard about in his parents’
     stories. Which memory phenomenon is this?
@@ -3432,7 +3432,7 @@
   outline:
     category: 6B
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A waiter remembers a 10-digit phone number by grouping it into an area code, a prefix and the last four
     digits. Which memory phenomenon is this?
@@ -3472,7 +3472,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     A study finds that ice cream sales and drowning deaths rise and fall together. Hot weather, which
     increases both, is a:
@@ -3514,7 +3514,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     A survey on Americans’ exercise habits recruits all of its participants at gyms. Which threat to validity
     does this describe?
@@ -3556,7 +3556,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     Factory workers’ productivity improves during a study of lighting, whether the lights are brightened or
     dimmed. Which threat to validity does this describe?
@@ -3592,7 +3592,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     Participants who figure out that a study is about helping behavior act more helpful than they normally
     would. Which threat to validity does this describe?
@@ -3628,7 +3628,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     Patients given sugar pills that they believe are painkillers report less pain. Which threat to validity
     does this describe?
@@ -3664,7 +3664,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     Raters who know which children received a reading program score those children’s essays more generously.
     Which threat to validity does this describe?
@@ -3702,7 +3702,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     In a year-long diet study, the participants losing the least weight dropped out, making the diet look more
     effective than it was. Which threat to validity does this describe?
@@ -3742,7 +3742,7 @@
     - kp-mcat-validity-threats
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 4
   prompt: >-
     Students who scored lowest on a first test improve on a retest even though they received no tutoring.
     Which threat to validity does this describe?
@@ -3780,7 +3780,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Researchers randomly assign volunteers to take either a new drug or a placebo and compare their blood
     pressure after 12 weeks. Which study design is this?
@@ -3822,7 +3822,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Researchers record the smoking habits of 10,000 healthy adults and track lung cancer rates in each group
     over 20 years. Which study design is this?
@@ -3860,7 +3860,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Researchers identify 200 people with a rare cancer and 200 similar people without it, then compare their
     past pesticide exposure. Which study design is this?
@@ -3902,7 +3902,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A survey of 5,000 adults records, on a single day, both their current sleep hours and their current
     depression scores. Which study design is this?
@@ -3940,7 +3940,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A neurologist documents in detail the memory deficits of a single patient after surgery removed part of
     his hippocampus. Which study design is this?
@@ -3978,7 +3978,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Researchers watch children on a public playground and record how often conflicts arise, without
     interacting with them. Which study design is this?
@@ -4016,7 +4016,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: Which design is best suited to studying risk factors for a very rare disease?
   options:
     - text: Case–control study
@@ -4054,7 +4054,7 @@
     - kp-mcat-study-designs
   outline:
     sirs: 3
-  difficulty: 2
+  difficulty: 3
   prompt: Which design can most directly establish that one variable causes an outcome?
   options:
     - text: Randomized controlled experiment
@@ -5956,7 +5956,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A sociologist argues that schools persist because they teach the skills and norms that keep the economy
     and society running. Which theoretical approach does this reflect?
@@ -5997,7 +5997,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A researcher studies how wealthy families use political donations to protect their advantages over
     workers. Which theoretical approach does this reflect?
@@ -6036,7 +6036,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A researcher studies how a wedding ring comes to signal commitment in people’s everyday interactions.
     Which theoretical approach does this reflect?
@@ -6081,7 +6081,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A scholar argues that paper money has value only because people collectively agree that it does. Which
     theoretical approach does this reflect?
@@ -6124,7 +6124,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A researcher explains a student’s decision to attend college by comparing its expected lifetime earnings
     with its cost. Which theoretical approach does this reflect?
@@ -6165,7 +6165,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A study examines how expectations that women do most unpaid caregiving limit their pay and promotions.
     Which theoretical approach does this reflect?
@@ -6204,7 +6204,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A sociologist notes that public outrage over crime brings people together and reinforces shared values.
     Which theoretical approach does this reflect?
@@ -6245,7 +6245,7 @@
   outline:
     category: 9A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A researcher argues that standardized admissions tests help wealthier families keep their children in
     elite colleges. Which theoretical approach does this reflect?
@@ -6596,7 +6596,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A nurse who is also a mother must choose between working an extra shift and attending her son’s recital.
     Which concept does this best illustrate?
@@ -6633,7 +6633,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A teacher is expected to be both a warm mentor and a strict, impartial grader to the same students. Which
     concept does this best illustrate?
@@ -6670,7 +6670,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     After she is elected, people see a woman only as “the senator,” whatever the setting. Which concept does
     this best illustrate?
@@ -6707,7 +6707,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Being born into a royal family gives Prince Ari a position he did nothing to earn. Which concept does this
     best illustrate?
@@ -6744,7 +6744,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: Dr. Patel became a physician after years of study and residency. Which concept does this best illustrate?
   options:
     - text: Achieved status
@@ -6779,7 +6779,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Before a job interview, Leo rehearses his answers and dresses to look as competent as possible. Which
     concept does this best illustrate?
@@ -6816,7 +6816,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A boy repeatedly told by friends that he is funny comes to see himself as a funny person. Which concept
     does this best illustrate?
@@ -6853,7 +6853,7 @@
   outline:
     category: 8C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A first-year law student judges her own success by comparing herself with the top students in her class.
     Which concept does this best illustrate?
@@ -6890,7 +6890,7 @@
   outline:
     category: 6C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     According to this theory, we feel afraid because we notice our heart pounding and our hands trembling.
     Which theory of emotion does this describe?
@@ -6935,7 +6935,7 @@
   outline:
     category: 6C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     According to this theory, seeing a bear triggers a racing heart and fear at the same moment, with neither
     causing the other. Which theory of emotion does this describe?
@@ -6982,7 +6982,7 @@
   outline:
     category: 6C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Participants injected with adrenaline felt euphoric when with a cheerful confederate and angry when with
     an irritated one. Which theory of emotion does this describe?
@@ -7027,7 +7027,7 @@
   outline:
     category: 6C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     According to this theory, a student must first judge an upcoming exam as threatening before she feels
     anxious and aroused. Which theory of emotion does this describe?
@@ -7074,7 +7074,7 @@
   outline:
     category: 6C
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Which theory is most challenged by evidence that people with spinal cord injuries, who feel less bodily
     arousal, still experience strong emotions?
@@ -7426,7 +7426,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     For six weeks, a man has lost interest in his hobbies, sleeps poorly, has little appetite and feels
     worthless. Which disorder do these symptoms most likely indicate?
@@ -7473,7 +7473,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A woman goes four days with almost no sleep, spends her savings on impulsive purchases and talks rapidly
     about grand plans. Which disorder do these symptoms most likely indicate?
@@ -7520,7 +7520,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     For a year, a student has worried constantly about grades, money, her health and her family, and she can’t
     control the worry. Which disorder do these symptoms most likely indicate?
@@ -7563,7 +7563,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A man has had several sudden episodes of pounding heart, shortness of breath and fear of dying, and he now
     worries constantly about when the next one will strike. Which disorder do these symptoms most likely
@@ -7605,7 +7605,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A woman washes her hands dozens of times a day to quiet persistent thoughts that she will spread germs to
     her family. Which disorder do these symptoms most likely indicate?
@@ -7648,7 +7648,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     Since a serious car crash two months ago, a man has nightmares about it, avoids driving and startles at
     loud noises. Which disorder do these symptoms most likely indicate?
@@ -7691,7 +7691,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     For eight months, a young man has heard voices commenting on his actions and believes the television sends
     him secret messages. Which disorder do these symptoms most likely indicate?
@@ -7738,7 +7738,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A woman is terrified of dogs. She crosses the street whenever she sees one, though she knows her fear is
     excessive. Which disorder do these symptoms most likely indicate?
@@ -7779,7 +7779,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A man with frequent stomach pain is consumed by worry that it signals a serious illness, despite normal
     test results, and spends hours each day researching it. Which disorder do these symptoms most likely
@@ -7825,7 +7825,7 @@
   outline:
     category: 7A
     sirs: 2
-  difficulty: 2
+  difficulty: 3
   prompt: >-
     A woman finds clothes she doesn’t remember buying, and strangers greet her by a different name. Which
     disorder do these symptoms most likely indicate?

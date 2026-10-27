@@ -3,11 +3,13 @@
 import { router } from 'expo-router';
 import { passageMap } from '@/content';
 import { typeName, SECTIONS } from '@/content/labels';
+import type { SectionId } from '@/content/types';
+import { climbKey, type Floor } from '@/engine/climb';
 import { buildDaily5, buildDrill, buildReviewQueue, passageItems, type DrillFilters, type SelectContext } from '@/engine/select';
 import type { SessionTask } from './session-types';
-import { useStore } from './store';
+import { useStore, type StartSpec } from './store';
 
-function open(spec: Parameters<ReturnType<typeof useStore.getState>['startSession']>[0]) {
+function open(spec: StartSpec) {
   if (spec.tasks.length === 0) return false;
   useStore.getState().startSession(spec);
   router.push('/session');
@@ -45,6 +47,26 @@ export function startReview(ctx: SelectContext) {
 
 export function startRetry(ctx: SelectContext, itemIds: string[], title = 'Retry') {
   return open({ kind: 'retry', exam: ctx.exam, title, tasks: questions(itemIds) });
+}
+
+export function climbSpec(ctx: SelectContext, section: SectionId, floor: Floor): StartSpec {
+  const title = floor.summit ? `${SECTIONS[section].short} Summit` : `${SECTIONS[section].short} Floor ${floor.index + 1}`;
+  return {
+    kind: 'climb',
+    exam: ctx.exam,
+    title,
+    tasks: questions(floor.itemIds),
+    climb: { key: climbKey(ctx.exam, section), floor: floor.index, checkpoint: floor.checkpoint },
+  };
+}
+
+export function startClimb(ctx: SelectContext, section: SectionId, floor: Floor) {
+  return open(climbSpec(ctx, section, floor));
+}
+
+/** One question, or a short run of questions, picked from the question bank. */
+export function startBankQuestions(ctx: SelectContext, itemIds: string[], title: string) {
+  return open({ kind: 'drill', exam: ctx.exam, title, tasks: questions(itemIds) });
 }
 
 export function resumeSession() {

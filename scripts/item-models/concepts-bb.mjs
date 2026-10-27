@@ -7,6 +7,7 @@ const sets = [
   {
     id: 'hormone-sources',
     type: 'endocrine',
+    difficulty: 1,
     category: '3A',
     ask: '',
     kp: ['kp-mcat-hormone-sources', 'Where hormones come from', 'Which hormones does the posterior pituitary release, and where are they made?',
@@ -59,6 +60,7 @@ const sets = [
   {
     id: 'hormone-actions',
     type: 'endocrine',
+    difficulty: 2,
     category: '3A',
     kp: ['kp-mcat-hormone-actions', 'What hormones do', 'PTH vs. calcitonin; oxytocin vs. prolactin?',
       'PTH raises blood Ca²⁺; calcitonin lowers it. Prolactin makes milk; oxytocin ejects it (and drives labor contractions).'],
@@ -106,6 +108,7 @@ const sets = [
   {
     id: 'hormone-classes',
     type: 'endocrine',
+    difficulty: 3,
     category: '3A',
     kp: ['kp-mcat-hormone-classes', 'Steroid, peptide and amine hormones', 'How do steroid and peptide hormones differ in receptor, transport and speed?',
       'Steroids: lipid-soluble, carried by proteins, intracellular receptors, slow gene effects. Peptides: water-soluble, travel free, surface receptors and second messengers, fast.'],
@@ -140,6 +143,7 @@ const sets = [
   {
     id: 'amino-acids',
     type: 'amino_acids',
+    difficulty: 2,
     category: '1A',
     kp: ['kp-mcat-amino-acid-facts', 'Amino acid essentials', 'Which amino acids are acidic, which are basic, and which one is achiral?',
       'Acidic: Asp (D), Glu (E). Basic: Lys (K), Arg (R), His (H). Glycine is achiral. Cys forms disulfides; Pro breaks helices.'],
@@ -194,6 +198,7 @@ const sets = [
   {
     id: 'organelles',
     type: 'cell_biology',
+    difficulty: 3,
     category: '2A',
     ask: '',
     kp: ['kp-mcat-organelles', 'Organelles and their jobs', 'Rough ER vs. smooth ER?',
@@ -233,6 +238,7 @@ const sets = [
   {
     id: 'metabolic-enzymes',
     type: 'metabolism',
+    difficulty: 3,
     category: '1D',
     ask: '',
     kp: ['kp-mcat-regulated-enzymes', 'Regulated enzymes of metabolism', 'Name the rate-limiting enzymes of glycolysis, the citric acid cycle and cholesterol synthesis.',
@@ -286,6 +292,7 @@ const sets = [
   {
     id: 'digestive-enzymes',
     type: 'digestive_renal',
+    difficulty: 2,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-digestive-enzymes', 'Digestive enzymes', 'How is trypsinogen activated, and why does that matter?',
@@ -313,6 +320,7 @@ const sets = [
   {
     id: 'immune-cells',
     type: 'immune',
+    difficulty: 3,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-immune-cells', 'Immune cell roles', 'Which cells kill infected cells, and which kill cells that hide their MHC I?',
@@ -344,6 +352,7 @@ const sets = [
   {
     id: 'nephron',
     type: 'digestive_renal',
+    difficulty: 3,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-nephron-segments', 'Nephron segments', 'Which nephron segment is permeable to water but not salt, and which is the reverse?',
@@ -370,6 +379,7 @@ const sets = [
   {
     id: 'germ-layers',
     type: 'reproduction',
+    difficulty: 2,
     category: '2C',
     ask: '',
     kp: ['kp-mcat-germ-layers', 'Germ layer derivatives', 'Which germ layer forms the adrenal medulla, and which forms the adrenal cortex?',
@@ -400,6 +410,7 @@ const sets = [
   {
     id: 'replication-enzymes',
     type: 'molecular_biology',
+    difficulty: 2,
     category: '1B',
     ask: '',
     kp: 'kp-mcat-okazaki',
@@ -427,6 +438,7 @@ const sets = [
   {
     id: 'neurotransmitters',
     type: 'nervous_system',
+    difficulty: 2,
     category: '3A',
     ask: '',
     kp: ['kp-mcat-neurotransmitters', 'Neurotransmitters', 'Which neurotransmitter is the brain’s main excitatory signal, and which is its main inhibitory one?',
@@ -454,6 +466,7 @@ const sets = [
   {
     id: 'heart-flow',
     type: 'cardio_resp',
+    difficulty: 1,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-blood-flow', 'The path of blood through the heart', 'Trace blood from the venae cavae to the aorta.',
@@ -484,6 +497,7 @@ const sets = [
   {
     id: 'inheritance-patterns',
     type: 'genetics',
+    difficulty: 3,
     category: '1C',
     ask: 'Which concept does this best illustrate?',
     kp: ['kp-mcat-inheritance-patterns', 'Inheritance patterns', 'Incomplete dominance vs. codominance?',
@@ -515,6 +529,7 @@ const sets = [
   {
     id: 'evolution',
     type: 'evolution',
+    difficulty: 3,
     category: '1C',
     ask: 'Which evolutionary process does this best illustrate?',
     kp: ['kp-mcat-evolution-processes', 'Mechanisms of evolution', 'Founder effect vs. bottleneck effect?',
@@ -553,6 +568,7 @@ const sets = [
   {
     id: 'receptor-types',
     type: 'cell_signaling',
+    difficulty: 3,
     category: '3A',
     ask: '',
     kp: ['kp-mcat-receptor-types', 'Receptor types', 'Which receptor type acts in milliseconds, and which changes gene expression?',
@@ -578,6 +594,7 @@ const sets = [
   {
     id: 'membrane-transport',
     type: 'membranes',
+    difficulty: 2,
     category: '2A',
     ask: '',
     kp: ['kp-mcat-membrane-transport', 'Membrane transport', 'Primary vs. secondary active transport?',
@@ -605,6 +622,7 @@ const sets = [
   {
     id: 'bone-cells',
     type: 'musculoskeletal',
+    difficulty: 1,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-bone-cells', 'Bone cells', 'Osteoblasts vs. osteoclasts?',
@@ -627,6 +645,7 @@ const sets = [
   {
     id: 'muscle-proteins',
     type: 'musculoskeletal',
+    difficulty: 2,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-muscle-proteins', 'Sarcomere proteins', 'How does Ca²⁺ switch on contraction?',
@@ -649,6 +668,7 @@ const sets = [
   {
     id: 'bacterial-genetics',
     type: 'microbiology',
+    difficulty: 2,
     category: '2B',
     ask: 'Which process is this?',
     kp: ['kp-mcat-bacterial-gene-transfer', 'Bacterial gene transfer', 'Transformation vs. transduction vs. conjugation?',
@@ -673,6 +693,7 @@ const sets = [
   {
     id: 'cell-cycle',
     type: 'cell_cycle',
+    difficulty: 1,
     category: '2C',
     ask: '',
     kp: ['kp-mcat-cell-cycle-phases', 'Cell cycle and mitosis', 'What happens in each phase of mitosis?',
@@ -701,6 +722,7 @@ const sets = [
   {
     id: 'meiosis',
     type: 'cell_cycle',
+    difficulty: 3,
     category: '2C',
     ask: '',
     kp: ['kp-mcat-meiosis-events', 'Meiosis I vs. meiosis II', 'In which division do homologs separate, and in which do sister chromatids separate?',
@@ -725,6 +747,7 @@ const sets = [
   {
     id: 'embryo-stages',
     type: 'reproduction',
+    difficulty: 2,
     category: '2C',
     ask: '',
     kp: ['kp-mcat-embryo-stages', 'Early embryonic stages', 'Order the early stages of development.',
@@ -749,6 +772,7 @@ const sets = [
   {
     id: 'reproductive-hormones',
     type: 'reproduction',
+    difficulty: 3,
     category: '3B',
     ask: '',
     kp: ['kp-mcat-menstrual-hormones', 'Hormones of the menstrual cycle', 'What does each hormone do across the menstrual cycle?',
@@ -774,6 +798,7 @@ const sets = [
   {
     id: 'enzyme-inhibition',
     type: 'enzyme_kinetics',
+    difficulty: 4,
     category: '1A',
     ask: '',
     kp: 'kp-mcat-inhibition-types',
@@ -799,6 +824,7 @@ const sets = [
   {
     id: 'carbs-lipids',
     type: 'lipids_carbs',
+    difficulty: 1,
     category: '1D',
     ask: '',
     kp: ['kp-mcat-carbs-lipids', 'Carbohydrates and lipids', 'Why can humans digest starch but not cellulose?',
@@ -823,6 +849,7 @@ const sets = [
   {
     id: 'vitamins',
     type: 'metabolism',
+    difficulty: 2,
     category: '1D',
     ask: '',
     kp: ['kp-mcat-vitamins', 'Vitamins', 'Which vitamins are fat-soluble?',

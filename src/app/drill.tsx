@@ -6,19 +6,14 @@ import { ScrollView, View } from 'react-native';
 import { packFor } from '@/content';
 import { EXAMS, SECTIONS, typeName } from '@/content/labels';
 import type { SectionId } from '@/content/types';
-import { drillPool, type DifficultyBand } from '@/engine/select';
+import { BANDS, type DifficultyBand } from '@/engine/difficulty';
+import { drillPool } from '@/engine/select';
 import { startDrill } from '@/state/actions';
 import { useExam, useSelectContext } from '@/state/derived';
 import { Button, Chip, Eyebrow, IconButton } from '@/ui/kit';
 import { T } from '@/ui/Text';
 import { space, useColors } from '@/ui/theme';
 
-const BANDS: { id: DifficultyBand; label: string }[] = [
-  { id: 'any', label: 'Any' },
-  { id: 'easy', label: 'Easier' },
-  { id: 'medium', label: 'Medium' },
-  { id: 'hard', label: 'Harder' },
-];
 const LENGTHS = [5, 10, 15];
 
 function toggle<T>(list: T[], value: T): T[] {
@@ -83,7 +78,7 @@ export default function Drill() {
           <Eyebrow>Difficulty</Eyebrow>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
             {BANDS.map((b) => (
-              <Chip key={b.id} label={b.label} selected={difficulty === b.id} onPress={() => setDifficulty(b.id)} />
+              <Chip key={b.id} testID={`drill-level-${b.id}`} label={b.label} selected={difficulty === b.id} onPress={() => setDifficulty(b.id)} />
             ))}
           </View>
         </View>

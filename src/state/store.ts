@@ -13,9 +13,11 @@ import {
   type MissReason,
   type Rating,
   type Review,
+  type ScoreEntry,
   type Settings,
   type XpEvent,
 } from '@/data/types';
+import { floorXp, PASS_RATE } from '@/engine/climb';
 import { uuidv7 } from '@/engine/ids';
 import { computeStreak, repairFor } from '@/engine/streak';
 import { daysUntil, newCard, ratingForAttempt, reviewCard } from '@/engine/srs';
@@ -41,6 +43,7 @@ export interface StartSpec {
   exam: Exam;
   title: string;
   tasks: SessionTask[];
+  climb?: ActiveSession['climb'];
 }
 
 export interface AnswerInput {
@@ -67,6 +70,9 @@ interface StoreActions {
   finishSession(): SessionSummary | null;
   abandonSession(): void;
   setMeta(key: string, value: unknown): void;
+  /** Adds a logged test score, or replaces the entry with the same id. */
+  saveScore(entry: ScoreEntry): void;
+  deleteScore(id: string): void;
   /** Erases all progress. `keep` sets settings to start from (used to stay onboarded). */
   resetProgress(keep?: Partial<Settings>): Promise<void>;
 }
@@ -175,6 +181,7 @@ export const useStore = create<Store>()((set, get) => ({
       results: [],
       startedAt: Date.now(),
       current: null,
+      ...(spec.climb ? { climb: spec.climb } : {}),
     };
     set({ session, lastSummary: null });
     persist((r) => r.saveSession(session));
@@ -353,6 +360,25 @@ export const useStore = create<Store>()((set, get) => ({
     }
 
     const questionResults = session.results.filter((r) => r.kind === 'question');
+
+    // Climb floors clear at 70% correct, with every question answered. Clearing the
+    // next floor for the first time opens the one above and earns bonus XP.
+    let climb: SessionSummary['climb'];
+    if (session.climb) {
+      const { key, floor, checkpoint } = session.climb;
+      const total = session.tasks.filter((t) => t.kind === 'question').length;
+      const right = questionResults.filter((r) => r.correct).length;
+      const needed = Math.ceil(total * PASS_RATE);
+      const cleared = questionResults.length === total && right >= needed;
+      const reached = settings.climb[key] ?? 0;
+      const firstClear = cleared && floor === reached;
+      if (firstClear) {
+        settings = { ...settings, climb: { ...settings.climb, [key]: reached + 1 } };
+        xpEvents.push({ id: uuidv7(now), at: now, day: today, kind: 'floor_clear', amount: floorXp({ checkpoint }), ref: `${key}:${floor}` });
+      }
+      climb = { key, floor, checkpoint, cleared, needed, firstClear };
+    }
+
     const futureDue = Object.values(state.cards)
       .map((c) => c.card.due)
       .filter((d) => d > now);
@@ -370,6 +396,7 @@ export const useStore = create<Store>()((set, get) => ({
       dailyGoalReached,
       streakRepaired: Boolean(repaired),
       nextReviewAt: futureDue.length ? Math.min(...futureDue) : null,
+      ...(climb ? { climb } : {}),
     };
 
     set({ session: null, lastSummary: summary, xpEvents: [...state.xpEvents, ...xpEvents], settings });
@@ -389,6 +416,16 @@ export const useStore = create<Store>()((set, get) => ({
   setMeta(key, value) {
     set({ meta: { ...get().meta, [key]: value } });
     persist((r) => r.setMeta(key, value));
+  },
+
+  saveScore(entry) {
+    const others = get().settings.scores.filter((e) => e.id !== entry.id);
+    const scores = [...others, entry].sort((a, b) => a.date.localeCompare(b.date) || a.createdAt - b.createdAt);
+    get().updateSettings({ scores });
+  },
+
+  deleteScore(id) {
+    get().updateSettings({ scores: get().settings.scores.filter((e) => e.id !== id) });
   },
 
   async resetProgress(keep) {

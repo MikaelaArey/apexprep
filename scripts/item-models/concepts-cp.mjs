@@ -7,6 +7,7 @@ const sets = [
   {
     id: 'orgo-reagents',
     type: 'orgo_reactions',
+    difficulty: 3,
     category: '5D',
     ask: '',
     kp: ['kp-mcat-orgo-reagents', 'Oxidizing and reducing agents', 'PCC vs. chromic acid; NaBH₄ vs. LiAlH₄?',
@@ -38,6 +39,7 @@ const sets = [
   {
     id: 'ir-peaks',
     type: 'spectroscopy',
+    difficulty: 2,
     category: '4D',
     ask: '',
     kp: ['kp-mcat-ir-peaks', 'IR spectroscopy landmarks', 'Where do C=O, alcohol O–H and carboxylic acid O–H absorb?',
@@ -61,6 +63,7 @@ const sets = [
   {
     id: 'nmr-shifts',
     type: 'spectroscopy',
+    difficulty: 2,
     category: '4D',
     ask: '',
     kp: ['kp-mcat-nmr-shifts', '¹H NMR chemical shifts', 'Where do aldehyde, carboxylic acid and aromatic protons appear?',
@@ -84,6 +87,7 @@ const sets = [
   {
     id: 'separations',
     type: 'separations',
+    difficulty: 3,
     category: '5C',
     ask: '',
     kp: ['kp-mcat-separation-techniques', 'Separation techniques', 'Which chromatography separates by size, which by charge, and which by specific binding?',
@@ -117,6 +121,7 @@ const sets = [
   {
     id: 'mechanical-units',
     type: 'work_energy',
+    difficulty: 1,
     category: '4A',
     ask: '',
     kp: ['kp-mcat-si-units', 'Derived SI units', 'Write the newton, joule, watt and pascal in base units.',
@@ -141,6 +146,7 @@ const sets = [
   {
     id: 'electrical-units',
     type: 'circuits',
+    difficulty: 2,
     category: '4C',
     ask: '',
     kp: ['kp-mcat-electrical-units', 'Electrical units', 'Express the volt, ohm, farad and ampere in terms of other units.',
@@ -164,6 +170,7 @@ const sets = [
   {
     id: 'nuclear-decay',
     type: 'nuclear',
+    difficulty: 2,
     category: '4E',
     ask: '',
     kp: ['kp-mcat-decay-types', 'Types of radioactive decay', 'How does each decay type change the atomic number (Z) and mass number (A)?',
@@ -190,6 +197,7 @@ const sets = [
   {
     id: 'spontaneity',
     type: 'thermodynamics',
+    difficulty: 3,
     category: '5E',
     ask: '',
     kp: 'kp-mcat-gibbs-temperature',
@@ -214,6 +222,7 @@ const sets = [
   {
     id: 'isomers',
     type: 'stereochemistry',
+    difficulty: 3,
     category: '5B',
     ask: '',
     kp: ['kp-mcat-isomer-types', 'Kinds of isomers', 'Enantiomers vs. diastereomers?',
@@ -239,6 +248,7 @@ const sets = [
   {
     id: 'biomolecule-bonds',
     type: 'cp_biomolecules',
+    difficulty: 1,
     category: '5D',
     ask: '',
     kp: ['kp-mcat-biomolecule-bonds', 'Bonds that build biomolecules', 'Which bond links each kind of monomer?',
@@ -263,6 +273,7 @@ const sets = [
   {
     id: 'em-spectrum',
     type: 'optics',
+    difficulty: 1,
     category: '4D',
     ask: '',
     kp: ['kp-mcat-em-spectrum', 'The electromagnetic spectrum', 'Order the EM spectrum from lowest to highest frequency.',
@@ -289,6 +300,7 @@ const sets = [
   {
     id: 'intermolecular-forces',
     type: 'bonding',
+    difficulty: 2,
     category: '5B',
     ask: '',
     kp: ['kp-mcat-intermolecular-forces', 'Intermolecular forces', 'Rank the intermolecular forces from weakest to strongest.',
@@ -311,6 +323,7 @@ const sets = [
   {
     id: 'hybridization',
     type: 'bonding',
+    difficulty: 2,
     category: '5B',
     ask: '',
     kp: ['kp-mcat-hybridization', 'Hybridization', 'How do you find an atom’s hybridization?',
@@ -335,6 +348,7 @@ const sets = [
   {
     id: 'molecular-geometry',
     type: 'bonding',
+    difficulty: 2,
     category: '5B',
     ask: '',
     kp: ['kp-mcat-vsepr', 'VSEPR shapes', 'Why is water bent but CO₂ linear?',
@@ -360,6 +374,7 @@ const sets = [
   {
     id: 'acid-base-definitions',
     type: 'acids_bases',
+    difficulty: 2,
     category: '5A',
     ask: '',
     kp: ['kp-mcat-acid-base-definitions', 'Acid–base definitions', 'Brønsted–Lowry vs. Lewis acids?',
@@ -382,6 +397,7 @@ const sets = [
   {
     id: 'gas-laws',
     type: 'gases',
+    difficulty: 2,
     category: '4B',
     ask: 'Which law describes this?',
     kp: ['kp-mcat-gas-laws', 'The gas laws', 'Which variables does each gas law hold constant?',
@@ -406,6 +422,7 @@ const sets = [
   {
     id: 'thermo-processes',
     type: 'thermodynamics',
+    difficulty: 3,
     category: '5E',
     ask: 'Which kind of process is this?',
     kp: ['kp-mcat-thermo-processes', 'Thermodynamic processes', 'In which process does a gas do no work, and in which is ΔU = 0 for an ideal gas?',
@@ -428,6 +445,7 @@ const sets = [
   {
     id: 'mirrors-lenses',
     type: 'optics',
+    difficulty: 3,
     category: '4D',
     ask: '',
     kp: ['kp-mcat-mirrors-lenses', 'Mirrors and lenses', 'Which optical elements can only form upright, reduced, virtual images?',
@@ -451,6 +469,7 @@ const sets = [
   {
     id: 'cell-types',
     type: 'electrochemistry',
+    difficulty: 3,
     category: '4C',
     ask: '',
     kp: 'kp-mcat-galvanic',
@@ -473,6 +492,7 @@ const sets = [
   {
     id: 'wave-phenomena',
     type: 'waves_sound',
+    difficulty: 2,
     category: '4D',
     ask: 'Which wave phenomenon is this?',
     kp: ['kp-mcat-wave-phenomena', 'Wave phenomena', 'What causes beats, and what is their frequency?',
@@ -497,6 +517,7 @@ const sets = [
   {
     id: 'periodic-groups',
     type: 'atomic_structure',
+    difficulty: 1,
     category: '4E',
     ask: '',
     kp: ['kp-mcat-periodic-groups', 'Families of the periodic table', 'What makes alkali metals so reactive and noble gases so inert?',

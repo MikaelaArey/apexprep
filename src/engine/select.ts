@@ -1,6 +1,7 @@
 // Builds the question lists for each study mode.
 
 import type { Exam, Item, Passage, SectionId } from '@/content/types';
+import { inBand, type DifficultyBand } from './difficulty';
 import { SECTIONS } from '@/content/labels';
 import type { Attempt, CardRow } from '@/data/types';
 import { masteryScore, typeKey, type SkillRating } from './mastery';
@@ -134,7 +135,8 @@ export function buildDaily5(ctx: SelectContext): string[] {
   return picked.map((i) => i.id);
 }
 
-export type DifficultyBand = 'any' | 'easy' | 'medium' | 'hard';
+
+export type { DifficultyBand };
 
 export interface DrillFilters {
   sections: SectionId[];
@@ -143,8 +145,6 @@ export interface DrillFilters {
   count: number;
 }
 
-const inBand = (d: number, band: DifficultyBand) =>
-  band === 'any' || (band === 'easy' && d <= 2) || (band === 'medium' && d === 3) || (band === 'hard' && d >= 4);
 
 export function drillPool(ctx: SelectContext, f: Omit<DrillFilters, 'count'>): Item[] {
   return ctx.items.filter(

@@ -9,6 +9,7 @@ import { READINESS_MIN } from '@/engine/stats';
 import { resumeSession, startDaily5, startDrill, startPassage, startReview } from '@/state/actions';
 import { useDaysToTest, useDueCards, useExam, useExamAttempts, useSelectContext, useStreak, useToday } from '@/state/derived';
 import { useStore } from '@/state/store';
+import { GameTiles, NextBadges, SproutGreeting } from '@/screens/HomeGame';
 import { useAccount } from '@/sync/account';
 import { ExamBadge } from '@/ui/ExamBadge';
 import { Icon, type IconName } from '@/ui/Icon';
@@ -122,6 +123,7 @@ export default function Home() {
   const due = useDueCards(exam);
   const days = useDaysToTest(exam);
   const account = useAccount();
+  const coach = settings.coach && !settings.pureStudy;
   const weak = useMemo(() => weakestTypes(ctx, 1)[0] ?? null, [ctx]);
   const passage = useMemo(() => nextPassage(ctx), [ctx]);
   const plan = settings.plans[exam];
@@ -161,6 +163,13 @@ export default function Home() {
           {countdown} · Goal {plan.target}
         </T>
       </Pressable>
+
+      {coach ? (
+        <>
+          <SproutGreeting exam={exam} due={due.length} hasSession={Boolean(activeSession)} />
+          <View style={{ height: space.lg }} />
+        </>
+      ) : null}
 
       <Card testID="today-card">
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: space.sm }}>
@@ -207,6 +216,16 @@ export default function Home() {
           ) : null}
         </View>
       </Card>
+
+      <View style={{ height: space.lg }} />
+      <GameTiles exam={exam} />
+
+      {!settings.pureStudy ? (
+        <>
+          <View style={{ height: space.lg }} />
+          <NextBadges exam={exam} />
+        </>
+      ) : null}
 
       <View style={{ height: space.lg }} />
       <Readiness exam={exam} />

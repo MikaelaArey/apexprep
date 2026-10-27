@@ -7,6 +7,7 @@ const sets = [
   {
     id: 'group-processes',
     type: 'group_behavior',
+    difficulty: 2,
     category: '7B',
     sirs: 2,
     ask: 'Which phenomenon does this best illustrate?',
@@ -60,6 +61,7 @@ const sets = [
   {
     id: 'attribution',
     type: 'social_psych',
+    difficulty: 3,
     category: '8B',
     sirs: 2,
     ask: 'Which bias does this best illustrate?',
@@ -113,6 +115,7 @@ const sets = [
   {
     id: 'persuasion',
     type: 'social_psych',
+    difficulty: 3,
     category: '7C',
     sirs: 2,
     ask: 'Which concept does this best illustrate?',
@@ -156,6 +159,7 @@ const sets = [
   {
     id: 'defense-mechanisms',
     type: 'identity_personality',
+    difficulty: 3,
     category: '7A',
     sirs: 2,
     ask: 'Which defense mechanism is this?',
@@ -209,6 +213,7 @@ const sets = [
   {
     id: 'operant',
     type: 'learning',
+    difficulty: 2,
     category: '7C',
     sirs: 2,
     ask: 'Which process is at work?',
@@ -253,6 +258,7 @@ const sets = [
   {
     id: 'schedules',
     type: 'learning',
+    difficulty: 3,
     category: '7C',
     sirs: 2,
     ask: 'Which reinforcement schedule is this?',
@@ -292,6 +298,7 @@ const sets = [
   {
     id: 'classical-elements',
     type: 'learning',
+    difficulty: 3,
     category: '7C',
     sirs: 2,
     kp: ['kp-mcat-classical-elements', 'Elements of classical conditioning', 'Which stimulus is “conditioned”: the one that triggered the response from the start, or the one that learned to?',
@@ -328,6 +335,7 @@ const sets = [
   {
     id: 'classical-phenomena',
     type: 'learning',
+    difficulty: 2,
     category: '7C',
     sirs: 2,
     ask: 'Which phenomenon does this illustrate?',
@@ -365,6 +373,7 @@ const sets = [
   {
     id: 'memory-phenomena',
     type: 'memory_cognition',
+    difficulty: 3,
     category: '6B',
     sirs: 2,
     ask: 'Which memory phenomenon is this?',
@@ -418,6 +427,7 @@ const sets = [
   {
     id: 'research-biases',
     type: 'research_methods',
+    difficulty: 4,
     sirs: 3,
     ask: 'Which threat to validity does this describe?',
     kp: ['kp-mcat-validity-threats', 'Threats to validity', 'Hawthorne effect vs. demand characteristics vs. placebo effect?',
@@ -462,6 +472,7 @@ const sets = [
   {
     id: 'study-designs',
     type: 'research_methods',
+    difficulty: 3,
     sirs: 3,
     ask: 'Which study design is this?',
     kp: ['kp-mcat-study-designs', 'Study designs', 'Cohort vs. case–control: which direction does each look?',
@@ -502,6 +513,7 @@ const sets = [
   {
     id: 'erikson',
     type: 'development',
+    difficulty: 2,
     category: '7A',
     sirs: 2,
     ask: 'Which of Erikson’s stages best fits?',
@@ -540,6 +552,7 @@ const sets = [
   {
     id: 'piaget',
     type: 'development',
+    difficulty: 2,
     category: '7A',
     sirs: 2,
     ask: 'Which of Piaget’s stages does this child most likely belong to?',
@@ -574,6 +587,7 @@ const sets = [
   {
     id: 'brain-regions',
     type: 'biological_psych',
+    difficulty: 2,
     category: '6A',
     sirs: 2,
     ask: 'Which brain structure is most likely involved?',
@@ -635,6 +649,7 @@ const sets = [
   {
     id: 'sleep',
     type: 'consciousness',
+    difficulty: 2,
     category: '6B',
     sirs: 1,
     ask: 'Which stage or state is this?',
@@ -666,6 +681,7 @@ const sets = [
   {
     id: 'sensation-concepts',
     type: 'sensation_perception',
+    difficulty: 2,
     category: '6A',
     sirs: 2,
     ask: 'Which concept does this best illustrate?',
@@ -700,6 +716,7 @@ const sets = [
   {
     id: 'signal-detection',
     type: 'sensation_perception',
+    difficulty: 2,
     category: '6A',
     sirs: 2,
     ask: 'In signal detection terms, this outcome is a:',
@@ -726,6 +743,7 @@ const sets = [
   {
     id: 'sociology-theories',
     type: 'sociology_theory',
+    difficulty: 3,
     category: '9A',
     sirs: 2,
     ask: 'Which theoretical approach does this reflect?',
@@ -767,6 +785,7 @@ const sets = [
   {
     id: 'stratification',
     type: 'stratification',
+    difficulty: 2,
     category: '10A',
     sirs: 2,
     ask: 'Which concept does this best illustrate?',
@@ -814,6 +833,7 @@ const sets = [
   {
     id: 'roles-identity',
     type: 'social_interaction',
+    difficulty: 3,
     category: '8C',
     sirs: 2,
     ask: 'Which concept does this best illustrate?',
@@ -859,6 +879,7 @@ const sets = [
   {
     id: 'emotion-theories',
     type: 'emotion_stress',
+    difficulty: 3,
     category: '6C',
     sirs: 2,
     ask: 'Which theory of emotion does this describe?',
@@ -890,6 +911,7 @@ const sets = [
   {
     id: 'motivation',
     type: 'motivation',
+    difficulty: 2,
     category: '7A',
     sirs: 2,
     ask: 'Which theory of motivation best explains this?',
@@ -929,6 +951,7 @@ const sets = [
   {
     id: 'disorders',
     type: 'psych_disorders',
+    difficulty: 3,
     category: '7A',
     sirs: 2,
     ask: 'Which disorder do these symptoms most likely indicate?',
