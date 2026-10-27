@@ -1,8 +1,1730 @@
 {
  "exam": "LSAT",
- "version": "d27b4bd0b0d5",
- "generatedAt": "2026-10-27T13:28:32.806Z",
+ "version": "bbf14e4e37fa",
+ "generatedAt": "2026-10-27T14:19:16.581Z",
  "items": [
+  {
+   "id": "lsat-lr-0300",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The bike lanes the city added to Main Street last year have made the street safer. In the year after the lanes were installed, traffic accidents on Main Street fell by a third.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Most cyclists on Main Street use the new lanes.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The lanes could improve safety even if many cyclists skip them, for example by slowing cars."
+    },
+    {
+     "id": "B",
+     "text": "Bike lanes reduce traffic accidents on every street where they are installed.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument is only about Main Street; it doesn't need a universal claim."
+    },
+    {
+     "id": "C",
+     "text": "Accidents on Main Street had been rising before the lanes were installed.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Even if accidents had been steady, the argument could still work."
+    },
+    {
+     "id": "D",
+     "text": "No other change on Main Street during that year accounts for the drop in accidents.",
+     "correct": true,
+     "trap": null,
+     "why": "Negate it and some other change explains the drop, so the lanes get no credit."
+    },
+    {
+     "id": "E",
+     "text": "Drivers on Main Street support the bike lanes.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Drivers' opinions don't bear on whether the lanes caused the drop."
+    }
+   ],
+   "tldr": "The argument needs nothing else to explain the drop in accidents.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Accidents fell after the lanes went in, so the argument concludes the lanes caused it."
+    },
+    {
+     "label": "Negation test",
+     "body": "If another change explains the drop, the causal claim collapses."
+    }
+   ],
+   "takeaway": "Causal arguments from \"after\" always assume no other cause did the work.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0301",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Since the Brookfield Library began lending e-books two years ago, checkouts of its print books have fallen by 20 percent. Clearly, many patrons who once borrowed print books from the library now borrow e-books instead.",
+   "prompt": "The argument requires assuming which one of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Most library patrons prefer e-books to print books.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The conclusion is about many former print borrowers, not most patrons."
+    },
+    {
+     "id": "B",
+     "text": "E-books cost the library less than print books do.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost has nothing to do with why print checkouts fell."
+    },
+    {
+     "id": "C",
+     "text": "The library now lends more e-books than print books.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Some switching can happen without e-books outnumbering print checkouts."
+    },
+    {
+     "id": "D",
+     "text": "Patrons who borrow e-books never borrow print books.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Patrons could borrow both and the argument would still hold."
+    },
+    {
+     "id": "E",
+     "text": "The number of people using the library has not declined enough over the past two years to account for the drop in print checkouts.",
+     "correct": true,
+     "trap": null,
+     "why": "If fewer patrons explains the drop, there's no reason to think anyone switched to e-books."
+    }
+   ],
+   "tldr": "The drop must not just reflect fewer library users.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Fewer print checkouts, so the argument concludes people switched to e-books."
+    },
+    {
+     "label": "Rival explanation",
+     "body": "A shrinking number of patrons would also cut print checkouts."
+    }
+   ],
+   "takeaway": "When a number falls, ask whether the total it comes from fell too.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0302",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-defender",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Critics claim that the new biology textbook is too difficult for ninth graders. But the textbook was written by a team of experienced high school biology teachers. So the critics are mistaken.",
+   "prompt": "Which one of the following is an assumption on which the argument depends?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The critics have never taught ninth-grade biology.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The argument doesn't depend on anything about the critics' experience."
+    },
+    {
+     "id": "B",
+     "text": "No textbook written by experienced teachers has ever been too difficult for its intended students.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument needs teachers to be good judges, not infallible ones."
+    },
+    {
+     "id": "C",
+     "text": "Experienced high school biology teachers are generally able to judge what ninth graders can understand.",
+     "correct": true,
+     "trap": null,
+     "why": "If they can't judge that, who wrote the book tells us nothing about its difficulty."
+    },
+    {
+     "id": "D",
+     "text": "Ninth graders find biology harder than other subjects.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "That comparison doesn't connect authorship to difficulty."
+    },
+    {
+     "id": "E",
+     "text": "The new textbook covers more topics than the one it replaced.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Coverage isn't the same as difficulty."
+    }
+   ],
+   "tldr": "The authors' experience counts only if it lets them judge what ninth graders can handle.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The premise is about who wrote the book; the conclusion is about how hard it is."
+    },
+    {
+     "label": "Bridge",
+     "body": "Experienced teachers can judge what ninth graders understand."
+    }
+   ],
+   "takeaway": "An assumption often links the kind of evidence offered to the kind of claim made.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0303",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-plan",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "To reduce littering in Lake Park, the city plans to double the number of trash cans in the park. Because people litter mainly when no trash can is in sight, the plan will reduce littering.",
+   "prompt": "The argument depends on assuming which one of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Park visitors know that littering is illegal.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument rests on visible cans, not on knowledge of the law."
+    },
+    {
+     "id": "B",
+     "text": "No one litters when a trash can is in sight.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The premise says people litter mainly when no can is visible; some littering elsewhere is fine."
+    },
+    {
+     "id": "C",
+     "text": "Doubling the trash cans will cost less than hiring more cleanup crews.",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Cost compared with another option doesn't affect whether this plan reduces littering."
+    },
+    {
+     "id": "D",
+     "text": "Doubling the number of trash cans will put a trash can in sight in some places in the park where none is now visible.",
+     "correct": true,
+     "trap": null,
+     "why": "If the new cans sit only where cans are already visible, the cause of littering is untouched."
+    },
+    {
+     "id": "E",
+     "text": "Most of the litter in the park is food packaging.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The type of litter doesn't affect the plan's logic."
+    }
+   ],
+   "tldr": "More cans help only if they're visible where cans now aren't.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Littering happens where no can is in sight; the plan adds cans."
+    },
+    {
+     "label": "Negation test",
+     "body": "If the new cans don't change where cans are in sight, the plan won't work."
+    }
+   ],
+   "takeaway": "Plans assume their action actually reaches the cause they target.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0304",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Students at Hillside School scored higher on this year's state reading exam than students at Valley School. So Hillside's reading curriculum is more effective than Valley's.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Every Hillside student outscored every Valley student.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "A higher average is enough for the comparison."
+    },
+    {
+     "id": "B",
+     "text": "Valley School plans to adopt Hillside's curriculum.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Future plans don't bear on which curriculum is more effective."
+    },
+    {
+     "id": "C",
+     "text": "Hillside's students did not begin the year with substantially stronger reading skills than Valley's students.",
+     "correct": true,
+     "trap": null,
+     "why": "If Hillside's students started far ahead, the higher scores say nothing about the curriculum."
+    },
+    {
+     "id": "D",
+     "text": "The state reading exam is the only valid measure of reading ability.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The exam needs to be a reasonable measure, not the only one."
+    },
+    {
+     "id": "E",
+     "text": "Hillside spends more per student on reading instruction than Valley does.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Extra spending would be a rival explanation, which hurts the argument."
+    }
+   ],
+   "tldr": "The groups must have started out comparable.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Different scores, so the argument concludes the curricula differ in effectiveness."
+    },
+    {
+     "label": "Rival explanation",
+     "body": "Different students to begin with."
+    }
+   ],
+   "takeaway": "Comparisons of outcomes assume the groups were comparable at the start.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0305",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-sampling",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "In a poll of 1,000 voters reached on landline telephones, 62 percent said they support the library bond measure. So the measure is likely to pass.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "at least 62 percent of eligible voters will cast ballots",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Turnout level doesn't matter if those who vote resemble the sample."
+    },
+    {
+     "id": "B",
+     "text": "the mayor supports the bond measure",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The mayor's view isn't part of the argument."
+    },
+    {
+     "id": "C",
+     "text": "no voter who was polled will change his or her mind before the election",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "A few changed minds wouldn't overturn a 62 percent majority."
+    },
+    {
+     "id": "D",
+     "text": "voters reached on landline telephones are not much more likely to support the measure than voters in general",
+     "correct": true,
+     "trap": null,
+     "why": "If landline users favor the measure far more than others, the poll overstates support."
+    },
+    {
+     "id": "E",
+     "text": "most voters own landline telephones",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "What matters is whether landline users are representative, not how many voters have landlines."
+    }
+   ],
+   "tldr": "The landline sample must represent voters as a whole.",
+   "steps": [
+    {
+     "label": "Sample",
+     "body": "Voters reached on landlines."
+    },
+    {
+     "label": "Negation test",
+     "body": "If they're much more supportive than other voters, the 62 percent doesn't carry over."
+    }
+   ],
+   "takeaway": "Arguments from polls assume the sample resembles the population it stands for.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0306",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-reverse-causation",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "People who meditate daily report lower levels of stress than people who do not. So daily meditation reduces stress.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "People with low levels of stress are not much more likely than others to take up daily meditation.",
+     "correct": true,
+     "trap": null,
+     "why": "If calm people are the ones who take up meditation, the correlation runs the other way."
+    },
+    {
+     "id": "B",
+     "text": "People who do not meditate have tried meditating at some point.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Nonmeditators' past attempts don't affect the causal claim."
+    },
+    {
+     "id": "C",
+     "text": "Everyone who meditates daily experiences reduced stress.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The conclusion is a general tendency, not a claim about everyone."
+    },
+    {
+     "id": "D",
+     "text": "Stress can be measured more precisely than by self-report.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The argument relies on self-reports; it doesn't need better measures to exist."
+    },
+    {
+     "id": "E",
+     "text": "Meditation is the most effective way to reduce stress.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Meditation only has to reduce stress, not beat every alternative."
+    }
+   ],
+   "tldr": "Low stress must not be what leads people to meditate.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Meditators are less stressed, so the argument concludes meditation lowers stress."
+    },
+    {
+     "label": "Reverse it",
+     "body": "If low-stress people simply choose to meditate, the conclusion fails."
+    }
+   ],
+   "takeaway": "Every causal conclusion from a correlation assumes the cause isn't reversed.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0307",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-analogy",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "When the city banned smoking in restaurants, owners predicted they would lose customers, but restaurant revenues rose the following year. Owners now predict that a proposed ban on cell phone use in restaurants will drive customers away. This prediction is likely to prove just as mistaken.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "the smoking ban caused restaurant revenues to rise",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument needs only that the ban didn't hurt business, not that it helped."
+    },
+    {
+     "id": "B",
+     "text": "the cell phone ban would be strictly enforced",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Enforcement doesn't establish that the two bans are alike in the relevant way."
+    },
+    {
+     "id": "C",
+     "text": "most diners use their phones during meals",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How many diners use phones doesn't make the two bans comparable."
+    },
+    {
+     "id": "D",
+     "text": "restaurant owners' predictions about their customers are always mistaken",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument concerns these two similar predictions, not every prediction."
+    },
+    {
+     "id": "E",
+     "text": "diners are not substantially more attached to using their phones during meals than smokers were to smoking during meals",
+     "correct": true,
+     "trap": null,
+     "why": "If diners care much more about phones, the smoking ban is a poor guide to the phone ban."
+    }
+   ],
+   "tldr": "The two bans must be alike in how much customers care about the banned activity.",
+   "steps": [
+    {
+     "label": "Structure",
+     "body": "The smoking ban didn't drive customers away, so the phone ban won't either."
+    },
+    {
+     "label": "Gap",
+     "body": "The analogy needs the bans to matter to customers about equally."
+    }
+   ],
+   "takeaway": "Analogies assume no relevant difference between the two cases.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0308",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-plan",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Kenji wants to join the university's honors program, which admits only students with a grade-point average of at least 3.7. His average is now 3.5, but he plans to raise it to 3.7 by taking three electives next semester. So after next semester Kenji will meet the honors program's grade requirement.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Most students in the honors program have averages above 3.8.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Other students' averages don't affect whether Kenji reaches 3.7."
+    },
+    {
+     "id": "B",
+     "text": "Kenji's electives will be easier than his required courses.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "He needs high enough grades, however hard the courses are."
+    },
+    {
+     "id": "C",
+     "text": "A 3.7 average guarantees admission to the honors program.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is only about meeting the grade requirement, not about admission."
+    },
+    {
+     "id": "D",
+     "text": "Kenji will not take any courses besides the three electives.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "He could take other courses and still reach 3.7."
+    },
+    {
+     "id": "E",
+     "text": "Kenji can earn grades in the three electives high enough to raise his average to 3.7.",
+     "correct": true,
+     "trap": null,
+     "why": "If no achievable grades would lift his average that far, the plan can't succeed."
+    }
+   ],
+   "tldr": "The plan works only if the electives can actually raise his average enough.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The plan is to take electives; the conclusion is that his average will reach 3.7."
+    },
+    {
+     "label": "Negation test",
+     "body": "If no achievable grades get him there, the conclusion fails."
+    }
+   ],
+   "takeaway": "A plan's success assumes its means can actually produce the result.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0309",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Our new advertising campaign has succeeded in drawing attention to our website: visits to the site rose 40 percent during the six weeks the campaign ran.",
+   "prompt": "The argument requires assuming which one of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The campaign cost less than previous campaigns.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't bear on whether the campaign drew attention."
+    },
+    {
+     "id": "B",
+     "text": "The rise in visits was not due entirely to factors unrelated to the campaign.",
+     "correct": true,
+     "trap": null,
+     "why": "If something else caused the whole rise, the campaign drew no attention at all."
+    },
+    {
+     "id": "C",
+     "text": "Visits will stay 40 percent higher after the campaign ends.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Lasting effects aren't part of the conclusion."
+    },
+    {
+     "id": "D",
+     "text": "Every visitor during the campaign had seen one of the ads.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The campaign needs to account for some of the rise, not every visit."
+    },
+    {
+     "id": "E",
+     "text": "The campaign increased sales as well as visits.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is about attention to the website, not sales."
+    }
+   ],
+   "tldr": "At least some of the rise must come from the campaign.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Visits rose during the campaign, so the argument concludes the campaign worked."
+    },
+    {
+     "label": "Negation test",
+     "body": "If unrelated factors explain the entire rise, the conclusion fails."
+    }
+   ],
+   "takeaway": "Necessary assumptions are often modest, like \"not entirely due to something else.\"",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0310",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-plan",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "A farm cooperative now pays distributors a fee to deliver its produce to city restaurants. It plans to deliver the produce itself, and the restaurants will pay the same prices as before. Because it will no longer pay the distributors' fees, the cooperative expects its members' profits to rise.",
+   "prompt": "The cooperative's expectation depends on which one of the following assumptions?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Every restaurant that buys from the cooperative will keep doing so for years.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Profits can rise without every customer staying indefinitely."
+    },
+    {
+     "id": "B",
+     "text": "The distributors will lower their fees to keep the cooperative's business.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Lower fees would make dropping the distributors less attractive, not more."
+    },
+    {
+     "id": "C",
+     "text": "City restaurants prefer to buy directly from farms.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The restaurants have already agreed to keep paying the same prices."
+    },
+    {
+     "id": "D",
+     "text": "The cooperative's members currently earn less than the distributors do.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Comparing incomes doesn't affect whether the plan raises profits."
+    },
+    {
+     "id": "E",
+     "text": "The cooperative's own costs of delivering the produce will be lower than the fees it now pays distributors.",
+     "correct": true,
+     "trap": null,
+     "why": "With prices unchanged, profits rise only if doing the deliveries costs less than the fees saved."
+    }
+   ],
+   "tldr": "The plan pays only if doing the deliveries costs less than the fees saved.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The fees disappear, but delivering costs something too."
+    },
+    {
+     "label": "Negation test",
+     "body": "If those costs equal or exceed the fees, profits won't rise."
+    }
+   ],
+   "takeaway": "Cost-cutting plans assume the replacement costs less than what it replaces.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0311",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "After Riverton raised its minimum wage last spring, unemployment among the city's teenagers rose sharply. Evidently, the higher minimum wage caused the rise in teenage unemployment.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Unemployment among adults in Riverton rose as well.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "A general rise would suggest a broader cause, which weakens the argument."
+    },
+    {
+     "id": "B",
+     "text": "Every teenager who lost a job had been earning the minimum wage.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The wage increase could cause the rise without explaining every lost job."
+    },
+    {
+     "id": "C",
+     "text": "Other cities that raised their minimum wage saw no rise in teenage unemployment.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That would count against the causal claim."
+    },
+    {
+     "id": "D",
+     "text": "Riverton's increase was larger than increases in nearby cities.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The size relative to other cities isn't needed for the causal claim."
+    },
+    {
+     "id": "E",
+     "text": "Teenage unemployment in Riverton had not already begun rising sharply before the minimum wage increase took effect.",
+     "correct": true,
+     "trap": null,
+     "why": "If the rise started earlier, the wage increase can't be what set it off."
+    }
+   ],
+   "tldr": "The rise must not have already been under way before the wage increase.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The argument infers cause from sequence."
+    },
+    {
+     "label": "Negation test",
+     "body": "If unemployment was already climbing, the sequence proves nothing."
+    }
+   ],
+   "takeaway": "Arguments from \"after X, Y\" assume Y wasn't already happening before X.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0312",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Over the past decade, the number of applicants to Hartwell College has grown by about 5 percent every year. So Hartwell should expect more applicants next year than it received this year.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "most of Hartwell's applicants live out of state",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Where applicants live doesn't affect whether the trend continues."
+    },
+    {
+     "id": "B",
+     "text": "no development is likely to reverse the trend in Hartwell's applications next year",
+     "correct": true,
+     "trap": null,
+     "why": "If something likely will reverse the trend, the past decade is no basis for the expectation."
+    },
+    {
+     "id": "C",
+     "text": "Hartwell will admit more students next year than it did this year",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Admissions don't determine how many people apply."
+    },
+    {
+     "id": "D",
+     "text": "Hartwell's applications will grow by exactly 5 percent next year",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Any growth satisfies the conclusion."
+    },
+    {
+     "id": "E",
+     "text": "applications to other colleges are declining",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Other colleges' trends don't bear on Hartwell's."
+    }
+   ],
+   "tldr": "Projecting a trend assumes nothing is likely to break it.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Past growth, so the argument expects more growth."
+    },
+    {
+     "label": "Negation test",
+     "body": "If a reversal is likely, the expectation is unjustified."
+    }
+   ],
+   "takeaway": "Predictions from trends assume the conditions behind the trend continue.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0313",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-numbers-proportions",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Region X reported more cases of influenza this winter than Region Y did. So influenza was more widespread in Region X than in Region Y this winter.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Region Y reported fewer cases this winter than it did last winter.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Region Y's own trend doesn't bear on the comparison."
+    },
+    {
+     "id": "B",
+     "text": "Influenza will also be more widespread in Region X next winter.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion concerns this winter only."
+    },
+    {
+     "id": "C",
+     "text": "Region X has more hospitals than Region Y.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Hospital counts don't establish how widespread the flu was."
+    },
+    {
+     "id": "D",
+     "text": "Region X's larger number of cases is not explained by its having a much larger population than Region Y.",
+     "correct": true,
+     "trap": null,
+     "why": "If Region X is simply much bigger, more cases don't mean a higher rate."
+    },
+    {
+     "id": "E",
+     "text": "Every case of influenza in both regions was reported.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Reporting needs to be comparable, not complete."
+    }
+   ],
+   "tldr": "More cases mean wider spread only if the populations are comparable.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Raw case counts, so the argument concludes the flu was more widespread."
+    },
+    {
+     "label": "Negation test",
+     "body": "If the gap reflects population size, the conclusion fails."
+    }
+   ],
+   "takeaway": "\"More cases\" supports \"more widespread\" only with comparable populations.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0314",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "The ancient building had no windows and a single narrow entrance, and archaeologists found large quantities of grain residue on its floor. It must originally have been built as a granary.",
+   "prompt": "The argument depends on assuming which one of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "All ancient granaries lacked windows.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument needs windowless buildings to suit grain storage, not every granary to be windowless."
+    },
+    {
+     "id": "B",
+     "text": "The grain residue was not left by a later use of the building, long after its original purpose had ended.",
+     "correct": true,
+     "trap": null,
+     "why": "If the residue came from later occupants, it says nothing about why the building was built."
+    },
+    {
+     "id": "C",
+     "text": "The building was the largest in the settlement.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Its size isn't part of the reasoning."
+    },
+    {
+     "id": "D",
+     "text": "Grain was the settlement's most important food.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Grain needn't be the main food for the building to be a granary."
+    },
+    {
+     "id": "E",
+     "text": "No other building in the settlement had a single entrance.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Other buildings could share the feature without undermining the conclusion."
+    }
+   ],
+   "tldr": "The residue must date from the building's original use.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The conclusion is about the original purpose; the residue could date from any time."
+    },
+    {
+     "label": "Negation test",
+     "body": "Residue left by later users wouldn't support the conclusion."
+    }
+   ],
+   "takeaway": "Watch for time gaps between when evidence was produced and what the conclusion is about.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0315",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-numbers-proportions",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "The average sale price of houses in Linwood rose by 15 percent last year. So people who owned homes in Linwood at the start of last year saw their homes increase in value.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Linwood's homeowners intend to sell their houses.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "A home can rise in value whether or not it's sold."
+    },
+    {
+     "id": "B",
+     "text": "House prices in neighboring towns rose as well.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Neighboring towns don't affect Linwood's homeowners."
+    },
+    {
+     "id": "C",
+     "text": "Every house in Linwood rose in value by 15 percent.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The conclusion says homes increased in value, not by a uniform 15 percent."
+    },
+    {
+     "id": "D",
+     "text": "More houses were sold in Linwood last year than the year before.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The number of sales doesn't show whether values rose."
+    },
+    {
+     "id": "E",
+     "text": "The rise in the average sale price was not due entirely to a change in the kinds of houses that were sold.",
+     "correct": true,
+     "trap": null,
+     "why": "If the average rose only because pricier houses happened to sell, existing homes may not have gained value."
+    }
+   ],
+   "tldr": "A rising average can reflect which houses sold, not rising values.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The average sale price is about houses sold; the conclusion is about houses owned."
+    },
+    {
+     "label": "Negation test",
+     "body": "If the mix of sales explains the rise, owners' values may not have changed."
+    }
+   ],
+   "takeaway": "Averages can shift because the group changed, not because its members did.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0316",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-sampling",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 4,
+   "targetSec": 84,
+   "stimulus": "Of the restaurants that have been open in Fairview for more than twenty years, nearly all serve traditional local dishes. Clearly, serving traditional local dishes helps a restaurant survive in Fairview.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "Fairview's residents prefer traditional local dishes to other food",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "This might explain the pattern, but the argument doesn't require it."
+    },
+    {
+     "id": "B",
+     "text": "traditional local dishes are cheaper to prepare than other dishes",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument needn't identify how the dishes help."
+    },
+    {
+     "id": "C",
+     "text": "it is not the case that nearly all restaurants that have opened in Fairview, including those that later closed, served traditional local dishes",
+     "correct": true,
+     "trap": null,
+     "why": "If nearly every restaurant served them, the survivors would too, and the dishes would explain nothing."
+    },
+    {
+     "id": "D",
+     "text": "restaurants that serve traditional local dishes never close",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The dishes only need to help survival, not guarantee it."
+    },
+    {
+     "id": "E",
+     "text": "most of Fairview's restaurants are more than twenty years old",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How many restaurants are old doesn't matter to the comparison."
+    }
+   ],
+   "tldr": "Survivors' menus mean something only if failed restaurants' menus differed.",
+   "steps": [
+    {
+     "label": "Sample",
+     "body": "Only surviving restaurants were examined."
+    },
+    {
+     "label": "Negation test",
+     "body": "If nearly all restaurants, including the failures, served these dishes, the pattern says nothing about survival."
+    }
+   ],
+   "takeaway": "Survivorship arguments assume the failures differed from the survivors.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0317",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Patients who took part in the hospital's new physical therapy program recovered from knee surgery faster than patients who did not. So the program speeds recovery from knee surgery.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Patients were not chosen for the program because they were already recovering faster than others.",
+     "correct": true,
+     "trap": null,
+     "why": "If faster recoverers were picked for the program, their speed reflects selection, not the program."
+    },
+    {
+     "id": "B",
+     "text": "Knee surgery patients usually take several months to recover.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The typical recovery time doesn't affect the comparison."
+    },
+    {
+     "id": "C",
+     "text": "The program is the most effective therapy available.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The program needs to help, not to be the best."
+    },
+    {
+     "id": "D",
+     "text": "The program costs less than other therapy programs.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost has nothing to do with whether it speeds recovery."
+    },
+    {
+     "id": "E",
+     "text": "All patients in the program recover faster than all patients outside it.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "A faster recovery on average is enough."
+    }
+   ],
+   "tldr": "The program's patients must not have been picked for their fast recovery.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "Program patients recovered faster, so the argument credits the program."
+    },
+    {
+     "label": "Rival explanation",
+     "body": "Selection of the fastest recoverers would produce the same result."
+    }
+   ],
+   "takeaway": "Without random assignment, assume the groups weren't selected in a way that explains the result.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0318",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-plan",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Installing solar panels on the town hall would reduce the town's electricity bills. Therefore, the town should install solar panels on the town hall.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "most residents favor solar power",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Public opinion isn't part of the argument."
+    },
+    {
+     "id": "B",
+     "text": "the town hall uses more electricity than any other town building",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The recommendation concerns the town hall, whatever other buildings use."
+    },
+    {
+     "id": "C",
+     "text": "solar panels last at least fifty years",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "They need to last long enough to pay off, not fifty years."
+    },
+    {
+     "id": "D",
+     "text": "the savings from the panels would not be outweighed by the costs of buying and installing them",
+     "correct": true,
+     "trap": null,
+     "why": "If the panels cost more than they save, lower bills alone don't justify installing them."
+    },
+    {
+     "id": "E",
+     "text": "electricity prices will rise in the coming years",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Rising prices would add to the savings, but the argument doesn't need them."
+    }
+   ],
+   "tldr": "\"Should\" requires that benefits outweigh costs.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "One benefit (lower bills), so the argument concludes the town should act."
+    },
+    {
+     "label": "Negation test",
+     "body": "If costs outweigh savings, the recommendation fails."
+    }
+   ],
+   "takeaway": "Recommendations based on a benefit assume no greater cost.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0319",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "People who drink green tea daily have lower blood levels of protein C-7, a protein released during inflammation, than people who don't. So drinking green tea daily reduces inflammation.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Lower blood levels of protein C-7 indicate lower levels of inflammation.",
+     "correct": true,
+     "trap": null,
+     "why": "If C-7 levels don't track inflammation, lower C-7 says nothing about inflammation."
+    },
+    {
+     "id": "B",
+     "text": "Protein C-7 is found only in human blood.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Where else the protein occurs doesn't matter here."
+    },
+    {
+     "id": "C",
+     "text": "Green tea is the only beverage that lowers levels of protein C-7.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Other drinks could lower C-7 without affecting the argument."
+    },
+    {
+     "id": "D",
+     "text": "People who drink green tea daily also exercise more than others.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Exercise would be a rival explanation, which hurts the argument."
+    },
+    {
+     "id": "E",
+     "text": "Inflammation is the main cause of most chronic diseases.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument doesn't concern disease."
+    }
+   ],
+   "tldr": "The argument treats C-7 as a marker for inflammation.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The evidence is about C-7; the conclusion is about inflammation."
+    },
+    {
+     "label": "Bridge",
+     "body": "C-7 levels must actually reflect inflammation."
+    }
+   ],
+   "takeaway": "When evidence measures a marker, the argument assumes the marker tracks the real thing.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0320",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-plan",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "To cut its paper costs, the Kessling office will require employees to print documents double-sided. Since double-sided printing uses half as many sheets per document, the office's paper costs will fall.",
+   "prompt": "The argument depends on assuming which one of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Paper is the office's largest expense.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument concerns paper costs only."
+    },
+    {
+     "id": "B",
+     "text": "The requirement will not lead employees to print so many more documents that total paper use stays the same or rises.",
+     "correct": true,
+     "trap": null,
+     "why": "If employees print twice as much, fewer sheets per document won't cut costs."
+    },
+    {
+     "id": "C",
+     "text": "Every document the office prints is more than one page long.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Savings on multipage documents are enough, even if some documents are one page."
+    },
+    {
+     "id": "D",
+     "text": "Double-sided printing is faster than single-sided printing.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Speed doesn't affect paper costs."
+    },
+    {
+     "id": "E",
+     "text": "Employees prefer reading double-sided documents.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Preferences don't determine paper use under a requirement."
+    }
+   ],
+   "tldr": "Fewer sheets per document saves money only if the number of documents doesn't balloon.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The premise is about sheets per document; the conclusion is about total cost."
+    },
+    {
+     "label": "Negation test",
+     "body": "Enough extra printing would wipe out the savings."
+    }
+   ],
+   "takeaway": "Per-unit savings assume the number of units doesn't rise enough to cancel them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0321",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-analogy",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "When the Oak Street Bakery began posting its daily specials online, its sales rose. So the other bakeries in town would also increase their sales by posting their daily specials online.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Posting specials online costs bakeries very little.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't affect whether sales rise."
+    },
+    {
+     "id": "B",
+     "text": "Every bakery in town offers daily specials.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The conclusion concerns bakeries posting their specials; it doesn't need all of them to have specials."
+    },
+    {
+     "id": "C",
+     "text": "The customers of the other bakeries in town are not much less likely than Oak Street's customers to look for daily specials online.",
+     "correct": true,
+     "trap": null,
+     "why": "If other bakeries' customers rarely look online, posting specials won't help those bakeries."
+    },
+    {
+     "id": "D",
+     "text": "Oak Street's sales rose only because of its online specials.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The specials need to have helped, not to be the only cause."
+    },
+    {
+     "id": "E",
+     "text": "The Oak Street Bakery's sales rose more than any other bakery's.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Ranking the bakeries doesn't connect Oak Street's case to the others."
+    }
+   ],
+   "tldr": "Other bakeries must resemble Oak Street in the way that made posting work.",
+   "steps": [
+    {
+     "label": "Structure",
+     "body": "It worked at one bakery, so it would work at others."
+    },
+    {
+     "label": "Gap",
+     "body": "The other bakeries' customers must be comparably reachable online."
+    }
+   ],
+   "takeaway": "Generalizing from one case assumes the other cases are relevantly similar.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0322",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-defender",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 4,
+   "targetSec": 84,
+   "stimulus": "Most employees at Calloway Inc. work more than fifty hours a week. So Calloway is not a company that values its employees' well-being.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "most of Calloway's competitors require fewer hours",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Competitors' policies don't bear on what Calloway values."
+    },
+    {
+     "id": "B",
+     "text": "Calloway's employees are paid less than those at similar companies",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Pay isn't part of the argument."
+    },
+    {
+     "id": "C",
+     "text": "employees who work more than fifty hours a week are less productive",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Productivity isn't the issue; well-being is."
+    },
+    {
+     "id": "D",
+     "text": "no company whose employees work long hours values their well-being",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "This would guarantee the conclusion, but the argument needs less."
+    },
+    {
+     "id": "E",
+     "text": "Calloway does not let its employees work fewer hours without penalty",
+     "correct": true,
+     "trap": null,
+     "why": "If employees could cut back freely and simply chose long hours, their schedules wouldn't show what Calloway values."
+    }
+   ],
+   "tldr": "Long hours reflect the company's values only if employees can't freely choose shorter ones.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The evidence is about hours worked; the conclusion is about what the company values."
+    },
+    {
+     "label": "Defend against an objection",
+     "body": "The argument must rule out that the long hours are freely chosen."
+    }
+   ],
+   "takeaway": "Necessary assumptions often rule out one specific objection, not every possible one.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0323",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-sampling",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Of the drivers stopped at a sobriety checkpoint on Route 9 last weekend, fewer than one percent were driving under the influence of alcohol. So drunk driving is not a serious problem in the county.",
+   "prompt": "Which one of the following is an assumption required by the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Fewer people drive at night on weekends than on weekdays.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Driving patterns by day don't bear on the checkpoint's sample."
+    },
+    {
+     "id": "B",
+     "text": "The checkpoint stopped every driver who used Route 9 last weekend.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "A fair sample of drivers is enough."
+    },
+    {
+     "id": "C",
+     "text": "Drivers who had been drinking did not avoid Route 9 last weekend in disproportionate numbers.",
+     "correct": true,
+     "trap": null,
+     "why": "If drinking drivers steered clear of the checkpoint, the one percent figure understates the problem."
+    },
+    {
+     "id": "D",
+     "text": "Penalties for drunk driving in the county are severe.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Penalties don't establish how common drunk driving is."
+    },
+    {
+     "id": "E",
+     "text": "Drunk driving causes most traffic accidents in the county.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That would suggest drunk driving is a serious problem, the opposite of the conclusion."
+    }
+   ],
+   "tldr": "The checkpoint sample is useful only if drinking drivers didn't dodge it.",
+   "steps": [
+    {
+     "label": "Sample",
+     "body": "Drivers stopped at one checkpoint on one weekend."
+    },
+    {
+     "label": "Negation test",
+     "body": "If drinking drivers avoided the route, the sample is skewed toward sober drivers."
+    }
+   ],
+   "takeaway": "Samples that people can choose to avoid tend to undercount what they're avoiding.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0324",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "necessary_assumption",
+   "family": "assumption",
+   "knowledgePoints": [
+    "kp-lsat-flaw-authority",
+    "kp-lsat-negation-test"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Dr. Ruiz, who has studied the region's wildlife for thirty years, says that the region's gray wolf population is growing. So the gray wolf population in the region is growing.",
+   "prompt": "The argument depends on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "Dr. Ruiz has published more studies than any other researcher in the region",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Her rank among researchers doesn't establish reliability about wolves."
+    },
+    {
+     "id": "B",
+     "text": "gray wolves are the most studied animal in the region",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How much others study wolves doesn't matter."
+    },
+    {
+     "id": "C",
+     "text": "Dr. Ruiz's long study of the region's wildlife gives her reliable knowledge of its gray wolf population",
+     "correct": true,
+     "trap": null,
+     "why": "If her experience doesn't extend reliably to wolves, her say-so isn't good evidence."
+    },
+    {
+     "id": "D",
+     "text": "experts on wildlife are never wrong about population trends",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The argument needs her to be reliable, not infallible."
+    },
+    {
+     "id": "E",
+     "text": "the gray wolf population will continue to grow for many years",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion concerns the current trend only."
+    }
+   ],
+   "tldr": "An expert's claim is evidence only if her expertise reliably covers the claim.",
+   "steps": [
+    {
+     "label": "Find the gap",
+     "body": "The argument rests entirely on her testimony."
+    },
+    {
+     "label": "Negation test",
+     "body": "If her knowledge of wolves isn't reliable, the testimony gives no support."
+    }
+   ],
+   "takeaway": "Appeals to authority assume the authority's expertise covers this particular claim.",
+   "siblings": [],
+   "status": "review"
+  },
   {
    "id": "lsat-lr-0100",
    "version": 1,
