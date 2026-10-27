@@ -1,0 +1,657 @@
+# MCAT Bio/Biochem: original experiment-based passages for ApexPrep.
+# Not official AAMC content. The correct option is listed first; the build shuffles
+# answer order (numeric answers are sorted).
+
+- passage:
+    id: mcat-bb-p02
+    title: Insulin and glucose uptake in muscle
+    domain: biochemistry
+    mini: true
+    paragraphs:
+      - >-
+        Skeletal muscle takes up much of the glucose that enters the blood after a
+        meal. To study how insulin stimulates this uptake, researchers incubated
+        isolated rat muscle strips with a radioactively labeled glucose analog that
+        cells take up but cannot metabolize further, so its accumulation reflects
+        transport alone. Strips were treated with insulin, with wortmannin (an
+        inhibitor of the enzyme PI3-kinase), with both, or with neither (Table 1).
+      - >-
+        In a separate experiment, insulin did not change the total amount of GLUT4
+        transporter protein in the cells during the 30-minute incubation, but it
+        increased the amount of GLUT4 found in the plasma membrane.
+    table:
+      caption: Table 1. Uptake of the glucose analog, relative to untreated strips
+      columns: ["Treatment", "Relative uptake"]
+      rows:
+        - ["None (control)", "1.0"]
+        - ["Insulin", "3.4"]
+        - ["Wortmannin", "0.9"]
+        - ["Insulin + wortmannin", "1.1"]
+  items:
+    - id: mcat-bb-0012
+      type: cell_signaling
+      kps: [kp-mcat-insulin-glut4]
+      outline: { category: 3A, sirs: 4 }
+      difficulty: 3
+      prompt: Which conclusion is best supported by Table 1?
+      options:
+        - text: Insulin-stimulated glucose uptake depends on PI3-kinase activity.
+          correct: true
+          why: Insulin tripled uptake, but with wortmannin blocking PI3-kinase the increase almost vanished (1.1).
+        - text: Wortmannin increases glucose uptake when insulin is absent.
+          trap: misread_data
+          why: Wortmannin alone gave 0.9, slightly below control.
+        - text: Insulin increases uptake by causing cells to make more GLUT4.
+          trap: contradicts
+          why: The follow-up showed total GLUT4 didn't change.
+        - text: Muscle cells cannot take up any glucose without insulin.
+          trap: misread_data
+          why: Untreated strips still took up the analog (1.0).
+      tldr: Blocking PI3-kinase erases most of insulin's effect.
+      steps:
+        - label: Compare
+          body: Insulin alone 3.4 vs. insulin + wortmannin 1.1.
+        - label: Conclude
+          body: The insulin effect requires PI3-kinase.
+      takeaway: Compare the treatment with and without the inhibitor; that difference is the inhibitor's effect.
+
+    - id: mcat-bb-0013
+      type: cell_signaling
+      kps: [kp-mcat-insulin-glut4]
+      outline: { category: 3A, sirs: 2 }
+      difficulty: 3
+      prompt: The follow-up experiment best supports which mechanism for insulin's effect?
+      options:
+        - text: Insulin moves existing GLUT4 transporters from inside the cell to the plasma membrane.
+          correct: true
+          why: Total GLUT4 was unchanged while membrane GLUT4 rose, so transporters were relocated.
+        - text: Insulin increases transcription of the GLUT4 gene.
+          trap: contradicts
+          why: New synthesis would raise total GLUT4, which didn't change.
+        - text: Insulin activates glycolysis so that glucose is used faster.
+          trap: true_irrelevant
+          why: The analog can't be metabolized, so faster metabolism can't explain uptake here.
+        - text: Insulin opens ligand-gated glucose channels.
+          trap: false_fact
+          why: GLUT4 is a carrier for facilitated diffusion, not a ligand-gated channel.
+      tldr: Same GLUT4 total, more at the membrane means relocation.
+      steps:
+        - label: Data
+          body: Total GLUT4 unchanged; membrane GLUT4 increased.
+        - label: Mechanism
+          body: Translocation of stored transporters.
+      takeaway: Same total amount but a new location points to trafficking, not synthesis.
+
+    - id: mcat-bb-0014
+      type: cell_signaling
+      kps: [kp-mcat-insulin-glut4]
+      outline: { category: 3A, sirs: 3 }
+      difficulty: 3
+      prompt: Why did the researchers use a glucose analog that cells cannot metabolize further?
+      options:
+        - text: So that the amount accumulated reflects transport alone rather than transport plus metabolism
+          correct: true
+          why: If the label were metabolized, its level would depend on both steps.
+        - text: Because unmodified glucose cannot enter muscle cells
+          trap: false_fact
+          why: Muscle cells take up glucose readily.
+        - text: Because the analog binds insulin receptors directly
+          trap: false_fact
+          why: Nothing in the passage suggests the analog acts on receptors.
+        - text: To keep insulin from being broken down during the experiment
+          trap: out_of_scope
+          why: The analog's purpose is measuring uptake, not protecting insulin.
+      tldr: A non-metabolizable tracer isolates the transport step.
+      steps:
+        - label: Problem
+          body: Normal glucose is converted to other molecules after it enters.
+        - label: Fix
+          body: A trapped analog makes accumulation a pure measure of transport.
+      takeaway: Good tracers measure one step at a time.
+
+    - id: mcat-bb-0015
+      type: cell_signaling
+      kps: [kp-mcat-insulin-glut4]
+      outline: { category: 3A, sirs: 2 }
+      difficulty: 2
+      prompt: A person whose muscle cells responded to insulin the way the insulin + wortmannin strips did would most likely show
+      options:
+        - text: high blood glucose after a meal
+          correct: true
+          why: Muscle would fail to increase glucose uptake, so glucose would stay in the blood (insulin resistance).
+        - text: low blood glucose after a meal
+          trap: sign_flip
+          why: Impaired uptake leaves more glucose in the blood, not less.
+        - text: very low insulin secretion
+          trap: unsupported
+          why: The defect is in the response to insulin, not its secretion.
+        - text: increased glycogen storage in muscle
+          trap: sign_flip
+          why: Less glucose would enter muscle, so less could be stored.
+      tldr: No insulin response in muscle means glucose stays in the blood.
+      steps:
+        - label: Defect
+          body: Insulin can't raise muscle uptake.
+        - label: Result
+          body: Post-meal glucose stays high.
+      takeaway: Insulin resistance means a normal hormone with a weak cellular response.
+
+- passage:
+    id: mcat-bb-p03
+    title: How resistance spread between strains
+    domain: microbiology
+    mini: true
+    paragraphs:
+      - >-
+        Researchers studied the transfer of ampicillin resistance from a resistant
+        strain of E. coli (the donor) to a sensitive strain (the recipient) that
+        carried a separate marker so the two could be told apart. Donor and recipient
+        cells were mixed in liquid culture for one hour, and recipients that had
+        become resistant were counted. In some trials, DNase, an enzyme that degrades
+        free DNA in the medium, was added. In others, donors and recipients were
+        placed on opposite sides of a filter whose pores block bacteria but let DNA
+        and viruses through. Recipients were also cultured alone.
+    table:
+      caption: Table 1. Transfer of ampicillin resistance
+      columns: ["Condition", "Resistant recipients per 10⁶ recipients"]
+      rows:
+        - ["Donor + recipient, mixed", "120"]
+        - ["Mixed, with DNase", "115"]
+        - ["Separated by filter", "0"]
+        - ["Recipient alone", "0"]
+  items:
+    - id: mcat-bb-0016
+      type: microbiology
+      kps: [kp-mcat-bacterial-gene-transfer]
+      outline: { category: 2B, sirs: 4 }
+      difficulty: 3
+      prompt: Which mechanism of gene transfer is most consistent with the results?
+      options:
+        - text: Conjugation
+          correct: true
+          why: Transfer needed cell contact (it stopped across the filter) but not free DNA (DNase didn't block it).
+        - text: Transformation
+          trap: misread_data
+          why: DNase destroys free DNA, yet transfer barely changed.
+        - text: Transduction
+          trap: misread_data
+          why: Phages pass through the filter, yet transfer stopped when cells were separated.
+        - text: Spontaneous mutation in the recipients
+          trap: misread_data
+          why: Recipients alone never became resistant.
+      tldr: >-
+        Needs contact, doesn't need free DNA: conjugation.
+      steps:
+        - label: Rule out
+          body: DNase had no effect (not transformation); the filter blocked transfer (not transduction).
+        - label: Conclude
+          body: Direct cell contact, so conjugation.
+      takeaway: Use each control to rule out one mechanism.
+
+    - id: mcat-bb-0017
+      type: microbiology
+      kps: [kp-mcat-bacterial-gene-transfer]
+      outline: { category: 2B, sirs: 3 }
+      difficulty: 2
+      prompt: The DNase condition was included mainly to test whether resistance transfers through
+      options:
+        - text: uptake of free DNA from the medium
+          correct: true
+          why: DNase destroys free DNA, so it tests for transformation.
+        - text: direct contact between cells
+          trap: wrong_viewpoint
+          why: The filter condition tests contact.
+        - text: infection by bacteriophages
+          trap: wrong_viewpoint
+          why: DNase can't reach DNA packaged inside phage capsids, so it doesn't test transduction.
+        - text: replication of plasmids inside donors
+          trap: out_of_scope
+          why: The experiment tests transfer between cells, not replication.
+      tldr: DNase tests for free-DNA transformation.
+      steps:
+        - label: What DNase does
+          body: It degrades free DNA in the medium.
+        - label: What it tests
+          body: Whether transfer needs free DNA (transformation).
+      takeaway: Ask which mechanism each manipulation would block.
+
+    - id: mcat-bb-0018
+      type: microbiology
+      kps: [kp-mcat-bacterial-gene-transfer]
+      outline: { category: 2B, sirs: 3 }
+      difficulty: 2
+      prompt: The "recipient alone" condition serves as a control for
+      options:
+        - text: resistance arising in recipients without any donor, such as by spontaneous mutation
+          correct: true
+          why: If recipients became resistant on their own, transfer couldn't be credited.
+        - text: the activity of DNase
+          trap: wrong_viewpoint
+          why: DNase isn't present in this condition.
+        - text: the size of the filter's pores
+          trap: wrong_viewpoint
+          why: No filter is used in this condition.
+        - text: the donor's growth rate
+          trap: out_of_scope
+          why: No donors are present.
+      tldr: Recipients alone show the background rate of resistance.
+      steps:
+        - label: Question
+          body: Could recipients become resistant without donors?
+        - label: Answer
+          body: Zero resistant recipients, so the transfers are real.
+      takeaway: A baseline control rules out the effect happening on its own.
+
+    - id: mcat-bb-0019
+      type: microbiology
+      kps: [kp-mcat-bacterial-gene-transfer]
+      outline: { category: 2B, sirs: 2 }
+      difficulty: 2
+      prompt: The ampicillin resistance gene in the donor is most likely carried on
+      options:
+        - text: a plasmid
+          correct: true
+          why: Conjugation typically transfers plasmids, which often carry resistance genes.
+        - text: the recipient's chromosome
+          trap: contradicts
+          why: The recipient lacked resistance before transfer.
+        - text: a ribosome
+          trap: false_fact
+          why: Ribosomes don't carry genes.
+        - text: a mitochondrial genome
+          trap: false_fact
+          why: Bacteria have no mitochondria.
+      tldr: Conjugation usually moves plasmids.
+      steps:
+        - label: Mechanism
+          body: Conjugation through a pilus.
+        - label: Cargo
+          body: Plasmids, which often carry resistance genes.
+      takeaway: Antibiotic resistance genes often travel on plasmids.
+
+- passage:
+    id: mcat-bb-p04
+    title: Oxygen binding and pH
+    domain: physiology
+    mini: true
+    paragraphs:
+      - >-
+        Hemoglobin's affinity for oxygen can be summarized by its P50, the partial
+        pressure of oxygen at which hemoglobin is 50% saturated. Researchers measured
+        the P50 of purified human hemoglobin in buffered solutions at three pH
+        values, holding the temperature at 37 °C and keeping the concentration of
+        2,3-bisphosphoglycerate (2,3-BPG) constant (Table 1).
+    table:
+      caption: Table 1. P50 of hemoglobin at three pH values
+      columns: ["pH", "P50 (mmHg)"]
+      rows:
+        - ["7.6", "22"]
+        - ["7.4", "26"]
+        - ["7.2", "31"]
+  items:
+    - id: mcat-bb-0020
+      type: cardio_resp
+      kps: [kp-mcat-bohr-effect]
+      outline: { category: 3B, sirs: 4 }
+      difficulty: 2
+      prompt: Based on Table 1, as pH decreases, hemoglobin's affinity for oxygen
+      options:
+        - text: decreases, shifting the dissociation curve to the right
+          correct: true
+          why: A higher P50 means more oxygen pressure is needed for half saturation, so affinity is lower.
+        - text: increases, shifting the curve to the left
+          trap: sign_flip
+          why: P50 rose as pH fell, which means lower affinity.
+        - text: stays the same
+          trap: misread_data
+          why: P50 changed from 22 to 31 mmHg.
+        - text: increases at first and then decreases
+          trap: misread_data
+          why: P50 rises steadily as pH falls.
+      tldr: Higher P50 at lower pH means lower affinity.
+      steps:
+        - label: Read
+          body: pH 7.6 → 22, 7.4 → 26, 7.2 → 31 mmHg.
+        - label: Interpret
+          body: A higher P50 means lower affinity, a right shift.
+      takeaway: P50 up means affinity down.
+
+    - id: mcat-bb-0021
+      type: cardio_resp
+      kps: [kp-mcat-bohr-effect]
+      outline: { category: 3B, sirs: 2 }
+      difficulty: 2
+      prompt: The physiological benefit of the effect shown in Table 1 is that hemoglobin
+      options:
+        - text: releases more oxygen in active tissues, where CO₂ and acid build up
+          correct: true
+          why: Lower pH in working tissues lowers affinity, so more oxygen unloads where it's needed.
+        - text: binds more oxygen in active muscle
+          trap: sign_flip
+          why: Low pH lowers affinity, favoring release in muscle.
+        - text: releases more oxygen in the lungs
+          trap: wrong_direction
+          why: The lungs have higher pH, which favors loading, not release.
+        - text: carries CO₂ bound to its heme iron
+          trap: false_fact
+          why: CO₂ binds the globin chains, not the iron that binds O₂.
+      tldr: Acidic, active tissues get more oxygen.
+      steps:
+        - label: Where pH is low
+          body: Active tissues produce CO₂ and acid.
+        - label: Effect
+          body: Lower affinity there means more O₂ unloading.
+      takeaway: The Bohr effect matches oxygen delivery to metabolic demand.
+
+    - id: mcat-bb-0022
+      type: cardio_resp
+      kps: [kp-mcat-bohr-effect]
+      outline: { category: 3B, sirs: 3 }
+      difficulty: 3
+      prompt: Why did the researchers keep the concentration of 2,3-BPG constant?
+      options:
+        - text: 2,3-BPG also lowers hemoglobin's oxygen affinity, so letting it vary would confound the effect of pH.
+          correct: true
+          why: Holding other factors that shift the curve constant isolates pH.
+        - text: 2,3-BPG is required for any oxygen to bind hemoglobin.
+          trap: false_fact
+          why: Hemoglobin binds oxygen without 2,3-BPG; BPG lowers affinity.
+        - text: 2,3-BPG raises the pH of the solution.
+          trap: false_fact
+          why: The solutions were buffered, and BPG's role is binding hemoglobin.
+        - text: 2,3-BPG denatures hemoglobin at low pH.
+          trap: false_fact
+          why: Nothing supports that claim.
+      tldr: Hold the other curve-shifters constant to isolate pH.
+      steps:
+        - label: Variables
+          body: pH is manipulated; temperature and 2,3-BPG also affect affinity.
+        - label: Control
+          body: Holding them constant isolates pH's effect.
+      takeaway: Any factor that affects the outcome must be held constant or measured.
+
+    - id: mcat-bb-0023
+      type: cardio_resp
+      kps: [kp-mcat-bohr-effect]
+      outline: { category: 3B, sirs: 4 }
+      difficulty: 2
+      prompt: Based on the trend in Table 1, the P50 at pH 7.0 would most likely be
+      fixedOrder: true
+      options:
+        - text: less than 22 mmHg
+          trap: sign_flip
+          why: Lower pH has raised P50, not lowered it.
+        - text: between 22 and 26 mmHg
+          trap: misread_data
+          why: Those values belong to higher pH.
+        - text: between 26 and 31 mmHg
+          trap: misread_data
+          why: That range lies between pH 7.4 and 7.2, above pH 7.0.
+        - text: greater than 31 mmHg
+          correct: true
+          why: P50 rises as pH falls, so at pH 7.0 it should exceed the 31 mmHg seen at pH 7.2.
+      tldr: >-
+        Continue the trend: lower pH, higher P50.
+      steps:
+        - label: Trend
+          body: Each 0.2 drop in pH raised P50 by 4–5 mmHg.
+        - label: Extrapolate
+          body: pH 7.0 should be above 31 mmHg.
+      takeaway: For extrapolation, follow the direction of the trend beyond the last data point.
+
+- passage:
+    id: mcat-bb-p05
+    title: Mapping two genes in fruit flies
+    domain: genetics
+    mini: true
+    paragraphs:
+      - >-
+        In fruit flies, the allele for a gray body (G) is dominant to black (g), and
+        the allele for normal wings (W) is dominant to vestigial wings (w). A
+        researcher crossed flies heterozygous for both genes, which had inherited G
+        and W from one parent and g and w from the other, with black-bodied,
+        vestigial-winged flies. The phenotypes of 1,000 offspring are shown in
+        Table 1.
+    table:
+      caption: Table 1. Offspring of the testcross
+      columns: ["Phenotype", "Number"]
+      rows:
+        - ["Gray body, normal wings", "415"]
+        - ["Black body, vestigial wings", "415"]
+        - ["Gray body, vestigial wings", "85"]
+        - ["Black body, normal wings", "85"]
+  items:
+    - id: mcat-bb-0024
+      type: genetics
+      kps: [kp-mcat-recombination-mapping]
+      outline: { category: 1C, sirs: 4 }
+      difficulty: 3
+      prompt: What is the recombination frequency between the two genes?
+      options:
+        - text: 17%
+          correct: true
+          why: Recombinants are 85 + 85 = 170 of 1,000 offspring.
+        - text: 8.5%
+          trap: skipped_step
+          why: That counts only one of the two recombinant classes.
+        - text: 50%
+          trap: lookalike
+          why: 50% is what unlinked genes would show.
+        - text: 83%
+          trap: wrong_direction
+          why: That is the share of parental types.
+      tldr: 170 recombinants out of 1,000 is 17%.
+      steps:
+        - label: Identify recombinants
+          body: Gray-vestigial and black-normal (85 each).
+        - label: Calculate
+          body: 170 / 1,000 = 17%, about 17 map units apart.
+      takeaway: Recombination frequency = all recombinants ÷ all offspring.
+
+    - id: mcat-bb-0025
+      type: genetics
+      kps: [kp-mcat-recombination-mapping]
+      outline: { category: 1C, sirs: 2 }
+      difficulty: 2
+      prompt: If the two genes assorted independently, about how many of the 1,000 offspring would be gray-bodied with vestigial wings?
+      options:
+        - text: "250"
+          correct: true
+          why: Independent assortment gives a 1:1:1:1 testcross ratio, so each class is a quarter of 1,000.
+        - text: "85"
+          trap: misread_data
+          why: That is the observed number, which reflects linkage.
+        - text: "415"
+          trap: misread_data
+          why: That is the observed number of each parental class.
+        - text: "500"
+          trap: skipped_step
+          why: Half the offspring would be gray, but only half of those would also be vestigial.
+      tldr: Unlinked genes give four equal classes of 250.
+      steps:
+        - label: Expected ratio
+          body: Testcross of a dihybrid with unlinked genes is 1:1:1:1.
+        - label: Apply
+          body: 1,000 ÷ 4 = 250.
+      takeaway: A 1:1:1:1 testcross ratio is the signature of independent assortment.
+
+    - id: mcat-bb-0026
+      type: genetics
+      kps: [kp-mcat-recombination-mapping]
+      outline: { category: 1C, sirs: 2 }
+      difficulty: 2
+      prompt: Which offspring are recombinants?
+      options:
+        - text: Gray-bodied, vestigial-winged flies and black-bodied, normal-winged flies
+          correct: true
+          why: The dihybrid parent got G with W and g with w, so the new combinations are recombinant.
+        - text: Gray-bodied, normal-winged flies and black-bodied, vestigial-winged flies
+          trap: reversal
+          why: Those match the combinations the dihybrid inherited, so they are parental.
+        - text: All gray-bodied flies
+          trap: too_strong
+          why: Gray, normal-winged flies are parental.
+        - text: All vestigial-winged flies
+          trap: too_strong
+          why: Black, vestigial-winged flies are parental.
+      tldr: The new combinations (G with w, g with W) are recombinants.
+      steps:
+        - label: Parental combinations
+          body: G with W, and g with w.
+        - label: Recombinants
+          body: The other two, which are also the rarer classes.
+      takeaway: In a testcross, the two rarest classes are the recombinants.
+
+    - id: mcat-bb-0027
+      type: genetics
+      kps: [kp-mcat-recombination-mapping]
+      outline: { category: 1C, sirs: 3 }
+      difficulty: 3
+      prompt: Why did the researcher cross the dihybrid flies with black-bodied, vestigial-winged flies rather than with other dihybrids?
+      options:
+        - text: The homozygous recessive parent contributes only recessive alleles, so each offspring's phenotype shows which alleles it got from the dihybrid.
+          correct: true
+          why: That is the logic of a testcross.
+        - text: Only homozygous recessive flies carry the two genes on the same chromosome.
+          trap: false_fact
+          why: Linkage depends on where the genes sit, which is the same in every fly of the species.
+        - text: Crossing two dihybrids would produce no recombinants.
+          trap: false_fact
+          why: Recombination would still occur but would be harder to see.
+        - text: Testcrosses produce more offspring than other crosses.
+          trap: false_fact
+          why: Offspring number isn't the reason.
+      tldr: The recessive tester makes the dihybrid's gametes visible.
+      steps:
+        - label: Tester's gametes
+          body: Always g w.
+        - label: Payoff
+          body: Offspring phenotype = the dihybrid gamete's alleles.
+      takeaway: A testcross reads out the other parent's gametes directly.
+
+- passage:
+    id: mcat-bb-p06
+    title: A toxin and the nerve impulse
+    domain: neuroscience
+    mini: true
+    paragraphs:
+      - >-
+        Tetrodotoxin (TTX), found in pufferfish, is a potent neurotoxin. To identify
+        its target, researchers used a voltage clamp to hold the membrane of a squid
+        giant axon at a series of voltages and measured the currents that flowed
+        after each depolarizing step, before and after applying TTX (Table 1).
+    table:
+      caption: Table 1. Currents in a squid giant axon before and after TTX
+      columns: ["Measurement", "Before TTX", "After TTX"]
+      rows:
+        - ["Early inward current (Na⁺)", "Present", "Absent"]
+        - ["Delayed outward current (K⁺)", "Present", "Present"]
+        - ["Resting membrane potential", "−70 mV", "−70 mV"]
+  items:
+    - id: mcat-bb-0028
+      type: nervous_system
+      kps: [kp-mcat-action-potential]
+      outline: { category: 3A, sirs: 4 }
+      difficulty: 2
+      prompt: TTX most likely blocks
+      options:
+        - text: voltage-gated Na⁺ channels
+          correct: true
+          why: The early inward Na⁺ current disappeared while the K⁺ current remained.
+        - text: voltage-gated K⁺ channels
+          trap: misread_data
+          why: The delayed outward K⁺ current was still present.
+        - text: the Na⁺/K⁺-ATPase
+          trap: lookalike
+          why: The pump doesn't carry the fast inward current seen during depolarization.
+        - text: ligand-gated acetylcholine receptors
+          trap: out_of_scope
+          why: The currents were triggered by voltage steps, not by a neurotransmitter.
+      tldr: Only the fast Na⁺ current vanished.
+      steps:
+        - label: Compare
+          body: Na⁺ current gone; K⁺ current and resting potential unchanged.
+        - label: Conclude
+          body: TTX targets voltage-gated Na⁺ channels.
+      takeaway: A blocker's target is the current that disappears.
+
+    - id: mcat-bb-0029
+      type: nervous_system
+      kps: [kp-mcat-action-potential]
+      outline: { category: 3A, sirs: 2 }
+      difficulty: 2
+      prompt: In the presence of TTX, a stimulus that normally triggers an action potential would
+      options:
+        - text: fail to produce an action potential, because the rising phase depends on Na⁺ influx
+          correct: true
+          why: Without voltage-gated Na⁺ channels, the membrane can't depolarize rapidly.
+        - text: produce an action potential with a longer refractory period
+          trap: false_fact
+          why: No action potential can fire at all.
+        - text: produce an action potential that never repolarizes
+          trap: lookalike
+          why: Slowed repolarization would follow from blocking K⁺ channels, not Na⁺ channels.
+        - text: produce a larger action potential
+          trap: sign_flip
+          why: Blocking the depolarizing current prevents the spike.
+      tldr: No Na⁺ influx means no rising phase.
+      steps:
+        - label: Rising phase
+          body: Driven by voltage-gated Na⁺ channels.
+        - label: With TTX
+          body: Those channels are blocked, so no action potential.
+      takeaway: Na⁺ channels drive depolarization; K⁺ channels drive repolarization.
+
+    - id: mcat-bb-0030
+      type: nervous_system
+      kps: [kp-mcat-action-potential]
+      outline: { category: 3A, sirs: 2 }
+      difficulty: 3
+      prompt: The unchanged resting membrane potential after TTX suggests that
+      options:
+        - text: the channels TTX blocks are mostly closed at rest
+          correct: true
+          why: Blocking closed channels wouldn't change the resting potential.
+        - text: TTX increases the membrane's permeability to K⁺
+          trap: unsupported
+          why: The K⁺ current was unchanged.
+        - text: the resting potential depends mainly on Na⁺ permeability
+          trap: false_fact
+          why: The resting potential depends mainly on K⁺ permeability.
+        - text: TTX also blocks K⁺ channels
+          trap: contradicts
+          why: The K⁺ current was still present.
+      tldr: Voltage-gated Na⁺ channels are closed at rest, so blocking them doesn't move resting potential.
+      steps:
+        - label: Observation
+          body: Resting potential stayed −70 mV.
+        - label: Inference
+          body: The blocked channels contribute little at rest.
+      takeaway: The resting potential is set mostly by K⁺ leak channels.
+
+    - id: mcat-bb-0031
+      type: nervous_system
+      kps: [kp-mcat-action-potential]
+      outline: { category: 3A, sirs: 3 }
+      difficulty: 3
+      prompt: Why did the researchers use a voltage clamp instead of simply recording action potentials?
+      options:
+        - text: To measure the current through each channel type at controlled voltages, separating the Na⁺ and K⁺ components
+          correct: true
+          why: Holding voltage fixed lets the currents themselves be measured and compared.
+        - text: To keep TTX from entering the axon
+          trap: out_of_scope
+          why: The clamp controls voltage, not drug entry.
+        - text: To keep the temperature of the axon constant
+          trap: out_of_scope
+          why: A voltage clamp doesn't control temperature.
+        - text: To increase the axon's diameter
+          trap: false_fact
+          why: A voltage clamp doesn't change the axon's size.
+      tldr: The clamp turns a voltage spike into measurable currents.
+      steps:
+        - label: Problem
+          body: During an action potential, voltage and currents change together.
+        - label: Solution
+          body: Fix the voltage and measure the currents directly.
+      takeaway: Controlling one variable lets you measure another cleanly.

@@ -1,0 +1,508 @@
+# MCAT Chem/Phys: original experiment-based passages for ApexPrep.
+# Not official AAMC content. The correct option is listed first; the build shuffles
+# answer order (numeric answers are sorted).
+
+- passage:
+    id: mcat-cp-p01
+    title: Testing two acetate buffers
+    domain: general chemistry
+    mini: true
+    paragraphs:
+      - >-
+        A student prepared two acetate buffers, each 1.0 L, from acetic acid
+        (pKa = 4.76) and sodium acetate. Buffer A contained 0.10 M of each
+        component, and buffer B contained 1.0 M of each. The student added 0.010 mol
+        of HCl to each buffer and to 1.0 L of pure water, measuring the pH before and
+        after (Table 1). Assume volume changes are negligible.
+    table:
+      caption: Table 1. pH before and after adding 0.010 mol HCl
+      columns: ["Solution", "pH before", "pH after"]
+      rows:
+        - ["Buffer A (0.10 M each)", "4.76", "4.67"]
+        - ["Buffer B (1.0 M each)", "4.76", "4.75"]
+        - ["Pure water", "7.00", "2.00"]
+  items:
+    - id: mcat-cp-0010
+      type: acids_bases
+      kps: [kp-mcat-henderson-hasselbalch]
+      outline: { category: 5A, sirs: 2 }
+      difficulty: 2
+      prompt: Why did both buffers start at a pH of 4.76?
+      options:
+        - text: Each contained equal concentrations of acetic acid and acetate, so pH = pKa.
+          correct: true
+          why: When [A⁻] = [HA], the log term in the Henderson–Hasselbalch equation is zero.
+        - text: Buffer B was more concentrated, so it had to match buffer A.
+          trap: unsupported
+          why: Concentration doesn't set the pH; the base-to-acid ratio does.
+        - text: Sodium acetate is a strong acid that fixes the pH.
+          trap: false_fact
+          why: Acetate is a weak base.
+        - text: Every buffer has a pH of 4.76.
+          trap: too_strong
+          why: Buffer pH depends on the acid's pKa and the ratio of base to acid.
+      tldr: Equal acid and base means pH = pKa.
+      steps:
+        - label: Equation
+          body: pH = pKa + log([A⁻]/[HA]).
+        - label: Equal amounts
+          body: log(1) = 0, so pH = 4.76.
+      takeaway: A buffer's pH equals the pKa when acid and conjugate base are equal.
+
+    - id: mcat-cp-0011
+      type: acids_bases
+      kps: [kp-mcat-henderson-hasselbalch]
+      outline: { category: 5A, sirs: 4 }
+      difficulty: 3
+      prompt: Which conclusion about buffer capacity is best supported by Table 1?
+      options:
+        - text: Buffer B resisted the pH change more because it had more acid and base to react with the added HCl.
+          correct: true
+          why: The same 0.010 mol of H⁺ changed the base-to-acid ratio much less in B.
+        - text: Buffer A had greater capacity because its pH changed more.
+          trap: reversal
+          why: A larger pH change means less capacity, not more.
+        - text: Both buffers had the same capacity because they started at the same pH.
+          trap: misread_data
+          why: Their pH changes differed (0.09 vs. 0.01).
+        - text: Pure water buffered the acid better than either buffer.
+          trap: misread_data
+          why: Water's pH dropped by 5 units.
+      tldr: More buffer components, smaller pH change.
+      steps:
+        - label: Compare
+          body: A dropped 0.09 units; B dropped 0.01.
+        - label: Reason
+          body: B's larger reserves change ratio less per mole of acid.
+      takeaway: Capacity depends on concentration; pH depends on the ratio.
+
+    - id: mcat-cp-0012
+      type: acids_bases
+      kps: [kp-mcat-henderson-hasselbalch]
+      outline: { category: 5A, sirs: 2 }
+      difficulty: 4
+      prompt: What would the pH of buffer A be after adding a total of 0.050 mol of HCl instead of 0.010 mol?
+      options:
+        - text: "4.28"
+          correct: true
+          why: HA becomes 0.15 mol and A⁻ 0.05 mol; pH = 4.76 + log(1/3) = 4.76 − 0.48 = 4.28.
+        - text: "3.76"
+          trap: skipped_step
+          why: That uses a ratio of 1/10, as if almost all the base were gone.
+        - text: "4.46"
+          trap: skipped_step
+          why: That uses a ratio of 1/2 instead of 0.05/0.15.
+        - text: "5.24"
+          trap: sign_flip
+          why: Adding acid lowers the pH; this adds 0.48 instead of subtracting it.
+      tldr: 0.05 base over 0.15 acid gives log(1/3) = −0.48.
+      steps:
+        - label: React
+          body: 0.050 mol H⁺ converts 0.050 mol A⁻ to HA, leaving A⁻ = 0.05 and HA = 0.15.
+        - label: Solve
+          body: pH = 4.76 + log(0.05/0.15) = 4.28.
+      takeaway: Do the neutralization first, then plug the new amounts into Henderson–Hasselbalch.
+
+    - id: mcat-cp-0013
+      type: acids_bases
+      kps: [kp-mcat-henderson-hasselbalch]
+      outline: { category: 5A, sirs: 2 }
+      difficulty: 2
+      prompt: Why did the pH of pure water change so much more than that of either buffer?
+      options:
+        - text: Water contains no weak base to consume the added H⁺, so the H⁺ stays free in solution.
+          correct: true
+          why: All 0.010 mol of H⁺ remain, giving [H⁺] = 0.010 M and pH 2.
+        - text: Water reacts with HCl to form a strong base.
+          trap: false_fact
+          why: Water doesn't form a strong base with HCl.
+        - text: Water has a higher pKa than acetic acid.
+          trap: true_irrelevant
+          why: The issue is that nothing in pure water neutralizes the acid.
+        - text: The HCl evaporated from the buffers but not from the water.
+          trap: unsupported
+          why: Nothing suggests that, and HCl stays dissolved.
+      tldr: No conjugate base, no buffering.
+      steps:
+        - label: Water
+          body: 0.010 mol H⁺ in 1.0 L gives 0.010 M, so pH = 2.00.
+        - label: Buffers
+          body: Acetate consumes the H⁺, so the pH barely moves.
+      takeaway: A buffer needs a weak acid and its conjugate base to absorb added acid or base.
+
+- passage:
+    id: mcat-cp-p02
+    title: Choosing a salt for a cold pack
+    domain: general chemistry
+    mini: true
+    paragraphs:
+      - >-
+        Instant cold and hot packs work by dissolving a salt in water. To compare
+        candidate salts, a student dissolved 5.0 g of each salt in 100 g of water in
+        a coffee-cup calorimeter and recorded the temperature change (Table 1). Treat
+        each solution's mass as 105 g and its specific heat as 4.2 J/(g·°C), and
+        assume no heat is exchanged with the surroundings.
+    table:
+      caption: Table 1. Temperature change on dissolving 5.0 g of salt
+      columns: ["Salt", "Molar mass (g/mol)", "ΔT (°C)"]
+      rows:
+        - ["NH₄NO₃", "80", "−3.7"]
+        - ["CaCl₂", "111", "+8.5"]
+        - ["NaCl", "58.5", "−0.8"]
+  items:
+    - id: mcat-cp-0014
+      type: thermodynamics
+      kps: [kp-mcat-calorimetry]
+      outline: { category: 5E, sirs: 4 }
+      difficulty: 1
+      prompt: Which salt would be the best choice for an instant cold pack?
+      options:
+        - text: NH₄NO₃
+          correct: true
+          why: It produced the largest temperature drop, so its dissolving absorbs the most heat.
+        - text: CaCl₂
+          trap: sign_flip
+          why: CaCl₂ warmed the water, which suits a hot pack.
+        - text: NaCl
+          trap: misread_data
+          why: NaCl cooled the water only slightly.
+        - text: All three would work equally well.
+          trap: misread_data
+          why: The temperature changes differ in size and sign.
+      tldr: Biggest drop wins.
+      steps:
+        - label: Read
+          body: NH₄NO₃ −3.7 °C, NaCl −0.8 °C, CaCl₂ +8.5 °C.
+        - label: Choose
+          body: NH₄NO₃ absorbs the most heat.
+      takeaway: A temperature drop means the dissolving process is endothermic.
+
+    - id: mcat-cp-0015
+      type: thermodynamics
+      kps: [kp-mcat-gibbs-temperature]
+      outline: { category: 5E, sirs: 2 }
+      difficulty: 3
+      prompt: NH₄NO₃ dissolves spontaneously even though the process absorbs heat. This means that for dissolving NH₄NO₃,
+      options:
+        - text: TΔS is greater than ΔH, so ΔG is negative
+          correct: true
+          why: For an endothermic process to be spontaneous, the entropy term must outweigh ΔH.
+        - text: ΔH is negative
+          trap: contradicts
+          why: Absorbing heat means ΔH is positive.
+        - text: ΔS is negative
+          trap: sign_flip
+          why: A positive ΔH with a negative ΔS could never give a negative ΔG.
+        - text: ΔG is positive
+          trap: false_fact
+          why: Spontaneous processes have a negative ΔG.
+      tldr: Endothermic but spontaneous means entropy drives it.
+      steps:
+        - label: Equation
+          body: ΔG = ΔH − TΔS.
+        - label: Signs
+          body: ΔH > 0, ΔG < 0, so TΔS > ΔH.
+      takeaway: Endothermic processes are spontaneous only when entropy increases enough.
+
+    - id: mcat-cp-0016
+      type: thermodynamics
+      kps: [kp-mcat-calorimetry]
+      outline: { category: 5E, sirs: 2 }
+      difficulty: 3
+      prompt: About how much heat was released when the CaCl₂ dissolved?
+      options:
+        - text: 3.7 kJ
+          correct: true
+          why: q = mcΔT = 105 g × 4.2 J/(g·°C) × 8.5 °C ≈ 3,700 J.
+        - text: 0.036 kJ
+          trap: skipped_step
+          why: That leaves out the mass of the solution.
+        - text: 0.37 kJ
+          trap: power_of_ten
+          why: Check the conversion from J to kJ.
+        - text: 37 kJ
+          trap: power_of_ten
+          why: Check the conversion from J to kJ.
+      tldr: q = mcΔT ≈ 3.7 kJ.
+      steps:
+        - label: Set up
+          body: q = 105 × 4.2 × 8.5.
+        - label: Compute
+          body: About 3,750 J, or 3.7 kJ.
+      takeaway: Heat = mass × specific heat × temperature change.
+
+    - id: mcat-cp-0017
+      type: thermodynamics
+      kps: [kp-mcat-calorimetry]
+      outline: { category: 5E, sirs: 2 }
+      difficulty: 3
+      prompt: Which change would make the temperature drop for NH₄NO₃ larger?
+      options:
+        - text: Dissolving 10 g of the salt in the same 100 g of water
+          correct: true
+          why: Twice as much salt absorbs about twice as much heat from the same water.
+        - text: Grinding the 5.0 g sample into a finer powder
+          trap: true_irrelevant
+          why: Grinding speeds dissolving but doesn't change the total heat absorbed.
+        - text: Dissolving the 5.0 g sample in 200 g of water
+          trap: sign_flip
+          why: The same heat spread over more water gives a smaller temperature change.
+        - text: Using NaCl instead
+          trap: misread_data
+          why: NaCl produced a smaller drop.
+      tldr: More salt, more heat absorbed, bigger drop.
+      steps:
+        - label: Heat absorbed
+          body: Scales with the moles dissolved.
+        - label: Temperature change
+          body: ΔT = q / (mc), so more salt in the same water means a larger ΔT.
+      takeaway: Rate and amount are different questions; only amount changes total heat.
+
+- passage:
+    id: mcat-cp-p03
+    title: The energy in a defibrillator
+    domain: physics
+    mini: true
+    paragraphs:
+      - >-
+        A defibrillator stores energy in a capacitor and then discharges it through
+        the patient's chest to restore a normal heart rhythm. In one simplified
+        model, the capacitor has a capacitance of 100 µF and is charged to 2,000 V.
+        During discharge, the patient's chest acts as a 50 Ω resistor.
+  items:
+    - id: mcat-cp-0018
+      type: circuits
+      kps: [kp-mcat-capacitors]
+      outline: { category: 4C, sirs: 2 }
+      difficulty: 2
+      prompt: How much energy does the charged capacitor store?
+      options:
+        - text: 200 J
+          correct: true
+          why: U = ½CV² = ½ × (100 × 10⁻⁶ F) × (2,000 V)² = 200 J.
+        - text: 0.1 J
+          trap: skipped_step
+          why: That uses V instead of V².
+        - text: 20 J
+          trap: power_of_ten
+          why: Check the conversion from µF to F.
+        - text: 400 J
+          trap: skipped_step
+          why: That leaves out the factor of ½.
+      tldr: ½CV² = 200 J.
+      steps:
+        - label: Convert
+          body: 100 µF = 1.0 × 10⁻⁴ F.
+        - label: Compute
+          body: ½ × 10⁻⁴ × 4 × 10⁶ = 200 J.
+      takeaway: Capacitor energy is ½CV², so voltage counts twice.
+
+    - id: mcat-cp-0019
+      type: circuits
+      kps: [kp-mcat-capacitors]
+      outline: { category: 4C, sirs: 2 }
+      difficulty: 2
+      prompt: If the charging voltage were doubled, the stored energy would
+      options:
+        - text: quadruple
+          correct: true
+          why: Energy depends on V², and 2² = 4.
+        - text: double
+          trap: lookalike
+          why: The charge doubles, but energy goes with V².
+        - text: stay the same
+          trap: false_fact
+          why: Stored energy depends on voltage.
+        - text: be cut in half
+          trap: sign_flip
+          why: More voltage stores more energy.
+      tldr: Energy goes with V squared.
+      steps:
+        - label: Relationship
+          body: U = ½CV².
+        - label: Scale
+          body: Doubling V multiplies U by 4.
+      takeaway: When a variable is squared, doubling it quadruples the result.
+
+    - id: mcat-cp-0020
+      type: circuits
+      kps: [kp-mcat-capacitors]
+      outline: { category: 4C, sirs: 2 }
+      difficulty: 3
+      prompt: What is the time constant of the discharge?
+      options:
+        - text: 5 ms
+          correct: true
+          why: τ = RC = 50 Ω × 1.0 × 10⁻⁴ F = 0.005 s.
+        - text: 0.002 ms
+          trap: lookalike
+          why: That divides C by R; the time constant is the product RC.
+        - text: 0.5 ms
+          trap: power_of_ten
+          why: Check the conversion from µF to F.
+        - text: 50 ms
+          trap: power_of_ten
+          why: Check the conversion from µF to F.
+      tldr: τ = RC = 5 ms.
+      steps:
+        - label: Multiply
+          body: 50 × 1.0 × 10⁻⁴ = 5 × 10⁻³ s.
+        - label: Meaning
+          body: After one τ, the charge has fallen to about 37% of its starting value.
+      takeaway: The time constant of an RC circuit is R times C.
+
+    - id: mcat-cp-0021
+      type: circuits
+      kps: [kp-mcat-capacitors]
+      outline: { category: 4C, sirs: 2 }
+      difficulty: 2
+      prompt: What is the current through the patient at the instant discharge begins?
+      options:
+        - text: 40 A
+          correct: true
+          why: At the start, the full 2,000 V is across 50 Ω, so I = V/R = 40 A.
+        - text: 0.025 A
+          trap: wrong_direction
+          why: That is R/V, the inverse of Ohm's law.
+        - text: 4 A
+          trap: power_of_ten
+          why: 2,000 ÷ 50 is 40.
+        - text: 100,000 A
+          trap: skipped_step
+          why: That multiplies V by R instead of dividing.
+      tldr: I = V/R = 40 A at the start.
+      steps:
+        - label: At t = 0
+          body: The capacitor's full voltage drives current through the chest.
+        - label: Ohm's law
+          body: 2,000 V / 50 Ω = 40 A.
+      takeaway: A discharging capacitor's current is largest at the start and decays with time.
+
+- passage:
+    id: mcat-cp-p04
+    title: Light bending into plastic
+    domain: physics
+    mini: true
+    paragraphs:
+      - >-
+        A student aimed a narrow laser beam from air (n = 1.00) into a flat block of
+        clear plastic and measured the angle of refraction inside the block at three
+        angles of incidence, both measured from the normal (Table 1). The speed of
+        light in a vacuum is 3.0 × 10⁸ m/s.
+    table:
+      caption: Table 1. Angles of incidence and refraction
+      columns: ["Angle in air", "Angle in plastic"]
+      rows:
+        - ["30°", "19.5°"]
+        - ["45°", "28.1°"]
+        - ["60°", "35.3°"]
+  items:
+    - id: mcat-cp-0022
+      type: optics
+      kps: [kp-mcat-refraction]
+      outline: { category: 4D, sirs: 4 }
+      difficulty: 2
+      prompt: What is the index of refraction of the plastic? (sin 30° = 0.50; sin 19.5° = 0.33)
+      options:
+        - text: "1.5"
+          correct: true
+          why: Snell's law gives n = sin 30° / sin 19.5° = 0.50 / 0.33 ≈ 1.5.
+        - text: "0.67"
+          trap: wrong_direction
+          why: That puts the sines upside down; light slows and bends toward the normal in plastic, so n > 1.
+        - text: "1.0"
+          trap: misread_data
+          why: That is the index of air.
+        - text: "2.0"
+          trap: misread_data
+          why: An index of 2.0 would bend the 30° beam to about 14.5°.
+      tldr: n = sin 30° / sin 19.5° ≈ 1.5.
+      steps:
+        - label: Snell's law
+          body: n₁ sin θ₁ = n₂ sin θ₂, with n₁ = 1.00.
+        - label: Solve
+          body: n₂ = 0.50 / 0.33 ≈ 1.5.
+      takeaway: Light bends toward the normal when it enters a medium with a higher index.
+
+    - id: mcat-cp-0023
+      type: optics
+      kps: [kp-mcat-refraction]
+      outline: { category: 4D, sirs: 2 }
+      difficulty: 2
+      prompt: How fast does light travel in the plastic?
+      fixedOrder: true
+      options:
+        - text: 2.0 × 10⁷ m/s
+          trap: power_of_ten
+          why: 3.0 × 10⁸ ÷ 1.5 is 2.0 × 10⁸.
+        - text: 2.0 × 10⁸ m/s
+          correct: true
+          why: v = c/n = 3.0 × 10⁸ / 1.5 = 2.0 × 10⁸ m/s.
+        - text: 3.0 × 10⁸ m/s
+          trap: skipped_step
+          why: That is the speed in a vacuum.
+        - text: 4.5 × 10⁸ m/s
+          trap: wrong_direction
+          why: That multiplies by n; light is slower in plastic, not faster.
+      tldr: v = c/n = 2.0 × 10⁸ m/s.
+      steps:
+        - label: Relationship
+          body: n = c/v, so v = c/n.
+        - label: Compute
+          body: 3.0 × 10⁸ / 1.5 = 2.0 × 10⁸ m/s.
+      takeaway: A higher index means slower light.
+
+    - id: mcat-cp-0024
+      type: optics
+      kps: [kp-mcat-refraction]
+      outline: { category: 4D, sirs: 2 }
+      difficulty: 4
+      prompt: Light traveling inside the block toward its surface with air will be totally internally reflected if its angle of incidence exceeds about (sin 45° ≈ 0.71)
+      fixedOrder: true
+      options:
+        - text: 19°
+          trap: misread_data
+          why: That is a refraction angle from Table 1.
+        - text: 35°
+          trap: misread_data
+          why: That is a refraction angle from Table 1.
+        - text: 42°
+          correct: true
+          why: sin θc = n_air / n_plastic = 1.00 / 1.5 ≈ 0.67, so θc ≈ 42°.
+        - text: 56°
+          trap: lookalike
+          why: That is the angle whose tangent is 1.5 (Brewster's angle), not the critical angle.
+      tldr: sin θc = 1/1.5, so θc ≈ 42°.
+      steps:
+        - label: Critical angle
+          body: sin θc = n₂/n₁ for light going from the denser medium.
+        - label: Solve
+          body: 1.00/1.5 ≈ 0.67, so θc ≈ 42°.
+      takeaway: Total internal reflection needs light going from higher n to lower n beyond the critical angle.
+
+    - id: mcat-cp-0025
+      type: optics
+      kps: [kp-mcat-refraction]
+      outline: { category: 4D, sirs: 2 }
+      difficulty: 2
+      prompt: As the laser light passes from air into the plastic, which property stays the same?
+      options:
+        - text: Its frequency
+          correct: true
+          why: Frequency is set by the source and doesn't change at a boundary.
+        - text: Its wavelength
+          trap: lookalike
+          why: Wavelength shrinks because the light slows down while the frequency stays fixed.
+        - text: Its speed
+          trap: misread_data
+          why: Light slows to about 2.0 × 10⁸ m/s in the plastic.
+        - text: Its direction
+          trap: misread_data
+          why: Table 1 shows the beam bending at every nonzero angle.
+      tldr: Frequency is fixed; speed and wavelength drop.
+      steps:
+        - label: Boundary rule
+          body: Frequency stays constant across media.
+        - label: Consequence
+          body: v = fλ, so a slower speed means a shorter wavelength.
+      takeaway: At a boundary, frequency is conserved; speed and wavelength change together.

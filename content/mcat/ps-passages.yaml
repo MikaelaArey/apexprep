@@ -1,0 +1,515 @@
+# MCAT Psych/Soc: original study-based passages for ApexPrep.
+# Not official AAMC content. The correct option is listed first; the build shuffles
+# answer order (numeric answers are sorted).
+
+- passage:
+    id: mcat-ps-p01
+    title: Who helps in an emergency
+    domain: social psychology
+    mini: true
+    paragraphs:
+      - >-
+        Participants took part in what they were told was a group discussion about
+        college life, held over an intercom so that everyone could speak privately
+        from a separate room. Each participant was led to believe that the group
+        included either no one else, one other student, or four other students; in
+        fact, the other voices were recordings. Partway through, one of the recorded
+        voices appeared to have a seizure and called for help. Researchers recorded
+        whether each participant left the room to help before the recording ended.
+    table:
+      caption: Table 1. Participants who helped, by group size
+      columns: ["Others believed present", "Helped (%)"]
+      rows:
+        - ["None", "85"]
+        - ["One", "64"]
+        - ["Four", "31"]
+  items:
+    - id: mcat-ps-0008
+      type: group_behavior
+      kps: [kp-mcat-group-processes]
+      outline: { category: 7B, sirs: 2 }
+      difficulty: 1
+      prompt: What is the independent variable in this study?
+      options:
+        - text: The number of other people the participant believed were present
+          correct: true
+          why: The researchers manipulated how many others the participant thought could hear.
+        - text: Whether the participant helped
+          trap: reversal
+          why: That is the dependent variable, the outcome being measured.
+        - text: How long the seizure lasted
+          trap: unsupported
+          why: The recording was the same for everyone.
+        - text: The participant's gender
+          trap: out_of_scope
+          why: Gender wasn't manipulated or described as a variable.
+      tldr: The researchers manipulated group size.
+      steps:
+        - label: Manipulated
+          body: Number of others believed present (0, 1 or 4).
+        - label: Measured
+          body: Whether the participant helped.
+      takeaway: The independent variable is what the researcher changes on purpose.
+
+    - id: mcat-ps-0009
+      type: group_behavior
+      kps: [kp-mcat-group-processes]
+      outline: { category: 7B, sirs: 2 }
+      difficulty: 2
+      prompt: Which concept best explains the pattern in Table 1?
+      options:
+        - text: Diffusion of responsibility
+          correct: true
+          why: The more people who could help, the less personally responsible each participant felt.
+        - text: Social facilitation
+          trap: lookalike
+          why: Social facilitation is improved performance on simple tasks when others watch.
+        - text: Groupthink
+          trap: lookalike
+          why: Groupthink is a cohesive group making poor decisions to keep harmony.
+        - text: Deindividuation
+          trap: lookalike
+          why: Deindividuation is a loss of self-awareness in crowds, often with anonymity and arousal.
+      tldr: More bystanders, less personal responsibility.
+      steps:
+        - label: Pattern
+          body: Helping fell from 85% to 31% as group size grew.
+        - label: Concept
+          body: Diffusion of responsibility, the core of the bystander effect.
+      takeaway: The bystander effect grows as responsibility is spread across more people.
+
+    - id: mcat-ps-0010
+      type: group_behavior
+      kps: [kp-mcat-group-processes]
+      outline: { category: 7B, sirs: 3 }
+      difficulty: 3
+      prompt: Why did the researchers keep participants in separate rooms connected only by intercom?
+      options:
+        - text: So participants couldn't see how others reacted, ruling out the explanation that they copied others' calm behavior
+          correct: true
+          why: Without visible reactions, any drop in helping reflects the number of others, not their cues.
+        - text: So participants would feel more anxious about speaking
+          trap: unsupported
+          why: The passage says the rooms were meant to allow private speaking, not to create anxiety.
+        - text: To make it easier for participants to help
+          trap: sign_flip
+          why: Separate rooms don't make helping easier.
+        - text: To keep participants from learning the purpose of the study
+          trap: half_right
+          why: The cover story did that; the separate rooms controlled social cues.
+      tldr: No visible reactions means no copying.
+      steps:
+        - label: Alternative explanation
+          body: People might stay calm because others look calm.
+        - label: Control
+          body: Separate rooms remove those cues.
+      takeaway: Good designs remove alternative explanations for the effect.
+
+    - id: mcat-ps-0011
+      type: group_behavior
+      kps: [kp-mcat-group-processes]
+      outline: { category: 7B, sirs: 4 }
+      difficulty: 4
+      prompt: Which finding would most strengthen the conclusion that shared responsibility caused the drop in helping?
+      options:
+        - text: Participants told that only they had first-aid training helped as often with four others present as when alone.
+          correct: true
+          why: When responsibility is clearly assigned to one person, the effect disappears, as the explanation predicts.
+        - text: Participants in larger groups often said they hadn't heard the call for help.
+          trap: wrong_direction
+          why: That suggests a failure to notice, a rival explanation that weakens this one.
+        - text: Participants who helped were more likely to be first-year students.
+          trap: true_irrelevant
+          why: Class year doesn't bear on responsibility being shared.
+        - text: Helping rates were similar in all three conditions among female participants.
+          trap: wrong_direction
+          why: No group-size effect in a subgroup weakens the conclusion for that subgroup.
+      tldr: Concentrating responsibility should cancel the effect.
+      steps:
+        - label: Prediction
+          body: If shared responsibility causes the drop, clear responsibility should prevent it.
+        - label: Evidence
+          body: Trained participants helped regardless of group size.
+      takeaway: Support a causal claim by testing what it predicts when the cause is removed.
+
+- passage:
+    id: mcat-ps-p02
+    title: Sleep after learning
+    domain: cognitive psychology
+    mini: true
+    paragraphs:
+      - >-
+        Eighty volunteers learned 40 word pairs in the evening and were then randomly
+        assigned to one of two groups. One group slept normally; the other stayed
+        awake all night in the laboratory. Both groups then slept normally for two
+        more nights before being tested on the third day, when each participant was
+        given the first word of each pair and asked to recall the second.
+    table:
+      caption: Table 1. Word pairs recalled out of 40
+      columns: ["Group", "Mean recalled"]
+      rows:
+        - ["Slept after learning", "33"]
+        - ["Awake all night after learning", "25"]
+  items:
+    - id: mcat-ps-0012
+      type: memory_cognition
+      kps: [kp-mcat-memory-phenomena]
+      outline: { category: 6B, sirs: 3 }
+      difficulty: 3
+      prompt: Why did both groups sleep normally for two nights before the test?
+      options:
+        - text: So that the sleep-deprived group would not do worse simply because they were tired at the test
+          correct: true
+          why: Recovery sleep equalizes fatigue at retrieval, isolating the effect of sleep right after learning.
+        - text: So that both groups would forget the word pairs
+          trap: unsupported
+          why: The goal was to equalize the test conditions, not to cause forgetting.
+        - text: To give the sleep group extra time to study
+          trap: unsupported
+          why: No studying happened between learning and testing.
+        - text: Because word pairs can't be recalled until three days after learning
+          trap: false_fact
+          why: Recall is possible right away.
+      tldr: Recovery nights rule out tiredness at the test.
+      steps:
+        - label: Alternative
+          body: Sleep-deprived people perform worse on almost any test.
+        - label: Control
+          body: Two normal nights before testing remove that difference.
+      takeaway: Separate the effect on storing a memory from the effect on retrieving it.
+
+    - id: mcat-ps-0013
+      type: memory_cognition
+      kps: [kp-mcat-memory-phenomena]
+      outline: { category: 6B, sirs: 2 }
+      difficulty: 2
+      prompt: The results best support the claim that sleep after learning aids
+      options:
+        - text: consolidation of new memories
+          correct: true
+          why: Learning came before the manipulation and testing came after recovery, leaving storage as the affected stage.
+        - text: encoding of new memories
+          trap: lookalike
+          why: Both groups learned the pairs before the manipulation began.
+        - text: retrieval of memories
+          trap: lookalike
+          why: The recovery nights equalized conditions at retrieval.
+        - text: sensory memory
+          trap: out_of_scope
+          why: Sensory memory lasts seconds and isn't what was tested.
+      tldr: Sleep after learning helps memories stabilize.
+      steps:
+        - label: Encoding
+          body: Same for both groups (before the manipulation).
+        - label: Retrieval
+          body: Equalized by recovery nights. What's left is consolidation.
+      takeaway: Consolidation is the stabilizing of memories after encoding, and sleep supports it.
+
+    - id: mcat-ps-0014
+      type: biological_psych
+      kps: [kp-mcat-brain-regions]
+      outline: { category: 6B, sirs: 2 }
+      difficulty: 2
+      prompt: Which brain structure is most involved in consolidating new declarative memories like these word pairs?
+      options:
+        - text: Hippocampus
+          correct: true
+          why: The hippocampus is essential for forming and consolidating new explicit memories.
+        - text: Cerebellum
+          trap: lookalike
+          why: The cerebellum supports motor coordination and procedural learning.
+        - text: Amygdala
+          trap: lookalike
+          why: The amygdala processes emotion, especially fear, and boosts emotional memories.
+        - text: Occipital lobe
+          trap: lookalike
+          why: The occipital lobe handles visual processing.
+      tldr: Declarative memory consolidation means hippocampus.
+      steps:
+        - label: Memory type
+          body: Word pairs are explicit (declarative) memories.
+        - label: Structure
+          body: The hippocampus consolidates them.
+      takeaway: Hippocampus for new facts and events; cerebellum and basal ganglia for skills.
+
+    - id: mcat-ps-0015
+      type: research_methods
+      kps: [kp-mcat-study-designs]
+      outline: { category: 6B, sirs: 3 }
+      difficulty: 2
+      prompt: Which feature of the study most strengthens the conclusion that sleep caused better recall?
+      options:
+        - text: Participants were randomly assigned to the two groups.
+          correct: true
+          why: Random assignment makes the groups comparable at the start, so the difference can be attributed to sleep.
+        - text: The study used 40 word pairs.
+          trap: true_irrelevant
+          why: The number of items doesn't address causation.
+        - text: Testing happened on the third day.
+          trap: half_right
+          why: The delay controls fatigue, but random assignment is what supports a causal claim between groups.
+        - text: The study took place in the evening.
+          trap: true_irrelevant
+          why: The time of learning doesn't establish causation.
+      tldr: Random assignment supports causal claims.
+      steps:
+        - label: Design
+          body: An experiment with random assignment.
+        - label: Conclusion
+          body: Group differences can be credited to the manipulation.
+      takeaway: Random assignment is what turns a comparison into an experiment.
+
+- passage:
+    id: mcat-ps-p03
+    title: Rats, flavors and illness
+    domain: learning
+    mini: true
+    paragraphs:
+      - >-
+        Rats drank sweetened water from a tube that also flashed a light and made a
+        click each time they licked. Afterward, one group of rats was made briefly
+        ill by a treatment that causes nausea, and a second group received a mild
+        foot shock. Days later, each rat was offered sweetened water with no light or
+        click and, separately, plain water that came with the light and click.
+    table:
+      caption: Table 1. What each group later avoided
+      columns: ["Group", "Sweet water", "Light and click"]
+      rows:
+        - ["Illness", "Avoided", "Not avoided"]
+        - ["Shock", "Not avoided", "Avoided"]
+  items:
+    - id: mcat-ps-0016
+      type: learning
+      kps: [kp-mcat-classical-elements]
+      outline: { category: 7C, sirs: 4 }
+      difficulty: 3
+      prompt: Which conclusion is best supported by Table 1?
+      options:
+        - text: Animals are predisposed to link tastes with illness and sights or sounds with pain.
+          correct: true
+          why: Each group learned only the pairing that fits its consequence, showing biological preparedness.
+        - text: Any stimulus can be paired equally well with any consequence.
+          trap: contradicts
+          why: Each group learned only one of the two available cues.
+        - text: The rats learned through operant conditioning alone.
+          trap: lookalike
+          why: The cues were paired with consequences regardless of the rats' behavior, which is classical conditioning.
+        - text: Rats can't detect lights and clicks.
+          trap: contradicts
+          why: The shock group learned to avoid the light and click.
+      tldr: Taste goes with nausea; sights and sounds go with pain.
+      steps:
+        - label: Read
+          body: Illness rats avoided the taste; shock rats avoided the light and click.
+        - label: Conclude
+          body: Learning depends on which cue fits which consequence.
+      takeaway: Biological preparedness limits which associations are easy to learn.
+
+    - id: mcat-ps-0017
+      type: learning
+      kps: [kp-mcat-classical-elements]
+      outline: { category: 7C, sirs: 2 }
+      difficulty: 2
+      prompt: For the illness group, the sweet taste served as the
+      options:
+        - text: conditioned stimulus
+          correct: true
+          why: The taste was neutral at first and came to trigger avoidance after being paired with illness.
+        - text: unconditioned stimulus
+          trap: reversal
+          why: The nausea treatment is the unconditioned stimulus.
+        - text: conditioned response
+          trap: lookalike
+          why: The learned avoidance is the conditioned response.
+        - text: unconditioned response
+          trap: lookalike
+          why: The nausea itself is the unconditioned response.
+      tldr: The once-neutral cue paired with the US is the CS.
+      steps:
+        - label: US and UR
+          body: Nausea treatment (US) causes nausea (UR).
+        - label: CS and CR
+          body: Taste (CS) comes to cause avoidance (CR).
+      takeaway: The conditioned stimulus starts neutral and gains meaning through pairing.
+
+    - id: mcat-ps-0018
+      type: learning
+      kps: [kp-mcat-classical-phenomena]
+      outline: { category: 7C, sirs: 2 }
+      difficulty: 4
+      prompt: Taste aversions often form after a single pairing, even when illness begins hours after eating. This challenges the view that conditioning requires
+      options:
+        - text: the stimuli to occur close together in time and over many pairings
+          correct: true
+          why: A long delay and one trial still produced strong learning.
+        - text: an unconditioned stimulus
+          trap: unsupported
+          why: The illness is still an unconditioned stimulus.
+        - text: a stimulus the animal can perceive
+          trap: true_irrelevant
+          why: Taste is clearly perceived; this isn't what's challenged.
+        - text: a living organism
+          trap: out_of_scope
+          why: Nothing here bears on that.
+      tldr: One trial and a long delay break the usual rules.
+      steps:
+        - label: Usual rule
+          body: Classical conditioning needs close timing and repetition.
+        - label: Exception
+          body: Taste aversion forms in one trial with hours of delay.
+      takeaway: Taste aversion is the classic exception to the timing rules of conditioning.
+
+    - id: mcat-ps-0019
+      type: learning
+      kps: [kp-mcat-classical-elements]
+      outline: { category: 7C, sirs: 2 }
+      difficulty: 2
+      prompt: Some patients receiving chemotherapy develop aversions to foods they ate before treatment. This is best explained by
+      options:
+        - text: classical conditioning, with the food as the conditioned stimulus and treatment-induced nausea as the unconditioned response
+          correct: true
+          why: Pairing a food with nausea creates an aversion, just as in the rats.
+        - text: negative reinforcement
+          trap: lookalike
+          why: Negative reinforcement removes an unpleasant stimulus to increase a behavior.
+        - text: observational learning
+          trap: lookalike
+          why: The patients learned from their own experience, not by watching others.
+        - text: habituation
+          trap: lookalike
+          why: Habituation is a weakening response to a repeated stimulus.
+      tldr: Food plus nausea, so classical conditioning.
+      steps:
+        - label: Pairing
+          body: Food (neutral) comes before nausea from treatment.
+        - label: Result
+          body: The food alone now triggers aversion.
+      takeaway: Learned taste aversions are a real clinical side effect of chemotherapy.
+
+- passage:
+    id: mcat-ps-p04
+    title: Income and life expectancy
+    domain: sociology
+    mini: true
+    paragraphs:
+      - >-
+        Researchers linked tax records to death records for a large national sample
+        and estimated how many more years a 40-year-old could expect to live, grouped
+        by household income from the lowest fifth (quintile) to the highest (Table 1).
+    table:
+      caption: Table 1. Remaining life expectancy at age 40, by income quintile
+      columns: ["Income quintile", "Years"]
+      rows:
+        - ["Lowest", "37.1"]
+        - ["Second", "39.6"]
+        - ["Middle", "41.2"]
+        - ["Fourth", "42.4"]
+        - ["Highest", "43.9"]
+  items:
+    - id: mcat-ps-0020
+      type: inequality_health
+      kps: [kp-mcat-social-gradient]
+      outline: { category: 10A, sirs: 4 }
+      difficulty: 2
+      prompt: Which description best fits the pattern in Table 1?
+      options:
+        - text: Life expectancy rises at every step up the income ladder.
+          correct: true
+          why: Each quintile lives longer than the one below it, which is a social gradient in health.
+        - text: Only the lowest quintile has worse health than everyone else.
+          trap: misread_data
+          why: The gap continues at every step, not just at the bottom.
+        - text: Income has no clear relationship with life expectancy.
+          trap: misread_data
+          why: The values rise steadily from 37.1 to 43.9 years.
+        - text: Higher income causes shorter lives.
+          trap: sign_flip
+          why: The highest quintile lives longest.
+      tldr: A steady rise at each step is a social gradient.
+      steps:
+        - label: Read
+          body: 37.1 → 39.6 → 41.2 → 42.4 → 43.9.
+        - label: Pattern
+          body: A graded relationship across the whole ladder.
+      takeaway: Health gradients run through every level of society, not just poverty.
+
+    - id: mcat-ps-0021
+      type: inequality_health
+      kps: [kp-mcat-social-gradient]
+      outline: { category: 10A, sirs: 3 }
+      difficulty: 3
+      prompt: A critic argues that chronic illness lowers people's earnings, which could produce the same pattern. The critic is raising the possibility of
+      options:
+        - text: reverse causation
+          correct: true
+          why: The critic suggests health affects income, the opposite direction of the researchers' interpretation.
+        - text: a placebo effect
+          trap: out_of_scope
+          why: No treatment was given.
+        - text: random assignment
+          trap: false_fact
+          why: People can't be randomly assigned to income, and the critique isn't about assignment.
+        - text: demand characteristics
+          trap: lookalike
+          why: Demand characteristics are cues that change how participants act in a study; records were used here.
+      tldr: Health causing income is reverse causation.
+      steps:
+        - label: Researchers
+          body: Income → health.
+        - label: Critic
+          body: Health → income.
+      takeaway: In correlational data, always ask which way the arrow points.
+
+    - id: mcat-ps-0022
+      type: sociology_theory
+      kps: [kp-mcat-sociology-theories]
+      outline: { category: 9A, sirs: 2 }
+      difficulty: 2
+      prompt: Which perspective would emphasize that higher-income groups use their resources to secure better care and safer neighborhoods at the expense of others?
+      options:
+        - text: Conflict theory
+          correct: true
+          why: Conflict theory focuses on competition for scarce resources and how the powerful keep their advantages.
+        - text: Functionalism
+          trap: lookalike
+          why: Functionalism asks how social arrangements keep society stable.
+        - text: Symbolic interactionism
+          trap: lookalike
+          why: Symbolic interactionism studies the meanings people create in everyday interaction.
+        - text: Social exchange theory
+          trap: lookalike
+          why: Exchange theory treats interactions as weighing costs and rewards between individuals.
+      tldr: Competition for resources and power is conflict theory.
+      steps:
+        - label: Key words
+          body: Resources, advantage, at the expense of others.
+        - label: Theory
+          body: Conflict theory.
+      takeaway: Conflict theory centers on power and inequality.
+
+    - id: mcat-ps-0023
+      type: inequality_health
+      kps: [kp-mcat-social-gradient]
+      outline: { category: 10A, sirs: 4 }
+      difficulty: 1
+      prompt: How much longer can a 40-year-old in the highest quintile expect to live than one in the lowest?
+      options:
+        - text: 6.8 years
+          correct: true
+          why: 43.9 − 37.1 = 6.8 years.
+        - text: 1.5 years
+          trap: misread_data
+          why: That is the gap between the highest and fourth quintiles.
+        - text: 4.1 years
+          trap: misread_data
+          why: That is the gap between the middle and lowest quintiles.
+        - text: 43.9 years
+          trap: misread_data
+          why: That is the highest quintile's value, not the difference.
+      tldr: 43.9 − 37.1 = 6.8.
+      steps:
+        - label: Find
+          body: Highest 43.9; lowest 37.1.
+        - label: Subtract
+          body: 6.8 years.
+      takeaway: Read the question for "difference" versus "value".

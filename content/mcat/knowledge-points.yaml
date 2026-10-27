@@ -269,3 +269,54 @@
     Look for evaluative words (praise, concession, irony, hedges like "perhaps")
     and for what the author ultimately endorses. Extreme answers (contempt,
     uncritical admiration) are usually wrong; mixed attitudes are common.
+
+- id: kp-mcat-insulin-glut4
+  section: BB
+  title: Insulin and GLUT4
+  front: How does insulin increase glucose uptake into muscle and fat cells?
+  back: >-
+    Insulin's receptor signals through PI3-kinase to move GLUT4 transporters from
+    internal vesicles to the plasma membrane. More transporters at the surface means
+    faster facilitated diffusion of glucose into the cell.
+
+- id: kp-mcat-bohr-effect
+  section: BB
+  title: The Bohr effect
+  front: How do acid and CO₂ change hemoglobin's oxygen binding, and why does it help?
+  back: >-
+    Lower pH and higher CO₂ lower hemoglobin's O₂ affinity (higher P50, curve shifts
+    right), so hemoglobin unloads more O₂ in active tissues. Higher temperature and
+    2,3-BPG shift the curve right too.
+
+- id: kp-mcat-recombination-mapping
+  section: BB
+  title: Linkage and recombination frequency
+  front: In a testcross, how do you find the distance between two linked genes?
+  back: >-
+    Recombination frequency = recombinant offspring ÷ total offspring. 1% equals 1
+    map unit (centimorgan). Unlinked genes give 50% recombinants (a 1:1:1:1 ratio).
+
+- id: kp-mcat-calorimetry
+  section: CP
+  title: Calorimetry
+  front: How do you get the heat of a process from a temperature change in a coffee-cup calorimeter?
+  back: >-
+    q = mcΔT for the solution. If the solution warms, the process released heat
+    (exothermic, ΔH < 0); if it cools, the process absorbed heat (endothermic).
+
+- id: kp-mcat-refraction
+  section: CP
+  title: Refraction and Snell's law
+  front: What does Snell's law say, and what stays the same when light changes media?
+  back: >-
+    n₁ sin θ₁ = n₂ sin θ₂, and v = c/n. Frequency stays the same; speed and
+    wavelength change. Total internal reflection needs n₁ > n₂ and sin θc = n₂/n₁.
+
+- id: kp-mcat-social-gradient
+  section: PS
+  title: The social gradient in health
+  front: What is the "social gradient" in health?
+  back: >-
+    Health improves step by step with each rise in socioeconomic status, not only
+    between the poorest and everyone else. Correlational data can't by themselves
+    rule out reverse causation (illness lowering income).

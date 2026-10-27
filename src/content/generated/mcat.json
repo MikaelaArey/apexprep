@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "bfb67b966dcb",
- "generatedAt": "2026-10-27T19:01:15.253Z",
+ "version": "24531b68f601",
+ "generatedAt": "2026-10-27T19:22:25.427Z",
  "items": [
   {
    "id": "mcat-bb-6000",
@@ -1449,7 +1449,7 @@
     "category": "3A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 140,
    "targetSec": 97,
@@ -4143,7 +4143,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 142,
    "targetSec": 97,
@@ -4652,7 +4652,7 @@
     "category": "2A",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.84,
    "rank": 215,
    "targetSec": 97,
@@ -5099,7 +5099,7 @@
     "category": "2A",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 224,
    "targetSec": 97,
@@ -7099,7 +7099,7 @@
     "category": "3B",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 225,
    "targetSec": 97,
@@ -8507,7 +8507,7 @@
     "category": "2C",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.34,
    "rank": 61,
    "targetSec": 97,
@@ -8579,7 +8579,7 @@
     "category": "2C",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.34,
    "rank": 62,
    "targetSec": 97,
@@ -8651,7 +8651,7 @@
     "category": "2C",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.34,
    "rank": 63,
    "targetSec": 97,
@@ -12106,7 +12106,7 @@
     "category": "3A",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.84,
    "rank": 216,
    "targetSec": 97,
@@ -12181,7 +12181,7 @@
     "category": "3A",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.84,
    "rank": 217,
    "targetSec": 97,
@@ -12475,7 +12475,7 @@
     "category": "3A",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.83,
    "rank": 212,
    "targetSec": 97,
@@ -13063,7 +13063,7 @@
     "category": "2A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 143,
    "targetSec": 97,
@@ -13135,7 +13135,7 @@
     "category": "2A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 141,
    "targetSec": 97,
@@ -13643,7 +13643,7 @@
     "category": "3B",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.34,
    "rank": 64,
    "targetSec": 97,
@@ -13859,7 +13859,7 @@
     "category": "3B",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.39,
    "rank": 136,
    "targetSec": 97,
@@ -14076,7 +14076,7 @@
     "category": "2B",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 144,
    "targetSec": 97,
@@ -15391,7 +15391,7 @@
     "category": "2C",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.83,
    "rank": 213,
    "targetSec": 97,
@@ -15973,7 +15973,7 @@
     "category": "3B",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.83,
    "rank": 214,
    "targetSec": 97,
@@ -16195,7 +16195,7 @@
     "category": "3B",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.84,
    "rank": 218,
    "targetSec": 97,
@@ -16411,7 +16411,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.27,
    "rank": 283,
    "targetSec": 97,
@@ -16487,7 +16487,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 281,
    "targetSec": 97,
@@ -16563,7 +16563,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.28,
    "rank": 285,
    "targetSec": 97,
@@ -16639,7 +16639,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.27,
    "rank": 284,
    "targetSec": 97,
@@ -16715,7 +16715,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.26,
    "rank": 282,
    "targetSec": 97,
@@ -16859,7 +16859,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.28,
    "rank": 286,
    "targetSec": 97,
@@ -16931,7 +16931,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.28,
    "rank": 287,
    "targetSec": 97,
@@ -17003,7 +17003,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.29,
    "rank": 288,
    "targetSec": 97,
@@ -17807,7 +17807,7 @@
     "category": "1D",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.39,
    "rank": 137,
    "targetSec": 97,
@@ -18023,7 +18023,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 275,
    "targetSec": 97,
@@ -18100,7 +18100,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 276,
    "targetSec": 97,
@@ -18177,7 +18177,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 278,
    "targetSec": 97,
@@ -18254,7 +18254,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 277,
    "targetSec": 97,
@@ -18331,7 +18331,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 279,
    "targetSec": 97,
@@ -18407,7 +18407,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
    "rank": 280,
    "targetSec": 97,
@@ -18483,7 +18483,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 138,
    "targetSec": 97,
@@ -18556,7 +18556,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.4,
    "rank": 139,
    "targetSec": 97,
@@ -18702,7 +18702,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.3,
    "rank": 289,
    "targetSec": 97,
@@ -18919,7 +18919,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 219,
    "targetSec": 97,
@@ -18991,7 +18991,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 223,
    "targetSec": 97,
@@ -19063,7 +19063,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 220,
    "targetSec": 97,
@@ -19135,7 +19135,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 222,
    "targetSec": 97,
@@ -19207,7 +19207,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 221,
    "targetSec": 97,
@@ -20285,7 +20285,7 @@
    },
    "difficulty": 5,
    "rating": 2.8,
-   "rank": 296,
+   "rank": 301,
    "targetSec": 97,
    "prompt": "At 37 °C, K⁺ is 5 mM outside a cell and 150 mM inside. Using E = (61.5/z) log([out]/[in]) mV, what is the equilibrium potential for K⁺?",
    "model": "bb-nervous_system",
@@ -20356,7 +20356,7 @@
    },
    "difficulty": 5,
    "rating": 2.8,
-   "rank": 297,
+   "rank": 302,
    "targetSec": 97,
    "prompt": "At 37 °C, Na⁺ is 145 mM outside a cell and 15 mM inside. Using E = (61.5/z) log([out]/[in]) mV, what is the equilibrium potential for Na⁺?",
    "model": "bb-nervous_system",
@@ -20427,7 +20427,7 @@
    },
    "difficulty": 5,
    "rating": 2.8,
-   "rank": 298,
+   "rank": 303,
    "targetSec": 97,
    "prompt": "At 37 °C, Ca²⁺ is 2 mM outside a cell and 0.0002 mM inside. Using E = (61.5/z) log([out]/[in]) mV, what is the equilibrium potential for Ca²⁺?",
    "model": "bb-nervous_system",
@@ -20498,7 +20498,7 @@
    },
    "difficulty": 5,
    "rating": 2.8,
-   "rank": 299,
+   "rank": 304,
    "targetSec": 97,
    "prompt": "At 37 °C, Cl⁻ is 110 mM outside a cell and 10 mM inside. Using E = (61.5/z) log([out]/[in]) mV, what is the equilibrium potential for Cl⁻?",
    "model": "bb-nervous_system",
@@ -21404,6 +21404,1326 @@
    "status": "review"
   },
   {
+   "id": "mcat-bb-0012",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p02",
+   "position": 1,
+   "type": "cell_signaling",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-insulin-glut4"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 3.41,
+   "rank": 320,
+   "targetSec": 97,
+   "prompt": "Which conclusion is best supported by Table 1?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Muscle cells cannot take up any glucose without insulin.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Untreated strips still took up the analog (1.0)."
+    },
+    {
+     "id": "B",
+     "text": "Wortmannin increases glucose uptake when insulin is absent.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Wortmannin alone gave 0.9, slightly below control."
+    },
+    {
+     "id": "C",
+     "text": "Insulin-stimulated glucose uptake depends on PI3-kinase activity.",
+     "correct": true,
+     "trap": null,
+     "why": "Insulin tripled uptake, but with wortmannin blocking PI3-kinase the increase almost vanished (1.1)."
+    },
+    {
+     "id": "D",
+     "text": "Insulin increases uptake by causing cells to make more GLUT4.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The follow-up showed total GLUT4 didn't change."
+    }
+   ],
+   "tldr": "Blocking PI3-kinase erases most of insulin's effect.",
+   "steps": [
+    {
+     "label": "Compare",
+     "body": "Insulin alone 3.4 vs. insulin + wortmannin 1.1."
+    },
+    {
+     "label": "Conclude",
+     "body": "The insulin effect requires PI3-kinase."
+    }
+   ],
+   "takeaway": "Compare the treatment with and without the inhibitor; that difference is the inhibitor's effect.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0013",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p02",
+   "position": 2,
+   "type": "cell_signaling",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-insulin-glut4"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.27,
+   "rank": 313,
+   "targetSec": 97,
+   "prompt": "The follow-up experiment best supports which mechanism for insulin's effect?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Insulin activates glycolysis so that glucose is used faster.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The analog can't be metabolized, so faster metabolism can't explain uptake here."
+    },
+    {
+     "id": "B",
+     "text": "Insulin opens ligand-gated glucose channels.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "GLUT4 is a carrier for facilitated diffusion, not a ligand-gated channel."
+    },
+    {
+     "id": "C",
+     "text": "Insulin increases transcription of the GLUT4 gene.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "New synthesis would raise total GLUT4, which didn't change."
+    },
+    {
+     "id": "D",
+     "text": "Insulin moves existing GLUT4 transporters from inside the cell to the plasma membrane.",
+     "correct": true,
+     "trap": null,
+     "why": "Total GLUT4 was unchanged while membrane GLUT4 rose, so transporters were relocated."
+    }
+   ],
+   "tldr": "Same GLUT4 total, more at the membrane means relocation.",
+   "steps": [
+    {
+     "label": "Data",
+     "body": "Total GLUT4 unchanged; membrane GLUT4 increased."
+    },
+    {
+     "label": "Mechanism",
+     "body": "Translocation of stored transporters."
+    }
+   ],
+   "takeaway": "Same total amount but a new location points to trafficking, not synthesis.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0014",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p02",
+   "position": 3,
+   "type": "cell_signaling",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-insulin-glut4"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.29,
+   "rank": 316,
+   "targetSec": 97,
+   "prompt": "Why did the researchers use a glucose analog that cells cannot metabolize further?",
+   "options": [
+    {
+     "id": "A",
+     "text": "So that the amount accumulated reflects transport alone rather than transport plus metabolism",
+     "correct": true,
+     "trap": null,
+     "why": "If the label were metabolized, its level would depend on both steps."
+    },
+    {
+     "id": "B",
+     "text": "To keep insulin from being broken down during the experiment",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The analog's purpose is measuring uptake, not protecting insulin."
+    },
+    {
+     "id": "C",
+     "text": "Because unmodified glucose cannot enter muscle cells",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Muscle cells take up glucose readily."
+    },
+    {
+     "id": "D",
+     "text": "Because the analog binds insulin receptors directly",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Nothing in the passage suggests the analog acts on receptors."
+    }
+   ],
+   "tldr": "A non-metabolizable tracer isolates the transport step.",
+   "steps": [
+    {
+     "label": "Problem",
+     "body": "Normal glucose is converted to other molecules after it enters."
+    },
+    {
+     "label": "Fix",
+     "body": "A trapped analog makes accumulation a pure measure of transport."
+    }
+   ],
+   "takeaway": "Good tracers measure one step at a time.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0015",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p02",
+   "position": 4,
+   "type": "cell_signaling",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-insulin-glut4"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.89,
+   "rank": 308,
+   "targetSec": 97,
+   "prompt": "A person whose muscle cells responded to insulin the way the insulin + wortmannin strips did would most likely show",
+   "options": [
+    {
+     "id": "A",
+     "text": "increased glycogen storage in muscle",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Less glucose would enter muscle, so less could be stored."
+    },
+    {
+     "id": "B",
+     "text": "low blood glucose after a meal",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Impaired uptake leaves more glucose in the blood, not less."
+    },
+    {
+     "id": "C",
+     "text": "high blood glucose after a meal",
+     "correct": true,
+     "trap": null,
+     "why": "Muscle would fail to increase glucose uptake, so glucose would stay in the blood (insulin resistance)."
+    },
+    {
+     "id": "D",
+     "text": "very low insulin secretion",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The defect is in the response to insulin, not its secretion."
+    }
+   ],
+   "tldr": "No insulin response in muscle means glucose stays in the blood.",
+   "steps": [
+    {
+     "label": "Defect",
+     "body": "Insulin can't raise muscle uptake."
+    },
+    {
+     "label": "Result",
+     "body": "Post-meal glucose stays high."
+    }
+   ],
+   "takeaway": "Insulin resistance means a normal hormone with a weak cellular response.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0016",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p03",
+   "position": 1,
+   "type": "microbiology",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bacterial-gene-transfer"
+   ],
+   "outline": {
+    "category": "2B",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 3.51,
+   "rank": 321,
+   "targetSec": 97,
+   "prompt": "Which mechanism of gene transfer is most consistent with the results?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Transformation",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "DNase destroys free DNA, yet transfer barely changed."
+    },
+    {
+     "id": "B",
+     "text": "Transduction",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Phages pass through the filter, yet transfer stopped when cells were separated."
+    },
+    {
+     "id": "C",
+     "text": "Conjugation",
+     "correct": true,
+     "trap": null,
+     "why": "Transfer needed cell contact (it stopped across the filter) but not free DNA (DNase didn't block it)."
+    },
+    {
+     "id": "D",
+     "text": "Spontaneous mutation in the recipients",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Recipients alone never became resistant."
+    }
+   ],
+   "tldr": "Needs contact, doesn't need free DNA: conjugation.",
+   "steps": [
+    {
+     "label": "Rule out",
+     "body": "DNase had no effect (not transformation); the filter blocked transfer (not transduction)."
+    },
+    {
+     "label": "Conclude",
+     "body": "Direct cell contact, so conjugation."
+    }
+   ],
+   "takeaway": "Use each control to rule out one mechanism.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0017",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p03",
+   "position": 2,
+   "type": "microbiology",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bacterial-gene-transfer"
+   ],
+   "outline": {
+    "category": "2B",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 2.84,
+   "rank": 306,
+   "targetSec": 97,
+   "prompt": "The DNase condition was included mainly to test whether resistance transfers through",
+   "options": [
+    {
+     "id": "A",
+     "text": "direct contact between cells",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "The filter condition tests contact."
+    },
+    {
+     "id": "B",
+     "text": "infection by bacteriophages",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "DNase can't reach DNA packaged inside phage capsids, so it doesn't test transduction."
+    },
+    {
+     "id": "C",
+     "text": "uptake of free DNA from the medium",
+     "correct": true,
+     "trap": null,
+     "why": "DNase destroys free DNA, so it tests for transformation."
+    },
+    {
+     "id": "D",
+     "text": "replication of plasmids inside donors",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The experiment tests transfer between cells, not replication."
+    }
+   ],
+   "tldr": "DNase tests for free-DNA transformation.",
+   "steps": [
+    {
+     "label": "What DNase does",
+     "body": "It degrades free DNA in the medium."
+    },
+    {
+     "label": "What it tests",
+     "body": "Whether transfer needs free DNA (transformation)."
+    }
+   ],
+   "takeaway": "Ask which mechanism each manipulation would block.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0018",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p03",
+   "position": 3,
+   "type": "microbiology",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bacterial-gene-transfer"
+   ],
+   "outline": {
+    "category": "2B",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 2.82,
+   "rank": 305,
+   "targetSec": 97,
+   "prompt": "The \"recipient alone\" condition serves as a control for",
+   "options": [
+    {
+     "id": "A",
+     "text": "the donor's growth rate",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "No donors are present."
+    },
+    {
+     "id": "B",
+     "text": "the size of the filter's pores",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "No filter is used in this condition."
+    },
+    {
+     "id": "C",
+     "text": "resistance arising in recipients without any donor, such as by spontaneous mutation",
+     "correct": true,
+     "trap": null,
+     "why": "If recipients became resistant on their own, transfer couldn't be credited."
+    },
+    {
+     "id": "D",
+     "text": "the activity of DNase",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "DNase isn't present in this condition."
+    }
+   ],
+   "tldr": "Recipients alone show the background rate of resistance.",
+   "steps": [
+    {
+     "label": "Question",
+     "body": "Could recipients become resistant without donors?"
+    },
+    {
+     "label": "Answer",
+     "body": "Zero resistant recipients, so the transfers are real."
+    }
+   ],
+   "takeaway": "A baseline control rules out the effect happening on its own.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0019",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p03",
+   "position": 4,
+   "type": "microbiology",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bacterial-gene-transfer"
+   ],
+   "outline": {
+    "category": "2B",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.68,
+   "rank": 297,
+   "targetSec": 97,
+   "prompt": "The ampicillin resistance gene in the donor is most likely carried on",
+   "options": [
+    {
+     "id": "A",
+     "text": "a ribosome",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Ribosomes don't carry genes."
+    },
+    {
+     "id": "B",
+     "text": "a mitochondrial genome",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Bacteria have no mitochondria."
+    },
+    {
+     "id": "C",
+     "text": "the recipient's chromosome",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The recipient lacked resistance before transfer."
+    },
+    {
+     "id": "D",
+     "text": "a plasmid",
+     "correct": true,
+     "trap": null,
+     "why": "Conjugation typically transfers plasmids, which often carry resistance genes."
+    }
+   ],
+   "tldr": "Conjugation usually moves plasmids.",
+   "steps": [
+    {
+     "label": "Mechanism",
+     "body": "Conjugation through a pilus."
+    },
+    {
+     "label": "Cargo",
+     "body": "Plasmids, which often carry resistance genes."
+    }
+   ],
+   "takeaway": "Antibiotic resistance genes often travel on plasmids.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0020",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p04",
+   "position": 1,
+   "type": "cardio_resp",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bohr-effect"
+   ],
+   "outline": {
+    "category": "3B",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 2.91,
+   "rank": 309,
+   "targetSec": 97,
+   "prompt": "Based on Table 1, as pH decreases, hemoglobin's affinity for oxygen",
+   "options": [
+    {
+     "id": "A",
+     "text": "increases at first and then decreases",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "P50 rises steadily as pH falls."
+    },
+    {
+     "id": "B",
+     "text": "decreases, shifting the dissociation curve to the right",
+     "correct": true,
+     "trap": null,
+     "why": "A higher P50 means more oxygen pressure is needed for half saturation, so affinity is lower."
+    },
+    {
+     "id": "C",
+     "text": "increases, shifting the curve to the left",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "P50 rose as pH fell, which means lower affinity."
+    },
+    {
+     "id": "D",
+     "text": "stays the same",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "P50 changed from 22 to 31 mmHg."
+    }
+   ],
+   "tldr": "Higher P50 at lower pH means lower affinity.",
+   "steps": [
+    {
+     "label": "Read",
+     "body": "pH 7.6 → 22, 7.4 → 26, 7.2 → 31 mmHg."
+    },
+    {
+     "label": "Interpret",
+     "body": "A higher P50 means lower affinity, a right shift."
+    }
+   ],
+   "takeaway": "P50 up means affinity down.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0021",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p04",
+   "position": 2,
+   "type": "cardio_resp",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bohr-effect"
+   ],
+   "outline": {
+    "category": "3B",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.77,
+   "rank": 299,
+   "targetSec": 97,
+   "prompt": "The physiological benefit of the effect shown in Table 1 is that hemoglobin",
+   "options": [
+    {
+     "id": "A",
+     "text": "releases more oxygen in active tissues, where CO₂ and acid build up",
+     "correct": true,
+     "trap": null,
+     "why": "Lower pH in working tissues lowers affinity, so more oxygen unloads where it's needed."
+    },
+    {
+     "id": "B",
+     "text": "binds more oxygen in active muscle",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Low pH lowers affinity, favoring release in muscle."
+    },
+    {
+     "id": "C",
+     "text": "releases more oxygen in the lungs",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The lungs have higher pH, which favors loading, not release."
+    },
+    {
+     "id": "D",
+     "text": "carries CO₂ bound to its heme iron",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "CO₂ binds the globin chains, not the iron that binds O₂."
+    }
+   ],
+   "tldr": "Acidic, active tissues get more oxygen.",
+   "steps": [
+    {
+     "label": "Where pH is low",
+     "body": "Active tissues produce CO₂ and acid."
+    },
+    {
+     "label": "Effect",
+     "body": "Lower affinity there means more O₂ unloading."
+    }
+   ],
+   "takeaway": "The Bohr effect matches oxygen delivery to metabolic demand.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0022",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p04",
+   "position": 3,
+   "type": "cardio_resp",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bohr-effect"
+   ],
+   "outline": {
+    "category": "3B",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.27,
+   "rank": 314,
+   "targetSec": 97,
+   "prompt": "Why did the researchers keep the concentration of 2,3-BPG constant?",
+   "options": [
+    {
+     "id": "A",
+     "text": "2,3-BPG raises the pH of the solution.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "The solutions were buffered, and BPG's role is binding hemoglobin."
+    },
+    {
+     "id": "B",
+     "text": "2,3-BPG denatures hemoglobin at low pH.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Nothing supports that claim."
+    },
+    {
+     "id": "C",
+     "text": "2,3-BPG also lowers hemoglobin's oxygen affinity, so letting it vary would confound the effect of pH.",
+     "correct": true,
+     "trap": null,
+     "why": "Holding other factors that shift the curve constant isolates pH."
+    },
+    {
+     "id": "D",
+     "text": "2,3-BPG is required for any oxygen to bind hemoglobin.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Hemoglobin binds oxygen without 2,3-BPG; BPG lowers affinity."
+    }
+   ],
+   "tldr": "Hold the other curve-shifters constant to isolate pH.",
+   "steps": [
+    {
+     "label": "Variables",
+     "body": "pH is manipulated; temperature and 2,3-BPG also affect affinity."
+    },
+    {
+     "label": "Control",
+     "body": "Holding them constant isolates pH's effect."
+    }
+   ],
+   "takeaway": "Any factor that affects the outcome must be held constant or measured.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0023",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p04",
+   "position": 4,
+   "type": "cardio_resp",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-bohr-effect"
+   ],
+   "outline": {
+    "category": "3B",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 2.95,
+   "rank": 310,
+   "targetSec": 97,
+   "prompt": "Based on the trend in Table 1, the P50 at pH 7.0 would most likely be",
+   "options": [
+    {
+     "id": "A",
+     "text": "less than 22 mmHg",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Lower pH has raised P50, not lowered it."
+    },
+    {
+     "id": "B",
+     "text": "between 22 and 26 mmHg",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Those values belong to higher pH."
+    },
+    {
+     "id": "C",
+     "text": "between 26 and 31 mmHg",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That range lies between pH 7.4 and 7.2, above pH 7.0."
+    },
+    {
+     "id": "D",
+     "text": "greater than 31 mmHg",
+     "correct": true,
+     "trap": null,
+     "why": "P50 rises as pH falls, so at pH 7.0 it should exceed the 31 mmHg seen at pH 7.2."
+    }
+   ],
+   "tldr": "Continue the trend: lower pH, higher P50.",
+   "steps": [
+    {
+     "label": "Trend",
+     "body": "Each 0.2 drop in pH raised P50 by 4–5 mmHg."
+    },
+    {
+     "label": "Extrapolate",
+     "body": "pH 7.0 should be above 31 mmHg."
+    }
+   ],
+   "takeaway": "For extrapolation, follow the direction of the trend beyond the last data point.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0024",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p05",
+   "position": 1,
+   "type": "genetics",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-recombination-mapping"
+   ],
+   "outline": {
+    "category": "1C",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 3.34,
+   "rank": 319,
+   "targetSec": 97,
+   "prompt": "What is the recombination frequency between the two genes?",
+   "options": [
+    {
+     "id": "A",
+     "text": "8.5%",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That counts only one of the two recombinant classes."
+    },
+    {
+     "id": "B",
+     "text": "17%",
+     "correct": true,
+     "trap": null,
+     "why": "Recombinants are 85 + 85 = 170 of 1,000 offspring."
+    },
+    {
+     "id": "C",
+     "text": "50%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "50% is what unlinked genes would show."
+    },
+    {
+     "id": "D",
+     "text": "83%",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That is the share of parental types."
+    }
+   ],
+   "tldr": "170 recombinants out of 1,000 is 17%.",
+   "steps": [
+    {
+     "label": "Identify recombinants",
+     "body": "Gray-vestigial and black-normal (85 each)."
+    },
+    {
+     "label": "Calculate",
+     "body": "170 / 1,000 = 17%, about 17 map units apart."
+    }
+   ],
+   "takeaway": "Recombination frequency = all recombinants ÷ all offspring.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0025",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p05",
+   "position": 2,
+   "type": "genetics",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-recombination-mapping"
+   ],
+   "outline": {
+    "category": "1C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.97,
+   "rank": 311,
+   "targetSec": 97,
+   "prompt": "If the two genes assorted independently, about how many of the 1,000 offspring would be gray-bodied with vestigial wings?",
+   "options": [
+    {
+     "id": "A",
+     "text": "85",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is the observed number, which reflects linkage."
+    },
+    {
+     "id": "B",
+     "text": "250",
+     "correct": true,
+     "trap": null,
+     "why": "Independent assortment gives a 1:1:1:1 testcross ratio, so each class is a quarter of 1,000."
+    },
+    {
+     "id": "C",
+     "text": "415",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is the observed number of each parental class."
+    },
+    {
+     "id": "D",
+     "text": "500",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Half the offspring would be gray, but only half of those would also be vestigial."
+    }
+   ],
+   "tldr": "Unlinked genes give four equal classes of 250.",
+   "steps": [
+    {
+     "label": "Expected ratio",
+     "body": "Testcross of a dihybrid with unlinked genes is 1:1:1:1."
+    },
+    {
+     "label": "Apply",
+     "body": "1,000 ÷ 4 = 250."
+    }
+   ],
+   "takeaway": "A 1:1:1:1 testcross ratio is the signature of independent assortment.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0026",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p05",
+   "position": 3,
+   "type": "genetics",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-recombination-mapping"
+   ],
+   "outline": {
+    "category": "1C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.63,
+   "rank": 296,
+   "targetSec": 97,
+   "prompt": "Which offspring are recombinants?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Gray-bodied, normal-winged flies and black-bodied, vestigial-winged flies",
+     "correct": false,
+     "trap": "reversal",
+     "why": "Those match the combinations the dihybrid inherited, so they are parental."
+    },
+    {
+     "id": "B",
+     "text": "All vestigial-winged flies",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Black, vestigial-winged flies are parental."
+    },
+    {
+     "id": "C",
+     "text": "Gray-bodied, vestigial-winged flies and black-bodied, normal-winged flies",
+     "correct": true,
+     "trap": null,
+     "why": "The dihybrid parent got G with W and g with w, so the new combinations are recombinant."
+    },
+    {
+     "id": "D",
+     "text": "All gray-bodied flies",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Gray, normal-winged flies are parental."
+    }
+   ],
+   "tldr": "The new combinations (G with w, g with W) are recombinants.",
+   "steps": [
+    {
+     "label": "Parental combinations",
+     "body": "G with W, and g with w."
+    },
+    {
+     "label": "Recombinants",
+     "body": "The other two, which are also the rarer classes."
+    }
+   ],
+   "takeaway": "In a testcross, the two rarest classes are the recombinants.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0027",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p05",
+   "position": 4,
+   "type": "genetics",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-recombination-mapping"
+   ],
+   "outline": {
+    "category": "1C",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.31,
+   "rank": 318,
+   "targetSec": 97,
+   "prompt": "Why did the researcher cross the dihybrid flies with black-bodied, vestigial-winged flies rather than with other dihybrids?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Testcrosses produce more offspring than other crosses.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Offspring number isn't the reason."
+    },
+    {
+     "id": "B",
+     "text": "Only homozygous recessive flies carry the two genes on the same chromosome.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Linkage depends on where the genes sit, which is the same in every fly of the species."
+    },
+    {
+     "id": "C",
+     "text": "The homozygous recessive parent contributes only recessive alleles, so each offspring's phenotype shows which alleles it got from the dihybrid.",
+     "correct": true,
+     "trap": null,
+     "why": "That is the logic of a testcross."
+    },
+    {
+     "id": "D",
+     "text": "Crossing two dihybrids would produce no recombinants.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Recombination would still occur but would be harder to see."
+    }
+   ],
+   "tldr": "The recessive tester makes the dihybrid's gametes visible.",
+   "steps": [
+    {
+     "label": "Tester's gametes",
+     "body": "Always g w."
+    },
+    {
+     "label": "Payoff",
+     "body": "Offspring phenotype = the dihybrid gamete's alleles."
+    }
+   ],
+   "takeaway": "A testcross reads out the other parent's gametes directly.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0028",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p06",
+   "position": 1,
+   "type": "nervous_system",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-action-potential"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 2.71,
+   "rank": 298,
+   "targetSec": 97,
+   "prompt": "TTX most likely blocks",
+   "options": [
+    {
+     "id": "A",
+     "text": "the Na⁺/K⁺-ATPase",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The pump doesn't carry the fast inward current seen during depolarization."
+    },
+    {
+     "id": "B",
+     "text": "ligand-gated acetylcholine receptors",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The currents were triggered by voltage steps, not by a neurotransmitter."
+    },
+    {
+     "id": "C",
+     "text": "voltage-gated Na⁺ channels",
+     "correct": true,
+     "trap": null,
+     "why": "The early inward Na⁺ current disappeared while the K⁺ current remained."
+    },
+    {
+     "id": "D",
+     "text": "voltage-gated K⁺ channels",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "The delayed outward K⁺ current was still present."
+    }
+   ],
+   "tldr": "Only the fast Na⁺ current vanished.",
+   "steps": [
+    {
+     "label": "Compare",
+     "body": "Na⁺ current gone; K⁺ current and resting potential unchanged."
+    },
+    {
+     "label": "Conclude",
+     "body": "TTX targets voltage-gated Na⁺ channels."
+    }
+   ],
+   "takeaway": "A blocker's target is the current that disappears.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0029",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p06",
+   "position": 2,
+   "type": "nervous_system",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-action-potential"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.77,
+   "rank": 300,
+   "targetSec": 97,
+   "prompt": "In the presence of TTX, a stimulus that normally triggers an action potential would",
+   "options": [
+    {
+     "id": "A",
+     "text": "produce a larger action potential",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Blocking the depolarizing current prevents the spike."
+    },
+    {
+     "id": "B",
+     "text": "fail to produce an action potential, because the rising phase depends on Na⁺ influx",
+     "correct": true,
+     "trap": null,
+     "why": "Without voltage-gated Na⁺ channels, the membrane can't depolarize rapidly."
+    },
+    {
+     "id": "C",
+     "text": "produce an action potential with a longer refractory period",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "No action potential can fire at all."
+    },
+    {
+     "id": "D",
+     "text": "produce an action potential that never repolarizes",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Slowed repolarization would follow from blocking K⁺ channels, not Na⁺ channels."
+    }
+   ],
+   "tldr": "No Na⁺ influx means no rising phase.",
+   "steps": [
+    {
+     "label": "Rising phase",
+     "body": "Driven by voltage-gated Na⁺ channels."
+    },
+    {
+     "label": "With TTX",
+     "body": "Those channels are blocked, so no action potential."
+    }
+   ],
+   "takeaway": "Na⁺ channels drive depolarization; K⁺ channels drive repolarization.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0030",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p06",
+   "position": 3,
+   "type": "nervous_system",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-action-potential"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.26,
+   "rank": 312,
+   "targetSec": 97,
+   "prompt": "The unchanged resting membrane potential after TTX suggests that",
+   "options": [
+    {
+     "id": "A",
+     "text": "the channels TTX blocks are mostly closed at rest",
+     "correct": true,
+     "trap": null,
+     "why": "Blocking closed channels wouldn't change the resting potential."
+    },
+    {
+     "id": "B",
+     "text": "TTX also blocks K⁺ channels",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The K⁺ current was still present."
+    },
+    {
+     "id": "C",
+     "text": "the resting potential depends mainly on Na⁺ permeability",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "The resting potential depends mainly on K⁺ permeability."
+    },
+    {
+     "id": "D",
+     "text": "TTX increases the membrane's permeability to K⁺",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The K⁺ current was unchanged."
+    }
+   ],
+   "tldr": "Voltage-gated Na⁺ channels are closed at rest, so blocking them doesn't move resting potential.",
+   "steps": [
+    {
+     "label": "Observation",
+     "body": "Resting potential stayed −70 mV."
+    },
+    {
+     "label": "Inference",
+     "body": "The blocked channels contribute little at rest."
+    }
+   ],
+   "takeaway": "The resting potential is set mostly by K⁺ leak channels.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-bb-0031",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "BB",
+   "passageId": "mcat-bb-p06",
+   "position": 4,
+   "type": "nervous_system",
+   "family": "biology",
+   "knowledgePoints": [
+    "kp-mcat-action-potential"
+   ],
+   "outline": {
+    "category": "3A",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.29,
+   "rank": 317,
+   "targetSec": 97,
+   "prompt": "Why did the researchers use a voltage clamp instead of simply recording action potentials?",
+   "options": [
+    {
+     "id": "A",
+     "text": "To keep the temperature of the axon constant",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "A voltage clamp doesn't control temperature."
+    },
+    {
+     "id": "B",
+     "text": "To measure the current through each channel type at controlled voltages, separating the Na⁺ and K⁺ components",
+     "correct": true,
+     "trap": null,
+     "why": "Holding voltage fixed lets the currents themselves be measured and compared."
+    },
+    {
+     "id": "C",
+     "text": "To increase the axon's diameter",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "A voltage clamp doesn't change the axon's size."
+    },
+    {
+     "id": "D",
+     "text": "To keep TTX from entering the axon",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The clamp controls voltage, not drug entry."
+    }
+   ],
+   "tldr": "The clamp turns a voltage spike into measurable currents.",
+   "steps": [
+    {
+     "label": "Problem",
+     "body": "During an action potential, voltage and currents change together."
+    },
+    {
+     "label": "Solution",
+     "body": "Fix the voltage and measure the currents directly."
+    }
+   ],
+   "takeaway": "Controlling one variable lets you measure another cleanly.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-bb-0001",
    "version": 1,
    "exam": "MCAT",
@@ -21420,7 +22740,7 @@
     "category": "1A",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.23,
    "rank": 274,
    "targetSec": 97,
@@ -21558,7 +22878,7 @@
     "category": "1B",
     "sirs": 1
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.15,
    "rank": 272,
    "targetSec": 97,
@@ -21698,7 +23018,7 @@
     "category": "1C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.21,
    "rank": 273,
    "targetSec": 97,
@@ -21770,7 +23090,7 @@
    },
    "difficulty": 5,
    "rating": 2.87,
-   "rank": 300,
+   "rank": 307,
    "targetSec": 97,
    "prompt": "Based on Table 1, what is the approximate Km of enzyme E in the absence of X?",
    "options": [
@@ -21841,7 +23161,7 @@
    },
    "difficulty": 5,
    "rating": 3.29,
-   "rank": 301,
+   "rank": 315,
    "targetSec": 97,
    "prompt": "Which type of inhibition by compound X is most consistent with the data?",
    "options": [
@@ -21913,7 +23233,7 @@
    },
    "difficulty": 5,
    "rating": 3.96,
-   "rank": 302,
+   "rank": 322,
    "targetSec": 120,
    "prompt": "If the experiment were repeated with 20 µM X instead of 10 µM X, which V₀ would be expected at [S] = 50 mM?",
    "options": [
@@ -28851,7 +30171,7 @@
     "category": "5D",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.86,
    "rank": 189,
    "targetSec": 97,
@@ -29729,7 +31049,7 @@
     "category": "4D",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.35,
    "rank": 54,
    "targetSec": 97,
@@ -29945,7 +31265,7 @@
     "category": "4D",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.35,
    "rank": 55,
    "targetSec": 97,
@@ -30385,7 +31705,7 @@
     "category": "5C",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 188,
    "targetSec": 97,
@@ -30825,7 +32145,7 @@
     "category": "5C",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.86,
    "rank": 190,
    "targetSec": 97,
@@ -31768,7 +33088,7 @@
     "category": "4E",
     "sirs": 1
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.35,
    "rank": 56,
    "targetSec": 97,
@@ -36506,7 +37826,7 @@
     "category": "5E",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.85,
    "rank": 187,
    "targetSec": 97,
@@ -36652,7 +37972,7 @@
     "category": "5E",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.89,
    "rank": 192,
    "targetSec": 97,
@@ -37233,7 +38553,7 @@
     "category": "4D",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.88,
    "rank": 191,
    "targetSec": 97,
@@ -37305,7 +38625,7 @@
     "category": "4C",
     "sirs": 1
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.91,
    "rank": 193,
    "targetSec": 97,
@@ -38689,9 +40009,9 @@
     "category": "5A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.55,
-   "rank": 251,
+   "rank": 252,
    "targetSec": 97,
    "prompt": "A buffer is made from acetic acid (pKa = 4.76) and sodium acetate. If the acetate concentration is ten times the acetic acid concentration, what is the pH?",
    "model": "cp-acids_bases",
@@ -38765,9 +40085,9 @@
     "category": "5A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.55,
-   "rank": 252,
+   "rank": 253,
    "targetSec": 97,
    "prompt": "A buffer is made from formic acid (pKa = 3.75) and sodium formate. If the formate concentration is one-tenth of the formic acid concentration, what is the pH?",
    "model": "cp-acids_bases",
@@ -38843,7 +40163,7 @@
    },
    "difficulty": 5,
    "rating": 2.6,
-   "rank": 255,
+   "rank": 256,
    "targetSec": 97,
    "prompt": "A buffer is made from ammonium chloride (NH₄⁺) (pKa = 9.25) and ammonia (NH₃). If the ammonia concentration is 100 times the ammonium concentration, what is the pH?",
    "model": "cp-acids_bases",
@@ -38919,7 +40239,7 @@
    },
    "difficulty": 5,
    "rating": 2.55,
-   "rank": 254,
+   "rank": 255,
    "targetSec": 97,
    "prompt": "A buffer is made from sodium dihydrogen phosphate (H₂PO₄⁻) (pKa = 7.21) and sodium hydrogen phosphate (HPO₄²⁻). If the HPO₄²⁻ concentration is one-hundredth of the H₂PO₄⁻ concentration, what is the pH?",
    "model": "cp-acids_bases",
@@ -38993,9 +40313,9 @@
     "category": "5A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.55,
-   "rank": 253,
+   "rank": 254,
    "targetSec": 97,
    "prompt": "A buffer is made from carbonic acid (pKa = 6.35) and sodium bicarbonate. If the bicarbonate concentration is ten times the carbonic acid concentration, what is the pH?",
    "model": "cp-acids_bases",
@@ -39141,7 +40461,7 @@
     "category": "5A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 121,
    "targetSec": 97,
@@ -39213,7 +40533,7 @@
     "category": "5A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 122,
    "targetSec": 97,
@@ -39285,7 +40605,7 @@
     "category": "5A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 123,
    "targetSec": 97,
@@ -39357,7 +40677,7 @@
     "category": "5A",
     "sirs": 1
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 124,
    "targetSec": 97,
@@ -41038,7 +42358,7 @@
     "category": "4C",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 125,
    "targetSec": 97,
@@ -41539,7 +42859,7 @@
     "category": "4C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.95,
    "rank": 194,
    "targetSec": 97,
@@ -41970,7 +43290,7 @@
     "category": "4A",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 127,
    "targetSec": 97,
@@ -42183,7 +43503,7 @@
     "category": "4A",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 126,
    "targetSec": 97,
@@ -42328,7 +43648,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 261,
+   "rank": 265,
    "targetSec": 97,
    "prompt": "A ball rolls off a horizontal ledge 20 m high at 5 m/s. Ignoring air resistance (g ≈ 10 m/s²), how far from the base of the ledge does it land?",
    "model": "cp-kinematics",
@@ -42400,7 +43720,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 262,
+   "rank": 266,
    "targetSec": 97,
    "prompt": "A ball rolls off a horizontal ledge 45 m high at 10 m/s. Ignoring air resistance (g ≈ 10 m/s²), how far from the base of the ledge does it land?",
    "model": "cp-kinematics",
@@ -42472,7 +43792,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 263,
+   "rank": 267,
    "targetSec": 97,
    "prompt": "A ball rolls off a horizontal ledge 5 m high at 4 m/s. Ignoring air resistance (g ≈ 10 m/s²), how far from the base of the ledge does it land?",
    "model": "cp-kinematics",
@@ -42544,7 +43864,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 264,
+   "rank": 268,
    "targetSec": 97,
    "prompt": "A ball rolls off a horizontal ledge 80 m high at 3 m/s. Ignoring air resistance (g ≈ 10 m/s²), how far from the base of the ledge does it land?",
    "model": "cp-kinematics",
@@ -42616,7 +43936,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 265,
+   "rank": 269,
    "targetSec": 97,
    "prompt": "A ball rolls off a horizontal ledge 1.25 m high at 2 m/s. Ignoring air resistance (g ≈ 10 m/s²), how far from the base of the ledge does it land?",
    "model": "cp-kinematics",
@@ -43189,7 +44509,7 @@
    },
    "difficulty": 4,
    "rating": 2.35,
-   "rank": 236,
+   "rank": 237,
    "targetSec": 97,
    "prompt": "A motor lifts a 10 kg mass 2 m straight up at constant speed in 4 s. What average power does it deliver? (g ≈ 10 m/s²)",
    "model": "cp-work_energy",
@@ -43260,7 +44580,7 @@
    },
    "difficulty": 4,
    "rating": 2.35,
-   "rank": 237,
+   "rank": 238,
    "targetSec": 97,
    "prompt": "What is the gauge pressure at a depth of 10 m in fresh water? (ρ = 1000 kg/m³, g ≈ 10 m/s², atmospheric pressure ≈ 100 kPa)",
    "model": "cp-fluids",
@@ -43332,7 +44652,7 @@
    },
    "difficulty": 4,
    "rating": 2.35,
-   "rank": 238,
+   "rank": 239,
    "targetSec": 97,
    "prompt": "What is the gauge pressure at a depth of 20 m in fresh water? (ρ = 1000 kg/m³, g ≈ 10 m/s², atmospheric pressure ≈ 100 kPa)",
    "model": "cp-fluids",
@@ -43404,7 +44724,7 @@
    },
    "difficulty": 4,
    "rating": 2.35,
-   "rank": 239,
+   "rank": 240,
    "targetSec": 97,
    "prompt": "What is the absolute pressure at a depth of 30 m in fresh water? (ρ = 1000 kg/m³, g ≈ 10 m/s², atmospheric pressure ≈ 100 kPa)",
    "model": "cp-fluids",
@@ -43476,7 +44796,7 @@
    },
    "difficulty": 4,
    "rating": 2.35,
-   "rank": 240,
+   "rank": 241,
    "targetSec": 97,
    "prompt": "What is the gauge pressure at a depth of 5 m in fresh water? (ρ = 1000 kg/m³, g ≈ 10 m/s², atmospheric pressure ≈ 100 kPa)",
    "model": "cp-fluids",
@@ -43546,9 +44866,9 @@
     "category": "4B",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.35,
-   "rank": 241,
+   "rank": 242,
    "targetSec": 97,
    "prompt": "What is the absolute pressure at a depth of 10 m in fresh water? (ρ = 1000 kg/m³, g ≈ 10 m/s², atmospheric pressure ≈ 100 kPa)",
    "model": "cp-fluids",
@@ -43618,7 +44938,7 @@
     "category": "4B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.95,
    "rank": 198,
    "targetSec": 97,
@@ -43689,7 +45009,7 @@
     "category": "4B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.95,
    "rank": 195,
    "targetSec": 97,
@@ -43760,7 +45080,7 @@
     "category": "4B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.95,
    "rank": 196,
    "targetSec": 97,
@@ -43831,7 +45151,7 @@
     "category": "4B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 1.95,
    "rank": 197,
    "targetSec": 97,
@@ -44188,7 +45508,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 256,
+   "rank": 260,
    "targetSec": 97,
    "prompt": "An object is placed 60 cm from a converging lens with a focal length of 20 cm. Where does the image form?",
    "model": "cp-optics",
@@ -44264,7 +45584,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 257,
+   "rank": 261,
    "targetSec": 97,
    "prompt": "An object is placed 20 cm from a converging lens with a focal length of 10 cm. Where does the image form?",
    "model": "cp-optics",
@@ -44340,7 +45660,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 258,
+   "rank": 262,
    "targetSec": 97,
    "prompt": "An object is placed 15 cm from a converging lens with a focal length of 5 cm. Where does the image form?",
    "model": "cp-optics",
@@ -44416,7 +45736,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 259,
+   "rank": 263,
    "targetSec": 97,
    "prompt": "An object is placed 10 cm from a converging lens with a focal length of 15 cm. Where does the image form?",
    "model": "cp-optics",
@@ -44492,7 +45812,7 @@
    },
    "difficulty": 5,
    "rating": 2.75,
-   "rank": 260,
+   "rank": 264,
    "targetSec": 97,
    "prompt": "An object is placed 24 cm from a converging lens with a focal length of 8 cm. Where does the image form?",
    "model": "cp-optics",
@@ -44567,9 +45887,9 @@
     "category": "4D",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 247,
+   "rank": 248,
    "targetSec": 97,
    "prompt": "An object sits 30 cm from a converging lens of focal length 10 cm. What is the magnification of the image?",
    "model": "cp-optics",
@@ -44639,9 +45959,9 @@
     "category": "4D",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 248,
+   "rank": 249,
    "targetSec": 97,
    "prompt": "An object sits 15 cm from a converging lens of focal length 10 cm. What is the magnification of the image?",
    "model": "cp-optics",
@@ -44711,9 +46031,9 @@
     "category": "4D",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 249,
+   "rank": 250,
    "targetSec": 97,
    "prompt": "An object sits 10 cm from a converging lens of focal length 20 cm. What is the magnification of the image?",
    "model": "cp-optics",
@@ -44783,9 +46103,9 @@
     "category": "4D",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 250,
+   "rank": 251,
    "targetSec": 97,
    "prompt": "An object sits 25 cm from a converging lens of focal length 15 cm. What is the magnification of the image?",
    "model": "cp-optics",
@@ -46071,9 +47391,9 @@
     "category": "5E",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 243,
+   "rank": 244,
    "targetSec": 97,
    "prompt": "A reaction has ΔH = +30 kJ/mol and ΔS = +150 J/(mol·K). Assuming both are constant, when is it spontaneous?",
    "model": "cp-thermodynamics",
@@ -46142,9 +47462,9 @@
     "category": "5E",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 244,
+   "rank": 245,
    "targetSec": 97,
    "prompt": "A reaction has ΔH = −50 kJ/mol and ΔS = −100 J/(mol·K). Assuming both are constant, when is it spontaneous?",
    "model": "cp-thermodynamics",
@@ -46213,9 +47533,9 @@
     "category": "5E",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 245,
+   "rank": 246,
    "targetSec": 97,
    "prompt": "A reaction has ΔH = +80 kJ/mol and ΔS = +200 J/(mol·K). Assuming both are constant, when is it spontaneous?",
    "model": "cp-thermodynamics",
@@ -46284,9 +47604,9 @@
     "category": "5E",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.4,
-   "rank": 246,
+   "rank": 247,
    "targetSec": 97,
    "prompt": "A reaction has ΔH = −60 kJ/mol and ΔS = −150 J/(mol·K). Assuming both are constant, when is it spontaneous?",
    "model": "cp-thermodynamics",
@@ -47415,6 +48735,1062 @@
    "status": "review"
   },
   {
+   "id": "mcat-cp-0010",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p01",
+   "position": 1,
+   "type": "acids_bases",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-henderson-hasselbalch"
+   ],
+   "outline": {
+    "category": "5A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.67,
+   "rank": 257,
+   "targetSec": 97,
+   "prompt": "Why did both buffers start at a pH of 4.76?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Sodium acetate is a strong acid that fixes the pH.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Acetate is a weak base."
+    },
+    {
+     "id": "B",
+     "text": "Each contained equal concentrations of acetic acid and acetate, so pH = pKa.",
+     "correct": true,
+     "trap": null,
+     "why": "When [A⁻] = [HA], the log term in the Henderson–Hasselbalch equation is zero."
+    },
+    {
+     "id": "C",
+     "text": "Buffer B was more concentrated, so it had to match buffer A.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Concentration doesn't set the pH; the base-to-acid ratio does."
+    },
+    {
+     "id": "D",
+     "text": "Every buffer has a pH of 4.76.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Buffer pH depends on the acid's pKa and the ratio of base to acid."
+    }
+   ],
+   "tldr": "Equal acid and base means pH = pKa.",
+   "steps": [
+    {
+     "label": "Equation",
+     "body": "pH = pKa + log([A⁻]/[HA])."
+    },
+    {
+     "label": "Equal amounts",
+     "body": "log(1) = 0, so pH = 4.76."
+    }
+   ],
+   "takeaway": "A buffer's pH equals the pKa when acid and conjugate base are equal.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0011",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p01",
+   "position": 2,
+   "type": "acids_bases",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-henderson-hasselbalch"
+   ],
+   "outline": {
+    "category": "5A",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 3.43,
+   "rank": 280,
+   "targetSec": 97,
+   "prompt": "Which conclusion about buffer capacity is best supported by Table 1?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Buffer A had greater capacity because its pH changed more.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "A larger pH change means less capacity, not more."
+    },
+    {
+     "id": "B",
+     "text": "Both buffers had the same capacity because they started at the same pH.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Their pH changes differed (0.09 vs. 0.01)."
+    },
+    {
+     "id": "C",
+     "text": "Buffer B resisted the pH change more because it had more acid and base to react with the added HCl.",
+     "correct": true,
+     "trap": null,
+     "why": "The same 0.010 mol of H⁺ changed the base-to-acid ratio much less in B."
+    },
+    {
+     "id": "D",
+     "text": "Pure water buffered the acid better than either buffer.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Water's pH dropped by 5 units."
+    }
+   ],
+   "tldr": "More buffer components, smaller pH change.",
+   "steps": [
+    {
+     "label": "Compare",
+     "body": "A dropped 0.09 units; B dropped 0.01."
+    },
+    {
+     "label": "Reason",
+     "body": "B's larger reserves change ratio less per mole of acid."
+    }
+   ],
+   "takeaway": "Capacity depends on concentration; pH depends on the ratio.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0012",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p01",
+   "position": 3,
+   "type": "acids_bases",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-henderson-hasselbalch"
+   ],
+   "outline": {
+    "category": "5A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 4.18,
+   "rank": 283,
+   "targetSec": 97,
+   "prompt": "What would the pH of buffer A be after adding a total of 0.050 mol of HCl instead of 0.010 mol?",
+   "options": [
+    {
+     "id": "A",
+     "text": "3.76",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That uses a ratio of 1/10, as if almost all the base were gone."
+    },
+    {
+     "id": "B",
+     "text": "4.28",
+     "correct": true,
+     "trap": null,
+     "why": "HA becomes 0.15 mol and A⁻ 0.05 mol; pH = 4.76 + log(1/3) = 4.76 − 0.48 = 4.28."
+    },
+    {
+     "id": "C",
+     "text": "4.46",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That uses a ratio of 1/2 instead of 0.05/0.15."
+    },
+    {
+     "id": "D",
+     "text": "5.24",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Adding acid lowers the pH; this adds 0.48 instead of subtracting it."
+    }
+   ],
+   "tldr": "0.05 base over 0.15 acid gives log(1/3) = −0.48.",
+   "steps": [
+    {
+     "label": "React",
+     "body": "0.050 mol H⁺ converts 0.050 mol A⁻ to HA, leaving A⁻ = 0.05 and HA = 0.15."
+    },
+    {
+     "label": "Solve",
+     "body": "pH = 4.76 + log(0.05/0.15) = 4.28."
+    }
+   ],
+   "takeaway": "Do the neutralization first, then plug the new amounts into Henderson–Hasselbalch.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0013",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p01",
+   "position": 4,
+   "type": "acids_bases",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-henderson-hasselbalch"
+   ],
+   "outline": {
+    "category": "5A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.71,
+   "rank": 258,
+   "targetSec": 97,
+   "prompt": "Why did the pH of pure water change so much more than that of either buffer?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Water has a higher pKa than acetic acid.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The issue is that nothing in pure water neutralizes the acid."
+    },
+    {
+     "id": "B",
+     "text": "The HCl evaporated from the buffers but not from the water.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing suggests that, and HCl stays dissolved."
+    },
+    {
+     "id": "C",
+     "text": "Water contains no weak base to consume the added H⁺, so the H⁺ stays free in solution.",
+     "correct": true,
+     "trap": null,
+     "why": "All 0.010 mol of H⁺ remain, giving [H⁺] = 0.010 M and pH 2."
+    },
+    {
+     "id": "D",
+     "text": "Water reacts with HCl to form a strong base.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Water doesn't form a strong base with HCl."
+    }
+   ],
+   "tldr": "No conjugate base, no buffering.",
+   "steps": [
+    {
+     "label": "Water",
+     "body": "0.010 mol H⁺ in 1.0 L gives 0.010 M, so pH = 2.00."
+    },
+    {
+     "label": "Buffers",
+     "body": "Acetate consumes the H⁺, so the pH barely moves."
+    }
+   ],
+   "takeaway": "A buffer needs a weak acid and its conjugate base to absorb added acid or base.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0014",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p02",
+   "position": 1,
+   "type": "thermodynamics",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-calorimetry"
+   ],
+   "outline": {
+    "category": "5E",
+    "sirs": 4
+   },
+   "difficulty": 4,
+   "rating": 2.32,
+   "rank": 235,
+   "targetSec": 97,
+   "prompt": "Which salt would be the best choice for an instant cold pack?",
+   "options": [
+    {
+     "id": "A",
+     "text": "NH₄NO₃",
+     "correct": true,
+     "trap": null,
+     "why": "It produced the largest temperature drop, so its dissolving absorbs the most heat."
+    },
+    {
+     "id": "B",
+     "text": "All three would work equally well.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "The temperature changes differ in size and sign."
+    },
+    {
+     "id": "C",
+     "text": "CaCl₂",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "CaCl₂ warmed the water, which suits a hot pack."
+    },
+    {
+     "id": "D",
+     "text": "NaCl",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "NaCl cooled the water only slightly."
+    }
+   ],
+   "tldr": "Biggest drop wins.",
+   "steps": [
+    {
+     "label": "Read",
+     "body": "NH₄NO₃ −3.7 °C, NaCl −0.8 °C, CaCl₂ +8.5 °C."
+    },
+    {
+     "label": "Choose",
+     "body": "NH₄NO₃ absorbs the most heat."
+    }
+   ],
+   "takeaway": "A temperature drop means the dissolving process is endothermic.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0015",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p02",
+   "position": 2,
+   "type": "thermodynamics",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-gibbs-temperature"
+   ],
+   "outline": {
+    "category": "5E",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.38,
+   "rank": 277,
+   "targetSec": 97,
+   "prompt": "NH₄NO₃ dissolves spontaneously even though the process absorbs heat. This means that for dissolving NH₄NO₃,",
+   "options": [
+    {
+     "id": "A",
+     "text": "ΔG is positive",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Spontaneous processes have a negative ΔG."
+    },
+    {
+     "id": "B",
+     "text": "TΔS is greater than ΔH, so ΔG is negative",
+     "correct": true,
+     "trap": null,
+     "why": "For an endothermic process to be spontaneous, the entropy term must outweigh ΔH."
+    },
+    {
+     "id": "C",
+     "text": "ΔH is negative",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Absorbing heat means ΔH is positive."
+    },
+    {
+     "id": "D",
+     "text": "ΔS is negative",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "A positive ΔH with a negative ΔS could never give a negative ΔG."
+    }
+   ],
+   "tldr": "Endothermic but spontaneous means entropy drives it.",
+   "steps": [
+    {
+     "label": "Equation",
+     "body": "ΔG = ΔH − TΔS."
+    },
+    {
+     "label": "Signs",
+     "body": "ΔH > 0, ΔG < 0, so TΔS > ΔH."
+    }
+   ],
+   "takeaway": "Endothermic processes are spontaneous only when entropy increases enough.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0016",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p02",
+   "position": 3,
+   "type": "thermodynamics",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-calorimetry"
+   ],
+   "outline": {
+    "category": "5E",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.51,
+   "rank": 281,
+   "targetSec": 97,
+   "prompt": "About how much heat was released when the CaCl₂ dissolved?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.036 kJ",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That leaves out the mass of the solution."
+    },
+    {
+     "id": "B",
+     "text": "0.37 kJ",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Check the conversion from J to kJ."
+    },
+    {
+     "id": "C",
+     "text": "3.7 kJ",
+     "correct": true,
+     "trap": null,
+     "why": "q = mcΔT = 105 g × 4.2 J/(g·°C) × 8.5 °C ≈ 3,700 J."
+    },
+    {
+     "id": "D",
+     "text": "37 kJ",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Check the conversion from J to kJ."
+    }
+   ],
+   "tldr": "q = mcΔT ≈ 3.7 kJ.",
+   "steps": [
+    {
+     "label": "Set up",
+     "body": "q = 105 × 4.2 × 8.5."
+    },
+    {
+     "label": "Compute",
+     "body": "About 3,750 J, or 3.7 kJ."
+    }
+   ],
+   "takeaway": "Heat = mass × specific heat × temperature change.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0017",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p02",
+   "position": 4,
+   "type": "thermodynamics",
+   "family": "gen_chem",
+   "knowledgePoints": [
+    "kp-mcat-calorimetry"
+   ],
+   "outline": {
+    "category": "5E",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.43,
+   "rank": 279,
+   "targetSec": 97,
+   "prompt": "Which change would make the temperature drop for NH₄NO₃ larger?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Dissolving 10 g of the salt in the same 100 g of water",
+     "correct": true,
+     "trap": null,
+     "why": "Twice as much salt absorbs about twice as much heat from the same water."
+    },
+    {
+     "id": "B",
+     "text": "Dissolving the 5.0 g sample in 200 g of water",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "The same heat spread over more water gives a smaller temperature change."
+    },
+    {
+     "id": "C",
+     "text": "Using NaCl instead",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "NaCl produced a smaller drop."
+    },
+    {
+     "id": "D",
+     "text": "Grinding the 5.0 g sample into a finer powder",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Grinding speeds dissolving but doesn't change the total heat absorbed."
+    }
+   ],
+   "tldr": "More salt, more heat absorbed, bigger drop.",
+   "steps": [
+    {
+     "label": "Heat absorbed",
+     "body": "Scales with the moles dissolved."
+    },
+    {
+     "label": "Temperature change",
+     "body": "ΔT = q / (mc), so more salt in the same water means a larger ΔT."
+    }
+   ],
+   "takeaway": "Rate and amount are different questions; only amount changes total heat.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0018",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p03",
+   "position": 1,
+   "type": "circuits",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-capacitors"
+   ],
+   "outline": {
+    "category": "4C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.89,
+   "rank": 275,
+   "targetSec": 97,
+   "prompt": "How much energy does the charged capacitor store?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.1 J",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That uses V instead of V²."
+    },
+    {
+     "id": "B",
+     "text": "20 J",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Check the conversion from µF to F."
+    },
+    {
+     "id": "C",
+     "text": "200 J",
+     "correct": true,
+     "trap": null,
+     "why": "U = ½CV² = ½ × (100 × 10⁻⁶ F) × (2,000 V)² = 200 J."
+    },
+    {
+     "id": "D",
+     "text": "400 J",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That leaves out the factor of ½."
+    }
+   ],
+   "tldr": "½CV² = 200 J.",
+   "steps": [
+    {
+     "label": "Convert",
+     "body": "100 µF = 1.0 × 10⁻⁴ F."
+    },
+    {
+     "label": "Compute",
+     "body": "½ × 10⁻⁴ × 4 × 10⁶ = 200 J."
+    }
+   ],
+   "takeaway": "Capacitor energy is ½CV², so voltage counts twice.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0019",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p03",
+   "position": 2,
+   "type": "circuits",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-capacitors"
+   ],
+   "outline": {
+    "category": "4C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.75,
+   "rank": 259,
+   "targetSec": 97,
+   "prompt": "If the charging voltage were doubled, the stored energy would",
+   "options": [
+    {
+     "id": "A",
+     "text": "double",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The charge doubles, but energy goes with V²."
+    },
+    {
+     "id": "B",
+     "text": "stay the same",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Stored energy depends on voltage."
+    },
+    {
+     "id": "C",
+     "text": "quadruple",
+     "correct": true,
+     "trap": null,
+     "why": "Energy depends on V², and 2² = 4."
+    },
+    {
+     "id": "D",
+     "text": "be cut in half",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "More voltage stores more energy."
+    }
+   ],
+   "tldr": "Energy goes with V squared.",
+   "steps": [
+    {
+     "label": "Relationship",
+     "body": "U = ½CV²."
+    },
+    {
+     "label": "Scale",
+     "body": "Doubling V multiplies U by 4."
+    }
+   ],
+   "takeaway": "When a variable is squared, doubling it quadruples the result.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0020",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p03",
+   "position": 3,
+   "type": "circuits",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-capacitors"
+   ],
+   "outline": {
+    "category": "4C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.41,
+   "rank": 278,
+   "targetSec": 97,
+   "prompt": "What is the time constant of the discharge?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.002 ms",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That divides C by R; the time constant is the product RC."
+    },
+    {
+     "id": "B",
+     "text": "0.5 ms",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Check the conversion from µF to F."
+    },
+    {
+     "id": "C",
+     "text": "5 ms",
+     "correct": true,
+     "trap": null,
+     "why": "τ = RC = 50 Ω × 1.0 × 10⁻⁴ F = 0.005 s."
+    },
+    {
+     "id": "D",
+     "text": "50 ms",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Check the conversion from µF to F."
+    }
+   ],
+   "tldr": "τ = RC = 5 ms.",
+   "steps": [
+    {
+     "label": "Multiply",
+     "body": "50 × 1.0 × 10⁻⁴ = 5 × 10⁻³ s."
+    },
+    {
+     "label": "Meaning",
+     "body": "After one τ, the charge has fallen to about 37% of its starting value."
+    }
+   ],
+   "takeaway": "The time constant of an RC circuit is R times C.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0021",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p03",
+   "position": 4,
+   "type": "circuits",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-capacitors"
+   ],
+   "outline": {
+    "category": "4C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.84,
+   "rank": 271,
+   "targetSec": 97,
+   "prompt": "What is the current through the patient at the instant discharge begins?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.025 A",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That is R/V, the inverse of Ohm's law."
+    },
+    {
+     "id": "B",
+     "text": "4 A",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "2,000 ÷ 50 is 40."
+    },
+    {
+     "id": "C",
+     "text": "40 A",
+     "correct": true,
+     "trap": null,
+     "why": "At the start, the full 2,000 V is across 50 Ω, so I = V/R = 40 A."
+    },
+    {
+     "id": "D",
+     "text": "100,000 A",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That multiplies V by R instead of dividing."
+    }
+   ],
+   "tldr": "I = V/R = 40 A at the start.",
+   "steps": [
+    {
+     "label": "At t = 0",
+     "body": "The capacitor's full voltage drives current through the chest."
+    },
+    {
+     "label": "Ohm's law",
+     "body": "2,000 V / 50 Ω = 40 A."
+    }
+   ],
+   "takeaway": "A discharging capacitor's current is largest at the start and decays with time.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0022",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p04",
+   "position": 1,
+   "type": "optics",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-refraction"
+   ],
+   "outline": {
+    "category": "4D",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 2.87,
+   "rank": 274,
+   "targetSec": 97,
+   "prompt": "What is the index of refraction of the plastic? (sin 30° = 0.50; sin 19.5° = 0.33)",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.67",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That puts the sines upside down; light slows and bends toward the normal in plastic, so n > 1."
+    },
+    {
+     "id": "B",
+     "text": "1.0",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is the index of air."
+    },
+    {
+     "id": "C",
+     "text": "1.5",
+     "correct": true,
+     "trap": null,
+     "why": "Snell's law gives n = sin 30° / sin 19.5° = 0.50 / 0.33 ≈ 1.5."
+    },
+    {
+     "id": "D",
+     "text": "2.0",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "An index of 2.0 would bend the 30° beam to about 14.5°."
+    }
+   ],
+   "tldr": "n = sin 30° / sin 19.5° ≈ 1.5.",
+   "steps": [
+    {
+     "label": "Snell's law",
+     "body": "n₁ sin θ₁ = n₂ sin θ₂, with n₁ = 1.00."
+    },
+    {
+     "label": "Solve",
+     "body": "n₂ = 0.50 / 0.33 ≈ 1.5."
+    }
+   ],
+   "takeaway": "Light bends toward the normal when it enters a medium with a higher index.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0023",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p04",
+   "position": 2,
+   "type": "optics",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-refraction"
+   ],
+   "outline": {
+    "category": "4D",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.81,
+   "rank": 270,
+   "targetSec": 97,
+   "prompt": "How fast does light travel in the plastic?",
+   "options": [
+    {
+     "id": "A",
+     "text": "2.0 × 10⁷ m/s",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "3.0 × 10⁸ ÷ 1.5 is 2.0 × 10⁸."
+    },
+    {
+     "id": "B",
+     "text": "2.0 × 10⁸ m/s",
+     "correct": true,
+     "trap": null,
+     "why": "v = c/n = 3.0 × 10⁸ / 1.5 = 2.0 × 10⁸ m/s."
+    },
+    {
+     "id": "C",
+     "text": "3.0 × 10⁸ m/s",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That is the speed in a vacuum."
+    },
+    {
+     "id": "D",
+     "text": "4.5 × 10⁸ m/s",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That multiplies by n; light is slower in plastic, not faster."
+    }
+   ],
+   "tldr": "v = c/n = 2.0 × 10⁸ m/s.",
+   "steps": [
+    {
+     "label": "Relationship",
+     "body": "n = c/v, so v = c/n."
+    },
+    {
+     "label": "Compute",
+     "body": "3.0 × 10⁸ / 1.5 = 2.0 × 10⁸ m/s."
+    }
+   ],
+   "takeaway": "A higher index means slower light.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0024",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p04",
+   "position": 3,
+   "type": "optics",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-refraction"
+   ],
+   "outline": {
+    "category": "4D",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 4.13,
+   "rank": 282,
+   "targetSec": 97,
+   "prompt": "Light traveling inside the block toward its surface with air will be totally internally reflected if its angle of incidence exceeds about (sin 45° ≈ 0.71)",
+   "options": [
+    {
+     "id": "A",
+     "text": "19°",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is a refraction angle from Table 1."
+    },
+    {
+     "id": "B",
+     "text": "35°",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is a refraction angle from Table 1."
+    },
+    {
+     "id": "C",
+     "text": "42°",
+     "correct": true,
+     "trap": null,
+     "why": "sin θc = n_air / n_plastic = 1.00 / 1.5 ≈ 0.67, so θc ≈ 42°."
+    },
+    {
+     "id": "D",
+     "text": "56°",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That is the angle whose tangent is 1.5 (Brewster's angle), not the critical angle."
+    }
+   ],
+   "tldr": "sin θc = 1/1.5, so θc ≈ 42°.",
+   "steps": [
+    {
+     "label": "Critical angle",
+     "body": "sin θc = n₂/n₁ for light going from the denser medium."
+    },
+    {
+     "label": "Solve",
+     "body": "1.00/1.5 ≈ 0.67, so θc ≈ 42°."
+    }
+   ],
+   "takeaway": "Total internal reflection needs light going from higher n to lower n beyond the critical angle.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cp-0025",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CP",
+   "passageId": "mcat-cp-p04",
+   "position": 4,
+   "type": "optics",
+   "family": "physics",
+   "knowledgePoints": [
+    "kp-mcat-refraction"
+   ],
+   "outline": {
+    "category": "4D",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.86,
+   "rank": 273,
+   "targetSec": 97,
+   "prompt": "As the laser light passes from air into the plastic, which property stays the same?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Its wavelength",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Wavelength shrinks because the light slows down while the frequency stays fixed."
+    },
+    {
+     "id": "B",
+     "text": "Its speed",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Light slows to about 2.0 × 10⁸ m/s in the plastic."
+    },
+    {
+     "id": "C",
+     "text": "Its frequency",
+     "correct": true,
+     "trap": null,
+     "why": "Frequency is set by the source and doesn't change at a boundary."
+    },
+    {
+     "id": "D",
+     "text": "Its direction",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Table 1 shows the beam bending at every nonzero angle."
+    }
+   ],
+   "tldr": "Frequency is fixed; speed and wavelength drop.",
+   "steps": [
+    {
+     "label": "Boundary rule",
+     "body": "Frequency stays constant across media."
+    },
+    {
+     "label": "Consequence",
+     "body": "v = fλ, so a slower speed means a shorter wavelength."
+    }
+   ],
+   "takeaway": "At a boundary, frequency is conserved; speed and wavelength change together.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-cp-0001",
    "version": 1,
    "exam": "MCAT",
@@ -47430,9 +49806,9 @@
     "category": "5A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.37,
-   "rank": 242,
+   "rank": 243,
    "targetSec": 97,
    "prompt": "A buffer is prepared from acetic acid (pKa = 4.76) and sodium acetate. If the acetate concentration is ten times the acetic acid concentration, what is the pH of the buffer?",
    "options": [
@@ -47502,7 +49878,7 @@
    },
    "difficulty": 4,
    "rating": 2.33,
-   "rank": 235,
+   "rank": 236,
    "targetSec": 97,
    "prompt": "A 6 Ω resistor and a 3 Ω resistor are connected in parallel across an ideal 12 V battery. What total current does the battery supply?",
    "options": [
@@ -47572,7 +49948,7 @@
    },
    "difficulty": 5,
    "rating": 2.93,
-   "rank": 267,
+   "rank": 276,
    "targetSec": 97,
    "prompt": "A reaction has ΔH = +40 kJ/mol and ΔS = +100 J/(mol·K). Assuming both values are independent of temperature, under what conditions is the reaction spontaneous?",
    "options": [
@@ -47918,7 +50294,7 @@
    },
    "difficulty": 5,
    "rating": 2.84,
-   "rank": 266,
+   "rank": 272,
    "targetSec": 97,
    "prompt": "An object is placed 30 cm in front of a converging lens with a focal length of 10 cm. Where does the image form?",
    "options": [
@@ -48052,7 +50428,7 @@
     "category": "7B",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.82,
    "rank": 110,
    "targetSec": 97,
@@ -48946,7 +51322,7 @@
    },
    "difficulty": 4,
    "rating": 2.23,
-   "rank": 205,
+   "rank": 206,
    "targetSec": 97,
    "prompt": "When a classmate trips on the stairs, Ana decides he is clumsy. When she trips on the same stairs, she blames the wet floor. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49023,7 +51399,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 196,
+   "rank": 197,
    "targetSec": 97,
    "prompt": "After a coworker misses a deadline, Ravi concludes she is lazy. He never learns that her child was in the hospital that week. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49098,9 +51474,9 @@
     "category": "8B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.2,
-   "rank": 169,
+   "rank": 170,
    "targetSec": 97,
    "prompt": "Jon credits his A in chemistry to his hard work but blames his D in history on unfair questions. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49177,7 +51553,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 191,
+   "rank": 192,
    "targetSec": 97,
    "prompt": "Told that a stranger lost her job in a mass layoff, Mara insists the woman must have done something to deserve it. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49254,7 +51630,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 175,
+   "rank": 176,
    "targetSec": 97,
    "prompt": "Interviewers rate a very attractive job candidate as more intelligent and trustworthy, though nothing in the interview showed either trait. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49326,7 +51702,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 176,
+   "rank": 177,
    "targetSec": 97,
    "prompt": "A voter who believes a senator is corrupt reads every news story about her but remembers only the unflattering ones. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49398,7 +51774,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 183,
+   "rank": 184,
    "targetSec": 97,
    "prompt": "Told that certain students are “late bloomers” who will soon excel, teachers give them extra attention, and those students’ scores rise. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49470,7 +51846,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 192,
+   "rank": 193,
    "targetSec": 97,
    "prompt": "Women reminded of a stereotype about gender and math just before a math test score lower than women who were not reminded. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49542,7 +51918,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 193,
+   "rank": 194,
    "targetSec": 97,
    "prompt": "Participants randomly sorted into a “blue team” and a “red team” give more reward money to members of their own arbitrary team. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49614,7 +51990,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 156,
+   "rank": 157,
    "targetSec": 97,
    "prompt": "After the election, Dev insists he always knew the underdog would win, though he predicted the opposite beforehand. Which bias does this best illustrate?",
    "model": "concept-attribution",
@@ -49686,7 +52062,7 @@
    },
    "difficulty": 4,
    "rating": 2.23,
-   "rank": 206,
+   "rank": 207,
    "targetSec": 97,
    "prompt": "A charity asks residents to sign a petition, then weeks later asks the same residents to donate. Those who signed donate far more often. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -49759,9 +52135,9 @@
     "category": "7C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.25,
-   "rank": 212,
+   "rank": 213,
    "targetSec": 97,
    "prompt": "A friend asks you to help him move every weekend for a month. When you refuse, he asks for help on just one Saturday, and you agree. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -49834,9 +52210,9 @@
     "category": "7C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.24,
-   "rank": 211,
+   "rank": 212,
    "targetSec": 97,
    "prompt": "After paying a steep fee to join a hiking club with dull meetings, members rate the club more favorably than people who joined for free. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -49911,7 +52287,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 138,
+   "rank": 139,
    "targetSec": 97,
    "prompt": "A smoker who knows smoking is harmful starts telling herself the health risks are exaggerated. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -49986,7 +52362,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 197,
+   "rank": 198,
    "targetSec": 97,
    "prompt": "A voter who cares deeply about a ballot measure studies both campaigns’ evidence and changes her mind because one side’s data are stronger. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -50058,7 +52434,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 157,
+   "rank": 158,
    "targetSec": 97,
    "prompt": "A shopper flipping through a magazine buys a sports drink because a famous athlete appears in its ad. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -50130,7 +52506,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 177,
+   "rank": 178,
    "targetSec": 97,
    "prompt": "Participants shown unfamiliar Chinese characters rate the ones they saw most often as the most pleasant, without knowing their meanings. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -50202,7 +52578,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 184,
+   "rank": 185,
    "targetSec": 97,
    "prompt": "A car dealer agrees to a low price, then “discovers” extra fees after the buyer has committed. Most buyers still sign. Which concept does this best illustrate?",
    "model": "concept-persuasion",
@@ -50274,7 +52650,7 @@
    },
    "difficulty": 3,
    "rating": 2.17,
-   "rank": 134,
+   "rank": 135,
    "targetSec": 97,
    "prompt": "After being criticized by his boss, a manager comes home and yells at his dog. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50351,7 +52727,7 @@
    },
    "difficulty": 3,
    "rating": 2.15,
-   "rank": 128,
+   "rank": 129,
    "targetSec": 97,
    "prompt": "A teenager with strong aggressive urges becomes a dedicated competitive boxer. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50428,7 +52804,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 153,
+   "rank": 154,
    "targetSec": 97,
    "prompt": "A man who is attracted to his coworker becomes convinced that she is the one flirting with him. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50505,7 +52881,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 158,
+   "rank": 159,
    "targetSec": 97,
    "prompt": "A student who dislikes her roommate goes out of her way to be extremely, almost theatrically, nice to her. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50582,7 +52958,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 185,
+   "rank": 186,
    "targetSec": 97,
    "prompt": "After being rejected by a selective program, Tom says he never really wanted to go there anyway because the location was bad. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50654,7 +53030,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 154,
+   "rank": 155,
    "targetSec": 97,
    "prompt": "Months after a car accident, a survivor cannot recall the crash at all, though she was conscious throughout. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50726,7 +53102,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 159,
+   "rank": 160,
    "targetSec": 97,
    "prompt": "A patient told he has a serious heart condition keeps insisting the test results must belong to someone else. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50798,7 +53174,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 143,
+   "rank": 144,
    "targetSec": 97,
    "prompt": "A six-year-old begins sucking his thumb and wetting the bed again after his baby sister is born. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50870,7 +53246,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 186,
+   "rank": 187,
    "targetSec": 97,
    "prompt": "Facing exam stress, a student decides to set aside her worries about a family conflict until the weekend so she can focus. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -50942,7 +53318,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 178,
+   "rank": 179,
    "targetSec": 97,
    "prompt": "After her diagnosis, a physician discusses her own cancer only in terms of staging criteria and survival statistics, never her feelings. Which defense mechanism is this?",
    "model": "concept-defense-mechanisms",
@@ -51396,7 +53772,7 @@
     "category": "7C",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 108,
    "targetSec": 97,
@@ -51830,7 +54206,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 144,
+   "rank": 145,
    "targetSec": 97,
    "prompt": "A gambler keeps pulling a slot machine’s lever, which pays out after an unpredictable number of pulls. Which reinforcement schedule is this?",
    "model": "concept-schedules",
@@ -51905,7 +54281,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 145,
+   "rank": 146,
    "targetSec": 97,
    "prompt": "A salesperson earns a commission after every fifth sale and takes a short break after each commission. Which reinforcement schedule is this?",
    "model": "concept-schedules",
@@ -51980,7 +54356,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 194,
+   "rank": 195,
    "targetSec": 97,
    "prompt": "A rat receives a pellet for the first lever press after each 60-second period, and its pressing speeds up as each minute ends. Which reinforcement schedule is this?",
    "model": "concept-schedules",
@@ -52055,7 +54431,7 @@
    },
    "difficulty": 3,
    "rating": 2.17,
-   "rank": 135,
+   "rank": 136,
    "targetSec": 97,
    "prompt": "A person checks her email throughout the day because new messages arrive at unpredictable times. Which reinforcement schedule is this?",
    "model": "concept-schedules",
@@ -52130,7 +54506,7 @@
    },
    "difficulty": 3,
    "rating": 2.17,
-   "rank": 136,
+   "rank": 137,
    "targetSec": 97,
    "prompt": "A teacher gives pop quizzes at random times, so students review a little every day. Which reinforcement schedule is this?",
    "model": "concept-schedules",
@@ -52202,7 +54578,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 160,
+   "rank": 161,
    "targetSec": 97,
    "prompt": "While a puppy is first learning to sit, its owner gives it a treat every single time it sits. Which reinforcement schedule is this?",
    "model": "concept-schedules",
@@ -52274,7 +54650,7 @@
    },
    "difficulty": 3,
    "rating": 2.11,
-   "rank": 127,
+   "rank": 128,
    "targetSec": 97,
    "prompt": "Which schedule produces behavior that is most resistant to extinction?",
    "model": "concept-schedules",
@@ -52346,7 +54722,7 @@
    },
    "difficulty": 3,
    "rating": 2.15,
-   "rank": 129,
+   "rank": 130,
    "targetSec": 97,
    "prompt": "Which schedule tends to produce a “scalloped” pattern, with responding accelerating just before reinforcement is due?",
    "model": "concept-schedules",
@@ -52418,7 +54794,7 @@
    },
    "difficulty": 4,
    "rating": 2.23,
-   "rank": 207,
+   "rank": 208,
    "targetSec": 97,
    "prompt": "Every time a nurse swabs a child’s arm with alcohol, an injection follows. Soon the child flinches as soon as she smells alcohol. Here, the smell of alcohol is the:",
    "model": "concept-classical-elements",
@@ -52491,9 +54867,9 @@
     "category": "7C",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.23,
-   "rank": 208,
+   "rank": 209,
    "targetSec": 97,
    "prompt": "Every time a nurse swabs a child’s arm with alcohol, an injection follows. Soon the child flinches as soon as she smells alcohol. Her flinching at the smell is the:",
    "model": "concept-classical-elements",
@@ -52568,7 +54944,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 187,
+   "rank": 188,
    "targetSec": 97,
    "prompt": "Every time a nurse swabs a child’s arm with alcohol, an injection follows. Soon the child flinches as soon as she smells alcohol. The injection is the:",
    "model": "concept-classical-elements",
@@ -52643,7 +55019,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 195,
+   "rank": 196,
    "targetSec": 97,
    "prompt": "A man gets food poisoning after eating shrimp and now feels nauseated at the mere sight of shrimp. The nausea caused by the food poisoning itself was the:",
    "model": "concept-classical-elements",
@@ -52718,7 +55094,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 198,
+   "rank": 199,
    "targetSec": 97,
    "prompt": "A man gets food poisoning after eating shrimp and now feels nauseated at the mere sight of shrimp. The nausea he now feels when he sees shrimp is the:",
    "model": "concept-classical-elements",
@@ -52790,7 +55166,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 161,
+   "rank": 162,
    "targetSec": 97,
    "prompt": "In Watson’s “Little Albert” study, a loud bang paired with a white rat made Albert fear the rat. After conditioning, the rat was the:",
    "model": "concept-classical-elements",
@@ -52862,7 +55238,7 @@
    },
    "difficulty": 3,
    "rating": 2.19,
-   "rank": 155,
+   "rank": 156,
    "targetSec": 97,
    "prompt": "In Watson’s “Little Albert” study, a loud bang paired with a white rat made Albert fear the rat. The loud bang was the:",
    "model": "concept-classical-elements",
@@ -52934,7 +55310,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 199,
+   "rank": 200,
    "targetSec": 97,
    "prompt": "A cat runs to the kitchen whenever it hears the can opener, because the sound has always come right before its meals. The running at the sound is the:",
    "model": "concept-classical-elements",
@@ -53444,7 +55820,7 @@
     "category": "7C",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.78,
    "rank": 106,
    "targetSec": 97,
@@ -53516,9 +55892,9 @@
     "category": "6B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 162,
+   "rank": 163,
    "targetSec": 97,
    "prompt": "After switching from Spanish to French classes, a student keeps producing Spanish words when trying to recall French vocabulary. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -53595,7 +55971,7 @@
    },
    "difficulty": 3,
    "rating": 2.16,
-   "rank": 132,
+   "rank": 133,
    "targetSec": 97,
    "prompt": "After memorizing her new phone number, Priya can no longer recall her old one. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -53672,7 +56048,7 @@
    },
    "difficulty": 3,
    "rating": 2.16,
-   "rank": 133,
+   "rank": 134,
    "targetSec": 97,
    "prompt": "Asked to recall a 20-word list immediately, participants best remember the last few words. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -53749,7 +56125,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 179,
+   "rank": 180,
    "targetSec": 97,
    "prompt": "When recall of a 20-word list is delayed by a 30-second distraction task, participants still remember the first few words best. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -53826,7 +56202,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 188,
+   "rank": 189,
    "targetSec": 97,
    "prompt": "Students who review flashcards for 20 minutes on each of four days outperform students who study for 80 minutes the night before. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -53898,7 +56274,7 @@
    },
    "difficulty": 3,
    "rating": 2.16,
-   "rank": 131,
+   "rank": 132,
    "targetSec": 97,
    "prompt": "Divers who learned word lists underwater recalled them better underwater than on land. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -53970,7 +56346,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 146,
+   "rank": 147,
    "targetSec": 97,
    "prompt": "A man who memorized a speech while anxious recalls it more easily when he is anxious again. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -54042,7 +56418,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 180,
+   "rank": 181,
    "targetSec": 97,
    "prompt": "Witnesses asked how fast cars were going when they “smashed” into each other later report seeing broken glass that wasn’t there. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -54112,9 +56488,9 @@
     "category": "6B",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 163,
+   "rank": 164,
    "targetSec": 97,
    "prompt": "Kai vividly “remembers” a childhood trip to the beach that he actually only heard about in his parents’ stories. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -54186,7 +56562,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 181,
+   "rank": 182,
    "targetSec": 97,
    "prompt": "A waiter remembers a 10-digit phone number by grouping it into an area code, a prefix and the last four digits. Which memory phenomenon is this?",
    "model": "concept-memory-phenomena",
@@ -54257,7 +56633,7 @@
    },
    "difficulty": 5,
    "rating": 2.93,
-   "rank": 226,
+   "rank": 236,
    "targetSec": 97,
    "prompt": "A study finds that ice cream sales and drowning deaths rise and fall together. Hot weather, which increases both, is a:",
    "model": "concept-research-biases",
@@ -54331,7 +56707,7 @@
    },
    "difficulty": 5,
    "rating": 2.92,
-   "rank": 225,
+   "rank": 235,
    "targetSec": 97,
    "prompt": "A survey on Americans’ exercise habits recruits all of its participants at gyms. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54405,7 +56781,7 @@
    },
    "difficulty": 5,
    "rating": 2.94,
-   "rank": 228,
+   "rank": 238,
    "targetSec": 97,
    "prompt": "Factory workers’ productivity improves during a study of lighting, whether the lights are brightened or dimmed. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54479,7 +56855,7 @@
    },
    "difficulty": 5,
    "rating": 2.95,
-   "rank": 229,
+   "rank": 239,
    "targetSec": 97,
    "prompt": "Participants who figure out that a study is about helping behavior act more helpful than they normally would. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54553,7 +56929,7 @@
    },
    "difficulty": 5,
    "rating": 2.91,
-   "rank": 224,
+   "rank": 234,
    "targetSec": 97,
    "prompt": "Patients given sugar pills that they believe are painkillers report less pain. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54624,7 +57000,7 @@
    },
    "difficulty": 5,
    "rating": 2.93,
-   "rank": 227,
+   "rank": 237,
    "targetSec": 97,
    "prompt": "Raters who know which children received a reading program score those children’s essays more generously. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54695,7 +57071,7 @@
    },
    "difficulty": 5,
    "rating": 2.97,
-   "rank": 231,
+   "rank": 241,
    "targetSec": 97,
    "prompt": "In a year-long diet study, the participants losing the least weight dropped out, making the diet look more effective than it was. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54766,7 +57142,7 @@
    },
    "difficulty": 5,
    "rating": 2.95,
-   "rank": 230,
+   "rank": 240,
    "targetSec": 97,
    "prompt": "Students who scored lowest on a first test improve on a retest even though they received no tutoring. Which threat to validity does this describe?",
    "model": "concept-research-biases",
@@ -54837,7 +57213,7 @@
    },
    "difficulty": 5,
    "rating": 2.51,
-   "rank": 222,
+   "rank": 224,
    "targetSec": 97,
    "prompt": "Researchers randomly assign volunteers to take either a new drug or a placebo and compare their blood pressure after 12 weeks. Which study design is this?",
    "model": "concept-study-designs",
@@ -54909,9 +57285,9 @@
    "outline": {
     "sirs": 3
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.5,
-   "rank": 219,
+   "rank": 221,
    "targetSec": 97,
    "prompt": "Researchers record the smoking habits of 10,000 healthy adults and track lung cancer rates in each group over 20 years. Which study design is this?",
    "model": "concept-study-designs",
@@ -54983,9 +57359,9 @@
    "outline": {
     "sirs": 3
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.5,
-   "rank": 220,
+   "rank": 222,
    "targetSec": 97,
    "prompt": "Researchers identify 200 people with a rare cancer and 200 similar people without it, then compare their past pesticide exposure. Which study design is this?",
    "model": "concept-study-designs",
@@ -55059,7 +57435,7 @@
    },
    "difficulty": 5,
    "rating": 2.5,
-   "rank": 221,
+   "rank": 223,
    "targetSec": 97,
    "prompt": "A survey of 5,000 adults records, on a single day, both their current sleep hours and their current depression scores. Which study design is this?",
    "model": "concept-study-designs",
@@ -55131,9 +57507,9 @@
    "outline": {
     "sirs": 3
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.49,
-   "rank": 218,
+   "rank": 220,
    "targetSec": 97,
    "prompt": "A neurologist documents in detail the memory deficits of a single patient after surgery removed part of his hippocampus. Which study design is this?",
    "model": "concept-study-designs",
@@ -55202,9 +57578,9 @@
    "outline": {
     "sirs": 3
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.48,
-   "rank": 217,
+   "rank": 219,
    "targetSec": 97,
    "prompt": "Researchers watch children on a public playground and record how often conflicts arise, without interacting with them. Which study design is this?",
    "model": "concept-study-designs",
@@ -55273,9 +57649,9 @@
    "outline": {
     "sirs": 3
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.43,
-   "rank": 216,
+   "rank": 218,
    "targetSec": 97,
    "prompt": "Which design is best suited to studying risk factors for a very rare disease?",
    "model": "concept-study-designs",
@@ -55344,9 +57720,9 @@
    "outline": {
     "sirs": 3
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.42,
-   "rank": 215,
+   "rank": 217,
    "targetSec": 97,
    "prompt": "Which design can most directly establish that one variable causes an outcome?",
    "model": "concept-study-designs",
@@ -56078,7 +58454,7 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.8,
    "rank": 109,
    "targetSec": 97,
@@ -56152,7 +58528,7 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.78,
    "rank": 107,
    "targetSec": 97,
@@ -56300,7 +58676,7 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.77,
    "rank": 104,
    "targetSec": 97,
@@ -56516,7 +58892,7 @@
     "category": "6A",
     "sirs": 2
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.77,
    "rank": 105,
    "targetSec": 97,
@@ -58432,7 +60808,7 @@
     "category": "6A",
     "sirs": 2
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.73,
    "rank": 47,
    "targetSec": 97,
@@ -58870,7 +61246,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 182,
+   "rank": 183,
    "targetSec": 97,
    "prompt": "A sociologist argues that schools persist because they teach the skills and norms that keep the economy and society running. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -58945,7 +61321,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 139,
+   "rank": 140,
    "targetSec": 97,
    "prompt": "A researcher studies how wealthy families use political donations to protect their advantages over workers. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59020,7 +61396,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 140,
+   "rank": 141,
    "targetSec": 97,
    "prompt": "A researcher studies how a wedding ring comes to signal commitment in people’s everyday interactions. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59095,7 +61471,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 147,
+   "rank": 148,
    "targetSec": 97,
    "prompt": "A scholar argues that paper money has value only because people collectively agree that it does. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59168,9 +61544,9 @@
     "category": "9A",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 164,
+   "rank": 165,
    "targetSec": 97,
    "prompt": "A researcher explains a student’s decision to attend college by comparing its expected lifetime earnings with its cost. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59242,7 +61618,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 148,
+   "rank": 149,
    "targetSec": 97,
    "prompt": "A study examines how expectations that women do most unpaid caregiving limit their pay and promotions. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59314,7 +61690,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 141,
+   "rank": 142,
    "targetSec": 97,
    "prompt": "A sociologist notes that public outrage over crime brings people together and reinforces shared values. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59386,7 +61762,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 149,
+   "rank": 150,
    "targetSec": 97,
    "prompt": "A researcher argues that standardized admissions tests help wealthier families keep their children in elite colleges. Which theoretical approach does this reflect?",
    "model": "concept-sociology-theories",
@@ -59531,7 +61907,7 @@
     "category": "10A",
     "sirs": 2
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.73,
    "rank": 48,
    "targetSec": 97,
@@ -60044,9 +62420,9 @@
     "category": "8C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.2,
-   "rank": 170,
+   "rank": 171,
    "targetSec": 97,
    "prompt": "A nurse who is also a mother must choose between working an extra shift and attending her son’s recital. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60119,9 +62495,9 @@
     "category": "8C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.2,
-   "rank": 171,
+   "rank": 172,
    "targetSec": 97,
    "prompt": "A teacher is expected to be both a warm mentor and a strict, impartial grader to the same students. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60196,7 +62572,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 142,
+   "rank": 143,
    "targetSec": 97,
    "prompt": "After she is elected, people see a woman only as “the senator,” whatever the setting. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60271,7 +62647,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 150,
+   "rank": 151,
    "targetSec": 97,
    "prompt": "Being born into a royal family gives Prince Ari a position he did nothing to earn. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60346,7 +62722,7 @@
    },
    "difficulty": 3,
    "rating": 2.15,
-   "rank": 130,
+   "rank": 131,
    "targetSec": 97,
    "prompt": "Dr. Patel became a physician after years of study and residency. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60418,7 +62794,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 151,
+   "rank": 152,
    "targetSec": 97,
    "prompt": "Before a job interview, Leo rehearses his answers and dresses to look as competent as possible. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60488,9 +62864,9 @@
     "category": "8C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 165,
+   "rank": 166,
    "targetSec": 97,
    "prompt": "A boy repeatedly told by friends that he is funny comes to see himself as a funny person. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60560,9 +62936,9 @@
     "category": "8C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 166,
+   "rank": 167,
    "targetSec": 97,
    "prompt": "A first-year law student judges her own success by comparing herself with the top students in her class. Which concept does this best illustrate?",
    "model": "concept-roles-identity",
@@ -60632,9 +63008,9 @@
     "category": "6C",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 167,
+   "rank": 168,
    "targetSec": 97,
    "prompt": "According to this theory, we feel afraid because we notice our heart pounding and our hands trembling. Which theory of emotion does this describe?",
    "model": "concept-emotion-theories",
@@ -60706,7 +63082,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 200,
+   "rank": 201,
    "targetSec": 97,
    "prompt": "According to this theory, seeing a bear triggers a racing heart and fear at the same moment, with neither causing the other. Which theory of emotion does this describe?",
    "model": "concept-emotion-theories",
@@ -60778,7 +63154,7 @@
    },
    "difficulty": 4,
    "rating": 2.2,
-   "rank": 172,
+   "rank": 173,
    "targetSec": 97,
    "prompt": "Participants injected with adrenaline felt euphoric when with a cheerful confederate and angry when with an irritated one. Which theory of emotion does this describe?",
    "model": "concept-emotion-theories",
@@ -60850,7 +63226,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 189,
+   "rank": 190,
    "targetSec": 97,
    "prompt": "According to this theory, a student must first judge an upcoming exam as threatening before she feels anxious and aroused. Which theory of emotion does this describe?",
    "model": "concept-emotion-theories",
@@ -60922,7 +63298,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 152,
+   "rank": 153,
    "targetSec": 97,
    "prompt": "Which theory is most challenged by evidence that people with spinal cord injuries, who feel less bodily arousal, still experience strong emotions?",
    "model": "concept-emotion-theories",
@@ -61214,7 +63590,7 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 2,
+   "difficulty": 1,
    "rating": 1.73,
    "rank": 49,
    "targetSec": 97,
@@ -61506,7 +63882,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 190,
+   "rank": 191,
    "targetSec": 97,
    "prompt": "For six weeks, a man has lost interest in his hobbies, sleeps poorly, has little appetite and feels worthless. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -61583,7 +63959,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 201,
+   "rank": 202,
    "targetSec": 97,
    "prompt": "A woman goes four days with almost no sleep, spends her savings on impulsive purchases and talks rapidly about grand plans. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -61658,9 +64034,9 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.23,
-   "rank": 209,
+   "rank": 210,
    "targetSec": 97,
    "prompt": "For a year, a student has worried constantly about grades, money, her health and her family, and she can’t control the worry. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -61735,9 +64111,9 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.27,
-   "rank": 214,
+   "rank": 215,
    "targetSec": 97,
    "prompt": "A man has had several sudden episodes of pounding heart, shortness of breath and fear of dying, and he now worries constantly about when the next one will strike. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -61812,9 +64188,9 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.23,
-   "rank": 210,
+   "rank": 211,
    "targetSec": 97,
    "prompt": "A woman washes her hands dozens of times a day to quiet persistent thoughts that she will spread germs to her family. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -61886,7 +64262,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 202,
+   "rank": 203,
    "targetSec": 97,
    "prompt": "Since a serious car crash two months ago, a man has nightmares about it, avoids driving and startles at loud noises. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -61958,7 +64334,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 203,
+   "rank": 204,
    "targetSec": 97,
    "prompt": "For eight months, a young man has heard voices commenting on his actions and believes the television sends him secret messages. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -62030,7 +64406,7 @@
    },
    "difficulty": 4,
    "rating": 2.22,
-   "rank": 204,
+   "rank": 205,
    "targetSec": 97,
    "prompt": "A woman is terrified of dogs. She crosses the street whenever she sees one, though she knows her fear is excessive. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -62100,9 +64476,9 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 2.26,
-   "rank": 213,
+   "rank": 214,
    "targetSec": 97,
    "prompt": "A man with frequent stomach pain is consumed by worry that it signals a serious illness, despite normal test results, and spends hours each day researching it. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -62172,9 +64548,9 @@
     "category": "7A",
     "sirs": 2
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 2.19,
-   "rank": 168,
+   "rank": 169,
    "targetSec": 97,
    "prompt": "A woman finds clothes she doesn’t remember buying, and strangers greet her by a different name. Which disorder do these symptoms most likely indicate?",
    "model": "concept-disorders",
@@ -63164,7 +65540,7 @@
    "outline": {
     "sirs": 4
    },
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 1.85,
    "rank": 111,
    "targetSec": 97,
@@ -64425,6 +66801,1062 @@
    "status": "review"
   },
   {
+   "id": "mcat-ps-0008",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p01",
+   "position": 1,
+   "type": "group_behavior",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-group-processes"
+   ],
+   "outline": {
+    "category": "7B",
+    "sirs": 2
+   },
+   "difficulty": 3,
+   "rating": 2.05,
+   "rank": 127,
+   "targetSec": 97,
+   "prompt": "What is the independent variable in this study?",
+   "options": [
+    {
+     "id": "A",
+     "text": "How long the seizure lasted",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The recording was the same for everyone."
+    },
+    {
+     "id": "B",
+     "text": "Whether the participant helped",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That is the dependent variable, the outcome being measured."
+    },
+    {
+     "id": "C",
+     "text": "The participant's gender",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Gender wasn't manipulated or described as a variable."
+    },
+    {
+     "id": "D",
+     "text": "The number of other people the participant believed were present",
+     "correct": true,
+     "trap": null,
+     "why": "The researchers manipulated how many others the participant thought could hear."
+    }
+   ],
+   "tldr": "The researchers manipulated group size.",
+   "steps": [
+    {
+     "label": "Manipulated",
+     "body": "Number of others believed present (0, 1 or 4)."
+    },
+    {
+     "label": "Measured",
+     "body": "Whether the participant helped."
+    }
+   ],
+   "takeaway": "The independent variable is what the researcher changes on purpose.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0009",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p01",
+   "position": 2,
+   "type": "group_behavior",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-group-processes"
+   ],
+   "outline": {
+    "category": "7B",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.66,
+   "rank": 225,
+   "targetSec": 97,
+   "prompt": "Which concept best explains the pattern in Table 1?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Deindividuation",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Deindividuation is a loss of self-awareness in crowds, often with anonymity and arousal."
+    },
+    {
+     "id": "B",
+     "text": "Diffusion of responsibility",
+     "correct": true,
+     "trap": null,
+     "why": "The more people who could help, the less personally responsible each participant felt."
+    },
+    {
+     "id": "C",
+     "text": "Social facilitation",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Social facilitation is improved performance on simple tasks when others watch."
+    },
+    {
+     "id": "D",
+     "text": "Groupthink",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Groupthink is a cohesive group making poor decisions to keep harmony."
+    }
+   ],
+   "tldr": "More bystanders, less personal responsibility.",
+   "steps": [
+    {
+     "label": "Pattern",
+     "body": "Helping fell from 85% to 31% as group size grew."
+    },
+    {
+     "label": "Concept",
+     "body": "Diffusion of responsibility, the core of the bystander effect."
+    }
+   ],
+   "takeaway": "The bystander effect grows as responsibility is spread across more people.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0010",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p01",
+   "position": 3,
+   "type": "group_behavior",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-group-processes"
+   ],
+   "outline": {
+    "category": "7B",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.45,
+   "rank": 245,
+   "targetSec": 97,
+   "prompt": "Why did the researchers keep participants in separate rooms connected only by intercom?",
+   "options": [
+    {
+     "id": "A",
+     "text": "So participants couldn't see how others reacted, ruling out the explanation that they copied others' calm behavior",
+     "correct": true,
+     "trap": null,
+     "why": "Without visible reactions, any drop in helping reflects the number of others, not their cues."
+    },
+    {
+     "id": "B",
+     "text": "To make it easier for participants to help",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "Separate rooms don't make helping easier."
+    },
+    {
+     "id": "C",
+     "text": "To keep participants from learning the purpose of the study",
+     "correct": false,
+     "trap": "half_right",
+     "why": "The cover story did that; the separate rooms controlled social cues."
+    },
+    {
+     "id": "D",
+     "text": "So participants would feel more anxious about speaking",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage says the rooms were meant to allow private speaking, not to create anxiety."
+    }
+   ],
+   "tldr": "No visible reactions means no copying.",
+   "steps": [
+    {
+     "label": "Alternative explanation",
+     "body": "People might stay calm because others look calm."
+    },
+    {
+     "label": "Control",
+     "body": "Separate rooms remove those cues."
+    }
+   ],
+   "takeaway": "Good designs remove alternative explanations for the effect.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0011",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p01",
+   "position": 4,
+   "type": "group_behavior",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-group-processes"
+   ],
+   "outline": {
+    "category": "7B",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 3.9,
+   "rank": 246,
+   "targetSec": 97,
+   "prompt": "Which finding would most strengthen the conclusion that shared responsibility caused the drop in helping?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Helping rates were similar in all three conditions among female participants.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "No group-size effect in a subgroup weakens the conclusion for that subgroup."
+    },
+    {
+     "id": "B",
+     "text": "Participants in larger groups often said they hadn't heard the call for help.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That suggests a failure to notice, a rival explanation that weakens this one."
+    },
+    {
+     "id": "C",
+     "text": "Participants who helped were more likely to be first-year students.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Class year doesn't bear on responsibility being shared."
+    },
+    {
+     "id": "D",
+     "text": "Participants told that only they had first-aid training helped as often with four others present as when alone.",
+     "correct": true,
+     "trap": null,
+     "why": "When responsibility is clearly assigned to one person, the effect disappears, as the explanation predicts."
+    }
+   ],
+   "tldr": "Concentrating responsibility should cancel the effect.",
+   "steps": [
+    {
+     "label": "Prediction",
+     "body": "If shared responsibility causes the drop, clear responsibility should prevent it."
+    },
+    {
+     "label": "Evidence",
+     "body": "Trained participants helped regardless of group size."
+    }
+   ],
+   "takeaway": "Support a causal claim by testing what it predicts when the cause is removed.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0012",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p02",
+   "position": 1,
+   "type": "memory_cognition",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-memory-phenomena"
+   ],
+   "outline": {
+    "category": "6B",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.28,
+   "rank": 243,
+   "targetSec": 97,
+   "prompt": "Why did both groups sleep normally for two nights before the test?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Because word pairs can't be recalled until three days after learning",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Recall is possible right away."
+    },
+    {
+     "id": "B",
+     "text": "So that both groups would forget the word pairs",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The goal was to equalize the test conditions, not to cause forgetting."
+    },
+    {
+     "id": "C",
+     "text": "To give the sleep group extra time to study",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "No studying happened between learning and testing."
+    },
+    {
+     "id": "D",
+     "text": "So that the sleep-deprived group would not do worse simply because they were tired at the test",
+     "correct": true,
+     "trap": null,
+     "why": "Recovery sleep equalizes fatigue at retrieval, isolating the effect of sleep right after learning."
+    }
+   ],
+   "tldr": "Recovery nights rule out tiredness at the test.",
+   "steps": [
+    {
+     "label": "Alternative",
+     "body": "Sleep-deprived people perform worse on almost any test."
+    },
+    {
+     "label": "Control",
+     "body": "Two normal nights before testing remove that difference."
+    }
+   ],
+   "takeaway": "Separate the effect on storing a memory from the effect on retrieving it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0013",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p02",
+   "position": 2,
+   "type": "memory_cognition",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-memory-phenomena"
+   ],
+   "outline": {
+    "category": "6B",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.67,
+   "rank": 227,
+   "targetSec": 97,
+   "prompt": "The results best support the claim that sleep after learning aids",
+   "options": [
+    {
+     "id": "A",
+     "text": "retrieval of memories",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The recovery nights equalized conditions at retrieval."
+    },
+    {
+     "id": "B",
+     "text": "encoding of new memories",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Both groups learned the pairs before the manipulation began."
+    },
+    {
+     "id": "C",
+     "text": "consolidation of new memories",
+     "correct": true,
+     "trap": null,
+     "why": "Learning came before the manipulation and testing came after recovery, leaving storage as the affected stage."
+    },
+    {
+     "id": "D",
+     "text": "sensory memory",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Sensory memory lasts seconds and isn't what was tested."
+    }
+   ],
+   "tldr": "Sleep after learning helps memories stabilize.",
+   "steps": [
+    {
+     "label": "Encoding",
+     "body": "Same for both groups (before the manipulation)."
+    },
+    {
+     "label": "Retrieval",
+     "body": "Equalized by recovery nights. What's left is consolidation."
+    }
+   ],
+   "takeaway": "Consolidation is the stabilizing of memories after encoding, and sleep supports it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0014",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p02",
+   "position": 3,
+   "type": "biological_psych",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-brain-regions"
+   ],
+   "outline": {
+    "category": "6B",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.7,
+   "rank": 228,
+   "targetSec": 97,
+   "prompt": "Which brain structure is most involved in consolidating new declarative memories like these word pairs?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Occipital lobe",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The occipital lobe handles visual processing."
+    },
+    {
+     "id": "B",
+     "text": "Amygdala",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The amygdala processes emotion, especially fear, and boosts emotional memories."
+    },
+    {
+     "id": "C",
+     "text": "Cerebellum",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The cerebellum supports motor coordination and procedural learning."
+    },
+    {
+     "id": "D",
+     "text": "Hippocampus",
+     "correct": true,
+     "trap": null,
+     "why": "The hippocampus is essential for forming and consolidating new explicit memories."
+    }
+   ],
+   "tldr": "Declarative memory consolidation means hippocampus.",
+   "steps": [
+    {
+     "label": "Memory type",
+     "body": "Word pairs are explicit (declarative) memories."
+    },
+    {
+     "label": "Structure",
+     "body": "The hippocampus consolidates them."
+    }
+   ],
+   "takeaway": "Hippocampus for new facts and events; cerebellum and basal ganglia for skills.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0015",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p02",
+   "position": 4,
+   "type": "research_methods",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-study-designs"
+   ],
+   "outline": {
+    "category": "6B",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 2.77,
+   "rank": 231,
+   "targetSec": 97,
+   "prompt": "Which feature of the study most strengthens the conclusion that sleep caused better recall?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Testing happened on the third day.",
+     "correct": false,
+     "trap": "half_right",
+     "why": "The delay controls fatigue, but random assignment is what supports a causal claim between groups."
+    },
+    {
+     "id": "B",
+     "text": "The study used 40 word pairs.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The number of items doesn't address causation."
+    },
+    {
+     "id": "C",
+     "text": "The study took place in the evening.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The time of learning doesn't establish causation."
+    },
+    {
+     "id": "D",
+     "text": "Participants were randomly assigned to the two groups.",
+     "correct": true,
+     "trap": null,
+     "why": "Random assignment makes the groups comparable at the start, so the difference can be attributed to sleep."
+    }
+   ],
+   "tldr": "Random assignment supports causal claims.",
+   "steps": [
+    {
+     "label": "Design",
+     "body": "An experiment with random assignment."
+    },
+    {
+     "label": "Conclusion",
+     "body": "Group differences can be credited to the manipulation."
+    }
+   ],
+   "takeaway": "Random assignment is what turns a comparison into an experiment.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0016",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p03",
+   "position": 1,
+   "type": "learning",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-classical-elements"
+   ],
+   "outline": {
+    "category": "7C",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 3.25,
+   "rank": 242,
+   "targetSec": 97,
+   "prompt": "Which conclusion is best supported by Table 1?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The rats learned through operant conditioning alone.",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The cues were paired with consequences regardless of the rats' behavior, which is classical conditioning."
+    },
+    {
+     "id": "B",
+     "text": "Animals are predisposed to link tastes with illness and sights or sounds with pain.",
+     "correct": true,
+     "trap": null,
+     "why": "Each group learned only the pairing that fits its consequence, showing biological preparedness."
+    },
+    {
+     "id": "C",
+     "text": "Any stimulus can be paired equally well with any consequence.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Each group learned only one of the two available cues."
+    },
+    {
+     "id": "D",
+     "text": "Rats can't detect lights and clicks.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The shock group learned to avoid the light and click."
+    }
+   ],
+   "tldr": "Taste goes with nausea; sights and sounds go with pain.",
+   "steps": [
+    {
+     "label": "Read",
+     "body": "Illness rats avoided the taste; shock rats avoided the light and click."
+    },
+    {
+     "label": "Conclude",
+     "body": "Learning depends on which cue fits which consequence."
+    }
+   ],
+   "takeaway": "Biological preparedness limits which associations are easy to learn.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0017",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p03",
+   "position": 2,
+   "type": "learning",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-classical-elements"
+   ],
+   "outline": {
+    "category": "7C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.67,
+   "rank": 226,
+   "targetSec": 97,
+   "prompt": "For the illness group, the sweet taste served as the",
+   "options": [
+    {
+     "id": "A",
+     "text": "conditioned stimulus",
+     "correct": true,
+     "trap": null,
+     "why": "The taste was neutral at first and came to trigger avoidance after being paired with illness."
+    },
+    {
+     "id": "B",
+     "text": "conditioned response",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The learned avoidance is the conditioned response."
+    },
+    {
+     "id": "C",
+     "text": "unconditioned response",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The nausea itself is the unconditioned response."
+    },
+    {
+     "id": "D",
+     "text": "unconditioned stimulus",
+     "correct": false,
+     "trap": "reversal",
+     "why": "The nausea treatment is the unconditioned stimulus."
+    }
+   ],
+   "tldr": "The once-neutral cue paired with the US is the CS.",
+   "steps": [
+    {
+     "label": "US and UR",
+     "body": "Nausea treatment (US) causes nausea (UR)."
+    },
+    {
+     "label": "CS and CR",
+     "body": "Taste (CS) comes to cause avoidance (CR)."
+    }
+   ],
+   "takeaway": "The conditioned stimulus starts neutral and gains meaning through pairing.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0018",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p03",
+   "position": 3,
+   "type": "learning",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-classical-phenomena"
+   ],
+   "outline": {
+    "category": "7C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 3.95,
+   "rank": 247,
+   "targetSec": 97,
+   "prompt": "Taste aversions often form after a single pairing, even when illness begins hours after eating. This challenges the view that conditioning requires",
+   "options": [
+    {
+     "id": "A",
+     "text": "an unconditioned stimulus",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The illness is still an unconditioned stimulus."
+    },
+    {
+     "id": "B",
+     "text": "a living organism",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Nothing here bears on that."
+    },
+    {
+     "id": "C",
+     "text": "the stimuli to occur close together in time and over many pairings",
+     "correct": true,
+     "trap": null,
+     "why": "A long delay and one trial still produced strong learning."
+    },
+    {
+     "id": "D",
+     "text": "a stimulus the animal can perceive",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Taste is clearly perceived; this isn't what's challenged."
+    }
+   ],
+   "tldr": "One trial and a long delay break the usual rules.",
+   "steps": [
+    {
+     "label": "Usual rule",
+     "body": "Classical conditioning needs close timing and repetition."
+    },
+    {
+     "label": "Exception",
+     "body": "Taste aversion forms in one trial with hours of delay."
+    }
+   ],
+   "takeaway": "Taste aversion is the classic exception to the timing rules of conditioning.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0019",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p03",
+   "position": 4,
+   "type": "learning",
+   "family": "psychology",
+   "knowledgePoints": [
+    "kp-mcat-classical-elements"
+   ],
+   "outline": {
+    "category": "7C",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.71,
+   "rank": 229,
+   "targetSec": 97,
+   "prompt": "Some patients receiving chemotherapy develop aversions to foods they ate before treatment. This is best explained by",
+   "options": [
+    {
+     "id": "A",
+     "text": "classical conditioning, with the food as the conditioned stimulus and treatment-induced nausea as the unconditioned response",
+     "correct": true,
+     "trap": null,
+     "why": "Pairing a food with nausea creates an aversion, just as in the rats."
+    },
+    {
+     "id": "B",
+     "text": "negative reinforcement",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Negative reinforcement removes an unpleasant stimulus to increase a behavior."
+    },
+    {
+     "id": "C",
+     "text": "habituation",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Habituation is a weakening response to a repeated stimulus."
+    },
+    {
+     "id": "D",
+     "text": "observational learning",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The patients learned from their own experience, not by watching others."
+    }
+   ],
+   "tldr": "Food plus nausea, so classical conditioning.",
+   "steps": [
+    {
+     "label": "Pairing",
+     "body": "Food (neutral) comes before nausea from treatment."
+    },
+    {
+     "label": "Result",
+     "body": "The food alone now triggers aversion."
+    }
+   ],
+   "takeaway": "Learned taste aversions are a real clinical side effect of chemotherapy.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0020",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p04",
+   "position": 1,
+   "type": "inequality_health",
+   "family": "sociology",
+   "knowledgePoints": [
+    "kp-mcat-social-gradient"
+   ],
+   "outline": {
+    "category": "10A",
+    "sirs": 4
+   },
+   "difficulty": 5,
+   "rating": 2.9,
+   "rank": 233,
+   "targetSec": 97,
+   "prompt": "Which description best fits the pattern in Table 1?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Life expectancy rises at every step up the income ladder.",
+     "correct": true,
+     "trap": null,
+     "why": "Each quintile lives longer than the one below it, which is a social gradient in health."
+    },
+    {
+     "id": "B",
+     "text": "Only the lowest quintile has worse health than everyone else.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "The gap continues at every step, not just at the bottom."
+    },
+    {
+     "id": "C",
+     "text": "Higher income causes shorter lives.",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "The highest quintile lives longest."
+    },
+    {
+     "id": "D",
+     "text": "Income has no clear relationship with life expectancy.",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "The values rise steadily from 37.1 to 43.9 years."
+    }
+   ],
+   "tldr": "A steady rise at each step is a social gradient.",
+   "steps": [
+    {
+     "label": "Read",
+     "body": "37.1 → 39.6 → 41.2 → 42.4 → 43.9."
+    },
+    {
+     "label": "Pattern",
+     "body": "A graded relationship across the whole ladder."
+    }
+   ],
+   "takeaway": "Health gradients run through every level of society, not just poverty.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0021",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p04",
+   "position": 2,
+   "type": "inequality_health",
+   "family": "sociology",
+   "knowledgePoints": [
+    "kp-mcat-social-gradient"
+   ],
+   "outline": {
+    "category": "10A",
+    "sirs": 3
+   },
+   "difficulty": 5,
+   "rating": 3.35,
+   "rank": 244,
+   "targetSec": 97,
+   "prompt": "A critic argues that chronic illness lowers people's earnings, which could produce the same pattern. The critic is raising the possibility of",
+   "options": [
+    {
+     "id": "A",
+     "text": "demand characteristics",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Demand characteristics are cues that change how participants act in a study; records were used here."
+    },
+    {
+     "id": "B",
+     "text": "reverse causation",
+     "correct": true,
+     "trap": null,
+     "why": "The critic suggests health affects income, the opposite direction of the researchers' interpretation."
+    },
+    {
+     "id": "C",
+     "text": "random assignment",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "People can't be randomly assigned to income, and the critique isn't about assignment."
+    },
+    {
+     "id": "D",
+     "text": "a placebo effect",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "No treatment was given."
+    }
+   ],
+   "tldr": "Health causing income is reverse causation.",
+   "steps": [
+    {
+     "label": "Researchers",
+     "body": "Income → health."
+    },
+    {
+     "label": "Critic",
+     "body": "Health → income."
+    }
+   ],
+   "takeaway": "In correlational data, always ask which way the arrow points.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0022",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p04",
+   "position": 3,
+   "type": "sociology_theory",
+   "family": "sociology",
+   "knowledgePoints": [
+    "kp-mcat-sociology-theories"
+   ],
+   "outline": {
+    "category": "9A",
+    "sirs": 2
+   },
+   "difficulty": 5,
+   "rating": 2.75,
+   "rank": 230,
+   "targetSec": 97,
+   "prompt": "Which perspective would emphasize that higher-income groups use their resources to secure better care and safer neighborhoods at the expense of others?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Functionalism",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Functionalism asks how social arrangements keep society stable."
+    },
+    {
+     "id": "B",
+     "text": "Conflict theory",
+     "correct": true,
+     "trap": null,
+     "why": "Conflict theory focuses on competition for scarce resources and how the powerful keep their advantages."
+    },
+    {
+     "id": "C",
+     "text": "Symbolic interactionism",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Symbolic interactionism studies the meanings people create in everyday interaction."
+    },
+    {
+     "id": "D",
+     "text": "Social exchange theory",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Exchange theory treats interactions as weighing costs and rewards between individuals."
+    }
+   ],
+   "tldr": "Competition for resources and power is conflict theory.",
+   "steps": [
+    {
+     "label": "Key words",
+     "body": "Resources, advantage, at the expense of others."
+    },
+    {
+     "label": "Theory",
+     "body": "Conflict theory."
+    }
+   ],
+   "takeaway": "Conflict theory centers on power and inequality.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-ps-0023",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "PS",
+   "passageId": "mcat-ps-p04",
+   "position": 4,
+   "type": "inequality_health",
+   "family": "sociology",
+   "knowledgePoints": [
+    "kp-mcat-social-gradient"
+   ],
+   "outline": {
+    "category": "10A",
+    "sirs": 4
+   },
+   "difficulty": 4,
+   "rating": 2.36,
+   "rank": 216,
+   "targetSec": 97,
+   "prompt": "How much longer can a 40-year-old in the highest quintile expect to live than one in the lowest?",
+   "options": [
+    {
+     "id": "A",
+     "text": "1.5 years",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is the gap between the highest and fourth quintiles."
+    },
+    {
+     "id": "B",
+     "text": "4.1 years",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is the gap between the middle and lowest quintiles."
+    },
+    {
+     "id": "C",
+     "text": "6.8 years",
+     "correct": true,
+     "trap": null,
+     "why": "43.9 − 37.1 = 6.8 years."
+    },
+    {
+     "id": "D",
+     "text": "43.9 years",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That is the highest quintile's value, not the difference."
+    }
+   ],
+   "tldr": "43.9 − 37.1 = 6.8.",
+   "steps": [
+    {
+     "label": "Find",
+     "body": "Highest 43.9; lowest 37.1."
+    },
+    {
+     "label": "Subtract",
+     "body": "6.8 years."
+    }
+   ],
+   "takeaway": "Read the question for \"difference\" versus \"value\".",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-ps-0001",
    "version": 1,
    "exam": "MCAT",
@@ -64442,7 +67874,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 173,
+   "rank": 174,
    "targetSec": 97,
    "prompt": "Every time Maya cleans her room, her parents stop the daily reminders she finds annoying. Over the next month, Maya cleans her room more often. Which process best explains this change?",
    "options": [
@@ -64508,7 +67940,7 @@
    },
    "difficulty": 5,
    "rating": 2.87,
-   "rank": 223,
+   "rank": 232,
    "targetSec": 97,
    "prompt": "When a coworker arrives late, Jordan concludes that the coworker is irresponsible. When Jordan arrives late, Jordan blames the traffic. This pattern best illustrates which of the following?",
    "options": [
@@ -64713,7 +68145,7 @@
    },
    "difficulty": 3,
    "rating": 2.18,
-   "rank": 137,
+   "rank": 138,
    "targetSec": 97,
    "prompt": "Students who study vocabulary in the same room where they later take the test recall more words than students who study somewhere else. This finding best illustrates",
    "options": [
@@ -64844,7 +68276,7 @@
    },
    "difficulty": 4,
    "rating": 2.21,
-   "rank": 174,
+   "rank": 175,
    "targetSec": 97,
    "prompt": "After paying for an expensive gym membership she rarely uses, Dana convinces herself that the membership was worth it because the gym has a great sauna. This is best explained by",
    "options": [
@@ -64894,6 +68326,213 @@
   }
  ],
  "passages": [
+  {
+   "id": "mcat-bb-p02",
+   "exam": "MCAT",
+   "section": "BB",
+   "title": "Insulin and glucose uptake in muscle",
+   "domain": "biochemistry",
+   "paragraphs": [
+    "Skeletal muscle takes up much of the glucose that enters the blood after a meal. To study how insulin stimulates this uptake, researchers incubated isolated rat muscle strips with a radioactively labeled glucose analog that cells take up but cannot metabolize further, so its accumulation reflects transport alone. Strips were treated with insulin, with wortmannin (an inhibitor of the enzyme PI3-kinase), with both, or with neither (Table 1).",
+    "In a separate experiment, insulin did not change the total amount of GLUT4 transporter protein in the cells during the 30-minute incubation, but it increased the amount of GLUT4 found in the plasma membrane."
+   ],
+   "table": {
+    "caption": "Table 1. Uptake of the glucose analog, relative to untreated strips",
+    "columns": [
+     "Treatment",
+     "Relative uptake"
+    ],
+    "rows": [
+     [
+      "None (control)",
+      "1.0"
+     ],
+     [
+      "Insulin",
+      "3.4"
+     ],
+     [
+      "Wortmannin",
+      "0.9"
+     ],
+     [
+      "Insulin + wortmannin",
+      "1.1"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-bb-0012",
+    "mcat-bb-0013",
+    "mcat-bb-0014",
+    "mcat-bb-0015"
+   ]
+  },
+  {
+   "id": "mcat-bb-p03",
+   "exam": "MCAT",
+   "section": "BB",
+   "title": "How resistance spread between strains",
+   "domain": "microbiology",
+   "paragraphs": [
+    "Researchers studied the transfer of ampicillin resistance from a resistant strain of E. coli (the donor) to a sensitive strain (the recipient) that carried a separate marker so the two could be told apart. Donor and recipient cells were mixed in liquid culture for one hour, and recipients that had become resistant were counted. In some trials, DNase, an enzyme that degrades free DNA in the medium, was added. In others, donors and recipients were placed on opposite sides of a filter whose pores block bacteria but let DNA and viruses through. Recipients were also cultured alone."
+   ],
+   "table": {
+    "caption": "Table 1. Transfer of ampicillin resistance",
+    "columns": [
+     "Condition",
+     "Resistant recipients per 10⁶ recipients"
+    ],
+    "rows": [
+     [
+      "Donor + recipient, mixed",
+      "120"
+     ],
+     [
+      "Mixed, with DNase",
+      "115"
+     ],
+     [
+      "Separated by filter",
+      "0"
+     ],
+     [
+      "Recipient alone",
+      "0"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-bb-0016",
+    "mcat-bb-0017",
+    "mcat-bb-0018",
+    "mcat-bb-0019"
+   ]
+  },
+  {
+   "id": "mcat-bb-p04",
+   "exam": "MCAT",
+   "section": "BB",
+   "title": "Oxygen binding and pH",
+   "domain": "physiology",
+   "paragraphs": [
+    "Hemoglobin's affinity for oxygen can be summarized by its P50, the partial pressure of oxygen at which hemoglobin is 50% saturated. Researchers measured the P50 of purified human hemoglobin in buffered solutions at three pH values, holding the temperature at 37 °C and keeping the concentration of 2,3-bisphosphoglycerate (2,3-BPG) constant (Table 1)."
+   ],
+   "table": {
+    "caption": "Table 1. P50 of hemoglobin at three pH values",
+    "columns": [
+     "pH",
+     "P50 (mmHg)"
+    ],
+    "rows": [
+     [
+      "7.6",
+      "22"
+     ],
+     [
+      "7.4",
+      "26"
+     ],
+     [
+      "7.2",
+      "31"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-bb-0020",
+    "mcat-bb-0021",
+    "mcat-bb-0022",
+    "mcat-bb-0023"
+   ]
+  },
+  {
+   "id": "mcat-bb-p05",
+   "exam": "MCAT",
+   "section": "BB",
+   "title": "Mapping two genes in fruit flies",
+   "domain": "genetics",
+   "paragraphs": [
+    "In fruit flies, the allele for a gray body (G) is dominant to black (g), and the allele for normal wings (W) is dominant to vestigial wings (w). A researcher crossed flies heterozygous for both genes, which had inherited G and W from one parent and g and w from the other, with black-bodied, vestigial-winged flies. The phenotypes of 1,000 offspring are shown in Table 1."
+   ],
+   "table": {
+    "caption": "Table 1. Offspring of the testcross",
+    "columns": [
+     "Phenotype",
+     "Number"
+    ],
+    "rows": [
+     [
+      "Gray body, normal wings",
+      "415"
+     ],
+     [
+      "Black body, vestigial wings",
+      "415"
+     ],
+     [
+      "Gray body, vestigial wings",
+      "85"
+     ],
+     [
+      "Black body, normal wings",
+      "85"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-bb-0024",
+    "mcat-bb-0025",
+    "mcat-bb-0026",
+    "mcat-bb-0027"
+   ]
+  },
+  {
+   "id": "mcat-bb-p06",
+   "exam": "MCAT",
+   "section": "BB",
+   "title": "A toxin and the nerve impulse",
+   "domain": "neuroscience",
+   "paragraphs": [
+    "Tetrodotoxin (TTX), found in pufferfish, is a potent neurotoxin. To identify its target, researchers used a voltage clamp to hold the membrane of a squid giant axon at a series of voltages and measured the currents that flowed after each depolarizing step, before and after applying TTX (Table 1)."
+   ],
+   "table": {
+    "caption": "Table 1. Currents in a squid giant axon before and after TTX",
+    "columns": [
+     "Measurement",
+     "Before TTX",
+     "After TTX"
+    ],
+    "rows": [
+     [
+      "Early inward current (Na⁺)",
+      "Present",
+      "Absent"
+     ],
+     [
+      "Delayed outward current (K⁺)",
+      "Present",
+      "Present"
+     ],
+     [
+      "Resting membrane potential",
+      "−70 mV",
+      "−70 mV"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-bb-0028",
+    "mcat-bb-0029",
+    "mcat-bb-0030",
+    "mcat-bb-0031"
+   ]
+  },
   {
    "id": "mcat-bb-p01",
    "exam": "MCAT",
@@ -65385,6 +69024,300 @@
     "mcat-cars-0003",
     "mcat-cars-0004",
     "mcat-cars-0005"
+   ]
+  },
+  {
+   "id": "mcat-cp-p01",
+   "exam": "MCAT",
+   "section": "CP",
+   "title": "Testing two acetate buffers",
+   "domain": "general chemistry",
+   "paragraphs": [
+    "A student prepared two acetate buffers, each 1.0 L, from acetic acid (pKa = 4.76) and sodium acetate. Buffer A contained 0.10 M of each component, and buffer B contained 1.0 M of each. The student added 0.010 mol of HCl to each buffer and to 1.0 L of pure water, measuring the pH before and after (Table 1). Assume volume changes are negligible."
+   ],
+   "table": {
+    "caption": "Table 1. pH before and after adding 0.010 mol HCl",
+    "columns": [
+     "Solution",
+     "pH before",
+     "pH after"
+    ],
+    "rows": [
+     [
+      "Buffer A (0.10 M each)",
+      "4.76",
+      "4.67"
+     ],
+     [
+      "Buffer B (1.0 M each)",
+      "4.76",
+      "4.75"
+     ],
+     [
+      "Pure water",
+      "7.00",
+      "2.00"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-cp-0010",
+    "mcat-cp-0011",
+    "mcat-cp-0012",
+    "mcat-cp-0013"
+   ]
+  },
+  {
+   "id": "mcat-cp-p02",
+   "exam": "MCAT",
+   "section": "CP",
+   "title": "Choosing a salt for a cold pack",
+   "domain": "general chemistry",
+   "paragraphs": [
+    "Instant cold and hot packs work by dissolving a salt in water. To compare candidate salts, a student dissolved 5.0 g of each salt in 100 g of water in a coffee-cup calorimeter and recorded the temperature change (Table 1). Treat each solution's mass as 105 g and its specific heat as 4.2 J/(g·°C), and assume no heat is exchanged with the surroundings."
+   ],
+   "table": {
+    "caption": "Table 1. Temperature change on dissolving 5.0 g of salt",
+    "columns": [
+     "Salt",
+     "Molar mass (g/mol)",
+     "ΔT (°C)"
+    ],
+    "rows": [
+     [
+      "NH₄NO₃",
+      "80",
+      "−3.7"
+     ],
+     [
+      "CaCl₂",
+      "111",
+      "+8.5"
+     ],
+     [
+      "NaCl",
+      "58.5",
+      "−0.8"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-cp-0014",
+    "mcat-cp-0015",
+    "mcat-cp-0016",
+    "mcat-cp-0017"
+   ]
+  },
+  {
+   "id": "mcat-cp-p03",
+   "exam": "MCAT",
+   "section": "CP",
+   "title": "The energy in a defibrillator",
+   "domain": "physics",
+   "paragraphs": [
+    "A defibrillator stores energy in a capacitor and then discharges it through the patient's chest to restore a normal heart rhythm. In one simplified model, the capacitor has a capacitance of 100 µF and is charged to 2,000 V. During discharge, the patient's chest acts as a 50 Ω resistor."
+   ],
+   "mini": true,
+   "itemIds": [
+    "mcat-cp-0018",
+    "mcat-cp-0019",
+    "mcat-cp-0020",
+    "mcat-cp-0021"
+   ]
+  },
+  {
+   "id": "mcat-cp-p04",
+   "exam": "MCAT",
+   "section": "CP",
+   "title": "Light bending into plastic",
+   "domain": "physics",
+   "paragraphs": [
+    "A student aimed a narrow laser beam from air (n = 1.00) into a flat block of clear plastic and measured the angle of refraction inside the block at three angles of incidence, both measured from the normal (Table 1). The speed of light in a vacuum is 3.0 × 10⁸ m/s."
+   ],
+   "table": {
+    "caption": "Table 1. Angles of incidence and refraction",
+    "columns": [
+     "Angle in air",
+     "Angle in plastic"
+    ],
+    "rows": [
+     [
+      "30°",
+      "19.5°"
+     ],
+     [
+      "45°",
+      "28.1°"
+     ],
+     [
+      "60°",
+      "35.3°"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-cp-0022",
+    "mcat-cp-0023",
+    "mcat-cp-0024",
+    "mcat-cp-0025"
+   ]
+  },
+  {
+   "id": "mcat-ps-p01",
+   "exam": "MCAT",
+   "section": "PS",
+   "title": "Who helps in an emergency",
+   "domain": "social psychology",
+   "paragraphs": [
+    "Participants took part in what they were told was a group discussion about college life, held over an intercom so that everyone could speak privately from a separate room. Each participant was led to believe that the group included either no one else, one other student, or four other students; in fact, the other voices were recordings. Partway through, one of the recorded voices appeared to have a seizure and called for help. Researchers recorded whether each participant left the room to help before the recording ended."
+   ],
+   "table": {
+    "caption": "Table 1. Participants who helped, by group size",
+    "columns": [
+     "Others believed present",
+     "Helped (%)"
+    ],
+    "rows": [
+     [
+      "None",
+      "85"
+     ],
+     [
+      "One",
+      "64"
+     ],
+     [
+      "Four",
+      "31"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-ps-0008",
+    "mcat-ps-0009",
+    "mcat-ps-0010",
+    "mcat-ps-0011"
+   ]
+  },
+  {
+   "id": "mcat-ps-p02",
+   "exam": "MCAT",
+   "section": "PS",
+   "title": "Sleep after learning",
+   "domain": "cognitive psychology",
+   "paragraphs": [
+    "Eighty volunteers learned 40 word pairs in the evening and were then randomly assigned to one of two groups. One group slept normally; the other stayed awake all night in the laboratory. Both groups then slept normally for two more nights before being tested on the third day, when each participant was given the first word of each pair and asked to recall the second."
+   ],
+   "table": {
+    "caption": "Table 1. Word pairs recalled out of 40",
+    "columns": [
+     "Group",
+     "Mean recalled"
+    ],
+    "rows": [
+     [
+      "Slept after learning",
+      "33"
+     ],
+     [
+      "Awake all night after learning",
+      "25"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-ps-0012",
+    "mcat-ps-0013",
+    "mcat-ps-0014",
+    "mcat-ps-0015"
+   ]
+  },
+  {
+   "id": "mcat-ps-p03",
+   "exam": "MCAT",
+   "section": "PS",
+   "title": "Rats, flavors and illness",
+   "domain": "learning",
+   "paragraphs": [
+    "Rats drank sweetened water from a tube that also flashed a light and made a click each time they licked. Afterward, one group of rats was made briefly ill by a treatment that causes nausea, and a second group received a mild foot shock. Days later, each rat was offered sweetened water with no light or click and, separately, plain water that came with the light and click."
+   ],
+   "table": {
+    "caption": "Table 1. What each group later avoided",
+    "columns": [
+     "Group",
+     "Sweet water",
+     "Light and click"
+    ],
+    "rows": [
+     [
+      "Illness",
+      "Avoided",
+      "Not avoided"
+     ],
+     [
+      "Shock",
+      "Not avoided",
+      "Avoided"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-ps-0016",
+    "mcat-ps-0017",
+    "mcat-ps-0018",
+    "mcat-ps-0019"
+   ]
+  },
+  {
+   "id": "mcat-ps-p04",
+   "exam": "MCAT",
+   "section": "PS",
+   "title": "Income and life expectancy",
+   "domain": "sociology",
+   "paragraphs": [
+    "Researchers linked tax records to death records for a large national sample and estimated how many more years a 40-year-old could expect to live, grouped by household income from the lowest fifth (quintile) to the highest (Table 1)."
+   ],
+   "table": {
+    "caption": "Table 1. Remaining life expectancy at age 40, by income quintile",
+    "columns": [
+     "Income quintile",
+     "Years"
+    ],
+    "rows": [
+     [
+      "Lowest",
+      "37.1"
+     ],
+     [
+      "Second",
+      "39.6"
+     ],
+     [
+      "Middle",
+      "41.2"
+     ],
+     [
+      "Fourth",
+      "42.4"
+     ],
+     [
+      "Highest",
+      "43.9"
+     ]
+    ]
+   },
+   "mini": true,
+   "itemIds": [
+    "mcat-ps-0020",
+    "mcat-ps-0021",
+    "mcat-ps-0022",
+    "mcat-ps-0023"
    ]
   }
  ],
@@ -66459,6 +70392,54 @@
    "title": "The author's attitude",
    "front": "How do you pin down an author's attitude toward a view?",
    "back": "Look for evaluative words (praise, concession, irony, hedges like \"perhaps\") and for what the author ultimately endorses. Extreme answers (contempt, uncritical admiration) are usually wrong; mixed attitudes are common.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-insulin-glut4",
+   "section": "BB",
+   "title": "Insulin and GLUT4",
+   "front": "How does insulin increase glucose uptake into muscle and fat cells?",
+   "back": "Insulin's receptor signals through PI3-kinase to move GLUT4 transporters from internal vesicles to the plasma membrane. More transporters at the surface means faster facilitated diffusion of glucose into the cell.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-bohr-effect",
+   "section": "BB",
+   "title": "The Bohr effect",
+   "front": "How do acid and CO₂ change hemoglobin's oxygen binding, and why does it help?",
+   "back": "Lower pH and higher CO₂ lower hemoglobin's O₂ affinity (higher P50, curve shifts right), so hemoglobin unloads more O₂ in active tissues. Higher temperature and 2,3-BPG shift the curve right too.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-recombination-mapping",
+   "section": "BB",
+   "title": "Linkage and recombination frequency",
+   "front": "In a testcross, how do you find the distance between two linked genes?",
+   "back": "Recombination frequency = recombinant offspring ÷ total offspring. 1% equals 1 map unit (centimorgan). Unlinked genes give 50% recombinants (a 1:1:1:1 ratio).",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-calorimetry",
+   "section": "CP",
+   "title": "Calorimetry",
+   "front": "How do you get the heat of a process from a temperature change in a coffee-cup calorimeter?",
+   "back": "q = mcΔT for the solution. If the solution warms, the process released heat (exothermic, ΔH < 0); if it cools, the process absorbed heat (endothermic).",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-refraction",
+   "section": "CP",
+   "title": "Refraction and Snell's law",
+   "front": "What does Snell's law say, and what stays the same when light changes media?",
+   "back": "n₁ sin θ₁ = n₂ sin θ₂, and v = c/n. Frequency stays the same; speed and wavelength change. Total internal reflection needs n₁ > n₂ and sin θc = n₂/n₁.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-mcat-social-gradient",
+   "section": "PS",
+   "title": "The social gradient in health",
+   "front": "What is the \"social gradient\" in health?",
+   "back": "Health improves step by step with each rise in socioeconomic status, not only between the poorest and everyone else. Correlational data can't by themselves rule out reverse causation (illness lowering income).",
    "exam": "MCAT"
   }
  ]
