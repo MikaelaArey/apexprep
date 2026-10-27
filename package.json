@@ -52,7 +52,8 @@
     "content": "node scripts/build-content.mjs",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test:sync": "supabase/test/start-local.sh && jest -c jest.integration.config.js; status=$?; supabase/test/stop-local.sh; exit $status"
   },
   "private": true,
   "jest": {

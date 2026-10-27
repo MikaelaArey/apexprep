@@ -1,0 +1,59 @@
+# Sync end to end against the local stand-in: a guest account backs up a Daily 5,
+# then signs in with an email code (the stand-in accepts 123456).
+appId: host.exp.Exponent
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: LSAT
+      DEMO: "0"
+- tapOn:
+    id: "home-cta"
+- repeat:
+    times: 5
+    commands:
+      - extendedWaitUntil:
+          visible:
+            id: "check"
+          timeout: 10000
+      - tapOn:
+          id: "option-B"
+      - tapOn:
+          id: "check"
+      - tapOn:
+          id: "next"
+- extendedWaitUntil:
+    visible:
+      id: "summary"
+    timeout: 10000
+- tapOn:
+    id: "summary-done"
+- tapOn:
+    id: "open-settings"
+- scrollUntilVisible:
+    element:
+      id: "account-row"
+    direction: DOWN
+- tapOn:
+    id: "account-row"
+- extendedWaitUntil:
+    visible:
+      id: "email-input"
+    timeout: 8000
+- takeScreenshot: 80-account-guest
+- tapOn:
+    id: "email-input"
+- inputText: "mikaela.test@example.com"
+- tapOn: "Email me a code"
+- extendedWaitUntil:
+    visible:
+      id: "code-input"
+    timeout: 8000
+- tapOn:
+    id: "code-input"
+- inputText: "123456"
+- tapOn: "Sign in"
+- extendedWaitUntil:
+    visible: "Your progress is backed up"
+    timeout: 10000
+- takeScreenshot: 81-account-member

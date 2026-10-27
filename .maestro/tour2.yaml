@@ -36,6 +36,10 @@ appId: host.exp.Exponent
 - takeScreenshot: 46-settings
 - scroll
 - takeScreenshot: 47-settings-more
+- scrollUntilVisible:
+    element:
+      id: "account-row"
+    direction: DOWN
 - tapOn:
     id: "account-row"
 - extendedWaitUntil:

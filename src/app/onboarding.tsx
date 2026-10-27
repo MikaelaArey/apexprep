@@ -5,7 +5,7 @@
 import { DatePicker, Host } from '@expo/ui/swift-ui';
 import { datePickerStyle, tint } from '@expo/ui/swift-ui/modifiers';
 import { useState } from 'react';
-import { Pressable, ScrollView, View } from 'react-native';
+import { Image, Pressable, ScrollView, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { EXAMS } from '@/content/labels';
 import type { Exam } from '@/content/types';
@@ -119,9 +119,7 @@ export default function Onboarding() {
     body = (
       <View style={{ gap: space.xxl }}>
         <View style={{ gap: space.sm }}>
-          <View style={{ width: 56, height: 56, borderRadius: 16, backgroundColor: c.primary, alignItems: 'center', justifyContent: 'center' }}>
-            <Icon name="mountain.2.fill" size={28} color={c.onPrimary} />
-          </View>
+          <Image source={require('@/assets/images/icon-small.png')} style={{ width: 64, height: 64, borderRadius: 15 }} accessibilityIgnoresInvertColors />
           <T variant="largeTitle" style={{ marginTop: space.lg }}>
             ApexPrep
           </T>

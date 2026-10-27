@@ -44,3 +44,4 @@ example
 
 # Maestro run output
 .maestro/out/
+supabase/test/.data/
