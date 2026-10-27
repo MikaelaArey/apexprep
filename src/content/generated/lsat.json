@@ -1,7 +1,7 @@
 {
  "exam": "LSAT",
- "version": "2198748ba511",
- "generatedAt": "2026-10-27T00:53:28.802Z",
+ "version": "442fb23a7852",
+ "generatedAt": "2026-10-27T02:17:48.654Z",
  "items": [
   {
    "id": "lsat-lr-0001",
@@ -29,10 +29,10 @@
     },
     {
      "id": "B",
-     "text": "Marlow residents who drink green tea daily are also far more likely to exercise regularly and sleep at least seven hours a night.",
-     "correct": true,
-     "trap": null,
-     "why": "It offers a rival cause for the fewer colds, so the tea may be a bystander."
+     "text": "Coffee drinkers in Marlow report more colds than green tea drinkers do.",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Coffee drinkers are a new group. Comparing them can't explain why tea drinkers get fewer colds."
     },
     {
      "id": "C",
@@ -43,10 +43,10 @@
     },
     {
      "id": "D",
-     "text": "Coffee drinkers in Marlow report more colds than green tea drinkers do.",
-     "correct": false,
-     "trap": "irrelevant_comparison",
-     "why": "Coffee drinkers are a new group. Comparing them can't explain why tea drinkers get fewer colds."
+     "text": "Marlow residents who drink green tea daily are also far more likely to exercise regularly and sleep at least seven hours a night.",
+     "correct": true,
+     "trap": null,
+     "why": "It offers a rival cause for the fewer colds, so the tea may be a bystander."
     },
     {
      "id": "E",
@@ -97,38 +97,38 @@
    "options": [
     {
      "id": "A",
-     "text": "Some districts of Halverton with few public libraries also have low rates of juvenile crime.",
-     "correct": false,
-     "trap": "too_weak",
-     "why": "A few exceptions don't undo a general pattern, and they don't show that libraries are irrelevant."
-    },
-    {
-     "id": "B",
-     "text": "The districts of Halverton with the most public libraries also have the highest household incomes and the most after-school programs.",
-     "correct": true,
-     "trap": null,
-     "why": "Income and after-school programs are rival explanations for the low crime, so adding libraries alone might change nothing."
-    },
-    {
-     "id": "C",
-     "text": "Libraries throughout Halverton have extended their evening hours in recent years.",
-     "correct": false,
-     "trap": "doesnt_differentiate",
-     "why": "The change applies to every district, so it can't account for differences between them."
-    },
-    {
-     "id": "D",
      "text": "Juvenile crime in Halverton as a whole has declined over the past decade.",
      "correct": false,
      "trap": "doesnt_differentiate",
      "why": "A citywide decline says nothing about why some districts have lower rates than others."
     },
     {
-     "id": "E",
+     "id": "B",
      "text": "Most of Halverton's libraries were built more than thirty years ago.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "The age of the buildings has no bearing on whether libraries reduce crime."
+    },
+    {
+     "id": "C",
+     "text": "Some districts of Halverton with few public libraries also have low rates of juvenile crime.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "A few exceptions don't undo a general pattern, and they don't show that libraries are irrelevant."
+    },
+    {
+     "id": "D",
+     "text": "Libraries throughout Halverton have extended their evening hours in recent years.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "The change applies to every district, so it can't account for differences between them."
+    },
+    {
+     "id": "E",
+     "text": "The districts of Halverton with the most public libraries also have the highest household incomes and the most after-school programs.",
+     "correct": true,
+     "trap": null,
+     "why": "Income and after-school programs are rival explanations for the low crime, so adding libraries alone might change nothing."
     }
    ],
    "tldr": "Wealth and after-school programs could explain the low crime, so more libraries may not help.",
@@ -171,38 +171,38 @@
    "options": [
     {
      "id": "A",
-     "text": "The app was developed by a company that also manufactures medication.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "Who made the app says nothing about whether it changes patients' behavior."
-    },
-    {
-     "id": "B",
      "text": "Before the app was introduced, the patients who later chose to use it had been no more consistent in taking their medication than other patients.",
      "correct": true,
      "trap": null,
      "why": "It rules out the main alternative: that the app users were already the more consistent patients."
     },
     {
-     "id": "C",
-     "text": "Some patients who used the app nonetheless missed several doses of their medication.",
-     "correct": false,
-     "trap": "too_weak",
-     "why": "The claim is about consistency compared with other patients. Some missed doses are expected either way."
-    },
-    {
-     "id": "D",
+     "id": "B",
      "text": "Many clinics other than Elmridge have also begun recommending mobile reminder apps.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "Other clinics' recommendations aren't evidence about this app's effect."
     },
     {
-     "id": "E",
+     "id": "C",
      "text": "Patients who did not use the app were more likely to report unpleasant side effects from their medication.",
      "correct": false,
      "trap": "wrong_direction",
      "why": "That's a rival reason the non-users skipped doses, so it weakens the argument."
+    },
+    {
+     "id": "D",
+     "text": "The app was developed by a company that also manufactures medication.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Who made the app says nothing about whether it changes patients' behavior."
+    },
+    {
+     "id": "E",
+     "text": "Some patients who used the app nonetheless missed several doses of their medication.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The claim is about consistency compared with other patients. Some missed doses are expected either way."
     }
    ],
    "tldr": "Showing both groups started out equally consistent rules out self-selection.",
@@ -249,38 +249,38 @@
    "options": [
     {
      "id": "A",
-     "text": "Novels assigned in introductory literature courses should contain no historical references at all.",
+     "text": "Tidewater is the only novel whose plot turns on unfamiliar historical events.",
      "correct": false,
      "trap": "too_strong",
-     "why": "The argument doesn't need to ban every reference, only the kind that blocks understanding."
+     "why": "Other novels could share the problem. The argument doesn't depend on Tidewater being unique."
     },
     {
      "id": "B",
-     "text": "Tidewater does not itself provide enough information about those historical events for an unfamiliar reader to grasp its central conflict.",
-     "correct": true,
-     "trap": null,
-     "why": "Negate it: if the novel explains the events itself, students wouldn't miss the point and the argument collapses."
-    },
-    {
-     "id": "C",
-     "text": "Most first-year students would enjoy Tidewater if they understood its historical references.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "The argument is about understanding the conflict, not enjoyment."
-    },
-    {
-     "id": "D",
      "text": "Advanced literature courses are a better place for novels with complex plots.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "The critic never says where the novel should be assigned, so this isn't required."
     },
     {
-     "id": "E",
-     "text": "Tidewater is the only novel whose plot turns on unfamiliar historical events.",
+     "id": "C",
+     "text": "Novels assigned in introductory literature courses should contain no historical references at all.",
      "correct": false,
      "trap": "too_strong",
-     "why": "Other novels could share the problem. The argument doesn't depend on Tidewater being unique."
+     "why": "The argument doesn't need to ban every reference, only the kind that blocks understanding."
+    },
+    {
+     "id": "D",
+     "text": "Most first-year students would enjoy Tidewater if they understood its historical references.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument is about understanding the conflict, not enjoyment."
+    },
+    {
+     "id": "E",
+     "text": "Tidewater does not itself provide enough information about those historical events for an unfamiliar reader to grasp its central conflict.",
+     "correct": true,
+     "trap": null,
+     "why": "Negate it: if the novel explains the events itself, students wouldn't miss the point and the argument collapses."
     }
    ],
    "tldr": "If the novel explained the history itself, students wouldn't miss the point, so the argument needs it not to.",
@@ -328,17 +328,17 @@
    "options": [
     {
      "id": "A",
-     "text": "Anyone who has published original research is eligible for the faculty travel grant.",
-     "correct": false,
-     "trap": "reversal",
-     "why": "This tells us who is eligible, not who isn't. It can't rule Dana out."
-    },
-    {
-     "id": "B",
      "text": "Only people who qualify for the Morrow Fellowship are eligible for the faculty travel grant.",
      "correct": true,
      "trap": null,
      "why": "Grant → Fellowship → published. Dana hasn't published, so Dana can't qualify, so Dana isn't eligible."
+    },
+    {
+     "id": "B",
+     "text": "Anyone who has published original research is eligible for the faculty travel grant.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "This tells us who is eligible, not who isn't. It can't rule Dana out."
     },
     {
      "id": "C",
@@ -349,17 +349,17 @@
     },
     {
      "id": "D",
-     "text": "Most people who are eligible for the faculty travel grant have published original research.",
-     "correct": false,
-     "trap": "too_weak",
-     "why": "\"Most\" leaves room for Dana to be eligible anyway, so the conclusion isn't guaranteed."
-    },
-    {
-     "id": "E",
      "text": "Dana has applied for the Morrow Fellowship in the past.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "Applying says nothing about qualifying or about the grant."
+    },
+    {
+     "id": "E",
+     "text": "Most people who are eligible for the faculty travel grant have published original research.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "\"Most\" leaves room for Dana to be eligible anyway, so the conclusion isn't guaranteed."
     }
    ],
    "tldr": "If only Fellowship-qualified people can get the grant, Dana (unpublished, so not qualified) can't get it.",
@@ -402,38 +402,38 @@
    "options": [
     {
      "id": "A",
-     "text": "takes for granted that a condition required for success is enough to guarantee it",
-     "correct": true,
-     "trap": null,
-     "why": "Radio ads are necessary for success in Lindale, not sufficient. Plenty of failing restaurants might advertise too."
-    },
-    {
-     "id": "B",
-     "text": "relies on too small a sample of restaurants to support a general conclusion",
-     "correct": false,
-     "trap": "not_present",
-     "why": "The premise covers every successful restaurant. Sample size isn't the issue."
-    },
-    {
-     "id": "C",
      "text": "assumes that what is true of restaurants in Lindale is true of restaurants everywhere",
      "correct": false,
      "trap": "not_present",
      "why": "The conclusion stays in Lindale; it never generalizes beyond it."
     },
     {
-     "id": "D",
-     "text": "attacks the reputation of Café Orla instead of evaluating its advertising",
-     "correct": false,
-     "trap": "not_present",
-     "why": "The argument says nothing about Café Orla's reputation."
-    },
-    {
-     "id": "E",
+     "id": "B",
      "text": "confuses a cause of a restaurant's success with an effect of it",
      "correct": false,
      "trap": "not_present",
      "why": "The argument makes no causal claim, only a conditional one, so this isn't the mistake."
+    },
+    {
+     "id": "C",
+     "text": "relies on too small a sample of restaurants to support a general conclusion",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The premise covers every successful restaurant. Sample size isn't the issue."
+    },
+    {
+     "id": "D",
+     "text": "takes for granted that a condition required for success is enough to guarantee it",
+     "correct": true,
+     "trap": null,
+     "why": "Radio ads are necessary for success in Lindale, not sufficient. Plenty of failing restaurants might advertise too."
+    },
+    {
+     "id": "E",
+     "text": "attacks the reputation of Café Orla instead of evaluating its advertising",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument says nothing about Café Orla's reputation."
     }
    ],
    "tldr": "Advertising is required for success, but the argument treats it as a guarantee.",
@@ -472,38 +472,38 @@
    "options": [
     {
      "id": "A",
-     "text": "It presumes that what is true of each part of a whole is true of the whole.",
-     "correct": true,
-     "trap": null,
-     "why": "Programs that are fast alone can be slow together, since they compete for the same memory and processor."
-    },
-    {
-     "id": "B",
-     "text": "It presumes that what is true of a whole is true of each of its parts.",
-     "correct": false,
-     "trap": "reversal",
-     "why": "That's the division flaw, the mirror image. Here the reasoning runs part → whole."
-    },
-    {
-     "id": "C",
      "text": "It relies on testimony from the software's developers.",
      "correct": false,
      "trap": "not_present",
      "why": "No testimony appears in the argument."
     },
     {
-     "id": "D",
+     "id": "B",
      "text": "It treats one possible cause of slow performance as the only cause.",
      "correct": false,
      "trap": "not_present",
      "why": "The argument never identifies a cause of slowness."
     },
     {
-     "id": "E",
+     "id": "C",
      "text": "It draws a conclusion about all computers from evidence about older computers.",
      "correct": false,
      "trap": "not_present",
      "why": "The conclusion is about older computers only."
+    },
+    {
+     "id": "D",
+     "text": "It presumes that what is true of a whole is true of each of its parts.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That's the division flaw, the mirror image. Here the reasoning runs part → whole."
+    },
+    {
+     "id": "E",
+     "text": "It presumes that what is true of each part of a whole is true of the whole.",
+     "correct": true,
+     "trap": null,
+     "why": "Programs that are fast alone can be slow together, since they compete for the same memory and processor."
     }
    ],
    "tldr": "Five fast programs can still be slow when they run together.",
@@ -554,10 +554,10 @@
     },
     {
      "id": "C",
-     "text": "More Brennan students were eligible to study abroad this year than in any previous year.",
+     "text": "Most Brennan students who complete two years of a foreign language do not want to study abroad.",
      "correct": false,
-     "trap": "unsupported",
-     "why": "Tempting, but a past year could have had more eligible students and a lower participation rate."
+     "trap": "too_strong",
+     "why": "Choosing not to go isn't the same as not wanting to. Cost or scheduling could explain it."
     },
     {
      "id": "D",
@@ -568,10 +568,10 @@
     },
     {
      "id": "E",
-     "text": "Most Brennan students who complete two years of a foreign language do not want to study abroad.",
+     "text": "More Brennan students were eligible to study abroad this year than in any previous year.",
      "correct": false,
-     "trap": "too_strong",
-     "why": "Choosing not to go isn't the same as not wanting to. Cost or scheduling could explain it."
+     "trap": "unsupported",
+     "why": "Tempting, but a past year could have had more eligible students and a lower participation rate."
     }
    ],
    "tldr": "All who went were eligible, and under half of the eligible went, so eligible students outnumber them more than two to one.",
@@ -614,31 +614,31 @@
    "options": [
     {
      "id": "A",
+     "text": "Economists who study regional employment are more reliable than other economists.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument never compares the reliability of economists."
+    },
+    {
+     "id": "B",
      "text": "Raising the minimum wage never reduces employment.",
      "correct": false,
      "trap": "too_strong",
      "why": "The author denies \"always reduces,\" which is not the same as claiming \"never reduces.\""
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "It is not the case that raising the minimum wage always reduces employment.",
      "correct": true,
      "trap": null,
      "why": "That's the claim \"this view cannot be right,\" spelled out. Everything after it is evidence for it."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "Employment grew last year in several regions that raised their minimum wage.",
      "correct": false,
      "trap": "restates_premise",
      "why": "This is evidence the author offers, not what the evidence is meant to show."
-    },
-    {
-     "id": "D",
-     "text": "Economists who study regional employment are more reliable than other economists.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "The argument never compares the reliability of economists."
     },
     {
      "id": "E",
@@ -693,31 +693,31 @@
     },
     {
      "id": "B",
-     "text": "It is a consideration the director concedes that might seem to count against the conclusion.",
-     "correct": true,
-     "trap": null,
-     "why": "\"Admittedly\" signals a concession: revenue is a point in the fee's favor that the director acknowledges."
+     "text": "It is an intermediate conclusion supported by the claim about the museum's charter.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The charter point supports the main conclusion, not the revenue claim."
     },
     {
      "id": "C",
-     "text": "It is offered as direct support for the argument's conclusion.",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "Revenue from a fee argues for the fee, not for seeking donations instead."
-    },
-    {
-     "id": "D",
      "text": "It is a claim that the director tries to show is false.",
      "correct": false,
      "trap": "distortion",
      "why": "The director accepts the claim. She just thinks other factors outweigh it."
     },
     {
-     "id": "E",
-     "text": "It is an intermediate conclusion supported by the claim about the museum's charter.",
+     "id": "D",
+     "text": "It is offered as direct support for the argument's conclusion.",
      "correct": false,
-     "trap": "distortion",
-     "why": "The charter point supports the main conclusion, not the revenue claim."
+     "trap": "wrong_direction",
+     "why": "Revenue from a fee argues for the fee, not for seeking donations instead."
+    },
+    {
+     "id": "E",
+     "text": "It is a consideration the director concedes that might seem to count against the conclusion.",
+     "correct": true,
+     "trap": null,
+     "why": "\"Admittedly\" signals a concession: revenue is a point in the fee's favor that the director acknowledges."
     }
    ],
    "tldr": "\"Admittedly\" marks a concession: revenue counts against the conclusion, and the director grants it.",
@@ -754,24 +754,24 @@
    "options": [
     {
      "id": "A",
+     "text": "Most residents of Pell approved of the decision to install the new lights.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Residents' approval doesn't explain the accident numbers."
+    },
+    {
+     "id": "B",
      "text": "The brighter streetlights cost more to operate than the old ones did.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "Operating cost has nothing to do with the number of accidents."
     },
     {
-     "id": "B",
-     "text": "After the new lights were installed, many drivers who had avoided Pell's main roads at night began using them, greatly increasing nighttime traffic.",
-     "correct": true,
-     "trap": null,
-     "why": "More cars on the road can mean more accidents in total, even if each driver sees better."
-    },
-    {
      "id": "C",
-     "text": "Most residents of Pell approved of the decision to install the new lights.",
+     "text": "Several other towns that installed brighter streetlights saw nighttime accidents decrease.",
      "correct": false,
-     "trap": "out_of_scope",
-     "why": "Residents' approval doesn't explain the accident numbers."
+     "trap": "deepens",
+     "why": "That makes Pell's increase more surprising, not less."
     },
     {
      "id": "D",
@@ -782,10 +782,10 @@
     },
     {
      "id": "E",
-     "text": "Several other towns that installed brighter streetlights saw nighttime accidents decrease.",
-     "correct": false,
-     "trap": "deepens",
-     "why": "That makes Pell's increase more surprising, not less."
+     "text": "After the new lights were installed, many drivers who had avoided Pell's main roads at night began using them, greatly increasing nighttime traffic.",
+     "correct": true,
+     "trap": null,
+     "why": "More cars on the road can mean more accidents in total, even if each driver sees better."
     }
    ],
    "tldr": "Better visibility can coexist with more accidents if many more people drive at night.",
@@ -835,31 +835,31 @@
     },
     {
      "id": "B",
-     "text": "A policy that would significantly impede disabled residents' access to medical care should not be adopted, even if it has other benefits.",
-     "correct": true,
-     "trap": null,
-     "why": "It matches the evidence (harder access to medical offices) to the conclusion (don't adopt), even granting the congestion benefit."
-    },
-    {
-     "id": "C",
-     "text": "Cities should provide more parking near medical offices than near other businesses.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "This doesn't address whether these particular rules should be rejected."
-    },
-    {
-     "id": "D",
      "text": "No policy should be adopted unless every resident supports it.",
      "correct": false,
      "trap": "too_strong",
      "why": "The columnist's argument is about access to medical care, not unanimous support."
     },
     {
-     "id": "E",
+     "id": "C",
+     "text": "A policy that would significantly impede disabled residents' access to medical care should not be adopted, even if it has other benefits.",
+     "correct": true,
+     "trap": null,
+     "why": "It matches the evidence (harder access to medical offices) to the conclusion (don't adopt), even granting the congestion benefit."
+    },
+    {
+     "id": "D",
      "text": "Congestion downtown is a more serious problem than limited access to medical offices.",
      "correct": false,
      "trap": "wrong_direction",
      "why": "This would favor adopting the rules."
+    },
+    {
+     "id": "E",
+     "text": "Cities should provide more parking near medical offices than near other businesses.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "This doesn't address whether these particular rules should be rejected."
     }
    ],
    "tldr": "The principle has to say that harming disabled residents' access to care outweighs the congestion benefit.",
@@ -897,41 +897,41 @@
    "options": [
     {
      "id": "A",
-     "text": "If the bakery opens early, it will sell out of bread by noon. If it sells out by noon, the owner will bake a second batch. The owner will not bake a second batch. So the bakery will not open early.",
-     "correct": true,
-     "trap": null,
-     "why": "Same chain (A → B, B → C), same denial of the last link (not C), same valid conclusion (not A)."
-    },
-    {
-     "id": "B",
-     "text": "If the bakery opens early, it will sell out of bread by noon. The bakery will sell out of bread by noon. So the bakery will open early.",
-     "correct": false,
-     "trap": "reversal",
-     "why": "This affirms the result to conclude the condition, which is invalid. The original is valid."
-    },
-    {
-     "id": "C",
-     "text": "If the bakery opens early, it will sell out by noon, and if it sells out by noon, the owner will bake a second batch. So if the owner bakes a second batch, the bakery opened early.",
-     "correct": false,
-     "trap": "reversal",
-     "why": "It reverses the chain's direction instead of denying its end."
-    },
-    {
-     "id": "D",
      "text": "If the bakery does not open early, it will not sell out by noon. The bakery will not open early. So the owner will not bake a second batch.",
      "correct": false,
      "trap": "different_structure",
      "why": "Its premises and conclusion don't line up with the original's chain-and-denial pattern."
     },
     {
-     "id": "E",
+     "id": "B",
+     "text": "If the bakery opens early, it will sell out by noon, and if it sells out by noon, the owner will bake a second batch. So if the owner bakes a second batch, the bakery opened early.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "It reverses the chain's direction instead of denying its end."
+    },
+    {
+     "id": "C",
+     "text": "If the bakery opens early, it will sell out of bread by noon. If it sells out by noon, the owner will bake a second batch. The owner will not bake a second batch. So the bakery will not open early.",
+     "correct": true,
+     "trap": null,
+     "why": "Same chain (P → Q, Q → R), same denial of the last link (not R), same valid conclusion (not P)."
+    },
+    {
+     "id": "D",
      "text": "The bakery will open early only if it sells out by noon. The bakery will sell out by noon. So the bakery will open early.",
      "correct": false,
      "trap": "reversal",
      "why": "\"Only if\" introduces a necessary condition. Meeting it doesn't guarantee the bakery opens early."
+    },
+    {
+     "id": "E",
+     "text": "If the bakery opens early, it will sell out of bread by noon. The bakery will sell out of bread by noon. So the bakery will open early.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "This affirms the result to conclude the condition, which is invalid. The original is valid."
     }
    ],
-   "tldr": "The original denies the end of a chain to deny its start (A→B→C, not C, so not A). Only A matches.",
+   "tldr": "Deny the chain's end to deny its start: P→Q→R, not R, so not P. Only one bakery argument copies that exactly.",
    "steps": [
     {
      "label": "Map",
@@ -939,7 +939,7 @@
     },
     {
      "label": "Abstract",
-     "body": "A → B, B → C, not C, therefore not A. That's a valid chained contrapositive."
+     "body": "P → Q, Q → R, not R, therefore not P. That's a valid chained contrapositive."
     },
     {
      "label": "Match",
@@ -970,17 +970,17 @@
    "options": [
     {
      "id": "A",
-     "text": "Every certified lifeguard has completed a first-aid course. Priya has completed a first-aid course. So Priya must be a certified lifeguard.",
-     "correct": true,
-     "trap": null,
-     "why": "Same flaw: meeting a requirement is treated as proof of belonging to the group."
+     "text": "Some first-aid instructors are certified lifeguards. Priya is a first-aid instructor. So Priya is a certified lifeguard.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Flawed, but it misuses \"some,\" a different error from the original's reversal."
     },
     {
      "id": "B",
-     "text": "Every certified lifeguard has completed a first-aid course. Priya has not completed a first-aid course. So Priya is not a certified lifeguard.",
+     "text": "Every certified lifeguard has completed a first-aid course. Priya is a certified lifeguard. So Priya has completed a first-aid course.",
      "correct": false,
      "trap": "different_structure",
-     "why": "This is the valid contrapositive, so there's no flaw to match."
+     "why": "This applies the rule correctly. It's valid."
     },
     {
      "id": "C",
@@ -991,20 +991,20 @@
     },
     {
      "id": "D",
-     "text": "Every certified lifeguard has completed a first-aid course. Priya is a certified lifeguard. So Priya has completed a first-aid course.",
+     "text": "Every certified lifeguard has completed a first-aid course. Priya has not completed a first-aid course. So Priya is not a certified lifeguard.",
      "correct": false,
      "trap": "different_structure",
-     "why": "This applies the rule correctly. It's valid."
+     "why": "This is the valid contrapositive, so there's no flaw to match."
     },
     {
      "id": "E",
-     "text": "Some first-aid instructors are certified lifeguards. Priya is a first-aid instructor. So Priya is a certified lifeguard.",
-     "correct": false,
-     "trap": "different_structure",
-     "why": "Flawed, but it misuses \"some,\" a different error from the original's reversal."
+     "text": "Every certified lifeguard has completed a first-aid course. Priya has completed a first-aid course. So Priya must be a certified lifeguard.",
+     "correct": true,
+     "trap": null,
+     "why": "Same flaw: meeting a requirement is treated as proof of belonging to the group."
     }
    ],
-   "tldr": "The original treats a requirement (passing a vision test) as a guarantee. Only A makes the same mistake.",
+   "tldr": "The original treats a requirement (passing a vision test) as a guarantee. Only the argument that treats a first-aid course as proof of being a lifeguard makes the same mistake.",
    "steps": [
     {
      "label": "Map",
@@ -1044,38 +1044,38 @@
    "options": [
     {
      "id": "A",
-     "text": "serious collisions downtown have declined since the bike lanes opened",
-     "correct": false,
-     "trap": "not_in_dispute",
-     "why": "Desmond accepts the decline. He disputes its cause."
-    },
-    {
-     "id": "B",
      "text": "the bike lanes are responsible for the decline in serious collisions downtown",
      "correct": true,
      "trap": null,
      "why": "Amara credits the bike lanes; Desmond credits the lower speed limit instead."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "the downtown speed limit should be lowered further",
      "correct": false,
      "trap": "not_in_dispute",
      "why": "Neither speaker says anything about lowering it further."
     },
     {
-     "id": "D",
-     "text": "bike lanes make streets safer in every city",
+     "id": "C",
+     "text": "serious collisions downtown have declined since the bike lanes opened",
      "correct": false,
-     "trap": "too_strong",
-     "why": "Both speakers talk only about this city's downtown."
+     "trap": "not_in_dispute",
+     "why": "Desmond accepts the decline. He disputes its cause."
     },
     {
-     "id": "E",
+     "id": "D",
      "text": "the city should build more bike lanes",
      "correct": false,
      "trap": "not_in_dispute",
      "why": "Neither speaker makes a recommendation."
+    },
+    {
+     "id": "E",
+     "text": "bike lanes make streets safer in every city",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Both speakers talk only about this city's downtown."
     }
    ],
    "tldr": "They agree collisions fell; they disagree about whether the bike lanes caused it.",
@@ -1116,17 +1116,17 @@
    "options": [
     {
      "id": "A",
+     "text": "showing that the mayor's claim contradicts itself",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The claim is contradicted by a fact, not by itself."
+    },
+    {
+     "id": "B",
      "text": "offering a counterexample to a general claim",
      "correct": true,
      "trap": null,
      "why": "One project finished early is enough to refute \"no public project has ever been on time.\""
-    },
-    {
-     "id": "B",
-     "text": "questioning the mayor's motives for making the claim",
-     "correct": false,
-     "trap": "not_present",
-     "why": "The critic never mentions the mayor's motives."
     },
     {
      "id": "C",
@@ -1137,10 +1137,10 @@
     },
     {
      "id": "D",
-     "text": "showing that the mayor's claim contradicts itself",
+     "text": "questioning the mayor's motives for making the claim",
      "correct": false,
      "trap": "not_present",
-     "why": "The claim is contradicted by a fact, not by itself."
+     "why": "The critic never mentions the mayor's motives."
     },
     {
      "id": "E",
@@ -1189,10 +1189,10 @@
    "options": [
     {
      "id": "A",
-     "text": "Whether other towns near Brook Falls offer swimming lessons for adults",
+     "text": "How many adults in Brook Falls know how to swim",
      "correct": false,
-     "trap": "out_of_scope",
-     "why": "Adult lessons in other towns don't bear on what caused Brook Falls' decline."
+     "trap": "irrelevant_comparison",
+     "why": "The argument is about children; adult swimming ability doesn't test the causal claim."
     },
     {
      "id": "B",
@@ -1203,17 +1203,17 @@
     },
     {
      "id": "C",
+     "text": "Whether other towns near Brook Falls offer swimming lessons for adults",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Adult lessons in other towns don't bear on what caused Brook Falls' decline."
+    },
+    {
+     "id": "D",
      "text": "Whether most children in Brook Falls enjoy swimming",
      "correct": false,
      "trap": "out_of_scope",
      "why": "Enjoyment doesn't affect whether the lessons caused the drop in drownings."
-    },
-    {
-     "id": "D",
-     "text": "How many adults in Brook Falls know how to swim",
-     "correct": false,
-     "trap": "irrelevant_comparison",
-     "why": "The argument is about children; adult swimming ability doesn't test the causal claim."
     },
     {
      "id": "E",
@@ -1263,38 +1263,38 @@
    "options": [
     {
      "id": "A",
-     "text": "Carla is not a member of the debate team.",
-     "correct": true,
-     "trap": null,
-     "why": "Exempt → no logic course → not on the debate team (two contrapositives chained)."
-    },
-    {
-     "id": "B",
      "text": "Carla does not take any courses.",
      "correct": false,
      "trap": "too_strong",
      "why": "We only know she doesn't take a logic course."
     },
     {
-     "id": "C",
-     "text": "Everyone who takes a logic course is a member of the debate team.",
-     "correct": false,
-     "trap": "reversal",
-     "why": "That reverses \"debate team → logic course.\""
-    },
-    {
-     "id": "D",
+     "id": "B",
      "text": "Some members of the debate team are exempt from the writing requirement.",
      "correct": false,
      "trap": "contradicts",
      "why": "Every debate member takes logic, and no logic student is exempt."
     },
     {
-     "id": "E",
+     "id": "C",
+     "text": "Carla is not a member of the debate team.",
+     "correct": true,
+     "trap": null,
+     "why": "Exempt → no logic course → not on the debate team (two contrapositives chained)."
+    },
+    {
+     "id": "D",
      "text": "Carla takes a logic course but is not on the debate team.",
      "correct": false,
      "trap": "contradicts",
      "why": "Logic students aren't exempt, and Carla is, so she can't take logic."
+    },
+    {
+     "id": "E",
+     "text": "Everyone who takes a logic course is a member of the debate team.",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That reverses \"debate team → logic course.\""
     }
    ],
    "tldr": "Exempt → no logic course → not on the debate team.",
@@ -1337,24 +1337,24 @@
    "options": [
     {
      "id": "A",
-     "text": "rejects an argument because of a fact about the person making it rather than the argument's merits",
-     "correct": true,
-     "trap": null,
-     "why": "Owning rentals might give her a motive, but it says nothing about whether she's right."
+     "text": "fails to explain why the zoning plan was proposed",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The plan's origins aren't relevant to the flaw."
     },
     {
      "id": "B",
-     "text": "assumes that housing costs will rise regardless of the zoning plan",
-     "correct": false,
-     "trap": "not_present",
-     "why": "The argument makes no prediction about housing costs."
-    },
-    {
-     "id": "C",
      "text": "relies on the opinion of a single expert",
      "correct": false,
      "trap": "not_present",
      "why": "It doesn't rely on her opinion; it dismisses it."
+    },
+    {
+     "id": "C",
+     "text": "assumes that housing costs will rise regardless of the zoning plan",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument makes no prediction about housing costs."
     },
     {
      "id": "D",
@@ -1365,10 +1365,10 @@
     },
     {
      "id": "E",
-     "text": "fails to explain why the zoning plan was proposed",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "The plan's origins aren't relevant to the flaw."
+     "text": "rejects an argument because of a fact about the person making it rather than the argument's merits",
+     "correct": true,
+     "trap": null,
+     "why": "Owning rentals might give her a motive, but it says nothing about whether she's right."
     }
    ],
    "tldr": "It dismisses her argument because of who she is, not what she argues.",
@@ -1419,17 +1419,17 @@
     },
     {
      "id": "C",
-     "text": "Some club members do not live on Main Street.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "The conclusion is about Riverside residents, not Main Street residents."
-    },
-    {
-     "id": "D",
      "text": "Bike lanes have been added to streets in several nearby towns.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "Other towns don't tell us what Riverside residents think."
+    },
+    {
+     "id": "D",
+     "text": "Some club members do not live on Main Street.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is about Riverside residents, not Main Street residents."
     },
     {
      "id": "E",
@@ -1477,17 +1477,17 @@
    "options": [
     {
      "id": "A",
-     "text": "Most patrons prefer self-checkout to checking out with a staff member.",
-     "correct": false,
-     "trap": "too_strong",
-     "why": "Even a minority using the kiosks could shorten lines. \"Most\" isn't required."
-    },
-    {
-     "id": "B",
      "text": "At least some patrons will use the self-checkout kiosks rather than wait for a staff member.",
      "correct": true,
      "trap": null,
      "why": "Negate it and no one uses the kiosks, so lines can't get shorter."
+    },
+    {
+     "id": "B",
+     "text": "Staff members will be reassigned to other tasks once the kiosks are installed.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The argument doesn't need this, and if true it might lengthen lines."
     },
     {
      "id": "C",
@@ -1498,17 +1498,17 @@
     },
     {
      "id": "D",
-     "text": "Staff members will be reassigned to other tasks once the kiosks are installed.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "The argument doesn't need this, and if true it might lengthen lines."
-    },
-    {
-     "id": "E",
      "text": "Every patron who uses the kiosks will finish checking out in under a minute.",
      "correct": false,
      "trap": "too_strong",
      "why": "Kiosks can help without every checkout being that fast."
+    },
+    {
+     "id": "E",
+     "text": "Most patrons prefer self-checkout to checking out with a staff member.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Even a minority using the kiosks could shorten lines. \"Most\" isn't required."
     }
    ],
    "tldr": "If nobody uses the kiosks, waiting time can't fall, so the argument needs some to use them.",
@@ -1523,7 +1523,7 @@
     },
     {
      "label": "Check",
-     "body": "Negate B (\"no patrons use them\") and the argument collapses."
+     "body": "Negate the right answer (\"no patrons use them\") and the argument collapses."
     }
    ],
    "takeaway": "Necessary assumptions are often modest (\"at least some\"). Answers with \"most\" or \"every\" usually ask for more than the argument needs.",
@@ -1558,10 +1558,10 @@
     },
     {
      "id": "B",
-     "text": "Many Greenvale students had already been eating breakfast at home before the program began.",
+     "text": "Some students who eat the free breakfast still miss school occasionally.",
      "correct": false,
-     "trap": "wrong_direction",
-     "why": "If many already ate breakfast, the program changed less, which undercuts it."
+     "trap": "too_weak",
+     "why": "The claim is about average attendance; some absences are expected either way."
     },
     {
      "id": "C",
@@ -1579,10 +1579,10 @@
     },
     {
      "id": "E",
-     "text": "Some students who eat the free breakfast still miss school occasionally.",
+     "text": "Many Greenvale students had already been eating breakfast at home before the program began.",
      "correct": false,
-     "trap": "too_weak",
-     "why": "The claim is about average attendance; some absences are expected either way."
+     "trap": "wrong_direction",
+     "why": "If many already ate breakfast, the program changed less, which undercuts it."
     }
    ],
    "tldr": "If similar districts without free breakfast saw no change, the breakfast is the likelier cause.",
@@ -1625,38 +1625,38 @@
    "options": [
     {
      "id": "A",
-     "text": "overlooks the possibility that Fairport's total budget grew enough that 5 percent of it is more money than 6 percent of last year's budget",
-     "correct": true,
-     "trap": null,
-     "why": "A smaller share of a bigger budget can still be more money."
-    },
-    {
-     "id": "B",
      "text": "assumes that parks are the most important part of the budget",
      "correct": false,
      "trap": "not_present",
      "why": "The argument says nothing about importance."
     },
     {
-     "id": "C",
-     "text": "compares figures from only two years",
+     "id": "B",
+     "text": "confuses the number of parks with the amount spent on them",
      "correct": false,
      "trap": "not_present",
-     "why": "Comparing two years is fine. The problem is mixing shares with amounts."
+     "why": "The number of parks is never mentioned."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "takes for granted that spending on parks should never decrease",
      "correct": false,
      "trap": "not_present",
      "why": "No such value judgment appears."
     },
     {
+     "id": "D",
+     "text": "overlooks the possibility that Fairport's total budget grew enough that 5 percent of it is more money than 6 percent of last year's budget",
+     "correct": true,
+     "trap": null,
+     "why": "A smaller share of a bigger budget can still be more money."
+    },
+    {
      "id": "E",
-     "text": "confuses the number of parks with the amount spent on them",
+     "text": "compares figures from only two years",
      "correct": false,
      "trap": "not_present",
-     "why": "The number of parks is never mentioned."
+     "why": "Comparing two years is fine. The problem is mixing shares with amounts."
     }
    ],
    "tldr": "A smaller percentage of a larger budget can be more dollars.",
@@ -1699,38 +1699,38 @@
    "options": [
     {
      "id": "A",
-     "text": "When the stations were installed, the hospital began testing every patient for infections, so many infections that once went undetected were now reported.",
-     "correct": true,
-     "trap": null,
-     "why": "Reported infections can rise even if actual infections fell, because more are being found."
-    },
-    {
-     "id": "B",
-     "text": "Hand sanitizer is less expensive than soap and water.",
-     "correct": false,
-     "trap": "out_of_scope",
-     "why": "Cost doesn't explain the rise in reported infections."
-    },
-    {
-     "id": "C",
      "text": "Sanitizer kills many of the germs that cause hospital-acquired infections.",
      "correct": false,
      "trap": "deepens",
      "why": "That makes a rise in infections more surprising, not less."
     },
     {
-     "id": "D",
+     "id": "B",
+     "text": "The number of patients the hospital treated stayed the same.",
+     "correct": false,
+     "trap": "deepens",
+     "why": "It rules out patient volume as an explanation, so the puzzle remains."
+    },
+    {
+     "id": "C",
      "text": "Staff at many other hospitals also use sanitizer stations.",
      "correct": false,
      "trap": "out_of_scope",
      "why": "Other hospitals don't explain this hospital's numbers."
     },
     {
-     "id": "E",
-     "text": "The number of patients the hospital treated stayed the same.",
+     "id": "D",
+     "text": "Hand sanitizer is less expensive than soap and water.",
      "correct": false,
-     "trap": "deepens",
-     "why": "It rules out patient volume as an explanation, so the puzzle remains."
+     "trap": "out_of_scope",
+     "why": "Cost doesn't explain the rise in reported infections."
+    },
+    {
+     "id": "E",
+     "text": "When the stations were installed, the hospital began testing every patient for infections, so many infections that once went undetected were now reported.",
+     "correct": true,
+     "trap": null,
+     "why": "Reported infections can rise even if actual infections fell, because more are being found."
     }
    ],
    "tldr": "Wider testing made more infections visible, so reported numbers rose despite better hygiene.",
@@ -1779,31 +1779,31 @@
     },
     {
      "id": "B",
-     "text": "Although traditional legal drafting was defended as precise, plain language need not sacrifice precision, which depends more on careful drafting than on vocabulary.",
-     "correct": true,
-     "trap": null,
-     "why": "It covers the traditional view, the movement's challenge and the author's own conclusion in the final paragraph."
-    },
-    {
-     "id": "C",
-     "text": "The plain-language movement has failed because critics still claim that plain language sacrifices precision.",
-     "correct": false,
-     "trap": "distortion",
-     "why": "The critics' persistence isn't presented as the movement's failure."
-    },
-    {
-     "id": "D",
      "text": "Archaic legal phrases were litigated repeatedly during the twentieth century.",
      "correct": false,
      "trap": "too_narrow",
      "why": "That's one detail from the second paragraph, not the main point."
     },
     {
-     "id": "E",
+     "id": "C",
+     "text": "Although traditional legal drafting was defended as precise, plain language need not sacrifice precision, which depends more on careful drafting than on vocabulary.",
+     "correct": true,
+     "trap": null,
+     "why": "It covers the traditional view, the movement's challenge and the author's own conclusion in the final paragraph."
+    },
+    {
+     "id": "D",
      "text": "Jurisdictions that require plain-language contracts have fewer legal disputes than those that do not.",
      "correct": false,
      "trap": "unsupported",
      "why": "The passage never compares dispute rates across jurisdictions."
+    },
+    {
+     "id": "E",
+     "text": "The plain-language movement has failed because critics still claim that plain language sacrifices precision.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The critics' persistence isn't presented as the movement's failure."
     }
    ],
    "tldr": "The passage moves from the traditional defense to the author's claim that precision comes from careful drafting, not archaic words.",
@@ -1843,38 +1843,38 @@
    "options": [
     {
      "id": "A",
-     "text": "undermine the defenders' claim that traditional phrases had settled meanings",
-     "correct": true,
-     "trap": null,
-     "why": "If the phrases kept ending up in court, their meanings weren't settled, which is exactly what the defenders claimed."
-    },
-    {
-     "id": "B",
-     "text": "show that plain-language documents produce less litigation",
-     "correct": false,
-     "trap": "unsupported",
-     "why": "The detail is about traditional phrases, not plain-language documents."
-    },
-    {
-     "id": "C",
      "text": "illustrate the archaic vocabulary of traditional legal documents",
      "correct": false,
      "trap": "distortion",
      "why": "The vocabulary examples come in the first paragraph. This detail does a different job."
     },
     {
-     "id": "D",
-     "text": "suggest that courts have been hostile to the plain-language movement",
-     "correct": false,
-     "trap": "unsupported",
-     "why": "Nothing in the passage describes courts' attitude toward the movement."
-    },
-    {
-     "id": "E",
+     "id": "B",
      "text": "concede a point to critics of the plain-language movement",
      "correct": false,
      "trap": "wrong_direction",
      "why": "It's a point against the traditional style, made by the movement's advocates."
+    },
+    {
+     "id": "C",
+     "text": "undermine the defenders' claim that traditional phrases had settled meanings",
+     "correct": true,
+     "trap": null,
+     "why": "If the phrases kept ending up in court, their meanings weren't settled, which is exactly what the defenders claimed."
+    },
+    {
+     "id": "D",
+     "text": "show that plain-language documents produce less litigation",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The detail is about traditional phrases, not plain-language documents."
+    },
+    {
+     "id": "E",
+     "text": "suggest that courts have been hostile to the plain-language movement",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing in the passage describes courts' attitude toward the movement."
     }
    ],
    "tldr": "Repeated litigation shows the \"settled\" meanings weren't settled, rebutting the defenders.",
@@ -1910,38 +1910,38 @@
    "options": [
     {
      "id": "A",
-     "text": "respectful agreement",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "The author argues against the critics with \"Yet…\""
-    },
-    {
-     "id": "B",
-     "text": "measured disagreement",
-     "correct": true,
-     "trap": null,
-     "why": "The author rejects their claim (\"less at odds than the critics suppose\") without hostility."
-    },
-    {
-     "id": "C",
-     "text": "open contempt",
-     "correct": false,
-     "trap": "too_strong",
-     "why": "Nothing in the tone is scornful."
-    },
-    {
-     "id": "D",
      "text": "complete indifference",
      "correct": false,
      "trap": "contradicts",
      "why": "The author takes the time to rebut them."
     },
     {
-     "id": "E",
+     "id": "B",
+     "text": "open contempt",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Nothing in the tone is scornful."
+    },
+    {
+     "id": "C",
      "text": "reluctant acceptance",
      "correct": false,
      "trap": "wrong_direction",
      "why": "The author doesn't accept the critics' claim."
+    },
+    {
+     "id": "D",
+     "text": "measured disagreement",
+     "correct": true,
+     "trap": null,
+     "why": "The author rejects their claim (\"less at odds than the critics suppose\") without hostility."
+    },
+    {
+     "id": "E",
+     "text": "respectful agreement",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author argues against the critics with \"Yet…\""
     }
    ],
    "tldr": "\"Yet clarity and precision are less at odds than the critics suppose\" is polite disagreement.",
@@ -1984,31 +1984,31 @@
     },
     {
      "id": "B",
-     "text": "consumers rarely understand the contracts they sign",
-     "correct": false,
-     "trap": "wrong_viewpoint",
-     "why": "That's the plain-language advocates' point, not the defenders'."
-    },
-    {
-     "id": "C",
-     "text": "archaic terms are more elegant than everyday language",
-     "correct": false,
-     "trap": "unsupported",
-     "why": "The passage never mentions elegance."
-    },
-    {
-     "id": "D",
      "text": "legal documents should be read only by lawyers",
      "correct": false,
      "trap": "too_strong",
      "why": "The passage never attributes this to anyone."
     },
     {
-     "id": "E",
+     "id": "C",
      "text": "plain language is too informal for use in court",
      "correct": false,
      "trap": "unsupported",
      "why": "The critics in P3 worry about precision, not formality, and they aren't the defenders."
+    },
+    {
+     "id": "D",
+     "text": "archaic terms are more elegant than everyday language",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage never mentions elegance."
+    },
+    {
+     "id": "E",
+     "text": "consumers rarely understand the contracts they sign",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That's the plain-language advocates' point, not the defenders'."
     }
    ],
    "tldr": "The defenders' argument, in P1, is that changing tested words invites new lawsuits.",
@@ -2051,31 +2051,31 @@
     },
     {
      "id": "B",
-     "text": "A drafter who carefully anticipates the situations a contract must govern can write a precise contract in everyday language.",
-     "correct": true,
-     "trap": null,
-     "why": "The final sentence ties precision to how carefully the drafter thinks things through, not to vocabulary."
+     "text": "The plain-language movement began because courts required simpler documents.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The movement came first, and some jurisdictions later required plain language."
     },
     {
      "id": "C",
-     "text": "Plain-language contracts eliminate disputes between the parties.",
-     "correct": false,
-     "trap": "too_strong",
-     "why": "The passage says unreadable documents cause some disputes, not that plain language ends them."
-    },
-    {
-     "id": "D",
      "text": "Judges are less capable than laypeople of interpreting archaic terms.",
      "correct": false,
      "trap": "distortion",
      "why": "The passage says judges parse clear sentences more reliably, not this."
     },
     {
+     "id": "D",
+     "text": "A drafter who carefully anticipates the situations a contract must govern can write a precise contract in everyday language.",
+     "correct": true,
+     "trap": null,
+     "why": "The final sentence ties precision to how carefully the drafter thinks things through, not to vocabulary."
+    },
+    {
      "id": "E",
-     "text": "The plain-language movement began because courts required simpler documents.",
+     "text": "Plain-language contracts eliminate disputes between the parties.",
      "correct": false,
-     "trap": "distortion",
-     "why": "The movement came first, and some jurisdictions later required plain language."
+     "trap": "too_strong",
+     "why": "The passage says unreadable documents cause some disputes, not that plain language ends them."
     }
    ],
    "tldr": "The author locates precision in careful thinking, so everyday words can be precise.",
@@ -2115,17 +2115,17 @@
    "options": [
     {
      "id": "A",
+     "text": "The mid-twentieth-century experiments on caged birds were poorly designed.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage treats those experiments as the starting evidence."
+    },
+    {
+     "id": "B",
      "text": "Migratory songbirds navigate primarily by observing the stars.",
      "correct": false,
      "trap": "contradicts",
      "why": "Caged birds orient correctly even when they can't see the sky."
-    },
-    {
-     "id": "B",
-     "text": "Although evidence suggests that birds sense Earth's magnetic field, perhaps through light-sensitive proteins, how they do so remains unsettled and may involve more than one mechanism.",
-     "correct": true,
-     "trap": null,
-     "why": "It covers the evidence for a magnetic sense, the leading hypothesis and the skeptics' doubts."
     },
     {
      "id": "C",
@@ -2136,17 +2136,17 @@
     },
     {
      "id": "D",
+     "text": "Although evidence suggests that birds sense Earth's magnetic field, perhaps through light-sensitive proteins, how they do so remains unsettled and may involve more than one mechanism.",
+     "correct": true,
+     "trap": null,
+     "why": "It covers the evidence for a magnetic sense, the leading hypothesis and the skeptics' doubts."
+    },
+    {
+     "id": "E",
      "text": "Iron-containing structures, not proteins, are the source of birds' magnetic sense.",
      "correct": false,
      "trap": "too_strong",
      "why": "Some researchers suspect iron structures \"also\" play a role, not instead of proteins."
-    },
-    {
-     "id": "E",
-     "text": "The mid-twentieth-century experiments on caged birds were poorly designed.",
-     "correct": false,
-     "trap": "unsupported",
-     "why": "The passage treats those experiments as the starting evidence."
     }
    ],
    "tldr": "Birds seem to sense magnetism, maybe via eye proteins, but the mechanism is unsettled and may involve several senses.",
@@ -2182,38 +2182,38 @@
    "options": [
     {
      "id": "A",
-     "text": "describe evidence that supporters cite for a chemical, light-based magnetic sense",
-     "correct": true,
-     "trap": null,
-     "why": "It's one of the effects supporters say is hard to explain unless the sense is chemical."
-    },
-    {
-     "id": "B",
      "text": "show that birds cannot navigate in cities",
      "correct": false,
      "trap": "unsupported",
      "why": "The passage never discusses cities."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "argue that iron-containing structures are the true sensors",
      "correct": false,
      "trap": "wrong_viewpoint",
      "why": "The iron idea appears in the skeptics' paragraph, not with this evidence."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "explain why caged birds become restless at migration time",
      "correct": false,
      "trap": "distortion",
      "why": "Restlessness comes up in paragraph 1 and has a different role."
     },
     {
-     "id": "E",
+     "id": "D",
      "text": "cast doubt on the claim that birds sense magnetic fields at all",
      "correct": false,
      "trap": "wrong_direction",
      "why": "The detail supports a particular account of the magnetic sense."
+    },
+    {
+     "id": "E",
+     "text": "describe evidence that supporters cite for a chemical, light-based magnetic sense",
+     "correct": true,
+     "trap": null,
+     "why": "It's one of the effects supporters say is hard to explain unless the sense is chemical."
     }
    ],
    "tldr": "The radio-noise finding is evidence supporters use for the protein hypothesis.",
@@ -2256,10 +2256,10 @@
     },
     {
      "id": "B",
-     "text": "caged birds cannot sense magnetic fields",
+     "text": "birds rely only on landmarks during their first migration",
      "correct": false,
-     "trap": "contradicts",
-     "why": "Paragraph 1 says caged birds orient correctly."
+     "trap": "unsupported",
+     "why": "Landmarks are never mentioned."
     },
     {
      "id": "C",
@@ -2270,10 +2270,10 @@
     },
     {
      "id": "D",
-     "text": "birds rely only on landmarks during their first migration",
+     "text": "caged birds cannot sense magnetic fields",
      "correct": false,
-     "trap": "unsupported",
-     "why": "Landmarks are never mentioned."
+     "trap": "contradicts",
+     "why": "Paragraph 1 says caged birds orient correctly."
     },
     {
      "id": "E",
@@ -2316,24 +2316,24 @@
    "options": [
     {
      "id": "A",
-     "text": "a bird might use different senses to hold a direction and to judge its position",
-     "correct": true,
-     "trap": null,
-     "why": "Paragraph 3 says birds \"may combine several senses\" in this way."
-    },
-    {
-     "id": "B",
      "text": "light-sensitive proteins play no part in bird navigation",
      "correct": false,
      "trap": "too_strong",
      "why": "They suspect iron structures \"also\" play a role, which doesn't rule out proteins."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "migratory birds cannot detect the strength of the magnetic field",
      "correct": false,
      "trap": "contradicts",
      "why": "They propose iron structures might detect exactly that."
+    },
+    {
+     "id": "C",
+     "text": "birds navigate more accurately at night than during the day",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage makes no such comparison."
     },
     {
      "id": "D",
@@ -2344,10 +2344,10 @@
     },
     {
      "id": "E",
-     "text": "birds navigate more accurately at night than during the day",
-     "correct": false,
-     "trap": "unsupported",
-     "why": "The passage makes no such comparison."
+     "text": "a bird might use different senses to hold a direction and to judge its position",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 3 says birds \"may combine several senses\" in this way."
     }
    ],
    "tldr": "The iron-structure researchers think birds may combine senses for direction and position.",
@@ -2383,38 +2383,38 @@
    "options": [
     {
      "id": "A",
-     "text": "dismissive",
-     "correct": false,
-     "trap": "too_strong",
-     "why": "The author calls the hypothesis influential and presents its evidence fairly."
-    },
-    {
-     "id": "B",
-     "text": "unreservedly enthusiastic",
-     "correct": false,
-     "trap": "too_strong",
-     "why": "The author gives the skeptics' doubts real weight."
-    },
-    {
-     "id": "C",
-     "text": "open but cautious",
-     "correct": true,
-     "trap": null,
-     "why": "The author takes the hypothesis seriously but stresses that \"the case is not closed.\""
-    },
-    {
-     "id": "D",
      "text": "indifferent",
      "correct": false,
      "trap": "contradicts",
      "why": "The author engages with the evidence on both sides."
     },
     {
-     "id": "E",
+     "id": "B",
+     "text": "open but cautious",
+     "correct": true,
+     "trap": null,
+     "why": "The author takes the hypothesis seriously but stresses that \"the case is not closed.\""
+    },
+    {
+     "id": "C",
      "text": "hostile",
      "correct": false,
      "trap": "too_strong",
      "why": "Nothing in the tone is hostile."
+    },
+    {
+     "id": "D",
+     "text": "unreservedly enthusiastic",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author gives the skeptics' doubts real weight."
+    },
+    {
+     "id": "E",
+     "text": "dismissive",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author calls the hypothesis influential and presents its evidence fairly."
     }
    ],
    "tldr": "The author treats the hypothesis as serious but unproven.",
@@ -2504,8 +2504,8 @@
    "id": "kp-lsat-contrapositive",
    "section": "LR",
    "title": "Contrapositives",
-   "front": "\"If A, then B.\" What else must be true?",
-   "back": "If not B, then not A. \"If B, then A\" does not follow; that's a reversal.",
+   "front": "\"If P, then Q.\" What else must be true?",
+   "back": "If not Q, then not P. \"If Q, then P\" does not follow; that's a reversal.",
    "exam": "LSAT"
   },
   {

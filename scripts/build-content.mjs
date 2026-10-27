@@ -19,8 +19,49 @@ const taxonomy = JSON.parse(readFileSync(join(root, 'src/content/taxonomy.json')
 const checkOnly = process.argv.includes('--check');
 
 const EXAM_DIRS = { LSAT: 'lsat', MCAT: 'mcat' };
+// A file's section comes from its name before the first dash: lr.yaml, lr-flaw.yaml → LR.
 const FILE_SECTION = { lr: 'LR', rc: 'RC', cp: 'CP', cars: 'CARS', bb: 'BB', ps: 'PS' };
 const OPTION_IDS = ['A', 'B', 'C', 'D', 'E'];
+
+// Answer order is shuffled at build time so correct answers spread evenly across
+// A–E. The shuffle is seeded by the question id, so an item's order never changes
+// between builds (attempts store the chosen letter). Explanations therefore must
+// never refer to answer letters. All-numeric answer sets are sorted instead.
+function seedFrom(text) {
+  let h = 0x811c9dc5;
+  for (const ch of text) {
+    h ^= ch.codePointAt(0);
+    h = Math.imul(h, 0x01000193) >>> 0;
+  }
+  return h;
+}
+function rng(seed) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const NUMERIC = /^[−-]?\d[\d,]*(\.\d+)?(\s|%|$)/;
+const numericValue = (t) => parseFloat(t.replace(/,/g, '').replace('−', '-'));
+function orderOptions(id, options, fixed) {
+  if (fixed) return options;
+  if (options.every((o) => NUMERIC.test(o.text))) {
+    return [...options].sort((a, b) => numericValue(a.text) - numericValue(b.text));
+  }
+  const next = rng(seedFrom(id));
+  const out = [...options];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(next() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+// Phrases that point at an answer by letter, which shuffling would break.
+const LETTER_REF = /\b([Oo]nly|[Nn]egate|[Cc]hoices?|[Aa]nswer|[Oo]ptions?)\s+\(?[A-E]\)?(?=[\s.,;:)]|$)|\b[A-E]\s*→|→\s*[A-E]\b|\(not [A-E]\)/;
 
 const errors = [];
 const warnings = [];
@@ -44,13 +85,15 @@ const itemSchema = z.strictObject({
   id: z.string().regex(/^(lsat|mcat)-[a-z]+-\d{4}$/),
   version: z.number().int().min(1).optional(),
   type: text,
-  family: text,
+  family: text.optional(),
   kps: z.array(text).min(1),
   outline: z
     .strictObject({ category: z.string().regex(/^\d{1,2}[A-E]$/).optional(), sirs: z.number().int().min(1).max(4).optional() })
     .optional(),
   difficulty: z.number().int().min(1).max(5),
   targetSec: z.number().int().min(20).max(600).optional(),
+  model: text.optional(),
+  fixedOrder: z.boolean().optional(),
   stimulus: text.optional(),
   prompt: text,
   table: table.optional(),
@@ -104,6 +147,7 @@ function buildItem(raw, exam, section, where, passageId, position) {
   const typeInfo = taxonomy.types[data.type];
   if (!typeInfo) fail(where, `unknown type "${data.type}" (add it to taxonomy.json)`);
   else if (typeInfo.section !== section) fail(where, `type "${data.type}" belongs to ${typeInfo.section}, not ${section}`);
+  data.family ??= typeInfo?.family;
   if (!taxonomy.families[data.family]) fail(where, `unknown family "${data.family}"`);
   if (!data.id.startsWith(`${exam.toLowerCase()}-`)) fail(where, `id should start with ${exam.toLowerCase()}-`);
   if (data.options.length !== examInfo.optionCount) {
@@ -128,6 +172,11 @@ function buildItem(raw, exam, section, where, passageId, position) {
   for (const [i, o] of data.options.entries()) {
     if (words(o.why) > 40) warn(`${where} option ${OPTION_IDS[i]}`, `rationale is ${words(o.why)} words (style guide: 30 or fewer)`);
   }
+  const explanationText = [data.tldr, data.takeaway, ...data.steps.map((st) => st.body), ...data.options.map((o) => o.why)];
+  for (const t of explanationText) {
+    if (LETTER_REF.test(t)) fail(where, `explanation refers to an answer letter (answers are shuffled): "${t.slice(0, 80)}"`);
+  }
+  const ordered = orderOptions(data.id, data.options, data.fixedOrder);
 
   return {
     id: data.id,
@@ -145,7 +194,8 @@ function buildItem(raw, exam, section, where, passageId, position) {
     ...(data.stimulus ? { stimulus: data.stimulus } : {}),
     prompt: data.prompt,
     ...(data.table ? { table: data.table } : {}),
-    options: data.options.map((o, i) => ({
+    ...(data.model ? { model: data.model } : {}),
+    options: ordered.map((o, i) => ({
       id: OPTION_IDS[i],
       text: o.text,
       correct: Boolean(o.correct),
@@ -162,7 +212,8 @@ function buildItem(raw, exam, section, where, passageId, position) {
 
 function buildExam(exam) {
   const dir = join(root, 'content', EXAM_DIRS[exam]);
-  const kpsRaw = readYaml(join(dir, 'knowledge-points.yaml'));
+  const kpFiles = readdirSync(dir).filter((f) => f.startsWith('knowledge-points') && f.endsWith('.yaml')).sort();
+  const kpsRaw = kpFiles.flatMap((f) => readYaml(join(dir, f)));
   const knowledgePoints = [];
   for (const [i, raw] of kpsRaw.entries()) {
     const kp = parse(kpSchema, raw, `${EXAM_DIRS[exam]}/knowledge-points.yaml #${i + 1}`);
@@ -174,11 +225,11 @@ function buildExam(exam) {
 
   const items = [];
   const passages = [];
-  const files = readdirSync(dir).filter((f) => f.endsWith('.yaml') && f !== 'knowledge-points.yaml').sort();
+  const files = readdirSync(dir).filter((f) => f.endsWith('.yaml') && !f.startsWith('knowledge-points')).sort();
   for (const file of files) {
-    const section = FILE_SECTION[file.replace('.yaml', '')];
+    const section = FILE_SECTION[file.replace('.yaml', '').split('-')[0]];
     if (!section) {
-      fail(`${EXAM_DIRS[exam]}/${file}`, `file name must be one of ${Object.keys(FILE_SECTION).join(', ')}`);
+      fail(`${EXAM_DIRS[exam]}/${file}`, `file name must start with one of ${Object.keys(FILE_SECTION).join(', ')}`);
       continue;
     }
     for (const [i, entry] of readYaml(join(dir, file)).entries()) {
@@ -236,6 +287,20 @@ function buildExam(exam) {
       if (other && !other.siblings.includes(item.id)) other.siblings.push(item.id);
     }
   }
+  // Near-duplicate questions (same stem and prompt, nearly the same words).
+  const tokens = (i) => new Set(`${i.stimulus ?? ''} ${i.prompt} ${i.options.map((o) => o.text).join(' ')}`.toLowerCase().match(/[a-z0-9]+/g) ?? []);
+  const sets = items.filter((i) => !i.model).map((i) => [i.id, tokens(i)]);
+  for (let a = 0; a < sets.length; a++) {
+    for (let b = a + 1; b < sets.length; b++) {
+      const [ida, ta] = sets[a];
+      const [idb, tb] = sets[b];
+      let inter = 0;
+      for (const t of ta) if (tb.has(t)) inter++;
+      const jaccard = inter / (ta.size + tb.size - inter);
+      if (jaccard > 0.8) warn(ida, `looks like a near-duplicate of ${idb} (${Math.round(jaccard * 100)}% shared words)`);
+    }
+  }
+
   const usedKps = new Set(items.flatMap((i) => i.knowledgePoints));
   for (const kp of knowledgePoints) if (!usedKps.has(kp.id)) warn(kp.id, 'knowledge point is not used by any question');
 
@@ -267,9 +332,19 @@ for (const pack of packs) {
   const summary = Object.entries(bySection)
     .map(([s, n]) => `${s} ${n}`)
     .join(', ');
+  const positions = {};
+  for (const item of pack.items) {
+    const pos = item.options.find((o) => o.correct).id;
+    positions[pos] = (positions[pos] ?? 0) + 1;
+  }
+  const spread = Object.keys(positions)
+    .sort()
+    .map((k) => `${k} ${Math.round((100 * positions[k]) / pack.items.length)}%`)
+    .join(' ');
+  const generated = pack.items.filter((i) => i.model).length;
   console.log(
-    `${pack.exam}: ${pack.items.length} questions (${summary}), ${pack.passages.length} passages, ` +
-      `${pack.knowledgePoints.length} concept cards · v${pack.version}`,
+    `${pack.exam}: ${pack.items.length} questions (${summary}${generated ? `; ${generated} from item models` : ''}), ` +
+      `${pack.passages.length} passages, ${pack.knowledgePoints.length} concept cards · answers ${spread} · v${pack.version}`,
   );
 }
 console.log(checkOnly ? 'Content is valid.' : `Wrote ${packs.length} packs to src/content/generated/.`);

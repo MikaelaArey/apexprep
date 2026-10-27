@@ -679,8 +679,8 @@
         second batch. So the bakery will not open early.
       correct: true
       why: >-
-        Same chain (A → B, B → C), same denial of the last link (not C), same
-        valid conclusion (not A).
+        Same chain (P → Q, Q → R), same denial of the last link (not R), same
+        valid conclusion (not P).
     - text: >-
         If the bakery opens early, it will sell out of bread by noon. The bakery
         will sell out of bread by noon. So the bakery will open early.
@@ -705,13 +705,13 @@
         "Only if" introduces a necessary condition. Meeting it doesn't guarantee
         the bakery opens early.
   tldr: >-
-    The original denies the end of a chain to deny its start (A→B→C, not C, so not
-    A). Only A matches.
+    Deny the chain's end to deny its start: P→Q→R, not R, so not P. Only one bakery
+    argument copies that exactly.
   steps:
     - label: Map
       body: "Overnight train → arrive early → opening talk. Not opening talk. So not overnight train."
     - label: Abstract
-      body: A → B, B → C, not C, therefore not A. That's a valid chained contrapositive.
+      body: P → Q, Q → R, not R, therefore not P. That's a valid chained contrapositive.
     - label: Match
       body: Find the same links and the same move. Ignore the topic entirely.
   takeaway: >-
@@ -759,7 +759,8 @@
       why: Flawed, but it misuses "some," a different error from the original's reversal.
   tldr: >-
     The original treats a requirement (passing a vision test) as a guarantee. Only
-    A makes the same mistake.
+    the argument that treats a first-aid course as proof of being a lifeguard
+    makes the same mistake.
   steps:
     - label: Map
       body: "Pilot → passed test. Marco passed the test. So Marco is a pilot."
@@ -1058,7 +1059,7 @@
     - label: Gap
       body: That only works if someone actually uses the kiosks.
     - label: Check
-      body: Negate B ("no patrons use them") and the argument collapses.
+      body: Negate the right answer ("no patrons use them") and the argument collapses.
   takeaway: >-
     Necessary assumptions are often modest ("at least some"). Answers with "most"
     or "every" usually ask for more than the argument needs.

@@ -32,9 +32,9 @@
   section: LR
   title: Contrapositives
   front: >-
-    "If A, then B." What else must be true?
+    "If P, then Q." What else must be true?
   back: >-
-    If not B, then not A. "If B, then A" does not follow; that's a reversal.
+    If not Q, then not P. "If Q, then P" does not follow; that's a reversal.
 
 - id: kp-lsat-sufficient-bridge
   section: LR

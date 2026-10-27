@@ -98,239 +98,478 @@
   "types": {
     "necessary_assumption": {
       "name": "Necessary Assumption",
-      "section": "LR"
+      "section": "LR",
+      "family": "assumption"
     },
     "sufficient_assumption": {
       "name": "Sufficient Assumption",
-      "section": "LR"
+      "section": "LR",
+      "family": "assumption"
     },
     "weaken": {
       "name": "Weaken",
-      "section": "LR"
+      "section": "LR",
+      "family": "argument_evaluation"
     },
     "strengthen": {
       "name": "Strengthen",
-      "section": "LR"
+      "section": "LR",
+      "family": "argument_evaluation"
     },
     "evaluate": {
       "name": "Evaluate",
-      "section": "LR"
+      "section": "LR",
+      "family": "argument_evaluation"
     },
     "flaw": {
       "name": "Flaw",
-      "section": "LR"
+      "section": "LR",
+      "family": "flaw_parallel"
     },
     "parallel_flaw": {
       "name": "Parallel Flaw",
-      "section": "LR"
+      "section": "LR",
+      "family": "flaw_parallel"
     },
     "parallel_reasoning": {
       "name": "Parallel Reasoning",
-      "section": "LR"
+      "section": "LR",
+      "family": "flaw_parallel"
     },
     "most_strongly_supported": {
       "name": "Most Strongly Supported",
-      "section": "LR"
+      "section": "LR",
+      "family": "inference"
     },
     "must_be_true": {
       "name": "Must Be True",
-      "section": "LR"
+      "section": "LR",
+      "family": "inference"
     },
     "must_be_false": {
       "name": "Must Be False",
-      "section": "LR"
+      "section": "LR",
+      "family": "inference"
     },
     "main_conclusion": {
       "name": "Main Conclusion",
-      "section": "LR"
+      "section": "LR",
+      "family": "structure"
     },
     "role": {
       "name": "Role",
-      "section": "LR"
+      "section": "LR",
+      "family": "structure"
     },
     "method": {
       "name": "Method of Reasoning",
-      "section": "LR"
+      "section": "LR",
+      "family": "structure"
     },
     "point_at_issue": {
       "name": "Point at Issue",
-      "section": "LR"
+      "section": "LR",
+      "family": "structure"
     },
     "principle": {
       "name": "Principle",
-      "section": "LR"
+      "section": "LR",
+      "family": "principle"
     },
     "paradox": {
       "name": "Paradox",
-      "section": "LR"
+      "section": "LR",
+      "family": "paradox"
     },
     "rc_main_point": {
       "name": "Main Point",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "rc_function": {
       "name": "Function",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "rc_attitude": {
       "name": "Author's Attitude",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "rc_detail": {
       "name": "Detail",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "rc_inference": {
       "name": "Inference",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "rc_application": {
       "name": "Application",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "rc_comparative": {
       "name": "Comparative",
-      "section": "RC"
+      "section": "RC",
+      "family": "reading"
     },
     "acids_bases": {
       "name": "Acids & bases",
-      "section": "CP"
+      "section": "CP",
+      "family": "gen_chem"
     },
     "thermodynamics": {
       "name": "Thermodynamics",
-      "section": "CP"
+      "section": "CP",
+      "family": "gen_chem"
     },
     "circuits": {
       "name": "Circuits",
-      "section": "CP"
+      "section": "CP",
+      "family": "physics"
     },
     "fluids": {
       "name": "Fluids",
-      "section": "CP"
+      "section": "CP",
+      "family": "physics"
     },
     "gases": {
       "name": "Gases",
-      "section": "CP"
+      "section": "CP",
+      "family": "gen_chem"
     },
     "electrochemistry": {
       "name": "Electrochemistry",
-      "section": "CP"
+      "section": "CP",
+      "family": "gen_chem"
     },
     "kinetics_equilibrium": {
       "name": "Kinetics & equilibrium",
-      "section": "CP"
+      "section": "CP",
+      "family": "gen_chem"
     },
     "optics": {
       "name": "Light & optics",
-      "section": "CP"
+      "section": "CP",
+      "family": "physics"
     },
     "kinematics": {
       "name": "Kinematics & forces",
-      "section": "CP"
+      "section": "CP",
+      "family": "physics"
     },
     "orgo_reactions": {
       "name": "Organic reactions",
-      "section": "CP"
+      "section": "CP",
+      "family": "orgo"
     },
     "enzyme_kinetics": {
       "name": "Enzyme kinetics",
-      "section": "BB"
+      "section": "BB",
+      "family": "biochem"
     },
     "amino_acids": {
       "name": "Amino acids & proteins",
-      "section": "BB"
+      "section": "BB",
+      "family": "biochem"
     },
     "molecular_biology": {
       "name": "Molecular biology",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "endocrine": {
       "name": "Endocrine system",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "nervous_system": {
       "name": "Nervous system",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "genetics": {
       "name": "Genetics",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "metabolism": {
       "name": "Metabolism",
-      "section": "BB"
+      "section": "BB",
+      "family": "biochem"
     },
     "immune": {
       "name": "Immune system",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "cell_biology": {
       "name": "Cell biology",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "cardio_resp": {
       "name": "Circulation & respiration",
-      "section": "BB"
+      "section": "BB",
+      "family": "biology"
     },
     "learning": {
       "name": "Learning & conditioning",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "social_psych": {
       "name": "Social psychology",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "research_methods": {
       "name": "Research methods",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "sociology_theory": {
       "name": "Sociological theory",
-      "section": "PS"
+      "section": "PS",
+      "family": "sociology"
     },
     "memory_cognition": {
       "name": "Memory & cognition",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "development": {
       "name": "Development",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "stratification": {
       "name": "Social stratification",
-      "section": "PS"
+      "section": "PS",
+      "family": "sociology"
     },
     "sensation_perception": {
       "name": "Sensation & perception",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "identity_personality": {
       "name": "Identity & personality",
-      "section": "PS"
+      "section": "PS",
+      "family": "psychology"
     },
     "cars_main_idea": {
       "name": "Main idea",
-      "section": "CARS"
+      "section": "CARS",
+      "family": "cars_foc"
     },
     "cars_function": {
       "name": "Function",
-      "section": "CARS"
+      "section": "CARS",
+      "family": "cars_rwt"
     },
     "cars_inference": {
       "name": "Inference",
-      "section": "CARS"
+      "section": "CARS",
+      "family": "cars_rwt"
     },
     "cars_application": {
       "name": "Application",
-      "section": "CARS"
+      "section": "CARS",
+      "family": "cars_rbt"
     },
     "cars_challenge": {
       "name": "Strengthen & challenge",
-      "section": "CARS"
+      "section": "CARS",
+      "family": "cars_rbt"
     },
     "cars_tone": {
       "name": "Tone",
-      "section": "CARS"
+      "section": "CARS",
+      "family": "cars_foc"
+    },
+    "atomic_structure": {
+      "name": "Atomic structure",
+      "section": "CP",
+      "family": "gen_chem"
+    },
+    "bonding": {
+      "name": "Bonding & molecular structure",
+      "section": "CP",
+      "family": "gen_chem"
+    },
+    "solutions": {
+      "name": "Solutions",
+      "section": "CP",
+      "family": "gen_chem"
+    },
+    "stoichiometry": {
+      "name": "Stoichiometry",
+      "section": "CP",
+      "family": "gen_chem"
+    },
+    "work_energy": {
+      "name": "Work & energy",
+      "section": "CP",
+      "family": "physics"
+    },
+    "waves_sound": {
+      "name": "Waves & sound",
+      "section": "CP",
+      "family": "physics"
+    },
+    "electrostatics": {
+      "name": "Electrostatics",
+      "section": "CP",
+      "family": "physics"
+    },
+    "magnetism": {
+      "name": "Magnetism",
+      "section": "CP",
+      "family": "physics"
+    },
+    "nuclear": {
+      "name": "Nuclear & atomic physics",
+      "section": "CP",
+      "family": "physics"
+    },
+    "stereochemistry": {
+      "name": "Stereochemistry",
+      "section": "CP",
+      "family": "orgo"
+    },
+    "separations": {
+      "name": "Separations & purification",
+      "section": "CP",
+      "family": "orgo"
+    },
+    "spectroscopy": {
+      "name": "Spectroscopy",
+      "section": "CP",
+      "family": "orgo"
+    },
+    "cp_biomolecules": {
+      "name": "Biomolecules",
+      "section": "CP",
+      "family": "biochem"
+    },
+    "digestive_renal": {
+      "name": "Digestion & kidneys",
+      "section": "BB",
+      "family": "biology"
+    },
+    "musculoskeletal": {
+      "name": "Muscles, bones & skin",
+      "section": "BB",
+      "family": "biology"
+    },
+    "reproduction": {
+      "name": "Reproduction & development",
+      "section": "BB",
+      "family": "biology"
+    },
+    "microbiology": {
+      "name": "Microbiology",
+      "section": "BB",
+      "family": "biology"
+    },
+    "evolution": {
+      "name": "Evolution",
+      "section": "BB",
+      "family": "biology"
+    },
+    "lipids_carbs": {
+      "name": "Carbohydrates & lipids",
+      "section": "BB",
+      "family": "biochem"
+    },
+    "biotech": {
+      "name": "Lab & biotechnology",
+      "section": "BB",
+      "family": "biochem"
+    },
+    "membranes": {
+      "name": "Membranes & transport",
+      "section": "BB",
+      "family": "biology"
+    },
+    "cell_signaling": {
+      "name": "Cell signaling",
+      "section": "BB",
+      "family": "biology"
+    },
+    "cell_cycle": {
+      "name": "Cell division",
+      "section": "BB",
+      "family": "biology"
+    },
+    "emotion_stress": {
+      "name": "Emotion & stress",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "motivation": {
+      "name": "Motivation",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "psych_disorders": {
+      "name": "Psychological disorders",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "consciousness": {
+      "name": "Sleep & consciousness",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "language": {
+      "name": "Language",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "attention": {
+      "name": "Attention",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "biological_psych": {
+      "name": "Biological bases of behavior",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "group_behavior": {
+      "name": "Groups & social influence",
+      "section": "PS",
+      "family": "psychology"
+    },
+    "social_interaction": {
+      "name": "Social interaction",
+      "section": "PS",
+      "family": "sociology"
+    },
+    "culture_institutions": {
+      "name": "Culture & institutions",
+      "section": "PS",
+      "family": "sociology"
+    },
+    "demographics": {
+      "name": "Demographics",
+      "section": "PS",
+      "family": "sociology"
+    },
+    "inequality_health": {
+      "name": "Inequality & health",
+      "section": "PS",
+      "family": "sociology"
+    },
+    "statistics": {
+      "name": "Statistics",
+      "section": "PS",
+      "family": "psychology"
     }
   },
   "traps": {
