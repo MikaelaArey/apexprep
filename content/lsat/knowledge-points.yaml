@@ -194,3 +194,35 @@
   back: >-
     The sample isn't representative: club members differ from residents in
     exactly the way that affects the answer.
+
+- id: kp-rc-structure
+  section: RC
+  title: Passage organization
+  front: How do you answer a question about how a passage is organized?
+  back: >-
+    Name each paragraph's job in a few words (introduces a view, raises an
+    objection, offers a resolution) and match that sequence.
+
+- id: kp-rc-comparative
+  section: RC
+  title: Comparative passages
+  front: How do you handle a pair of comparative passages?
+  back: >-
+    Map each author's main claim and attitude, then note where they agree,
+    disagree, or simply address different questions.
+
+- id: kp-rc-analogy
+  section: RC
+  title: Analogy questions
+  front: How do you answer "which situation is most analogous to…"?
+  back: >-
+    Strip the passage's example down to its abstract relationship, then find the
+    answer with the same relationship in a different setting.
+
+- id: kp-rc-strengthen
+  section: RC
+  title: Strengthening a passage claim
+  front: How do strengthen and weaken questions work in RC?
+  back: >-
+    Find the specific claim being tested, then pick the fact that bears most
+    directly on its support.

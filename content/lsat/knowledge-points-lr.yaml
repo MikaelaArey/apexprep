@@ -1,0 +1,195 @@
+# LSAT concept cards for the Logical Reasoning question families.
+
+- id: kp-lsat-flaw-equivocation
+  section: LR
+  title: Shifting meanings
+  front: An argument uses a key word in two different senses. What's the flaw called?
+  back: >-
+    Equivocation. A word like "free," "natural" or "theory" means one thing in a
+    premise and another in the conclusion, so the evidence doesn't connect.
+
+- id: kp-lsat-flaw-circular
+  section: LR
+  title: Circular reasoning
+  front: How do you spot circular reasoning?
+  back: >-
+    The conclusion is already assumed in the premises, often in different words.
+    Nothing independent supports it.
+
+- id: kp-lsat-flaw-false-choice
+  section: LR
+  title: False choice
+  front: An argument rejects one option and concludes the other must be right. What's the risk?
+  back: >-
+    A false dilemma: it treats two options as the only ones when others exist,
+    or as exclusive when both could hold.
+
+- id: kp-lsat-flaw-authority
+  section: LR
+  title: Appeals to authority
+  front: When is relying on an expert a flaw?
+  back: >-
+    When the expert speaks outside their field, has a clear conflict, or when
+    expert opinion is treated as proof rather than evidence.
+
+- id: kp-lsat-flaw-popularity
+  section: LR
+  title: Appeals to popularity
+  front: >-
+    "Most people believe X, so X is true." What's wrong?
+  back: >-
+    Widespread belief isn't evidence that a claim is true (or that a choice is
+    good).
+
+- id: kp-lsat-flaw-straw-man
+  section: LR
+  title: Straw man
+  front: What does a straw-man argument do?
+  back: >-
+    It refutes a distorted or weaker version of the opposing view, not the view
+    actually held.
+
+- id: kp-lsat-flaw-hasty
+  section: LR
+  title: Hasty generalization
+  front: An argument concludes something about a whole group from one or two cases. What's the flaw?
+  back: >-
+    A hasty generalization: too few (or atypical) cases to support a claim about
+    the whole group.
+
+- id: kp-lsat-flaw-absence
+  section: LR
+  title: Absence of evidence
+  front: >-
+    "No one has proven X, so X is false." What's the flaw?
+  back: >-
+    Lack of proof that something is true isn't proof that it's false (and the
+    reverse).
+
+- id: kp-lsat-flaw-possible-certain
+  section: LR
+  title: Possible vs. certain
+  front: An argument shows something could happen and concludes it will. What's wrong?
+  back: >-
+    It treats a possibility as a certainty (or a likelihood as a guarantee).
+    Watch for "may" in the premises and "will" in the conclusion.
+
+- id: kp-lsat-flaw-post-hoc
+  section: LR
+  title: Timing isn't cause
+  front: B happened after A. Does that show A caused B?
+  back: >-
+    No. Sequence alone isn't causation: coincidence or a third factor could
+    explain it.
+
+- id: kp-lsat-flaw-alternatives
+  section: LR
+  title: Overlooked alternatives
+  front: An argument concludes that one approach is the only way to reach a goal. What should you check?
+  back: >-
+    Whether it ignores other ways to reach the goal, or other explanations for
+    the evidence.
+
+- id: kp-lsat-new-term
+  section: LR
+  title: Bridging a new term
+  front: The conclusion mentions something none of the premises do. What does the argument need?
+  back: >-
+    An assumption that links the new term to the evidence. The right answer
+    usually connects the two directly.
+
+- id: kp-lsat-defender
+  section: LR
+  title: Ruling out objections
+  front: What kind of answer is often a necessary assumption?
+  back: >-
+    One that rules out an obvious objection, such as "no other factor explains
+    the result." If it were false, the argument would fail.
+
+- id: kp-lsat-plan
+  section: LR
+  title: Plans and goals
+  front: A plan is proposed to achieve a goal. What makes it vulnerable?
+  back: >-
+    An obstacle that blocks it, a side effect that undoes the gain, or a reason
+    the plan won't affect the cause of the problem.
+
+- id: kp-lsat-analogy
+  section: LR
+  title: Arguments by analogy
+  front: How do you weaken an argument that relies on an analogy?
+  back: >-
+    Show a relevant difference between the two cases, one that matters to the
+    conclusion.
+
+- id: kp-lsat-reverse-causation
+  section: LR
+  title: Reversed causation
+  front: An argument concludes that X causes Y. What alternative should you check?
+  back: >-
+    Whether Y causes X instead (people who are healthier may exercise more,
+    rather than exercise making them healthier).
+
+- id: kp-lsat-quantifiers
+  section: LR
+  title: Most, some, all
+  front: >-
+    "Most A are B" and "most A are C." What must be true?
+  back: >-
+    Some A are both B and C. "Some" means at least one; "most" means more than
+    half.
+
+- id: kp-lsat-inference-caution
+  section: LR
+  title: Strongly supported inferences
+  front: What does the right answer to a "most strongly supported" question look like?
+  back: >-
+    A modest claim the facts back directly, often by combining two of them. Bold
+    or new claims are usually traps.
+
+- id: kp-lsat-must-be-false
+  section: LR
+  title: Must be false
+  front: What must the right answer to a "could be true EXCEPT" or "must be false" question do?
+  back: >-
+    Contradict the stimulus. Everything else could be true, even if it's unlikely.
+
+- id: kp-lsat-intermediate
+  section: LR
+  title: Intermediate conclusions
+  front: How can a statement be both supported and supporting?
+  back: >-
+    An intermediate conclusion is backed by a premise and in turn backs the main
+    conclusion.
+
+- id: kp-lsat-method
+  section: LR
+  title: Describing an argument's method
+  front: How should you approach a "method of reasoning" question?
+  back: >-
+    Describe the argument abstractly before reading the choices: what kind of
+    evidence, and what move gets it to the conclusion.
+
+- id: kp-lsat-agreement
+  section: LR
+  title: Points of agreement
+  front: What must be true of the right answer to an agreement question?
+  back: >-
+    Both speakers must be committed to it by what they say, not just compatible
+    with it.
+
+- id: kp-lsat-principle-apply
+  section: LR
+  title: Applying a principle
+  front: How do you apply a stated principle to a case?
+  back: >-
+    Check each condition of the principle against the case. The right answer is
+    the case that meets every condition and gets the stated result.
+
+- id: kp-lsat-paradox-groups
+  section: LR
+  title: Explaining a difference between groups
+  front: Two groups unexpectedly differ. What resolves it?
+  back: >-
+    A fact that distinguishes the groups and would produce the difference.
+    Facts that apply to both groups equally don't help.

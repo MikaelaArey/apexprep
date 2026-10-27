@@ -1,8 +1,1708 @@
 {
  "exam": "LSAT",
- "version": "442fb23a7852",
- "generatedAt": "2026-10-27T02:17:48.654Z",
+ "version": "315660b1c0ed",
+ "generatedAt": "2026-10-27T12:28:59.405Z",
  "items": [
+  {
+   "id": "lsat-lr-0100",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-equivocation"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The museum describes its new exhibit as a \"free\" experience, meaning visitors may explore its rooms in any order they choose. Yet the museum charges admission to the exhibit. So the museum's description is false.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "treats a word used in one sense in the museum's description as if it were used in a different sense",
+     "correct": true,
+     "trap": null,
+     "why": "The museum meant \"free to explore in any order\"; the argument reads it as \"no charge.\""
+    },
+    {
+     "id": "B",
+     "text": "concludes that a claim is false merely because it has not been proven true",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument offers a reason (the admission charge), not a lack of proof."
+    },
+    {
+     "id": "C",
+     "text": "assumes that what is true of the exhibit is true of the museum as a whole",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument makes no claim about the museum as a whole."
+    },
+    {
+     "id": "D",
+     "text": "relies on the testimony of museum staff who may have a motive to mislead",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No testimony is cited."
+    },
+    {
+     "id": "E",
+     "text": "fails to consider that admission prices may change in the future",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Future prices don't bear on whether the description was false."
+    }
+   ],
+   "tldr": "\"Free\" meant free to wander, not free of charge, so the charge doesn't make the description false.",
+   "steps": [
+    {
+     "label": "Spot the word",
+     "body": "The whole argument turns on \"free.\""
+    },
+    {
+     "label": "Compare senses",
+     "body": "The museum's sense is about movement; the critic's sense is about price."
+    }
+   ],
+   "takeaway": "When an argument turns on a single word, check whether it keeps the same meaning throughout.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0101",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-circular"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Columnist: Greenfield's mayor is the most trustworthy official in the region. After all, she has never told the public anything false, and we can be confident of that because a trustworthy official like her would never mislead the public.",
+   "prompt": "The reasoning in the columnist's argument is flawed because it",
+   "options": [
+    {
+     "id": "A",
+     "text": "attacks the character of the mayor's critics rather than their arguments",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No critics are mentioned."
+    },
+    {
+     "id": "B",
+     "text": "takes for granted that the mayor's popularity proves her trustworthiness",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Popularity never comes up."
+    },
+    {
+     "id": "C",
+     "text": "confuses a necessary condition for trustworthiness with a sufficient one",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The problem is circularity, not a conditional reversal."
+    },
+    {
+     "id": "D",
+     "text": "draws a conclusion about all officials from the case of a single official",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about the mayor alone."
+    },
+    {
+     "id": "E",
+     "text": "presupposes the truth of its conclusion in offering support for one of its premises",
+     "correct": true,
+     "trap": null,
+     "why": "Her honesty is \"shown\" by assuming she's trustworthy, which is the conclusion itself."
+    }
+   ],
+   "tldr": "It proves she's trustworthy by assuming she's trustworthy. That's circular.",
+   "steps": [
+    {
+     "label": "Trace support",
+     "body": "Conclusion ← she never lied ← a trustworthy official wouldn't lie."
+    },
+    {
+     "label": "Notice",
+     "body": "The last link assumes the conclusion, so nothing independent supports it."
+    }
+   ],
+   "takeaway": "If a premise only makes sense once you accept the conclusion, the argument is circular.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0102",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-false-choice"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Either the city raises property taxes or it closes two of its public libraries. Since raising property taxes would hurt the city's homeowners, the city should close the libraries.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "treats a claim about the city's budget as if it were a claim about its residents",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument doesn't blur those claims."
+    },
+    {
+     "id": "B",
+     "text": "assumes that whatever hurts homeowners also hurts renters",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Renters are never mentioned."
+    },
+    {
+     "id": "C",
+     "text": "fails to consider that there may be options other than raising property taxes or closing libraries",
+     "correct": true,
+     "trap": null,
+     "why": "The city might cut other spending, find grants or raise other fees."
+    },
+    {
+     "id": "D",
+     "text": "relies on an appeal to popular opinion",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No one's opinion is cited."
+    },
+    {
+     "id": "E",
+     "text": "draws a general conclusion from a single example",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No example is used."
+    }
+   ],
+   "tldr": "It assumes those are the only two choices.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Tax or close libraries; tax hurts homeowners; so close libraries."
+    },
+    {
+     "label": "Flaw",
+     "body": "The \"either/or\" premise ignores every other way to balance the budget."
+    }
+   ],
+   "takeaway": "\"Either X or Y\" premises are suspect: ask whether there's a third option.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0103",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-authority"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Dr. Lim, a renowned cardiologist, says that the new tax on sugary drinks will have no effect on the local economy. So the tax will have no effect on the local economy.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "confuses what will happen with what should happen",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Both claims are about what will happen."
+    },
+    {
+     "id": "B",
+     "text": "attacks Dr. Lim's motives instead of evaluating her claim",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The argument accepts her claim; it doesn't attack her."
+    },
+    {
+     "id": "C",
+     "text": "relies on the opinion of an expert on a matter outside her area of expertise",
+     "correct": true,
+     "trap": null,
+     "why": "A cardiologist's training doesn't make her an authority on economics."
+    },
+    {
+     "id": "D",
+     "text": "assumes that a tax that affects health will also affect the economy",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The argument concludes there will be no economic effect."
+    },
+    {
+     "id": "E",
+     "text": "treats a correlation as evidence of causation",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No correlation is cited."
+    }
+   ],
+   "tldr": "A heart specialist's view on economics isn't expert evidence.",
+   "steps": [
+    {
+     "label": "Source",
+     "body": "The only support is Dr. Lim's say-so."
+    },
+    {
+     "label": "Fit",
+     "body": "Her expertise (cardiology) doesn't cover the claim (economic effects)."
+    }
+   ],
+   "takeaway": "Expert testimony counts only within the expert's field.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0104",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-popularity"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "A recent poll found that 70 percent of residents believe the proposed highway will reduce traffic downtown. Since so many residents agree, the highway will reduce downtown traffic.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "assumes that reducing traffic is the highway's only purpose",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument doesn't discuss the highway's purposes."
+    },
+    {
+     "id": "B",
+     "text": "fails to consider that the highway's costs may outweigh its benefits",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is about traffic, not whether the highway is worth it."
+    },
+    {
+     "id": "C",
+     "text": "treats the fact that many people believe a claim as sufficient evidence that it is true",
+     "correct": true,
+     "trap": null,
+     "why": "Widespread belief about traffic isn't evidence about traffic."
+    },
+    {
+     "id": "D",
+     "text": "relies on a poll of residents who do not live downtown",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The stimulus doesn't say where the respondents live."
+    },
+    {
+     "id": "E",
+     "text": "confuses a cause with an effect",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No causal reversal occurs."
+    }
+   ],
+   "tldr": "Seventy percent believing it doesn't make it true.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "The only support is what most residents believe."
+    },
+    {
+     "label": "Flaw",
+     "body": "Belief, however common, isn't evidence that the belief is correct."
+    }
+   ],
+   "takeaway": "Popularity is evidence of opinion, not of fact.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0105",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-straw-man"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Councilor Diaz has proposed lowering the speed limit on Elm Street from 35 to 25 miles per hour. But banning cars from Elm Street entirely would devastate the businesses there. Diaz's proposal should therefore be rejected.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "concludes that a proposal will fail merely because it has not been tried",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Novelty isn't the stated reason."
+    },
+    {
+     "id": "B",
+     "text": "argues against a position more extreme than the one actually proposed",
+     "correct": true,
+     "trap": null,
+     "why": "Diaz proposed a lower speed limit, not a ban on cars."
+    },
+    {
+     "id": "C",
+     "text": "assumes that what benefits businesses also benefits residents",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Residents' interests never come up."
+    },
+    {
+     "id": "D",
+     "text": "attacks Diaz's character rather than her proposal",
+     "correct": false,
+     "trap": "not_present",
+     "why": "It attacks a (distorted) proposal, not Diaz herself."
+    },
+    {
+     "id": "E",
+     "text": "relies on a sample that is unrepresentative",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No sample is involved."
+    }
+   ],
+   "tldr": "It refutes a car ban nobody proposed. That's a straw man.",
+   "steps": [
+    {
+     "label": "Proposal",
+     "body": "Lower the limit from 35 to 25."
+    },
+    {
+     "label": "Argument",
+     "body": "Rebuts a total ban, a much stronger position, then rejects the real proposal."
+    }
+   ],
+   "takeaway": "Check whether the view being attacked is the view actually held.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0106",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-hasty"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Last month I ate at two restaurants in Port Ellis, and both served undercooked fish. Clearly, the restaurants in Port Ellis do not follow food-safety standards.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "relies on a source with a stake in the outcome",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No interested source is involved."
+    },
+    {
+     "id": "B",
+     "text": "draws a broad conclusion about a group on the basis of too few cases",
+     "correct": true,
+     "trap": null,
+     "why": "Two meals can't show what all of the town's restaurants do."
+    },
+    {
+     "id": "C",
+     "text": "mistakes a lack of evidence for evidence that something is false",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument cites positive evidence, just too little of it."
+    },
+    {
+     "id": "D",
+     "text": "confuses a necessary condition with a sufficient one",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No conditional reasoning appears."
+    },
+    {
+     "id": "E",
+     "text": "presumes that what is true of a group is true of each of its members",
+     "correct": false,
+     "trap": "reversal",
+     "why": "The argument runs from members to the group, not the reverse."
+    }
+   ],
+   "tldr": "Two restaurants can't speak for every restaurant in town.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "Two bad meals at two restaurants."
+    },
+    {
+     "label": "Conclusion",
+     "body": "A claim about all the town's restaurants, which is far broader than the evidence."
+    }
+   ],
+   "takeaway": "Watch the gap between how many cases are cited and how broad the conclusion is.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0107",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-absence"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "No study has ever shown that the herbal supplement Calmera improves sleep. Therefore, Calmera does not improve sleep.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "confuses improving sleep with curing insomnia",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Insomnia isn't mentioned."
+    },
+    {
+     "id": "B",
+     "text": "takes the lack of evidence for a claim as proof that the claim is false",
+     "correct": true,
+     "trap": null,
+     "why": "No study showing an effect isn't the same as studies showing no effect."
+    },
+    {
+     "id": "C",
+     "text": "relies on studies funded by the supplement's manufacturer",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No studies are cited at all."
+    },
+    {
+     "id": "D",
+     "text": "generalizes from a small number of studies",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The point is that there are no supporting studies."
+    },
+    {
+     "id": "E",
+     "text": "assumes that what helps some people sleep helps everyone sleep",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument makes no claim about who is helped."
+    }
+   ],
+   "tldr": "\"Not shown to work\" doesn't mean \"shown not to work.\"",
+   "steps": [
+    {
+     "label": "Premise",
+     "body": "No evidence that it works."
+    },
+    {
+     "label": "Conclusion",
+     "body": "It doesn't work, which needs evidence against it, not just missing evidence for it."
+    }
+   ],
+   "takeaway": "Absence of proof is not proof of absence.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0108",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-possible-certain"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The proposed factory could release pollutants into the Redwater River. Pollution in the river would harm the fish that local anglers depend on. So if the factory is built, the anglers' catch will decline.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "treats something that could happen as if it will happen",
+     "correct": true,
+     "trap": null,
+     "why": "The factory \"could\" pollute, but the conclusion says the catch \"will\" decline."
+    },
+    {
+     "id": "B",
+     "text": "confuses a cause of pollution with an effect of pollution",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The causal chain runs in a sensible direction."
+    },
+    {
+     "id": "C",
+     "text": "fails to weigh the factory's economic benefits",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is about the catch, not overall worth."
+    },
+    {
+     "id": "D",
+     "text": "concludes that a factory is harmful merely because it is new",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument gives a reason beyond newness."
+    },
+    {
+     "id": "E",
+     "text": "relies on the testimony of anglers who oppose the factory",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No anglers are quoted."
+    }
+   ],
+   "tldr": "\"Could pollute\" becomes \"will reduce the catch.\" A possibility is treated as certain.",
+   "steps": [
+    {
+     "label": "Find the hedge",
+     "body": "\"Could release pollutants.\""
+    },
+    {
+     "label": "Find the jump",
+     "body": "\"Will decline\" assumes the pollution actually happens."
+    }
+   ],
+   "takeaway": "Watch for \"may\" or \"could\" in the premises and \"will\" in the conclusion.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0109",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-post-hoc"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Shortly after the town of Millbrook painted its fire hydrants bright yellow, the number of house fires in Millbrook declined. Evidently, the yellow paint helped prevent house fires.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "infers that one event caused another merely because the second followed the first",
+     "correct": true,
+     "trap": null,
+     "why": "Fires declining after the painting doesn't show the painting caused the decline."
+    },
+    {
+     "id": "B",
+     "text": "assumes that yellow is the only color that would have helped",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument never compares colors."
+    },
+    {
+     "id": "C",
+     "text": "presumes that hydrants are used to fight every house fire",
+     "correct": false,
+     "trap": "not_present",
+     "why": "That presumption isn't needed for the argument as stated."
+    },
+    {
+     "id": "D",
+     "text": "attacks the motives of those who opposed painting the hydrants",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No opponents appear."
+    },
+    {
+     "id": "E",
+     "text": "confuses the number of fires with the damage they cause",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Damage isn't discussed."
+    }
+   ],
+   "tldr": "Before-and-after timing alone doesn't show the paint did anything.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "Paint, then fewer fires."
+    },
+    {
+     "label": "Flaw",
+     "body": "Sequence isn't cause. Weather, inspections or chance could explain the drop."
+    }
+   ],
+   "takeaway": "\"After this, therefore because of this\" is a flaw. Look for a rival explanation.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0110",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-alternatives"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "To cut its carbon emissions by 20 percent, the Halcyon Corporation must stop operating its oldest factory, since that factory produces 20 percent of the company's emissions.",
+   "prompt": "Which one of the following most accurately describes a flaw in the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "It relies on emissions figures supplied by the company itself.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The source of the figures isn't mentioned."
+    },
+    {
+     "id": "B",
+     "text": "It concludes that the company will close the factory merely because it should.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The argument says the company must close it, not that it will."
+    },
+    {
+     "id": "C",
+     "text": "It assumes that the oldest factory is also the least profitable.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Profit never comes up."
+    },
+    {
+     "id": "D",
+     "text": "It treats a reduction in emissions as a reduction in every kind of pollution.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Only emissions are discussed."
+    },
+    {
+     "id": "E",
+     "text": "It overlooks the possibility that the company could cut emissions by the same amount in other ways.",
+     "correct": true,
+     "trap": null,
+     "why": "Closing that factory is one way to hit 20 percent, not the only one."
+    }
+   ],
+   "tldr": "Closing that factory is one way to cut 20 percent, not the only way.",
+   "steps": [
+    {
+     "label": "Claim",
+     "body": "\"Must\" close the factory to reach the goal."
+    },
+    {
+     "label": "Gap",
+     "body": "Efficiency upgrades or cuts elsewhere could reach the same 20 percent."
+    }
+   ],
+   "takeaway": "\"Must\" claims about reaching a goal often ignore other routes to it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0111",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-necessary-vs-sufficient"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "To be admitted to the Bellmont Conservatory, an applicant must pass a rigorous audition. Theo passed the audition, so he will be admitted to the conservatory.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "draws a conclusion about all applicants from one applicant's case",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about Theo only."
+    },
+    {
+     "id": "B",
+     "text": "relies on Theo's own report that he passed",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The stimulus states that he passed."
+    },
+    {
+     "id": "C",
+     "text": "presumes that the audition is the conservatory's only requirement for graduation",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Graduation isn't the issue; the argument is about admission."
+    },
+    {
+     "id": "D",
+     "text": "treats a requirement for admission as if it guaranteed admission",
+     "correct": true,
+     "trap": null,
+     "why": "Passing is necessary, but other requirements could still keep Theo out."
+    },
+    {
+     "id": "E",
+     "text": "assumes that every applicant who fails the audition will reapply",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Reapplying isn't discussed."
+    }
+   ],
+   "tldr": "\"Must pass to get in\" doesn't mean \"passing gets you in.\"",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Admitted → passed audition. Theo passed, so the argument concludes Theo is admitted."
+    },
+    {
+     "label": "Flaw",
+     "body": "That reverses the conditional, treating a requirement as a guarantee."
+    }
+   ],
+   "takeaway": "\"Must\" introduces a necessary condition. Meeting it isn't enough.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0112",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-part-whole"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The Westfield Symphony won this year's statewide orchestra competition. So each of its musicians must be among the best musicians in the state.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "confuses the orchestra's past success with its future success",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No prediction is made."
+    },
+    {
+     "id": "B",
+     "text": "treats a competition result as if it were a matter of opinion",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument takes the result as fact."
+    },
+    {
+     "id": "C",
+     "text": "assumes that a property of a whole group must belong to each of its members",
+     "correct": true,
+     "trap": null,
+     "why": "An orchestra can win as an ensemble even if some individual players aren't top-tier."
+    },
+    {
+     "id": "D",
+     "text": "assumes that a property of each member must belong to the whole group",
+     "correct": false,
+     "trap": "reversal",
+     "why": "That's the opposite direction. This argument runs from the group to each member."
+    },
+    {
+     "id": "E",
+     "text": "generalizes from a single performance to the orchestra's entire history",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about the musicians, not the orchestra's history."
+    }
+   ],
+   "tldr": "The best orchestra needn't consist entirely of the best musicians.",
+   "steps": [
+    {
+     "label": "Direction",
+     "body": "Whole (the orchestra won) to parts (each musician is the best)."
+    },
+    {
+     "label": "Flaw",
+     "body": "That's division. Group success can come from teamwork or a few stars."
+    }
+   ],
+   "takeaway": "What's true of a group isn't automatically true of each member.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0113",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-numbers-proportions"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "This year, 40 percent of the cars sold at Avalon Motors were electric, up from 25 percent last year. So Avalon Motors sold more electric cars this year than last year.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "assumes that electric cars are more profitable than other cars",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Profit isn't mentioned."
+    },
+    {
+     "id": "B",
+     "text": "presumes that the customers who bought electric cars were satisfied",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Satisfaction isn't part of the argument."
+    },
+    {
+     "id": "C",
+     "text": "relies on sales figures from only two years",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Comparing two years is fine. The issue is shares versus counts."
+    },
+    {
+     "id": "D",
+     "text": "confuses the popularity of electric cars with their quality",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Quality isn't discussed."
+    },
+    {
+     "id": "E",
+     "text": "overlooks the possibility that Avalon sold far fewer cars in total this year",
+     "correct": true,
+     "trap": null,
+     "why": "40 percent of a small total can be fewer cars than 25 percent of a large one."
+    }
+   ],
+   "tldr": "A bigger share of fewer total sales can mean fewer electric cars.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "Electric cars' share rose from 25% to 40%."
+    },
+    {
+     "label": "Gap",
+     "body": "The conclusion is about a count, which depends on total sales too."
+    }
+   ],
+   "takeaway": "Percentages alone can't establish amounts. Ask what happened to the total.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0114",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-sampling"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "To find out whether residents of Clearwater support building a new public pool, the city surveyed people leaving its existing community swim center. Ninety percent supported the new pool. Clearly, most Clearwater residents support it.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "assumes that residents who support the pool would use it",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Use isn't part of the conclusion."
+    },
+    {
+     "id": "B",
+     "text": "relies on a survey too small to be reliable",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The survey's size isn't given; the problem is who was asked."
+    },
+    {
+     "id": "C",
+     "text": "draws a conclusion about all residents from a group likely to be more favorable than residents in general",
+     "correct": true,
+     "trap": null,
+     "why": "People at a swim center are likelier than average to want a pool."
+    },
+    {
+     "id": "D",
+     "text": "treats a claim about the pool's popularity as a claim about its value",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is only about support."
+    },
+    {
+     "id": "E",
+     "text": "fails to consider the cost of building the pool",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The conclusion is about support, not cost."
+    }
+   ],
+   "tldr": "Swimmers aren't a fair sample of residents on a pool question.",
+   "steps": [
+    {
+     "label": "Sample",
+     "body": "People leaving a swim center."
+    },
+    {
+     "label": "Flaw",
+     "body": "They differ from residents in exactly the way that affects the answer."
+    }
+   ],
+   "takeaway": "A biased sample can't support a conclusion about the whole population.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0115",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-source-attack"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Professor Okafor's study concludes that the city's new bus routes have shortened commute times. But Professor Okafor rides the bus to work every day, so her conclusion cannot be trusted.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "confuses a correlation with a cause",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No correlation is cited."
+    },
+    {
+     "id": "B",
+     "text": "presumes that people who ride the bus prefer shorter commutes",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Preferences aren't part of the argument."
+    },
+    {
+     "id": "C",
+     "text": "assumes that commute time is the only measure of a bus system's success",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument doesn't discuss measures of success."
+    },
+    {
+     "id": "D",
+     "text": "dismisses a conclusion because of a fact about the person who reached it rather than the evidence for it",
+     "correct": true,
+     "trap": null,
+     "why": "Riding the bus doesn't show her study's evidence is bad."
+    },
+    {
+     "id": "E",
+     "text": "relies on a single study",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument rejects the study rather than relying on it."
+    }
+   ],
+   "tldr": "It attacks the researcher, not her research.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "Conclusion: distrust the study. Reason: the author rides the bus."
+    },
+    {
+     "label": "Flaw",
+     "body": "A personal connection can suggest checking the work, but it doesn't refute it."
+    }
+   ],
+   "takeaway": "Rejecting a claim because of who made it is an ad hominem flaw.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0116",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Children who eat breakfast every day earn higher grades than children who skip breakfast. So eating breakfast every day improves children's grades.",
+   "prompt": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "presumes that what is true of children is true of adults",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Adults aren't mentioned."
+    },
+    {
+     "id": "B",
+     "text": "treats a claim about most children as a claim about every child",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The comparison is between groups; no \"every child\" claim is made."
+    },
+    {
+     "id": "C",
+     "text": "overlooks the possibility that some other factor, such as a structured home routine, leads both to daily breakfasts and to higher grades",
+     "correct": true,
+     "trap": null,
+     "why": "A third factor could explain both, so the correlation doesn't show breakfast causes better grades."
+    },
+    {
+     "id": "D",
+     "text": "assumes that all breakfasts are equally nutritious",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument doesn't need that assumption."
+    },
+    {
+     "id": "E",
+     "text": "relies on grades as the only measure of learning",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about grades specifically."
+    }
+   ],
+   "tldr": "A shared cause, like a stable home routine, could produce both breakfasts and grades.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "Breakfast eaters get better grades."
+    },
+    {
+     "label": "Gap",
+     "body": "Correlation treated as cause. A common factor could produce both."
+    }
+   ],
+   "takeaway": "Before accepting \"X causes Y,\" look for a third factor that causes both.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0117",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-reverse-causation"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "People who own dogs report being happier than people who do not. So owning a dog makes people happier.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "confuses owning a dog with caring for a dog",
+     "correct": false,
+     "trap": "not_present",
+     "why": "That distinction plays no role."
+    },
+    {
+     "id": "B",
+     "text": "ignores the possibility that happier people are more likely to choose to own dogs",
+     "correct": true,
+     "trap": null,
+     "why": "The causation could run the other way."
+    },
+    {
+     "id": "C",
+     "text": "assumes that dog owners own only one dog",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The number of dogs doesn't matter here."
+    },
+    {
+     "id": "D",
+     "text": "relies on self-reports that are known to be false",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "Nothing says the reports are false."
+    },
+    {
+     "id": "E",
+     "text": "generalizes from dogs to all pets",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is only about dogs."
+    }
+   ],
+   "tldr": "Maybe happiness leads to dog ownership, not the other way around.",
+   "steps": [
+    {
+     "label": "Claim",
+     "body": "Dogs → happiness."
+    },
+    {
+     "label": "Alternative",
+     "body": "Happiness → choosing a dog explains the same correlation."
+    }
+   ],
+   "takeaway": "For any \"X causes Y\" from a correlation, consider whether Y causes X.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0118",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-equivocation"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Critic: The science museum describes natural selection as a theory. But a theory is just a guess. So the museum admits that natural selection is only a guess.",
+   "prompt": "The critic's reasoning is flawed because it",
+   "options": [
+    {
+     "id": "A",
+     "text": "relies on a shift between a scientific and an everyday meaning of a key word",
+     "correct": true,
+     "trap": null,
+     "why": "A scientific theory is a well-tested explanation; the everyday \"theory\" is a hunch."
+    },
+    {
+     "id": "B",
+     "text": "treats the museum's description as the only evidence for natural selection",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument says nothing about other evidence."
+    },
+    {
+     "id": "C",
+     "text": "assumes that scientific claims can never be revised",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Revision isn't discussed."
+    },
+    {
+     "id": "D",
+     "text": "generalizes from one museum to all museums",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about this museum's description."
+    },
+    {
+     "id": "E",
+     "text": "rejects a claim because of who made it",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The museum's credibility isn't attacked."
+    }
+   ],
+   "tldr": "\"Theory\" means a tested explanation in science, not a guess.",
+   "steps": [
+    {
+     "label": "Key word",
+     "body": "\"Theory.\""
+    },
+    {
+     "label": "Two senses",
+     "body": "The museum uses the scientific sense; the critic substitutes the everyday sense."
+    }
+   ],
+   "takeaway": "Equivocation hides in words with both technical and everyday meanings.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0119",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-circular"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The Riverside Review publishes only the finest poetry, because every poem it prints meets the highest standards. And we know the poems meet those standards because they appear in the Riverside Review.",
+   "prompt": "The argument's reasoning is flawed because it",
+   "options": [
+    {
+     "id": "A",
+     "text": "relies on the opinion of the journal's own editors",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No editor is quoted."
+    },
+    {
+     "id": "B",
+     "text": "confuses the quantity of poems with their quality",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Quantity isn't discussed."
+    },
+    {
+     "id": "C",
+     "text": "uses its conclusion as support for one of the claims offered in support of that conclusion",
+     "correct": true,
+     "trap": null,
+     "why": "Appearing in the Review is used to prove quality, which is used to prove the Review's standards."
+    },
+    {
+     "id": "D",
+     "text": "overlooks the possibility that other journals also publish fine poetry",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The claim is about what the Review publishes, not about other journals."
+    },
+    {
+     "id": "E",
+     "text": "assumes that popular poems are of high quality",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Popularity isn't mentioned."
+    }
+   ],
+   "tldr": "Good because it's in the Review; in the Review because it's good. That's a circle.",
+   "steps": [
+    {
+     "label": "Trace",
+     "body": "Finest poetry ← meets standards ← appears in the Review."
+    },
+    {
+     "label": "Notice",
+     "body": "Appearing in the Review is exactly what's in question."
+    }
+   ],
+   "takeaway": "Circular arguments return to their starting point without outside support.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0120",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-false-choice"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "Ana: Either you support the new stadium or you don't care about our city's economy. You've said you oppose the stadium, so clearly you don't care about the economy.",
+   "prompt": "The reasoning in Ana's argument is flawed because it",
+   "options": [
+    {
+     "id": "A",
+     "text": "confuses the stadium's cost with its benefits",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Costs and benefits aren't discussed."
+    },
+    {
+     "id": "B",
+     "text": "generalizes from one city to all cities",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Only one city is involved."
+    },
+    {
+     "id": "C",
+     "text": "assumes that the stadium will be built",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The argument doesn't predict whether it will be built."
+    },
+    {
+     "id": "D",
+     "text": "relies on an authority on economics",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No authority is cited."
+    },
+    {
+     "id": "E",
+     "text": "presents two alternatives as the only possibilities when others exist",
+     "correct": true,
+     "trap": null,
+     "why": "Someone can care about the economy and still oppose this stadium."
+    }
+   ],
+   "tldr": "Opposing the stadium and caring about the economy are compatible.",
+   "steps": [
+    {
+     "label": "Premise",
+     "body": "Support it, or you don't care about the economy."
+    },
+    {
+     "label": "Flaw",
+     "body": "That ignores people who care about the economy but think the stadium is a bad deal."
+    }
+   ],
+   "takeaway": "Test \"either/or\" claims by looking for someone who fits neither box.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0121",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-authority"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "The famous actor Jonah Price uses Brightsmile toothpaste and says it is the best on the market. So Brightsmile must be the best toothpaste available.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "draws a conclusion about all toothpastes from one brand",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion is about Brightsmile."
+    },
+    {
+     "id": "B",
+     "text": "attacks the motives of a competing toothpaste maker",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No competitor is mentioned."
+    },
+    {
+     "id": "C",
+     "text": "confuses a product's price with its quality",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Price isn't mentioned."
+    },
+    {
+     "id": "D",
+     "text": "treats the endorsement of someone with no relevant expertise as proof of a claim",
+     "correct": true,
+     "trap": null,
+     "why": "Being a famous actor doesn't make Price an expert on toothpaste."
+    },
+    {
+     "id": "E",
+     "text": "assumes that the best toothpaste is also the most popular",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Popularity isn't the argument's evidence."
+    }
+   ],
+   "tldr": "A celebrity endorsement isn't expert evidence.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "An actor's personal preference."
+    },
+    {
+     "label": "Flaw",
+     "body": "He has no expertise that would make his opinion strong evidence."
+    }
+   ],
+   "takeaway": "Endorsements from non-experts are testimony, not proof.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0122",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-hasty"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "My grandfather smoked a pack of cigarettes a day and lived to be ninety-five. So smoking cannot be as harmful to health as doctors claim.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "appeals to the authority of doctors",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The argument rejects the doctors' claim."
+    },
+    {
+     "id": "B",
+     "text": "generalizes from all smokers to a single smoker",
+     "correct": false,
+     "trap": "reversal",
+     "why": "It runs the other way: one case is used against a general claim."
+    },
+    {
+     "id": "C",
+     "text": "presumes that doctors have a financial motive to exaggerate",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No motive is suggested."
+    },
+    {
+     "id": "D",
+     "text": "treats a possible harm as if it were a certain harm",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The argument does the reverse, discounting a likely harm."
+    },
+    {
+     "id": "E",
+     "text": "relies on a single case to reject a claim about general tendencies",
+     "correct": true,
+     "trap": null,
+     "why": "Doctors' claim is about risk across many people; one long-lived smoker doesn't refute it."
+    }
+   ],
+   "tldr": "One exception doesn't disprove a general health risk.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "One smoker who lived long."
+    },
+    {
+     "label": "Flaw",
+     "body": "General claims about risk survive individual exceptions."
+    }
+   ],
+   "takeaway": "Anecdotes can't overturn claims about general tendencies.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0123",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-absence"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "No one has ever shown that the old Harlow mansion is not haunted. So the mansion must be haunted.",
+   "prompt": "The reasoning in the argument is flawed because the argument",
+   "options": [
+    {
+     "id": "A",
+     "text": "treats the failure to disprove a claim as proof that the claim is true",
+     "correct": true,
+     "trap": null,
+     "why": "That nobody has disproved it isn't evidence that it's true."
+    },
+    {
+     "id": "B",
+     "text": "attacks the credibility of skeptics",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No skeptics are mentioned."
+    },
+    {
+     "id": "C",
+     "text": "confuses a cause with its effect",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No causal claim is made."
+    },
+    {
+     "id": "D",
+     "text": "relies on the testimony of people who say they have seen ghosts",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No testimony is cited."
+    },
+    {
+     "id": "E",
+     "text": "assumes that what is true of one mansion is true of all old buildings",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The conclusion concerns only this mansion."
+    }
+   ],
+   "tldr": "\"Not disproved\" isn't \"proved.\"",
+   "steps": [
+    {
+     "label": "Premise",
+     "body": "No evidence against the claim."
+    },
+    {
+     "label": "Flaw",
+     "body": "The conclusion needs evidence for it."
+    }
+   ],
+   "takeaway": "Lack of disproof, like lack of proof, settles nothing by itself.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0124",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "flaw",
+   "family": "flaw_parallel",
+   "knowledgePoints": [
+    "kp-lsat-flaw-possible-certain"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Most first-time novelists do not earn back their publisher's advance. Dana is a first-time novelist. So Dana will not earn back her advance.",
+   "prompt": "The argument is most vulnerable to criticism on the grounds that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "treats what is true of most members of a group as certain to be true of a particular member",
+     "correct": true,
+     "trap": null,
+     "why": "\"Most\" leaves room for Dana to be one of the exceptions."
+    },
+    {
+     "id": "B",
+     "text": "assumes that Dana's publisher is typical of all publishers",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Even if her publisher is typical, \"most\" still doesn't guarantee Dana's result."
+    },
+    {
+     "id": "C",
+     "text": "confuses earning back an advance with writing a good novel",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Quality isn't discussed."
+    },
+    {
+     "id": "D",
+     "text": "relies on statistics about advances that may be out of date",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing suggests the figures are outdated."
+    },
+    {
+     "id": "E",
+     "text": "generalizes from a single novelist to all novelists",
+     "correct": false,
+     "trap": "reversal",
+     "why": "It runs the other way, applying a group statistic to one person."
+    }
+   ],
+   "tldr": "\"Most\" makes Dana's outcome likely, not certain.",
+   "steps": [
+    {
+     "label": "Premise",
+     "body": "Most first-time novelists fall short."
+    },
+    {
+     "label": "Flaw",
+     "body": "The conclusion says Dana definitely will, which needs \"all.\""
+    }
+   ],
+   "takeaway": "Statistical premises support probable conclusions, not certain ones.",
+   "siblings": [],
+   "status": "review"
+  },
   {
    "id": "lsat-lr-0001",
    "version": 1,
@@ -2477,6 +4177,198 @@
  ],
  "knowledgePoints": [
   {
+   "id": "kp-lsat-flaw-equivocation",
+   "section": "LR",
+   "title": "Shifting meanings",
+   "front": "An argument uses a key word in two different senses. What's the flaw called?",
+   "back": "Equivocation. A word like \"free,\" \"natural\" or \"theory\" means one thing in a premise and another in the conclusion, so the evidence doesn't connect.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-circular",
+   "section": "LR",
+   "title": "Circular reasoning",
+   "front": "How do you spot circular reasoning?",
+   "back": "The conclusion is already assumed in the premises, often in different words. Nothing independent supports it.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-false-choice",
+   "section": "LR",
+   "title": "False choice",
+   "front": "An argument rejects one option and concludes the other must be right. What's the risk?",
+   "back": "A false dilemma: it treats two options as the only ones when others exist, or as exclusive when both could hold.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-authority",
+   "section": "LR",
+   "title": "Appeals to authority",
+   "front": "When is relying on an expert a flaw?",
+   "back": "When the expert speaks outside their field, has a clear conflict, or when expert opinion is treated as proof rather than evidence.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-popularity",
+   "section": "LR",
+   "title": "Appeals to popularity",
+   "front": "\"Most people believe X, so X is true.\" What's wrong?",
+   "back": "Widespread belief isn't evidence that a claim is true (or that a choice is good).",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-straw-man",
+   "section": "LR",
+   "title": "Straw man",
+   "front": "What does a straw-man argument do?",
+   "back": "It refutes a distorted or weaker version of the opposing view, not the view actually held.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-hasty",
+   "section": "LR",
+   "title": "Hasty generalization",
+   "front": "An argument concludes something about a whole group from one or two cases. What's the flaw?",
+   "back": "A hasty generalization: too few (or atypical) cases to support a claim about the whole group.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-absence",
+   "section": "LR",
+   "title": "Absence of evidence",
+   "front": "\"No one has proven X, so X is false.\" What's the flaw?",
+   "back": "Lack of proof that something is true isn't proof that it's false (and the reverse).",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-possible-certain",
+   "section": "LR",
+   "title": "Possible vs. certain",
+   "front": "An argument shows something could happen and concludes it will. What's wrong?",
+   "back": "It treats a possibility as a certainty (or a likelihood as a guarantee). Watch for \"may\" in the premises and \"will\" in the conclusion.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-post-hoc",
+   "section": "LR",
+   "title": "Timing isn't cause",
+   "front": "B happened after A. Does that show A caused B?",
+   "back": "No. Sequence alone isn't causation: coincidence or a third factor could explain it.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-flaw-alternatives",
+   "section": "LR",
+   "title": "Overlooked alternatives",
+   "front": "An argument concludes that one approach is the only way to reach a goal. What should you check?",
+   "back": "Whether it ignores other ways to reach the goal, or other explanations for the evidence.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-new-term",
+   "section": "LR",
+   "title": "Bridging a new term",
+   "front": "The conclusion mentions something none of the premises do. What does the argument need?",
+   "back": "An assumption that links the new term to the evidence. The right answer usually connects the two directly.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-defender",
+   "section": "LR",
+   "title": "Ruling out objections",
+   "front": "What kind of answer is often a necessary assumption?",
+   "back": "One that rules out an obvious objection, such as \"no other factor explains the result.\" If it were false, the argument would fail.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-plan",
+   "section": "LR",
+   "title": "Plans and goals",
+   "front": "A plan is proposed to achieve a goal. What makes it vulnerable?",
+   "back": "An obstacle that blocks it, a side effect that undoes the gain, or a reason the plan won't affect the cause of the problem.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-analogy",
+   "section": "LR",
+   "title": "Arguments by analogy",
+   "front": "How do you weaken an argument that relies on an analogy?",
+   "back": "Show a relevant difference between the two cases, one that matters to the conclusion.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-reverse-causation",
+   "section": "LR",
+   "title": "Reversed causation",
+   "front": "An argument concludes that X causes Y. What alternative should you check?",
+   "back": "Whether Y causes X instead (people who are healthier may exercise more, rather than exercise making them healthier).",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-quantifiers",
+   "section": "LR",
+   "title": "Most, some, all",
+   "front": "\"Most A are B\" and \"most A are C.\" What must be true?",
+   "back": "Some A are both B and C. \"Some\" means at least one; \"most\" means more than half.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-inference-caution",
+   "section": "LR",
+   "title": "Strongly supported inferences",
+   "front": "What does the right answer to a \"most strongly supported\" question look like?",
+   "back": "A modest claim the facts back directly, often by combining two of them. Bold or new claims are usually traps.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-must-be-false",
+   "section": "LR",
+   "title": "Must be false",
+   "front": "What must the right answer to a \"could be true EXCEPT\" or \"must be false\" question do?",
+   "back": "Contradict the stimulus. Everything else could be true, even if it's unlikely.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-intermediate",
+   "section": "LR",
+   "title": "Intermediate conclusions",
+   "front": "How can a statement be both supported and supporting?",
+   "back": "An intermediate conclusion is backed by a premise and in turn backs the main conclusion.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-method",
+   "section": "LR",
+   "title": "Describing an argument's method",
+   "front": "How should you approach a \"method of reasoning\" question?",
+   "back": "Describe the argument abstractly before reading the choices: what kind of evidence, and what move gets it to the conclusion.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-agreement",
+   "section": "LR",
+   "title": "Points of agreement",
+   "front": "What must be true of the right answer to an agreement question?",
+   "back": "Both speakers must be committed to it by what they say, not just compatible with it.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-principle-apply",
+   "section": "LR",
+   "title": "Applying a principle",
+   "front": "How do you apply a stated principle to a case?",
+   "back": "Check each condition of the principle against the case. The right answer is the case that meets every condition and gets the stated result.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-lsat-paradox-groups",
+   "section": "LR",
+   "title": "Explaining a difference between groups",
+   "front": "Two groups unexpectedly differ. What resolves it?",
+   "back": "A fact that distinguishes the groups and would produce the difference. Facts that apply to both groups equally don't help.",
+   "exam": "LSAT"
+  },
+  {
    "id": "kp-lsat-rival-cause",
    "section": "LR",
    "title": "Rival causes",
@@ -2650,6 +4542,38 @@
    "title": "Unrepresentative samples",
    "front": "A survey of a cycling club shows support for bike lanes. Why can't you conclude that most residents support them?",
    "back": "The sample isn't representative: club members differ from residents in exactly the way that affects the answer.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-structure",
+   "section": "RC",
+   "title": "Passage organization",
+   "front": "How do you answer a question about how a passage is organized?",
+   "back": "Name each paragraph's job in a few words (introduces a view, raises an objection, offers a resolution) and match that sequence.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-comparative",
+   "section": "RC",
+   "title": "Comparative passages",
+   "front": "How do you handle a pair of comparative passages?",
+   "back": "Map each author's main claim and attitude, then note where they agree, disagree, or simply address different questions.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-analogy",
+   "section": "RC",
+   "title": "Analogy questions",
+   "front": "How do you answer \"which situation is most analogous to…\"?",
+   "back": "Strip the passage's example down to its abstract relationship, then find the answer with the same relationship in a different setting.",
+   "exam": "LSAT"
+  },
+  {
+   "id": "kp-rc-strengthen",
+   "section": "RC",
+   "title": "Strengthening a passage claim",
+   "front": "How do strengthen and weaken questions work in RC?",
+   "back": "Find the specific claim being tested, then pick the fact that bears most directly on its support.",
    "exam": "LSAT"
   }
  ]
