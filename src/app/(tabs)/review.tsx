@@ -6,7 +6,7 @@ import { misconceptions } from '@/engine/select';
 import { BUCKET_LABEL, bucketFor, type Bucket } from '@/engine/srs';
 import { startRetry, startReview } from '@/state/actions';
 import { useDueCards, useExam, useExamAttempts, useExamCards, useNow, useSelectContext } from '@/state/derived';
-import { ExamSwitcher } from '@/ui/ExamSwitcher';
+import { ExamBadge } from '@/ui/ExamBadge';
 import { dueLabel } from '@/ui/format';
 import { Button, Card, Empty, Eyebrow, ListRow, Pill, SectionTitle } from '@/ui/kit';
 import { TabScreen } from '@/ui/Screen';
@@ -33,7 +33,7 @@ export default function Review() {
   const nextDue = sorted.find((card) => card.card.due > now);
 
   return (
-    <TabScreen title="Review" right={<ExamSwitcher />}>
+    <TabScreen title="Review" right={<ExamBadge />}>
       <Card>
         <Eyebrow>Spaced review</Eyebrow>
         <T variant="title" style={{ marginTop: 6 }}>

@@ -1,4 +1,4 @@
-// Settings: plan, reminders, study options, account and about.
+// Profile: account and exams first, then the study plan, habits, options and about.
 
 import { DatePicker, Host } from '@expo/ui/swift-ui';
 import { datePickerStyle, tint } from '@expo/ui/swift-ui/modifiers';
@@ -14,11 +14,12 @@ import { dayKey, parseDay } from '@/engine/time';
 import { refreshReminders } from '@/lib/lifecycle';
 import { requestPermission } from '@/lib/notifications';
 import { isSyncConfigured } from '@/lib/supabase';
+import { ALL_EXAMS, addExam, removeExam, switchExam } from '@/state/exams';
 import { useStore } from '@/state/store';
 import { useAccount } from '@/sync/account';
 import { loadDemoHistory } from '@/dev/demo';
 import { Icon } from '@/ui/Icon';
-import { Card, Chip, Eyebrow, IconButton } from '@/ui/kit';
+import { Card, Chip, Eyebrow, IconButton, Pill } from '@/ui/kit';
 import { T } from '@/ui/Text';
 import { space, useColors } from '@/ui/theme';
 
@@ -116,6 +117,15 @@ export default function Settings() {
   const reminderTime = new Date();
   reminderTime.setHours(settings.reminder.hour, settings.reminder.minute, 0, 0);
 
+  const missing = ALL_EXAMS.filter((e) => !settings.exams.includes(e));
+  const other: Exam = exam === 'LSAT' ? 'MCAT' : 'LSAT';
+  const confirmAdd = (e: Exam) =>
+    Alert.alert(`Add ${e}?`, `You'll keep your ${exam} progress, and you can switch between the two here any time.`, [
+      { text: 'Cancel', style: 'cancel' },
+      { text: `Add ${e}`, onPress: () => addExam(e) },
+      { text: `Add and switch to ${e}`, onPress: () => addExam(e, true) },
+    ]);
+
   const accountLabel =
     account.status === 'member'
       ? account.email ?? (account.provider === 'apple' ? 'Signed in with Apple' : 'Signed in')
@@ -128,18 +138,46 @@ export default function Settings() {
   return (
     <View style={{ flex: 1, backgroundColor: c.bgGrouped }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: space.lg, paddingTop: space.lg }}>
-        <T variant="title">Settings</T>
-        <IconButton testID="settings-close" icon="xmark" label="Close settings" onPress={() => router.back()} />
+        <T variant="title">Profile</T>
+        <IconButton testID="settings-close" icon="xmark" label="Close profile" onPress={() => router.back()} />
       </View>
       <ScrollView contentContainerStyle={{ padding: space.lg, gap: space.xxl, paddingBottom: insets.bottom + space.xxxl }}>
-        <Group title="Exam and plan">
-          <Row label="Studying for">
-            <View style={{ flexDirection: 'row', gap: space.sm }}>
-              {(['LSAT', 'MCAT'] as Exam[]).map((e) => (
-                <Chip key={e} testID={`settings-exam-${e}`} label={e} selected={exam === e} onPress={() => update({ exam: e })} />
-              ))}
-            </View>
+        <Group title="Profile">
+          <Row testID="account-row" label="Account" onPress={() => router.push('/account')}>
+            <T variant="callout" color="textMuted" numberOfLines={1} style={{ maxWidth: 190 }}>
+              {accountLabel}
+            </T>
           </Row>
+          {settings.exams.map((e) => (
+            <Row key={e} testID={`exam-row-${e}`} label={`${e} · ${EXAMS[e].full}`}>
+              {e === exam ? (
+                <Pill label="Studying now" tone="primary" />
+              ) : (
+                <Chip testID={`switch-to-${e}`} label="Switch" selected={false} onPress={() => switchExam(e)} />
+              )}
+            </Row>
+          ))}
+          {missing.map((e, i) => (
+            <Row key={e} testID={`add-exam-${e}`} label={`Add ${e}`} last={i === missing.length - 1} onPress={() => confirmAdd(e)}>
+              <Icon name="plus.circle.fill" size={20} color={c.primary} />
+            </Row>
+          ))}
+          {missing.length === 0 ? (
+            <Row
+              testID="remove-other-exam"
+              label={`Remove ${other} from my exams`}
+              last
+              onPress={() =>
+                Alert.alert(`Remove ${other}?`, `Your ${other} progress stays saved. Add it back any time to pick up where you left off.`, [
+                  { text: 'Cancel', style: 'cancel' },
+                  { text: 'Remove', style: 'destructive', onPress: () => removeExam(other) },
+                ])
+              }
+            />
+          ) : null}
+        </Group>
+
+        <Group title={`${exam} plan`}>
           <Row label="Test date">
             {plan.testDate ? (
               <Host matchContents>
@@ -212,12 +250,7 @@ export default function Settings() {
           </Row>
         </Group>
 
-        <Group title="Account">
-          <Row testID="account-row" label="Account" onPress={() => router.push('/account')}>
-            <T variant="callout" color="textMuted" numberOfLines={1} style={{ maxWidth: 190 }}>
-              {accountLabel}
-            </T>
-          </Row>
+        <Group title="Backup">
           <Row label="Last backup" last>
             <T variant="callout" color="textMuted">
               {!isSyncConfigured ? 'Off in this build' : lastSyncAt ? new Date(lastSyncAt).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' }) : 'Not yet'}

@@ -79,7 +79,10 @@ export interface ExamPlan {
 
 export interface Settings {
   onboarded: boolean;
+  /** The exam being studied right now; always one of `exams`. */
   exam: Exam;
+  /** Exams the student signed up for. Chosen at onboarding; the other can be added in Profile. */
+  exams: Exam[];
   plans: Record<Exam, ExamPlan>;
   dailyGoalMin: number;
   reminder: { enabled: boolean; hour: number; minute: number };
@@ -94,6 +97,7 @@ export interface Settings {
 export const DEFAULT_SETTINGS: Settings = {
   onboarded: false,
   exam: 'LSAT',
+  exams: ['LSAT'],
   plans: {
     LSAT: { testDate: null, target: 165 },
     MCAT: { testDate: null, target: 510 },

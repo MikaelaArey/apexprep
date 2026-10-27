@@ -10,7 +10,7 @@ import { resumeSession, startDaily5, startDrill, startPassage, startReview } fro
 import { useDaysToTest, useDueCards, useExam, useExamAttempts, useSelectContext, useStreak, useToday } from '@/state/derived';
 import { useStore } from '@/state/store';
 import { useAccount } from '@/sync/account';
-import { ExamSwitcher } from '@/ui/ExamSwitcher';
+import { ExamBadge } from '@/ui/ExamBadge';
 import { Icon, type IconName } from '@/ui/Icon';
 import { Button, Card, Eyebrow, IconButton, Pill, ProgressBar } from '@/ui/kit';
 import { TabScreen } from '@/ui/Screen';
@@ -150,8 +150,8 @@ export default function Home() {
       right={
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 2 }}>
           <StreakButton />
-          <ExamSwitcher />
-          <IconButton testID="open-settings" icon="gearshape" label="Settings" onPress={() => router.push('/settings')} />
+          <ExamBadge />
+          <IconButton testID="open-settings" icon="person.crop.circle" label="Profile and settings" onPress={() => router.push('/settings')} />
         </View>
       }
       footer={<Button testID="home-cta" title={cta.title} icon={cta.icon} onPress={cta.onPress} />}>

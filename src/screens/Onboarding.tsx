@@ -94,6 +94,7 @@ export default function Onboarding() {
     updateSettings({
       onboarded: true,
       exam,
+      exams: [exam],
       plans: {
         ...DEFAULT_SETTINGS.plans,
         [exam]: { testDate: testDate ? dayKey(testDate.getTime()) : null, target: target[exam] },
@@ -140,7 +141,7 @@ export default function Onboarding() {
       <View style={{ gap: space.lg }}>
         <T variant="largeTitle">What are you studying for?</T>
         <T variant="subhead" color="textMuted">
-          You can switch exams any time.
+          Studying for both? You can add the other one later in your profile.
         </T>
         <ExamCard exam="LSAT" selected={exam === 'LSAT'} onPress={() => setExam('LSAT')} />
         <ExamCard exam="MCAT" selected={exam === 'MCAT'} onPress={() => setExam('MCAT')} />

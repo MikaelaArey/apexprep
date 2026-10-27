@@ -8,18 +8,21 @@ import { loadDemoHistory } from '@/dev/demo';
 import { useStore } from '@/state/store';
 
 export default function DevReset() {
-  const { onboarded, exam, demo } = useLocalSearchParams<{ onboarded?: string; exam?: string; demo?: string }>();
+  const { onboarded, exam, demo, exams } = useLocalSearchParams<{ onboarded?: string; exam?: string; demo?: string; exams?: string }>();
   useEffect(() => {
     const go = async () => {
       if (__DEV__) {
         const which = exam === 'MCAT' ? 'MCAT' : 'LSAT';
-        await useStore.getState().resetProgress(onboarded === '1' ? { onboarded: true, exam: which } : undefined);
+        const enrolled = (exams ?? which).split(',').filter((e): e is 'LSAT' | 'MCAT' => e === 'LSAT' || e === 'MCAT');
+        await useStore
+          .getState()
+          .resetProgress(onboarded === '1' ? { onboarded: true, exam: which, exams: enrolled.includes(which) ? enrolled : [which, ...enrolled] } : undefined);
         if (demo === '1') await loadDemoHistory(which);
       }
       if (router.canGoBack()) router.back();
       else router.replace('/');
     };
     go();
-  }, [onboarded, exam, demo]);
+  }, [onboarded, exam, demo, exams]);
   return null;
 }

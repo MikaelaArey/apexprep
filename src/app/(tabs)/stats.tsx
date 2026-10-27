@@ -10,7 +10,7 @@ import { levelTitle } from '@/engine/xp';
 import { startDrill } from '@/state/actions';
 import { useActivity, useExam, useExamAttempts, useNow, useRatings, useSelectContext, useStreak, useXp } from '@/state/derived';
 import { useStore } from '@/state/store';
-import { ExamSwitcher } from '@/ui/ExamSwitcher';
+import { ExamBadge } from '@/ui/ExamBadge';
 import { clock, pct } from '@/ui/format';
 import { Button, Card, Empty, Eyebrow, ProgressBar, SectionTitle, StatTile } from '@/ui/kit';
 import { TabScreen } from '@/ui/Screen';
@@ -101,7 +101,7 @@ export default function Stats() {
 
   if (stats.total === 0) {
     return (
-      <TabScreen title="Stats" right={<ExamSwitcher />}>
+      <TabScreen title="Stats" right={<ExamBadge />}>
         <Card>
           <Empty icon="chart.bar" title="No stats yet" body="Answer a few questions and your accuracy, weak spots and pacing will show up here." />
         </Card>
@@ -112,7 +112,7 @@ export default function Stats() {
   const maxReason = Math.max(1, ...stats.missReasons.map((r) => r.count));
 
   return (
-    <TabScreen title="Stats" right={<ExamSwitcher />}>
+    <TabScreen title="Stats" right={<ExamBadge />}>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.md }}>
         <StatTile label="Answered" value={String(stats.total)} sub={`${pct(stats.correct, stats.total)} correct`} />
         <StatTile label="Streak" value={`${streak.current}d`} sub={`Best ${streak.best} days`} />

@@ -45,8 +45,12 @@ export interface Repo {
 
 export function mergeSettings(stored: Partial<Settings> | null | undefined): Settings {
   const s = { ...DEFAULT_SETTINGS, ...(stored ?? {}) };
+  // Older installs had no exam list: enroll them in the exam they were using.
+  const exams = stored?.exams?.length ? [...new Set(stored.exams)] : [s.exam];
   return {
     ...s,
+    exam: exams.includes(s.exam) ? s.exam : exams[0],
+    exams,
     plans: { ...DEFAULT_SETTINGS.plans, ...(stored?.plans ?? {}) },
     reminder: { ...DEFAULT_SETTINGS.reminder, ...(stored?.reminder ?? {}) },
   };

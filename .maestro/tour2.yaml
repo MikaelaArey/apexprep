@@ -54,10 +54,11 @@ appId: host.exp.Exponent
     id: "account-close"
 - scrollUntilVisible:
     element:
-      id: "settings-exam-MCAT"
+      id: "add-exam-MCAT"
     direction: UP
 - tapOn:
-    id: "settings-exam-MCAT"
+    id: "add-exam-MCAT"
+- tapOn: "Add and switch to MCAT"
 - tapOn:
     id: "settings-close"
 - tapOn: "Practice"

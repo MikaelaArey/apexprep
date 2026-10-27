@@ -1,0 +1,53 @@
+# Native app: a student signed up for LSAT adds MCAT in Profile, switches, then removes LSAT.
+appId: com.mikaelaarey.apexprep
+---
+- runFlow:
+    file: _reset.yaml
+    env:
+      EXAM: LSAT
+      DEMO: "0"
+- assertVisible:
+    id: "exam-badge"
+    text: ".*LSAT.*"
+- tapOn:
+    id: "exam-badge"
+- extendedWaitUntil:
+    visible:
+      id: "add-exam-MCAT"
+    timeout: 5000
+- assertVisible:
+    id: "exam-row-LSAT"
+- assertNotVisible:
+    id: "switch-to-MCAT"
+- takeScreenshot: e1-profile-one-exam
+- tapOn:
+    id: "add-exam-MCAT"
+- tapOn: "Add MCAT"
+- extendedWaitUntil:
+    visible:
+      id: "switch-to-MCAT"
+    timeout: 5000
+- takeScreenshot: e2-profile-both
+- tapOn:
+    id: "switch-to-MCAT"
+- extendedWaitUntil:
+    visible:
+      id: "switch-to-LSAT"
+    timeout: 5000
+- takeScreenshot: e3-switched
+- tapOn:
+    id: "settings-close"
+- extendedWaitUntil:
+    visible: "Bio/Biochem"
+    timeout: 5000
+- takeScreenshot: e4-home-mcat
+- tapOn:
+    id: "exam-badge"
+- tapOn:
+    id: "remove-other-exam"
+- tapOn: "Remove"
+- extendedWaitUntil:
+    visible:
+      id: "add-exam-LSAT"
+    timeout: 5000
+- takeScreenshot: e5-removed

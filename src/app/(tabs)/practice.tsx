@@ -6,7 +6,7 @@ import { EXAMS, SECTIONS } from '@/content/labels';
 import { passageProgress } from '@/engine/select';
 import { startDaily5, startDrill, startPassage } from '@/state/actions';
 import { useExam, useExamAttempts, useSelectContext } from '@/state/derived';
-import { ExamSwitcher } from '@/ui/ExamSwitcher';
+import { ExamBadge } from '@/ui/ExamBadge';
 import { Icon, type IconName } from '@/ui/Icon';
 import { Card, Eyebrow, ListRow, Pill, ProgressBar, SectionTitle } from '@/ui/kit';
 import { TabScreen } from '@/ui/Screen';
@@ -71,7 +71,7 @@ export default function Practice() {
   const seen = useMemo(() => new Set(attempts.map((a) => a.itemId)), [attempts]);
 
   return (
-    <TabScreen title="Practice" right={<ExamSwitcher />}>
+    <TabScreen title="Practice" right={<ExamBadge />}>
       <View style={{ flexDirection: 'row', gap: space.md }}>
         <ModeCard
           testID="mode-daily5"
