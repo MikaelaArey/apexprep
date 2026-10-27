@@ -252,3 +252,20 @@
     Cognitive dissonance: holding conflicting beliefs and actions is
     uncomfortable, so people change a belief to justify what they did (effort
     justification).
+
+- id: kp-cars-inference
+  section: CARS
+  title: Supported inferences
+  front: What makes an answer a supported inference in CARS rather than a reasonable guess?
+  back: >-
+    It must follow from specific words in the passage with little or no extra
+    assumption. Find the line that supports it; if you can't, it's a guess.
+
+- id: kp-cars-tone
+  section: CARS
+  title: The author's attitude
+  front: How do you pin down an author's attitude toward a view?
+  back: >-
+    Look for evaluative words (praise, concession, irony, hedges like "perhaps")
+    and for what the author ultimately endorses. Extreme answers (contempt,
+    uncritical admiration) are usually wrong; mixed attitudes are common.

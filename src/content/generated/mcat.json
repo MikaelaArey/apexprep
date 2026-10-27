@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "f992befa6486",
- "generatedAt": "2026-10-27T13:13:43.949Z",
+ "version": "5d31fb25a71a",
+ "generatedAt": "2026-10-27T13:22:53.578Z",
  "items": [
   {
    "id": "mcat-bb-6000",
@@ -21564,6 +21564,1506 @@
     }
    ],
    "takeaway": "CD8 ↔ MHC I (8 × 1 = 8); CD4 ↔ MHC II (4 × 2 = 8).",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0006",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p02",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "The author's primary purpose in the passage is to",
+   "options": [
+    {
+     "id": "A",
+     "text": "explain the chemical techniques used to remove varnish from old paintings.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The author says the dispute was less about chemistry than about what a restorer owes the work."
+    },
+    {
+     "id": "B",
+     "text": "argue that restoration is an act of interpretation that should be carried out openly and with humility.",
+     "correct": true,
+     "trap": null,
+     "why": "The last paragraph concludes that every removal is a judgment, so restorers should document their choices and accept later disagreement."
+    },
+    {
+     "id": "C",
+     "text": "show that an artist's original intention can never be known.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author says intention is rarely recoverable with certainty, not that it can never be known."
+    },
+    {
+     "id": "D",
+     "text": "defend the restorers of the chapel frescoes against their critics.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "The chapel is the opening example; the author never takes a side in that particular dispute."
+    }
+   ],
+   "tldr": "Restoration is interpretation, so restorers should make their judgments visible and reversible.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 sets up the dispute. P2 and P3 give two answers and their limits. P4 says both are interpretive and describes responsible practice."
+    },
+    {
+     "label": "Purpose",
+     "body": "The author's own position arrives in P4, and the answer must capture it."
+    }
+   ],
+   "takeaway": "The primary purpose usually lives in the author's conclusion, not in the opening example.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0007",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p02",
+   "position": 2,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author mentions final glazes added over dry fresco (paragraph 2) primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "argue that frescoes should never be cleaned.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author rejects mechanical rules in both directions and accepts some cleaning."
+    },
+    {
+     "id": "B",
+     "text": "suggest that the chapel's painter was careless in his technique.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing in the passage criticizes the painter's technique."
+    },
+    {
+     "id": "C",
+     "text": "illustrate why a restorer guided by the artist's intention might mistakenly remove part of the original.",
+     "correct": true,
+     "trap": null,
+     "why": "The glazes can look like dirt, so a restorer seeking the original may remove it, which is the difficulty the paragraph raises."
+    },
+    {
+     "id": "D",
+     "text": "support the view that the darkening of a painting is part of its history.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "That is the second answer, in paragraph 3. The glazes illustrate a problem for the first answer."
+    }
+   ],
+   "tldr": "The glazes show how chasing the \"original\" can destroy it.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The glazes come right after \"intention is rarely recoverable with certainty.\""
+    },
+    {
+     "label": "Role",
+     "body": "They are the concrete case behind that difficulty."
+    }
+   ],
+   "takeaway": "For function questions, read the sentence before the detail; the detail usually supports it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0008",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p02",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "Based on the passage, the author would most likely agree that a defender of patina",
+   "options": [
+    {
+     "id": "A",
+     "text": "would oppose documenting restoration decisions.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Documentation is the author's recommendation, and nothing suggests patina defenders oppose it."
+    },
+    {
+     "id": "B",
+     "text": "would still accept removing some material from a painting's surface.",
+     "correct": true,
+     "trap": null,
+     "why": "The author notes that few defenders of patina would leave a painting under soot that hides its figures."
+    },
+    {
+     "id": "C",
+     "text": "considers the darkened colors to be what the artist intended.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The patina view values age as part of the object's life, not as the artist's intention."
+    },
+    {
+     "id": "D",
+     "text": "believes the artist's intention is irrelevant to restoration.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The patina view stresses history; nothing says it treats intention as irrelevant."
+    }
+   ],
+   "tldr": "Even patina's defenders would clean off soot, so they accept some removal.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "\"Few defenders of patina would leave a painting under a layer of candle soot.\""
+    },
+    {
+     "label": "Infer",
+     "body": "So they accept removing at least some material."
+    }
+   ],
+   "takeaway": "A supported inference sits one short step from a specific sentence.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0009",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p02",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following would the author most likely regard as responsible restoration?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A conservator follows a fixed protocol so that personal judgment never affects the result.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says the responsible restorer is not one who claims to have no point of view."
+    },
+    {
+     "id": "B",
+     "text": "A conservator removes a later overpainting, records each step with photographs, and uses materials that can be taken off later.",
+     "correct": true,
+     "trap": null,
+     "why": "This matches the author's ideal of documented, reversible choices."
+    },
+    {
+     "id": "C",
+     "text": "A conservator refuses to remove soot because any intervention would erase the painting's history.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says even patina's defenders wouldn't leave figures buried under soot."
+    },
+    {
+     "id": "D",
+     "text": "A conservator strips every surface layer down to the original plaster so that nothing later remains.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "That applies the intention view mechanically and risks removing original glazes."
+    }
+   ],
+   "tldr": "Responsible restoration means documented, reversible choices.",
+   "steps": [
+    {
+     "label": "Author's standard",
+     "body": "Document choices, keep them reversible, and accept that others may disagree."
+    },
+    {
+     "label": "Match",
+     "body": "Only the photographed, reversible removal meets all three."
+    }
+   ],
+   "takeaway": "Application answers should match the author's stated values, usually found in the conclusion.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0010",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p02",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward the two answers described in paragraphs 2 and 3 is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "critical of each when applied rigidly, but appreciative of what they share.",
+     "correct": true,
+     "trap": null,
+     "why": "The author shows each answer's limits, then says what they share matters more than what divides them."
+    },
+    {
+     "id": "B",
+     "text": "firmly committed to the first and dismissive of the second.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author points out a serious difficulty with the intention view."
+    },
+    {
+     "id": "C",
+     "text": "firmly committed to the second and dismissive of the first.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author says the patina view \"has limits\" too."
+    },
+    {
+     "id": "D",
+     "text": "indifferent, since restoration is purely a matter of technique.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author insists restoration is interpretation, not mere technique."
+    }
+   ],
+   "tldr": "Each answer fails when applied mechanically, but both rightly treat restoration as interpretation.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"Neither answer... can be applied mechanically. What they share is more important than what divides them.\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Mixed, critical of rigidity and appreciative of the shared insight."
+    }
+   ],
+   "takeaway": "CARS authors often hold mixed attitudes. Be wary of answers that are wholly for or against.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0011",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p03",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Recordings and films are the best way to restore an object's original context.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Paragraph 3 warns that such reconstructions can freeze a living tradition."
+    },
+    {
+     "id": "B",
+     "text": "Preserving objects matters more than helping visitors understand them.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author argues that display aims at understanding, which preservation alone can't justify."
+    },
+    {
+     "id": "C",
+     "text": "Museums should return all ceremonial objects to their communities of origin.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author proposes partnership over display, not wholesale return."
+    },
+    {
+     "id": "D",
+     "text": "Because displaying an object implies it should be understood, museums should share decisions about presenting it with the communities that made it.",
+     "correct": true,
+     "trap": null,
+     "why": "This links the argument of paragraph 2 to the author's recommendation in paragraph 4."
+    }
+   ],
+   "tldr": "Display should aim at understanding, which requires partnering with the communities of origin.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 shows what labels leave out. P2 says preservation can't justify display. P3 flags the risk of reconstructions. P4 recommends partnership."
+    },
+    {
+     "label": "Main idea",
+     "body": "The thread is understanding through partnership."
+    }
+   ],
+   "takeaway": "The main idea connects the problem the author raises to the solution the author endorses.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0012",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p03",
+   "position": 2,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author's remark about climate-controlled vaults (paragraph 2) serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "support the curators' claim that removal from context is the price of preservation.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "It undercuts that defense by showing it \"proves too much.\""
+    },
+    {
+     "id": "B",
+     "text": "illustrate how expensive preservation has become.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost is never discussed."
+    },
+    {
+     "id": "C",
+     "text": "recommend that museums store fragile objects out of public view.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The vault is a thought experiment that exposes a weak argument, not a recommendation."
+    },
+    {
+     "id": "D",
+     "text": "show that the preservation argument cannot, by itself, justify putting objects on display.",
+     "correct": true,
+     "trap": null,
+     "why": "If preservation were the only goal, vaults would do; display must therefore aim at something more."
+    }
+   ],
+   "tldr": "The vault example shows that preservation can't explain why objects are displayed.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The vault follows \"the argument proves too much.\""
+    },
+    {
+     "label": "Role",
+     "body": "It shows that the preservation defense would justify vaults, not displays."
+    }
+   ],
+   "takeaway": "\"Proves too much\" signals a reductio: the author follows an argument to a conclusion its defenders wouldn't accept.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0013",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p03",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author's concern about reconstructed displays (paragraph 3) suggests that the author believes",
+   "options": [
+    {
+     "id": "A",
+     "text": "curators deliberately misrepresent the cultures they study.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author calls these efforts \"well meant.\""
+    },
+    {
+     "id": "B",
+     "text": "recordings of ceremonies are usually inaccurate.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The problem is freezing one version, not inaccuracy."
+    },
+    {
+     "id": "C",
+     "text": "objects should be displayed without any accompanying information.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author criticizes bare labels for failing to provide understanding."
+    },
+    {
+     "id": "D",
+     "text": "the traditions associated with such objects have continued to change.",
+     "correct": true,
+     "trap": null,
+     "why": "The worry is that a reconstruction freezes a living tradition, as if its makers had stopped changing."
+    }
+   ],
+   "tldr": "Calling the tradition \"living\" implies it keeps changing.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "A reconstruction \"can freeze a living tradition into a single 'authentic' version.\""
+    },
+    {
+     "label": "Infer",
+     "body": "That worry only makes sense if the tradition keeps changing."
+    }
+   ],
+   "takeaway": "Ask what the author must believe for a stated worry to make sense.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0014",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p03",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following museum policies would the author most likely support?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Displaying each object alongside a reconstruction of its original ceremony.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author warns that such reconstructions can freeze a living tradition."
+    },
+    {
+     "id": "B",
+     "text": "Replacing short labels with longer ones written by the museum's own specialists.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "More museum-authored text still leaves the museum alone settling the object's meaning."
+    },
+    {
+     "id": "C",
+     "text": "Keeping ceremonial objects in storage so that visitors cannot misunderstand them.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author wants understanding through conversation, not avoidance."
+    },
+    {
+     "id": "D",
+     "text": "Asking representatives of a community whether a ceremonial object should be exhibited, and how.",
+     "correct": true,
+     "trap": null,
+     "why": "That is the partnership the author recommends, including the choice not to show an object at all."
+    }
+   ],
+   "tldr": "The author wants communities of origin to share decisions about display.",
+   "steps": [
+    {
+     "label": "Author's solution",
+     "body": "Treat communities of origin as partners who decide how, or whether, objects are shown."
+    },
+    {
+     "label": "Match",
+     "body": "Only the consultation policy gives them that role."
+    }
+   ],
+   "takeaway": "When the author proposes a solution, the best application usually enacts it directly.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0015",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p03",
+   "position": 5,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 4,
+   "targetSec": 102,
+   "prompt": "Which of the following findings, if true, would most challenge the author's claim that collaboration is \"a more promising approach\"?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Visitors to collaboratively designed exhibits understand the objects' original uses no better than visitors who see standard labels.",
+     "correct": true,
+     "trap": null,
+     "why": "The author's case rests on display aiming at understanding; if collaboration doesn't improve understanding, its promise is in doubt."
+    },
+    {
+     "id": "B",
+     "text": "Some communities of origin have asked museums to display their objects.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "That fits the collaborative approach, since communities are deciding how objects are shown."
+    },
+    {
+     "id": "C",
+     "text": "Collaborative exhibits take longer to plan than conventional ones.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The author already concedes that collaboration is slower."
+    },
+    {
+     "id": "D",
+     "text": "Many museum visitors enjoy recordings and films of ceremonies.",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Enjoyment of reconstructions says nothing about collaboration's value."
+    }
+   ],
+   "tldr": "Collaboration's promise depends on better understanding; showing it doesn't help would undercut it.",
+   "steps": [
+    {
+     "label": "Find the support",
+     "body": "Display implies the object should be understood; collaboration replaces silence with conversation."
+    },
+    {
+     "label": "Undercut it",
+     "body": "Evidence that collaboration doesn't improve understanding hits that support directly."
+    }
+   ],
+   "takeaway": "Concessions the author already makes can't challenge the argument.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0016",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p04",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "The passage is primarily concerned with",
+   "options": [
+    {
+     "id": "A",
+     "text": "arguing that reading aloud is superior to reading silently.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author compares the practices but never ranks them."
+    },
+    {
+     "id": "B",
+     "text": "defending eighteenth-century moralists' warnings about novels.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author calls much of their alarm condescension, while granting one real insight."
+    },
+    {
+     "id": "C",
+     "text": "explaining how the novel and silent private reading developed together, and what kind of community resulted.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage traces the link between form and practice (P1–P2), the critics' response (P3) and the new public (P4)."
+    },
+    {
+     "id": "D",
+     "text": "showing that novels were read mainly by young women.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "Young women appear only in the critics' warnings."
+    }
+   ],
+   "tldr": "The novel and private reading grew up together, and together they created a dispersed public.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 private reading is new. P2 the novel suits it. P3 critics saw its independence. P4 it created a new public."
+    },
+    {
+     "label": "Purpose",
+     "body": "The passage explains a historical development and its result."
+    }
+   ],
+   "takeaway": "Pick the answer that covers every paragraph's contribution, not just one.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0017",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p04",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "According to the passage, letters and diaries suited the eighteenth-century novel because they",
+   "options": [
+    {
+     "id": "A",
+     "text": "invited a reader to linger over a character's private thoughts.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 says such material suited a reader who could linger, reread and imagine another's inner life."
+    },
+    {
+     "id": "B",
+     "text": "were easy to perform aloud before an audience.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The passage says such material is awkward to perform before an audience."
+    },
+    {
+     "id": "C",
+     "text": "allowed authors to conceal their own identities.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Authorial anonymity isn't discussed."
+    },
+    {
+     "id": "D",
+     "text": "were the most common forms of writing at the time.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage never compares how common different forms were."
+    }
+   ],
+   "tldr": "Private documents suited a reader who could linger over inner life.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "Such material is \"perfectly suited to a reader who can linger, reread and imagine herself into another person's inner life.\""
+    },
+    {
+     "label": "Match",
+     "body": "Lingering over private thoughts is the stated reason."
+    }
+   ],
+   "takeaway": "Detail questions reward the paraphrase closest to the passage's own words.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0018",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p04",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author calls the novel's critics \"among its most perceptive readers\" in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "suggest that the critics secretly enjoyed reading novels.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The phrase is figurative. The critics understood the novel's effect; nothing says they enjoyed it."
+    },
+    {
+     "id": "B",
+     "text": "show that the critics wrote better novels than the authors they attacked.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage never mentions novels written by the critics."
+    },
+    {
+     "id": "C",
+     "text": "endorse the critics' warnings about idleness and unrealistic expectations.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author dismisses much of that alarm as condescension."
+    },
+    {
+     "id": "D",
+     "text": "acknowledge that the critics correctly saw that private reading escaped social supervision, even though their alarm was condescending.",
+     "correct": true,
+     "trap": null,
+     "why": "The sentence follows the concession that critics \"noticed something real\" about readers beyond supervision."
+    }
+   ],
+   "tldr": "The critics misjudged the stakes but understood the novel's power to escape supervision.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"But the critics noticed something real...\""
+    },
+    {
+     "label": "Role",
+     "body": "The phrase credits that insight while the author keeps rejecting their condescension."
+    }
+   ],
+   "takeaway": "A \"But\" after a criticism usually introduces a partial concession; the function answer keeps both halves.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0019",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p04",
+   "position": 4,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "Which of the following can most reasonably be inferred about the \"new kind of public\" described in paragraph 4?",
+   "options": [
+    {
+     "id": "A",
+     "text": "It discouraged readers from forming their own opinions.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Readers argued about characters, which shows independent opinions."
+    },
+    {
+     "id": "B",
+     "text": "It was limited to members of formal reading societies.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "Letters and periodicals also linked readers, not only societies."
+    },
+    {
+     "id": "C",
+     "text": "It replaced families and churches as the main source of moral guidance.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The passage claims nothing about moral guidance shifting to readers."
+    },
+    {
+     "id": "D",
+     "text": "Its members did not need to be gathered in one place to share an experience.",
+     "correct": true,
+     "trap": null,
+     "why": "The author contrasts it with \"a crowd gathered in one place\" and calls it a dispersed community."
+    }
+   ],
+   "tldr": "The new public was dispersed, linked by shared reading rather than by place.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "\"Not a crowd gathered in one place, but a dispersed community...\""
+    },
+    {
+     "label": "Infer",
+     "body": "Shared experience without physical gathering."
+    }
+   ],
+   "takeaway": "Contrasts the author draws (\"not X but Y\") are prime material for inference answers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0020",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p04",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following is most analogous to the \"new kind of public\" the author describes?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A student reading a textbook alone for an exam",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "That is solitary reading with no community at all."
+    },
+    {
+     "id": "B",
+     "text": "Viewers in many cities discussing the same television series in online forums",
+     "correct": true,
+     "trap": null,
+     "why": "A dispersed group linked by a shared imaginative experience, as with the novel's readers."
+    },
+    {
+     "id": "C",
+     "text": "A crowd gathered in a theater to watch a play",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That is a crowd in one place, the contrast case."
+    },
+    {
+     "id": "D",
+     "text": "A family reading a story aloud together at bedtime",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That resembles the older, social reading the passage contrasts with the novel."
+    }
+   ],
+   "tldr": "Dispersed people linked by a shared story match the novel's public.",
+   "steps": [
+    {
+     "label": "Abstract it",
+     "body": "Separate individuals, the same imaginative work, ongoing discussion."
+    },
+    {
+     "label": "Match",
+     "body": "Online fans of one series fit all three features."
+    }
+   ],
+   "takeaway": "For analogies, list the defining features first, then check each answer against all of them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0021",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p05",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following best states the author's position?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Our ordinary judgments are sound, so the control principle should be abandoned.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author keeps the control principle for blame."
+    },
+    {
+     "id": "B",
+     "text": "Luck should not affect how we judge a person's character, but it can affect what that person owes to others.",
+     "correct": true,
+     "trap": null,
+     "why": "That is the closing distinction between blame and responsibility."
+    },
+    {
+     "id": "C",
+     "text": "People should be blamed for outcomes rather than for their choices.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says blame should track only what a person controlled."
+    },
+    {
+     "id": "D",
+     "text": "The two drivers deserve exactly the same treatment in every respect.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the \"bite the bullet\" view, which the author finds too costly."
+    }
+   ],
+   "tldr": "Luck changes what we owe, not who we are.",
+   "steps": [
+    {
+     "label": "Find the thesis",
+     "body": "\"A better response, I suggest, distinguishes blame from responsibility.\""
+    },
+    {
+     "label": "State it",
+     "body": "Blame follows control; responsibility to victims can follow outcomes."
+    }
+   ],
+   "takeaway": "\"I suggest\" and \"a better response\" flag the author's own view.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0022",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p05",
+   "position": 2,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The examples of the rescuers and the attempted murderer (paragraph 2) are offered mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "show that judgments shaped by outcomes are widespread, not limited to the case of the drivers.",
+     "correct": true,
+     "trap": null,
+     "why": "They come right after \"our actual judgments rarely respect this principle\" and generalize the puzzle."
+    },
+    {
+     "id": "B",
+     "text": "suggest that the law punishes failed attempts too harshly.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage notes that attempts are condemned less, not too harshly."
+    },
+    {
+     "id": "C",
+     "text": "prove that the control principle is false.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author presents a dilemma: either the principle or the judgments must give way."
+    },
+    {
+     "id": "D",
+     "text": "illustrate the author's distinction between blame and responsibility.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "That distinction comes later, in paragraph 4."
+    }
+   ],
+   "tldr": "More examples show the puzzle is general.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "They follow \"our actual judgments rarely respect this principle.\""
+    },
+    {
+     "label": "Role",
+     "body": "They show that outcome-based judgment is common."
+    }
+   ],
+   "takeaway": "Examples right after a general claim usually exist to support or extend it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0023",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p05",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author's objection to the \"bite the bullet\" response relies on the assumption that",
+   "options": [
+    {
+     "id": "A",
+     "text": "consistency is not a virtue in moral theory.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author grants that the view \"has the virtue of consistency.\""
+    },
+    {
+     "id": "B",
+     "text": "emotions are always a reliable guide to moral truth.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The objection needs only this one feeling to be warranted, not all emotions."
+    },
+    {
+     "id": "C",
+     "text": "the remorse felt by people who have caused harm is not simply a mistake.",
+     "correct": true,
+     "trap": null,
+     "why": "The objection is that the view makes such remorse \"a kind of confusion,\" which the author treats as unacceptable."
+    },
+    {
+     "id": "D",
+     "text": "the second driver was more reckless than the first.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The passage stipulates that the drivers were equally careless."
+    }
+   ],
+   "tldr": "The objection works only if the harmful driver's remorse is fitting, not confused.",
+   "steps": [
+    {
+     "label": "The objection",
+     "body": "The view implies the second driver's anguish is confusion; few who have caused harm would accept that."
+    },
+    {
+     "label": "Assumption",
+     "body": "Their remorse is appropriate."
+    }
+   ],
+   "takeaway": "To find an assumption, ask what must be true for the author's objection to land.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0024",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p05",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "On the author's view, what is the moral status of the first driver, who arrived home safely?",
+   "options": [
+    {
+     "id": "A",
+     "text": "He is as much at fault as the second driver, though he owes no one repair.",
+     "correct": true,
+     "trap": null,
+     "why": "Blame tracks control, which was the same for both; owing repair follows outcomes, and he harmed no one."
+    },
+    {
+     "id": "B",
+     "text": "He deserves no blame, since his recklessness harmed no one.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says the drivers are \"equally at fault.\""
+    },
+    {
+     "id": "C",
+     "text": "He owes the child's family an apology as well.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Only the driver whose recklessness \"landed on someone\" owes the family."
+    },
+    {
+     "id": "D",
+     "text": "He deserves more blame than the second driver for escaping the consequences.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing in the passage suggests blame increases for escaping consequences."
+    }
+   ],
+   "tldr": "Equal blame, but nothing owed, because his recklessness harmed no one.",
+   "steps": [
+    {
+     "label": "Blame",
+     "body": "Same control, so the same fault."
+    },
+    {
+     "label": "Responsibility",
+     "body": "No victim, so no debt of apology or repair."
+    }
+   ],
+   "takeaway": "Apply both halves of an author's distinction separately.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0025",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p05",
+   "position": 5,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "As used in paragraph 3, \"bite the bullet\" most nearly means",
+   "options": [
+    {
+     "id": "A",
+     "text": "refuse to take any position on the puzzle",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The response takes a firm position."
+    },
+    {
+     "id": "B",
+     "text": "endure physical pain without complaint",
+     "correct": false,
+     "trap": "distortion",
+     "why": "That is the literal sense, not the meaning in this philosophical context."
+    },
+    {
+     "id": "C",
+     "text": "accept an unwelcome implication for the sake of consistency",
+     "correct": true,
+     "trap": null,
+     "why": "The view accepts that the drivers are equally blameworthy despite our reactions, gaining consistency at a cost."
+    },
+    {
+     "id": "D",
+     "text": "give up the control principle under pressure",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Biting the bullet here keeps the control principle and rejects our judgments."
+    }
+   ],
+   "tldr": "Here it means accepting a hard consequence to stay consistent.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "The response keeps the principle and says our differing reactions are mere emotion."
+    },
+    {
+     "label": "Meaning",
+     "body": "It accepts an uncomfortable implication rather than abandoning the principle."
+    }
+   ],
+   "takeaway": "For meaning-in-context questions, ignore the dictionary sense and read the surrounding sentences.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0026",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p06",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "The main point of the passage is that",
+   "options": [
+    {
+     "id": "A",
+     "text": "although the revival's ideal of untouched music didn't match reality, authenticity can be understood as a serious relationship to a tradition.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage exposes the ideal's ironies (P2), resists dismissing it (P3), and redefines it (P4)."
+    },
+    {
+     "id": "B",
+     "text": "folk songs recorded before radio are more authentic than later versions.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author locates authenticity in a performer's relationship to a tradition, not in the age of a recording."
+    },
+    {
+     "id": "C",
+     "text": "rural singers deliberately deceived the collectors who recorded them.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "It was the collectors who left popular songs off their tapes."
+    },
+    {
+     "id": "D",
+     "text": "the folk revival was a commercial scheme disguised as preservation.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author credits the revival with real benefits for musicians and songs."
+    }
+   ],
+   "tldr": "The purity ideal was flawed, but authenticity survives as careful attention to a tradition.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the ideal. P2 its ironies. P3 not a mere myth. P4 a better definition."
+    },
+    {
+     "label": "Main point",
+     "body": "The redefinition in P4, set against the ironies in P2."
+    }
+   ],
+   "takeaway": "When a passage criticizes an idea and then rescues it, the main point is usually the rescued version.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0027",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p06",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "The author suggests that the collectors' recordings of rural singers were",
+   "options": [
+    {
+     "id": "A",
+     "text": "incomplete records of what those singers actually performed.",
+     "correct": true,
+     "trap": null,
+     "why": "Collectors \"quietly left off\" the popular songs that singers had absorbed from radio."
+    },
+    {
+     "id": "B",
+     "text": "entirely free of commercial influence.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The recordings became commercial records, and the singers had absorbed radio songs."
+    },
+    {
+     "id": "C",
+     "text": "technically poor and later discarded.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The recordings were pressed into records and widely learned from."
+    },
+    {
+     "id": "D",
+     "text": "the main reason rural singers stopped performing.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage says the revival sometimes gave such singers new audiences."
+    }
+   ],
+   "tldr": "Leaving popular songs off the tapes made the recordings selective.",
+   "steps": [
+    {
+     "label": "Find the line",
+     "body": "Popular songs were \"a mixture the collectors often quietly left off their tapes.\""
+    },
+    {
+     "label": "Infer",
+     "body": "The tapes didn't show the singers' full repertoire."
+    }
+   ],
+   "takeaway": "Words like \"quietly left off\" carry the inference; slow down on them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0028",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p06",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "Which of the following best describes the role of paragraph 3?",
+   "options": [
+    {
+     "id": "A",
+     "text": "It summarizes the history of the recording industry.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The recording industry appears only as part of the revival's ironies."
+    },
+    {
+     "id": "B",
+     "text": "It cautions against dismissing authenticity entirely by pointing to the revival's real benefits.",
+     "correct": true,
+     "trap": null,
+     "why": "It calls the \"myth\" conclusion \"too quick\" and lists real effects."
+    },
+    {
+     "id": "C",
+     "text": "It introduces a new criticism of the folk revival.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "It defends the revival's effects rather than criticizing it."
+    },
+    {
+     "id": "D",
+     "text": "It provides evidence that authenticity was only a myth.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "It rejects that conclusion."
+    }
+   ],
+   "tldr": "Paragraph 3 blocks the too-quick conclusion that authenticity was a myth.",
+   "steps": [
+    {
+     "label": "Signal",
+     "body": "\"But that conclusion is too quick.\""
+    },
+    {
+     "label": "Role",
+     "body": "It turns the argument from criticism toward a more balanced view."
+    }
+   ],
+   "takeaway": "\"That conclusion is too quick\" marks a turn; the paragraph pushes back on what came before.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0029",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p06",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "targetSec": 102,
+   "prompt": "Which of the following performers would the author most likely regard as having a genuine relationship to a tradition?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A band that rearranges traditional songs to sound like current hits in order to sell more records",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Nothing here shows the serious attention to a tradition that the author values."
+    },
+    {
+     "id": "B",
+     "text": "A performer who refuses to sing any song he has heard on a record",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author rejects purity of sources as the measure of authenticity."
+    },
+    {
+     "id": "C",
+     "text": "A singer who performs songs learned from her grandmother without any interest in where they came from",
+     "correct": false,
+     "trap": "distortion",
+     "why": "A pure source sung \"by rote\" is exactly what the author ranks lower."
+    },
+    {
+     "id": "D",
+     "text": "A guitarist who learned old blues songs from records, researched the musicians who first sang them, and performs them with care",
+     "correct": true,
+     "trap": null,
+     "why": "Learning from records, studying history and performing with care is the author's own example of genuine relation."
+    }
+   ],
+   "tldr": "Serious attention, not a pure source, makes a relationship to a tradition genuine.",
+   "steps": [
+    {
+     "label": "Author's standard",
+     "body": "Authenticity is a relationship marked by study and care."
+    },
+    {
+     "label": "Match",
+     "body": "The guitarist matches the author's own example almost exactly."
+    }
+   ],
+   "takeaway": "When the author gives an example of the ideal, the right application usually mirrors it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0030",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p06",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 2,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward the musicians of the folk revival is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "uncritically admiring",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author highlights the revival's contradictions."
+    },
+    {
+     "id": "B",
+     "text": "neutral and purely descriptive",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author argues for a redefinition of authenticity."
+    },
+    {
+     "id": "C",
+     "text": "appreciative of the best musicians' care, while skeptical of the revival's ideal of purity",
+     "correct": true,
+     "trap": null,
+     "why": "The author admires the \"seriousness of their attention\" but exposes the ironies of the purity ideal."
+    },
+    {
+     "id": "D",
+     "text": "contemptuous of their naïveté",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author points out ironies but also credits the revival's real benefits."
+    }
+   ],
+   "tldr": "Mixed, admiring the attention and doubting the purity ideal.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"The irony is...\" and \"What made the revival's best musicians admirable...\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Critical of the ideal, appreciative of the best practitioners."
+    }
+   ],
+   "takeaway": "Extreme tone answers (contempt, uncritical praise) are rarely right in CARS.",
    "siblings": [],
    "status": "review"
   },
@@ -57137,6 +58637,111 @@
    ]
   },
   {
+   "id": "mcat-cars-p02",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Cleaning the past",
+   "domain": "humanities",
+   "paragraphs": [
+    "When the frescoes of a famous chapel were cleaned late in the twentieth century, many viewers were startled. Colors they had known as somber browns and smoky greens emerged as vivid oranges, pinks and acid yellows. Some critics accused the restorers of destroying the work; others insisted that, for the first time in centuries, the paintings could be seen as their maker intended. The dispute was less about chemistry than about what a restorer owes to a work of art.",
+    "One answer holds that the restorer owes everything to the artist's original intention. On this view, grime, varnish and later retouching are accretions that stand between us and the work, and the restorer's task is to remove them. The difficulty is that intention is rarely recoverable with certainty. Painters sometimes added final glazes over dry fresco, and these delicate layers can be indistinguishable from later dirt. A restorer confident that she is uncovering the original may in fact be removing it.",
+    "A second answer holds that the restorer owes something to history. An old painting is not only the product of a single moment of making; it is also an object that has lived through centuries, and the darkening of its surface is part of that life. To strip away every trace of age, this view suggests, is to replace a historical object with a modern reconstruction of what the past supposedly looked like. Yet this position, too, has limits. Few defenders of patina would leave a painting under a layer of candle soot that hides its figures entirely.",
+    "Neither answer, I think, can be applied mechanically. What they share is more important than what divides them: both treat restoration as interpretation rather than mere technique. Every decision about what to remove expresses a judgment about what the work is. The responsible restorer is therefore not the one who claims to have no point of view, but the one who documents her choices, keeps them reversible where possible, and accepts that a future generation may judge differently."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0006",
+    "mcat-cars-0007",
+    "mcat-cars-0008",
+    "mcat-cars-0009",
+    "mcat-cars-0010"
+   ]
+  },
+  {
+   "id": "mcat-cars-p03",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The museum's silence",
+   "domain": "humanities",
+   "paragraphs": [
+    "A carved wooden mask from West Africa hangs in a glass case in a European museum. A small label gives its region, its approximate date and the name of the collector who acquired it. What the label cannot convey is that the mask was made to be worn, in motion, at night, by a dancer whose identity it concealed, before an audience that knew what the performance meant. In the case, the mask is silent and still. The museum has preserved the object while removing nearly everything that made it significant to the people who made it.",
+    "Curators have long defended this practice on the grounds that removal from context is the price of preservation. Wooden masks decay; ceremonies change; a museum keeps an object safe for future generations. There is truth in this, but the argument proves too much. If preservation alone were the goal, a museum could keep its objects in climate-controlled vaults rather than display them. Display implies that the object is meant to be understood, and understanding is precisely what the bare label fails to provide.",
+    "Some museums have responded by reconstructing context: playing recordings of music, projecting films of ceremonies, or arranging objects as they might appear in use. These efforts are well meant but carry their own risk. A reconstruction chosen by curators thousands of miles away can freeze a living tradition into a single \"authentic\" version, as though the communities that made the objects had stopped changing when the collector left.",
+    "A more promising approach treats the communities of origin not as sources of information but as partners. When a museum invites members of those communities to decide how an object should be shown, or whether it should be shown at all, it acknowledges that the meaning of the object is not the museum's to settle. Such collaboration is slower and less predictable than writing a label. But it replaces the museum's silence with a conversation, which is what an object made for performance has always required."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0011",
+    "mcat-cars-0012",
+    "mcat-cars-0013",
+    "mcat-cars-0014",
+    "mcat-cars-0015"
+   ]
+  },
+  {
+   "id": "mcat-cars-p04",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Reading alone",
+   "domain": "humanities",
+   "paragraphs": [
+    "For most of history, reading was a social act. Texts were read aloud, in households, in churches, in taverns, so that a single literate person could share a book with many listeners. The silent, solitary reader absorbed in a novel, so familiar to us that she seems natural, is a comparatively recent figure, and the novel itself grew up alongside her.",
+    "The connection is not accidental. Novels of the eighteenth century specialized in the representation of private thought: letters never meant to be seen by anyone but their recipient, diaries, the unspoken reflections of a heroine alone in her room. Such material is awkward to perform before an audience, but perfectly suited to a reader who can linger, reread and imagine herself into another person's inner life. The form and the practice reinforced each other.",
+    "Contemporaries were not uniformly pleased. Moralists warned that novel reading, especially by young women, encouraged idleness, unrealistic expectations of love and a dangerous independence of mind. Much of this alarm now reads as condescension. But the critics noticed something real: a reader alone with a book was beyond the supervision of family and church in a way that a listener in a crowded room was not. The novel's critics were, in a sense, among its most perceptive readers.",
+    "It would be a mistake, however, to conclude that private reading cut readers off from community. Readers of novels wrote to authors, argued about characters in letters and periodicals, and formed reading societies that met to discuss the latest books. Private reading created a new kind of public: not a crowd gathered in one place, but a dispersed community linked by shared imaginative experience. That public, rather than the solitary reader, may be the novel's most lasting invention."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0016",
+    "mcat-cars-0017",
+    "mcat-cars-0018",
+    "mcat-cars-0019",
+    "mcat-cars-0020"
+   ]
+  },
+  {
+   "id": "mcat-cars-p05",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Luck and blame",
+   "domain": "humanities",
+   "paragraphs": [
+    "Two drivers leave the same party, each having had one drink too many. Both drive home carelessly along the same road. One arrives safely. The other, through no greater fault of his own, strikes a child who runs into the street. We blame the second driver far more severely than the first, and the law punishes him far more severely, too. Yet the difference between them seems to lie entirely in luck: in the timing of a child's dash across the road, which neither driver controlled.",
+    "Philosophers call this phenomenon moral luck, and it poses a genuine puzzle. Most of us accept, on reflection, that people should be judged only for what is within their control. But our actual judgments rarely respect this principle. We praise the rescuer whose dive succeeds more than the equally brave one whose dive fails; we condemn the attempted murderer less than the successful one. If the control principle is right, these judgments are mistaken. If the judgments are right, the principle must be wrong.",
+    "One response is to bite the bullet: the two drivers are equally blameworthy, and any difference in our reactions reflects mere emotion. This view has the virtue of consistency, but it has a cost. It implies that the second driver has no special reason to feel remorse toward the child's family, and that his anguish, however natural, is a kind of confusion. Few people who have caused real harm would accept that description of their own experience.",
+    "A better response, I suggest, distinguishes blame from responsibility. Blame, as a verdict on a person's character, should track only what the person controlled; in that sense the drivers are equally at fault. But responsibility, in the sense of owing something to those one has harmed, can follow outcomes. The second driver owes the child's family an apology, an accounting and perhaps repair, not because he is a worse person than the first, but because his recklessness, unlike the other's, landed on someone. Luck, on this view, does not change who we are; it changes what we owe."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0021",
+    "mcat-cars-0022",
+    "mcat-cars-0023",
+    "mcat-cars-0024",
+    "mcat-cars-0025"
+   ]
+  },
+  {
+   "id": "mcat-cars-p06",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The search for the real thing",
+   "domain": "humanities",
+   "paragraphs": [
+    "In the folk revival of the mid-twentieth century, young urban musicians traveled to rural communities in search of old songs and the people who still sang them. What they valued above all was authenticity: music that had passed from singer to singer, untouched by commerce or the recording studio. A singer who had learned a ballad from her grandmother was authentic; a singer who had learned it from a record was, at best, an imitation.",
+    "The irony is that the revival depended on the very technologies it distrusted. Collectors carried portable recorders; their recordings were pressed into records; and many of the revival's most admired performers learned their repertoire from those records. Even the rural singers were rarely as isolated as their admirers imagined. Many had heard the radio for decades and had absorbed popular songs alongside traditional ones, a mixture the collectors often quietly left off their tapes.",
+    "It would be easy to conclude that authenticity was simply a myth, a story urban audiences told themselves about rural people. But that conclusion is too quick. The revival's preoccupation with authenticity had real effects: it brought attention, income and sometimes a late-career audience to musicians who would otherwise have remained unknown, and it preserved songs that might otherwise have disappeared.",
+    "Perhaps the better lesson is that authenticity is less a property of a song than a relationship between a performer and a tradition. A singer who learns an old ballad from a record, studies its history and performs it with care may stand in a more genuine relation to the tradition than one who sings it by rote. What made the revival's best musicians admirable was not the purity of their sources but the seriousness of their attention."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0026",
+    "mcat-cars-0027",
+    "mcat-cars-0028",
+    "mcat-cars-0029",
+    "mcat-cars-0030"
+   ]
+  },
+  {
    "id": "mcat-cars-p01",
    "exam": "MCAT",
    "section": "CARS",
@@ -58213,6 +59818,22 @@
    "title": "Cognitive dissonance",
    "front": "Why do people talk themselves into liking things they paid a lot for?",
    "back": "Cognitive dissonance: holding conflicting beliefs and actions is uncomfortable, so people change a belief to justify what they did (effort justification).",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-cars-inference",
+   "section": "CARS",
+   "title": "Supported inferences",
+   "front": "What makes an answer a supported inference in CARS rather than a reasonable guess?",
+   "back": "It must follow from specific words in the passage with little or no extra assumption. Find the line that supports it; if you can't, it's a guess.",
+   "exam": "MCAT"
+  },
+  {
+   "id": "kp-cars-tone",
+   "section": "CARS",
+   "title": "The author's attitude",
+   "front": "How do you pin down an author's attitude toward a view?",
+   "back": "Look for evaluative words (praise, concession, irony, hedges like \"perhaps\") and for what the author ultimately endorses. Extreme answers (contempt, uncritical admiration) are usually wrong; mixed attitudes are common.",
    "exam": "MCAT"
   }
  ]

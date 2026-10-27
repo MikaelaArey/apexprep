@@ -193,3 +193,11 @@
   back: >-
     A fact that distinguishes the groups and would produce the difference.
     Facts that apply to both groups equally don't help.
+
+- id: kp-lsat-flaw-consequences
+  section: LR
+  title: Appeal to consequences
+  front: '"If this were true, the results would be terrible, so it isn''t true." What''s wrong?'
+  back: >-
+    Whether a claim is true doesn't depend on whether its consequences are
+    pleasant. Good or bad effects of believing something are no evidence about it.

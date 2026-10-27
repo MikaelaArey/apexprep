@@ -1,0 +1,840 @@
+# MCAT CARS: original humanities passages for ApexPrep. Not official AAMC content.
+# The correct option is listed first; the build shuffles answer order.
+
+- passage:
+    id: mcat-cars-p02
+    title: Cleaning the past
+    domain: humanities
+    paragraphs:
+      - >-
+        When the frescoes of a famous chapel were cleaned late in the twentieth
+        century, many viewers were startled. Colors they had known as somber browns
+        and smoky greens emerged as vivid oranges, pinks and acid yellows. Some
+        critics accused the restorers of destroying the work; others insisted that,
+        for the first time in centuries, the paintings could be seen as their maker
+        intended. The dispute was less about chemistry than about what a restorer
+        owes to a work of art.
+      - >-
+        One answer holds that the restorer owes everything to the artist's original
+        intention. On this view, grime, varnish and later retouching are accretions
+        that stand between us and the work, and the restorer's task is to remove
+        them. The difficulty is that intention is rarely recoverable with certainty.
+        Painters sometimes added final glazes over dry fresco, and these delicate
+        layers can be indistinguishable from later dirt. A restorer confident that
+        she is uncovering the original may in fact be removing it.
+      - >-
+        A second answer holds that the restorer owes something to history. An old
+        painting is not only the product of a single moment of making; it is also an
+        object that has lived through centuries, and the darkening of its surface is
+        part of that life. To strip away every trace of age, this view suggests, is
+        to replace a historical object with a modern reconstruction of what the past
+        supposedly looked like. Yet this position, too, has limits. Few defenders of
+        patina would leave a painting under a layer of candle soot that hides its
+        figures entirely.
+      - >-
+        Neither answer, I think, can be applied mechanically. What they share is
+        more important than what divides them: both treat restoration as
+        interpretation rather than mere technique. Every decision about what to
+        remove expresses a judgment about what the work is. The responsible
+        restorer is therefore not the one who claims to have no point of view, but
+        the one who documents her choices, keeps them reversible where possible, and
+        accepts that a future generation may judge differently.
+  items:
+    - id: mcat-cars-0006
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The author's primary purpose in the passage is to
+      options:
+        - text: argue that restoration is an act of interpretation that should be carried out openly and with humility.
+          correct: true
+          why: The last paragraph concludes that every removal is a judgment, so restorers should document their choices and accept later disagreement.
+        - text: defend the restorers of the chapel frescoes against their critics.
+          trap: too_narrow
+          why: The chapel is the opening example; the author never takes a side in that particular dispute.
+        - text: show that an artist's original intention can never be known.
+          trap: too_strong
+          why: The author says intention is rarely recoverable with certainty, not that it can never be known.
+        - text: explain the chemical techniques used to remove varnish from old paintings.
+          trap: out_of_scope
+          why: The author says the dispute was less about chemistry than about what a restorer owes the work.
+      tldr: Restoration is interpretation, so restorers should make their judgments visible and reversible.
+      steps:
+        - label: Map
+          body: P1 sets up the dispute. P2 and P3 give two answers and their limits. P4 says both are interpretive and describes responsible practice.
+        - label: Purpose
+          body: The author's own position arrives in P4, and the answer must capture it.
+      takeaway: The primary purpose usually lives in the author's conclusion, not in the opening example.
+
+    - id: mcat-cars-0007
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author mentions final glazes added over dry fresco (paragraph 2) primarily in order to
+      options:
+        - text: illustrate why a restorer guided by the artist's intention might mistakenly remove part of the original.
+          correct: true
+          why: The glazes can look like dirt, so a restorer seeking the original may remove it, which is the difficulty the paragraph raises.
+        - text: suggest that the chapel's painter was careless in his technique.
+          trap: unsupported
+          why: Nothing in the passage criticizes the painter's technique.
+        - text: support the view that the darkening of a painting is part of its history.
+          trap: distortion
+          why: That is the second answer, in paragraph 3. The glazes illustrate a problem for the first answer.
+        - text: argue that frescoes should never be cleaned.
+          trap: too_strong
+          why: The author rejects mechanical rules in both directions and accepts some cleaning.
+      tldr: The glazes show how chasing the "original" can destroy it.
+      steps:
+        - label: Locate
+          body: The glazes come right after "intention is rarely recoverable with certainty."
+        - label: Role
+          body: They are the concrete case behind that difficulty.
+      takeaway: For function questions, read the sentence before the detail; the detail usually supports it.
+
+    - id: mcat-cars-0008
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: Based on the passage, the author would most likely agree that a defender of patina
+      options:
+        - text: would still accept removing some material from a painting's surface.
+          correct: true
+          why: The author notes that few defenders of patina would leave a painting under soot that hides its figures.
+        - text: believes the artist's intention is irrelevant to restoration.
+          trap: too_strong
+          why: The patina view stresses history; nothing says it treats intention as irrelevant.
+        - text: would oppose documenting restoration decisions.
+          trap: unsupported
+          why: Documentation is the author's recommendation, and nothing suggests patina defenders oppose it.
+        - text: considers the darkened colors to be what the artist intended.
+          trap: distortion
+          why: The patina view values age as part of the object's life, not as the artist's intention.
+      tldr: Even patina's defenders would clean off soot, so they accept some removal.
+      steps:
+        - label: Find the line
+          body: '"Few defenders of patina would leave a painting under a layer of candle soot."'
+        - label: Infer
+          body: So they accept removing at least some material.
+      takeaway: A supported inference sits one short step from a specific sentence.
+
+    - id: mcat-cars-0009
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following would the author most likely regard as responsible restoration?
+      options:
+        - text: A conservator removes a later overpainting, records each step with photographs, and uses materials that can be taken off later.
+          correct: true
+          why: This matches the author's ideal of documented, reversible choices.
+        - text: A conservator strips every surface layer down to the original plaster so that nothing later remains.
+          trap: contradicts
+          why: That applies the intention view mechanically and risks removing original glazes.
+        - text: A conservator refuses to remove soot because any intervention would erase the painting's history.
+          trap: contradicts
+          why: The author says even patina's defenders wouldn't leave figures buried under soot.
+        - text: A conservator follows a fixed protocol so that personal judgment never affects the result.
+          trap: contradicts
+          why: The author says the responsible restorer is not one who claims to have no point of view.
+      tldr: Responsible restoration means documented, reversible choices.
+      steps:
+        - label: Author's standard
+          body: Document choices, keep them reversible, and accept that others may disagree.
+        - label: Match
+          body: Only the photographed, reversible removal meets all three.
+      takeaway: Application answers should match the author's stated values, usually found in the conclusion.
+
+    - id: mcat-cars-0010
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward the two answers described in paragraphs 2 and 3 is best described as
+      options:
+        - text: critical of each when applied rigidly, but appreciative of what they share.
+          correct: true
+          why: The author shows each answer's limits, then says what they share matters more than what divides them.
+        - text: firmly committed to the first and dismissive of the second.
+          trap: distortion
+          why: The author points out a serious difficulty with the intention view.
+        - text: firmly committed to the second and dismissive of the first.
+          trap: distortion
+          why: The author says the patina view "has limits" too.
+        - text: indifferent, since restoration is purely a matter of technique.
+          trap: contradicts
+          why: The author insists restoration is interpretation, not mere technique.
+      tldr: Each answer fails when applied mechanically, but both rightly treat restoration as interpretation.
+      steps:
+        - label: Evidence
+          body: '"Neither answer... can be applied mechanically. What they share is more important than what divides them."'
+        - label: Attitude
+          body: Mixed, critical of rigidity and appreciative of the shared insight.
+      takeaway: CARS authors often hold mixed attitudes. Be wary of answers that are wholly for or against.
+
+- passage:
+    id: mcat-cars-p03
+    title: The museum's silence
+    domain: humanities
+    paragraphs:
+      - >-
+        A carved wooden mask from West Africa hangs in a glass case in a European
+        museum. A small label gives its region, its approximate date and the name of
+        the collector who acquired it. What the label cannot convey is that the mask
+        was made to be worn, in motion, at night, by a dancer whose identity it
+        concealed, before an audience that knew what the performance meant. In the
+        case, the mask is silent and still. The museum has preserved the object while
+        removing nearly everything that made it significant to the people who made
+        it.
+      - >-
+        Curators have long defended this practice on the grounds that removal from
+        context is the price of preservation. Wooden masks decay; ceremonies change;
+        a museum keeps an object safe for future generations. There is truth in this,
+        but the argument proves too much. If preservation alone were the goal, a
+        museum could keep its objects in climate-controlled vaults rather than
+        display them. Display implies that the object is meant to be understood, and
+        understanding is precisely what the bare label fails to provide.
+      - >-
+        Some museums have responded by reconstructing context: playing recordings
+        of music, projecting films of ceremonies, or arranging objects as they might
+        appear in use. These efforts are well meant but carry their own risk. A
+        reconstruction chosen by curators thousands of miles away can freeze a living
+        tradition into a single "authentic" version, as though the communities that
+        made the objects had stopped changing when the collector left.
+      - >-
+        A more promising approach treats the communities of origin not as sources of
+        information but as partners. When a museum invites members of those
+        communities to decide how an object should be shown, or whether it should be
+        shown at all, it acknowledges that the meaning of the object is not the
+        museum's to settle. Such collaboration is slower and less predictable than
+        writing a label. But it replaces the museum's silence with a conversation,
+        which is what an object made for performance has always required.
+  items:
+    - id: mcat-cars-0011
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Because displaying an object implies it should be understood, museums should share decisions about presenting it with the communities that made it.
+          correct: true
+          why: This links the argument of paragraph 2 to the author's recommendation in paragraph 4.
+        - text: Museums should return all ceremonial objects to their communities of origin.
+          trap: too_strong
+          why: The author proposes partnership over display, not wholesale return.
+        - text: Recordings and films are the best way to restore an object's original context.
+          trap: contradicts
+          why: Paragraph 3 warns that such reconstructions can freeze a living tradition.
+        - text: Preserving objects matters more than helping visitors understand them.
+          trap: contradicts
+          why: The author argues that display aims at understanding, which preservation alone can't justify.
+      tldr: Display should aim at understanding, which requires partnering with the communities of origin.
+      steps:
+        - label: Map
+          body: P1 shows what labels leave out. P2 says preservation can't justify display. P3 flags the risk of reconstructions. P4 recommends partnership.
+        - label: Main idea
+          body: The thread is understanding through partnership.
+      takeaway: The main idea connects the problem the author raises to the solution the author endorses.
+
+    - id: mcat-cars-0012
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author's remark about climate-controlled vaults (paragraph 2) serves mainly to
+      options:
+        - text: show that the preservation argument cannot, by itself, justify putting objects on display.
+          correct: true
+          why: If preservation were the only goal, vaults would do; display must therefore aim at something more.
+        - text: recommend that museums store fragile objects out of public view.
+          trap: distortion
+          why: The vault is a thought experiment that exposes a weak argument, not a recommendation.
+        - text: illustrate how expensive preservation has become.
+          trap: out_of_scope
+          why: Cost is never discussed.
+        - text: support the curators' claim that removal from context is the price of preservation.
+          trap: wrong_direction
+          why: It undercuts that defense by showing it "proves too much."
+      tldr: The vault example shows that preservation can't explain why objects are displayed.
+      steps:
+        - label: Locate
+          body: The vault follows "the argument proves too much."
+        - label: Role
+          body: It shows that the preservation defense would justify vaults, not displays.
+      takeaway: '"Proves too much" signals a reductio: the author follows an argument to a conclusion its defenders wouldn''t accept.'
+
+    - id: mcat-cars-0013
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The author's concern about reconstructed displays (paragraph 3) suggests that the author believes
+      options:
+        - text: the traditions associated with such objects have continued to change.
+          correct: true
+          why: The worry is that a reconstruction freezes a living tradition, as if its makers had stopped changing.
+        - text: recordings of ceremonies are usually inaccurate.
+          trap: unsupported
+          why: The problem is freezing one version, not inaccuracy.
+        - text: curators deliberately misrepresent the cultures they study.
+          trap: too_strong
+          why: The author calls these efforts "well meant."
+        - text: objects should be displayed without any accompanying information.
+          trap: contradicts
+          why: The author criticizes bare labels for failing to provide understanding.
+      tldr: Calling the tradition "living" implies it keeps changing.
+      steps:
+        - label: Find the line
+          body: A reconstruction "can freeze a living tradition into a single 'authentic' version."
+        - label: Infer
+          body: That worry only makes sense if the tradition keeps changing.
+      takeaway: Ask what the author must believe for a stated worry to make sense.
+
+    - id: mcat-cars-0014
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following museum policies would the author most likely support?
+      options:
+        - text: Asking representatives of a community whether a ceremonial object should be exhibited, and how.
+          correct: true
+          why: That is the partnership the author recommends, including the choice not to show an object at all.
+        - text: Replacing short labels with longer ones written by the museum's own specialists.
+          trap: too_weak
+          why: More museum-authored text still leaves the museum alone settling the object's meaning.
+        - text: Displaying each object alongside a reconstruction of its original ceremony.
+          trap: contradicts
+          why: The author warns that such reconstructions can freeze a living tradition.
+        - text: Keeping ceremonial objects in storage so that visitors cannot misunderstand them.
+          trap: unsupported
+          why: The author wants understanding through conversation, not avoidance.
+      tldr: The author wants communities of origin to share decisions about display.
+      steps:
+        - label: Author's solution
+          body: Treat communities of origin as partners who decide how, or whether, objects are shown.
+        - label: Match
+          body: Only the consultation policy gives them that role.
+      takeaway: When the author proposes a solution, the best application usually enacts it directly.
+
+    - id: mcat-cars-0015
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which of the following findings, if true, would most challenge the author's claim that collaboration is "a more promising approach"?
+      options:
+        - text: Visitors to collaboratively designed exhibits understand the objects' original uses no better than visitors who see standard labels.
+          correct: true
+          why: The author's case rests on display aiming at understanding; if collaboration doesn't improve understanding, its promise is in doubt.
+        - text: Collaborative exhibits take longer to plan than conventional ones.
+          trap: true_irrelevant
+          why: The author already concedes that collaboration is slower.
+        - text: Many museum visitors enjoy recordings and films of ceremonies.
+          trap: irrelevant_comparison
+          why: Enjoyment of reconstructions says nothing about collaboration's value.
+        - text: Some communities of origin have asked museums to display their objects.
+          trap: unsupported
+          why: That fits the collaborative approach, since communities are deciding how objects are shown.
+      tldr: Collaboration's promise depends on better understanding; showing it doesn't help would undercut it.
+      steps:
+        - label: Find the support
+          body: Display implies the object should be understood; collaboration replaces silence with conversation.
+        - label: Undercut it
+          body: Evidence that collaboration doesn't improve understanding hits that support directly.
+      takeaway: Concessions the author already makes can't challenge the argument.
+
+- passage:
+    id: mcat-cars-p04
+    title: Reading alone
+    domain: humanities
+    paragraphs:
+      - >-
+        For most of history, reading was a social act. Texts were read aloud, in
+        households, in churches, in taverns, so that a single literate person could
+        share a book with many listeners. The silent, solitary reader absorbed in a
+        novel, so familiar to us that she seems natural, is a comparatively recent
+        figure, and the novel itself grew up alongside her.
+      - >-
+        The connection is not accidental. Novels of the eighteenth century
+        specialized in the representation of private thought: letters never meant
+        to be seen by anyone but their recipient, diaries, the unspoken reflections
+        of a heroine alone in her room. Such material is awkward to perform before an
+        audience, but perfectly suited to a reader who can linger, reread and imagine
+        herself into another person's inner life. The form and the practice
+        reinforced each other.
+      - >-
+        Contemporaries were not uniformly pleased. Moralists warned that novel
+        reading, especially by young women, encouraged idleness, unrealistic
+        expectations of love and a dangerous independence of mind. Much of this alarm
+        now reads as condescension. But the critics noticed something real: a reader
+        alone with a book was beyond the supervision of family and church in a way
+        that a listener in a crowded room was not. The novel's critics were, in a
+        sense, among its most perceptive readers.
+      - >-
+        It would be a mistake, however, to conclude that private reading cut readers
+        off from community. Readers of novels wrote to authors, argued about
+        characters in letters and periodicals, and formed reading societies that met
+        to discuss the latest books. Private reading created a new kind of public:
+        not a crowd gathered in one place, but a dispersed community linked by shared
+        imaginative experience. That public, rather than the solitary reader, may be
+        the novel's most lasting invention.
+  items:
+    - id: mcat-cars-0016
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The passage is primarily concerned with
+      options:
+        - text: explaining how the novel and silent private reading developed together, and what kind of community resulted.
+          correct: true
+          why: The passage traces the link between form and practice (P1–P2), the critics' response (P3) and the new public (P4).
+        - text: arguing that reading aloud is superior to reading silently.
+          trap: not_present
+          why: The author compares the practices but never ranks them.
+        - text: defending eighteenth-century moralists' warnings about novels.
+          trap: distortion
+          why: The author calls much of their alarm condescension, while granting one real insight.
+        - text: showing that novels were read mainly by young women.
+          trap: too_narrow
+          why: Young women appear only in the critics' warnings.
+      tldr: The novel and private reading grew up together, and together they created a dispersed public.
+      steps:
+        - label: Map
+          body: P1 private reading is new. P2 the novel suits it. P3 critics saw its independence. P4 it created a new public.
+        - label: Purpose
+          body: The passage explains a historical development and its result.
+      takeaway: Pick the answer that covers every paragraph's contribution, not just one.
+
+    - id: mcat-cars-0017
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: According to the passage, letters and diaries suited the eighteenth-century novel because they
+      options:
+        - text: invited a reader to linger over a character's private thoughts.
+          correct: true
+          why: Paragraph 2 says such material suited a reader who could linger, reread and imagine another's inner life.
+        - text: were easy to perform aloud before an audience.
+          trap: contradicts
+          why: The passage says such material is awkward to perform before an audience.
+        - text: were the most common forms of writing at the time.
+          trap: unsupported
+          why: The passage never compares how common different forms were.
+        - text: allowed authors to conceal their own identities.
+          trap: out_of_scope
+          why: Authorial anonymity isn't discussed.
+      tldr: Private documents suited a reader who could linger over inner life.
+      steps:
+        - label: Find the line
+          body: Such material is "perfectly suited to a reader who can linger, reread and imagine herself into another person's inner life."
+        - label: Match
+          body: Lingering over private thoughts is the stated reason.
+      takeaway: Detail questions reward the paraphrase closest to the passage's own words.
+
+    - id: mcat-cars-0018
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author calls the novel's critics "among its most perceptive readers" in order to
+      options:
+        - text: acknowledge that the critics correctly saw that private reading escaped social supervision, even though their alarm was condescending.
+          correct: true
+          why: The sentence follows the concession that critics "noticed something real" about readers beyond supervision.
+        - text: endorse the critics' warnings about idleness and unrealistic expectations.
+          trap: distortion
+          why: The author dismisses much of that alarm as condescension.
+        - text: suggest that the critics secretly enjoyed reading novels.
+          trap: unsupported
+          why: The phrase is figurative. The critics understood the novel's effect; nothing says they enjoyed it.
+        - text: show that the critics wrote better novels than the authors they attacked.
+          trap: not_present
+          why: The passage never mentions novels written by the critics.
+      tldr: The critics misjudged the stakes but understood the novel's power to escape supervision.
+      steps:
+        - label: Context
+          body: '"But the critics noticed something real..."'
+        - label: Role
+          body: The phrase credits that insight while the author keeps rejecting their condescension.
+      takeaway: A "But" after a criticism usually introduces a partial concession; the function answer keeps both halves.
+
+    - id: mcat-cars-0019
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: Which of the following can most reasonably be inferred about the "new kind of public" described in paragraph 4?
+      options:
+        - text: Its members did not need to be gathered in one place to share an experience.
+          correct: true
+          why: The author contrasts it with "a crowd gathered in one place" and calls it a dispersed community.
+        - text: It replaced families and churches as the main source of moral guidance.
+          trap: too_strong
+          why: The passage claims nothing about moral guidance shifting to readers.
+        - text: It was limited to members of formal reading societies.
+          trap: too_narrow
+          why: Letters and periodicals also linked readers, not only societies.
+        - text: It discouraged readers from forming their own opinions.
+          trap: contradicts
+          why: Readers argued about characters, which shows independent opinions.
+      tldr: The new public was dispersed, linked by shared reading rather than by place.
+      steps:
+        - label: Find the line
+          body: '"Not a crowd gathered in one place, but a dispersed community..."'
+        - label: Infer
+          body: Shared experience without physical gathering.
+      takeaway: Contrasts the author draws ("not X but Y") are prime material for inference answers.
+
+    - id: mcat-cars-0020
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following is most analogous to the "new kind of public" the author describes?
+      options:
+        - text: Viewers in many cities discussing the same television series in online forums
+          correct: true
+          why: A dispersed group linked by a shared imaginative experience, as with the novel's readers.
+        - text: A crowd gathered in a theater to watch a play
+          trap: different_structure
+          why: That is a crowd in one place, the contrast case.
+        - text: A student reading a textbook alone for an exam
+          trap: too_narrow
+          why: That is solitary reading with no community at all.
+        - text: A family reading a story aloud together at bedtime
+          trap: different_structure
+          why: That resembles the older, social reading the passage contrasts with the novel.
+      tldr: Dispersed people linked by a shared story match the novel's public.
+      steps:
+        - label: Abstract it
+          body: Separate individuals, the same imaginative work, ongoing discussion.
+        - label: Match
+          body: Online fans of one series fit all three features.
+      takeaway: For analogies, list the defining features first, then check each answer against all of them.
+
+- passage:
+    id: mcat-cars-p05
+    title: Luck and blame
+    domain: humanities
+    paragraphs:
+      - >-
+        Two drivers leave the same party, each having had one drink too many. Both
+        drive home carelessly along the same road. One arrives safely. The other,
+        through no greater fault of his own, strikes a child who runs into the
+        street. We blame the second driver far more severely than the first, and the
+        law punishes him far more severely, too. Yet the difference between them
+        seems to lie entirely in luck: in the timing of a child's dash across the
+        road, which neither driver controlled.
+      - >-
+        Philosophers call this phenomenon moral luck, and it poses a genuine puzzle.
+        Most of us accept, on reflection, that people should be judged only for what
+        is within their control. But our actual judgments rarely respect this
+        principle. We praise the rescuer whose dive succeeds more than the equally
+        brave one whose dive fails; we condemn the attempted murderer less than the
+        successful one. If the control principle is right, these judgments are
+        mistaken. If the judgments are right, the principle must be wrong.
+      - >-
+        One response is to bite the bullet: the two drivers are equally
+        blameworthy, and any difference in our reactions reflects mere emotion. This
+        view has the virtue of consistency, but it has a cost. It implies that the
+        second driver has no special reason to feel remorse toward the child's
+        family, and that his anguish, however natural, is a kind of confusion. Few
+        people who have caused real harm would accept that description of their own
+        experience.
+      - >-
+        A better response, I suggest, distinguishes blame from responsibility.
+        Blame, as a verdict on a person's character, should track only what the
+        person controlled; in that sense the drivers are equally at fault. But
+        responsibility, in the sense of owing something to those one has harmed, can
+        follow outcomes. The second driver owes the child's family an apology, an
+        accounting and perhaps repair, not because he is a worse person than the
+        first, but because his recklessness, unlike the other's, landed on someone.
+        Luck, on this view, does not change who we are; it changes what we owe.
+  items:
+    - id: mcat-cars-0021
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best states the author's position?
+      options:
+        - text: Luck should not affect how we judge a person's character, but it can affect what that person owes to others.
+          correct: true
+          why: That is the closing distinction between blame and responsibility.
+        - text: The two drivers deserve exactly the same treatment in every respect.
+          trap: wrong_viewpoint
+          why: That is the "bite the bullet" view, which the author finds too costly.
+        - text: Our ordinary judgments are sound, so the control principle should be abandoned.
+          trap: distortion
+          why: The author keeps the control principle for blame.
+        - text: People should be blamed for outcomes rather than for their choices.
+          trap: contradicts
+          why: The author says blame should track only what a person controlled.
+      tldr: Luck changes what we owe, not who we are.
+      steps:
+        - label: Find the thesis
+          body: '"A better response, I suggest, distinguishes blame from responsibility."'
+        - label: State it
+          body: Blame follows control; responsibility to victims can follow outcomes.
+      takeaway: '"I suggest" and "a better response" flag the author''s own view.'
+
+    - id: mcat-cars-0022
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The examples of the rescuers and the attempted murderer (paragraph 2) are offered mainly to
+      options:
+        - text: show that judgments shaped by outcomes are widespread, not limited to the case of the drivers.
+          correct: true
+          why: They come right after "our actual judgments rarely respect this principle" and generalize the puzzle.
+        - text: prove that the control principle is false.
+          trap: too_strong
+          why: >-
+            The author presents a dilemma: either the principle or the judgments must give way.
+        - text: illustrate the author's distinction between blame and responsibility.
+          trap: distortion
+          why: That distinction comes later, in paragraph 4.
+        - text: suggest that the law punishes failed attempts too harshly.
+          trap: unsupported
+          why: The passage notes that attempts are condemned less, not too harshly.
+      tldr: More examples show the puzzle is general.
+      steps:
+        - label: Locate
+          body: They follow "our actual judgments rarely respect this principle."
+        - label: Role
+          body: They show that outcome-based judgment is common.
+      takeaway: Examples right after a general claim usually exist to support or extend it.
+
+    - id: mcat-cars-0023
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The author's objection to the "bite the bullet" response relies on the assumption that
+      options:
+        - text: the remorse felt by people who have caused harm is not simply a mistake.
+          correct: true
+          why: The objection is that the view makes such remorse "a kind of confusion," which the author treats as unacceptable.
+        - text: emotions are always a reliable guide to moral truth.
+          trap: too_strong
+          why: The objection needs only this one feeling to be warranted, not all emotions.
+        - text: the second driver was more reckless than the first.
+          trap: contradicts
+          why: The passage stipulates that the drivers were equally careless.
+        - text: consistency is not a virtue in moral theory.
+          trap: contradicts
+          why: The author grants that the view "has the virtue of consistency."
+      tldr: The objection works only if the harmful driver's remorse is fitting, not confused.
+      steps:
+        - label: The objection
+          body: The view implies the second driver's anguish is confusion; few who have caused harm would accept that.
+        - label: Assumption
+          body: Their remorse is appropriate.
+      takeaway: To find an assumption, ask what must be true for the author's objection to land.
+
+    - id: mcat-cars-0024
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: On the author's view, what is the moral status of the first driver, who arrived home safely?
+      options:
+        - text: He is as much at fault as the second driver, though he owes no one repair.
+          correct: true
+          why: Blame tracks control, which was the same for both; owing repair follows outcomes, and he harmed no one.
+        - text: He deserves no blame, since his recklessness harmed no one.
+          trap: contradicts
+          why: The author says the drivers are "equally at fault."
+        - text: He owes the child's family an apology as well.
+          trap: contradicts
+          why: Only the driver whose recklessness "landed on someone" owes the family.
+        - text: He deserves more blame than the second driver for escaping the consequences.
+          trap: unsupported
+          why: Nothing in the passage suggests blame increases for escaping consequences.
+      tldr: Equal blame, but nothing owed, because his recklessness harmed no one.
+      steps:
+        - label: Blame
+          body: Same control, so the same fault.
+        - label: Responsibility
+          body: No victim, so no debt of apology or repair.
+      takeaway: Apply both halves of an author's distinction separately.
+
+    - id: mcat-cars-0025
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: As used in paragraph 3, "bite the bullet" most nearly means
+      options:
+        - text: accept an unwelcome implication for the sake of consistency
+          correct: true
+          why: The view accepts that the drivers are equally blameworthy despite our reactions, gaining consistency at a cost.
+        - text: endure physical pain without complaint
+          trap: distortion
+          why: That is the literal sense, not the meaning in this philosophical context.
+        - text: refuse to take any position on the puzzle
+          trap: contradicts
+          why: The response takes a firm position.
+        - text: give up the control principle under pressure
+          trap: wrong_direction
+          why: Biting the bullet here keeps the control principle and rejects our judgments.
+      tldr: Here it means accepting a hard consequence to stay consistent.
+      steps:
+        - label: Context
+          body: The response keeps the principle and says our differing reactions are mere emotion.
+        - label: Meaning
+          body: It accepts an uncomfortable implication rather than abandoning the principle.
+      takeaway: For meaning-in-context questions, ignore the dictionary sense and read the surrounding sentences.
+
+- passage:
+    id: mcat-cars-p06
+    title: The search for the real thing
+    domain: humanities
+    paragraphs:
+      - >-
+        In the folk revival of the mid-twentieth century, young urban musicians
+        traveled to rural communities in search of old songs and the people who
+        still sang them. What they valued above all was authenticity: music that had
+        passed from singer to singer, untouched by commerce or the recording studio.
+        A singer who had learned a ballad from her grandmother was authentic; a
+        singer who had learned it from a record was, at best, an imitation.
+      - >-
+        The irony is that the revival depended on the very technologies it
+        distrusted. Collectors carried portable recorders; their recordings were
+        pressed into records; and many of the revival's most admired performers
+        learned their repertoire from those records. Even the rural singers were
+        rarely as isolated as their admirers imagined. Many had heard the radio for
+        decades and had absorbed popular songs alongside traditional ones, a mixture
+        the collectors often quietly left off their tapes.
+      - >-
+        It would be easy to conclude that authenticity was simply a myth, a story
+        urban audiences told themselves about rural people. But that conclusion is
+        too quick. The revival's preoccupation with authenticity had real effects:
+        it brought attention, income and sometimes a late-career audience to
+        musicians who would otherwise have remained unknown, and it preserved songs
+        that might otherwise have disappeared.
+      - >-
+        Perhaps the better lesson is that authenticity is less a property of a song
+        than a relationship between a performer and a tradition. A singer who learns
+        an old ballad from a record, studies its history and performs it with care
+        may stand in a more genuine relation to the tradition than one who sings it
+        by rote. What made the revival's best musicians admirable was not the purity
+        of their sources but the seriousness of their attention.
+  items:
+    - id: mcat-cars-0026
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The main point of the passage is that
+      options:
+        - text: although the revival's ideal of untouched music didn't match reality, authenticity can be understood as a serious relationship to a tradition.
+          correct: true
+          why: The passage exposes the ideal's ironies (P2), resists dismissing it (P3), and redefines it (P4).
+        - text: folk songs recorded before radio are more authentic than later versions.
+          trap: contradicts
+          why: The author locates authenticity in a performer's relationship to a tradition, not in the age of a recording.
+        - text: the folk revival was a commercial scheme disguised as preservation.
+          trap: too_strong
+          why: The author credits the revival with real benefits for musicians and songs.
+        - text: rural singers deliberately deceived the collectors who recorded them.
+          trap: unsupported
+          why: It was the collectors who left popular songs off their tapes.
+      tldr: The purity ideal was flawed, but authenticity survives as careful attention to a tradition.
+      steps:
+        - label: Map
+          body: P1 the ideal. P2 its ironies. P3 not a mere myth. P4 a better definition.
+        - label: Main point
+          body: The redefinition in P4, set against the ironies in P2.
+      takeaway: When a passage criticizes an idea and then rescues it, the main point is usually the rescued version.
+
+    - id: mcat-cars-0027
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The author suggests that the collectors' recordings of rural singers were
+      options:
+        - text: incomplete records of what those singers actually performed.
+          correct: true
+          why: Collectors "quietly left off" the popular songs that singers had absorbed from radio.
+        - text: technically poor and later discarded.
+          trap: unsupported
+          why: The recordings were pressed into records and widely learned from.
+        - text: the main reason rural singers stopped performing.
+          trap: unsupported
+          why: The passage says the revival sometimes gave such singers new audiences.
+        - text: entirely free of commercial influence.
+          trap: contradicts
+          why: The recordings became commercial records, and the singers had absorbed radio songs.
+      tldr: Leaving popular songs off the tapes made the recordings selective.
+      steps:
+        - label: Find the line
+          body: Popular songs were "a mixture the collectors often quietly left off their tapes."
+        - label: Infer
+          body: The tapes didn't show the singers' full repertoire.
+      takeaway: Words like "quietly left off" carry the inference; slow down on them.
+
+    - id: mcat-cars-0028
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: Which of the following best describes the role of paragraph 3?
+      options:
+        - text: It cautions against dismissing authenticity entirely by pointing to the revival's real benefits.
+          correct: true
+          why: It calls the "myth" conclusion "too quick" and lists real effects.
+        - text: It provides evidence that authenticity was only a myth.
+          trap: wrong_direction
+          why: It rejects that conclusion.
+        - text: It introduces a new criticism of the folk revival.
+          trap: wrong_direction
+          why: It defends the revival's effects rather than criticizing it.
+        - text: It summarizes the history of the recording industry.
+          trap: out_of_scope
+          why: The recording industry appears only as part of the revival's ironies.
+      tldr: Paragraph 3 blocks the too-quick conclusion that authenticity was a myth.
+      steps:
+        - label: Signal
+          body: '"But that conclusion is too quick."'
+        - label: Role
+          body: It turns the argument from criticism toward a more balanced view.
+      takeaway: '"That conclusion is too quick" marks a turn; the paragraph pushes back on what came before.'
+
+    - id: mcat-cars-0029
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: Which of the following performers would the author most likely regard as having a genuine relationship to a tradition?
+      options:
+        - text: A guitarist who learned old blues songs from records, researched the musicians who first sang them, and performs them with care
+          correct: true
+          why: Learning from records, studying history and performing with care is the author's own example of genuine relation.
+        - text: A singer who performs songs learned from her grandmother without any interest in where they came from
+          trap: distortion
+          why: A pure source sung "by rote" is exactly what the author ranks lower.
+        - text: A band that rearranges traditional songs to sound like current hits in order to sell more records
+          trap: out_of_scope
+          why: Nothing here shows the serious attention to a tradition that the author values.
+        - text: A performer who refuses to sing any song he has heard on a record
+          trap: contradicts
+          why: The author rejects purity of sources as the measure of authenticity.
+      tldr: Serious attention, not a pure source, makes a relationship to a tradition genuine.
+      steps:
+        - label: Author's standard
+          body: Authenticity is a relationship marked by study and care.
+        - label: Match
+          body: The guitarist matches the author's own example almost exactly.
+      takeaway: When the author gives an example of the ideal, the right application usually mirrors it.
+
+    - id: mcat-cars-0030
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward the musicians of the folk revival is best described as
+      options:
+        - text: appreciative of the best musicians' care, while skeptical of the revival's ideal of purity
+          correct: true
+          why: The author admires the "seriousness of their attention" but exposes the ironies of the purity ideal.
+        - text: contemptuous of their naïveté
+          trap: too_strong
+          why: The author points out ironies but also credits the revival's real benefits.
+        - text: uncritically admiring
+          trap: too_strong
+          why: The author highlights the revival's contradictions.
+        - text: neutral and purely descriptive
+          trap: unsupported
+          why: The author argues for a redefinition of authenticity.
+      tldr: Mixed, admiring the attention and doubting the purity ideal.
+      steps:
+        - label: Evidence
+          body: '"The irony is..." and "What made the revival''s best musicians admirable..."'
+        - label: Attitude
+          body: Critical of the ideal, appreciative of the best practitioners.
+      takeaway: Extreme tone answers (contempt, uncritical praise) are rarely right in CARS.

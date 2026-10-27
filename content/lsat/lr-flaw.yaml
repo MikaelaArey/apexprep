@@ -815,3 +815,818 @@
     - label: Flaw
       body: The conclusion says Dana definitely will, which needs "all."
   takeaway: Statistical premises support probable conclusions, not certain ones.
+
+- id: lsat-lr-0125
+  type: flaw
+  kps: [kp-lsat-part-whole]
+  difficulty: 2
+  stimulus: >-
+    Each player on the Rockport team is among the most skilled players in the
+    league. Therefore, the Rockport team will surely be one of the best teams in the
+    league this season.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: presumes that because each member of a group has a characteristic, the group as a whole must have it
+      correct: true
+      why: Skilled individuals can still make a poor team if they don't play well together.
+    - text: presumes that because a group has a characteristic, each member of the group must have it
+      trap: reversal
+      why: That is the reverse direction. This argument runs from members to the group.
+    - text: relies on the opinion of the team's coach
+      trap: not_present
+      why: No one's opinion is cited.
+    - text: assumes that skill can be measured objectively
+      trap: not_present
+      why: The argument takes the players' skill as given; measurement isn't the issue.
+    - text: draws a conclusion about the whole league from one team
+      trap: not_present
+      why: The conclusion is about one team.
+  tldr: Great players don't guarantee a great team. That's the part-to-whole flaw.
+  steps:
+    - label: Direction
+      body: From each player (parts) to the team (whole).
+    - label: Gap
+      body: A team's quality depends on how players combine, not just on each player alone.
+  takeaway: What's true of each part needn't be true of the whole (composition).
+
+- id: lsat-lr-0126
+  type: flaw
+  kps: [kp-lsat-sampling]
+  difficulty: 2
+  stimulus: >-
+    A magazine invited readers to mail in a survey about job satisfaction. Of the
+    3,000 readers who responded, 80 percent said they were unhappy at work. Clearly,
+    most of the magazine's readers are dissatisfied with their jobs.
+  prompt: The argument is most vulnerable to criticism on the grounds that it
+  options:
+    - text: fails to consider that readers who were unhappy at work may have been more likely than others to respond
+      correct: true
+      why: A self-selected sample can overrepresent people with strong feelings about the topic.
+    - text: relies on a sample too small to draw any conclusion
+      trap: too_weak
+      why: Three thousand responses is a lot; the problem is who chose to respond.
+    - text: assumes that job satisfaction can't change over time
+      trap: not_present
+      why: The argument makes no claim about change.
+    - text: confuses dissatisfaction with a job with dissatisfaction with a career
+      trap: not_present
+      why: That distinction plays no role in the argument.
+    - text: presumes that the magazine's editors designed the survey fairly
+      trap: out_of_scope
+      why: The survey's wording isn't the issue; the sample's selection is.
+  tldr: Volunteers who chose to answer may be the unhappiest readers.
+  steps:
+    - label: Sample
+      body: Readers who chose to mail back a survey.
+    - label: Flaw
+      body: People with grievances are often more motivated to respond, so the sample is biased.
+  takeaway: Self-selected samples are suspect even when they are large.
+
+- id: lsat-lr-0127
+  type: flaw
+  kps: [kp-lsat-source-attack]
+  difficulty: 1
+  stimulus: >-
+    Senator Hale argues that the city should ban plastic shopping bags. But Senator
+    Hale herself was photographed carrying groceries in plastic bags last month. So
+    her argument should be rejected.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: rejects an argument because the person making it has acted inconsistently with it
+      correct: true
+      why: Whether the ban is a good idea doesn't depend on the senator's own shopping habits.
+    - text: assumes that a ban on plastic bags would be easy to enforce
+      trap: not_present
+      why: Enforcement is never discussed.
+    - text: relies on a photograph whose authenticity is doubtful
+      trap: unsupported
+      why: Nothing suggests the photo is fake, and its authenticity wouldn't matter anyway.
+    - text: treats a single month as typical of the senator's behavior
+      trap: too_narrow
+      why: Even years of plastic-bag use wouldn't refute her argument.
+    - text: confuses what is legal with what is moral
+      trap: not_present
+      why: The argument doesn't discuss legality or morality.
+  tldr: The senator's hypocrisy, if it is that, doesn't make her argument wrong.
+  steps:
+    - label: Evidence
+      body: She uses plastic bags herself.
+    - label: Flaw
+      body: That attacks the arguer, not the reasons for the ban.
+  takeaway: An argument can be sound even if its author doesn't live by it.
+
+- id: lsat-lr-0128
+  type: flaw
+  kps: [kp-lsat-flaw-equivocation]
+  difficulty: 3
+  stimulus: >-
+    The study found a statistically significant difference between the two groups'
+    reading scores. A significant difference is an important difference. So the
+    study found that the difference between the groups' reading scores is important.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: shifts between a technical and an everyday meaning of a key term
+      correct: true
+      why: Statistically significant means unlikely to be due to chance; it doesn't mean large or important.
+    - text: assumes that the study's sample was representative
+      trap: true_irrelevant
+      why: Even a perfect sample wouldn't fix the shift in meaning.
+    - text: draws a conclusion about individuals from data about groups
+      trap: not_present
+      why: The conclusion is about the groups' scores.
+    - text: relies on a study that may have been poorly designed
+      trap: unsupported
+      why: The argument's problem lies in how it reads the finding, not in the study.
+    - text: confuses a cause of the difference with an effect of it
+      trap: not_present
+      why: No causal claim is made.
+  tldr: '"Significant" in statistics means unlikely to be chance, not important.'
+  steps:
+    - label: Key word
+      body: '"Significant."'
+    - label: Two senses
+      body: The study uses the statistical sense; the conclusion uses the everyday sense.
+  takeaway: Technical terms with everyday cousins are classic equivocation traps.
+
+- id: lsat-lr-0129
+  type: flaw
+  kps: [kp-lsat-numbers-proportions]
+  difficulty: 2
+  stimulus: >-
+    Reported bicycle thefts rose by 50 percent last year in Danbury but by only 10
+    percent in Easton. So bicycle theft is now a bigger problem in Danbury than in
+    Easton.
+  prompt: The argument is most vulnerable to criticism on the grounds that it
+  options:
+    - text: overlooks the possibility that Easton has far more bicycle thefts than Danbury despite its smaller increase
+      correct: true
+      why: Danbury could have gone from 4 thefts to 6 while Easton went from 1,000 to 1,100.
+    - text: assumes that all bicycle thefts are reported
+      trap: true_irrelevant
+      why: Underreporting doesn't address the gap between growth rates and totals.
+    - text: presumes that bicycle theft will keep rising in both towns
+      trap: not_present
+      why: The argument makes no prediction.
+    - text: fails to consider other kinds of theft
+      trap: out_of_scope
+      why: The conclusion is only about bicycle theft.
+    - text: relies on figures from only one year
+      trap: too_weak
+      why: More years wouldn't fix confusing a rate of increase with an amount.
+  tldr: A bigger percentage increase can start from a much smaller base.
+  steps:
+    - label: Evidence
+      body: Growth rates, 50% vs 10%.
+    - label: Conclusion
+      body: Which town's problem is bigger now, which depends on actual numbers.
+  takeaway: Percent changes say nothing about size without the starting amounts.
+
+- id: lsat-lr-0130
+  type: flaw
+  kps: [kp-lsat-analogy]
+  difficulty: 2
+  stimulus: >-
+    A ship needs a single captain whose orders are obeyed without debate. A nation
+    is like a ship. So a nation should be ruled by a single leader whose orders are
+    obeyed without debate.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: relies on an analogy without showing that the two things are alike in the respects that matter
+      correct: true
+      why: Ships face emergencies needing instant obedience; nations differ in size, purpose and timescale.
+    - text: assumes that what is true of one ship is true of all ships
+      trap: not_present
+      why: The argument's weakness is the ship–nation comparison, not ship generalizations.
+    - text: confuses a necessary condition for a sufficient one
+      trap: not_present
+      why: No conditional reasoning is reversed.
+    - text: attacks those who favor debate rather than their arguments
+      trap: not_present
+      why: No opponents are mentioned.
+    - text: concludes that something is true merely because it has not been disproved
+      trap: not_present
+      why: The argument offers an analogy as positive support.
+  tldr: Calling a nation "like a ship" doesn't show they're alike in the ways that matter.
+  steps:
+    - label: Structure
+      body: Ships need X; nations are like ships; so nations need X.
+    - label: Test the analogy
+      body: Do the features that justify a captain's authority carry over to a nation? The argument never shows that.
+  takeaway: An analogy is only as strong as the relevant similarity between its two cases.
+
+- id: lsat-lr-0131
+  type: flaw
+  kps: [kp-lsat-necessary-vs-sufficient]
+  difficulty: 2
+  stimulus: >-
+    The orchid will flower only if it gets at least six hours of sunlight a day.
+    Since it is now getting eight hours of sunlight a day, it will flower.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: takes a condition required for flowering to be enough to make the orchid flower
+      correct: true
+      why: '"Only if" marks a necessary condition. The orchid might also need water, warmth or maturity.'
+    - text: assumes that more sunlight is always better for the orchid
+      trap: not_present
+      why: The argument never claims eight hours beats six.
+    - text: relies on a measurement of sunlight that may be inaccurate
+      trap: unsupported
+      why: Nothing suggests the measurement is wrong.
+    - text: overlooks the possibility that the orchid flowered in the past with less sunlight
+      trap: contradicts
+      why: The premise says it can't flower with less than six hours.
+    - text: concludes that one event caused another because they occurred together
+      trap: not_present
+      why: No correlation is offered as evidence.
+  tldr: '"Only if" gives a requirement, not a guarantee.'
+  steps:
+    - label: Map
+      body: "Flowers → 6+ hours of sun. Has 8 hours, so the argument concludes it will flower."
+    - label: Flaw
+      body: That reverses the conditional.
+  takeaway: '"X only if Y" means X → Y. Having Y doesn''t give you X.'
+
+- id: lsat-lr-0132
+  type: flaw
+  kps: [kp-lsat-necessary-vs-sufficient]
+  difficulty: 2
+  stimulus: >-
+    Any candidate who wins the teachers' union's endorsement will win the election.
+    Morales did not win the union's endorsement. So Morales will not win the
+    election.
+  prompt: The argument's reasoning is flawed because it
+  options:
+    - text: overlooks the possibility that a candidate could win the election without the union's endorsement
+      correct: true
+      why: The endorsement guarantees a win, but nothing says it's the only path to one.
+    - text: assumes that the union's endorsement is based on candidates' qualifications
+      trap: not_present
+      why: The basis of the endorsement plays no role.
+    - text: takes for granted that Morales sought the union's endorsement
+      trap: true_irrelevant
+      why: Whether she sought it doesn't affect the logical gap.
+    - text: presumes that the union's members all vote alike
+      trap: not_present
+      why: The premise states the endorsement's effect directly.
+    - text: treats the election's outcome as already decided
+      trap: distortion
+      why: The real problem is the negated conditional, not certainty as such.
+  tldr: Endorsement is enough to win, not required to win.
+  steps:
+    - label: Map
+      body: "Endorsed → wins. Not endorsed, so the argument concludes not wins."
+    - label: Flaw
+      body: Negating both sides doesn't preserve a conditional.
+  takeaway: From "if X then Y" and "not X," nothing follows about Y.
+
+- id: lsat-lr-0133
+  type: flaw
+  kps: [kp-lsat-reverse-causation]
+  difficulty: 2
+  stimulus: >-
+    Cities with more police officers per resident tend to have higher crime rates.
+    So hiring more police officers tends to increase crime.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: ignores the possibility that high crime rates lead cities to hire more police officers
+      correct: true
+      why: The correlation fits causation running the other way.
+    - text: assumes that crime rates are reported accurately
+      trap: true_irrelevant
+      why: Accurate reporting wouldn't fix the causal reversal.
+    - text: generalizes from a small number of cities
+      trap: unsupported
+      why: The number of cities isn't given, and it isn't the main problem.
+    - text: confuses violent crime with crime in general
+      trap: not_present
+      why: No distinction between kinds of crime is drawn.
+    - text: relies on the testimony of police officials
+      trap: not_present
+      why: No testimony is cited.
+  tldr: Crime may drive police hiring, rather than police driving crime.
+  steps:
+    - label: Claim
+      body: More police → more crime.
+    - label: Alternative
+      body: More crime → more police explains the same pattern.
+  takeaway: When a correlation is offered as cause, always test the reverse direction.
+
+- id: lsat-lr-0134
+  type: flaw
+  kps: [kp-lsat-flaw-circular]
+  difficulty: 2
+  stimulus: >-
+    We can trust this encyclopedia's account of the war, because the encyclopedia is
+    reliable. And we know it is reliable because its accounts, including this one,
+    are accurate.
+  prompt: Which one of the following most accurately describes a flaw in the argument?
+  options:
+    - text: It uses the accuracy of the very account in question as evidence that the account can be trusted.
+      correct: true
+      why: Reliability is supported by the account's accuracy, which is what the argument set out to show.
+    - text: It relies on an encyclopedia written by people who were not historians.
+      trap: unsupported
+      why: Nothing is said about the authors.
+    - text: It assumes that what is true of one encyclopedia is true of all of them.
+      trap: not_present
+      why: Only this encyclopedia is discussed.
+    - text: It confuses the accuracy of an account with its completeness.
+      trap: not_present
+      why: Completeness never comes up.
+    - text: It concludes that the account is accurate because no one has disproved it.
+      trap: not_present
+      why: The argument offers a circular reason, not a lack of disproof.
+  tldr: Trusting the account because it's accurate, to prove it's accurate, is circular.
+  steps:
+    - label: Trace
+      body: Account trustworthy ← encyclopedia reliable ← its accounts, including this one, are accurate.
+    - label: Notice
+      body: The last link assumes the conclusion.
+  takeaway: Watch for support that quietly includes the very claim being argued for.
+
+- id: lsat-lr-0135
+  type: flaw
+  kps: [kp-lsat-flaw-absence]
+  difficulty: 1
+  stimulus: >-
+    The defense has not proven that the defendant was somewhere else at the time of
+    the robbery. Therefore, the defendant must have been at the scene.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: treats the failure to prove a claim as proof that the opposite claim is true
+      correct: true
+      why: An unproven alibi doesn't place the defendant at the scene.
+    - text: assumes that the defense attorney is incompetent
+      trap: not_present
+      why: The attorney's skill isn't discussed.
+    - text: relies on eyewitness testimony
+      trap: not_present
+      why: No testimony is mentioned.
+    - text: confuses the time of the robbery with its location
+      trap: not_present
+      why: That confusion doesn't occur.
+    - text: overlooks the possibility that the robbery never took place
+      trap: true_irrelevant
+      why: Even granting the robbery happened, the inference still fails.
+  tldr: '"No alibi" isn''t "proof of presence."'
+  steps:
+    - label: Premise
+      body: No proof the defendant was elsewhere.
+    - label: Flaw
+      body: The conclusion needs positive evidence of presence.
+  takeaway: Lack of evidence against a claim is not evidence for it.
+
+- id: lsat-lr-0136
+  type: flaw
+  kps: [kp-lsat-flaw-possible-certain]
+  difficulty: 3
+  stimulus: >-
+    Housing experts predict that home prices in Millport will rise over the coming
+    year. Therefore, anyone who buys a house in Millport this year will be able to
+    sell it next year for more than they paid.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: treats a prediction about prices in general as guaranteeing the outcome of every individual purchase
+      correct: true
+      why: A predicted overall rise is uncertain and can't ensure that each house gains value.
+    - text: relies on experts whose predictions concern a matter outside their expertise
+      trap: wrong_viewpoint
+      why: Housing experts predicting housing prices are within their field.
+    - text: assumes that home prices in Millport have risen in the past
+      trap: not_present
+      why: Past prices aren't mentioned.
+    - text: fails to consider that some people buy houses to live in rather than to sell
+      trap: true_irrelevant
+      why: The conclusion concerns whether buyers could sell at a profit, not whether they want to.
+    - text: confuses a cause of rising prices with an effect of them
+      trap: not_present
+      why: No causal claim is made.
+  tldr: A forecast for the market can't guarantee a profit on every house.
+  steps:
+    - label: Evidence
+      body: A prediction about overall prices.
+    - label: Two leaps
+      body: From predicted to certain, and from the market as a whole to every single house.
+  takeaway: Watch for conclusions that turn a general, uncertain trend into a guarantee for each case.
+
+- id: lsat-lr-0137
+  type: flaw
+  kps: [kp-lsat-flaw-straw-man]
+  difficulty: 1
+  stimulus: >-
+    My opponent says the school district should reduce its budget by two percent.
+    But I will never support a plan that leaves our children without teachers or
+    textbooks.
+  prompt: The reasoning above is most vulnerable to criticism on the grounds that it
+  options:
+    - text: responds to a far more drastic proposal than the one the opponent actually made
+      correct: true
+      why: A two percent cut is not a plan to eliminate teachers and textbooks.
+    - text: assumes that teachers and textbooks are the district's only expenses
+      trap: not_present
+      why: The speaker doesn't make that assumption explicitly; the flaw is the distortion.
+    - text: relies on an emotional appeal to parents' concern for their children
+      trap: half_right
+      why: The emotion rides on a distorted version of the proposal, which is the real flaw.
+    - text: fails to state how much the budget should be
+      trap: true_irrelevant
+      why: The speaker needn't propose an alternative to be criticized for distortion.
+    - text: attacks the opponent's character
+      trap: not_present
+      why: The speaker attacks a position, though a misstated one.
+  tldr: A small cut is recast as a catastrophic one. That's a straw man.
+  steps:
+    - label: Actual proposal
+      body: Cut the budget by 2%.
+    - label: Response
+      body: Rejects a plan that would eliminate teachers and textbooks, which no one proposed.
+  takeaway: Compare the view being rebutted with the view actually stated.
+
+- id: lsat-lr-0138
+  type: flaw
+  kps: [kp-lsat-quantifiers]
+  difficulty: 3
+  stimulus: >-
+    Most professional chess players began playing chess before the age of ten. So
+    most people who begin playing chess before the age of ten go on to become
+    professional chess players.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: infers that most members of one group belong to a second group from the fact that most of the second group belong to the first
+      correct: true
+      why: Most professionals started early, but millions start early and very few become professionals.
+    - text: relies on a sample of chess players that is too small
+      trap: unsupported
+      why: The sample size isn't given, and the error is in the logic.
+    - text: assumes that starting chess early causes a player to become a professional
+      trap: half_right
+      why: The conclusion isn't causal; it reverses a "most" statement.
+    - text: fails to define what counts as a professional chess player
+      trap: true_irrelevant
+      why: A precise definition wouldn't fix the reversal.
+    - text: presumes that skill at chess is innate
+      trap: not_present
+      why: Innate skill isn't discussed.
+  tldr: '"Most pros started young" doesn''t mean "most who start young become pros."'
+  steps:
+    - label: Premise
+      body: Most of group P (pros) are in group Q (early starters).
+    - label: Conclusion
+      body: Most of Q are in P, a reversal that ignores how much bigger Q is.
+  takeaway: '"Most" statements don''t reverse. Compare the sizes of the two groups.'
+
+- id: lsat-lr-0139
+  type: flaw
+  kps: [kp-lsat-flaw-absence]
+  difficulty: 3
+  stimulus: >-
+    Every witness agrees that the robber was tall. But eyewitness testimony is
+    notoriously unreliable. So the robber was probably not tall.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: takes evidence that a claim is poorly supported as evidence that the claim is false
+      correct: true
+      why: Unreliable testimony weakens support for "tall" but gives no reason to think "not tall."
+    - text: assumes that all the witnesses saw the robber from the same distance
+      trap: not_present
+      why: Viewing conditions aren't discussed.
+    - text: relies on a generalization about testimony that is clearly false
+      trap: unsupported
+      why: The generalization may be true; the problem is what's inferred from it.
+    - text: fails to consider that the witnesses may have discussed the robbery with one another
+      trap: true_irrelevant
+      why: That would further weaken the testimony, but still wouldn't support "not tall."
+    - text: confuses the robber's height with the robber's identity
+      trap: not_present
+      why: Identity isn't discussed.
+  tldr: Weak evidence for "tall" isn't evidence for "not tall."
+  steps:
+    - label: Premises
+      body: Witnesses say tall; testimony is unreliable.
+    - label: Flaw
+      body: At most, we're left not knowing. Nothing points toward "not tall."
+  takeaway: Undermining support for a claim leaves it unsupported, not refuted.
+
+- id: lsat-lr-0140
+  type: flaw
+  kps: [kp-lsat-sampling]
+  difficulty: 3
+  stimulus: >-
+    The buildings that survive from ancient Rome are remarkably sturdy. Clearly,
+    Roman builders built sturdier buildings than modern builders do.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: overlooks the possibility that Rome's weaker buildings collapsed long ago, leaving only the sturdiest
+      correct: true
+      why: The survivors are a biased sample of Roman construction.
+    - text: assumes that modern buildings will last as long as Roman ones
+      trap: not_present
+      why: The argument makes no prediction about modern buildings.
+    - text: relies on the testimony of archaeologists
+      trap: not_present
+      why: No testimony is cited.
+    - text: confuses sturdiness with beauty
+      trap: not_present
+      why: Beauty isn't mentioned.
+    - text: fails to define what counts as a modern building
+      trap: true_irrelevant
+      why: A definition wouldn't fix the biased sample.
+  tldr: Only the sturdiest Roman buildings survived to be seen.
+  steps:
+    - label: Sample
+      body: Roman buildings that still stand.
+    - label: Flaw
+      body: Survival itself selects for sturdiness, so the sample isn't representative.
+  takeaway: Samples filtered by survival or success overstate how good the typical case was.
+
+- id: lsat-lr-0141
+  type: flaw
+  kps: [kp-lsat-part-whole]
+  difficulty: 2
+  stimulus: >-
+    The average household income in Brentwood is higher than the average household
+    income in Carlisle. So the Ito household, which is in Brentwood, has a higher
+    income than the Park household, which is in Carlisle.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: applies a comparison of group averages to particular members of the groups
+      correct: true
+      why: Averages leave plenty of room for a low-income Brentwood household and a high-income Carlisle one.
+    - text: assumes that income is the best measure of well-being
+      trap: out_of_scope
+      why: The conclusion concerns income only.
+    - text: relies on income figures that may be out of date
+      trap: unsupported
+      why: Nothing suggests the figures are outdated.
+    - text: overlooks the possibility that the two towns have different costs of living
+      trap: true_irrelevant
+      why: Costs of living don't affect which household earns more.
+    - text: generalizes from two households to two whole towns
+      trap: reversal
+      why: It runs the other way, from towns to households.
+  tldr: Higher town averages don't decide any particular comparison.
+  steps:
+    - label: Evidence
+      body: Group averages.
+    - label: Conclusion
+      body: A claim about two specific households, which averages can't settle.
+  takeaway: Averages describe groups. They don't fix where any individual falls.
+
+- id: lsat-lr-0142
+  type: flaw
+  kps: [kp-lsat-plan]
+  difficulty: 2
+  stimulus: >-
+    Building the new subway line will cause years of construction noise for the
+    residents of Elm District. Therefore, the city should not build the new subway
+    line.
+  prompt: The argument is most vulnerable to criticism on the grounds that it
+  options:
+    - text: rejects a proposal because of one drawback without considering whether its benefits outweigh it
+      correct: true
+      why: Faster commutes or less traffic might justify temporary noise; the argument never weighs them.
+    - text: assumes that the construction noise will be permanent
+      trap: contradicts
+      why: The argument itself says the noise will last years, not forever.
+    - text: relies on the complaints of a few residents
+      trap: not_present
+      why: No complaints are cited.
+    - text: fails to specify where the subway line will run
+      trap: true_irrelevant
+      why: The route isn't needed to see that the argument ignores benefits.
+    - text: confuses a cause of noise with an effect of noise
+      trap: not_present
+      why: No such confusion occurs.
+  tldr: One cost alone can't settle whether a project is worth doing.
+  steps:
+    - label: Evidence
+      body: One drawback, noise.
+    - label: Flaw
+      body: A should-not conclusion needs costs and benefits compared.
+  takeaway: Recommendations based on a single cost or benefit ignore the other side of the ledger.
+
+- id: lsat-lr-0143
+  type: flaw
+  kps: [kp-lsat-numbers-proportions]
+  difficulty: 3
+  stimulus: >-
+    Most of the car accidents in the county occur within five miles of the drivers'
+    homes. So driving near home is more dangerous than driving far from home.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: fails to consider that most driving may be done within five miles of home
+      correct: true
+      why: If most miles are driven near home, most accidents would occur there even if it's no riskier.
+    - text: assumes that accidents near home are less severe
+      trap: not_present
+      why: Severity isn't discussed.
+    - text: relies on accident reports that may be incomplete
+      trap: true_irrelevant
+      why: Complete reports wouldn't fix the missing comparison of driving amounts.
+    - text: presumes that all drivers in the county live in the county
+      trap: unsupported
+      why: Even if some don't, the argument's main gap remains.
+    - text: confuses the cause of an accident with its location
+      trap: not_present
+      why: Location is the focus, but causes aren't confused.
+  tldr: More accidents near home may just reflect more driving near home.
+  steps:
+    - label: Evidence
+      body: The share of accidents near home.
+    - label: Missing piece
+      body: The share of driving near home. Risk is accidents per mile, not total accidents.
+  takeaway: Counts of bad outcomes mean little without how often each situation occurs.
+
+- id: lsat-lr-0144
+  type: flaw
+  kps: [kp-lsat-rival-cause]
+  difficulty: 2
+  stimulus: >-
+    People who carry lighters are more likely than others to develop lung cancer.
+    So carrying a lighter increases a person's risk of lung cancer.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: overlooks the possibility that some other factor, such as smoking, explains both lighter carrying and lung cancer
+      correct: true
+      why: Smokers carry lighters and get lung cancer more often; the lighter itself needn't do anything.
+    - text: assumes that everyone who carries a lighter smokes
+      trap: distortion
+      why: The argument assumes nothing about smoking; that is the factor it ignores.
+    - text: relies on data from a single hospital
+      trap: unsupported
+      why: The data's source isn't mentioned.
+    - text: confuses lung cancer with other lung diseases
+      trap: not_present
+      why: No other disease is mentioned.
+    - text: presumes that cancer risk can be measured
+      trap: true_irrelevant
+      why: Measuring risk isn't the problem; interpreting the correlation is.
+  tldr: Smoking explains both the lighter and the cancer.
+  steps:
+    - label: Correlation
+      body: Lighter carriers get more lung cancer.
+    - label: Third factor
+      body: Smoking leads to both.
+  takeaway: Look for a common cause before accepting that one correlated factor causes the other.
+
+- id: lsat-lr-0145
+  type: flaw
+  kps: [kp-lsat-quantifiers]
+  difficulty: 3
+  stimulus: >-
+    Some members of the planning committee support the proposed zoning change. So
+    some members of the planning committee do not support it.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: takes for granted that if some members of a group have a property, not all of them do
+      correct: true
+      why: '"Some" means at least one. All the members might support the change.'
+    - text: assumes that the committee will vote on the proposal
+      trap: not_present
+      why: No vote is mentioned.
+    - text: relies on a sample of committee members that is unrepresentative
+      trap: not_present
+      why: No sample is involved.
+    - text: confuses supporting a proposal with voting for it
+      trap: not_present
+      why: Voting isn't mentioned.
+    - text: presumes that committee members always agree with one another
+      trap: contradicts
+      why: The conclusion claims some members disagree, the opposite of this.
+  tldr: '"Some" doesn''t rule out "all."'
+  steps:
+    - label: Premise
+      body: At least one member supports it.
+    - label: Flaw
+      body: That's compatible with every member supporting it, so "some don't" doesn't follow.
+  takeaway: In LSAT logic, "some" means "at least one, possibly all."
+
+- id: lsat-lr-0146
+  type: flaw
+  kps: [kp-lsat-flaw-authority]
+  difficulty: 3
+  stimulus: >-
+    Economists disagree about whether the proposed tax cut would increase economic
+    growth. So no one can know whether it would, and the government should ignore
+    economists' advice on the matter.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: infers from the fact that experts disagree that their views have no value at all
+      correct: true
+      why: Disagreeing experts can still narrow the range of plausible outcomes and inform the decision.
+    - text: relies on the opinion of a single economist
+      trap: not_present
+      why: The argument cites disagreement among many economists.
+    - text: assumes that the tax cut will pass
+      trap: not_present
+      why: Passage of the tax cut isn't discussed.
+    - text: confuses economic growth with employment
+      trap: not_present
+      why: Employment isn't mentioned.
+    - text: treats a claim about economists as a claim about economics
+      trap: distortion
+      why: The real leap is from disagreement to worthlessness.
+  tldr: Expert disagreement doesn't make expert advice worthless.
+  steps:
+    - label: Evidence
+      body: Economists disagree.
+    - label: Two leaps
+      body: That no one can know, and that their advice should be ignored entirely.
+  takeaway: Uncertainty calls for weighing expert views, not discarding them.
+
+- id: lsat-lr-0147
+  type: flaw
+  kps: [kp-lsat-numbers-proportions]
+  difficulty: 3
+  stimulus: >-
+    The chance that any particular ticket will win the state lottery is one in ten
+    million. So the person who won last week's lottery must have cheated.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: overlooks the fact that it was very likely some ticket would win, even though each ticket was unlikely to
+      correct: true
+      why: With millions of tickets sold, someone winning is expected; one person's win isn't suspicious by itself.
+    - text: assumes that all lottery tickets cost the same
+      trap: not_present
+      why: Ticket prices are irrelevant to the reasoning.
+    - text: relies on odds that are probably miscalculated
+      trap: unsupported
+      why: Nothing suggests the odds are wrong.
+    - text: confuses the lottery's legality with its fairness
+      trap: not_present
+      why: Neither legality nor fairness in that sense is discussed.
+    - text: presumes that the winner bought only one ticket
+      trap: true_irrelevant
+      why: Even a single ticket winning isn't evidence of cheating, given how many were sold.
+  tldr: Each ticket is a long shot, but some ticket winning is nearly certain.
+  steps:
+    - label: Evidence
+      body: Any one ticket has tiny odds.
+    - label: Flaw
+      body: That's true of every ticket, yet someone had to win, so the winner's luck proves nothing.
+  takeaway: An unlikely outcome for each case can still be a likely outcome for some case.
+
+- id: lsat-lr-0148
+  type: flaw
+  kps: [kp-lsat-flaw-consequences]
+  difficulty: 2
+  stimulus: >-
+    If people came to believe that free will is an illusion, many of them would
+    behave less responsibly. Therefore, free will is not an illusion.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: infers that a claim is false from the undesirable effects of believing it
+      correct: true
+      why: Whether free will exists doesn't depend on what believing in it would do to behavior.
+    - text: relies on the authority of philosophers who believe in free will
+      trap: not_present
+      why: No authority is cited.
+    - text: assumes that responsible behavior is always desirable
+      trap: true_irrelevant
+      why: Even granting that, bad consequences of a belief don't disprove it.
+    - text: confuses believing something with knowing it
+      trap: not_present
+      why: The argument doesn't turn on that distinction.
+    - text: generalizes from a few people to everyone
+      trap: not_present
+      why: The premise concerns "many" people, and the flaw lies elsewhere.
+  tldr: Bad consequences of believing something don't make it false.
+  steps:
+    - label: Premise
+      body: Believing X would have bad effects.
+    - label: Conclusion
+      body: X is false, which doesn't follow from effects on behavior.
+  takeaway: Truth doesn't bend to consequences. Watch for "it would be bad if true, so it's false."
+
+- id: lsat-lr-0149
+  type: flaw
+  kps: [kp-lsat-rival-cause]
+  difficulty: 3
+  stimulus: >-
+    Since the city opened an anonymous hotline for reporting workplace harassment,
+    reports of workplace harassment have doubled. Clearly, the hotline has made the
+    city's workplaces less safe.
+  prompt: The reasoning in the argument is flawed because the argument
+  options:
+    - text: overlooks the possibility that the hotline made existing harassment easier to report
+      correct: true
+      why: More reports may reflect more reporting, not more harassment.
+    - text: assumes that anonymous reports are always false
+      trap: not_present
+      why: The argument treats the reports as real; it misreads what their rise means.
+    - text: relies on too short a period of observation
+      trap: unsupported
+      why: The period isn't given, and length isn't the core issue.
+    - text: confuses workplace harassment with other workplace problems
+      trap: not_present
+      why: No other problem is mentioned.
+    - text: presumes that the hotline was expensive to operate
+      trap: out_of_scope
+      why: Cost isn't relevant to the conclusion.
+  tldr: Easier reporting, not more harassment, could explain the jump.
+  steps:
+    - label: Evidence
+      body: Reports doubled after the hotline opened.
+    - label: Rival explanation
+      body: The same harassment, now reported more often.
+  takeaway: A rise in reports can reflect a change in reporting rather than in what's being reported.
