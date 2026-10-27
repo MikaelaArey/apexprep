@@ -1,0 +1,836 @@
+# MCAT CARS: original social science passages for ApexPrep. Not official AAMC content.
+# The correct option is listed first; the build shuffles answer order.
+
+- passage:
+    id: mcat-cars-p07
+    title: Why we tip
+    domain: social sciences
+    paragraphs:
+      - >-
+        Tipping is an odd custom when examined closely. A diner pays the listed
+        price for a meal and then adds a sum that is nominally voluntary but
+        socially required, calculated as a percentage of the bill rather than of
+        the effort the server expended. Economists have long puzzled over why
+        customers tip at all, particularly in restaurants they will never visit
+        again, where no future service depends on their generosity.
+      - >-
+        The standard explanation is that tips function as a system of monitoring.
+        Because a manager cannot watch every table, the restaurant delegates the
+        evaluation of service to customers, who reward attentiveness and punish
+        neglect. On this account, tipping persists because it is efficient: it
+        aligns the server's incentives with the customer's satisfaction at almost
+        no cost to the employer.
+      - >-
+        The evidence fits this account poorly. Studies of restaurant bills find
+        that the size of a tip is only weakly related to customers' own ratings of
+        the service they received. Tips vary far more with the size of the party,
+        the weather, and the server's appearance and friendliness than with the
+        speed or accuracy of the service. If tips are a monitoring system, they are
+        a remarkably noisy one.
+      - >-
+        A better explanation may be that tipping is sustained less by calculation
+        than by norms. Customers tip because they feel they ought to, and because
+        failing to tip invites the disapproval of servers, companions and their own
+        consciences. This view has an uncomfortable implication. If tips reflect
+        customers' feelings and biases more than the quality of the work, then a
+        system defended as rewarding merit may in practice distribute income
+        according to factors that have little to do with merit at all.
+  items:
+    - id: mcat-cars-0031
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The author's primary purpose in the passage is to
+      options:
+        - text: challenge the view that tipping persists because it efficiently rewards good service, and propose that social norms explain it better.
+          correct: true
+          why: P3 undercuts the monitoring account, and P4 offers norms as the better explanation.
+        - text: argue that restaurants should abolish tipping.
+          trap: too_strong
+          why: The author explains tipping and notes an implication but never recommends abolishing it.
+        - text: explain how economists calculate the appropriate size of a tip.
+          trap: out_of_scope
+          why: The passage is about why people tip, not how much they should.
+        - text: defend tipping as an efficient way to monitor servers.
+          trap: wrong_viewpoint
+          why: That is the standard explanation, which the author argues fits the evidence poorly.
+      tldr: The evidence undercuts tipping-as-monitoring; norms explain it better.
+      steps:
+        - label: Map
+          body: P1 puzzle. P2 the monitoring account. P3 evidence against it. P4 norms and an implication.
+        - label: Purpose
+          body: To replace one explanation with another.
+      takeaway: When a passage presents a standard view and then evidence against it, the purpose is usually to challenge it.
+
+    - id: mcat-cars-0032
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the monitoring explanation, tipping benefits employers by
+      options:
+        - text: letting customers evaluate service that managers cannot observe themselves.
+          correct: true
+          why: P2 says the restaurant delegates evaluation to customers because managers can't watch every table.
+        - text: allowing them to pay servers lower wages.
+          trap: unsupported
+          why: Wages aren't mentioned in the passage.
+        - text: encouraging customers to return to the restaurant.
+          trap: distortion
+          why: The puzzle is precisely that people tip where they'll never return.
+        - text: making menu prices appear lower than they are.
+          trap: not_present
+          why: The passage doesn't discuss how prices appear.
+      tldr: Customers do the monitoring that managers can't.
+      steps:
+        - label: Locate
+          body: '"Because a manager cannot watch every table, the restaurant delegates the evaluation of service to customers."'
+        - label: Match
+          body: Delegated evaluation is the benefit.
+      takeaway: For questions about a view, stay inside the paragraph that presents it.
+
+    - id: mcat-cars-0033
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author mentions party size, the weather and the server's appearance (paragraph 3) in order to
+      options:
+        - text: show that tips depend heavily on factors unrelated to the quality of service.
+          correct: true
+          why: These factors predict tips better than service does, which is the evidence against the monitoring account.
+        - text: suggest ways servers can earn larger tips.
+          trap: distortion
+          why: The point is about what tips measure, not advice to servers.
+        - text: explain why customers tip in restaurants they won't visit again.
+          trap: not_present
+          why: These factors don't address that puzzle.
+        - text: support the monitoring explanation of tipping.
+          trap: wrong_direction
+          why: They count against it.
+      tldr: Tips track things that have nothing to do with service quality.
+      steps:
+        - label: Context
+          body: The sentence follows "The evidence fits this account poorly."
+        - label: Role
+          body: The factors are that evidence.
+      takeaway: Lists right after "the evidence fits poorly" are the evidence.
+
+    - id: mcat-cars-0034
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: Which of the following findings would most support the explanation proposed in paragraph 4?
+      options:
+        - text: Customers tip about the same percentage whether they rate the service excellent or mediocre, but tip less when they dine alone.
+          correct: true
+          why: Tips that ignore quality but respond to having observers fit tipping driven by norms and disapproval.
+        - text: Customers tip more when their food arrives quickly.
+          trap: wrong_direction
+          why: That supports the monitoring account instead.
+        - text: Managers who watch servers closely receive fewer complaints.
+          trap: out_of_scope
+          why: Complaints to managers don't bear on why customers tip.
+        - text: Servers prefer tips to fixed wages.
+          trap: out_of_scope
+          why: Servers' preferences don't explain customers' behavior.
+      tldr: Tips that track observers rather than quality point to norms.
+      steps:
+        - label: The view
+          body: People tip because they feel they should and fear disapproval.
+        - label: Match
+          body: Less tipping when no companion is watching, and no link to quality.
+      takeaway: To support an explanation, find evidence it predicts and its rival doesn't.
+
+    - id: mcat-cars-0035
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The "uncomfortable implication" mentioned in paragraph 4 is that tipping
+      options:
+        - text: may reward servers for traits unrelated to the quality of their work.
+          correct: true
+          why: If tips reflect feelings and biases, income follows factors other than merit.
+        - text: will soon disappear as customers lose interest in it.
+          trap: unsupported
+          why: The passage predicts nothing about tipping disappearing.
+        - text: forces restaurants to raise their menu prices.
+          trap: not_present
+          why: Menu prices aren't discussed.
+        - text: makes servers provide worse service.
+          trap: unsupported
+          why: The passage doesn't claim service gets worse.
+      tldr: A system defended as merit-based may pay for looks and luck.
+      steps:
+        - label: Locate
+          body: The sentence after "This view has an uncomfortable implication."
+        - label: Paraphrase
+          body: Income may depend on factors that have little to do with merit.
+      takeaway: When the passage names an implication, the next sentence usually spells it out.
+
+- passage:
+    id: mcat-cars-p08
+    title: Eyes on the street
+    domain: social sciences
+    paragraphs:
+      - >-
+        The planners who rebuilt many cities in the mid-twentieth century believed
+        that safety came from order. Streets would be wide, buildings set back
+        behind lawns, and homes separated from shops and offices so that each part
+        of the city could do its job undisturbed. The result, in many
+        neighborhoods, was streets that were tidy, quiet and, for long stretches of
+        the day, empty.
+      - >-
+        Empty streets turned out to be dangerous streets. A sidewalk is safe, one
+        influential critic argued, not because police patrol it but because people
+        use it: shopkeepers standing in their doorways, residents glancing out of
+        their windows, children playing, neighbors walking to the corner store.
+        These "eyes on the street" belong to people who are not paid to watch and
+        are not watching on purpose, yet together they create a kind of informal
+        surveillance that deters crime and reassures strangers.
+      - >-
+        The idea has been enormously influential, but it is sometimes
+        misunderstood. It does not claim that any crowd makes a street safe, or
+        that density alone produces vigilance. The eyes in question belong to
+        people with some stake in the street, who know which faces are familiar and
+        who will intervene, or at least call for help, when something goes wrong. A
+        busy highway interchange draws thousands of people a day, yet no one there
+        is watching the street in this sense.
+      - >-
+        Nor does the idea imply that informal surveillance is always benign. The
+        same neighbors who notice a stranger in trouble may also notice, and
+        resent, a stranger who looks different from them. The vigilance that
+        protects can also exclude. Those who would revive lively streets must
+        therefore attend not only to how many eyes are on the street but to whose
+        eyes they are and what they are looking for.
+  items:
+    - id: mcat-cars-0036
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Streets are made safer by the informal watchfulness of people with a stake in them, though that watchfulness can also exclude outsiders.
+          correct: true
+          why: This joins the idea (P2), its correct reading (P3) and its caveat (P4).
+        - text: Mid-century planners made cities safer by bringing order to their streets.
+          trap: contradicts
+          why: The author says their orderly streets were empty and dangerous.
+        - text: Any street with enough people on it will be safe.
+          trap: contradicts
+          why: P3 says density alone doesn't produce vigilance.
+        - text: Police patrols are the most effective way to keep sidewalks safe.
+          trap: contradicts
+          why: The critic credits ordinary users, not police.
+      tldr: Watchful people with a stake keep streets safe, but their watchfulness can exclude.
+      steps:
+        - label: Map
+          body: P1 empty planned streets. P2 eyes on the street. P3 what the idea does and doesn't claim. P4 its dark side.
+        - label: Main idea
+          body: The idea plus its qualification.
+      takeaway: Main-idea answers should keep the author's qualifications.
+
+    - id: mcat-cars-0037
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author mentions a busy highway interchange in order to
+      options:
+        - text: show that large numbers of people do not by themselves produce the watchfulness that keeps a street safe.
+          correct: true
+          why: Thousands pass through, but no one there has a stake in watching.
+        - text: argue that highways are more dangerous than city sidewalks.
+          trap: unsupported
+          why: The passage compares kinds of watching, not danger levels.
+        - text: suggest that cities should build fewer highways.
+          trap: not_present
+          why: No recommendation about highways is made.
+        - text: give an example of eyes on the street.
+          trap: contradicts
+          why: >-
+            It is the opposite: crowds without eyes on the street.
+      tldr: Crowds aren't the same as watchful eyes.
+      steps:
+        - label: Context
+          body: '"It does not claim that any crowd makes a street safe..."'
+        - label: Role
+          body: The interchange is the counterexample of a crowd with no watchers.
+      takeaway: An example that follows "it does not claim" usually shows what the idea excludes.
+
+    - id: mcat-cars-0038
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: The critic described in paragraph 2 would most likely regard which of the following as contributing to a street's safety?
+      options:
+        - text: A café owner who knows her regular customers and keeps an eye on the sidewalk while she works
+          correct: true
+          why: She is an unpaid, familiar presence with a stake in the street.
+        - text: A security camera monitored from an office across town
+          trap: distortion
+          why: The critic's eyes belong to people using the street, not distant monitors.
+        - text: A large crowd of tourists passing through quickly
+          trap: contradicts
+          why: People passing through have no stake and aren't watching in this sense.
+        - text: A tall fence separating homes from the sidewalk
+          trap: contradicts
+          why: Separating homes from the street removes eyes from it.
+      tldr: An engaged local with a view of the sidewalk is the model.
+      steps:
+        - label: The ideal
+          body: People who use the street, know familiar faces and would act.
+        - label: Match
+          body: The café owner fits every feature.
+      takeaway: Apply a concept by checking each of its defining features.
+
+    - id: mcat-cars-0039
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: The passage suggests that the mid-century planners erred mainly in
+      options:
+        - text: separating the city's uses in ways that left streets without the people whose presence makes them safe.
+          correct: true
+          why: Separated uses produced empty streets, and empty streets proved dangerous.
+        - text: building too few police stations.
+          trap: not_present
+          why: Police stations are never mentioned.
+        - text: making streets too narrow for traffic.
+          trap: contradicts
+          why: The planners made streets wide.
+        - text: failing to build enough housing.
+          trap: not_present
+          why: The amount of housing isn't discussed.
+      tldr: Separation emptied the streets of watchers.
+      steps:
+        - label: Chain
+          body: Separation of uses led to empty streets, and empty streets proved dangerous.
+        - label: Infer
+          body: The error was emptying the street.
+      takeaway: Trace cause and effect across paragraphs to find the inference.
+
+    - id: mcat-cars-0040
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward informal surveillance is best described as
+      options:
+        - text: appreciative of its protective value but alert to its potential to exclude.
+          correct: true
+          why: The author endorses its benefits (P2–P3) and warns that it can exclude (P4).
+        - text: wholly enthusiastic.
+          trap: too_strong
+          why: P4 is a warning.
+        - text: deeply hostile.
+          trap: too_strong
+          why: The author accepts that it deters crime and reassures strangers.
+        - text: indifferent.
+          trap: contradicts
+          why: The author evaluates it on both sides.
+      tldr: It protects, but it can exclude.
+      steps:
+        - label: Evidence
+          body: '"The vigilance that protects can also exclude."'
+        - label: Attitude
+          body: >-
+            Mixed: appreciative with a caution.
+      takeaway: A paragraph beginning "Nor does the idea imply..." usually adds a qualification to the author's stance.
+
+- passage:
+    id: mcat-cars-p09
+    title: Counting the people
+    domain: social sciences
+    paragraphs:
+      - >-
+        A modern census asks every household a short list of questions and
+        returns, years later, as tables: so many people of this age, so many in
+        that occupation, so many in each district. The tables seem to describe the
+        population as it simply is. But the categories that organize them were not
+        discovered in nature; they were invented, argued over and revised, and each
+        revision changed what the state could see.
+      - >-
+        Early censuses were often designed for narrow purposes, such as counting
+        men who could be taxed or conscripted, and they recorded little else. As
+        states took on new responsibilities for public health, education and
+        welfare, they began to ask new questions about occupation, literacy,
+        housing and disease. Each new category made a previously invisible group
+        visible to administrators, and visibility had consequences. A government
+        that could count the unemployed could design programs for them; it could
+        also be blamed for their number.
+      - >-
+        Categories also shaped the people they described. When a census offered a
+        fixed list of occupations or ethnic labels, respondents had to fit
+        themselves into it, and over time some came to identify with the labels
+        they had been given. Administrative convenience, in other words, could
+        harden into social identity. Groups that had once been fluid or overlapping
+        acquired sharp boundaries simply because the forms required a single
+        answer.
+      - >-
+        None of this means that census figures are fictions. They are among the
+        most valuable records a society keeps. But they are best read as the
+        products of particular choices, made by particular people for particular
+        ends. To read a census table well is to ask not only what it shows but what
+        its makers wanted to know, and what they were content to leave unseen.
+  items:
+    - id: mcat-cars-0041
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The central thesis of the passage is that
+      options:
+        - text: census categories are human choices that shape what states see and how people identify, so census figures should be read with their makers' purposes in mind.
+          correct: true
+          why: It joins the claims of P1–P3 to the reading advice in P4.
+        - text: census figures are fictions that should not be trusted.
+          trap: contradicts
+          why: P4 says census figures are not fictions and are very valuable.
+        - text: early censuses were more accurate than modern ones.
+          trap: not_present
+          why: The passage never compares accuracy across eras.
+        - text: governments should stop asking people about their ethnicity.
+          trap: too_strong
+          why: The author describes effects of categories but makes no such recommendation.
+      tldr: Census categories are choices with consequences, so read tables with their makers' aims in mind.
+      steps:
+        - label: Map
+          body: P1 categories are invented. P2 they shape what states see. P3 they shape identities. P4 how to read census tables.
+        - label: Thesis
+          body: The common thread plus the reading advice.
+      takeaway: Watch for an author's "None of this means..." paragraph; it often sets the limits of the thesis.
+
+    - id: mcat-cars-0042
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: Based on paragraph 2, a government that began counting people with a particular chronic disease would most likely
+      options:
+        - text: become better able to design programs for them, while also becoming more open to blame for their number.
+          correct: true
+          why: P2 says visibility lets a government design programs and exposes it to blame.
+        - text: reduce the number of people with the disease.
+          trap: unsupported
+          why: Counting doesn't by itself reduce the number.
+        - text: stop counting men eligible for military service.
+          trap: not_present
+          why: New categories were added, not traded for old ones.
+        - text: make the disease less visible to administrators.
+          trap: contradicts
+          why: Counting makes the group more visible.
+      tldr: Being counted brings both programs and accountability.
+      steps:
+        - label: Principle
+          body: A newly counted group becomes visible, with consequences both ways.
+        - label: Apply
+          body: Programs become possible, and blame becomes possible.
+      takeaway: Apply a passage's general claim to the new case without adding outcomes it doesn't predict.
+
+    - id: mcat-cars-0043
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The statement that "administrative convenience... could harden into social identity" serves mainly to
+      options:
+        - text: summarize how fixed census categories could come to shape how people saw themselves.
+          correct: true
+          why: It restates the paragraph's point in general terms, introduced by "in other words."
+        - text: argue that census takers deliberately manipulated respondents.
+          trap: too_strong
+          why: The passage describes an effect of forms, not deliberate manipulation.
+        - text: explain why early censuses counted only men.
+          trap: not_present
+          why: That explanation belongs to paragraph 2.
+        - text: concede that census categories reflect natural groups.
+          trap: contradicts
+          why: The author says categories were invented, not discovered.
+      tldr: The sentence sums up how forms shaped identities.
+      steps:
+        - label: Signal
+          body: '"In other words" introduces a restatement.'
+        - label: Role
+          body: It generalizes the claim that respondents came to identify with given labels.
+      takeaway: '"In other words" marks a summary; its function is to restate.'
+
+    - id: mcat-cars-0044
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: The author would most likely advise a researcher using a nineteenth-century census table to
+      options:
+        - text: consider what the census's designers wanted to learn and what they chose not to record.
+          correct: true
+          why: >-
+            That is the closing advice: ask what the makers wanted to know and left unseen.
+        - text: avoid using census figures altogether.
+          trap: contradicts
+          why: The author calls census figures among the most valuable records.
+        - text: assume that its categories describe natural groups.
+          trap: contradicts
+          why: The author says the categories were invented.
+        - text: rely only on the most recent census available.
+          trap: not_present
+          why: The passage doesn't rank censuses by date.
+      tldr: Read a table with its makers' purposes and blind spots in mind.
+      steps:
+        - label: Locate
+          body: The last sentence of the passage.
+        - label: Match
+          body: Ask what the makers wanted to know and what they left unseen.
+      takeaway: Advice questions are usually answered by the author's final recommendation.
+
+    - id: mcat-cars-0045
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which of the following findings, if true, would most challenge the claim made in paragraph 3?
+      options:
+        - text: Where censuses used fixed ethnic labels, the ways people described themselves in private letters and diaries showed no shift toward those labels over the following decades.
+          correct: true
+          why: P3 claims people came to identify with census labels; unchanged private self-descriptions cut against that.
+        - text: Census forms have grown longer over the past century.
+          trap: out_of_scope
+          why: Form length doesn't bear on whether labels shaped identity.
+        - text: Some census categories were revised after public complaints.
+          trap: true_irrelevant
+          why: That fits P1's claim that categories were argued over and doesn't undercut P3.
+        - text: Governments used census data to plan new schools.
+          trap: true_irrelevant
+          why: That supports P2, not a challenge to P3.
+      tldr: If private self-descriptions never shifted toward the labels, the labels didn't shape identity.
+      steps:
+        - label: The claim
+          body: Fixed labels hardened into social identity.
+        - label: Undercut it
+          body: Evidence that people's own self-descriptions didn't change.
+      takeaway: To challenge a claim about change, find evidence that the change didn't happen.
+
+- passage:
+    id: mcat-cars-p10
+    title: The pot that goes around
+    domain: social sciences
+    paragraphs:
+      - >-
+        In many parts of the world, groups of friends, coworkers or neighbors form
+        what economists call rotating savings and credit associations. Each member
+        contributes a fixed sum at regular meetings, and each time the whole pot
+        goes to one member, until everyone has received it once. The arrangement is
+        simple, and to an outside observer it can seem puzzling. Members who receive
+        the pot late in the cycle would have done as well, or better, saving the
+        money on their own or depositing it in a bank, where it would earn
+        interest.
+      - >-
+        One explanation is that the associations serve people without access to
+        banks. For those excluded from formal credit, receiving the pot early is
+        like getting an interest-free loan, and even those who receive it late get
+        something they could not easily produce alone: a lump sum large enough to
+        buy a sewing machine, pay school fees or fix a roof. This is surely part of
+        the story. But such associations flourish even among people who have bank
+        accounts, and they persist in cities where banks are plentiful.
+      - >-
+        A second explanation looks to the difficulty of saving. Money kept at home
+        is easily spent, on one's own wants or on the requests of relatives who
+        know it is there. A commitment to the group turns saving from a private
+        intention into a public obligation, enforced by the members' knowledge of
+        one another and by the shame of failing to pay. The association's apparent
+        inefficiency is, on this view, its point: members pay a small price in lost
+        interest to buy a discipline they could not otherwise achieve.
+      - >-
+        Neither account captures what members themselves often emphasize, which is
+        the meeting. The regular gathering is a place to exchange news, find work
+        and reaffirm ties of trust. An association is therefore not only a
+        financial device but also a social institution, and its value to members
+        cannot be read off its interest rate.
+  items:
+    - id: mcat-cars-0046
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Rotating savings associations offer lump sums, a way to commit to saving and valued social ties, benefits that their apparent financial inefficiency hides.
+          correct: true
+          why: Each paragraph adds one reason the associations make sense despite lost interest.
+        - text: Rotating savings associations are irrational and will disappear as banks spread.
+          trap: contradicts
+          why: The author explains why they persist even where banks are plentiful.
+        - text: Rotating associations exist mainly because their members lack bank accounts.
+          trap: too_narrow
+          why: The author calls that "part of the story" and adds two more explanations.
+        - text: Members of rotating associations earn more than people who save in banks.
+          trap: contradicts
+          why: Members give up interest; the benefits are of other kinds.
+      tldr: The associations pay off in ways an interest rate can't measure.
+      steps:
+        - label: Map
+          body: P1 the puzzle. P2 access. P3 commitment. P4 the social meeting.
+        - label: Main idea
+          body: Several real benefits behind an apparently inefficient arrangement.
+      takeaway: When a passage lists several explanations, the main idea usually gathers them.
+
+    - id: mcat-cars-0047
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author notes that the associations "persist in cities where banks are plentiful" in order to
+      options:
+        - text: show that a lack of access to banks cannot be the whole explanation for them.
+          correct: true
+          why: It follows "This is surely part of the story. But..." and limits the first explanation.
+        - text: argue that banks should offer similar savings products.
+          trap: not_present
+          why: The passage makes no recommendation to banks.
+        - text: suggest that banks in those cities are unreliable.
+          trap: unsupported
+          why: Nothing is said about the banks' reliability.
+        - text: support the claim that the associations serve people without banks.
+          trap: wrong_direction
+          why: It limits that claim.
+      tldr: The associations thrive even where banks exist, so access isn't everything.
+      steps:
+        - label: Signal
+          body: '"This is surely part of the story. But..."'
+        - label: Role
+          body: A limit on the first explanation.
+      takeaway: '"Part of the story, but..." means the next detail limits the explanation just given.'
+
+    - id: mcat-cars-0048
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: According to the second explanation, the association's "apparent inefficiency" benefits members because
+      options:
+        - text: giving up some interest buys a commitment that makes saving more likely.
+          correct: true
+          why: P3 says members pay a small price in lost interest to buy discipline they couldn't otherwise achieve.
+        - text: the lost interest is redistributed to the poorest members.
+          trap: unsupported
+          why: The passage says nothing about redistributing interest.
+        - text: relatives never learn that members are saving.
+          trap: distortion
+          why: P3 says relatives know about money kept at home; the association turns saving into a public obligation.
+        - text: the pot grows faster than a bank account would.
+          trap: contradicts
+          why: The pot earns no interest.
+      tldr: Lost interest is the price of a commitment to save.
+      steps:
+        - label: Locate
+          body: The last sentence of P3.
+        - label: Paraphrase
+          body: Members trade interest for discipline.
+      takeaway: Phrases in quotation marks in the question are usually explained in the same paragraph.
+
+    - id: mcat-cars-0049
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: Which of the following best exemplifies the "public obligation" described in paragraph 3?
+      options:
+        - text: A gym member who exercises regularly because a friend expects to meet her at the gym every morning
+          correct: true
+          why: Her private goal is enforced by someone else's expectations, like the members' obligation to the group.
+        - text: A worker whose employer automatically deposits part of his pay into savings
+          trap: different_structure
+          why: That commitment is automatic, not enforced by other people's knowledge.
+        - text: A student who keeps her savings in a jar at home
+          trap: different_structure
+          why: That is private saving, the arrangement the association replaces.
+        - text: A shopper who buys a sofa on credit
+          trap: out_of_scope
+          why: Borrowing on credit involves no social obligation to save.
+      tldr: A goal enforced by others' expectations is a public obligation.
+      steps:
+        - label: Abstract
+          body: A private intention turned into an obligation that others enforce.
+        - label: Match
+          body: The friend waiting at the gym enforces the commitment.
+      takeaway: Abstract the passage's concept before comparing it with the answer choices.
+
+    - id: mcat-cars-0050
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: The author would most likely say that an economist who judged rotating associations only by the interest their members forgo would
+      options:
+        - text: overlook benefits that members value.
+          correct: true
+          why: The author says the associations' value "cannot be read off its interest rate."
+        - text: correctly identify why the associations persist.
+          trap: contradicts
+          why: The lost-interest view is the puzzle the author sets out to resolve.
+        - text: prove that the associations harm their members.
+          trap: too_strong
+          why: The author argues the opposite.
+        - text: show that the associations are more efficient than banks.
+          trap: contradicts
+          why: Judged by interest alone, they look less efficient.
+      tldr: Interest alone misses what members get.
+      steps:
+        - label: Locate
+          body: '"Its value to members cannot be read off its interest rate."'
+        - label: Infer
+          body: An interest-only judgment would miss that value.
+      takeaway: The passage's final sentence often answers "what would the author say about X?" questions.
+
+- passage:
+    id: mcat-cars-p11
+    title: Inventing the weekend
+    domain: social sciences
+    paragraphs:
+      - >-
+        The weekend seems like a natural feature of the calendar, but it is a
+        recent and hard-won invention. In much of the industrializing world in the
+        nineteenth century, factory workers labored six days a week, often for
+        twelve hours a day or more, with Sunday reserved for church and rest. The
+        idea that workers were entitled to a second free day would have struck many
+        employers as absurd.
+      - >-
+        The free Saturday arrived in pieces. In some English industrial towns,
+        workers had long taken an unofficial day off on Monday, known with grim
+        humor as "Saint Monday," recovering from Sunday or simply refusing to
+        return. Employers, frustrated by the absences, began to offer a deal: a
+        half-day off on Saturday in exchange for reliable attendance on Monday.
+        Meanwhile, labor unions campaigned for shorter hours, and religious groups,
+        some of which observed a Saturday Sabbath, lent their support for their own
+        reasons.
+      - >-
+        What finally made the full two-day weekend standard was less a single
+        victory than a convergence of interests. Unions wanted leisure; some
+        industrialists came to believe that rested workers were more productive;
+        and a growing consumer economy needed people with free time in which to
+        shop, travel and attend entertainments. By the middle of the twentieth
+        century, the five-day week had become the norm in much of the
+        industrialized world.
+      - >-
+        Seeing the weekend as an invention has a practical consequence.
+        Arrangements that were negotiated can be renegotiated. As work spreads into
+        evenings and weekends through phones and on-demand jobs, boundaries that
+        once seemed fixed are blurring again. Whether the weekend survives may
+        depend, as its creation did, on whether the interests of workers and
+        employers can again be brought together.
+  items:
+    - id: mcat-cars-0051
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The passage is primarily concerned with
+      options:
+        - text: showing that the weekend arose from a gradual convergence of different groups' interests, and could be lost if those interests diverge.
+          correct: true
+          why: P2–P3 trace the convergence, and P4 draws the lesson for the weekend's future.
+        - text: arguing that labor unions alone won the weekend through strikes.
+          trap: too_narrow
+          why: Unions were one of several groups whose interests converged.
+        - text: explaining why the weekend is a natural feature of the calendar.
+          trap: contradicts
+          why: The author says it only seems natural.
+        - text: proving that religious groups invented the weekend.
+          trap: too_narrow
+          why: Religious groups lent support "for their own reasons," as one force among several.
+      tldr: The weekend was negotiated into existence, and it can be negotiated away.
+      steps:
+        - label: Map
+          body: P1 it's recent. P2 piecemeal origins. P3 convergence of interests. P4 its future is open.
+        - label: Main idea
+          body: Invention by convergence, with a warning.
+      takeaway: Main-idea answers that credit one cause are wrong when the passage stresses several.
+
+    - id: mcat-cars-0052
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author discusses "Saint Monday" primarily in order to
+      options:
+        - text: illustrate one of the pressures that led employers to offer time off on Saturday.
+          correct: true
+          why: Frustrated by Monday absences, employers traded a Saturday half-day for attendance on Monday.
+        - text: show that nineteenth-century workers were lazy.
+          trap: distortion
+          why: The author presents Saint Monday as a form of leverage, not a judgment of workers.
+        - text: explain the religious origins of Sunday rest.
+          trap: not_present
+          why: Saint Monday was unofficial and not religious.
+        - text: argue that Monday should become a holiday again.
+          trap: not_present
+          why: No such proposal appears.
+      tldr: Monday absences pushed employers toward a Saturday half-day.
+      steps:
+        - label: Context
+          body: '"The free Saturday arrived in pieces."'
+        - label: Role
+          body: Saint Monday is one of those pieces.
+      takeaway: A detail in a paragraph about causes is usually one of the causes.
+
+    - id: mcat-cars-0053
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: It can be inferred from the passage that some employers came to accept a shorter work week partly because they
+      options:
+        - text: believed rested workers would be more productive.
+          correct: true
+          why: P3 says some industrialists came to believe this.
+        - text: feared that unions would take over their factories.
+          trap: unsupported
+          why: The passage mentions no such fear.
+        - text: themselves observed a Saturday Sabbath.
+          trap: distortion
+          why: The Saturday Sabbath belongs to religious groups, not employers.
+        - text: wanted to reduce the number of goods produced.
+          trap: contradicts
+          why: The interest described is higher productivity.
+      tldr: Some industrialists thought rested workers produced more.
+      steps:
+        - label: Locate
+          body: '"Some industrialists came to believe that rested workers were more productive."'
+        - label: Match
+          body: Productivity was their reason.
+      takeaway: Keep each group's motive attached to that group.
+
+    - id: mcat-cars-0054
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following developments would the author most likely regard as a threat to the weekend?
+      options:
+        - text: Employers increasingly expecting staff to answer work messages on Saturdays and Sundays
+          correct: true
+          why: The author warns that work spreading into weekends through phones is blurring its boundaries.
+        - text: A government declaring a new national holiday
+          trap: wrong_direction
+          why: More guaranteed time off doesn't threaten the weekend.
+        - text: Unions negotiating contracts that guarantee two days off each week
+          trap: wrong_direction
+          why: That protects the weekend.
+        - text: A rise in weekend travel and entertainment
+          trap: wrong_direction
+          why: A consumer economy that uses free time was one of the weekend's supports.
+      tldr: Work creeping into weekends is the threat the author names.
+      steps:
+        - label: The threat
+          body: '"As work spreads into evenings and weekends through phones and on-demand jobs..."'
+        - label: Match
+          body: Weekend messages from employers.
+      takeaway: Application answers often restate the author's own example in new words.
+
+    - id: mcat-cars-0055
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward the future of the weekend is best described as
+      options:
+        - text: uncertain, seeing its survival as depending on whether interests can be reconciled again.
+          correct: true
+          why: '"Whether the weekend survives may depend..." signals an open question.'
+        - text: confident that it will survive unchanged.
+          trap: contradicts
+          why: The author says its boundaries are blurring.
+        - text: certain that it will soon disappear.
+          trap: too_strong
+          why: The author says "may depend," not that it will end.
+        - text: indifferent to whether it survives.
+          trap: contradicts
+          why: The author treats its survival as a live and important question.
+      tldr: Open, conditional, not settled.
+      steps:
+        - label: Evidence
+          body: '"Whether the weekend survives may depend..."'
+        - label: Attitude
+          body: Uncertain and conditional.
+      takeaway: Hedged words like "may depend" signal uncertainty; extreme tone answers are wrong.
