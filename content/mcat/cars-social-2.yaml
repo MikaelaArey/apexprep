@@ -1,0 +1,824 @@
+# MCAT CARS: original social science passages for ApexPrep. Not official AAMC content.
+# The correct option is listed first; the build shuffles answer order.
+
+- passage:
+    id: mcat-cars-p17
+    title: Speaking a language back to life
+    domain: social sciences
+    paragraphs:
+      - >-
+        Of the roughly seven thousand languages spoken in the world today, many
+        linguists estimate that around half may cease to be spoken by the end of
+        this century. Most will not disappear in a dramatic event. They will fade
+        quietly, as parents raise their children in a language that seems more
+        useful, the language of school, of government and of the job market, until
+        the last fluent speakers grow old.
+      - >-
+        The loss is often described in terms borrowed from biology: languages are
+        said to be "endangered" and to "die," and their disappearance is compared to
+        the extinction of species. The comparison captures something real. Each
+        language encodes ways of describing the world, from the classification of
+        plants to the grammar of kinship, that exist nowhere else. When it goes
+        silent, that knowledge may go with it.
+      - >-
+        But the biological metaphor can mislead. A species, once extinct, cannot
+        return. A language can. Modern Hebrew, revived as an everyday spoken
+        language in the late nineteenth and early twentieth centuries after many
+        centuries of use mainly in prayer and scholarship, is the most famous case,
+        and smaller revivals are under way from Wales to New Zealand. Languages
+        persist in recordings, texts and the memories of elders, and communities can
+        choose to speak them again.
+      - >-
+        That choice, rather than the language itself, is the heart of the matter.
+        Revitalization succeeds not when linguists document a grammar but when
+        families decide to use the language at home and children hear it as the
+        language of daily life. A language, unlike a species, lives in the decisions
+        of the people who speak it, which is both why it can be lost so quietly and
+        why it can be recovered.
+  items:
+    - id: mcat-cars-0081
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Languages are lost through speakers' everyday choices, and for the same reason they can be revived when communities choose to speak them again.
+          correct: true
+          why: This joins the quiet loss (P1) with the closing claim that a language lives in its speakers' decisions (P4).
+        - text: Endangered languages, like extinct species, can never be recovered.
+          trap: contradicts
+          why: The author says a language, unlike a species, can return.
+        - text: Linguists' documentation is enough to save an endangered language.
+          trap: contradicts
+          why: The author says revitalization succeeds when families choose the language, not when grammars are documented.
+        - text: Modern Hebrew is the only language that has ever been revived.
+          trap: too_strong
+          why: The author mentions revivals under way from Wales to New Zealand.
+      tldr: Choices lose languages, and choices can bring them back.
+      steps:
+        - label: Map
+          body: P1 quiet loss. P2 the biological metaphor's truth. P3 its limit. P4 choice is the heart of it.
+        - label: Main idea
+          body: The theme of choice, which explains both loss and recovery.
+      takeaway: When a passage's last sentence says "both why… and why…", it is often the main idea.
+
+    - id: mcat-cars-0082
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the passage, most languages that disappear do so because
+      options:
+        - text: parents raise their children in a language that seems more useful.
+          correct: true
+          why: Paragraph 1 describes this quiet shift as the usual path.
+        - text: governments ban them.
+          trap: not_present
+          why: The passage never mentions bans.
+        - text: natural disasters wipe out their speakers.
+          trap: contradicts
+          why: The author says most will not disappear in a dramatic event.
+        - text: linguists stop studying them.
+          trap: unsupported
+          why: Linguists' attention isn't given as a cause.
+      tldr: Parents choosing a more useful language for their children.
+      steps:
+        - label: Locate
+          body: The middle of paragraph 1.
+        - label: Match
+          body: Children raised in a more useful language.
+      takeaway: Detail answers restate the passage; extreme causes it rules out are traps.
+
+    - id: mcat-cars-0083
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author discusses Modern Hebrew primarily in order to
+      options:
+        - text: illustrate that a language, unlike a species, can return after falling out of everyday use.
+          correct: true
+          why: It is offered as the most famous case right after "A language can."
+        - text: show that religious languages last longer than others.
+          trap: out_of_scope
+          why: The point is revival, not religious use.
+        - text: argue that every endangered language should be revived.
+          trap: too_strong
+          why: The author says communities can choose to; no universal prescription is made.
+        - text: explain where the biological metaphor came from.
+          trap: distortion
+          why: Hebrew is evidence against the metaphor's implication, not its origin.
+      tldr: Hebrew is the proof that languages can come back.
+      steps:
+        - label: Context
+          body: '"A species, once extinct, cannot return. A language can. Modern Hebrew..."'
+        - label: Role
+          body: The key example for the author's counterpoint.
+      takeaway: Examples that follow a short, bold claim usually exist to prove it.
+
+    - id: mcat-cars-0084
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 3
+      prompt: The author's attitude toward comparing languages to biological species is best described as
+      options:
+        - text: partly approving, since it captures a real loss, but wary of its suggestion that the loss is final.
+          correct: true
+          why: The author says the comparison "captures something real" but "can mislead."
+        - text: wholly approving.
+          trap: too_strong
+          why: The author points out where the metaphor misleads.
+        - text: dismissive, since the comparison captures nothing true.
+          trap: contradicts
+          why: The author grants that it captures something real.
+        - text: indifferent.
+          trap: contradicts
+          why: The author spends two paragraphs evaluating it.
+      tldr: Useful metaphor, misleading in one key way.
+      steps:
+        - label: Evidence
+          body: '"The comparison captures something real." Then: "But the biological metaphor can mislead."'
+        - label: Attitude
+          body: >-
+            Mixed: partial approval with a warning.
+      takeaway: A paragraph of credit followed by "But" signals a mixed attitude.
+
+    - id: mcat-cars-0085
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following would the author most likely consider the strongest sign that a revitalization effort is succeeding?
+      options:
+        - text: Young parents in the community choosing to speak the language to their children at home
+          correct: true
+          why: The author says revitalization succeeds when families use the language at home.
+        - text: A linguist publishing a complete dictionary of the language
+          trap: too_weak
+          why: The author says documentation alone isn't success.
+        - text: A museum exhibit about the language's history
+          trap: too_weak
+          why: An exhibit preserves memory but doesn't make the language a language of daily life.
+        - text: Recordings of elders stored in a university archive
+          trap: too_weak
+          why: Recordings help a language persist, but success requires everyday use.
+      tldr: Home use by families is the author's measure of success.
+      steps:
+        - label: Criterion
+          body: Families use the language at home; children hear it daily.
+        - label: Match
+          body: Parents speaking it to their children.
+      takeaway: Application answers should meet the author's stated criterion exactly.
+
+- passage:
+    id: mcat-cars-p18
+    title: No free gifts
+    domain: social sciences
+    paragraphs:
+      - >-
+        We like to think of a gift as the opposite of a trade. A trade is
+        calculated; a gift is free. The anthropologist Marcel Mauss, in an
+        influential essay published in 1925, argued that this contrast is largely an
+        illusion. Surveying societies from the Pacific Northwest to Melanesia, he
+        found that gifts everywhere created obligations: to give, to receive and,
+        above all, to give back.
+      - >-
+        These obligations were not written down, but they were binding. A gift
+        refused could be an insult; a gift unreturned could mean a loss of standing.
+        In some societies, rival leaders competed to give away or even destroy great
+        quantities of goods, gaining prestige by placing others in their debt. The
+        gift, on Mauss's account, was a way of making and maintaining
+        relationships, and relationships carry expectations.
+      - >-
+        It would be easy to read Mauss cynically, as if he had exposed generosity as
+        a disguised form of self-interest. That reading misses his point. Mauss did
+        not think the obligations of the gift made it insincere. He thought they made
+        it social. A gift that created no bond, that left giver and receiver as
+        strangers, would hardly be a gift at all.
+      - >-
+        Modern market societies have not abolished these obligations; they have
+        confined them. We still keep track of dinner invitations owed and birthday
+        presents exchanged, and we feel the sting when a favor is not returned. What
+        has changed is that much of economic life now runs on transactions designed
+        to leave no bond behind: a purchase that, once paid for, is finished. The
+        gift persists in the spaces the market does not reach, and it reminds us of
+        what those transactions leave out.
+  items:
+    - id: mcat-cars-0086
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The central thesis of the passage is that
+      options:
+        - text: gifts create binding obligations that make them social rather than insincere, and those obligations persist alongside market exchange.
+          correct: true
+          why: It joins Mauss's finding (P1–P2), the author's reading of it (P3) and the modern situation (P4).
+        - text: Mauss proved that generosity is a disguised form of self-interest.
+          trap: wrong_viewpoint
+          why: The author calls this cynical reading a misreading.
+        - text: gift-giving disappeared with the rise of markets.
+          trap: contradicts
+          why: The author says markets confined these obligations, not abolished them.
+        - text: societies of the Pacific Northwest valued trade more than gifts.
+          trap: not_present
+          why: The passage makes no such comparison.
+      tldr: Gifts bind people together, and they still do in the spaces markets leave.
+      steps:
+        - label: Map
+          body: P1 gifts create obligations. P2 how binding they were. P3 social, not cynical. P4 confined but alive today.
+        - label: Thesis
+          body: Obligation makes the gift social, then and now.
+      takeaway: When the author corrects a likely misreading, include the correction in the main idea.
+
+    - id: mcat-cars-0087
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the passage, rival leaders in some societies gained prestige by
+      options:
+        - text: giving away or destroying goods to place others in their debt.
+          correct: true
+          why: Paragraph 2 describes exactly this competition.
+        - text: refusing gifts from their rivals.
+          trap: distortion
+          why: Refusing a gift could be an insult; it isn't described as a route to prestige.
+        - text: trading goods at a profit.
+          trap: not_present
+          why: Profit-making isn't mentioned.
+        - text: writing down the obligations others owed them.
+          trap: contradicts
+          why: The obligations were not written down.
+      tldr: Prestige came from making others indebted.
+      steps:
+        - label: Locate
+          body: The third sentence of paragraph 2.
+        - label: Match
+          body: Giving away or destroying goods.
+      takeaway: Watch for answers that twist a nearby detail, like refusing gifts.
+
+    - id: mcat-cars-0088
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author's discussion of a "cynical" reading of Mauss (paragraph 3) serves mainly to
+      options:
+        - text: head off a misinterpretation of Mauss's argument.
+          correct: true
+          why: The author says that reading "misses his point" and restates what Mauss meant.
+        - text: endorse the views of Mauss's critics.
+          trap: wrong_direction
+          why: The author rejects the cynical reading.
+        - text: introduce new evidence from Melanesia.
+          trap: not_present
+          why: No new evidence appears in paragraph 3.
+        - text: concede that gifts are usually insincere.
+          trap: contradicts
+          why: The author says the obligations make gifts social, not insincere.
+      tldr: The paragraph blocks the cynical reading.
+      steps:
+        - label: Signal
+          body: '"That reading misses his point."'
+        - label: Role
+          body: A correction of a tempting interpretation.
+      takeaway: '"It would be easy to read X as..." almost always sets up a correction.'
+
+    - id: mcat-cars-0089
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: The author suggests that a typical market purchase differs from a gift in that the purchase
+      options:
+        - text: is designed to leave no lasting bond between buyer and seller.
+          correct: true
+          why: Paragraph 4 describes transactions "designed to leave no bond behind."
+        - text: creates stronger obligations between the parties.
+          trap: contradicts
+          why: A purchase, once paid, is finished.
+        - text: is always worth more than a gift.
+          trap: not_present
+          why: Value isn't compared.
+        - text: requires the seller to give something back later.
+          trap: contradicts
+          why: The point is that nothing further is owed.
+      tldr: A purchase ends the relationship; a gift starts one.
+      steps:
+        - label: Locate
+          body: '"...transactions designed to leave no bond behind."'
+        - label: Infer
+          body: That is the contrast with the gift.
+      takeaway: Contrast questions are answered by the passage's own explicit contrast.
+
+    - id: mcat-cars-0090
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following situations best illustrates Mauss's idea of the gift as the passage describes it?
+      options:
+        - text: A neighbor who was helped with a move feels she should help in return when the helper needs it.
+          correct: true
+          why: The help created an obligation to give back, building an ongoing relationship.
+        - text: A shopper pays for groceries and leaves the store.
+          trap: different_structure
+          why: That is a market transaction that leaves no bond.
+        - text: A company refunds a customer for a defective product.
+          trap: different_structure
+          why: A refund settles a contract; it creates no social bond.
+        - text: A customer buys a concert ticket online.
+          trap: different_structure
+          why: Another bond-free transaction.
+      tldr: An obligation to give back that keeps a relationship going.
+      steps:
+        - label: Abstract
+          body: Give, receive, give back, with a bond formed along the way.
+        - label: Match
+          body: The neighbors' exchange of help.
+      takeaway: Match the defining features (obligation and bond), not just the word "gift."
+
+- passage:
+    id: mcat-cars-p19
+    title: Paper qualifications
+    domain: social sciences
+    paragraphs:
+      - >-
+        Over the past half century, the educational requirements for many jobs have
+        climbed. Positions that once required a high school diploma now ask for a
+        college degree; jobs that once required a college degree now prefer a
+        graduate one. The usual explanation is that work has grown more complex and
+        demands more skill. For some occupations, that explanation is clearly right.
+      - >-
+        For others, it fits poorly. Studies of job postings have found employers
+        demanding degrees for roles whose daily tasks have changed little, and some
+        employers have dropped degree requirements for such roles without any visible
+        decline in performance. If the work itself has not changed, something else
+        must explain the rising bar.
+      - >-
+        One answer comes from the economics of signaling. A degree, on this view,
+        matters less for what it teaches than for what it shows: that its holder could
+        finish a long, demanding program. Employers who cannot easily judge an
+        applicant's persistence or reliability use the degree as a stand-in. But a
+        signal's value depends on its rarity. As more people earn degrees, a degree
+        distinguishes less, and employers raise the requirement to sort applicants.
+        Students then pursue more education to keep pace, and the cycle repeats.
+      - >-
+        The costs of this race fall unevenly. Additional years of schooling are
+        easiest for those who can most readily afford them, so credential
+        requirements can screen out capable applicants for reasons that have little
+        to do with their capability. A requirement adopted as a convenient filter can
+        thus become a barrier, one that tells employers less and less while asking
+        applicants for more and more.
+  items:
+    - id: mcat-cars-0091
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best states the main idea of the passage?
+      options:
+        - text: Rising degree requirements often reflect a self-reinforcing race for credentials rather than more complex work, and the race burdens some applicants unfairly.
+          correct: true
+          why: The passage limits the skills explanation (P1–P2), offers signaling (P3) and describes its uneven costs (P4).
+        - text: Jobs have uniformly become more complex over the past half century.
+          trap: contradicts
+          why: The author says the skills explanation fits some jobs poorly.
+        - text: College degrees teach nothing of value.
+          trap: too_strong
+          why: The signaling view says degrees matter less for what they teach, not that they teach nothing.
+        - text: Employers should eliminate all educational requirements.
+          trap: too_strong
+          why: The author makes no such sweeping recommendation.
+      tldr: Credential inflation is often a signaling race with unfair costs.
+      steps:
+        - label: Map
+          body: P1 rising bar and a partial explanation. P2 where it fails. P3 signaling. P4 who pays.
+        - label: Main idea
+          body: Signaling explains much of the rise, unfairly.
+      takeaway: Main ideas often combine "what explains it" with "why it matters."
+
+    - id: mcat-cars-0092
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author's remark that for some occupations "that explanation is clearly right" serves mainly to
+      options:
+        - text: concede that rising skill demands explain some, but not all, of the rise in requirements.
+          correct: true
+          why: The next paragraph begins "For others, it fits poorly."
+        - text: reject the skills explanation entirely.
+          trap: wrong_direction
+          why: The remark grants the explanation for some jobs.
+        - text: introduce the signaling theory.
+          trap: distortion
+          why: Signaling comes later, in paragraph 3.
+        - text: criticize employers for raising requirements.
+          trap: not_present
+          why: The remark contains no criticism.
+      tldr: A concession that limits the scope of the author's argument.
+      steps:
+        - label: Context
+          body: '"For some occupations, that explanation is clearly right." Then: "For others, it fits poorly."'
+        - label: Role
+          body: A concession before the turn.
+      takeaway: '"For some… For others" structures a concession followed by the author''s real target.'
+
+    - id: mcat-cars-0093
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: According to the signaling view described in the passage, a degree loses value as a signal when
+      options:
+        - text: more people earn it.
+          correct: true
+          why: '"A signal''s value depends on its rarity."'
+        - text: its courses become more difficult.
+          trap: not_present
+          why: Difficulty of courses isn't discussed.
+        - text: employers stop reading applications.
+          trap: not_present
+          why: Nothing in the passage supports this.
+        - text: fewer people attend college.
+          trap: contradicts
+          why: Fewer degree holders would make the degree rarer and more distinctive.
+      tldr: Common signals stop distinguishing anyone.
+      steps:
+        - label: Locate
+          body: '"But a signal''s value depends on its rarity."'
+        - label: Apply
+          body: More holders, less distinction.
+      takeaway: Find the principle the passage states, then apply it directly.
+
+    - id: mcat-cars-0094
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which of the following findings, if true, would most challenge the signaling explanation as the passage presents it?
+      options:
+        - text: In fields where the share of workers with degrees has stayed constant, degree requirements have risen just as quickly as elsewhere.
+          correct: true
+          why: The explanation ties rising requirements to degrees becoming common; a rise without that change undercuts it.
+        - text: Many students say they attend college mainly to learn job skills.
+          trap: irrelevant_comparison
+          why: Students' stated motives don't test how employers use degrees.
+        - text: College tuition has risen faster than inflation.
+          trap: true_irrelevant
+          why: That fits the passage's point about uneven costs rather than challenging signaling.
+        - text: Some jobs have become more complex over time.
+          trap: true_irrelevant
+          why: The author already grants this.
+      tldr: Rising requirements without more degree holders would break the signaling mechanism.
+      steps:
+        - label: Mechanism
+          body: More degree holders, so less distinction, so a higher bar.
+        - label: Challenge
+          body: The bar rising where the share of holders didn't.
+      takeaway: To challenge an explanation, find a case where its cause is absent but its effect appears.
+
+    - id: mcat-cars-0095
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following best illustrates the cycle described in paragraph 3?
+      options:
+        - text: As master's degrees become common among applicants, employers start preferring doctorates, and more students enter doctoral programs.
+          correct: true
+          why: A common credential loses value, the bar rises, and students chase the new bar.
+        - text: A company trains its employees on new software.
+          trap: out_of_scope
+          why: Training isn't credential escalation.
+        - text: A student chooses a major because she enjoys the subject.
+          trap: out_of_scope
+          why: Personal interest isn't part of the cycle.
+        - text: An employer drops a degree requirement and hires with a skills test.
+          trap: wrong_direction
+          why: That breaks the cycle rather than illustrating it.
+      tldr: Common credential, higher bar, more schooling, repeat.
+      steps:
+        - label: Steps of the cycle
+          body: A credential becomes common, requirements rise, students pursue more.
+        - label: Match
+          body: The master's-to-doctorate example has all three.
+      takeaway: For "illustrates the cycle" questions, check every step of the cycle.
+
+- passage:
+    id: mcat-cars-p20
+    title: The day of two noons
+    domain: social sciences
+    paragraphs:
+      - >-
+        Before the late nineteenth century, time was local. Each town set its clocks
+        by the sun, so that noon came when the sun stood highest overhead. Because
+        the sun's position shifts as one travels east or west, noon in one city
+        arrived a few minutes earlier or later than in the next. For most people,
+        who rarely traveled far or fast, the differences hardly mattered.
+      - >-
+        The railroads changed that. A train crossing hundreds of miles passed through
+        dozens of local times, and each railroad kept its own schedule, often based
+        on the time at its headquarters. Travelers faced timetables listing several
+        times for the same departure, and missed connections were common. On
+        November 18, 1883, the railroads of the United States and Canada adopted a
+        system of standard time zones, and clocks across the continent were reset.
+        Some towns saw noon twice that day as their clocks were set back to the new
+        standard.
+      - >-
+        The change was not imposed by government. It was a private agreement among
+        railroad companies, and the federal government did not make the time zones
+        law until 1918. Many towns adopted the new time immediately; some resisted
+        for years, objecting that the railroads had no right to tell the sun when it
+        was noon. Their protests reveal something easy to forget: the time on our
+        clocks is a convention, chosen for coordination, not a fact read off the
+        heavens.
+      - >-
+        Standard time is now so familiar that it seems natural, and that is
+        precisely its success. Conventions work best when they become invisible. Yet
+        the episode is a reminder that much of what organizes daily life was decided
+        by particular people, for particular purposes, and could have been decided
+        otherwise.
+  items:
+    - id: mcat-cars-0096
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The passage is primarily concerned with
+      options:
+        - text: using the adoption of standard time to show that conventions organizing daily life were chosen by people and could have been otherwise.
+          correct: true
+          why: The history (P1–P3) supports the closing lesson about conventions (P3–P4).
+        - text: arguing that the federal government created time zones in 1883.
+          trap: contradicts
+          why: The railroads created them; the government made them law in 1918.
+        - text: proving that local solar time was more accurate than standard time.
+          trap: not_present
+          why: The passage never ranks the systems' accuracy.
+        - text: showing that railroads were the most powerful institutions of their era.
+          trap: too_strong
+          why: The passage concerns one decision, not the railroads' overall power.
+      tldr: A history of standard time that teaches a lesson about conventions.
+      steps:
+        - label: Map
+          body: P1 local time. P2 railroads and 1883. P3 private, resisted, a convention. P4 the lesson.
+        - label: Purpose
+          body: History in service of the lesson.
+      takeaway: When history leads to a general lesson, the lesson is the primary concern.
+
+    - id: mcat-cars-0097
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: Based on the passage, why did some towns see noon twice on November 18, 1883?
+      options:
+        - text: Their clocks were set back to the new standard after local noon had already passed.
+          correct: true
+          why: Setting clocks back after noon meant the clock reached noon again.
+        - text: Railroads ran two noon trains that day.
+          trap: not_present
+          why: Train schedules aren't the cause described.
+        - text: The sun reached its highest point twice that day.
+          trap: false_fact
+          why: The sun's position didn't change; the clocks did.
+        - text: Towns used two calendars at once.
+          trap: not_present
+          why: Calendars aren't involved.
+      tldr: Clocks set back past noon hit noon a second time.
+      steps:
+        - label: Locate
+          body: '"Some towns saw noon twice that day as their clocks were set back to the new standard."'
+        - label: Infer
+          body: Setting back after noon repeats noon.
+      takeaway: Some inferences require one small step of reasoning from a stated fact.
+
+    - id: mcat-cars-0098
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author mentions that the federal government did not make the time zones law until 1918 in order to
+      options:
+        - text: emphasize that standard time began as a private agreement rather than a government mandate.
+          correct: true
+          why: It follows "The change was not imposed by government."
+        - text: criticize the government for acting too slowly.
+          trap: not_present
+          why: The author doesn't fault the delay.
+        - text: show that the towns' protests succeeded.
+          trap: unsupported
+          why: The protests didn't stop standard time.
+        - text: explain why trains missed connections.
+          trap: out_of_scope
+          why: Missed connections came before standard time.
+      tldr: The date underlines that the railroads acted on their own.
+      steps:
+        - label: Context
+          body: '"The change was not imposed by government. It was a private agreement..."'
+        - label: Role
+          body: Supporting detail for that claim.
+      takeaway: A date or fact right after a claim usually supports that claim.
+
+    - id: mcat-cars-0099
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The author regards the protests of the towns that resisted standard time as
+      options:
+        - text: revealing that clock time is a human convention rather than a natural fact.
+          correct: true
+          why: '"Their protests reveal something easy to forget: the time on our clocks is a convention."'
+        - text: backward objections that deserve mockery.
+          trap: unsupported
+          why: The author treats the protests as instructive, not foolish.
+        - text: correct in claiming that the railroads had no authority over time.
+          trap: too_strong
+          why: The author doesn't take the towns' side on authority.
+        - text: irrelevant to the history of standard time.
+          trap: contradicts
+          why: The author draws the passage's lesson from them.
+      tldr: The protests show that time-keeping is a choice.
+      steps:
+        - label: Locate
+          body: The last sentence of paragraph 3.
+        - label: Match
+          body: Clock time is a convention.
+      takeaway: Read what the author says the protests "reveal"; that is the author's view of them.
+
+    - id: mcat-cars-0100
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following is most analogous to standard time as the author describes it?
+      options:
+        - text: Driving on the right side of the road, a rule chosen for coordination that now seems natural to drivers
+          correct: true
+          why: A convention adopted for coordination that has become invisible, like standard time.
+        - text: The boiling point of water at sea level
+          trap: false_fact
+          why: That is a physical fact, not a human convention.
+        - text: The Earth's orbit around the Sun
+          trap: false_fact
+          why: A natural fact, not a choice.
+        - text: A company's decision to raise its prices
+          trap: different_structure
+          why: A pricing decision isn't a shared convention for coordination.
+      tldr: A coordination convention that feels natural is the match.
+      steps:
+        - label: Features
+          body: Chosen by people, for coordination, now invisible.
+        - label: Match
+          body: Driving on the right.
+      takeaway: For analogies, list the original's essential features before reading the choices.
+
+- passage:
+    id: mcat-cars-p21
+    title: Waiting in line
+    domain: social sciences
+    paragraphs:
+      - >-
+        Few social arrangements are as ordinary, or as revealing, as the line.
+        People who have never met agree, without discussion, to stand one behind
+        another and to be served in the order they arrived. The principle of first
+        come, first served is so widely accepted that cutting in line can provoke
+        anger out of all proportion to the minutes lost.
+      - >-
+        The anger makes sense once we see what the line protects. A queue treats
+        everyone in it as equal: the wealthy executive and the student stand in the
+        same row and wait the same time. It is one of the few places in a market
+        society where money does not, at least officially, buy priority. To cut in is
+        not merely to take time from others; it is to declare oneself an exception to
+        a rule that binds everyone else.
+      - >-
+        That equality has always had limits. Hospitals treat the sickest patients
+        first, not the earliest arrivals, and few people object, because need is an
+        accepted reason to depart from first come, first served. More troubling are
+        departures based on money: express lanes sold at a premium, paid services
+        that hold a place in line, and fees that let some travelers skip security
+        queues. Each may be defended as efficient, since those who value their time
+        most can pay to save it.
+      - >-
+        Yet efficiency is not the only value the line expresses. A society that
+        auctions off places in every queue may serve its wealthier members faster,
+        but it also teaches everyone that waiting is for those who cannot pay.
+        Whether that lesson is worth the time it saves is not a technical question.
+        It is a question about what kind of equality a society wants its everyday
+        arrangements to express.
+  items:
+    - id: mcat-cars-0101
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Lines express a form of equality, and selling priority in them, though efficient, raises the question of what equality a society values.
+          correct: true
+          why: The passage explains the line's equality (P1–P2), its limits (P3) and the question money raises (P4).
+        - text: Hospitals should treat patients in the order they arrive.
+          trap: contradicts
+          why: The author treats triage by need as an accepted departure.
+        - text: Paid line-skipping should be banned everywhere.
+          trap: too_strong
+          why: The author poses a question rather than demanding a ban.
+        - text: People resent line-cutters mainly because of the time they lose.
+          trap: distortion
+          why: The author says the anger is out of proportion to the minutes lost.
+      tldr: Lines embody equality, so selling places in them is a choice about values.
+      steps:
+        - label: Map
+          body: P1 lines and anger. P2 the equality they protect. P3 accepted and troubling exceptions. P4 the value question.
+        - label: Main idea
+          body: Equality versus efficiency, posed as a question.
+      takeaway: If the author ends with a question, the main idea is the tension the question names.
+
+    - id: mcat-cars-0102
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: According to the passage, cutting in line provokes strong anger mainly because it
+      options:
+        - text: claims an exception to a rule of equal treatment.
+          correct: true
+          why: Cutting declares oneself "an exception to a rule that binds everyone else."
+        - text: costs the people in line a great deal of time.
+          trap: contradicts
+          why: The anger is out of proportion to the minutes lost.
+        - text: is against the law.
+          trap: not_present
+          why: Legality isn't discussed.
+        - text: is usually done by wealthy people.
+          trap: unsupported
+          why: The passage doesn't say who usually cuts.
+      tldr: The offense is to equality, not to time.
+      steps:
+        - label: Locate
+          body: The last sentence of paragraph 2.
+        - label: Match
+          body: Declaring oneself an exception.
+      takeaway: When the passage dismisses the obvious explanation, look for the deeper one it offers.
+
+    - id: mcat-cars-0103
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author mentions hospitals (paragraph 3) primarily in order to
+      options:
+        - text: give an example of an accepted departure from first come, first served.
+          correct: true
+          why: Treating the sickest first departs from arrival order, and few people object.
+        - text: criticize hospitals for treating patients unfairly.
+          trap: contradicts
+          why: The author presents triage as widely accepted.
+        - text: argue that money should determine priority.
+          trap: wrong_direction
+          why: Hospitals are contrasted with priority based on money.
+        - text: show that lines are inefficient.
+          trap: not_present
+          why: Efficiency isn't the point of the example.
+      tldr: Hospitals show a departure that people accept, unlike departures for money.
+      steps:
+        - label: Context
+          body: '"That equality has always had limits. Hospitals..." then "More troubling are departures based on money."'
+        - label: Role
+          body: An accepted exception set against troubling ones.
+      takeaway: Watch for an accepted case placed beside a contested one; the contrast is the point.
+
+    - id: mcat-cars-0104
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: The passage suggests that defenders of paid line-skipping would most likely argue that it
+      options:
+        - text: lets people who value their time most save it, making the system efficient.
+          correct: true
+          why: Paragraph 3 gives this defense explicitly.
+        - text: treats everyone equally.
+          trap: contradicts
+          why: Paid priority departs from equal treatment.
+        - text: reduces anger at people who cut in line.
+          trap: not_present
+          why: The passage doesn't connect the two.
+        - text: ensures that the sickest people are served first.
+          trap: wrong_viewpoint
+          why: That is the hospital rationale, which is based on need, not payment.
+      tldr: Their defense is efficiency.
+      steps:
+        - label: Locate
+          body: '"Each may be defended as efficient..."'
+        - label: Match
+          body: Those who value time most pay to save it.
+      takeaway: Questions about what a group would argue are answered by the view the passage assigns them.
+
+    - id: mcat-cars-0105
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 3
+      prompt: The author's attitude toward selling priority in lines is best described as
+      options:
+        - text: skeptical, suggesting that efficiency may not justify what it teaches about equality.
+          correct: true
+          why: The author grants the efficiency argument but questions whether its lesson is worth it.
+        - text: enthusiastic about the time it saves.
+          trap: contradicts
+          why: The author calls such departures "more troubling."
+        - text: neutral, treating it as a purely technical matter.
+          trap: contradicts
+          why: The author says it is "not a technical question."
+        - text: outraged, demanding that it be outlawed.
+          trap: too_strong
+          why: The author raises a question; there is no call for a ban.
+      tldr: Skeptical, framed as a question about values.
+      steps:
+        - label: Evidence
+          body: '"More troubling..." and "not a technical question."'
+        - label: Attitude
+          body: Critical but measured.
+      takeaway: Measured skepticism is a common CARS author stance; avoid both extremes.

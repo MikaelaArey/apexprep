@@ -1,0 +1,825 @@
+# MCAT CARS: original humanities passages for ApexPrep. Not official AAMC content.
+# The correct option is listed first; the build shuffles answer order.
+
+- passage:
+    id: mcat-cars-p12
+    title: Gardens as arguments
+    domain: humanities
+    paragraphs:
+      - >-
+        A garden can look like the most innocent of human works: a place to walk,
+        to sit, to grow food or flowers. Yet the great gardens of Europe were also
+        arguments, laid out in soil and water, about the proper relation between
+        human beings and the natural world.
+      - >-
+        The formal gardens of seventeenth-century France made their case through
+        geometry. Long straight avenues ran to the horizon; hedges were clipped into
+        walls and cones; water was forced upward in fountains or held still in
+        rectangular pools. Every element announced that nature had been brought to
+        order by human reason and, not incidentally, by the power of the king whose
+        palace commanded the view. To walk in such a garden was to be reminded at
+        every turn of where authority lay.
+      - >-
+        In eighteenth-century England, a different argument took root. Landscape
+        gardeners removed straight lines, softened the edges of lakes and planted
+        trees in irregular clumps, so that an estate seemed to roll naturally toward
+        the horizon. The style was praised as a liberation of nature from tyranny,
+        and admirers connected it with English political liberty. But the "natural"
+        landscape was no less a construction than the formal garden. Hills were
+        raised, rivers rerouted and, in some cases, whole villages moved out of the
+        view so that the owner might look across an unbroken expanse.
+      - >-
+        Seen this way, the contest between the two styles was less a contest between
+        art and nature than one between two ways of displaying power. The formal
+        garden showed its control openly; the landscape garden concealed it behind an
+        appearance of effortless freedom. Which is more honest is a question worth
+        asking of more than gardens.
+  items:
+    - id: mcat-cars-0056
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Formal and landscape gardens both expressed claims about human control of nature, and the landscape style hid that control rather than giving it up.
+          correct: true
+          why: The passage treats both styles as arguments (P1–P3) and concludes that the landscape style concealed power (P4).
+        - text: English landscape gardens were more natural than French formal gardens.
+          trap: contradicts
+          why: The author says the landscape was "no less a construction."
+        - text: Formal gardens reflected royal power, while landscape gardens carried no political meaning.
+          trap: contradicts
+          why: Admirers tied the landscape style to English political liberty.
+        - text: Gardens should be designed without any regard for politics.
+          trap: not_present
+          why: The author describes gardens' politics but recommends nothing.
+      tldr: Both styles argued about control; one displayed it, the other disguised it.
+      steps:
+        - label: Map
+          body: P1 gardens as arguments. P2 formal control. P3 landscape "freedom" that was also built. P4 two ways of displaying power.
+        - label: Main idea
+          body: The contrast in P4, supported by P2 and P3.
+      takeaway: When a passage ends by reframing a contrast, that reframing is usually the main idea.
+
+    - id: mcat-cars-0057
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the passage, landscape gardeners sometimes
+      options:
+        - text: moved villages so that they would not interrupt an owner's view.
+          correct: true
+          why: Paragraph 3 says villages were sometimes moved out of the view.
+        - text: forced water upward in fountains.
+          trap: wrong_viewpoint
+          why: Fountains belong to the French formal garden.
+        - text: clipped hedges into walls and cones.
+          trap: wrong_viewpoint
+          why: Clipped hedges are a feature of the formal garden.
+        - text: laid out long straight avenues toward the horizon.
+          trap: contradicts
+          why: Landscape gardeners removed straight lines.
+      tldr: Landscape gardeners even moved villages to keep the view "natural."
+      steps:
+        - label: Locate
+          body: The last sentence of paragraph 3.
+        - label: Match
+          body: Villages moved out of the view.
+      takeaway: Keep each feature attached to the style the passage gives it to.
+
+    - id: mcat-cars-0058
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author mentions that admirers connected the landscape style with "English political liberty" primarily in order to
+      options:
+        - text: show that the landscape style, like the formal style, carried a political meaning.
+          correct: true
+          why: It extends the passage's claim that gardens are arguments to the English style too.
+        - text: prove that England was a freer country than France.
+          trap: too_strong
+          why: The author reports the admirers' view without endorsing it.
+        - text: criticize the admirers for ignoring beauty.
+          trap: unsupported
+          why: The author never faults the admirers' taste.
+        - text: explain why the formal style became popular in France.
+          trap: out_of_scope
+          why: The remark concerns the English style.
+      tldr: The liberty link shows that the "natural" style was political too.
+      steps:
+        - label: Context
+          body: It comes right before "But the natural landscape was no less a construction."
+        - label: Role
+          body: It sets up the claim that both styles made political arguments.
+      takeaway: A view the author reports and then complicates usually sets up the author's own point.
+
+    - id: mcat-cars-0059
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: Based on the passage, which of the following is most analogous to the landscape garden?
+      options:
+        - text: An office designed to feel casual and free of hierarchy, while managers still monitor employees closely
+          correct: true
+          why: Control persists but is hidden behind an appearance of freedom, the author's reading of the landscape garden.
+        - text: A palace throne room that raises the ruler high above the floor
+          trap: different_structure
+          why: That displays power openly, like the formal garden.
+        - text: A wilderness area that people have never altered
+          trap: different_structure
+          why: The landscape garden was heavily altered; it only looked untouched.
+        - text: A vegetable plot laid out in straight rows for easy harvesting
+          trap: out_of_scope
+          why: Practical order isn't the disguised power the analogy needs.
+      tldr: Hidden control behind a look of freedom is the landscape garden's pattern.
+      steps:
+        - label: Abstract it
+          body: Real control, presented as effortless freedom.
+        - label: Match
+          body: The casual office with close monitoring fits.
+      takeaway: For analogies, match the structure (hidden control), not the subject matter.
+
+    - id: mcat-cars-0060
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The question in the passage's final sentence suggests that the author
+      options:
+        - text: thinks open and concealed displays of power are worth comparing in other areas of life.
+          correct: true
+          why: The author says the question of honesty is "worth asking of more than gardens."
+        - text: believes the formal garden was more honest than the landscape garden.
+          trap: unsupported
+          why: The author poses the question without answering it.
+        - text: wants readers to stop visiting historic gardens.
+          trap: not_present
+          why: Nothing in the passage discourages visiting gardens.
+        - text: considers the question of honesty unimportant.
+          trap: contradicts
+          why: The author calls it worth asking.
+      tldr: The author leaves the question open but wants it asked widely.
+      steps:
+        - label: Read the sentence
+          body: '"Which is more honest is a question worth asking of more than gardens."'
+        - label: Infer
+          body: The author values the comparison beyond gardens but doesn't settle it.
+      takeaway: A closing question usually signals what the author wants readers to consider, not a hidden answer.
+
+- passage:
+    id: mcat-cars-p13
+    title: The art of trying
+    domain: humanities
+    paragraphs:
+      - >-
+        When Michel de Montaigne published the first books of his Essais in 1580,
+        he gave a new name to a new kind of writing. The French word essai means a
+        trial or an attempt, and Montaigne's chapters are just that: attempts to
+        think through a subject, whether friendship, cruelty, idleness or the
+        education of children, without knowing in advance where the thinking will
+        end. He announced in his preface that he himself was the matter of his book.
+      - >-
+        To a modern reader the confession sounds harmless, even charming. In its
+        time it was close to scandalous. Serious books were expected to concern
+        serious things: God, law, the deeds of great men. A minor nobleman examining
+        his own habits, his kidney stones and his changing opinions seemed to waste
+        the reader's time. Yet Montaigne's self-examination was not vanity. He
+        studied himself because he was the one specimen of humanity he could observe
+        from the inside, and he found that specimen inconsistent, changeable and
+        often unsure.
+      - >-
+        That discovery shaped the form. An essay by Montaigne rarely proceeds in a
+        straight line. It starts with one topic, wanders through quotations and
+        anecdotes, contradicts an earlier claim, and sometimes ends far from where it
+        began. Critics have called this disorder. It is better described as
+        fidelity: a mind that changes as it thinks is rendered faithfully only by a
+        prose that changes too.
+      - >-
+        The essay's later history has not always honored this origin. In schools,
+        the essay became a tool of demonstration, a thesis stated in the first
+        paragraph and proved in the next three, which is precisely the kind of
+        foreknown argument Montaigne set out to avoid. There is nothing wrong with a
+        well-organized argument. But to call it an essay is to forget that the form
+        began as a way of finding out what one thinks, not of announcing it.
+  items:
+    - id: mcat-cars-0061
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The central thesis of the passage is that
+      options:
+        - text: Montaigne's essays were open-ended attempts to think, a form shaped by his changeable mind and largely abandoned by the school essay.
+          correct: true
+          why: This covers the origin of the form (P1), its shape (P2–P3) and the later departure from it (P4).
+        - text: Montaigne's essays are disorganized and should not be imitated.
+          trap: wrong_viewpoint
+          why: That is the critics' charge, which the author rejects.
+        - text: Montaigne wrote about himself mainly out of vanity.
+          trap: contradicts
+          why: The author says his self-examination "was not vanity."
+        - text: the five-paragraph essay is the best way to teach writing.
+          trap: contradicts
+          why: The author says such writing shouldn't be called an essay at all.
+      tldr: The essay began as a way of finding out what one thinks.
+      steps:
+        - label: Map
+          body: P1 the new form. P2 why Montaigne studied himself. P3 the form follows the mind. P4 schools forgot this.
+        - label: Thesis
+          body: The essay is an attempt, true to a changing mind.
+      takeaway: The thesis usually ties together the passage's history and its argument.
+
+    - id: mcat-cars-0062
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the passage, Montaigne studied himself mainly because
+      options:
+        - text: he was the only person he could observe from the inside.
+          correct: true
+          why: Paragraph 2 says he was "the one specimen of humanity he could observe from the inside."
+        - text: serious books were expected to focus on their authors.
+          trap: contradicts
+          why: Serious books were expected to concern God, law and great men.
+        - text: he wanted to become famous.
+          trap: contradicts
+          why: The author says his self-examination was not vanity.
+        - text: he had nothing else to write about.
+          trap: unsupported
+          why: He wrote about many subjects, from friendship to education.
+      tldr: He was the one case he could study from within.
+      steps:
+        - label: Locate
+          body: The second half of paragraph 2.
+        - label: Match
+          body: The only specimen he could observe from the inside.
+      takeaway: Detail answers paraphrase a specific sentence; find it before choosing.
+
+    - id: mcat-cars-0063
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author uses the word "fidelity" (paragraph 3) in order to
+      options:
+        - text: reframe the essays' wandering structure as a faithful record of a changing mind.
+          correct: true
+          why: The author offers "fidelity" in place of the critics' "disorder."
+        - text: criticize Montaigne for being disloyal to his sources.
+          trap: distortion
+          why: The word is about faithfulness to his own mind, not disloyalty.
+        - text: concede that the critics were right about the essays' disorder.
+          trap: wrong_direction
+          why: The author rejects "disorder" as the right description.
+        - text: describe Montaigne's religious beliefs.
+          trap: out_of_scope
+          why: Religion isn't the subject of this paragraph.
+      tldr: '"Fidelity" turns a flaw (disorder) into a virtue (faithfulness).'
+      steps:
+        - label: Context
+          body: '"Critics have called this disorder. It is better described as fidelity..."'
+        - label: Role
+          body: A positive reframing of the same feature.
+      takeaway: '"Better described as" signals that the author is replacing someone else''s label.'
+
+    - id: mcat-cars-0064
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following would the author most likely consider closest to the original spirit of the essay?
+      options:
+        - text: A reflection that begins with a question about forgiveness, weighs several examples, changes its mind midway and ends uncertain
+          correct: true
+          why: It thinks its way forward without a foreknown conclusion, like Montaigne's attempts.
+        - text: A report that states its conclusion first and supports it with three pieces of evidence
+          trap: different_structure
+          why: That is the school essay of demonstration the author contrasts with the original form.
+        - text: A biography of a king that lists his deeds in order
+          trap: out_of_scope
+          why: That resembles the "serious books" Montaigne departed from.
+        - text: A legal brief arguing for a client's innocence
+          trap: different_structure
+          why: A brief announces a fixed conclusion rather than finding one.
+      tldr: An essay in Montaigne's sense discovers its conclusion as it goes.
+      steps:
+        - label: The ideal
+          body: Finding out what one thinks, not announcing it.
+        - label: Match
+          body: Only the forgiveness reflection changes as it thinks.
+      takeaway: Apply the author's defining contrast (finding out vs. announcing) to each choice.
+
+    - id: mcat-cars-0065
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward well-organized school essays is best described as
+      options:
+        - text: accepting of their usefulness, but critical of calling them essays.
+          correct: true
+          why: The author says there is "nothing wrong" with them but that calling them essays forgets the form's origin.
+        - text: contemptuous.
+          trap: too_strong
+          why: The author explicitly sees nothing wrong with a well-organized argument.
+        - text: enthusiastic.
+          trap: contradicts
+          why: The author says they betray the form's origin.
+        - text: indifferent.
+          trap: contradicts
+          why: The author takes a clear position on what they should be called.
+      tldr: Fine as arguments, wrongly named as essays.
+      steps:
+        - label: Evidence
+          body: '"There is nothing wrong with a well-organized argument. But to call it an essay is to forget..."'
+        - label: Attitude
+          body: A qualified criticism.
+      takeaway: '"There is nothing wrong with X. But..." marks a mixed attitude, not contempt.'
+
+- passage:
+    id: mcat-cars-p14
+    title: The road with cannonballs
+    domain: humanities
+    paragraphs:
+      - >-
+        In 1855, during the Crimean War, the British photographer Roger Fenton made
+        two photographs of the same stretch of road in a ravine that soldiers called
+        the Valley of the Shadow of Death. In one, the road is scattered with
+        cannonballs. In the other, the cannonballs lie in the ditch beside it. Ever
+        since the two images were compared, people have argued about which came
+        first, and therefore about whether Fenton moved the cannonballs onto the
+        road to make a more dramatic picture.
+      - >-
+        The argument matters because of a belief that has followed photography from
+        its beginning: that a photograph, unlike a painting, is a trace of the world
+        rather than an interpretation of it. A painter can add a cannonball with a
+        stroke of the brush; a camera, the reasoning goes, can record only what is
+        there. If Fenton arranged the scene, he seems to have betrayed the medium's
+        special promise.
+      - >-
+        Yet every photograph involves choices. The photographer decides where to
+        stand, when to open the shutter, what to include at the edges of the frame
+        and what to leave outside it. Fenton's bulky equipment and long exposures
+        made truly spontaneous pictures impossible; nearly everything he photographed
+        had to hold still. The line between selecting a scene and arranging one is
+        less sharp than the controversy implies.
+      - >-
+        This does not mean that nothing was at stake. A viewer who believes the
+        cannonballs fell where they lie learns something about the danger of that
+        road; a viewer who learns they were placed there learns something different.
+        The ethics of the photograph depend less on whether choices were made, since
+        they always are, than on what the photograph leads its viewers to believe,
+        and whether that belief is true.
+  items:
+    - id: mcat-cars-0066
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 3
+      prompt: Which of the following best states the main point of the passage?
+      options:
+        - text: Because every photograph involves choices, the ethics of Fenton's image depends on whether it leads viewers to true beliefs, not on whether he arranged anything.
+          correct: true
+          why: P3 argues that choices are unavoidable, and P4 relocates the ethical question to what viewers are led to believe.
+        - text: Fenton certainly moved the cannonballs onto the road.
+          trap: unsupported
+          why: The author never settles which photograph came first.
+        - text: Photographs are no more reliable than paintings.
+          trap: too_strong
+          why: The author questions a simple trace-versus-interpretation contrast but never equates the two.
+        - text: Photographers should never arrange their subjects.
+          trap: contradicts
+          why: The author says arranging and selecting blur together and focuses instead on viewers' beliefs.
+      tldr: All photos involve choices; what matters is whether they mislead.
+      steps:
+        - label: Map
+          body: P1 the controversy. P2 why it matters. P3 choices are unavoidable. P4 the real ethical test.
+        - label: Main point
+          body: The test in P4, grounded in P3.
+      takeaway: When the author says "This does not mean...", the next sentences often state the real thesis.
+
+    - id: mcat-cars-0067
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: The passage suggests that knowing which photograph came first would reveal
+      options:
+        - text: whether the cannonballs were moved onto the road or off of it.
+          correct: true
+          why: The order tells whether the scattered-road version was staged, as paragraph 1 explains.
+        - text: which version is technically better.
+          trap: out_of_scope
+          why: Technical quality isn't at issue.
+        - text: how many soldiers died on the road.
+          trap: not_present
+          why: Casualties aren't discussed.
+        - text: whether Fenton was actually present at the war.
+          trap: unsupported
+          why: Fenton's presence isn't in doubt in the passage.
+      tldr: The order settles whether the drama was staged.
+      steps:
+        - label: Locate
+          body: '"...which came first, and therefore about whether Fenton moved the cannonballs..."'
+        - label: Infer
+          body: The sequence reveals the direction of any moving.
+      takeaway: '"And therefore" links two claims; the inference usually rides on that link.'
+
+    - id: mcat-cars-0068
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The discussion of Fenton's equipment and long exposures in paragraph 3 serves mainly to
+      options:
+        - text: support the claim that selecting a scene and arranging one are hard to separate.
+          correct: true
+          why: If everything had to hold still, Fenton's pictures were partly arranged by necessity.
+        - text: prove that Fenton did not move the cannonballs.
+          trap: too_strong
+          why: It shows his methods involved arranging, not what he did with the cannonballs.
+        - text: criticize the quality of early cameras.
+          trap: out_of_scope
+          why: The point concerns choices, not image quality.
+        - text: explain why the photographs were taken in a ravine.
+          trap: not_present
+          why: The location isn't explained by the equipment.
+      tldr: Slow cameras meant arranged scenes, so the line blurs.
+      steps:
+        - label: Context
+          body: The detail sits between "every photograph involves choices" and "the line... is less sharp."
+        - label: Role
+          body: Evidence for the blurred line.
+      takeaway: Details placed between a claim and its restatement are evidence for it.
+
+    - id: mcat-cars-0069
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: According to the author's view, which of the following photographs raises the most serious ethical concern?
+      options:
+        - text: A news photo for which debris was placed on a dry street to suggest that the street had flooded
+          correct: true
+          why: It leads viewers to a false belief about events, the author's test for an ethical problem.
+        - text: A portrait for which the subject was asked to sit by a window for better light
+          trap: true_irrelevant
+          why: The pose was arranged, but viewers aren't misled about anything that matters.
+        - text: A wildlife photo taken from a carefully chosen angle that shows an animal's real behavior
+          trap: true_irrelevant
+          why: Choices were made, but the belief the photo creates is true.
+        - text: A wedding photo in which the guests were asked to smile
+          trap: true_irrelevant
+          why: Arranged, but no one is deceived about the event.
+      tldr: The problem is a photo that leads viewers to believe something false.
+      steps:
+        - label: The test
+          body: What does the photo lead viewers to believe, and is it true?
+        - label: Apply
+          body: Only the staged flood creates a false belief about events.
+      takeaway: Apply the author's criterion, not your own sense of what seems staged.
+
+    - id: mcat-cars-0070
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward the controversy over Fenton's photographs is best described as
+      options:
+        - text: respectful of what is at stake, but skeptical of the controversy's main assumption.
+          correct: true
+          why: The author says something real was at stake but questions the sharp line between selecting and arranging.
+        - text: dismissive, since the author thinks nothing was at stake.
+          trap: contradicts
+          why: '"This does not mean that nothing was at stake."'
+        - text: outraged at Fenton's dishonesty.
+          trap: unsupported
+          why: The author never concludes that Fenton was dishonest.
+        - text: uninterested in the question.
+          trap: contradicts
+          why: The author engages the question closely.
+      tldr: Something real is at stake, but the controversy draws the wrong line.
+      steps:
+        - label: Evidence
+          body: P3 questions the line; P4 insists something was at stake.
+        - label: Attitude
+          body: Engaged and qualified.
+      takeaway: Authors who say "This does not mean..." are usually guarding a middle position.
+
+- passage:
+    id: mcat-cars-p15
+    title: The pleasure of ruins
+    domain: humanities
+    paragraphs:
+      - >-
+        In the eighteenth century, European travelers developed a taste that would
+        have puzzled many of their ancestors: they found ruins beautiful. Crumbling
+        abbeys, broken columns and overgrown castles, once seen as signs of neglect
+        or divine judgment, became destinations. Painters made careers of them, and
+        wealthy landowners who lacked a real ruin sometimes built one, a "folly"
+        designed from the start to look half destroyed.
+      - >-
+        Why should decay give pleasure? One answer is that ruins flatter the viewer.
+        To stand before the fallen walls of a once-mighty building is to feel the
+        passage of time while remaining, for the moment, outside it; the observer
+        survives what the empire did not. The melancholy is real, but it is a
+        comfortable melancholy, enjoyed at a safe distance.
+      - >-
+        A second answer looks to the imagination. A complete building tells its
+        story fully; a ruin leaves gaps that the viewer fills in. The missing roof
+        invites one to picture the hall it covered, and the vanished town invites one
+        to people the empty field. Ruins, on this view, please not despite their
+        incompleteness but because of it: they make the viewer a collaborator.
+      - >-
+        Both answers help explain the fashion, but neither explains its limits. The
+        same travelers who sighed over Roman stones rarely found beauty in the ruined
+        cottages of the poor around them, or in the damage of recent wars. Distance
+        seems to be essential. A ruin pleases when its destruction is old enough, or
+        far enough away, to be contemplated rather than suffered; when, in other
+        words, it has ceased to be anyone's loss.
+  items:
+    - id: mcat-cars-0071
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The passage is primarily concerned with
+      options:
+        - text: explaining why ruins pleased eighteenth-century viewers, and arguing that the pleasure depended on distance from real loss.
+          correct: true
+          why: It offers two explanations (P2–P3) and then the limiting condition of distance (P4).
+        - text: arguing that eighteenth-century travelers were indifferent to suffering.
+          trap: too_strong
+          why: The author notes a limit to their taste, not general indifference.
+        - text: showing that ruins are more beautiful than complete buildings.
+          trap: not_present
+          why: The author explains a taste without ranking buildings.
+        - text: tracing the history of the folly as an architectural form.
+          trap: too_narrow
+          why: Follies are one detail in paragraph 1.
+      tldr: >-
+        Two reasons ruins pleased, and one condition: distance.
+      steps:
+        - label: Map
+          body: P1 the taste. P2 flattery. P3 imagination. P4 the limit of distance.
+        - label: Purpose
+          body: To explain the taste and its limits.
+      takeaway: Main-idea answers should include the author's turn ("but neither explains its limits").
+
+    - id: mcat-cars-0072
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: As described in the passage, a "folly" was
+      options:
+        - text: a building made to look partly destroyed from the start.
+          correct: true
+          why: Paragraph 1 defines it as designed from the start to look half destroyed.
+        - text: a castle damaged in a recent war.
+          trap: contradicts
+          why: Recent damage is what travelers didn't find beautiful.
+        - text: a painting of a ruined abbey.
+          trap: distortion
+          why: Painters depicted ruins, but a folly was a built structure.
+        - text: a ruin restored to its original condition.
+          trap: contradicts
+          why: A folly was built to look ruined, not restored.
+      tldr: A folly was a ruin built on purpose.
+      steps:
+        - label: Locate
+          body: The last sentence of paragraph 1.
+        - label: Match
+          body: Designed from the start to look half destroyed.
+      takeaway: Definitions inside dashes or after "a" are prime material for detail questions.
+
+    - id: mcat-cars-0073
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The second explanation (paragraph 3) implies that a perfectly preserved ancient temple would be
+      options:
+        - text: less engaging to the viewer's imagination than the same temple in ruins.
+          correct: true
+          why: A complete building tells its story fully, leaving no gaps for the viewer to fill.
+        - text: more pleasurable than any ruin.
+          trap: contradicts
+          why: On this view, ruins please because of their incompleteness.
+        - text: closed to visitors.
+          trap: not_present
+          why: Access isn't discussed.
+        - text: a source of comfortable melancholy.
+          trap: wrong_viewpoint
+          why: Melancholy belongs to the first explanation and to ruins, not intact buildings.
+      tldr: No gaps means less for the imagination to do.
+      steps:
+        - label: The view
+          body: Ruins please because the viewer fills in gaps.
+        - label: Apply
+          body: A complete building leaves no gaps, so it engages the imagination less.
+      takeaway: To infer from a view, apply its reasoning to the new case.
+
+    - id: mcat-cars-0074
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author mentions the ruined cottages of the poor (paragraph 4) primarily in order to
+      options:
+        - text: identify a limit to the taste for ruins that neither explanation accounts for.
+          correct: true
+          why: Travelers didn't find these ruins beautiful, which neither flattery nor imagination explains.
+        - text: argue that eighteenth-century travelers should have helped the poor.
+          trap: not_present
+          why: The author makes no moral demand.
+        - text: give another example of a fashionable ruin.
+          trap: contradicts
+          why: These ruins were not found beautiful.
+        - text: support the claim that ruins flatter the viewer.
+          trap: distortion
+          why: The example points to a limit, not support for the first explanation.
+      tldr: The cottages show that recent, nearby ruin didn't please.
+      steps:
+        - label: Context
+          body: '"Both answers help explain the fashion, but neither explains its limits."'
+        - label: Role
+          body: The cottages are the limiting case.
+      takeaway: Examples right after "but neither explains" mark the gap in the explanations.
+
+    - id: mcat-cars-0075
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Based on the passage, which of the following would most likely be enjoyed the way eighteenth-century travelers enjoyed ruins?
+      options:
+        - text: The remains of a medieval fortress visited by tourists centuries after it was abandoned
+          correct: true
+          why: Its destruction is old enough to be contemplated rather than suffered.
+        - text: A neighborhood damaged by a hurricane last month
+          trap: contradicts
+          why: Recent destruction is still someone's loss.
+        - text: A cathedral that was completed last year
+          trap: out_of_scope
+          why: A complete new building isn't a ruin at all.
+        - text: A family's home after a recent fire
+          trap: contradicts
+          why: The loss is recent and personal.
+      tldr: Old, distant ruin pleases; recent loss doesn't.
+      steps:
+        - label: Condition
+          body: Destruction old or distant enough to be no one's loss.
+        - label: Match
+          body: The centuries-old fortress.
+      takeaway: Apply the author's limiting condition, not just the general taste.
+
+- passage:
+    id: mcat-cars-p16
+    title: Made by hand
+    domain: humanities
+    paragraphs:
+      - >-
+        In the second half of the nineteenth century, the English designer William
+        Morris led a revolt against the products of the factory. Machine-made
+        furniture, wallpaper and textiles, he argued, were cheap in every sense:
+        poorly designed, carelessly made and produced by workers who took no
+        pleasure in their labor. Against them Morris set the ideal of the craftsman,
+        who designed and made an object from start to finish and could take pride in
+        the result.
+      - >-
+        The movement Morris inspired produced work of extraordinary beauty,
+        including hand-printed fabrics, carved chairs and finely printed books, and it
+        changed the way many people thought about the objects in their homes. It also
+        ran into a contradiction that Morris himself recognized. Handmade goods took
+        far longer to produce than machine-made ones, and so they cost far more. The
+        workers whose dignity the movement championed could rarely afford what they
+        made; the buyers were mostly the wealthy.
+      - >-
+        Some critics conclude that the movement was simply nostalgic, a fantasy of a
+        medieval past that never existed. That judgment is too harsh. Morris's deeper
+        complaint was not against machines as such but against a way of organizing
+        work that separated the people who designed things from the people who made
+        them, and that treated workers as parts of a mechanism. That complaint did
+        not depend on rejecting technology, and it has outlived the movement.
+      - >-
+        Its legacy is visible today wherever people seek out the work of named
+        makers, or wherever designers insist on understanding the materials and
+        methods by which their designs will be produced. The question Morris raised,
+        whether work can be organized so that those who do it share in its meaning,
+        remains unanswered, but it has not gone away.
+  items:
+    - id: mcat-cars-0076
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Although Morris's movement could not make handmade goods affordable to workers, his critique of how work is organized remains relevant.
+          correct: true
+          why: The passage acknowledges the contradiction (P2) and defends the lasting critique (P3–P4).
+        - text: Morris wanted to abolish all machines.
+          trap: contradicts
+          why: His complaint "was not against machines as such."
+        - text: The movement succeeded in making beautiful goods available to ordinary workers.
+          trap: contradicts
+          why: Workers could rarely afford the goods.
+        - text: The movement's chief goal was to recreate a medieval past.
+          trap: wrong_viewpoint
+          why: That is the critics' view, which the author calls too harsh.
+      tldr: The movement failed on price, but its critique of work endures.
+      steps:
+        - label: Map
+          body: P1 the revolt. P2 the contradiction. P3 the deeper complaint. P4 the legacy.
+        - label: Main idea
+          body: A practical failure with a lasting insight.
+      takeaway: Look for the author's balance of concession and defense.
+
+    - id: mcat-cars-0077
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the passage, the contradiction Morris recognized was that
+      options:
+        - text: the workers the movement championed could rarely afford its products.
+          correct: true
+          why: Paragraph 2 says the buyers were mostly wealthy, not the workers.
+        - text: machines produced more beautiful goods than craftsmen did.
+          trap: contradicts
+          why: The movement produced work of extraordinary beauty.
+        - text: craftsmen refused to use traditional methods.
+          trap: not_present
+          why: Nothing suggests craftsmen rejected traditional methods.
+        - text: wealthy buyers preferred factory goods.
+          trap: contradicts
+          why: The wealthy were the main buyers of handmade goods.
+      tldr: The makers couldn't afford what they made.
+      steps:
+        - label: Locate
+          body: The end of paragraph 2.
+        - label: Match
+          body: Champions of workers, products for the wealthy.
+      takeaway: '"Contradiction" questions usually point to two facts the passage sets side by side.'
+
+    - id: mcat-cars-0078
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author's response to the critics in paragraph 3 serves mainly to
+      options:
+        - text: distinguish Morris's objection to the organization of work from a simple rejection of technology.
+          correct: true
+          why: The author says Morris's complaint "did not depend on rejecting technology."
+        - text: concede that the movement was mere nostalgia.
+          trap: wrong_direction
+          why: The author calls that judgment too harsh.
+        - text: prove that medieval workers were happier than factory workers.
+          trap: not_present
+          why: The passage makes no claim about medieval workers' happiness.
+        - text: explain how nineteenth-century factories operated.
+          trap: too_narrow
+          why: Factories are mentioned only to describe what Morris objected to.
+      tldr: The real target was how work was organized, not machines.
+      steps:
+        - label: Context
+          body: '"That judgment is too harsh. Morris''s deeper complaint was not against machines as such..."'
+        - label: Role
+          body: It separates the critique from mere nostalgia or technophobia.
+      takeaway: '"Too harsh" introduces a correction; the function is to refine, not to reject.'
+
+    - id: mcat-cars-0079
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which of the following modern practices would the author most likely regard as part of Morris's legacy?
+      options:
+        - text: A furniture company whose designers work in the shop to learn how their designs are built
+          correct: true
+          why: It reconnects design and making, as the author says the legacy does.
+        - text: A factory that replaces its designers with software
+          trap: contradicts
+          why: That separates designing from making even further.
+        - text: A store that sells mass-produced copies of antique chairs
+          trap: out_of_scope
+          why: Copying old styles isn't the legacy the author describes.
+        - text: A museum that displays medieval tools behind glass
+          trap: out_of_scope
+          why: The legacy concerns how work is organized, not preserving the past.
+      tldr: Designers who understand how things are made carry the legacy.
+      steps:
+        - label: The legacy
+          body: Named makers, and designers who understand materials and methods.
+        - label: Match
+          body: Designers working in the shop.
+      takeaway: Application answers often mirror the author's own examples from the last paragraph.
+
+    - id: mcat-cars-0080
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward Morris is best described as
+      options:
+        - text: appreciative of his central insight, while acknowledging the movement's practical shortcomings.
+          correct: true
+          why: The author grants the cost problem but defends the critique as lasting.
+        - text: wholly uncritical.
+          trap: too_strong
+          why: The author acknowledges the movement's contradiction.
+        - text: dismissive of him as a nostalgic dreamer.
+          trap: wrong_viewpoint
+          why: That is the critics' judgment, which the author rejects.
+        - text: neutral and purely descriptive.
+          trap: contradicts
+          why: The author takes a position against the critics.
+      tldr: Admiring, with an honest note about cost.
+      steps:
+        - label: Evidence
+          body: The concession in P2 and the defense in P3–P4.
+        - label: Attitude
+          body: Appreciative and balanced.
+      takeaway: Balanced passages call for balanced tone answers.

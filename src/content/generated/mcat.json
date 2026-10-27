@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "502187d9178c",
- "generatedAt": "2026-10-27T18:54:39.002Z",
+ "version": "bfb67b966dcb",
+ "generatedAt": "2026-10-27T19:01:15.253Z",
  "items": [
   {
    "id": "mcat-bb-6000",
@@ -22172,6 +22172,1556 @@
    "status": "review"
   },
   {
+   "id": "mcat-cars-0056",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p12",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 19,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Gardens should be designed without any regard for politics.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author describes gardens' politics but recommends nothing."
+    },
+    {
+     "id": "B",
+     "text": "Formal and landscape gardens both expressed claims about human control of nature, and the landscape style hid that control rather than giving it up.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage treats both styles as arguments (P1–P3) and concludes that the landscape style concealed power (P4)."
+    },
+    {
+     "id": "C",
+     "text": "English landscape gardens were more natural than French formal gardens.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says the landscape was \"no less a construction.\""
+    },
+    {
+     "id": "D",
+     "text": "Formal gardens reflected royal power, while landscape gardens carried no political meaning.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Admirers tied the landscape style to English political liberty."
+    }
+   ],
+   "tldr": "Both styles argued about control; one displayed it, the other disguised it.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 gardens as arguments. P2 formal control. P3 landscape \"freedom\" that was also built. P4 two ways of displaying power."
+    },
+    {
+     "label": "Main idea",
+     "body": "The contrast in P4, supported by P2 and P3."
+    }
+   ],
+   "takeaway": "When a passage ends by reframing a contrast, that reframing is usually the main idea.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0057",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p12",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.95,
+   "rank": 34,
+   "targetSec": 102,
+   "prompt": "According to the passage, landscape gardeners sometimes",
+   "options": [
+    {
+     "id": "A",
+     "text": "clipped hedges into walls and cones.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "Clipped hedges are a feature of the formal garden."
+    },
+    {
+     "id": "B",
+     "text": "forced water upward in fountains.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "Fountains belong to the French formal garden."
+    },
+    {
+     "id": "C",
+     "text": "moved villages so that they would not interrupt an owner's view.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 3 says villages were sometimes moved out of the view."
+    },
+    {
+     "id": "D",
+     "text": "laid out long straight avenues toward the horizon.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Landscape gardeners removed straight lines."
+    }
+   ],
+   "tldr": "Landscape gardeners even moved villages to keep the view \"natural.\"",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The last sentence of paragraph 3."
+    },
+    {
+     "label": "Match",
+     "body": "Villages moved out of the view."
+    }
+   ],
+   "takeaway": "Keep each feature attached to the style the passage gives it to.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0058",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p12",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "rating": 3.35,
+   "rank": 61,
+   "targetSec": 102,
+   "prompt": "The author mentions that admirers connected the landscape style with \"English political liberty\" primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "prove that England was a freer country than France.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author reports the admirers' view without endorsing it."
+    },
+    {
+     "id": "B",
+     "text": "explain why the formal style became popular in France.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The remark concerns the English style."
+    },
+    {
+     "id": "C",
+     "text": "criticize the admirers for ignoring beauty.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never faults the admirers' taste."
+    },
+    {
+     "id": "D",
+     "text": "show that the landscape style, like the formal style, carried a political meaning.",
+     "correct": true,
+     "trap": null,
+     "why": "It extends the passage's claim that gardens are arguments to the English style too."
+    }
+   ],
+   "tldr": "The liberty link shows that the \"natural\" style was political too.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "It comes right before \"But the natural landscape was no less a construction.\""
+    },
+    {
+     "label": "Role",
+     "body": "It sets up the claim that both styles made political arguments."
+    }
+   ],
+   "takeaway": "A view the author reports and then complicates usually sets up the author's own point.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0059",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p12",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 5,
+   "rating": 3.75,
+   "rank": 96,
+   "targetSec": 102,
+   "prompt": "Based on the passage, which of the following is most analogous to the landscape garden?",
+   "options": [
+    {
+     "id": "A",
+     "text": "An office designed to feel casual and free of hierarchy, while managers still monitor employees closely",
+     "correct": true,
+     "trap": null,
+     "why": "Control persists but is hidden behind an appearance of freedom, the author's reading of the landscape garden."
+    },
+    {
+     "id": "B",
+     "text": "A palace throne room that raises the ruler high above the floor",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That displays power openly, like the formal garden."
+    },
+    {
+     "id": "C",
+     "text": "A vegetable plot laid out in straight rows for easy harvesting",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Practical order isn't the disguised power the analogy needs."
+    },
+    {
+     "id": "D",
+     "text": "A wilderness area that people have never altered",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "The landscape garden was heavily altered; it only looked untouched."
+    }
+   ],
+   "tldr": "Hidden control behind a look of freedom is the landscape garden's pattern.",
+   "steps": [
+    {
+     "label": "Abstract it",
+     "body": "Real control, presented as effortless freedom."
+    },
+    {
+     "label": "Match",
+     "body": "The casual office with close monitoring fits."
+    }
+   ],
+   "takeaway": "For analogies, match the structure (hidden control), not the subject matter.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0060",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p12",
+   "position": 5,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 86,
+   "targetSec": 102,
+   "prompt": "The question in the passage's final sentence suggests that the author",
+   "options": [
+    {
+     "id": "A",
+     "text": "considers the question of honesty unimportant.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author calls it worth asking."
+    },
+    {
+     "id": "B",
+     "text": "wants readers to stop visiting historic gardens.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Nothing in the passage discourages visiting gardens."
+    },
+    {
+     "id": "C",
+     "text": "believes the formal garden was more honest than the landscape garden.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author poses the question without answering it."
+    },
+    {
+     "id": "D",
+     "text": "thinks open and concealed displays of power are worth comparing in other areas of life.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says the question of honesty is \"worth asking of more than gardens.\""
+    }
+   ],
+   "tldr": "The author leaves the question open but wants it asked widely.",
+   "steps": [
+    {
+     "label": "Read the sentence",
+     "body": "\"Which is more honest is a question worth asking of more than gardens.\""
+    },
+    {
+     "label": "Infer",
+     "body": "The author values the comparison beyond gardens but doesn't settle it."
+    }
+   ],
+   "takeaway": "A closing question usually signals what the author wants readers to consider, not a hidden answer.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0061",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p13",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 12,
+   "targetSec": 102,
+   "prompt": "The central thesis of the passage is that",
+   "options": [
+    {
+     "id": "A",
+     "text": "Montaigne wrote about himself mainly out of vanity.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says his self-examination \"was not vanity.\""
+    },
+    {
+     "id": "B",
+     "text": "Montaigne's essays were open-ended attempts to think, a form shaped by his changeable mind and largely abandoned by the school essay.",
+     "correct": true,
+     "trap": null,
+     "why": "This covers the origin of the form (P1), its shape (P2–P3) and the later departure from it (P4)."
+    },
+    {
+     "id": "C",
+     "text": "Montaigne's essays are disorganized and should not be imitated.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the critics' charge, which the author rejects."
+    },
+    {
+     "id": "D",
+     "text": "the five-paragraph essay is the best way to teach writing.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says such writing shouldn't be called an essay at all."
+    }
+   ],
+   "tldr": "The essay began as a way of finding out what one thinks.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the new form. P2 why Montaigne studied himself. P3 the form follows the mind. P4 schools forgot this."
+    },
+    {
+     "label": "Thesis",
+     "body": "The essay is an attempt, true to a changing mind."
+    }
+   ],
+   "takeaway": "The thesis usually ties together the passage's history and its argument.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0062",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p13",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.85,
+   "rank": 27,
+   "targetSec": 102,
+   "prompt": "According to the passage, Montaigne studied himself mainly because",
+   "options": [
+    {
+     "id": "A",
+     "text": "he had nothing else to write about.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "He wrote about many subjects, from friendship to education."
+    },
+    {
+     "id": "B",
+     "text": "serious books were expected to focus on their authors.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Serious books were expected to concern God, law and great men."
+    },
+    {
+     "id": "C",
+     "text": "he was the only person he could observe from the inside.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 says he was \"the one specimen of humanity he could observe from the inside.\""
+    },
+    {
+     "id": "D",
+     "text": "he wanted to become famous.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says his self-examination was not vanity."
+    }
+   ],
+   "tldr": "He was the one case he could study from within.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The second half of paragraph 2."
+    },
+    {
+     "label": "Match",
+     "body": "The only specimen he could observe from the inside."
+    }
+   ],
+   "takeaway": "Detail answers paraphrase a specific sentence; find it before choosing.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0063",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p13",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 73,
+   "targetSec": 102,
+   "prompt": "The author uses the word \"fidelity\" (paragraph 3) in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "reframe the essays' wandering structure as a faithful record of a changing mind.",
+     "correct": true,
+     "trap": null,
+     "why": "The author offers \"fidelity\" in place of the critics' \"disorder.\""
+    },
+    {
+     "id": "B",
+     "text": "describe Montaigne's religious beliefs.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Religion isn't the subject of this paragraph."
+    },
+    {
+     "id": "C",
+     "text": "criticize Montaigne for being disloyal to his sources.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The word is about faithfulness to his own mind, not disloyalty."
+    },
+    {
+     "id": "D",
+     "text": "concede that the critics were right about the essays' disorder.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author rejects \"disorder\" as the right description."
+    }
+   ],
+   "tldr": "\"Fidelity\" turns a flaw (disorder) into a virtue (faithfulness).",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"Critics have called this disorder. It is better described as fidelity...\""
+    },
+    {
+     "label": "Role",
+     "body": "A positive reframing of the same feature."
+    }
+   ],
+   "takeaway": "\"Better described as\" signals that the author is replacing someone else's label.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0064",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p13",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 4,
+   "rating": 3.44,
+   "rank": 80,
+   "targetSec": 102,
+   "prompt": "Which of the following would the author most likely consider closest to the original spirit of the essay?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A reflection that begins with a question about forgiveness, weighs several examples, changes its mind midway and ends uncertain",
+     "correct": true,
+     "trap": null,
+     "why": "It thinks its way forward without a foreknown conclusion, like Montaigne's attempts."
+    },
+    {
+     "id": "B",
+     "text": "A legal brief arguing for a client's innocence",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "A brief announces a fixed conclusion rather than finding one."
+    },
+    {
+     "id": "C",
+     "text": "A report that states its conclusion first and supports it with three pieces of evidence",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That is the school essay of demonstration the author contrasts with the original form."
+    },
+    {
+     "id": "D",
+     "text": "A biography of a king that lists his deeds in order",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "That resembles the \"serious books\" Montaigne departed from."
+    }
+   ],
+   "tldr": "An essay in Montaigne's sense discovers its conclusion as it goes.",
+   "steps": [
+    {
+     "label": "The ideal",
+     "body": "Finding out what one thinks, not announcing it."
+    },
+    {
+     "label": "Match",
+     "body": "Only the forgiveness reflection changes as it thinks."
+    }
+   ],
+   "takeaway": "Apply the author's defining contrast (finding out vs. announcing) to each choice.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0065",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p13",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 1,
+   "rating": 2.7,
+   "rank": 2,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward well-organized school essays is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "contemptuous.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author explicitly sees nothing wrong with a well-organized argument."
+    },
+    {
+     "id": "B",
+     "text": "indifferent.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author takes a clear position on what they should be called."
+    },
+    {
+     "id": "C",
+     "text": "accepting of their usefulness, but critical of calling them essays.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says there is \"nothing wrong\" with them but that calling them essays forgets the form's origin."
+    },
+    {
+     "id": "D",
+     "text": "enthusiastic.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says they betray the form's origin."
+    }
+   ],
+   "tldr": "Fine as arguments, wrongly named as essays.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"There is nothing wrong with a well-organized argument. But to call it an essay is to forget...\""
+    },
+    {
+     "label": "Attitude",
+     "body": "A qualified criticism."
+    }
+   ],
+   "takeaway": "\"There is nothing wrong with X. But...\" marks a mixed attitude, not contempt.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0066",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p14",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 45,
+   "targetSec": 102,
+   "prompt": "Which of the following best states the main point of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Because every photograph involves choices, the ethics of Fenton's image depends on whether it leads viewers to true beliefs, not on whether he arranged anything.",
+     "correct": true,
+     "trap": null,
+     "why": "P3 argues that choices are unavoidable, and P4 relocates the ethical question to what viewers are led to believe."
+    },
+    {
+     "id": "B",
+     "text": "Photographs are no more reliable than paintings.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author questions a simple trace-versus-interpretation contrast but never equates the two."
+    },
+    {
+     "id": "C",
+     "text": "Fenton certainly moved the cannonballs onto the road.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never settles which photograph came first."
+    },
+    {
+     "id": "D",
+     "text": "Photographers should never arrange their subjects.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says arranging and selecting blur together and focuses instead on viewers' beliefs."
+    }
+   ],
+   "tldr": "All photos involve choices; what matters is whether they mislead.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the controversy. P2 why it matters. P3 choices are unavoidable. P4 the real ethical test."
+    },
+    {
+     "label": "Main point",
+     "body": "The test in P4, grounded in P3."
+    }
+   ],
+   "takeaway": "When the author says \"This does not mean...\", the next sentences often state the real thesis.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0067",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p14",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "rating": 3.2,
+   "rank": 49,
+   "targetSec": 102,
+   "prompt": "The passage suggests that knowing which photograph came first would reveal",
+   "options": [
+    {
+     "id": "A",
+     "text": "which version is technically better.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Technical quality isn't at issue."
+    },
+    {
+     "id": "B",
+     "text": "whether the cannonballs were moved onto the road or off of it.",
+     "correct": true,
+     "trap": null,
+     "why": "The order tells whether the scattered-road version was staged, as paragraph 1 explains."
+    },
+    {
+     "id": "C",
+     "text": "whether Fenton was actually present at the war.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Fenton's presence isn't in doubt in the passage."
+    },
+    {
+     "id": "D",
+     "text": "how many soldiers died on the road.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Casualties aren't discussed."
+    }
+   ],
+   "tldr": "The order settles whether the drama was staged.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "\"...which came first, and therefore about whether Fenton moved the cannonballs...\""
+    },
+    {
+     "label": "Infer",
+     "body": "The sequence reveals the direction of any moving."
+    }
+   ],
+   "takeaway": "\"And therefore\" links two claims; the inference usually rides on that link.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0068",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p14",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "rating": 3.35,
+   "rank": 59,
+   "targetSec": 102,
+   "prompt": "The discussion of Fenton's equipment and long exposures in paragraph 3 serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "criticize the quality of early cameras.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The point concerns choices, not image quality."
+    },
+    {
+     "id": "B",
+     "text": "support the claim that selecting a scene and arranging one are hard to separate.",
+     "correct": true,
+     "trap": null,
+     "why": "If everything had to hold still, Fenton's pictures were partly arranged by necessity."
+    },
+    {
+     "id": "C",
+     "text": "prove that Fenton did not move the cannonballs.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "It shows his methods involved arranging, not what he did with the cannonballs."
+    },
+    {
+     "id": "D",
+     "text": "explain why the photographs were taken in a ravine.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The location isn't explained by the equipment."
+    }
+   ],
+   "tldr": "Slow cameras meant arranged scenes, so the line blurs.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "The detail sits between \"every photograph involves choices\" and \"the line... is less sharp.\""
+    },
+    {
+     "label": "Role",
+     "body": "Evidence for the blurred line."
+    }
+   ],
+   "takeaway": "Details placed between a claim and its restatement are evidence for it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0069",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p14",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 5,
+   "rating": 3.85,
+   "rank": 100,
+   "targetSec": 102,
+   "prompt": "According to the author's view, which of the following photographs raises the most serious ethical concern?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A wildlife photo taken from a carefully chosen angle that shows an animal's real behavior",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Choices were made, but the belief the photo creates is true."
+    },
+    {
+     "id": "B",
+     "text": "A portrait for which the subject was asked to sit by a window for better light",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The pose was arranged, but viewers aren't misled about anything that matters."
+    },
+    {
+     "id": "C",
+     "text": "A news photo for which debris was placed on a dry street to suggest that the street had flooded",
+     "correct": true,
+     "trap": null,
+     "why": "It leads viewers to a false belief about events, the author's test for an ethical problem."
+    },
+    {
+     "id": "D",
+     "text": "A wedding photo in which the guests were asked to smile",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Arranged, but no one is deceived about the event."
+    }
+   ],
+   "tldr": "The problem is a photo that leads viewers to believe something false.",
+   "steps": [
+    {
+     "label": "The test",
+     "body": "What does the photo lead viewers to believe, and is it true?"
+    },
+    {
+     "label": "Apply",
+     "body": "Only the staged flood creates a false belief about events."
+    }
+   ],
+   "takeaway": "Apply the author's criterion, not your own sense of what seems staged.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0070",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p14",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 1,
+   "rating": 2.7,
+   "rank": 5,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward the controversy over Fenton's photographs is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "outraged at Fenton's dishonesty.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never concludes that Fenton was dishonest."
+    },
+    {
+     "id": "B",
+     "text": "dismissive, since the author thinks nothing was at stake.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "\"This does not mean that nothing was at stake.\""
+    },
+    {
+     "id": "C",
+     "text": "respectful of what is at stake, but skeptical of the controversy's main assumption.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says something real was at stake but questions the sharp line between selecting and arranging."
+    },
+    {
+     "id": "D",
+     "text": "uninterested in the question.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author engages the question closely."
+    }
+   ],
+   "tldr": "Something real is at stake, but the controversy draws the wrong line.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "P3 questions the line; P4 insists something was at stake."
+    },
+    {
+     "label": "Attitude",
+     "body": "Engaged and qualified."
+    }
+   ],
+   "takeaway": "Authors who say \"This does not mean...\" are usually guarding a middle position.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0071",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p15",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 10,
+   "targetSec": 102,
+   "prompt": "The passage is primarily concerned with",
+   "options": [
+    {
+     "id": "A",
+     "text": "explaining why ruins pleased eighteenth-century viewers, and arguing that the pleasure depended on distance from real loss.",
+     "correct": true,
+     "trap": null,
+     "why": "It offers two explanations (P2–P3) and then the limiting condition of distance (P4)."
+    },
+    {
+     "id": "B",
+     "text": "showing that ruins are more beautiful than complete buildings.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author explains a taste without ranking buildings."
+    },
+    {
+     "id": "C",
+     "text": "arguing that eighteenth-century travelers were indifferent to suffering.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author notes a limit to their taste, not general indifference."
+    },
+    {
+     "id": "D",
+     "text": "tracing the history of the folly as an architectural form.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "Follies are one detail in paragraph 1."
+    }
+   ],
+   "tldr": "Two reasons ruins pleased, and one condition: distance.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the taste. P2 flattery. P3 imagination. P4 the limit of distance."
+    },
+    {
+     "label": "Purpose",
+     "body": "To explain the taste and its limits."
+    }
+   ],
+   "takeaway": "Main-idea answers should include the author's turn (\"but neither explains its limits\").",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0072",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p15",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.9,
+   "rank": 31,
+   "targetSec": 102,
+   "prompt": "As described in the passage, a \"folly\" was",
+   "options": [
+    {
+     "id": "A",
+     "text": "a painting of a ruined abbey.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Painters depicted ruins, but a folly was a built structure."
+    },
+    {
+     "id": "B",
+     "text": "a castle damaged in a recent war.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Recent damage is what travelers didn't find beautiful."
+    },
+    {
+     "id": "C",
+     "text": "a building made to look partly destroyed from the start.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 1 defines it as designed from the start to look half destroyed."
+    },
+    {
+     "id": "D",
+     "text": "a ruin restored to its original condition.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "A folly was built to look ruined, not restored."
+    }
+   ],
+   "tldr": "A folly was a ruin built on purpose.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The last sentence of paragraph 1."
+    },
+    {
+     "label": "Match",
+     "body": "Designed from the start to look half destroyed."
+    }
+   ],
+   "takeaway": "Definitions inside dashes or after \"a\" are prime material for detail questions.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0073",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p15",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.6,
+   "rank": 92,
+   "targetSec": 102,
+   "prompt": "The second explanation (paragraph 3) implies that a perfectly preserved ancient temple would be",
+   "options": [
+    {
+     "id": "A",
+     "text": "less engaging to the viewer's imagination than the same temple in ruins.",
+     "correct": true,
+     "trap": null,
+     "why": "A complete building tells its story fully, leaving no gaps for the viewer to fill."
+    },
+    {
+     "id": "B",
+     "text": "a source of comfortable melancholy.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "Melancholy belongs to the first explanation and to ruins, not intact buildings."
+    },
+    {
+     "id": "C",
+     "text": "more pleasurable than any ruin.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "On this view, ruins please because of their incompleteness."
+    },
+    {
+     "id": "D",
+     "text": "closed to visitors.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Access isn't discussed."
+    }
+   ],
+   "tldr": "No gaps means less for the imagination to do.",
+   "steps": [
+    {
+     "label": "The view",
+     "body": "Ruins please because the viewer fills in gaps."
+    },
+    {
+     "label": "Apply",
+     "body": "A complete building leaves no gaps, so it engages the imagination less."
+    }
+   ],
+   "takeaway": "To infer from a view, apply its reasoning to the new case.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0074",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p15",
+   "position": 4,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 43,
+   "targetSec": 102,
+   "prompt": "The author mentions the ruined cottages of the poor (paragraph 4) primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "support the claim that ruins flatter the viewer.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The example points to a limit, not support for the first explanation."
+    },
+    {
+     "id": "B",
+     "text": "argue that eighteenth-century travelers should have helped the poor.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author makes no moral demand."
+    },
+    {
+     "id": "C",
+     "text": "identify a limit to the taste for ruins that neither explanation accounts for.",
+     "correct": true,
+     "trap": null,
+     "why": "Travelers didn't find these ruins beautiful, which neither flattery nor imagination explains."
+    },
+    {
+     "id": "D",
+     "text": "give another example of a fashionable ruin.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "These ruins were not found beautiful."
+    }
+   ],
+   "tldr": "The cottages show that recent, nearby ruin didn't please.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"Both answers help explain the fashion, but neither explains its limits.\""
+    },
+    {
+     "label": "Role",
+     "body": "The cottages are the limiting case."
+    }
+   ],
+   "takeaway": "Examples right after \"but neither explains\" mark the gap in the explanations.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0075",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p15",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 70,
+   "targetSec": 102,
+   "prompt": "Based on the passage, which of the following would most likely be enjoyed the way eighteenth-century travelers enjoyed ruins?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A neighborhood damaged by a hurricane last month",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Recent destruction is still someone's loss."
+    },
+    {
+     "id": "B",
+     "text": "The remains of a medieval fortress visited by tourists centuries after it was abandoned",
+     "correct": true,
+     "trap": null,
+     "why": "Its destruction is old enough to be contemplated rather than suffered."
+    },
+    {
+     "id": "C",
+     "text": "A family's home after a recent fire",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The loss is recent and personal."
+    },
+    {
+     "id": "D",
+     "text": "A cathedral that was completed last year",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "A complete new building isn't a ruin at all."
+    }
+   ],
+   "tldr": "Old, distant ruin pleases; recent loss doesn't.",
+   "steps": [
+    {
+     "label": "Condition",
+     "body": "Destruction old or distant enough to be no one's loss."
+    },
+    {
+     "label": "Match",
+     "body": "The centuries-old fortress."
+    }
+   ],
+   "takeaway": "Apply the author's limiting condition, not just the general taste.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0076",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p16",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 20,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Morris wanted to abolish all machines.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "His complaint \"was not against machines as such.\""
+    },
+    {
+     "id": "B",
+     "text": "Although Morris's movement could not make handmade goods affordable to workers, his critique of how work is organized remains relevant.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage acknowledges the contradiction (P2) and defends the lasting critique (P3–P4)."
+    },
+    {
+     "id": "C",
+     "text": "The movement's chief goal was to recreate a medieval past.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the critics' view, which the author calls too harsh."
+    },
+    {
+     "id": "D",
+     "text": "The movement succeeded in making beautiful goods available to ordinary workers.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Workers could rarely afford the goods."
+    }
+   ],
+   "tldr": "The movement failed on price, but its critique of work endures.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the revolt. P2 the contradiction. P3 the deeper complaint. P4 the legacy."
+    },
+    {
+     "label": "Main idea",
+     "body": "A practical failure with a lasting insight."
+    }
+   ],
+   "takeaway": "Look for the author's balance of concession and defense.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0077",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p16",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.85,
+   "rank": 28,
+   "targetSec": 102,
+   "prompt": "According to the passage, the contradiction Morris recognized was that",
+   "options": [
+    {
+     "id": "A",
+     "text": "wealthy buyers preferred factory goods.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The wealthy were the main buyers of handmade goods."
+    },
+    {
+     "id": "B",
+     "text": "the workers the movement championed could rarely afford its products.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 says the buyers were mostly wealthy, not the workers."
+    },
+    {
+     "id": "C",
+     "text": "craftsmen refused to use traditional methods.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Nothing suggests craftsmen rejected traditional methods."
+    },
+    {
+     "id": "D",
+     "text": "machines produced more beautiful goods than craftsmen did.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The movement produced work of extraordinary beauty."
+    }
+   ],
+   "tldr": "The makers couldn't afford what they made.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The end of paragraph 2."
+    },
+    {
+     "label": "Match",
+     "body": "Champions of workers, products for the wealthy."
+    }
+   ],
+   "takeaway": "\"Contradiction\" questions usually point to two facts the passage sets side by side.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0078",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p16",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 4,
+   "rating": 3.4,
+   "rank": 74,
+   "targetSec": 102,
+   "prompt": "The author's response to the critics in paragraph 3 serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "prove that medieval workers were happier than factory workers.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage makes no claim about medieval workers' happiness."
+    },
+    {
+     "id": "B",
+     "text": "explain how nineteenth-century factories operated.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "Factories are mentioned only to describe what Morris objected to."
+    },
+    {
+     "id": "C",
+     "text": "distinguish Morris's objection to the organization of work from a simple rejection of technology.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says Morris's complaint \"did not depend on rejecting technology.\""
+    },
+    {
+     "id": "D",
+     "text": "concede that the movement was mere nostalgia.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author calls that judgment too harsh."
+    }
+   ],
+   "tldr": "The real target was how work was organized, not machines.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"That judgment is too harsh. Morris's deeper complaint was not against machines as such...\""
+    },
+    {
+     "label": "Role",
+     "body": "It separates the critique from mere nostalgia or technophobia."
+    }
+   ],
+   "takeaway": "\"Too harsh\" introduces a correction; the function is to refine, not to reject.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0079",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p16",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 68,
+   "targetSec": 102,
+   "prompt": "Which of the following modern practices would the author most likely regard as part of Morris's legacy?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A museum that displays medieval tools behind glass",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The legacy concerns how work is organized, not preserving the past."
+    },
+    {
+     "id": "B",
+     "text": "A store that sells mass-produced copies of antique chairs",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Copying old styles isn't the legacy the author describes."
+    },
+    {
+     "id": "C",
+     "text": "A factory that replaces its designers with software",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "That separates designing from making even further."
+    },
+    {
+     "id": "D",
+     "text": "A furniture company whose designers work in the shop to learn how their designs are built",
+     "correct": true,
+     "trap": null,
+     "why": "It reconnects design and making, as the author says the legacy does."
+    }
+   ],
+   "tldr": "Designers who understand how things are made carry the legacy.",
+   "steps": [
+    {
+     "label": "The legacy",
+     "body": "Named makers, and designers who understand materials and methods."
+    },
+    {
+     "label": "Match",
+     "body": "Designers working in the shop."
+    }
+   ],
+   "takeaway": "Application answers often mirror the author's own examples from the last paragraph.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0080",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p16",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 16,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward Morris is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "appreciative of his central insight, while acknowledging the movement's practical shortcomings.",
+     "correct": true,
+     "trap": null,
+     "why": "The author grants the cost problem but defends the critique as lasting."
+    },
+    {
+     "id": "B",
+     "text": "wholly uncritical.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author acknowledges the movement's contradiction."
+    },
+    {
+     "id": "C",
+     "text": "dismissive of him as a nostalgic dreamer.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the critics' judgment, which the author rejects."
+    },
+    {
+     "id": "D",
+     "text": "neutral and purely descriptive.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author takes a position against the critics."
+    }
+   ],
+   "tldr": "Admiring, with an honest note about cost.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "The concession in P2 and the defense in P3–P4."
+    },
+    {
+     "label": "Attitude",
+     "body": "Appreciative and balanced."
+    }
+   ],
+   "takeaway": "Balanced passages call for balanced tone answers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-cars-0006",
    "version": 1,
    "exam": "MCAT",
@@ -22185,7 +23735,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 6,
+   "rank": 14,
    "targetSec": 102,
    "prompt": "The author's primary purpose in the passage is to",
    "options": [
@@ -22245,9 +23795,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
    "rating": 3.4,
-   "rank": 35,
+   "rank": 76,
    "targetSec": 102,
    "prompt": "The author mentions final glazes added over dry fresco (paragraph 2) primarily in order to",
    "options": [
@@ -22309,7 +23859,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 46,
+   "rank": 93,
    "targetSec": 102,
    "prompt": "Based on the passage, the author would most likely agree that a defender of patina",
    "options": [
@@ -22371,7 +23921,7 @@
    ],
    "difficulty": 4,
    "rating": 3.52,
-   "rank": 40,
+   "rank": 83,
    "targetSec": 102,
    "prompt": "Which of the following would the author most likely regard as responsible restoration?",
    "options": [
@@ -22433,7 +23983,7 @@
    ],
    "difficulty": 2,
    "rating": 2.8,
-   "rank": 12,
+   "rank": 24,
    "targetSec": 102,
    "prompt": "The author's attitude toward the two answers described in paragraphs 2 and 3 is best described as",
    "options": [
@@ -22495,7 +24045,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 8,
+   "rank": 17,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -22557,7 +24107,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 33,
+   "rank": 72,
    "targetSec": 102,
    "prompt": "The author's remark about climate-controlled vaults (paragraph 2) serves mainly to",
    "options": [
@@ -22619,7 +24169,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 43,
+   "rank": 87,
    "targetSec": 102,
    "prompt": "The author's concern about reconstructed displays (paragraph 3) suggests that the author believes",
    "options": [
@@ -22681,7 +24231,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 30,
+   "rank": 63,
    "targetSec": 102,
    "prompt": "Which of the following museum policies would the author most likely support?",
    "options": [
@@ -22743,7 +24293,7 @@
    ],
    "difficulty": 5,
    "rating": 4.45,
-   "rank": 55,
+   "rank": 105,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the author's claim that collaboration is \"a more promising approach\"?",
    "options": [
@@ -22803,9 +24353,9 @@
    "knowledgePoints": [
     "kp-cars-main-idea"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "rating": 2.8,
-   "rank": 11,
+   "rank": 23,
    "targetSec": 102,
    "prompt": "The passage is primarily concerned with",
    "options": [
@@ -22865,9 +24415,9 @@
    "knowledgePoints": [
     "kp-cars-inference"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "rating": 3.2,
-   "rank": 24,
+   "rank": 50,
    "targetSec": 102,
    "prompt": "According to the passage, letters and diaries suited the eighteenth-century novel because they",
    "options": [
@@ -22927,9 +24477,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
    "rating": 3.4,
-   "rank": 34,
+   "rank": 75,
    "targetSec": 102,
    "prompt": "The author calls the novel's critics \"among its most perceptive readers\" in order to",
    "options": [
@@ -22991,7 +24541,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 47,
+   "rank": 94,
    "targetSec": 102,
    "prompt": "Which of the following can most reasonably be inferred about the \"new kind of public\" described in paragraph 4?",
    "options": [
@@ -23051,9 +24601,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
    "rating": 3.45,
-   "rank": 38,
+   "rank": 81,
    "targetSec": 102,
    "prompt": "Which of the following is most analogous to the \"new kind of public\" the author describes?",
    "options": [
@@ -23115,7 +24665,7 @@
    ],
    "difficulty": 2,
    "rating": 2.85,
-   "rank": 15,
+   "rank": 30,
    "targetSec": 102,
    "prompt": "Which of the following best states the author's position?",
    "options": [
@@ -23175,9 +24725,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
    "rating": 3.4,
-   "rank": 36,
+   "rank": 77,
    "targetSec": 102,
    "prompt": "The examples of the rescuers and the attempted murderer (paragraph 2) are offered mainly to",
    "options": [
@@ -23239,7 +24789,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 44,
+   "rank": 89,
    "targetSec": 102,
    "prompt": "The author's objection to the \"bite the bullet\" response relies on the assumption that",
    "options": [
@@ -23299,9 +24849,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
    "rating": 3.75,
-   "rank": 49,
+   "rank": 97,
    "targetSec": 102,
    "prompt": "On the author's view, what is the moral status of the first driver, who arrived home safely?",
    "options": [
@@ -23363,7 +24913,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 26,
+   "rank": 55,
    "targetSec": 102,
    "prompt": "As used in paragraph 3, \"bite the bullet\" most nearly means",
    "options": [
@@ -23425,7 +24975,7 @@
    ],
    "difficulty": 1,
    "rating": 2.72,
-   "rank": 4,
+   "rank": 7,
    "targetSec": 102,
    "prompt": "The main point of the passage is that",
    "options": [
@@ -23487,7 +25037,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 42,
+   "rank": 85,
    "targetSec": 102,
    "prompt": "The author suggests that the collectors' recordings of rural singers were",
    "options": [
@@ -23549,7 +25099,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 18,
+   "rank": 37,
    "targetSec": 102,
    "prompt": "Which of the following best describes the role of paragraph 3?",
    "options": [
@@ -23611,7 +25161,7 @@
    ],
    "difficulty": 5,
    "rating": 3.96,
-   "rank": 52,
+   "rank": 101,
    "targetSec": 102,
    "prompt": "Which of the following performers would the author most likely regard as having a genuine relationship to a tradition?",
    "options": [
@@ -23673,7 +25223,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 3,
+   "rank": 6,
    "targetSec": 102,
    "prompt": "The author's attitude toward the musicians of the folk revival is best described as",
    "options": [
@@ -23722,6 +25272,1556 @@
    "status": "review"
   },
   {
+   "id": "mcat-cars-0081",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p17",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.73,
+   "rank": 9,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Modern Hebrew is the only language that has ever been revived.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author mentions revivals under way from Wales to New Zealand."
+    },
+    {
+     "id": "B",
+     "text": "Linguists' documentation is enough to save an endangered language.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says revitalization succeeds when families choose the language, not when grammars are documented."
+    },
+    {
+     "id": "C",
+     "text": "Languages are lost through speakers' everyday choices, and for the same reason they can be revived when communities choose to speak them again.",
+     "correct": true,
+     "trap": null,
+     "why": "This joins the quiet loss (P1) with the closing claim that a language lives in its speakers' decisions (P4)."
+    },
+    {
+     "id": "D",
+     "text": "Endangered languages, like extinct species, can never be recovered.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says a language, unlike a species, can return."
+    }
+   ],
+   "tldr": "Choices lose languages, and choices can bring them back.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 quiet loss. P2 the biological metaphor's truth. P3 its limit. P4 choice is the heart of it."
+    },
+    {
+     "label": "Main idea",
+     "body": "The theme of choice, which explains both loss and recovery."
+    }
+   ],
+   "takeaway": "When a passage's last sentence says \"both why… and why…\", it is often the main idea.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0082",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p17",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.85,
+   "rank": 29,
+   "targetSec": 102,
+   "prompt": "According to the passage, most languages that disappear do so because",
+   "options": [
+    {
+     "id": "A",
+     "text": "governments ban them.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage never mentions bans."
+    },
+    {
+     "id": "B",
+     "text": "natural disasters wipe out their speakers.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says most will not disappear in a dramatic event."
+    },
+    {
+     "id": "C",
+     "text": "parents raise their children in a language that seems more useful.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 1 describes this quiet shift as the usual path."
+    },
+    {
+     "id": "D",
+     "text": "linguists stop studying them.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Linguists' attention isn't given as a cause."
+    }
+   ],
+   "tldr": "Parents choosing a more useful language for their children.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The middle of paragraph 1."
+    },
+    {
+     "label": "Match",
+     "body": "Children raised in a more useful language."
+    }
+   ],
+   "takeaway": "Detail answers restate the passage; extreme causes it rules out are traps.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0083",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p17",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 42,
+   "targetSec": 102,
+   "prompt": "The author discusses Modern Hebrew primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "explain where the biological metaphor came from.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Hebrew is evidence against the metaphor's implication, not its origin."
+    },
+    {
+     "id": "B",
+     "text": "argue that every endangered language should be revived.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author says communities can choose to; no universal prescription is made."
+    },
+    {
+     "id": "C",
+     "text": "illustrate that a language, unlike a species, can return after falling out of everyday use.",
+     "correct": true,
+     "trap": null,
+     "why": "It is offered as the most famous case right after \"A language can.\""
+    },
+    {
+     "id": "D",
+     "text": "show that religious languages last longer than others.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The point is revival, not religious use."
+    }
+   ],
+   "tldr": "Hebrew is the proof that languages can come back.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"A species, once extinct, cannot return. A language can. Modern Hebrew...\""
+    },
+    {
+     "label": "Role",
+     "body": "The key example for the author's counterpoint."
+    }
+   ],
+   "takeaway": "Examples that follow a short, bold claim usually exist to prove it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0084",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p17",
+   "position": 4,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 47,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward comparing languages to biological species is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "wholly approving.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author points out where the metaphor misleads."
+    },
+    {
+     "id": "B",
+     "text": "partly approving, since it captures a real loss, but wary of its suggestion that the loss is final.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says the comparison \"captures something real\" but \"can mislead.\""
+    },
+    {
+     "id": "C",
+     "text": "indifferent.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author spends two paragraphs evaluating it."
+    },
+    {
+     "id": "D",
+     "text": "dismissive, since the comparison captures nothing true.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author grants that it captures something real."
+    }
+   ],
+   "tldr": "Useful metaphor, misleading in one key way.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"The comparison captures something real.\" Then: \"But the biological metaphor can mislead.\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Mixed: partial approval with a warning."
+    }
+   ],
+   "takeaway": "A paragraph of credit followed by \"But\" signals a mixed attitude.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0085",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p17",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 71,
+   "targetSec": 102,
+   "prompt": "Which of the following would the author most likely consider the strongest sign that a revitalization effort is succeeding?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Young parents in the community choosing to speak the language to their children at home",
+     "correct": true,
+     "trap": null,
+     "why": "The author says revitalization succeeds when families use the language at home."
+    },
+    {
+     "id": "B",
+     "text": "A linguist publishing a complete dictionary of the language",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The author says documentation alone isn't success."
+    },
+    {
+     "id": "C",
+     "text": "Recordings of elders stored in a university archive",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Recordings help a language persist, but success requires everyday use."
+    },
+    {
+     "id": "D",
+     "text": "A museum exhibit about the language's history",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "An exhibit preserves memory but doesn't make the language a language of daily life."
+    }
+   ],
+   "tldr": "Home use by families is the author's measure of success.",
+   "steps": [
+    {
+     "label": "Criterion",
+     "body": "Families use the language at home; children hear it daily."
+    },
+    {
+     "label": "Match",
+     "body": "Parents speaking it to their children."
+    }
+   ],
+   "takeaway": "Application answers should meet the author's stated criterion exactly.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0086",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p18",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 13,
+   "targetSec": 102,
+   "prompt": "The central thesis of the passage is that",
+   "options": [
+    {
+     "id": "A",
+     "text": "societies of the Pacific Northwest valued trade more than gifts.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage makes no such comparison."
+    },
+    {
+     "id": "B",
+     "text": "Mauss proved that generosity is a disguised form of self-interest.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "The author calls this cynical reading a misreading."
+    },
+    {
+     "id": "C",
+     "text": "gifts create binding obligations that make them social rather than insincere, and those obligations persist alongside market exchange.",
+     "correct": true,
+     "trap": null,
+     "why": "It joins Mauss's finding (P1–P2), the author's reading of it (P3) and the modern situation (P4)."
+    },
+    {
+     "id": "D",
+     "text": "gift-giving disappeared with the rise of markets.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says markets confined these obligations, not abolished them."
+    }
+   ],
+   "tldr": "Gifts bind people together, and they still do in the spaces markets leave.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 gifts create obligations. P2 how binding they were. P3 social, not cynical. P4 confined but alive today."
+    },
+    {
+     "label": "Thesis",
+     "body": "Obligation makes the gift social, then and now."
+    }
+   ],
+   "takeaway": "When the author corrects a likely misreading, include the correction in the main idea.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0087",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p18",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.9,
+   "rank": 33,
+   "targetSec": 102,
+   "prompt": "According to the passage, rival leaders in some societies gained prestige by",
+   "options": [
+    {
+     "id": "A",
+     "text": "refusing gifts from their rivals.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Refusing a gift could be an insult; it isn't described as a route to prestige."
+    },
+    {
+     "id": "B",
+     "text": "giving away or destroying goods to place others in their debt.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 describes exactly this competition."
+    },
+    {
+     "id": "C",
+     "text": "writing down the obligations others owed them.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The obligations were not written down."
+    },
+    {
+     "id": "D",
+     "text": "trading goods at a profit.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Profit-making isn't mentioned."
+    }
+   ],
+   "tldr": "Prestige came from making others indebted.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The third sentence of paragraph 2."
+    },
+    {
+     "label": "Match",
+     "body": "Giving away or destroying goods."
+    }
+   ],
+   "takeaway": "Watch for answers that twist a nearby detail, like refusing gifts.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0088",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p18",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "rating": 3.35,
+   "rank": 60,
+   "targetSec": 102,
+   "prompt": "The author's discussion of a \"cynical\" reading of Mauss (paragraph 3) serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "head off a misinterpretation of Mauss's argument.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says that reading \"misses his point\" and restates what Mauss meant."
+    },
+    {
+     "id": "B",
+     "text": "endorse the views of Mauss's critics.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The author rejects the cynical reading."
+    },
+    {
+     "id": "C",
+     "text": "concede that gifts are usually insincere.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says the obligations make gifts social, not insincere."
+    },
+    {
+     "id": "D",
+     "text": "introduce new evidence from Melanesia.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "No new evidence appears in paragraph 3."
+    }
+   ],
+   "tldr": "The paragraph blocks the cynical reading.",
+   "steps": [
+    {
+     "label": "Signal",
+     "body": "\"That reading misses his point.\""
+    },
+    {
+     "label": "Role",
+     "body": "A correction of a tempting interpretation."
+    }
+   ],
+   "takeaway": "\"It would be easy to read X as...\" almost always sets up a correction.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0089",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p18",
+   "position": 4,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "rating": 3.2,
+   "rank": 52,
+   "targetSec": 102,
+   "prompt": "The author suggests that a typical market purchase differs from a gift in that the purchase",
+   "options": [
+    {
+     "id": "A",
+     "text": "is always worth more than a gift.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Value isn't compared."
+    },
+    {
+     "id": "B",
+     "text": "creates stronger obligations between the parties.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "A purchase, once paid, is finished."
+    },
+    {
+     "id": "C",
+     "text": "requires the seller to give something back later.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The point is that nothing further is owed."
+    },
+    {
+     "id": "D",
+     "text": "is designed to leave no lasting bond between buyer and seller.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 4 describes transactions \"designed to leave no bond behind.\""
+    }
+   ],
+   "tldr": "A purchase ends the relationship; a gift starts one.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "\"...transactions designed to leave no bond behind.\""
+    },
+    {
+     "label": "Infer",
+     "body": "That is the contrast with the gift."
+    }
+   ],
+   "takeaway": "Contrast questions are answered by the passage's own explicit contrast.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0090",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p18",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 69,
+   "targetSec": 102,
+   "prompt": "Which of the following situations best illustrates Mauss's idea of the gift as the passage describes it?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A neighbor who was helped with a move feels she should help in return when the helper needs it.",
+     "correct": true,
+     "trap": null,
+     "why": "The help created an obligation to give back, building an ongoing relationship."
+    },
+    {
+     "id": "B",
+     "text": "A customer buys a concert ticket online.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "Another bond-free transaction."
+    },
+    {
+     "id": "C",
+     "text": "A company refunds a customer for a defective product.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "A refund settles a contract; it creates no social bond."
+    },
+    {
+     "id": "D",
+     "text": "A shopper pays for groceries and leaves the store.",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "That is a market transaction that leaves no bond."
+    }
+   ],
+   "tldr": "An obligation to give back that keeps a relationship going.",
+   "steps": [
+    {
+     "label": "Abstract",
+     "body": "Give, receive, give back, with a bond formed along the way."
+    },
+    {
+     "label": "Match",
+     "body": "The neighbors' exchange of help."
+    }
+   ],
+   "takeaway": "Match the defining features (obligation and bond), not just the word \"gift.\"",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0091",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p19",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.7,
+   "rank": 3,
+   "targetSec": 102,
+   "prompt": "Which of the following best states the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "College degrees teach nothing of value.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The signaling view says degrees matter less for what they teach, not that they teach nothing."
+    },
+    {
+     "id": "B",
+     "text": "Jobs have uniformly become more complex over the past half century.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says the skills explanation fits some jobs poorly."
+    },
+    {
+     "id": "C",
+     "text": "Rising degree requirements often reflect a self-reinforcing race for credentials rather than more complex work, and the race burdens some applicants unfairly.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage limits the skills explanation (P1–P2), offers signaling (P3) and describes its uneven costs (P4)."
+    },
+    {
+     "id": "D",
+     "text": "Employers should eliminate all educational requirements.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author makes no such sweeping recommendation."
+    }
+   ],
+   "tldr": "Credential inflation is often a signaling race with unfair costs.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 rising bar and a partial explanation. P2 where it fails. P3 signaling. P4 who pays."
+    },
+    {
+     "label": "Main idea",
+     "body": "Signaling explains much of the rise, unfairly."
+    }
+   ],
+   "takeaway": "Main ideas often combine \"what explains it\" with \"why it matters.\"",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0092",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p19",
+   "position": 2,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 4,
+   "rating": 3.4,
+   "rank": 78,
+   "targetSec": 102,
+   "prompt": "The author's remark that for some occupations \"that explanation is clearly right\" serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "criticize employers for raising requirements.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The remark contains no criticism."
+    },
+    {
+     "id": "B",
+     "text": "introduce the signaling theory.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "Signaling comes later, in paragraph 3."
+    },
+    {
+     "id": "C",
+     "text": "reject the skills explanation entirely.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The remark grants the explanation for some jobs."
+    },
+    {
+     "id": "D",
+     "text": "concede that rising skill demands explain some, but not all, of the rise in requirements.",
+     "correct": true,
+     "trap": null,
+     "why": "The next paragraph begins \"For others, it fits poorly.\""
+    }
+   ],
+   "tldr": "A concession that limits the scope of the author's argument.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"For some occupations, that explanation is clearly right.\" Then: \"For others, it fits poorly.\""
+    },
+    {
+     "label": "Role",
+     "body": "A concession before the turn."
+    }
+   ],
+   "takeaway": "\"For some… For others\" structures a concession followed by the author's real target.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0093",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p19",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "rating": 3.2,
+   "rank": 53,
+   "targetSec": 102,
+   "prompt": "According to the signaling view described in the passage, a degree loses value as a signal when",
+   "options": [
+    {
+     "id": "A",
+     "text": "its courses become more difficult.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Difficulty of courses isn't discussed."
+    },
+    {
+     "id": "B",
+     "text": "employers stop reading applications.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Nothing in the passage supports this."
+    },
+    {
+     "id": "C",
+     "text": "fewer people attend college.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Fewer degree holders would make the degree rarer and more distinctive."
+    },
+    {
+     "id": "D",
+     "text": "more people earn it.",
+     "correct": true,
+     "trap": null,
+     "why": "\"A signal's value depends on its rarity.\""
+    }
+   ],
+   "tldr": "Common signals stop distinguishing anyone.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "\"But a signal's value depends on its rarity.\""
+    },
+    {
+     "label": "Apply",
+     "body": "More holders, less distinction."
+    }
+   ],
+   "takeaway": "Find the principle the passage states, then apply it directly.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0094",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p19",
+   "position": 4,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 5,
+   "rating": 4.45,
+   "rank": 104,
+   "targetSec": 102,
+   "prompt": "Which of the following findings, if true, would most challenge the signaling explanation as the passage presents it?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Many students say they attend college mainly to learn job skills.",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Students' stated motives don't test how employers use degrees."
+    },
+    {
+     "id": "B",
+     "text": "In fields where the share of workers with degrees has stayed constant, degree requirements have risen just as quickly as elsewhere.",
+     "correct": true,
+     "trap": null,
+     "why": "The explanation ties rising requirements to degrees becoming common; a rise without that change undercuts it."
+    },
+    {
+     "id": "C",
+     "text": "Some jobs have become more complex over time.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The author already grants this."
+    },
+    {
+     "id": "D",
+     "text": "College tuition has risen faster than inflation.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "That fits the passage's point about uneven costs rather than challenging signaling."
+    }
+   ],
+   "tldr": "Rising requirements without more degree holders would break the signaling mechanism.",
+   "steps": [
+    {
+     "label": "Mechanism",
+     "body": "More degree holders, so less distinction, so a higher bar."
+    },
+    {
+     "label": "Challenge",
+     "body": "The bar rising where the share of holders didn't."
+    }
+   ],
+   "takeaway": "To challenge an explanation, find a case where its cause is absent but its effect appears.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0095",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p19",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 64,
+   "targetSec": 102,
+   "prompt": "Which of the following best illustrates the cycle described in paragraph 3?",
+   "options": [
+    {
+     "id": "A",
+     "text": "An employer drops a degree requirement and hires with a skills test.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That breaks the cycle rather than illustrating it."
+    },
+    {
+     "id": "B",
+     "text": "A company trains its employees on new software.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Training isn't credential escalation."
+    },
+    {
+     "id": "C",
+     "text": "A student chooses a major because she enjoys the subject.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Personal interest isn't part of the cycle."
+    },
+    {
+     "id": "D",
+     "text": "As master's degrees become common among applicants, employers start preferring doctorates, and more students enter doctoral programs.",
+     "correct": true,
+     "trap": null,
+     "why": "A common credential loses value, the bar rises, and students chase the new bar."
+    }
+   ],
+   "tldr": "Common credential, higher bar, more schooling, repeat.",
+   "steps": [
+    {
+     "label": "Steps of the cycle",
+     "body": "A credential becomes common, requirements rise, students pursue more."
+    },
+    {
+     "label": "Match",
+     "body": "The master's-to-doctorate example has all three."
+    }
+   ],
+   "takeaway": "For \"illustrates the cycle\" questions, check every step of the cycle.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0096",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p20",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 11,
+   "targetSec": 102,
+   "prompt": "The passage is primarily concerned with",
+   "options": [
+    {
+     "id": "A",
+     "text": "proving that local solar time was more accurate than standard time.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage never ranks the systems' accuracy."
+    },
+    {
+     "id": "B",
+     "text": "arguing that the federal government created time zones in 1883.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The railroads created them; the government made them law in 1918."
+    },
+    {
+     "id": "C",
+     "text": "using the adoption of standard time to show that conventions organizing daily life were chosen by people and could have been otherwise.",
+     "correct": true,
+     "trap": null,
+     "why": "The history (P1–P3) supports the closing lesson about conventions (P3–P4)."
+    },
+    {
+     "id": "D",
+     "text": "showing that railroads were the most powerful institutions of their era.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The passage concerns one decision, not the railroads' overall power."
+    }
+   ],
+   "tldr": "A history of standard time that teaches a lesson about conventions.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 local time. P2 railroads and 1883. P3 private, resisted, a convention. P4 the lesson."
+    },
+    {
+     "label": "Purpose",
+     "body": "History in service of the lesson."
+    }
+   ],
+   "takeaway": "When history leads to a general lesson, the lesson is the primary concern.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0097",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p20",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 90,
+   "targetSec": 102,
+   "prompt": "Based on the passage, why did some towns see noon twice on November 18, 1883?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Towns used two calendars at once.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Calendars aren't involved."
+    },
+    {
+     "id": "B",
+     "text": "Their clocks were set back to the new standard after local noon had already passed.",
+     "correct": true,
+     "trap": null,
+     "why": "Setting clocks back after noon meant the clock reached noon again."
+    },
+    {
+     "id": "C",
+     "text": "Railroads ran two noon trains that day.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Train schedules aren't the cause described."
+    },
+    {
+     "id": "D",
+     "text": "The sun reached its highest point twice that day.",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "The sun's position didn't change; the clocks did."
+    }
+   ],
+   "tldr": "Clocks set back past noon hit noon a second time.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "\"Some towns saw noon twice that day as their clocks were set back to the new standard.\""
+    },
+    {
+     "label": "Infer",
+     "body": "Setting back after noon repeats noon."
+    }
+   ],
+   "takeaway": "Some inferences require one small step of reasoning from a stated fact.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0098",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p20",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 2,
+   "rating": 3,
+   "rank": 40,
+   "targetSec": 102,
+   "prompt": "The author mentions that the federal government did not make the time zones law until 1918 in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "criticize the government for acting too slowly.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The author doesn't fault the delay."
+    },
+    {
+     "id": "B",
+     "text": "emphasize that standard time began as a private agreement rather than a government mandate.",
+     "correct": true,
+     "trap": null,
+     "why": "It follows \"The change was not imposed by government.\""
+    },
+    {
+     "id": "C",
+     "text": "explain why trains missed connections.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Missed connections came before standard time."
+    },
+    {
+     "id": "D",
+     "text": "show that the towns' protests succeeded.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The protests didn't stop standard time."
+    }
+   ],
+   "tldr": "The date underlines that the railroads acted on their own.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"The change was not imposed by government. It was a private agreement...\""
+    },
+    {
+     "label": "Role",
+     "body": "Supporting detail for that claim."
+    }
+   ],
+   "takeaway": "A date or fact right after a claim usually supports that claim.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0099",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p20",
+   "position": 4,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 88,
+   "targetSec": 102,
+   "prompt": "The author regards the protests of the towns that resisted standard time as",
+   "options": [
+    {
+     "id": "A",
+     "text": "backward objections that deserve mockery.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author treats the protests as instructive, not foolish."
+    },
+    {
+     "id": "B",
+     "text": "correct in claiming that the railroads had no authority over time.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author doesn't take the towns' side on authority."
+    },
+    {
+     "id": "C",
+     "text": "revealing that clock time is a human convention rather than a natural fact.",
+     "correct": true,
+     "trap": null,
+     "why": "\"Their protests reveal something easy to forget: the time on our clocks is a convention.\""
+    },
+    {
+     "id": "D",
+     "text": "irrelevant to the history of standard time.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author draws the passage's lesson from them."
+    }
+   ],
+   "tldr": "The protests show that time-keeping is a choice.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The last sentence of paragraph 3."
+    },
+    {
+     "label": "Match",
+     "body": "Clock time is a convention."
+    }
+   ],
+   "takeaway": "Read what the author says the protests \"reveal\"; that is the author's view of them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0100",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p20",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 66,
+   "targetSec": 102,
+   "prompt": "Which of the following is most analogous to standard time as the author describes it?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A company's decision to raise its prices",
+     "correct": false,
+     "trap": "different_structure",
+     "why": "A pricing decision isn't a shared convention for coordination."
+    },
+    {
+     "id": "B",
+     "text": "The Earth's orbit around the Sun",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "A natural fact, not a choice."
+    },
+    {
+     "id": "C",
+     "text": "The boiling point of water at sea level",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "That is a physical fact, not a human convention."
+    },
+    {
+     "id": "D",
+     "text": "Driving on the right side of the road, a rule chosen for coordination that now seems natural to drivers",
+     "correct": true,
+     "trap": null,
+     "why": "A convention adopted for coordination that has become invisible, like standard time."
+    }
+   ],
+   "tldr": "A coordination convention that feels natural is the match.",
+   "steps": [
+    {
+     "label": "Features",
+     "body": "Chosen by people, for coordination, now invisible."
+    },
+    {
+     "label": "Match",
+     "body": "Driving on the right."
+    }
+   ],
+   "takeaway": "For analogies, list the original's essential features before reading the choices.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0101",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p21",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 21,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Paid line-skipping should be banned everywhere.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author poses a question rather than demanding a ban."
+    },
+    {
+     "id": "B",
+     "text": "Hospitals should treat patients in the order they arrive.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author treats triage by need as an accepted departure."
+    },
+    {
+     "id": "C",
+     "text": "People resent line-cutters mainly because of the time they lose.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author says the anger is out of proportion to the minutes lost."
+    },
+    {
+     "id": "D",
+     "text": "Lines express a form of equality, and selling priority in them, though efficient, raises the question of what equality a society values.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage explains the line's equality (P1–P2), its limits (P3) and the question money raises (P4)."
+    }
+   ],
+   "tldr": "Lines embody equality, so selling places in them is a choice about values.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 lines and anger. P2 the equality they protect. P3 accepted and troubling exceptions. P4 the value question."
+    },
+    {
+     "label": "Main idea",
+     "body": "Equality versus efficiency, posed as a question."
+    }
+   ],
+   "takeaway": "If the author ends with a question, the main idea is the tension the question names.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0102",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p21",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "rating": 3.2,
+   "rank": 51,
+   "targetSec": 102,
+   "prompt": "According to the passage, cutting in line provokes strong anger mainly because it",
+   "options": [
+    {
+     "id": "A",
+     "text": "costs the people in line a great deal of time.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The anger is out of proportion to the minutes lost."
+    },
+    {
+     "id": "B",
+     "text": "is against the law.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Legality isn't discussed."
+    },
+    {
+     "id": "C",
+     "text": "is usually done by wealthy people.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage doesn't say who usually cuts."
+    },
+    {
+     "id": "D",
+     "text": "claims an exception to a rule of equal treatment.",
+     "correct": true,
+     "trap": null,
+     "why": "Cutting declares oneself \"an exception to a rule that binds everyone else.\""
+    }
+   ],
+   "tldr": "The offense is to equality, not to time.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "The last sentence of paragraph 2."
+    },
+    {
+     "label": "Match",
+     "body": "Declaring oneself an exception."
+    }
+   ],
+   "takeaway": "When the passage dismisses the obvious explanation, look for the deeper one it offers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0103",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p21",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 2,
+   "rating": 3,
+   "rank": 36,
+   "targetSec": 102,
+   "prompt": "The author mentions hospitals (paragraph 3) primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "show that lines are inefficient.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "Efficiency isn't the point of the example."
+    },
+    {
+     "id": "B",
+     "text": "criticize hospitals for treating patients unfairly.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author presents triage as widely accepted."
+    },
+    {
+     "id": "C",
+     "text": "give an example of an accepted departure from first come, first served.",
+     "correct": true,
+     "trap": null,
+     "why": "Treating the sickest first departs from arrival order, and few people object."
+    },
+    {
+     "id": "D",
+     "text": "argue that money should determine priority.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Hospitals are contrasted with priority based on money."
+    }
+   ],
+   "tldr": "Hospitals show a departure that people accept, unlike departures for money.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"That equality has always had limits. Hospitals...\" then \"More troubling are departures based on money.\""
+    },
+    {
+     "label": "Role",
+     "body": "An accepted exception set against troubling ones."
+    }
+   ],
+   "takeaway": "Watch for an accepted case placed beside a contested one; the contrast is the point.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0104",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p21",
+   "position": 4,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "rating": 3.25,
+   "rank": 56,
+   "targetSec": 102,
+   "prompt": "The passage suggests that defenders of paid line-skipping would most likely argue that it",
+   "options": [
+    {
+     "id": "A",
+     "text": "treats everyone equally.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Paid priority departs from equal treatment."
+    },
+    {
+     "id": "B",
+     "text": "reduces anger at people who cut in line.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage doesn't connect the two."
+    },
+    {
+     "id": "C",
+     "text": "lets people who value their time most save it, making the system efficient.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 3 gives this defense explicitly."
+    },
+    {
+     "id": "D",
+     "text": "ensures that the sickest people are served first.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the hospital rationale, which is based on need, not payment."
+    }
+   ],
+   "tldr": "Their defense is efficiency.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "\"Each may be defended as efficient...\""
+    },
+    {
+     "label": "Match",
+     "body": "Those who value time most pay to save it."
+    }
+   ],
+   "takeaway": "Questions about what a group would argue are answered by the view the passage assigns them.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0105",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p21",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 46,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward selling priority in lines is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "skeptical, suggesting that efficiency may not justify what it teaches about equality.",
+     "correct": true,
+     "trap": null,
+     "why": "The author grants the efficiency argument but questions whether its lesson is worth it."
+    },
+    {
+     "id": "B",
+     "text": "outraged, demanding that it be outlawed.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author raises a question; there is no call for a ban."
+    },
+    {
+     "id": "C",
+     "text": "neutral, treating it as a purely technical matter.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says it is \"not a technical question.\""
+    },
+    {
+     "id": "D",
+     "text": "enthusiastic about the time it saves.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author calls such departures \"more troubling.\""
+    }
+   ],
+   "tldr": "Skeptical, framed as a question about values.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"More troubling...\" and \"not a technical question.\""
+    },
+    {
+     "label": "Attitude",
+     "body": "Critical but measured."
+    }
+   ],
+   "takeaway": "Measured skepticism is a common CARS author stance; avoid both extremes.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-cars-0031",
    "version": 1,
    "exam": "MCAT",
@@ -23735,7 +26835,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 7,
+   "rank": 15,
    "targetSec": 102,
    "prompt": "The author's primary purpose in the passage is to",
    "options": [
@@ -23797,7 +26897,7 @@
    ],
    "difficulty": 2,
    "rating": 2.9,
-   "rank": 16,
+   "rank": 32,
    "targetSec": 102,
    "prompt": "According to the monitoring explanation, tipping benefits employers by",
    "options": [
@@ -23859,7 +26959,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 22,
+   "rank": 44,
    "targetSec": 102,
    "prompt": "The author mentions party size, the weather and the server's appearance (paragraph 3) in order to",
    "options": [
@@ -23919,9 +27019,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 4,
+   "difficulty": 5,
    "rating": 3.75,
-   "rank": 48,
+   "rank": 95,
    "targetSec": 102,
    "prompt": "Which of the following findings would most support the explanation proposed in paragraph 4?",
    "options": [
@@ -23983,7 +27083,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 41,
+   "rank": 84,
    "targetSec": 102,
    "prompt": "The \"uncomfortable implication\" mentioned in paragraph 4 is that tipping",
    "options": [
@@ -24045,7 +27145,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 9,
+   "rank": 18,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -24107,7 +27207,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 17,
+   "rank": 35,
    "targetSec": 102,
    "prompt": "The author mentions a busy highway interchange in order to",
    "options": [
@@ -24169,7 +27269,7 @@
    ],
    "difficulty": 4,
    "rating": 3.45,
-   "rank": 39,
+   "rank": 82,
    "targetSec": 102,
    "prompt": "The critic described in paragraph 2 would most likely regard which of the following as contributing to a street's safety?",
    "options": [
@@ -24229,9 +27329,9 @@
    "knowledgePoints": [
     "kp-cars-inference"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "rating": 3.2,
-   "rank": 23,
+   "rank": 48,
    "targetSec": 102,
    "prompt": "The passage suggests that the mid-century planners erred mainly in",
    "options": [
@@ -24355,7 +27455,7 @@
    ],
    "difficulty": 1,
    "rating": 2.72,
-   "rank": 5,
+   "rank": 8,
    "targetSec": 102,
    "prompt": "The central thesis of the passage is that",
    "options": [
@@ -24417,7 +27517,7 @@
    ],
    "difficulty": 5,
    "rating": 3.75,
-   "rank": 50,
+   "rank": 98,
    "targetSec": 102,
    "prompt": "Based on paragraph 2, a government that began counting people with a particular chronic disease would most likely",
    "options": [
@@ -24479,7 +27579,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 19,
+   "rank": 38,
    "targetSec": 102,
    "prompt": "The statement that \"administrative convenience... could harden into social identity\" serves mainly to",
    "options": [
@@ -24541,7 +27641,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 31,
+   "rank": 65,
    "targetSec": 102,
    "prompt": "The author would most likely advise a researcher using a nineteenth-century census table to",
    "options": [
@@ -24603,7 +27703,7 @@
    ],
    "difficulty": 5,
    "rating": 4.42,
-   "rank": 53,
+   "rank": 102,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the claim made in paragraph 3?",
    "options": [
@@ -24665,7 +27765,7 @@
    ],
    "difficulty": 2,
    "rating": 2.81,
-   "rank": 14,
+   "rank": 26,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -24727,7 +27827,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 20,
+   "rank": 39,
    "targetSec": 102,
    "prompt": "The author notes that the associations \"persist in cities where banks are plentiful\" in order to",
    "options": [
@@ -24789,7 +27889,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 45,
+   "rank": 91,
    "targetSec": 102,
    "prompt": "According to the second explanation, the association's \"apparent inefficiency\" benefits members because",
    "options": [
@@ -24851,7 +27951,7 @@
    ],
    "difficulty": 5,
    "rating": 3.76,
-   "rank": 51,
+   "rank": 99,
    "targetSec": 102,
    "prompt": "Which of the following best exemplifies the \"public obligation\" described in paragraph 3?",
    "options": [
@@ -24913,7 +28013,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 25,
+   "rank": 54,
    "targetSec": 102,
    "prompt": "The author would most likely say that an economist who judged rotating associations only by the interest their members forgo would",
    "options": [
@@ -24975,7 +28075,7 @@
    ],
    "difficulty": 2,
    "rating": 2.81,
-   "rank": 13,
+   "rank": 25,
    "targetSec": 102,
    "prompt": "The passage is primarily concerned with",
    "options": [
@@ -25037,7 +28137,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 21,
+   "rank": 41,
    "targetSec": 102,
    "prompt": "The author discusses \"Saint Monday\" primarily in order to",
    "options": [
@@ -25099,7 +28199,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 28,
+   "rank": 58,
    "targetSec": 102,
    "prompt": "It can be inferred from the passage that some employers came to accept a shorter work week partly because they",
    "options": [
@@ -25161,7 +28261,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 32,
+   "rank": 67,
    "targetSec": 102,
    "prompt": "Which of the following developments would the author most likely regard as a threat to the weekend?",
    "options": [
@@ -25223,7 +28323,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 2,
+   "rank": 4,
    "targetSec": 102,
    "prompt": "The author's attitude toward the future of the weekend is best described as",
    "options": [
@@ -25283,9 +28383,9 @@
    "knowledgePoints": [
     "kp-cars-main-idea"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "rating": 2.76,
-   "rank": 10,
+   "rank": 22,
    "targetSec": 102,
    "prompt": "The central thesis of the passage is that",
    "options": [
@@ -25345,9 +28445,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 3,
+   "difficulty": 4,
    "rating": 3.4,
-   "rank": 37,
+   "rank": 79,
    "targetSec": 102,
    "prompt": "The author describes the critics' position as having \"the appeal of modesty\" (paragraph 2) most likely in order to",
    "options": [
@@ -25409,7 +28509,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 27,
+   "rank": 57,
    "targetSec": 102,
    "prompt": "Based on the passage, the author would most likely say that a strictly literal translation of a comic poem",
    "options": [
@@ -25471,7 +28571,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 29,
+   "rank": 62,
    "targetSec": 102,
    "prompt": "Which of the following practices would the author most likely endorse?",
    "options": [
@@ -25533,7 +28633,7 @@
    ],
    "difficulty": 5,
    "rating": 4.42,
-   "rank": 54,
+   "rank": 103,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the author's argument against strict literalism in paragraph 2?",
    "options": [
@@ -61847,6 +64947,111 @@
    ]
   },
   {
+   "id": "mcat-cars-p12",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Gardens as arguments",
+   "domain": "humanities",
+   "paragraphs": [
+    "A garden can look like the most innocent of human works: a place to walk, to sit, to grow food or flowers. Yet the great gardens of Europe were also arguments, laid out in soil and water, about the proper relation between human beings and the natural world.",
+    "The formal gardens of seventeenth-century France made their case through geometry. Long straight avenues ran to the horizon; hedges were clipped into walls and cones; water was forced upward in fountains or held still in rectangular pools. Every element announced that nature had been brought to order by human reason and, not incidentally, by the power of the king whose palace commanded the view. To walk in such a garden was to be reminded at every turn of where authority lay.",
+    "In eighteenth-century England, a different argument took root. Landscape gardeners removed straight lines, softened the edges of lakes and planted trees in irregular clumps, so that an estate seemed to roll naturally toward the horizon. The style was praised as a liberation of nature from tyranny, and admirers connected it with English political liberty. But the \"natural\" landscape was no less a construction than the formal garden. Hills were raised, rivers rerouted and, in some cases, whole villages moved out of the view so that the owner might look across an unbroken expanse.",
+    "Seen this way, the contest between the two styles was less a contest between art and nature than one between two ways of displaying power. The formal garden showed its control openly; the landscape garden concealed it behind an appearance of effortless freedom. Which is more honest is a question worth asking of more than gardens."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0056",
+    "mcat-cars-0057",
+    "mcat-cars-0058",
+    "mcat-cars-0059",
+    "mcat-cars-0060"
+   ]
+  },
+  {
+   "id": "mcat-cars-p13",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The art of trying",
+   "domain": "humanities",
+   "paragraphs": [
+    "When Michel de Montaigne published the first books of his Essais in 1580, he gave a new name to a new kind of writing. The French word essai means a trial or an attempt, and Montaigne's chapters are just that: attempts to think through a subject, whether friendship, cruelty, idleness or the education of children, without knowing in advance where the thinking will end. He announced in his preface that he himself was the matter of his book.",
+    "To a modern reader the confession sounds harmless, even charming. In its time it was close to scandalous. Serious books were expected to concern serious things: God, law, the deeds of great men. A minor nobleman examining his own habits, his kidney stones and his changing opinions seemed to waste the reader's time. Yet Montaigne's self-examination was not vanity. He studied himself because he was the one specimen of humanity he could observe from the inside, and he found that specimen inconsistent, changeable and often unsure.",
+    "That discovery shaped the form. An essay by Montaigne rarely proceeds in a straight line. It starts with one topic, wanders through quotations and anecdotes, contradicts an earlier claim, and sometimes ends far from where it began. Critics have called this disorder. It is better described as fidelity: a mind that changes as it thinks is rendered faithfully only by a prose that changes too.",
+    "The essay's later history has not always honored this origin. In schools, the essay became a tool of demonstration, a thesis stated in the first paragraph and proved in the next three, which is precisely the kind of foreknown argument Montaigne set out to avoid. There is nothing wrong with a well-organized argument. But to call it an essay is to forget that the form began as a way of finding out what one thinks, not of announcing it."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0061",
+    "mcat-cars-0062",
+    "mcat-cars-0063",
+    "mcat-cars-0064",
+    "mcat-cars-0065"
+   ]
+  },
+  {
+   "id": "mcat-cars-p14",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The road with cannonballs",
+   "domain": "humanities",
+   "paragraphs": [
+    "In 1855, during the Crimean War, the British photographer Roger Fenton made two photographs of the same stretch of road in a ravine that soldiers called the Valley of the Shadow of Death. In one, the road is scattered with cannonballs. In the other, the cannonballs lie in the ditch beside it. Ever since the two images were compared, people have argued about which came first, and therefore about whether Fenton moved the cannonballs onto the road to make a more dramatic picture.",
+    "The argument matters because of a belief that has followed photography from its beginning: that a photograph, unlike a painting, is a trace of the world rather than an interpretation of it. A painter can add a cannonball with a stroke of the brush; a camera, the reasoning goes, can record only what is there. If Fenton arranged the scene, he seems to have betrayed the medium's special promise.",
+    "Yet every photograph involves choices. The photographer decides where to stand, when to open the shutter, what to include at the edges of the frame and what to leave outside it. Fenton's bulky equipment and long exposures made truly spontaneous pictures impossible; nearly everything he photographed had to hold still. The line between selecting a scene and arranging one is less sharp than the controversy implies.",
+    "This does not mean that nothing was at stake. A viewer who believes the cannonballs fell where they lie learns something about the danger of that road; a viewer who learns they were placed there learns something different. The ethics of the photograph depend less on whether choices were made, since they always are, than on what the photograph leads its viewers to believe, and whether that belief is true."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0066",
+    "mcat-cars-0067",
+    "mcat-cars-0068",
+    "mcat-cars-0069",
+    "mcat-cars-0070"
+   ]
+  },
+  {
+   "id": "mcat-cars-p15",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The pleasure of ruins",
+   "domain": "humanities",
+   "paragraphs": [
+    "In the eighteenth century, European travelers developed a taste that would have puzzled many of their ancestors: they found ruins beautiful. Crumbling abbeys, broken columns and overgrown castles, once seen as signs of neglect or divine judgment, became destinations. Painters made careers of them, and wealthy landowners who lacked a real ruin sometimes built one, a \"folly\" designed from the start to look half destroyed.",
+    "Why should decay give pleasure? One answer is that ruins flatter the viewer. To stand before the fallen walls of a once-mighty building is to feel the passage of time while remaining, for the moment, outside it; the observer survives what the empire did not. The melancholy is real, but it is a comfortable melancholy, enjoyed at a safe distance.",
+    "A second answer looks to the imagination. A complete building tells its story fully; a ruin leaves gaps that the viewer fills in. The missing roof invites one to picture the hall it covered, and the vanished town invites one to people the empty field. Ruins, on this view, please not despite their incompleteness but because of it: they make the viewer a collaborator.",
+    "Both answers help explain the fashion, but neither explains its limits. The same travelers who sighed over Roman stones rarely found beauty in the ruined cottages of the poor around them, or in the damage of recent wars. Distance seems to be essential. A ruin pleases when its destruction is old enough, or far enough away, to be contemplated rather than suffered; when, in other words, it has ceased to be anyone's loss."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0071",
+    "mcat-cars-0072",
+    "mcat-cars-0073",
+    "mcat-cars-0074",
+    "mcat-cars-0075"
+   ]
+  },
+  {
+   "id": "mcat-cars-p16",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Made by hand",
+   "domain": "humanities",
+   "paragraphs": [
+    "In the second half of the nineteenth century, the English designer William Morris led a revolt against the products of the factory. Machine-made furniture, wallpaper and textiles, he argued, were cheap in every sense: poorly designed, carelessly made and produced by workers who took no pleasure in their labor. Against them Morris set the ideal of the craftsman, who designed and made an object from start to finish and could take pride in the result.",
+    "The movement Morris inspired produced work of extraordinary beauty, including hand-printed fabrics, carved chairs and finely printed books, and it changed the way many people thought about the objects in their homes. It also ran into a contradiction that Morris himself recognized. Handmade goods took far longer to produce than machine-made ones, and so they cost far more. The workers whose dignity the movement championed could rarely afford what they made; the buyers were mostly the wealthy.",
+    "Some critics conclude that the movement was simply nostalgic, a fantasy of a medieval past that never existed. That judgment is too harsh. Morris's deeper complaint was not against machines as such but against a way of organizing work that separated the people who designed things from the people who made them, and that treated workers as parts of a mechanism. That complaint did not depend on rejecting technology, and it has outlived the movement.",
+    "Its legacy is visible today wherever people seek out the work of named makers, or wherever designers insist on understanding the materials and methods by which their designs will be produced. The question Morris raised, whether work can be organized so that those who do it share in its meaning, remains unanswered, but it has not gone away."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0076",
+    "mcat-cars-0077",
+    "mcat-cars-0078",
+    "mcat-cars-0079",
+    "mcat-cars-0080"
+   ]
+  },
+  {
    "id": "mcat-cars-p02",
    "exam": "MCAT",
    "section": "CARS",
@@ -61949,6 +65154,111 @@
     "mcat-cars-0028",
     "mcat-cars-0029",
     "mcat-cars-0030"
+   ]
+  },
+  {
+   "id": "mcat-cars-p17",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Speaking a language back to life",
+   "domain": "social sciences",
+   "paragraphs": [
+    "Of the roughly seven thousand languages spoken in the world today, many linguists estimate that around half may cease to be spoken by the end of this century. Most will not disappear in a dramatic event. They will fade quietly, as parents raise their children in a language that seems more useful, the language of school, of government and of the job market, until the last fluent speakers grow old.",
+    "The loss is often described in terms borrowed from biology: languages are said to be \"endangered\" and to \"die,\" and their disappearance is compared to the extinction of species. The comparison captures something real. Each language encodes ways of describing the world, from the classification of plants to the grammar of kinship, that exist nowhere else. When it goes silent, that knowledge may go with it.",
+    "But the biological metaphor can mislead. A species, once extinct, cannot return. A language can. Modern Hebrew, revived as an everyday spoken language in the late nineteenth and early twentieth centuries after many centuries of use mainly in prayer and scholarship, is the most famous case, and smaller revivals are under way from Wales to New Zealand. Languages persist in recordings, texts and the memories of elders, and communities can choose to speak them again.",
+    "That choice, rather than the language itself, is the heart of the matter. Revitalization succeeds not when linguists document a grammar but when families decide to use the language at home and children hear it as the language of daily life. A language, unlike a species, lives in the decisions of the people who speak it, which is both why it can be lost so quietly and why it can be recovered."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0081",
+    "mcat-cars-0082",
+    "mcat-cars-0083",
+    "mcat-cars-0084",
+    "mcat-cars-0085"
+   ]
+  },
+  {
+   "id": "mcat-cars-p18",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "No free gifts",
+   "domain": "social sciences",
+   "paragraphs": [
+    "We like to think of a gift as the opposite of a trade. A trade is calculated; a gift is free. The anthropologist Marcel Mauss, in an influential essay published in 1925, argued that this contrast is largely an illusion. Surveying societies from the Pacific Northwest to Melanesia, he found that gifts everywhere created obligations: to give, to receive and, above all, to give back.",
+    "These obligations were not written down, but they were binding. A gift refused could be an insult; a gift unreturned could mean a loss of standing. In some societies, rival leaders competed to give away or even destroy great quantities of goods, gaining prestige by placing others in their debt. The gift, on Mauss's account, was a way of making and maintaining relationships, and relationships carry expectations.",
+    "It would be easy to read Mauss cynically, as if he had exposed generosity as a disguised form of self-interest. That reading misses his point. Mauss did not think the obligations of the gift made it insincere. He thought they made it social. A gift that created no bond, that left giver and receiver as strangers, would hardly be a gift at all.",
+    "Modern market societies have not abolished these obligations; they have confined them. We still keep track of dinner invitations owed and birthday presents exchanged, and we feel the sting when a favor is not returned. What has changed is that much of economic life now runs on transactions designed to leave no bond behind: a purchase that, once paid for, is finished. The gift persists in the spaces the market does not reach, and it reminds us of what those transactions leave out."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0086",
+    "mcat-cars-0087",
+    "mcat-cars-0088",
+    "mcat-cars-0089",
+    "mcat-cars-0090"
+   ]
+  },
+  {
+   "id": "mcat-cars-p19",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Paper qualifications",
+   "domain": "social sciences",
+   "paragraphs": [
+    "Over the past half century, the educational requirements for many jobs have climbed. Positions that once required a high school diploma now ask for a college degree; jobs that once required a college degree now prefer a graduate one. The usual explanation is that work has grown more complex and demands more skill. For some occupations, that explanation is clearly right.",
+    "For others, it fits poorly. Studies of job postings have found employers demanding degrees for roles whose daily tasks have changed little, and some employers have dropped degree requirements for such roles without any visible decline in performance. If the work itself has not changed, something else must explain the rising bar.",
+    "One answer comes from the economics of signaling. A degree, on this view, matters less for what it teaches than for what it shows: that its holder could finish a long, demanding program. Employers who cannot easily judge an applicant's persistence or reliability use the degree as a stand-in. But a signal's value depends on its rarity. As more people earn degrees, a degree distinguishes less, and employers raise the requirement to sort applicants. Students then pursue more education to keep pace, and the cycle repeats.",
+    "The costs of this race fall unevenly. Additional years of schooling are easiest for those who can most readily afford them, so credential requirements can screen out capable applicants for reasons that have little to do with their capability. A requirement adopted as a convenient filter can thus become a barrier, one that tells employers less and less while asking applicants for more and more."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0091",
+    "mcat-cars-0092",
+    "mcat-cars-0093",
+    "mcat-cars-0094",
+    "mcat-cars-0095"
+   ]
+  },
+  {
+   "id": "mcat-cars-p20",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The day of two noons",
+   "domain": "social sciences",
+   "paragraphs": [
+    "Before the late nineteenth century, time was local. Each town set its clocks by the sun, so that noon came when the sun stood highest overhead. Because the sun's position shifts as one travels east or west, noon in one city arrived a few minutes earlier or later than in the next. For most people, who rarely traveled far or fast, the differences hardly mattered.",
+    "The railroads changed that. A train crossing hundreds of miles passed through dozens of local times, and each railroad kept its own schedule, often based on the time at its headquarters. Travelers faced timetables listing several times for the same departure, and missed connections were common. On November 18, 1883, the railroads of the United States and Canada adopted a system of standard time zones, and clocks across the continent were reset. Some towns saw noon twice that day as their clocks were set back to the new standard.",
+    "The change was not imposed by government. It was a private agreement among railroad companies, and the federal government did not make the time zones law until 1918. Many towns adopted the new time immediately; some resisted for years, objecting that the railroads had no right to tell the sun when it was noon. Their protests reveal something easy to forget: the time on our clocks is a convention, chosen for coordination, not a fact read off the heavens.",
+    "Standard time is now so familiar that it seems natural, and that is precisely its success. Conventions work best when they become invisible. Yet the episode is a reminder that much of what organizes daily life was decided by particular people, for particular purposes, and could have been decided otherwise."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0096",
+    "mcat-cars-0097",
+    "mcat-cars-0098",
+    "mcat-cars-0099",
+    "mcat-cars-0100"
+   ]
+  },
+  {
+   "id": "mcat-cars-p21",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Waiting in line",
+   "domain": "social sciences",
+   "paragraphs": [
+    "Few social arrangements are as ordinary, or as revealing, as the line. People who have never met agree, without discussion, to stand one behind another and to be served in the order they arrived. The principle of first come, first served is so widely accepted that cutting in line can provoke anger out of all proportion to the minutes lost.",
+    "The anger makes sense once we see what the line protects. A queue treats everyone in it as equal: the wealthy executive and the student stand in the same row and wait the same time. It is one of the few places in a market society where money does not, at least officially, buy priority. To cut in is not merely to take time from others; it is to declare oneself an exception to a rule that binds everyone else.",
+    "That equality has always had limits. Hospitals treat the sickest patients first, not the earliest arrivals, and few people object, because need is an accepted reason to depart from first come, first served. More troubling are departures based on money: express lanes sold at a premium, paid services that hold a place in line, and fees that let some travelers skip security queues. Each may be defended as efficient, since those who value their time most can pay to save it.",
+    "Yet efficiency is not the only value the line expresses. A society that auctions off places in every queue may serve its wealthier members faster, but it also teaches everyone that waiting is for those who cannot pay. Whether that lesson is worth the time it saves is not a technical question. It is a question about what kind of equality a society wants its everyday arrangements to express."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0101",
+    "mcat-cars-0102",
+    "mcat-cars-0103",
+    "mcat-cars-0104",
+    "mcat-cars-0105"
    ]
   },
   {
