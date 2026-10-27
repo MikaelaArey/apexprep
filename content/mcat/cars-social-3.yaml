@@ -1,0 +1,503 @@
+# MCAT CARS: original social science passages for ApexPrep. Not official AAMC content.
+# The correct option is listed first; the build shuffles answer order.
+
+- passage:
+    id: mcat-cars-p24
+    title: The shape of the world on paper
+    domain: social sciences
+    paragraphs:
+      - >-
+        Every flat map of the world is a compromise. A globe can show the shapes,
+        sizes, distances and directions of the continents all at once, but no flat
+        map can. Flattening the surface of a sphere forces the mapmaker to stretch
+        or tear it somewhere, and each projection chooses which properties to keep
+        and which to give up.
+      - >-
+        The projection that Gerardus Mercator published in 1569 made a choice suited
+        to its purpose. Mercator was making a map for navigators, and on his
+        projection a course of constant compass bearing appears as a straight line,
+        so a sailor could plot a route with a ruler. The price was size. Mercator's
+        map enlarges regions more and more the farther they lie from the equator, so
+        that Greenland appears roughly as large as Africa, although Africa is about
+        fourteen times larger.
+      - >-
+        For centuries the distortion mattered little to sailors, but it mattered
+        more once Mercator's map moved off ships and onto classroom walls. Critics
+        argued that a map which shrinks the tropics and swells Europe and North
+        America teaches a distorted sense of the world's proportions, and in the
+        1970s the German historian Arno Peters promoted an equal-area projection as
+        a fairer alternative. Cartographers were often unimpressed. Equal-area
+        projections were nothing new, they pointed out, and Peters's map achieved
+        its fairness by badly distorting shapes, stretching Africa and South America
+        into long, thin forms.
+      - >-
+        The dispute is sometimes told as a contest between a biased map and a fair
+        one. It is better understood as a reminder that no map is neutral. Choosing
+        a projection means choosing what the map is for, and a map that serves
+        navigators well may serve students poorly. The mistake is not using
+        Mercator's projection. It is forgetting that it was a choice at all.
+  items:
+    - id: mcat-cars-0116
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Every flat map distorts something, so choosing a projection reflects a purpose, and the real error is forgetting that a choice was made.
+          correct: true
+          why: This links the opening (P1) to the conclusion (P4).
+        - text: Mercator's projection is biased and should be replaced by Peters's map.
+          trap: contradicts
+          why: The author rejects the biased-versus-fair framing.
+        - text: Globes are always better than flat maps.
+          trap: too_strong
+          why: The author notes what globes can show but never argues they are always better.
+        - text: Navigators no longer rely on Mercator's projection.
+          trap: not_present
+          why: The passage says nothing about navigators today.
+      tldr: No map is neutral; remember that a projection is a choice.
+      steps:
+        - label: Map
+          body: P1 every map compromises. P2 Mercator's trade-off. P3 the Peters dispute. P4 no map is neutral.
+        - label: Main idea
+          body: Projections serve purposes; forgetting that is the mistake.
+      takeaway: A passage's last paragraph often reframes the debate it has just described.
+
+    - id: mcat-cars-0117
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 1
+      prompt: According to the passage, Mercator's projection was well suited to navigation because
+      options:
+        - text: a course of constant compass bearing appears as a straight line.
+          correct: true
+          why: Paragraph 2 says this let sailors plot routes with a ruler.
+        - text: it shows the continents at their true sizes.
+          trap: contradicts
+          why: The projection distorts size.
+        - text: it enlarges the tropics.
+          trap: sign_flip
+          why: It enlarges regions far from the equator, not the tropics.
+        - text: it was the first map to include Greenland.
+          trap: not_present
+          why: The passage never says this.
+      tldr: Straight lines for constant bearings.
+      steps:
+        - label: Locate
+          body: Paragraph 2.
+        - label: Match
+          body: Constant compass bearing appears as a straight line.
+      takeaway: Detail questions reward going back to the exact sentence.
+
+    - id: mcat-cars-0118
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The statement that "equal-area projections were nothing new" serves mainly to
+      options:
+        - text: present one of the cartographers' objections to Peters's projection
+          correct: true
+          why: It is reported as part of why cartographers were unimpressed.
+        - text: show that the author considers Peters's map the fairest available
+          trap: contradicts
+          why: The author rejects the idea of a simply fair map.
+        - text: explain why sailors preferred Mercator's map
+          trap: wrong_viewpoint
+          why: The statement is about Peters's map and cartographers, not sailors.
+        - text: suggest that Mercator copied an earlier map
+          trap: distortion
+          why: The novelty point concerns equal-area projections, not Mercator's.
+      tldr: It's the cartographers' objection.
+      steps:
+        - label: Context
+          body: "\"Cartographers were often unimpressed. ... they pointed out...\""
+        - label: Function
+          body: It voices their criticism of Peters.
+      takeaway: Track whose voice a sentence belongs to.
+
+    - id: mcat-cars-0119
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which of the following findings, if true, would most challenge the critics' argument in paragraph 3?
+      options:
+        - text: Students taught with Mercator wall maps judge the relative sizes of continents as accurately as students taught with equal-area maps.
+          correct: true
+          why: The critics claim the map teaches a distorted sense of proportion; this shows no such effect.
+        - text: Peters's projection stretches the shapes of Africa and South America.
+          trap: true_irrelevant
+          why: That criticizes Peters's alternative, not the critics' claim about Mercator's effects.
+        - text: Mercator wall maps were common in classrooms for many decades.
+          trap: wrong_direction
+          why: That fits the critics' worry rather than challenging it.
+        - text: Mercator designed his projection for sailors.
+          trap: true_irrelevant
+          why: The critics accept this; their point concerns classroom use.
+      tldr: Show the feared effect doesn't happen.
+      steps:
+        - label: Critics' claim
+          body: Mercator maps distort students' sense of proportion.
+        - label: Challenge
+          body: Students using them judge sizes just as well.
+      takeaway: A claim about effects is best challenged by evidence that the effect is absent.
+
+    - id: mcat-cars-0120
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 3
+      prompt: The author's attitude toward Mercator's projection is best described as
+      options:
+        - text: balanced, recognizing its value for navigation and its limits as a general picture of the world
+          correct: true
+          why: The author calls its trade-off "suited to its purpose" but notes it may serve students poorly.
+        - text: hostile, because it is biased against the tropics
+          trap: too_strong
+          why: The author says the mistake is not using the projection.
+        - text: admiring and uncritical
+          trap: contradicts
+          why: The author notes its distortion of size.
+        - text: indifferent
+          trap: contradicts
+          why: The author takes a clear position on how the map should be understood.
+      tldr: Good for its purpose, misleading when treated as neutral.
+      steps:
+        - label: Evidence
+          body: "\"Suited to its purpose\" (P2); \"may serve students poorly\" (P4)."
+        - label: Tone
+          body: Balanced.
+      takeaway: When an author praises and criticizes the same thing, look for a balanced answer.
+
+- passage:
+    id: mcat-cars-p25
+    title: The gentle push
+    domain: social sciences
+    paragraphs:
+      - >-
+        Whether workers save for retirement often depends less on their
+        preferences than on what happens if they do nothing. Workers who are
+        enrolled in a savings plan automatically, with the option to leave, save at
+        far higher rates than workers who must sign up on their own. Countries where
+        citizens are presumed to consent to organ donation unless they opt out
+        record far higher rates of consent than countries where citizens must opt
+        in. In each case, the default does much of the deciding.
+      - >-
+        Findings like these underlie the idea of the "nudge": a change in how
+        choices are presented that steers people toward better outcomes without
+        forbidding any option or significantly changing incentives. Its advocates
+        argue that there is no neutral way to design a form or arrange a cafeteria.
+        Something must be the default, and something must come first. If the
+        arrangement will influence people anyway, the argument goes, it might as
+        well influence them toward choices they would endorse on reflection.
+      - >-
+        Critics answer that a nudge works precisely because it bypasses
+        deliberation. A tax or a ban is at least visible: citizens can see it, argue
+        about it and vote against it. A default slips into decisions unnoticed, and
+        its power depends on people not thinking too hard about it. Persuasion
+        treats people as reasoners; a nudge, on this view, treats them as
+        predictable machines to be steered. And the claim that people would endorse
+        the outcome on reflection places great trust in whoever decides what
+        reflection would produce.
+      - >-
+        Both sides have a point, but the critics' strongest objection is not to
+        nudging as such. It is to nudging in secret. A default that is announced,
+        explained and easy to reverse invites exactly the scrutiny the critics
+        demand, while one buried in fine print does not. The question to ask of any
+        nudge is whether it would survive being made public, and many, though not
+        all, would.
+  items:
+    - id: mcat-cars-0121
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 3
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: The worry that nudges bypass deliberation applies mainly to hidden nudges, and nudges made public can meet it.
+          correct: true
+          why: The author locates the critics' strongest objection in secrecy and proposes a publicity test (P4).
+        - text: Nudges should be abandoned because they treat people as machines.
+          trap: wrong_viewpoint
+          why: That is the critics' view, which the author narrows rather than adopts.
+        - text: Defaults have little effect on what people choose.
+          trap: contradicts
+          why: Paragraph 1 says the default does much of the deciding.
+        - text: Taxes and bans are always better than nudges.
+          trap: unsupported
+          why: The author never ranks these policies.
+      tldr: Secrecy, not nudging itself, is the problem.
+      steps:
+        - label: Map
+          body: P1 defaults matter. P2 the case for nudges. P3 the critics. P4 the author's resolution.
+        - label: Main idea
+          body: Public nudges answer the critics' best objection.
+      takeaway: In debate passages, the main idea is the author's resolution, not either side's view.
+
+    - id: mcat-cars-0122
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The advocates' claim that "there is no neutral way to design a form" is meant to suggest that
+      options:
+        - text: since some arrangement will influence choices anyway, choosing it deliberately adds no new imposition.
+          correct: true
+          why: Paragraph 2 reasons that if influence is unavoidable, it may as well be helpful.
+        - text: forms should be eliminated.
+          trap: distortion
+          why: The advocates want better forms, not none.
+        - text: people's choices are never affected by design.
+          trap: contradicts
+          why: The advocates' point is that design always affects choices.
+        - text: designers should hide defaults from users.
+          trap: unsupported
+          why: Nothing in the advocates' argument calls for hiding defaults.
+      tldr: Influence is unavoidable, so aim it well.
+      steps:
+        - label: Locate
+          body: Paragraph 2, the advocates' argument.
+        - label: Infer
+          body: Unavoidable influence makes deliberate design acceptable.
+      takeaway: Follow the "if... then" structure of an argument to infer its point.
+
+    - id: mcat-cars-0123
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which policy would best pass the test proposed in paragraph 4?
+      options:
+        - text: A city enrolls residents in a renewable-energy plan by default, announces the change by mail and lets anyone switch back with one phone call.
+          correct: true
+          why: The default is announced, explained and easy to reverse.
+        - text: A company renews subscriptions automatically under a clause buried in its terms of service.
+          trap: contradicts
+          why: The author's test fails a default hidden in fine print.
+        - text: A government places a tax on sugary drinks.
+          trap: out_of_scope
+          why: A tax changes incentives, so it isn't a nudge at all.
+        - text: A cafeteria removes all desserts from its menu.
+          trap: out_of_scope
+          why: Removing an option is a ban, not a nudge.
+      tldr: Announced, explained, easy to undo.
+      steps:
+        - label: Test
+          body: Would the nudge survive being made public?
+        - label: Apply
+          body: The city's announced, reversible default does.
+      takeaway: First check that the example is the kind of thing the test is for.
+
+    - id: mcat-cars-0124
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which finding, if true, would most weaken the author's claim that an announced default invites the scrutiny critics demand?
+      options:
+        - text: People told about a default and how to change it keep it at the same rate as people who are not told, and rarely reconsider it.
+          correct: true
+          why: If announcing a default doesn't prompt any more thought, publicity doesn't create the scrutiny the author expects.
+        - text: Automatic enrollment raises retirement savings rates.
+          trap: true_irrelevant
+          why: The passage already grants this.
+        - text: Some defaults are hidden in fine print.
+          trap: true_irrelevant
+          why: The author already acknowledges hidden nudges.
+        - text: Voters often oppose new taxes.
+          trap: out_of_scope
+          why: The claim concerns how people respond to announced defaults, not taxes.
+      tldr: If announcing changes nothing, publicity doesn't bring scrutiny.
+      steps:
+        - label: Claim
+          body: Public defaults get people thinking.
+        - label: Weaken
+          body: Evidence that people told about defaults think no more than others.
+      takeaway: Weaken a claim about a mechanism by showing the mechanism doesn't operate.
+
+    - id: mcat-cars-0125
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: Taxes and bans are mentioned in paragraph 3 primarily to
+      options:
+        - text: contrast policies citizens can see and debate with nudges that work unnoticed
+          correct: true
+          why: >-
+            The critics use them to show what a nudge lacks: visibility.
+        - text: argue that taxes and bans work better than nudges
+          trap: unsupported
+          why: The comparison is about visibility, not effectiveness.
+        - text: show that the author prefers bans to nudges
+          trap: wrong_viewpoint
+          why: This is the critics' comparison, and the author never states that preference.
+        - text: give examples of nudges
+          trap: lookalike
+          why: Taxes and bans are the opposite of nudges by the passage's definition.
+      tldr: They're the visible contrast to an invisible nudge.
+      steps:
+        - label: Context
+          body: The critics' argument that nudges bypass deliberation.
+        - label: Role
+          body: Taxes and bans can be seen and argued about; nudges can't.
+      takeaway: Comparisons in a passage usually highlight one specific difference.
+
+- passage:
+    id: mcat-cars-p26
+    title: When did childhood begin?
+    domain: social sciences
+    paragraphs:
+      - >-
+        In 1960 the French historian Philippe Ariès made a claim that startled his
+        readers: in medieval society, he wrote, the idea of childhood did not
+        exist. He did not mean that there were no children or that parents did not
+        care for them. He meant that medieval people lacked the modern sense of
+        childhood as a distinct stage of life, with its own needs, clothing, games
+        and emotional weight. Children, in his account, entered the adult world as
+        soon as they could manage without constant care.
+      - >-
+        Ariès's evidence was varied and often ingenious. He pointed to medieval
+        paintings in which children appear as miniature adults, with adult
+        proportions and adult dress, and to the late appearance of clothing, toys
+        and books made especially for the young. He argued that a sentimental
+        attachment to childhood developed gradually, alongside schooling and the
+        private family home, over the early modern centuries.
+      - >-
+        Later historians were less persuaded. Studies of diaries, letters and court
+        records found parents across the medieval and early modern periods grieving
+        for dead children, worrying over their illnesses and recognizing stages of
+        development. Paintings, the critics noted, follow artistic conventions and
+        cannot be read as photographs of how people saw the world. That artists
+        painted children as small adults may tell us more about the rules of
+        painting than about the feelings of parents.
+      - >-
+        Yet it would be a mistake to conclude that Ariès simply got it wrong. His
+        sharpest claim may not survive, but his larger question has proved
+        remarkably productive. By insisting that childhood has a history, that the
+        way societies think about the young is not fixed by biology, he helped open
+        a field of study that had barely existed before him. A thesis can fail and
+        still change what scholars think is worth asking.
+  items:
+    - id: mcat-cars-0126
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Although Ariès's claim that medieval society lacked an idea of childhood has been widely rejected, his insistence that childhood has a history reshaped the field.
+          correct: true
+          why: The passage presents the claim (P1–P2), the criticism (P3) and the lasting contribution (P4).
+        - text: Medieval parents did not care about their children.
+          trap: contradicts
+          why: Even Ariès didn't claim this, and the critics found evidence of deep care.
+        - text: Paintings are the best evidence of how past societies viewed children.
+          trap: contradicts
+          why: The critics argue paintings follow conventions and can mislead.
+        - text: The way societies think about children is fixed by biology.
+          trap: contradicts
+          why: The author credits Ariès with showing it is not.
+      tldr: Wrong on the big claim, right to ask the question.
+      steps:
+        - label: Map
+          body: P1 the claim. P2 the evidence. P3 the critics. P4 the lasting value.
+        - label: Main idea
+          body: A failed thesis that still changed the field.
+      takeaway: When a passage ends with "Yet...", the main idea usually includes that turn.
+
+    - id: mcat-cars-0127
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward Ariès is best described as
+      options:
+        - text: respectful of his contribution, while accepting much of the case against his central claim
+          correct: true
+          why: The author calls his evidence ingenious and his question productive, but says his sharpest claim may not survive.
+        - text: dismissive
+          trap: contradicts
+          why: The author says it would be a mistake to conclude he simply got it wrong.
+        - text: uncritically admiring
+          trap: contradicts
+          why: The author accepts that his central claim may not survive.
+        - text: confused
+          trap: unsupported
+          why: The author's position is clear and consistent.
+      tldr: Respect for the question, doubt about the answer.
+      steps:
+        - label: Evidence
+          body: "\"Varied and often ingenious\"; \"sharpest claim may not survive\"; \"remarkably productive.\""
+        - label: Tone
+          body: Respectful but critical.
+      takeaway: Mixed praise and criticism point to a qualified-respect answer.
+
+    - id: mcat-cars-0128
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The critics in paragraph 3 would most likely say that a medieval painting of a child in adult clothing
+      options:
+        - text: may reflect how children were conventionally painted rather than how they were regarded.
+          correct: true
+          why: The critics say paintings follow artistic conventions and aren't photographs of how people saw.
+        - text: proves that medieval people saw children as small adults.
+          trap: wrong_viewpoint
+          why: That is Ariès's reading, which the critics dispute.
+        - text: shows that children actually wore adult clothing.
+          trap: too_strong
+          why: The critics doubt that paintings can be read so literally.
+        - text: should be dismissed as a forgery.
+          trap: out_of_scope
+          why: The critics question how to read paintings, not whether they're authentic.
+      tldr: Conventions, not perceptions.
+      steps:
+        - label: Critics' rule
+          body: Paintings follow conventions.
+        - label: Apply
+          body: A child in adult dress may just reflect how painters worked.
+      takeaway: Apply a viewpoint's stated principle to the new case, and no further.
+
+    - id: mcat-cars-0129
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which of the following findings, if true, would most challenge the critics' use of diaries and letters?
+      options:
+        - text: The surviving diaries and letters were written almost entirely by a small, wealthy minority whose family life differed from that of most people.
+          correct: true
+          why: Evidence from an unrepresentative group can't show how most medieval families thought about childhood.
+        - text: Some medieval paintings show children playing games.
+          trap: wrong_direction
+          why: That would add support to the critics, not challenge them.
+        - text: Court records sometimes mention children's ages.
+          trap: wrong_direction
+          why: That is consistent with the critics' evidence.
+        - text: Ariès's book was widely read.
+          trap: true_irrelevant
+          why: Its popularity says nothing about the quality of the critics' evidence.
+      tldr: Unrepresentative sources weaken a general conclusion.
+      steps:
+        - label: Critics' evidence
+          body: Diaries, letters and court records show parents caring.
+        - label: Challenge
+          body: If those sources come from a narrow elite, they can't speak for everyone.
+      takeaway: Questioning who produced the evidence is a classic way to challenge it.
+
+    - id: mcat-cars-0130
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: The author's final claim, that "a thesis can fail and still change what scholars think is worth asking," is best illustrated by which of the following?
+      options:
+        - text: A scientist's theory about a disease's cause is disproved, but the questions it raised start a new line of research.
+          correct: true
+          why: The theory fails, yet it changes what researchers study, just like Ariès's thesis.
+        - text: A theory goes unchallenged for centuries.
+          trap: contradicts
+          why: The claim concerns a thesis that fails.
+        - text: A historian's book is ignored and soon forgotten.
+          trap: contradicts
+          why: A forgotten thesis changes nothing.
+        - text: New evidence confirms a long-doubted thesis.
+          trap: contradicts
+          why: The claim concerns a thesis that fails.
+      tldr: Failed answer, fruitful question.
+      steps:
+        - label: Claim
+          body: Failure plus lasting influence on the questions asked.
+        - label: Match
+          body: A disproved theory that launches new research.
+      takeaway: For analogy questions, match both parts of the claim.

@@ -251,9 +251,9 @@
     - text: '4'
       trap: power_of_ten
       why: 0.001 M is 10⁻3 M, not 10⁻4 M.
-    - text: '2'
-      trap: power_of_ten
-      why: 0.001 M is 10⁻3 M, not 10⁻2 M.
+    - text: '7'
+      trap: false_fact
+      why: Only pure water (or a neutral salt) sits at pH 7.
   tldr: 'HNO₃ dissociates fully: [H⁺] = 10⁻3 M, so pH = 3.'
   steps:
     - label: Dissociation
@@ -286,9 +286,9 @@
     - text: '5'
       trap: power_of_ten
       why: 0.0001 M is 10⁻4 M, not 10⁻5 M.
-    - text: '3'
-      trap: power_of_ten
-      why: 0.0001 M is 10⁻4 M, not 10⁻3 M.
+    - text: '7'
+      trap: false_fact
+      why: Only pure water (or a neutral salt) sits at pH 7.
   tldr: 'HCl dissociates fully: [H⁺] = 10⁻4 M, so pH = 4.'
   steps:
     - label: Dissociation
@@ -318,12 +318,12 @@
     - text: '2'
       trap: lookalike
       why: That’s the pOH. Subtract it from 14 for the pH.
-    - text: '13'
-      trap: power_of_ten
-      why: 0.01 M is 10⁻2 M, not 10⁻1 M.
     - text: '11'
       trap: power_of_ten
       why: 0.01 M is 10⁻2 M, not 10⁻3 M.
+    - text: '7'
+      trap: false_fact
+      why: Only pure water (or a neutral salt) sits at pH 7.
   tldr: 'NaOH dissociates fully: pOH = 2, so pH = 14 − 2 = 12.'
   steps:
     - label: Dissociation
@@ -353,12 +353,12 @@
     - text: '3'
       trap: lookalike
       why: That’s the pOH. Subtract it from 14 for the pH.
-    - text: '12'
-      trap: power_of_ten
-      why: 0.001 M is 10⁻3 M, not 10⁻2 M.
     - text: '10'
       trap: power_of_ten
       why: 0.001 M is 10⁻3 M, not 10⁻4 M.
+    - text: '7'
+      trap: false_fact
+      why: Only pure water (or a neutral salt) sits at pH 7.
   tldr: 'KOH dissociates fully: pOH = 3, so pH = 14 − 3 = 11.'
   steps:
     - label: Dissociation
@@ -393,7 +393,7 @@
     - text: 0.333 M
       trap: misread_data
       why: That treats 250 mL as the water added. 250 mL is the final volume.
-    - text: 4 M
+    - text: 0.04 M
       trap: power_of_ten
       why: A factor of 10 slipped in. Check the arithmetic.
   tldr: M₁V₁ = M₂V₂ → 2 × 50 = M₂ × 250, so M₂ = 0.4 M.
@@ -467,7 +467,7 @@
     - text: 0.1 M
       trap: misread_data
       why: That treats 400 mL as the water added. 400 mL is the final volume.
-    - text: 1.25 M
+    - text: 0.013 M
       trap: power_of_ten
       why: A factor of 10 slipped in. Check the arithmetic.
   tldr: M₁V₁ = M₂V₂ → 0.5 × 100 = M₂ × 400, so M₂ = 0.125 M.
@@ -538,12 +538,12 @@
     - text: 5 M
       trap: wrong_direction
       why: That inverts the volume ratio. Dilution can only lower the concentration.
-    - text: 0.167 M
-      trap: misread_data
-      why: That treats 100 mL as the water added. 100 mL is the final volume.
     - text: 2 M
       trap: power_of_ten
       why: A factor of 10 slipped in. Check the arithmetic.
+    - text: 0.25 M
+      trap: misread_data
+      why: That divides by the water added (80 mL). V₂ is the final total volume.
   tldr: M₁V₁ = M₂V₂ → 1 × 20 = M₂ × 100, so M₂ = 0.2 M.
   steps:
     - label: Set up
@@ -570,15 +570,15 @@
     - text: 11.2 L
       correct: true
       why: 0.5 mol × 22.4 L/mol = 11.2 L.
-    - text: 12.3 L
-      trap: lookalike
-      why: 24.5 L/mol is the molar volume near 25 °C, not at STP.
-    - text: 44.8 L
-      trap: wrong_direction
-      why: That divides by the moles instead of multiplying.
     - text: 4.2 L
       trap: lookalike
       why: That uses the gas constant R as if it were the molar volume.
+    - text: 1.12 L
+      trap: power_of_ten
+      why: The molar volume at STP is 22.4 L/mol, not 2.24.
+    - text: 0.041 L
+      trap: lookalike
+      why: That uses R (0.0821 L·atm/(mol·K)) as if it were the molar volume.
   tldr: At STP each mole takes 22.4 L, so 0.5 mol occupies 11.2 L.
   steps:
     - label: Recall
@@ -605,15 +605,15 @@
     - text: 44.8 L
       correct: true
       why: 2 mol × 22.4 L/mol = 44.8 L.
-    - text: 49 L
-      trap: lookalike
-      why: 24.5 L/mol is the molar volume near 25 °C, not at STP.
     - text: 11.2 L
       trap: wrong_direction
       why: That divides by the moles instead of multiplying.
     - text: 16.6 L
       trap: lookalike
       why: That uses the gas constant R as if it were the molar volume.
+    - text: 4.48 L
+      trap: power_of_ten
+      why: The molar volume at STP is 22.4 L/mol, not 2.24.
   tldr: At STP each mole takes 22.4 L, so 2 mol occupies 44.8 L.
   steps:
     - label: Recall
@@ -681,9 +681,9 @@
     - text: 1.37 mol
       trap: lookalike
       why: 24.5 L/mol applies near 25 °C, not at STP.
-    - text: 3 mol
+    - text: 0.15 mol
       trap: power_of_ten
-      why: That doubles the correct answer. Recheck the division.
+      why: Divide by 22.4, not 224.
   tldr: Moles = 33.6 L ÷ 22.4 L/mol = 1.5 mol.
   steps:
     - label: Recall
@@ -713,12 +713,12 @@
     - text: 1505 mol
       trap: wrong_direction
       why: That multiplies by 22.4 instead of dividing.
-    - text: 2.74 mol
-      trap: lookalike
-      why: 24.5 L/mol applies near 25 °C, not at STP.
     - text: 6 mol
       trap: power_of_ten
       why: That doubles the correct answer. Recheck the division.
+    - text: 8.08 mol
+      trap: lookalike
+      why: That uses the gas constant R as if it were the molar volume.
   tldr: Moles = 67.2 L ÷ 22.4 L/mol = 3 mol.
   steps:
     - label: Recall
@@ -949,9 +949,9 @@
     - text: 2 A
       trap: skipped_step
       why: That uses only the 12 Ω resistor.
-    - text: 4 A
-      trap: skipped_step
-      why: That uses only the 6 Ω resistor.
+    - text: 96 A
+      trap: lookalike
+      why: That multiplies V by R. Ohm’s law gives I = V/R.
   tldr: 'Parallel: R = 4 Ω, so I = 24/4 = 6 A.'
   steps:
     - label: Combine
@@ -1167,9 +1167,9 @@
     - text: 200 W
       trap: lookalike
       why: V × R isn’t a power formula. Use V²/R or IV.
-    - text: 20 W
+    - text: 400 W
       trap: skipped_step
-      why: There’s no ½ in P = V²/R. That factor belongs to capacitor energy.
+      why: That’s V² alone. Divide by R.
   tldr: P = V²/R = 400/10 = 40 W.
   steps:
     - label: Pick the formula
@@ -1199,12 +1199,12 @@
     - text: 2 W
       trap: lookalike
       why: V/R = 2 is the current in amperes, not the power.
-    - text: 50 W
-      trap: lookalike
-      why: V × R isn’t a power formula. Use V²/R or IV.
     - text: 10 W
       trap: skipped_step
       why: There’s no ½ in P = V²/R. That factor belongs to capacitor energy.
+    - text: 4 W
+      trap: skipped_step
+      why: That’s I². Power is I²R.
   tldr: P = V²/R = 100/5 = 20 W.
   steps:
     - label: Pick the formula
@@ -1231,15 +1231,15 @@
     - text: 200 W
       correct: true
       why: P = V²/R = 100²/50 = 200 W.
-    - text: 2 W
-      trap: lookalike
-      why: V/R = 2 is the current in amperes, not the power.
     - text: 5000 W
       trap: lookalike
       why: V × R isn’t a power formula. Use V²/R or IV.
-    - text: 100 W
+    - text: 10000 W
       trap: skipped_step
-      why: There’s no ½ in P = V²/R. That factor belongs to capacitor energy.
+      why: That’s V² alone. Divide by R.
+    - text: 500000 W
+      trap: wrong_direction
+      why: That multiplies by R. P = V²/R.
   tldr: P = V²/R = 10000/50 = 200 W.
   steps:
     - label: Pick the formula
@@ -1339,12 +1339,12 @@
     - text: 2 µC
       trap: lookalike
       why: That divides C by V. Q = CV.
-    - text: 125 µC
-      trap: lookalike
-      why: ½CV² is the stored energy (in µJ), not the charge.
     - text: 0.5 µC
       trap: lookalike
       why: That divides V by C. Q = CV.
+    - text: 25 µC
+      trap: lookalike
+      why: There’s no ½ in Q = CV. That factor belongs to the stored energy.
   tldr: Q = CV = 10 × 5 = 50 µC.
   steps:
     - label: Recall
@@ -1376,9 +1376,9 @@
     - text: 144 µC
       trap: lookalike
       why: ½CV² is the stored energy (in µJ), not the charge.
-    - text: 6 µC
+    - text: 288 µC
       trap: lookalike
-      why: That divides V by C. Q = CV.
+      why: CV² isn’t a charge. Q = CV.
   tldr: Q = CV = 2 × 12 = 24 µC.
   steps:
     - label: Recall
@@ -1444,9 +1444,9 @@
     - text: 30 µJ
       trap: skipped_step
       why: 'Voltage must be squared: U = ½CV².'
-    - text: 60 µJ
+    - text: 1800 µJ
       trap: lookalike
-      why: CV is the charge in µC, not the energy.
+      why: 'Only the voltage is squared: U = ½CV².'
   tldr: U = ½CV² = ½(20)(9) = 90 µJ.
   steps:
     - label: Recall
@@ -1659,15 +1659,15 @@
     - text: 3 s
       correct: true
       why: 45 = ½(10)t², so t² = 9 and t = 3 s.
-    - text: 2.1 s
-      trap: lookalike
-      why: That drops the ½ from h = ½gt².
     - text: 9 s
       trap: skipped_step
       why: That’s t². Take the square root.
     - text: 4.5 s
       trap: lookalike
       why: h/g isn’t a time formula here; the stone accelerates.
+    - text: 9.5 s
+      trap: skipped_step
+      why: That leaves g out of t = √(2h/g).
   tldr: h = ½gt² → 45 = 5t² → t = 3 s.
   steps:
     - label: Recall
@@ -1735,9 +1735,9 @@
     - text: 20 m/s
       trap: lookalike
       why: That’s the average speed over the fall, not the final speed.
-    - text: 160 m/s
-      trap: lookalike
-      why: 'Speed grows linearly with time: v = gt.'
+    - text: 2.5 m/s
+      trap: wrong_direction
+      why: 'That divides g by t. Speed grows with time: v = gt.'
   tldr: v = gt = 10 × 4 = 40 m/s.
   steps:
     - label: Recall
@@ -1766,12 +1766,12 @@
     - text: 30 m
       trap: lookalike
       why: gt = 30 is the final speed in m/s, not the distance.
-    - text: 90 m
-      trap: skipped_step
-      why: That leaves out the ½ in d = ½gt².
     - text: 15 m
       trap: skipped_step
       why: 'Time must be squared: d = ½gt².'
+    - text: 9 m
+      trap: skipped_step
+      why: That’s t² alone. Multiply by ½g = 5 m/s².
   tldr: d = ½gt² = ½(10)(3)² = 45 m.
   steps:
     - label: Recall
@@ -1842,9 +1842,9 @@
     - text: 20 m
       trap: skipped_step
       why: That multiplies by t² instead of t.
-    - text: 5 m
+    - text: 31.6 m
       trap: skipped_step
-      why: 'Recheck the fall time: t = √(2h/g).'
+      why: That leaves g out of t = √(2h/g).
   tldr: t = √(2h/g) = 2 s; x = v·t = 5 × 2 = 10 m.
   steps:
     - label: Vertical
@@ -1873,15 +1873,15 @@
     - text: 30 m
       correct: true
       why: Fall time t = √(2h/g) = 3 s, so x = 10 × 3 = 30 m.
-    - text: 21.21 m
-      trap: lookalike
-      why: That drops the ½ in h = ½gt² when finding the fall time.
     - text: 90 m
       trap: skipped_step
       why: That multiplies by t² instead of t.
     - text: 45 m
       trap: misread_data
       why: That’s the height, not the horizontal distance.
+    - text: 60 m
+      trap: skipped_step
+      why: 'Recheck the fall time: t = √(2h/g).'
   tldr: t = √(2h/g) = 3 s; x = v·t = 10 × 3 = 30 m.
   steps:
     - label: Vertical
@@ -1916,7 +1916,7 @@
     - text: 5 m
       trap: misread_data
       why: That’s the height, not the horizontal distance.
-    - text: 8 m
+    - text: 2 m
       trap: skipped_step
       why: 'Recheck the fall time: t = √(2h/g).'
   tldr: t = √(2h/g) = 1 s; x = v·t = 4 × 1 = 4 m.
@@ -1947,15 +1947,15 @@
     - text: 12 m
       correct: true
       why: Fall time t = √(2h/g) = 4 s, so x = 3 × 4 = 12 m.
-    - text: 8.49 m
-      trap: lookalike
-      why: That drops the ½ in h = ½gt² when finding the fall time.
     - text: 48 m
       trap: skipped_step
       why: That multiplies by t² instead of t.
     - text: 80 m
       trap: misread_data
       why: That’s the height, not the horizontal distance.
+    - text: 24 m
+      trap: skipped_step
+      why: 'Recheck the fall time: t = √(2h/g).'
   tldr: t = √(2h/g) = 4 s; x = v·t = 3 × 4 = 12 m.
   steps:
     - label: Vertical
@@ -2315,9 +2315,9 @@
     - text: 10 kPa
       trap: skipped_step
       why: That leaves out g in ρgh.
-    - text: 1000 kPa
-      trap: power_of_ten
-      why: A factor of 10 slipped in. Check ρgh in pascals.
+    - text: 0.1 kPa
+      trap: lookalike
+      why: That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³.
   tldr: Gauge pressure = ρgh = 100 kPa.
   steps:
     - label: Gauge
@@ -2352,9 +2352,9 @@
     - text: 20 kPa
       trap: skipped_step
       why: That leaves out g in ρgh.
-    - text: 2000 kPa
-      trap: power_of_ten
-      why: A factor of 10 slipped in. Check ρgh in pascals.
+    - text: 0.2 kPa
+      trap: lookalike
+      why: That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³.
   tldr: Gauge pressure = ρgh = 200 kPa.
   steps:
     - label: Gauge
@@ -2389,9 +2389,9 @@
     - text: 30 kPa
       trap: skipped_step
       why: That leaves out g in ρgh.
-    - text: 3000 kPa
-      trap: power_of_ten
-      why: A factor of 10 slipped in. Check ρgh in pascals.
+    - text: 0.3 kPa
+      trap: lookalike
+      why: That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³.
   tldr: Absolute = 100 kPa + ρgh = 400 kPa.
   steps:
     - label: Gauge
@@ -2463,9 +2463,9 @@
     - text: 10 kPa
       trap: skipped_step
       why: That leaves out g in ρgh.
-    - text: 1000 kPa
-      trap: power_of_ten
-      why: A factor of 10 slipped in. Check ρgh in pascals.
+    - text: 0.1 kPa
+      trap: lookalike
+      why: That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³.
   tldr: Absolute = 100 kPa + ρgh = 200 kPa.
   steps:
     - label: Gauge
@@ -2608,9 +2608,9 @@
     - text: 133.33%
       trap: wrong_direction
       why: That inverts the ratio; a floating object can’t be more than 100% submerged.
-    - text: 100%
-      trap: false_fact
-      why: It floats because it’s less dense than the fluid, so part of it stays above the surface.
+    - text: 60%
+      trap: misread_data
+      why: That uses water’s density, but the fluid is oil.
   tldr: A floating object is submerged by ρ_object/ρ_fluid = 75%.
   steps:
     - label: Balance
@@ -2786,9 +2786,9 @@
     - text: 15 cm on the opposite side (real)
       trap: sign_flip
       why: That adds 1/dₒ to 1/f instead of subtracting it.
-    - text: 40 cm on the opposite side (real)
+    - text: 20 cm on the opposite side (real)
       trap: lookalike
-      why: dₒ − f isn’t the lens equation. Use 1/f = 1/dₒ + 1/dᵢ.
+      why: Images form at the focal point only for distant objects.
   tldr: 1/dᵢ = 1/f − 1/dₒ = 1/20 − 1/60 → dᵢ = 30 cm (real).
   steps:
     - label: Equation
@@ -2891,15 +2891,15 @@
     - text: 30 cm on the object’s side (virtual)
       correct: true
       why: '1/dᵢ = 1/15 − 1/10, so dᵢ = −30 cm (negative: virtual, upright).'
-    - text: 30 cm on the opposite side (real)
-      trap: sign_flip
-      why: A negative dᵢ means a virtual image on the object’s side.
     - text: 6 cm on the opposite side (real)
       trap: sign_flip
       why: That adds 1/dₒ to 1/f instead of subtracting it.
     - text: 5 cm on the object’s side (virtual)
       trap: lookalike
       why: dₒ − f isn’t the lens equation. Use 1/f = 1/dₒ + 1/dᵢ.
+    - text: 15 cm on the opposite side (real)
+      trap: lookalike
+      why: Images form at the focal point only for distant objects.
   tldr: 1/dᵢ = 1/f − 1/dₒ = 1/15 − 1/10 → dᵢ = −30 cm (virtual).
   steps:
     - label: Equation
@@ -2934,9 +2934,9 @@
     - text: 6 cm on the opposite side (real)
       trap: sign_flip
       why: That adds 1/dₒ to 1/f instead of subtracting it.
-    - text: 16 cm on the opposite side (real)
+    - text: 8 cm on the opposite side (real)
       trap: lookalike
-      why: dₒ − f isn’t the lens equation. Use 1/f = 1/dₒ + 1/dᵢ.
+      why: Images form at the focal point only for distant objects.
   tldr: 1/dᵢ = 1/f − 1/dₒ = 1/8 − 1/24 → dᵢ = 12 cm (real).
   steps:
     - label: Equation
@@ -3275,15 +3275,15 @@
     - text: 20 dB
       correct: true
       why: Δβ = 10 log(100) = 20 dB.
-    - text: 2 dB
-      trap: skipped_step
-      why: That leaves out the factor of 10 in β = 10 log(I/I₀).
     - text: 100 dB
       trap: lookalike
       why: Decibels are logarithmic, not proportional to intensity.
     - text: 40 dB
       trap: power_of_ten
       why: Each tenfold step adds 10 dB, not 20.
+    - text: 30 dB
+      trap: skipped_step
+      why: 'Count the factors of 10 again: each one adds exactly 10 dB.'
   tldr: Each 10× in intensity adds 10 dB, so ×100 adds 20 dB.
   steps:
     - label: Formula
@@ -3309,15 +3309,15 @@
     - text: 30 dB
       correct: true
       why: Δβ = 10 log(1,000) = 30 dB.
-    - text: 3 dB
-      trap: skipped_step
-      why: That leaves out the factor of 10 in β = 10 log(I/I₀).
     - text: 1,000 dB
       trap: lookalike
       why: Decibels are logarithmic, not proportional to intensity.
     - text: 60 dB
       trap: power_of_ten
       why: Each tenfold step adds 10 dB, not 20.
+    - text: 40 dB
+      trap: skipped_step
+      why: 'Count the factors of 10 again: each one adds exactly 10 dB.'
   tldr: Each 10× in intensity adds 10 dB, so ×1,000 adds 30 dB.
   steps:
     - label: Formula
@@ -3522,9 +3522,9 @@
     - text: −1.10 V
       trap: sign_flip
       why: That subtracts in the wrong order. A galvanic cell has a positive E°cell.
-    - text: 1.20 V
-      trap: lookalike
-      why: Recompute E°(cathode) − E°(anode) with the signs given.
+    - text: 0.34 V
+      trap: skipped_step
+      why: That’s the cathode’s potential alone. Subtract the anode’s.
   tldr: E°cell = E°cathode − E°anode = 0.34 − (−0.76) = 1.10 V.
   steps:
     - label: Assign
@@ -3598,9 +3598,9 @@
     - text: −1.56 V
       trap: sign_flip
       why: That subtracts in the wrong order. A galvanic cell has a positive E°cell.
-    - text: 2.36 V
-      trap: lookalike
-      why: 'Potentials are intensive: don’t multiply by the 2 that balances electrons.'
+    - text: 0.80 V
+      trap: skipped_step
+      why: That’s the cathode’s potential alone. Subtract the anode’s.
   tldr: E°cell = E°cathode − E°anode = 0.80 − (−0.76) = 1.56 V.
   steps:
     - label: Assign
@@ -3636,9 +3636,9 @@
     - text: −0.78 V
       trap: sign_flip
       why: That subtracts in the wrong order. A galvanic cell has a positive E°cell.
-    - text: 0.88 V
-      trap: lookalike
-      why: Recompute E°(cathode) − E°(anode) with the signs given.
+    - text: 0.34 V
+      trap: skipped_step
+      why: That’s the cathode’s potential alone. Subtract the anode’s.
   tldr: E°cell = E°cathode − E°anode = 0.34 − (−0.44) = 0.78 V.
   steps:
     - label: Assign

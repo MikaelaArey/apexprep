@@ -13,6 +13,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { load } from 'js-yaml';
 import { z } from 'zod';
+import { NUMERIC, numericValue } from './item-models/helpers.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const taxonomy = JSON.parse(readFileSync(join(root, 'src/content/taxonomy.json'), 'utf8'));
@@ -45,8 +46,6 @@ function rng(seed) {
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 }
-const NUMERIC = /^[−-]?\d[\d,]*(\.\d+)?(\s|%|$)/;
-const numericValue = (t) => parseFloat(t.replace(/,/g, '').replace('−', '-'));
 function orderOptions(id, options, fixed) {
   if (fixed) return options;
   if (options.every((o) => NUMERIC.test(o.text))) {

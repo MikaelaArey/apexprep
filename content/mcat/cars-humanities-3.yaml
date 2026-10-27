@@ -1,0 +1,335 @@
+# MCAT CARS: original humanities passages for ApexPrep. Not official AAMC content.
+# The correct option is listed first; the build shuffles answer order.
+
+- passage:
+    id: mcat-cars-p22
+    title: A promise broken
+    domain: humanities
+    paragraphs:
+      - >-
+        When Franz Kafka died in 1924, he left his friend Max Brod instructions to
+        burn his diaries, letters and unfinished manuscripts unread. Brod refused.
+        Within a few years he had published The Trial, The Castle and Amerika, the
+        novels on which Kafka's reputation now largely rests. Readers have been
+        grateful ever since, and Brod's disobedience is usually told as a happy
+        ending: a friend's wise refusal saved some of the century's most important
+        fiction from the flames.
+      - >-
+        The gratitude is understandable, but it settles the question too quickly.
+        If authors have any claim over what they make, Kafka's request deserves more
+        weight than the story usually gives it. He was not a careless or impulsive
+        writer; he revised constantly, published little and knew the novels were
+        unfinished. His instruction may have expressed a judgment about the work,
+        not merely a passing mood of despair. To say that the result justified the
+        disobedience is to say that his wishes mattered only so long as they agreed
+        with ours.
+      - >-
+        Defenders of Brod reply that Kafka chose his executor strangely if he truly
+        wanted the papers destroyed. Brod had told him plainly that he would never
+        burn them, and Kafka, knowing this, named him anyway. On this reading, the
+        instruction was less a command than a gesture, a way of disowning the work
+        while making sure it survived. The argument is clever, and it may even be
+        true. But it makes the case for publication depend on guessing what Kafka
+        secretly wanted, which is exactly the kind of knowledge no one has.
+      - >-
+        Perhaps the honest position is that both claims are real and cannot be fully
+        reconciled. Readers gain something irreplaceable from the novels, and Kafka
+        lost something when his last wish was overruled. What we owe him is not to
+        pretend that loss away. We can be glad to have The Trial and still admit
+        that we have it because a promise was broken.
+  items:
+    - id: mcat-cars-0106
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: Which of the following best expresses the main idea of the passage?
+      options:
+        - text: Readers benefit from Brod's decision to publish Kafka's work, but that benefit doesn't erase the wrong of overriding Kafka's wishes.
+          correct: true
+          why: The author grants the gain and insists the loss is real too (P4).
+        - text: Brod was right to publish, because the results justified his disobedience.
+          trap: contradicts
+          why: The author says this reasoning settles the question too quickly.
+        - text: Kafka secretly wanted his novels to be published.
+          trap: unsupported
+          why: The author says no one can know what Kafka secretly wanted.
+        - text: An author's wishes about unpublished work should always be obeyed.
+          trap: too_strong
+          why: The author treats readers' claims as real as well.
+      tldr: Be glad of the novels, but admit a promise was broken.
+      steps:
+        - label: Map
+          body: P1 the happy-ending story. P2 Kafka's claim. P3 Brod's defenders and their limit. P4 both claims are real.
+        - label: Main idea
+          body: The benefit is real, and so is the wrong.
+      takeaway: When an author weighs two sides and ends with "both," the main idea keeps both.
+
+    - id: mcat-cars-0107
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 3
+      prompt: The author mentions that Kafka revised constantly and published little most likely in order to suggest that
+      options:
+        - text: his request to destroy the manuscripts may have reflected a considered judgment about the work.
+          correct: true
+          why: A careful, self-critical writer's instruction is harder to dismiss as a passing mood.
+        - text: he wanted the unfinished novels published after all.
+          trap: wrong_direction
+          why: The detail supports taking his request to destroy them seriously.
+        - text: the novels were finished when he died.
+          trap: contradicts
+          why: The author says Kafka knew the novels were unfinished.
+        - text: Brod had misunderstood the instructions.
+          trap: unsupported
+          why: Nothing suggests Brod misread what Kafka asked.
+      tldr: A careful writer's request deserves weight.
+      steps:
+        - label: Locate
+          body: P2, right after the claim that Kafka's request deserves more weight.
+        - label: Inference
+          body: His habits make the request look deliberate, not impulsive.
+      takeaway: Ask what each detail is evidence for in the paragraph's argument.
+
+    - id: mcat-cars-0108
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 3
+      prompt: The author notes that Brod had told Kafka he would never burn the papers primarily in order to
+      options:
+        - text: present the strongest case for Brod's side before questioning what it depends on
+          correct: true
+          why: The author calls the argument clever and possibly true, then says it rests on guessing Kafka's secret wishes.
+        - text: prove that Kafka wanted his work to survive
+          trap: distortion
+          why: The author says the argument may be true but can't be known.
+        - text: accuse Brod of dishonesty
+          trap: unsupported
+          why: The author never questions Brod's honesty.
+        - text: show that Kafka was careless in his final years
+          trap: contradicts
+          why: The author stresses that Kafka was not a careless writer.
+      tldr: The author states the defenders' best point, then limits it.
+      steps:
+        - label: Context
+          body: P3 gives Brod's defenders their best evidence.
+        - label: Turn
+          body: "\"But it makes the case... depend on guessing\" limits it."
+      takeaway: Authors often give the other side its strongest form before answering it.
+
+    - id: mcat-cars-0109
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 3
+      prompt: Suppose a composer asked that an unfinished symphony be destroyed, but it was instead completed and performed to wide acclaim. The author would most likely say that the performance
+      options:
+        - text: can be valued while still recognizing that the composer's wishes were overridden.
+          correct: true
+          why: This mirrors the author's view of The Trial.
+        - text: should be stopped, since the composer's wishes come first.
+          trap: too_strong
+          why: The author doesn't say readers' gains should be given up.
+        - text: shows that the composer never meant the instruction seriously.
+          trap: contradicts
+          why: The author rejects arguments that rest on guessing secret wishes.
+        - text: proves that the executor made the right choice.
+          trap: contradicts
+          why: The author denies that a good result settles the question.
+      tldr: Enjoy the work, and admit the wish was broken.
+      steps:
+        - label: Author's view
+          body: Both the gain and the loss are real.
+        - label: Apply
+          body: Value the symphony while acknowledging the overruled wish.
+      takeaway: For application questions, carry the author's whole position, including its qualifications.
+
+    - id: mcat-cars-0110
+      type: cars_tone
+      kps: [kp-cars-tone]
+      difficulty: 2
+      prompt: The author's attitude toward the usual story of Brod's disobedience is best described as
+      options:
+        - text: skeptical of its tidy conclusion, while sharing the gratitude behind it.
+          correct: true
+          why: The author calls the gratitude understandable but says it settles the question too quickly.
+        - text: wholly approving.
+          trap: contradicts
+          why: The author says the story gives Kafka's request too little weight.
+        - text: openly contemptuous.
+          trap: too_strong
+          why: The author calls the gratitude understandable.
+        - text: indifferent.
+          trap: contradicts
+          why: The whole passage engages the question closely.
+      tldr: Grateful, but not satisfied with the happy ending.
+      steps:
+        - label: Evidence
+          body: "\"The gratitude is understandable, but it settles the question too quickly.\""
+        - label: Tone
+          body: Qualified skepticism.
+      takeaway: CARS tone answers are usually moderate; "wholly" and "contemptuous" are rarely right.
+
+- passage:
+    id: mcat-cars-p23
+    title: Notes in the margin
+    domain: humanities
+    paragraphs:
+      - >-
+        Libraries and schools have long taught readers to keep their pencils away
+        from the page. A clean book is treated as a sign of respect and a marked one
+        as damaged goods, valuable only if its previous owner happened to be famous.
+        The rule makes sense for shared copies. As a general principle, though, it
+        reflects a narrow idea of reading: a private act in which a reader receives
+        the text and leaves it as it was found.
+      - >-
+        The history of marginalia suggests another idea. For centuries, readers
+        wrote in their books as a matter of course, arguing with authors, correcting
+        errors, cross-referencing other works and recording when and where they had
+        read. Medieval scribes copied earlier readers' comments along with the text
+        itself, so that a single page might hold a conversation spanning
+        generations. The most famous marginal note in mathematics, Pierre de
+        Fermat's claim that he had found a proof too large for the margin to
+        contain, set mathematicians a problem that took more than three hundred and
+        fifty years to solve.
+      - >-
+        Marginalia also turned books into social objects. Charles Lamb, who lent
+        books to his friend Samuel Taylor Coleridge, wrote that they came back
+        enriched with notes that tripled their value. Readers today treasure
+        secondhand copies marked by a stranger for a similar reason: the marks show
+        another mind at work, sometimes agreeing and sometimes objecting, and the
+        reader discovers that they are not reading alone.
+      - >-
+        None of this means every book should be covered in ink. A note in a library
+        copy imposes one reader's reactions on everyone who follows. But a reader
+        who writes in their own book is not defacing it. They are doing what
+        readers did for most of the history of the written word: treating the book
+        as the start of a conversation rather than the end of one.
+  items:
+    - id: mcat-cars-0111
+      type: cars_main_idea
+      kps: [kp-cars-main-idea]
+      difficulty: 2
+      prompt: The central claim of the passage is that
+      options:
+        - text: writing in one's own books continues a long tradition of reading as conversation and shouldn't be seen as damage.
+          correct: true
+          why: The history (P2) and social value (P3) support the conclusion in P4.
+        - text: readers should feel free to annotate library copies.
+          trap: contradicts
+          why: The author says notes in library copies impose on later readers.
+        - text: marked books are valuable only when their owners were famous.
+          trap: contradicts
+          why: That is the view the author argues against.
+        - text: Fermat's note is the most important marginal note ever written.
+          trap: too_narrow
+          why: Fermat is one example within a broader argument.
+      tldr: Marking your own books joins an old conversation.
+      steps:
+        - label: Map
+          body: P1 the clean-book rule. P2 history. P3 social value. P4 own books, yes; library books, no.
+        - label: Claim
+          body: Writing in your own book isn't defacing it.
+      takeaway: The main idea usually survives the author's own qualification ("None of this means...").
+
+    - id: mcat-cars-0112
+      type: cars_function
+      kps: [kp-cars-author-function]
+      difficulty: 2
+      prompt: The author mentions Fermat's note primarily in order to
+      options:
+        - text: show that a marginal note could have consequences far beyond its page
+          correct: true
+          why: A note in a margin set a problem that occupied mathematicians for centuries.
+        - text: argue that mathematicians annotate more than other readers
+          trap: unsupported
+          why: The passage makes no comparison between groups of readers.
+        - text: suggest that books should have wider margins
+          trap: distortion
+          why: The author is making a point about marginalia's importance, not page design.
+        - text: claim that Fermat had a valid proof
+          trap: unsupported
+          why: The author reports Fermat's claim without judging it.
+      tldr: One margin note shaped centuries of mathematics.
+      steps:
+        - label: Context
+          body: P2 argues that marginalia have a long and serious history.
+        - label: Role
+          body: Fermat is the most striking example of a note that mattered.
+      takeaway: Examples usually serve the paragraph's claim, not a new one.
+
+    - id: mcat-cars-0113
+      type: cars_inference
+      kps: [kp-cars-inference]
+      difficulty: 2
+      prompt: Based on paragraph 3, the author would most likely agree that a secondhand book marked by a stranger
+      options:
+        - text: can be more rewarding than a clean copy, because it shows another reader's responses.
+          correct: true
+          why: The author says such marks show another mind at work, so the reader isn't alone.
+        - text: is worth less than a clean copy.
+          trap: contradicts
+          why: The author says readers treasure such copies.
+        - text: should be returned to its first owner.
+          trap: not_present
+          why: The passage never raises this.
+        - text: is valuable only if the stranger was famous.
+          trap: contradicts
+          why: The author's point is that ordinary readers' marks have value too.
+      tldr: A stranger's marks keep you company.
+      steps:
+        - label: Locate
+          body: P3, the sentence about secondhand copies.
+        - label: Infer
+          body: Marks add value by showing another reader's mind.
+      takeaway: Inference answers stay close to what the paragraph supports.
+
+    - id: mcat-cars-0114
+      type: cars_challenge
+      kps: [kp-cars-challenge]
+      difficulty: 4
+      prompt: Which of the following findings, if true, would most weaken the author's argument?
+      options:
+        - text: Surveys of surviving books from earlier centuries find notes in only a small share of copies.
+          correct: true
+          why: The author rests the conclusion on the claim that readers marked books as a matter of course for most of history.
+        - text: Books annotated by famous writers sell for high prices.
+          trap: true_irrelevant
+          why: The author already grants this in paragraph 1.
+        - text: Libraries began discouraging annotation only in the last two centuries.
+          trap: wrong_direction
+          why: That fits the author's history and would support the argument.
+        - text: Library borrowers who write in books are often fined.
+          trap: true_irrelevant
+          why: The author agrees that shared copies shouldn't be marked.
+      tldr: Undercut the history and the conclusion loses its support.
+      steps:
+        - label: Find the support
+          body: P4 says writing in books is what readers did for most of history.
+        - label: Attack it
+          body: Evidence that few old books were marked undercuts that claim.
+      takeaway: To weaken an argument, target the premise its conclusion leans on most.
+
+    - id: mcat-cars-0115
+      type: cars_application
+      kps: [kp-cars-application]
+      difficulty: 2
+      prompt: Which practice would the author most likely endorse?
+      options:
+        - text: A student writes questions and objections in the margins of their own copy of a textbook.
+          correct: true
+          why: Writing in one's own book to argue with it is exactly what the author defends.
+        - text: A reader underlines favorite passages in a library copy for future borrowers.
+          trap: contradicts
+          why: The author says this imposes one reader's reactions on everyone else.
+        - text: A collector keeps rare books sealed and unread to preserve their value.
+          trap: contradicts
+          why: The author treats books as the start of a conversation, not objects to preserve unread.
+        - text: A teacher requires students to use only clean copies of assigned books.
+          trap: contradicts
+          why: The author criticizes treating clean books as the only respectful kind.
+      tldr: Own book, active notes.
+      steps:
+        - label: Rule
+          body: Own books may be marked; shared ones shouldn't be.
+        - label: Apply
+          body: A student annotating their own textbook fits.
+      takeaway: Check that your answer respects the author's limits as well as their claim.

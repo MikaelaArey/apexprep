@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "24531b68f601",
- "generatedAt": "2026-10-27T19:22:25.427Z",
+ "version": "b3c56e7ec35f",
+ "generatedAt": "2026-10-27T22:43:30.646Z",
  "items": [
   {
    "id": "mcat-bb-6000",
@@ -19288,31 +19288,31 @@
    "options": [
     {
      "id": "A",
+     "text": "16.7 µM/min",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That leaves [S] out of the numerator."
+    },
+    {
+     "id": "B",
      "text": "33.3 µM/min",
      "correct": false,
      "trap": "wrong_direction",
      "why": "That puts Km in the numerator. V₀ = Vmax[S]/(Km + [S])."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "50 µM/min",
      "correct": false,
      "trap": "lookalike",
      "why": "Vmax/2 applies only when [S] = Km."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "66.7 µM/min",
      "correct": true,
      "trap": null,
      "why": "V₀ = Vmax[S]/(Km + [S]) = 100 × 4/(2 + 4) = 66.7 µM/min."
-    },
-    {
-     "id": "D",
-     "text": "100 µM/min",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Vmax is approached only when [S] is far above Km."
     }
    ],
    "tldr": "V₀ = 100 × 4/(2 + 4) = 66.7 µM/min.",
@@ -19367,24 +19367,24 @@
     },
     {
      "id": "B",
+     "text": "37.5 µM/min",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Recheck the arithmetic in Vmax[S]/(Km + [S])."
+    },
+    {
+     "id": "C",
      "text": "50 µM/min",
      "correct": false,
      "trap": "lookalike",
      "why": "Vmax/2 applies only when [S] = Km."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "75 µM/min",
      "correct": true,
      "trap": null,
      "why": "V₀ = Vmax[S]/(Km + [S]) = 100 × 6/(2 + 6) = 75 µM/min."
-    },
-    {
-     "id": "D",
-     "text": "100 µM/min",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Vmax is approached only when [S] is far above Km."
     }
    ],
    "tldr": "V₀ = 100 × 6/(2 + 6) = 75 µM/min.",
@@ -19439,24 +19439,24 @@
     },
     {
      "id": "B",
+     "text": "36 µM/min",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Recheck the arithmetic in Vmax[S]/(Km + [S])."
+    },
+    {
+     "id": "C",
      "text": "40 µM/min",
      "correct": false,
      "trap": "lookalike",
      "why": "Vmax/2 applies only when [S] = Km."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "72 µM/min",
      "correct": true,
      "trap": null,
      "why": "V₀ = Vmax[S]/(Km + [S]) = 80 × 9/(1 + 9) = 72 µM/min."
-    },
-    {
-     "id": "D",
-     "text": "80 µM/min",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Vmax is approached only when [S] is far above Km."
     }
    ],
    "tldr": "V₀ = 80 × 9/(1 + 9) = 72 µM/min.",
@@ -19511,24 +19511,24 @@
     },
     {
      "id": "B",
+     "text": "22.5 µM/min",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Recheck the arithmetic in Vmax[S]/(Km + [S])."
+    },
+    {
+     "id": "C",
      "text": "30 µM/min",
      "correct": false,
      "trap": "lookalike",
      "why": "Vmax/2 applies only when [S] = Km."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "45 µM/min",
      "correct": true,
      "trap": null,
      "why": "V₀ = Vmax[S]/(Km + [S]) = 60 × 15/(5 + 15) = 45 µM/min."
-    },
-    {
-     "id": "D",
-     "text": "60 µM/min",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Vmax is approached only when [S] is far above Km."
     }
    ],
    "tldr": "V₀ = 60 × 15/(5 + 15) = 45 µM/min.",
@@ -20647,31 +20647,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.48 L/min",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Convert mL to L by dividing by 1,000, not 10,000."
+    },
+    {
+     "id": "B",
      "text": "3 L/min",
      "correct": false,
      "trap": "misread_data",
      "why": "That uses end-systolic volume. SV = EDV − ESV."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "4.8 L/min",
      "correct": true,
      "trap": null,
      "why": "SV = 130 − 50 = 80 mL; CO = 60 × 80 mL = 4.8 L/min."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "7.8 L/min",
      "correct": false,
      "trap": "misread_data",
      "why": "That uses end-diastolic volume as the stroke volume. SV = EDV − ESV."
-    },
-    {
-     "id": "D",
-     "text": "48 L/min",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "Convert mL to L: divide by 1000."
     }
    ],
    "tldr": "SV = 80 mL; CO = HR × SV = 4.8 L/min.",
@@ -20725,24 +20725,24 @@
     },
     {
      "id": "B",
-     "text": "48%",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Heart rate doesn’t enter the ejection fraction."
-    },
-    {
-     "id": "C",
      "text": "60%",
      "correct": true,
      "trap": null,
      "why": "SV = 60 mL; EF = 60/100 = 60%."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "150%",
      "correct": false,
      "trap": "misread_data",
      "why": "EF divides stroke volume by end-diastolic volume, not end-systolic."
+    },
+    {
+     "id": "D",
+     "text": "167%",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That inverts the ratio. EF = SV/EDV, which can’t exceed 100%."
     }
    ],
    "tldr": "EF = SV/EDV = 60/100 = 60%.",
@@ -20796,17 +20796,17 @@
     },
     {
      "id": "B",
+     "text": "45%",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "EF divides stroke volume by EDV alone."
+    },
+    {
+     "id": "C",
      "text": "63%",
      "correct": true,
      "trap": null,
      "why": "SV = 100 mL; EF = 100/160 = 63%."
-    },
-    {
-     "id": "C",
-     "text": "75%",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Heart rate doesn’t enter the ejection fraction."
     },
     {
      "id": "D",
@@ -20860,24 +20860,24 @@
    "options": [
     {
      "id": "A",
-     "text": "1.8 L/min",
-     "correct": false,
-     "trap": "misread_data",
-     "why": "That’s the dead-space ventilation."
-    },
-    {
-     "id": "B",
      "text": "4.2 L/min",
      "correct": false,
      "trap": "lookalike",
      "why": "That subtracts dead space, which gives alveolar ventilation."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "6 L/min",
      "correct": true,
      "trap": null,
      "why": "500 mL × 12/min = 6 L/min."
+    },
+    {
+     "id": "C",
+     "text": "7.8 L/min",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "Tidal volume already includes the dead space; don’t add it."
     },
     {
      "id": "D",
@@ -20931,31 +20931,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.42 L/min",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Convert mL to L by dividing by 1,000, not 10,000."
+    },
+    {
+     "id": "B",
+     "text": "0.5 L/min",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s a single breath. Multiply by the breathing rate."
+    },
+    {
+     "id": "C",
      "text": "1.8 L/min",
      "correct": false,
      "trap": "misread_data",
      "why": "That’s the dead-space ventilation."
     },
     {
-     "id": "B",
+     "id": "D",
      "text": "4.2 L/min",
      "correct": true,
      "trap": null,
      "why": "(500 − 150) mL × 12/min = 4.2 L/min."
-    },
-    {
-     "id": "C",
-     "text": "6 L/min",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "That’s minute ventilation. Alveolar ventilation subtracts dead space."
-    },
-    {
-     "id": "D",
-     "text": "42 L/min",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "Convert mL to L: divide by 1000."
     }
    ],
    "tldr": "VA = (VT − VD) × RR = 4.2 L/min.",
@@ -21002,31 +21002,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.5 L/min",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Convert mL to L by dividing by 1,000, not 10,000."
+    },
+    {
+     "id": "B",
      "text": "3 L/min",
      "correct": false,
      "trap": "misread_data",
      "why": "That’s the dead-space ventilation."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "5 L/min",
      "correct": true,
      "trap": null,
      "why": "(400 − 150) mL × 20/min = 5 L/min."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "8 L/min",
      "correct": false,
      "trap": "lookalike",
      "why": "That’s minute ventilation. Alveolar ventilation subtracts dead space."
-    },
-    {
-     "id": "D",
-     "text": "50 L/min",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "Convert mL to L: divide by 1000."
     }
    ],
    "tldr": "VA = (VT − VD) × RR = 5 L/min.",
@@ -21073,31 +21073,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.6 L/min",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Convert mL to L by dividing by 1,000, not 10,000."
+    },
+    {
+     "id": "B",
      "text": "1.5 L/min",
      "correct": false,
      "trap": "misread_data",
      "why": "That’s the dead-space ventilation."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "4.5 L/min",
      "correct": false,
      "trap": "lookalike",
      "why": "That subtracts dead space, which gives alveolar ventilation."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "6 L/min",
      "correct": true,
      "trap": null,
      "why": "600 mL × 10/min = 6 L/min."
-    },
-    {
-     "id": "D",
-     "text": "60 L/min",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "Convert mL to L: divide by 1000."
     }
    ],
    "tldr": "VE = VT × RR = 6 L/min.",
@@ -21215,17 +21215,17 @@
    "options": [
     {
      "id": "A",
+     "text": "8%",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That splits the remaining bases four ways instead of two."
+    },
+    {
+     "id": "B",
      "text": "15%",
      "correct": true,
      "trap": null,
      "why": "guanine pairs with cytosine (35% each), leaving 30% split evenly between the other two bases."
-    },
-    {
-     "id": "B",
-     "text": "30%",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That’s the two remaining bases together. Split it in half."
     },
     {
      "id": "C",
@@ -21364,24 +21364,24 @@
     },
     {
      "id": "B",
+     "text": "18%",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That splits the remaining bases four ways instead of two."
+    },
+    {
+     "id": "C",
+     "text": "28%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "The other bases aren’t equal thirds: A = T and G = C."
+    },
+    {
+     "id": "D",
      "text": "35%",
      "correct": true,
      "trap": null,
      "why": "cytosine pairs with guanine (15% each), leaving 70% split evenly between the other two bases."
-    },
-    {
-     "id": "C",
-     "text": "70%",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That’s the two remaining bases together. Split it in half."
-    },
-    {
-     "id": "D",
-     "text": "85%",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "Subtract both cytosine and its partner guanine before splitting."
     }
    ],
    "tldr": "A = T and G = C: 15% cytosine means 15% guanine, and 35% each of the others.",
@@ -23505,7 +23505,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 19,
+   "rank": 24,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -23567,7 +23567,7 @@
    ],
    "difficulty": 2,
    "rating": 2.95,
-   "rank": 34,
+   "rank": 41,
    "targetSec": 102,
    "prompt": "According to the passage, landscape gardeners sometimes",
    "options": [
@@ -23629,7 +23629,7 @@
    ],
    "difficulty": 3,
    "rating": 3.35,
-   "rank": 61,
+   "rank": 72,
    "targetSec": 102,
    "prompt": "The author mentions that admirers connected the landscape style with \"English political liberty\" primarily in order to",
    "options": [
@@ -23689,9 +23689,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 3.75,
-   "rank": 96,
+   "rank": 115,
    "targetSec": 102,
    "prompt": "Based on the passage, which of the following is most analogous to the landscape garden?",
    "options": [
@@ -23753,7 +23753,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 86,
+   "rank": 102,
    "targetSec": 102,
    "prompt": "The question in the passage's final sentence suggests that the author",
    "options": [
@@ -23815,7 +23815,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 12,
+   "rank": 16,
    "targetSec": 102,
    "prompt": "The central thesis of the passage is that",
    "options": [
@@ -23877,7 +23877,7 @@
    ],
    "difficulty": 2,
    "rating": 2.85,
-   "rank": 27,
+   "rank": 33,
    "targetSec": 102,
    "prompt": "According to the passage, Montaigne studied himself mainly because",
    "options": [
@@ -23939,7 +23939,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 73,
+   "rank": 85,
    "targetSec": 102,
    "prompt": "The author uses the word \"fidelity\" (paragraph 3) in order to",
    "options": [
@@ -24001,7 +24001,7 @@
    ],
    "difficulty": 4,
    "rating": 3.44,
-   "rank": 80,
+   "rank": 94,
    "targetSec": 102,
    "prompt": "Which of the following would the author most likely consider closest to the original spirit of the essay?",
    "options": [
@@ -24063,7 +24063,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 2,
+   "rank": 3,
    "targetSec": 102,
    "prompt": "The author's attitude toward well-organized school essays is best described as",
    "options": [
@@ -24125,7 +24125,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 45,
+   "rank": 54,
    "targetSec": 102,
    "prompt": "Which of the following best states the main point of the passage?",
    "options": [
@@ -24187,7 +24187,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 49,
+   "rank": 59,
    "targetSec": 102,
    "prompt": "The passage suggests that knowing which photograph came first would reveal",
    "options": [
@@ -24249,7 +24249,7 @@
    ],
    "difficulty": 3,
    "rating": 3.35,
-   "rank": 59,
+   "rank": 70,
    "targetSec": 102,
    "prompt": "The discussion of Fenton's equipment and long exposures in paragraph 3 serves mainly to",
    "options": [
@@ -24311,7 +24311,7 @@
    ],
    "difficulty": 5,
    "rating": 3.85,
-   "rank": 100,
+   "rank": 121,
    "targetSec": 102,
    "prompt": "According to the author's view, which of the following photographs raises the most serious ethical concern?",
    "options": [
@@ -24373,7 +24373,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 5,
+   "rank": 7,
    "targetSec": 102,
    "prompt": "The author's attitude toward the controversy over Fenton's photographs is best described as",
    "options": [
@@ -24435,7 +24435,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 10,
+   "rank": 14,
    "targetSec": 102,
    "prompt": "The passage is primarily concerned with",
    "options": [
@@ -24497,7 +24497,7 @@
    ],
    "difficulty": 2,
    "rating": 2.9,
-   "rank": 31,
+   "rank": 37,
    "targetSec": 102,
    "prompt": "As described in the passage, a \"folly\" was",
    "options": [
@@ -24559,7 +24559,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 92,
+   "rank": 109,
    "targetSec": 102,
    "prompt": "The second explanation (paragraph 3) implies that a perfectly preserved ancient temple would be",
    "options": [
@@ -24621,7 +24621,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 43,
+   "rank": 51,
    "targetSec": 102,
    "prompt": "The author mentions the ruined cottages of the poor (paragraph 4) primarily in order to",
    "options": [
@@ -24683,7 +24683,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 70,
+   "rank": 81,
    "targetSec": 102,
    "prompt": "Based on the passage, which of the following would most likely be enjoyed the way eighteenth-century travelers enjoyed ruins?",
    "options": [
@@ -24745,7 +24745,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 20,
+   "rank": 25,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -24807,7 +24807,7 @@
    ],
    "difficulty": 2,
    "rating": 2.85,
-   "rank": 28,
+   "rank": 34,
    "targetSec": 102,
    "prompt": "According to the passage, the contradiction Morris recognized was that",
    "options": [
@@ -24867,9 +24867,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 3.4,
-   "rank": 74,
+   "rank": 86,
    "targetSec": 102,
    "prompt": "The author's response to the critics in paragraph 3 serves mainly to",
    "options": [
@@ -24931,7 +24931,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 68,
+   "rank": 79,
    "targetSec": 102,
    "prompt": "Which of the following modern practices would the author most likely regard as part of Morris's legacy?",
    "options": [
@@ -24993,7 +24993,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 16,
+   "rank": 21,
    "targetSec": 102,
    "prompt": "The author's attitude toward Morris is best described as",
    "options": [
@@ -25042,6 +25042,626 @@
    "status": "review"
   },
   {
+   "id": "mcat-cars-0106",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p22",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.71,
+   "rank": 10,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "An author's wishes about unpublished work should always be obeyed.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author treats readers' claims as real as well."
+    },
+    {
+     "id": "B",
+     "text": "Readers benefit from Brod's decision to publish Kafka's work, but that benefit doesn't erase the wrong of overriding Kafka's wishes.",
+     "correct": true,
+     "trap": null,
+     "why": "The author grants the gain and insists the loss is real too (P4)."
+    },
+    {
+     "id": "C",
+     "text": "Kafka secretly wanted his novels to be published.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author says no one can know what Kafka secretly wanted."
+    },
+    {
+     "id": "D",
+     "text": "Brod was right to publish, because the results justified his disobedience.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says this reasoning settles the question too quickly."
+    }
+   ],
+   "tldr": "Be glad of the novels, but admit a promise was broken.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the happy-ending story. P2 Kafka's claim. P3 Brod's defenders and their limit. P4 both claims are real."
+    },
+    {
+     "label": "Main idea",
+     "body": "The benefit is real, and so is the wrong."
+    }
+   ],
+   "takeaway": "When an author weighs two sides and ends with \"both,\" the main idea keeps both.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0107",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p22",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.55,
+   "rank": 107,
+   "targetSec": 102,
+   "prompt": "The author mentions that Kafka revised constantly and published little most likely in order to suggest that",
+   "options": [
+    {
+     "id": "A",
+     "text": "Brod had misunderstood the instructions.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing suggests Brod misread what Kafka asked."
+    },
+    {
+     "id": "B",
+     "text": "his request to destroy the manuscripts may have reflected a considered judgment about the work.",
+     "correct": true,
+     "trap": null,
+     "why": "A careful, self-critical writer's instruction is harder to dismiss as a passing mood."
+    },
+    {
+     "id": "C",
+     "text": "the novels were finished when he died.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says Kafka knew the novels were unfinished."
+    },
+    {
+     "id": "D",
+     "text": "he wanted the unfinished novels published after all.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "The detail supports taking his request to destroy them seriously."
+    }
+   ],
+   "tldr": "A careful writer's request deserves weight.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "P2, right after the claim that Kafka's request deserves more weight."
+    },
+    {
+     "label": "Inference",
+     "body": "His habits make the request look deliberate, not impulsive."
+    }
+   ],
+   "takeaway": "Ask what each detail is evidence for in the paragraph's argument.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0108",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p22",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 91,
+   "targetSec": 102,
+   "prompt": "The author notes that Brod had told Kafka he would never burn the papers primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "prove that Kafka wanted his work to survive",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author says the argument may be true but can't be known."
+    },
+    {
+     "id": "B",
+     "text": "show that Kafka was careless in his final years",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author stresses that Kafka was not a careless writer."
+    },
+    {
+     "id": "C",
+     "text": "present the strongest case for Brod's side before questioning what it depends on",
+     "correct": true,
+     "trap": null,
+     "why": "The author calls the argument clever and possibly true, then says it rests on guessing Kafka's secret wishes."
+    },
+    {
+     "id": "D",
+     "text": "accuse Brod of dishonesty",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never questions Brod's honesty."
+    }
+   ],
+   "tldr": "The author states the defenders' best point, then limits it.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "P3 gives Brod's defenders their best evidence."
+    },
+    {
+     "label": "Turn",
+     "body": "\"But it makes the case... depend on guessing\" limits it."
+    }
+   ],
+   "takeaway": "Authors often give the other side its strongest form before answering it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0109",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p22",
+   "position": 4,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 5,
+   "rating": 3.75,
+   "rank": 119,
+   "targetSec": 102,
+   "prompt": "Suppose a composer asked that an unfinished symphony be destroyed, but it was instead completed and performed to wide acclaim. The author would most likely say that the performance",
+   "options": [
+    {
+     "id": "A",
+     "text": "shows that the composer never meant the instruction seriously.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author rejects arguments that rest on guessing secret wishes."
+    },
+    {
+     "id": "B",
+     "text": "can be valued while still recognizing that the composer's wishes were overridden.",
+     "correct": true,
+     "trap": null,
+     "why": "This mirrors the author's view of The Trial."
+    },
+    {
+     "id": "C",
+     "text": "proves that the executor made the right choice.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author denies that a good result settles the question."
+    },
+    {
+     "id": "D",
+     "text": "should be stopped, since the composer's wishes come first.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author doesn't say readers' gains should be given up."
+    }
+   ],
+   "tldr": "Enjoy the work, and admit the wish was broken.",
+   "steps": [
+    {
+     "label": "Author's view",
+     "body": "Both the gain and the loss are real."
+    },
+    {
+     "label": "Apply",
+     "body": "Value the symphony while acknowledging the overruled wish."
+    }
+   ],
+   "takeaway": "For application questions, carry the author's whole position, including its qualifications.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0110",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p22",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 1,
+   "rating": 2.7,
+   "rank": 9,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward the usual story of Brod's disobedience is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "indifferent.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The whole passage engages the question closely."
+    },
+    {
+     "id": "B",
+     "text": "openly contemptuous.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author calls the gratitude understandable."
+    },
+    {
+     "id": "C",
+     "text": "skeptical of its tidy conclusion, while sharing the gratitude behind it.",
+     "correct": true,
+     "trap": null,
+     "why": "The author calls the gratitude understandable but says it settles the question too quickly."
+    },
+    {
+     "id": "D",
+     "text": "wholly approving.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says the story gives Kafka's request too little weight."
+    }
+   ],
+   "tldr": "Grateful, but not satisfied with the happy ending.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"The gratitude is understandable, but it settles the question too quickly.\""
+    },
+    {
+     "label": "Tone",
+     "body": "Qualified skepticism."
+    }
+   ],
+   "takeaway": "CARS tone answers are usually moderate; \"wholly\" and \"contemptuous\" are rarely right.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0111",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p23",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.75,
+   "rank": 18,
+   "targetSec": 102,
+   "prompt": "The central claim of the passage is that",
+   "options": [
+    {
+     "id": "A",
+     "text": "marked books are valuable only when their owners were famous.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "That is the view the author argues against."
+    },
+    {
+     "id": "B",
+     "text": "writing in one's own books continues a long tradition of reading as conversation and shouldn't be seen as damage.",
+     "correct": true,
+     "trap": null,
+     "why": "The history (P2) and social value (P3) support the conclusion in P4."
+    },
+    {
+     "id": "C",
+     "text": "Fermat's note is the most important marginal note ever written.",
+     "correct": false,
+     "trap": "too_narrow",
+     "why": "Fermat is one example within a broader argument."
+    },
+    {
+     "id": "D",
+     "text": "readers should feel free to annotate library copies.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says notes in library copies impose on later readers."
+    }
+   ],
+   "tldr": "Marking your own books joins an old conversation.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the clean-book rule. P2 history. P3 social value. P4 own books, yes; library books, no."
+    },
+    {
+     "label": "Claim",
+     "body": "Writing in your own book isn't defacing it."
+    }
+   ],
+   "takeaway": "The main idea usually survives the author's own qualification (\"None of this means...\").",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0112",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p23",
+   "position": 2,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 50,
+   "targetSec": 102,
+   "prompt": "The author mentions Fermat's note primarily in order to",
+   "options": [
+    {
+     "id": "A",
+     "text": "suggest that books should have wider margins",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The author is making a point about marginalia's importance, not page design."
+    },
+    {
+     "id": "B",
+     "text": "claim that Fermat had a valid proof",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author reports Fermat's claim without judging it."
+    },
+    {
+     "id": "C",
+     "text": "show that a marginal note could have consequences far beyond its page",
+     "correct": true,
+     "trap": null,
+     "why": "A note in a margin set a problem that occupied mathematicians for centuries."
+    },
+    {
+     "id": "D",
+     "text": "argue that mathematicians annotate more than other readers",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The passage makes no comparison between groups of readers."
+    }
+   ],
+   "tldr": "One margin note shaped centuries of mathematics.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "P2 argues that marginalia have a long and serious history."
+    },
+    {
+     "label": "Role",
+     "body": "Fermat is the most striking example of a note that mattered."
+    }
+   ],
+   "takeaway": "Examples usually serve the paragraph's claim, not a new one.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0113",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p23",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 3,
+   "rating": 3.2,
+   "rank": 64,
+   "targetSec": 102,
+   "prompt": "Based on paragraph 3, the author would most likely agree that a secondhand book marked by a stranger",
+   "options": [
+    {
+     "id": "A",
+     "text": "is valuable only if the stranger was famous.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author's point is that ordinary readers' marks have value too."
+    },
+    {
+     "id": "B",
+     "text": "should be returned to its first owner.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage never raises this."
+    },
+    {
+     "id": "C",
+     "text": "can be more rewarding than a clean copy, because it shows another reader's responses.",
+     "correct": true,
+     "trap": null,
+     "why": "The author says such marks show another mind at work, so the reader isn't alone."
+    },
+    {
+     "id": "D",
+     "text": "is worth less than a clean copy.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says readers treasure such copies."
+    }
+   ],
+   "tldr": "A stranger's marks keep you company.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "P3, the sentence about secondhand copies."
+    },
+    {
+     "label": "Infer",
+     "body": "Marks add value by showing another reader's mind."
+    }
+   ],
+   "takeaway": "Inference answers stay close to what the paragraph supports.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0114",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p23",
+   "position": 4,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 5,
+   "rating": 4.4,
+   "rank": 123,
+   "targetSec": 102,
+   "prompt": "Which of the following findings, if true, would most weaken the author's argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Libraries began discouraging annotation only in the last two centuries.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That fits the author's history and would support the argument."
+    },
+    {
+     "id": "B",
+     "text": "Books annotated by famous writers sell for high prices.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The author already grants this in paragraph 1."
+    },
+    {
+     "id": "C",
+     "text": "Surveys of surviving books from earlier centuries find notes in only a small share of copies.",
+     "correct": true,
+     "trap": null,
+     "why": "The author rests the conclusion on the claim that readers marked books as a matter of course for most of history."
+    },
+    {
+     "id": "D",
+     "text": "Library borrowers who write in books are often fined.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The author agrees that shared copies shouldn't be marked."
+    }
+   ],
+   "tldr": "Undercut the history and the conclusion loses its support.",
+   "steps": [
+    {
+     "label": "Find the support",
+     "body": "P4 says writing in books is what readers did for most of history."
+    },
+    {
+     "label": "Attack it",
+     "body": "Evidence that few old books were marked undercuts that claim."
+    }
+   ],
+   "takeaway": "To weaken an argument, target the premise its conclusion leans on most.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0115",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p23",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 4,
+   "rating": 3.43,
+   "rank": 93,
+   "targetSec": 102,
+   "prompt": "Which practice would the author most likely endorse?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A teacher requires students to use only clean copies of assigned books.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author criticizes treating clean books as the only respectful kind."
+    },
+    {
+     "id": "B",
+     "text": "A student writes questions and objections in the margins of their own copy of a textbook.",
+     "correct": true,
+     "trap": null,
+     "why": "Writing in one's own book to argue with it is exactly what the author defends."
+    },
+    {
+     "id": "C",
+     "text": "A collector keeps rare books sealed and unread to preserve their value.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author treats books as the start of a conversation, not objects to preserve unread."
+    },
+    {
+     "id": "D",
+     "text": "A reader underlines favorite passages in a library copy for future borrowers.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says this imposes one reader's reactions on everyone else."
+    }
+   ],
+   "tldr": "Own book, active notes.",
+   "steps": [
+    {
+     "label": "Rule",
+     "body": "Own books may be marked; shared ones shouldn't be."
+    },
+    {
+     "label": "Apply",
+     "body": "A student annotating their own textbook fits."
+    }
+   ],
+   "takeaway": "Check that your answer respects the author's limits as well as their claim.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-cars-0006",
    "version": 1,
    "exam": "MCAT",
@@ -25055,7 +25675,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 14,
+   "rank": 19,
    "targetSec": 102,
    "prompt": "The author's primary purpose in the passage is to",
    "options": [
@@ -25115,9 +25735,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 3.4,
-   "rank": 76,
+   "rank": 88,
    "targetSec": 102,
    "prompt": "The author mentions final glazes added over dry fresco (paragraph 2) primarily in order to",
    "options": [
@@ -25179,7 +25799,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 93,
+   "rank": 110,
    "targetSec": 102,
    "prompt": "Based on the passage, the author would most likely agree that a defender of patina",
    "options": [
@@ -25241,7 +25861,7 @@
    ],
    "difficulty": 4,
    "rating": 3.52,
-   "rank": 83,
+   "rank": 99,
    "targetSec": 102,
    "prompt": "Which of the following would the author most likely regard as responsible restoration?",
    "options": [
@@ -25303,7 +25923,7 @@
    ],
    "difficulty": 2,
    "rating": 2.8,
-   "rank": 24,
+   "rank": 30,
    "targetSec": 102,
    "prompt": "The author's attitude toward the two answers described in paragraphs 2 and 3 is best described as",
    "options": [
@@ -25365,7 +25985,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 17,
+   "rank": 22,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -25427,7 +26047,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 72,
+   "rank": 84,
    "targetSec": 102,
    "prompt": "The author's remark about climate-controlled vaults (paragraph 2) serves mainly to",
    "options": [
@@ -25489,7 +26109,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 87,
+   "rank": 103,
    "targetSec": 102,
    "prompt": "The author's concern about reconstructed displays (paragraph 3) suggests that the author believes",
    "options": [
@@ -25551,7 +26171,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 63,
+   "rank": 74,
    "targetSec": 102,
    "prompt": "Which of the following museum policies would the author most likely support?",
    "options": [
@@ -25613,7 +26233,7 @@
    ],
    "difficulty": 5,
    "rating": 4.45,
-   "rank": 105,
+   "rank": 130,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the author's claim that collaboration is \"a more promising approach\"?",
    "options": [
@@ -25675,7 +26295,7 @@
    ],
    "difficulty": 2,
    "rating": 2.8,
-   "rank": 23,
+   "rank": 29,
    "targetSec": 102,
    "prompt": "The passage is primarily concerned with",
    "options": [
@@ -25737,7 +26357,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 50,
+   "rank": 60,
    "targetSec": 102,
    "prompt": "According to the passage, letters and diaries suited the eighteenth-century novel because they",
    "options": [
@@ -25797,9 +26417,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 3.4,
-   "rank": 75,
+   "rank": 87,
    "targetSec": 102,
    "prompt": "The author calls the novel's critics \"among its most perceptive readers\" in order to",
    "options": [
@@ -25861,7 +26481,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 94,
+   "rank": 112,
    "targetSec": 102,
    "prompt": "Which of the following can most reasonably be inferred about the \"new kind of public\" described in paragraph 4?",
    "options": [
@@ -25923,7 +26543,7 @@
    ],
    "difficulty": 4,
    "rating": 3.45,
-   "rank": 81,
+   "rank": 96,
    "targetSec": 102,
    "prompt": "Which of the following is most analogous to the \"new kind of public\" the author describes?",
    "options": [
@@ -25985,7 +26605,7 @@
    ],
    "difficulty": 2,
    "rating": 2.85,
-   "rank": 30,
+   "rank": 36,
    "targetSec": 102,
    "prompt": "Which of the following best states the author's position?",
    "options": [
@@ -26045,9 +26665,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 3.4,
-   "rank": 77,
+   "rank": 89,
    "targetSec": 102,
    "prompt": "The examples of the rescuers and the attempted murderer (paragraph 2) are offered mainly to",
    "options": [
@@ -26109,7 +26729,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 89,
+   "rank": 105,
    "targetSec": 102,
    "prompt": "The author's objection to the \"bite the bullet\" response relies on the assumption that",
    "options": [
@@ -26169,9 +26789,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 3.75,
-   "rank": 97,
+   "rank": 116,
    "targetSec": 102,
    "prompt": "On the author's view, what is the moral status of the first driver, who arrived home safely?",
    "options": [
@@ -26233,7 +26853,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 55,
+   "rank": 66,
    "targetSec": 102,
    "prompt": "As used in paragraph 3, \"bite the bullet\" most nearly means",
    "options": [
@@ -26295,7 +26915,7 @@
    ],
    "difficulty": 1,
    "rating": 2.72,
-   "rank": 7,
+   "rank": 11,
    "targetSec": 102,
    "prompt": "The main point of the passage is that",
    "options": [
@@ -26357,7 +26977,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 85,
+   "rank": 101,
    "targetSec": 102,
    "prompt": "The author suggests that the collectors' recordings of rural singers were",
    "options": [
@@ -26419,7 +27039,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 37,
+   "rank": 44,
    "targetSec": 102,
    "prompt": "Which of the following best describes the role of paragraph 3?",
    "options": [
@@ -26481,7 +27101,7 @@
    ],
    "difficulty": 5,
    "rating": 3.96,
-   "rank": 101,
+   "rank": 122,
    "targetSec": 102,
    "prompt": "Which of the following performers would the author most likely regard as having a genuine relationship to a tradition?",
    "options": [
@@ -26543,7 +27163,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 6,
+   "rank": 8,
    "targetSec": 102,
    "prompt": "The author's attitude toward the musicians of the folk revival is best described as",
    "options": [
@@ -26605,7 +27225,7 @@
    ],
    "difficulty": 1,
    "rating": 2.73,
-   "rank": 9,
+   "rank": 13,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -26667,7 +27287,7 @@
    ],
    "difficulty": 2,
    "rating": 2.85,
-   "rank": 29,
+   "rank": 35,
    "targetSec": 102,
    "prompt": "According to the passage, most languages that disappear do so because",
    "options": [
@@ -26729,7 +27349,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 42,
+   "rank": 49,
    "targetSec": 102,
    "prompt": "The author discusses Modern Hebrew primarily in order to",
    "options": [
@@ -26791,7 +27411,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 47,
+   "rank": 56,
    "targetSec": 102,
    "prompt": "The author's attitude toward comparing languages to biological species is best described as",
    "options": [
@@ -26853,7 +27473,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 71,
+   "rank": 82,
    "targetSec": 102,
    "prompt": "Which of the following would the author most likely consider the strongest sign that a revitalization effort is succeeding?",
    "options": [
@@ -26915,7 +27535,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 13,
+   "rank": 17,
    "targetSec": 102,
    "prompt": "The central thesis of the passage is that",
    "options": [
@@ -26977,7 +27597,7 @@
    ],
    "difficulty": 2,
    "rating": 2.9,
-   "rank": 33,
+   "rank": 39,
    "targetSec": 102,
    "prompt": "According to the passage, rival leaders in some societies gained prestige by",
    "options": [
@@ -27039,7 +27659,7 @@
    ],
    "difficulty": 3,
    "rating": 3.35,
-   "rank": 60,
+   "rank": 71,
    "targetSec": 102,
    "prompt": "The author's discussion of a \"cynical\" reading of Mauss (paragraph 3) serves mainly to",
    "options": [
@@ -27101,7 +27721,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 52,
+   "rank": 62,
    "targetSec": 102,
    "prompt": "The author suggests that a typical market purchase differs from a gift in that the purchase",
    "options": [
@@ -27163,7 +27783,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 69,
+   "rank": 80,
    "targetSec": 102,
    "prompt": "Which of the following situations best illustrates Mauss's idea of the gift as the passage describes it?",
    "options": [
@@ -27225,7 +27845,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 3,
+   "rank": 4,
    "targetSec": 102,
    "prompt": "Which of the following best states the main idea of the passage?",
    "options": [
@@ -27285,9 +27905,9 @@
    "knowledgePoints": [
     "kp-cars-author-function"
    ],
-   "difficulty": 4,
+   "difficulty": 3,
    "rating": 3.4,
-   "rank": 78,
+   "rank": 90,
    "targetSec": 102,
    "prompt": "The author's remark that for some occupations \"that explanation is clearly right\" serves mainly to",
    "options": [
@@ -27349,7 +27969,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 53,
+   "rank": 63,
    "targetSec": 102,
    "prompt": "According to the signaling view described in the passage, a degree loses value as a signal when",
    "options": [
@@ -27411,7 +28031,7 @@
    ],
    "difficulty": 5,
    "rating": 4.45,
-   "rank": 104,
+   "rank": 129,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the signaling explanation as the passage presents it?",
    "options": [
@@ -27473,7 +28093,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 64,
+   "rank": 75,
    "targetSec": 102,
    "prompt": "Which of the following best illustrates the cycle described in paragraph 3?",
    "options": [
@@ -27535,7 +28155,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 11,
+   "rank": 15,
    "targetSec": 102,
    "prompt": "The passage is primarily concerned with",
    "options": [
@@ -27597,7 +28217,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 90,
+   "rank": 106,
    "targetSec": 102,
    "prompt": "Based on the passage, why did some towns see noon twice on November 18, 1883?",
    "options": [
@@ -27659,7 +28279,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 40,
+   "rank": 47,
    "targetSec": 102,
    "prompt": "The author mentions that the federal government did not make the time zones law until 1918 in order to",
    "options": [
@@ -27721,7 +28341,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 88,
+   "rank": 104,
    "targetSec": 102,
    "prompt": "The author regards the protests of the towns that resisted standard time as",
    "options": [
@@ -27783,7 +28403,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 66,
+   "rank": 77,
    "targetSec": 102,
    "prompt": "Which of the following is most analogous to standard time as the author describes it?",
    "options": [
@@ -27845,7 +28465,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 21,
+   "rank": 26,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -27907,7 +28527,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 51,
+   "rank": 61,
    "targetSec": 102,
    "prompt": "According to the passage, cutting in line provokes strong anger mainly because it",
    "options": [
@@ -27969,7 +28589,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 36,
+   "rank": 43,
    "targetSec": 102,
    "prompt": "The author mentions hospitals (paragraph 3) primarily in order to",
    "options": [
@@ -28031,7 +28651,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 56,
+   "rank": 67,
    "targetSec": 102,
    "prompt": "The passage suggests that defenders of paid line-skipping would most likely argue that it",
    "options": [
@@ -28093,7 +28713,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 46,
+   "rank": 55,
    "targetSec": 102,
    "prompt": "The author's attitude toward selling priority in lines is best described as",
    "options": [
@@ -28142,6 +28762,936 @@
    "status": "review"
   },
   {
+   "id": "mcat-cars-0116",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p24",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 1,
+   "rating": 2.7,
+   "rank": 5,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Every flat map distorts something, so choosing a projection reflects a purpose, and the real error is forgetting that a choice was made.",
+     "correct": true,
+     "trap": null,
+     "why": "This links the opening (P1) to the conclusion (P4)."
+    },
+    {
+     "id": "B",
+     "text": "Globes are always better than flat maps.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author notes what globes can show but never argues they are always better."
+    },
+    {
+     "id": "C",
+     "text": "Navigators no longer rely on Mercator's projection.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage says nothing about navigators today."
+    },
+    {
+     "id": "D",
+     "text": "Mercator's projection is biased and should be replaced by Peters's map.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author rejects the biased-versus-fair framing."
+    }
+   ],
+   "tldr": "No map is neutral; remember that a projection is a choice.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 every map compromises. P2 Mercator's trade-off. P3 the Peters dispute. P4 no map is neutral."
+    },
+    {
+     "label": "Main idea",
+     "body": "Projections serve purposes; forgetting that is the mistake."
+    }
+   ],
+   "takeaway": "A passage's last paragraph often reframes the debate it has just described.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0117",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p24",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 2,
+   "rating": 2.9,
+   "rank": 40,
+   "targetSec": 102,
+   "prompt": "According to the passage, Mercator's projection was well suited to navigation because",
+   "options": [
+    {
+     "id": "A",
+     "text": "a course of constant compass bearing appears as a straight line.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 says this let sailors plot routes with a ruler."
+    },
+    {
+     "id": "B",
+     "text": "it enlarges the tropics.",
+     "correct": false,
+     "trap": "sign_flip",
+     "why": "It enlarges regions far from the equator, not the tropics."
+    },
+    {
+     "id": "C",
+     "text": "it was the first map to include Greenland.",
+     "correct": false,
+     "trap": "not_present",
+     "why": "The passage never says this."
+    },
+    {
+     "id": "D",
+     "text": "it shows the continents at their true sizes.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The projection distorts size."
+    }
+   ],
+   "tldr": "Straight lines for constant bearings.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "Paragraph 2."
+    },
+    {
+     "label": "Match",
+     "body": "Constant compass bearing appears as a straight line."
+    }
+   ],
+   "takeaway": "Detail questions reward going back to the exact sentence.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0118",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p24",
+   "position": 3,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 4,
+   "rating": 3.45,
+   "rank": 98,
+   "targetSec": 102,
+   "prompt": "The statement that \"equal-area projections were nothing new\" serves mainly to",
+   "options": [
+    {
+     "id": "A",
+     "text": "suggest that Mercator copied an earlier map",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The novelty point concerns equal-area projections, not Mercator's."
+    },
+    {
+     "id": "B",
+     "text": "explain why sailors preferred Mercator's map",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "The statement is about Peters's map and cartographers, not sailors."
+    },
+    {
+     "id": "C",
+     "text": "show that the author considers Peters's map the fairest available",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author rejects the idea of a simply fair map."
+    },
+    {
+     "id": "D",
+     "text": "present one of the cartographers' objections to Peters's projection",
+     "correct": true,
+     "trap": null,
+     "why": "It is reported as part of why cartographers were unimpressed."
+    }
+   ],
+   "tldr": "It's the cartographers' objection.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "\"Cartographers were often unimpressed. ... they pointed out...\""
+    },
+    {
+     "label": "Function",
+     "body": "It voices their criticism of Peters."
+    }
+   ],
+   "takeaway": "Track whose voice a sentence belongs to.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0119",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p24",
+   "position": 4,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 5,
+   "rating": 4.4,
+   "rank": 124,
+   "targetSec": 102,
+   "prompt": "Which of the following findings, if true, would most challenge the critics' argument in paragraph 3?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Peters's projection stretches the shapes of Africa and South America.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "That criticizes Peters's alternative, not the critics' claim about Mercator's effects."
+    },
+    {
+     "id": "B",
+     "text": "Students taught with Mercator wall maps judge the relative sizes of continents as accurately as students taught with equal-area maps.",
+     "correct": true,
+     "trap": null,
+     "why": "The critics claim the map teaches a distorted sense of proportion; this shows no such effect."
+    },
+    {
+     "id": "C",
+     "text": "Mercator designed his projection for sailors.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The critics accept this; their point concerns classroom use."
+    },
+    {
+     "id": "D",
+     "text": "Mercator wall maps were common in classrooms for many decades.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That fits the critics' worry rather than challenging it."
+    }
+   ],
+   "tldr": "Show the feared effect doesn't happen.",
+   "steps": [
+    {
+     "label": "Critics' claim",
+     "body": "Mercator maps distort students' sense of proportion."
+    },
+    {
+     "label": "Challenge",
+     "body": "Students using them judge sizes just as well."
+    }
+   ],
+   "takeaway": "A claim about effects is best challenged by evidence that the effect is absent.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0120",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p24",
+   "position": 5,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 2,
+   "rating": 3.05,
+   "rank": 53,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward Mercator's projection is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "balanced, recognizing its value for navigation and its limits as a general picture of the world",
+     "correct": true,
+     "trap": null,
+     "why": "The author calls its trade-off \"suited to its purpose\" but notes it may serve students poorly."
+    },
+    {
+     "id": "B",
+     "text": "indifferent",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author takes a clear position on how the map should be understood."
+    },
+    {
+     "id": "C",
+     "text": "hostile, because it is biased against the tropics",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The author says the mistake is not using the projection."
+    },
+    {
+     "id": "D",
+     "text": "admiring and uncritical",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author notes its distortion of size."
+    }
+   ],
+   "tldr": "Good for its purpose, misleading when treated as neutral.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"Suited to its purpose\" (P2); \"may serve students poorly\" (P4)."
+    },
+    {
+     "label": "Tone",
+     "body": "Balanced."
+    }
+   ],
+   "takeaway": "When an author praises and criticizes the same thing, look for a balanced answer.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0121",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p25",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "rating": 3.1,
+   "rank": 57,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Taxes and bans are always better than nudges.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author never ranks these policies."
+    },
+    {
+     "id": "B",
+     "text": "The worry that nudges bypass deliberation applies mainly to hidden nudges, and nudges made public can meet it.",
+     "correct": true,
+     "trap": null,
+     "why": "The author locates the critics' strongest objection in secrecy and proposes a publicity test (P4)."
+    },
+    {
+     "id": "C",
+     "text": "Nudges should be abandoned because they treat people as machines.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is the critics' view, which the author narrows rather than adopts."
+    },
+    {
+     "id": "D",
+     "text": "Defaults have little effect on what people choose.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Paragraph 1 says the default does much of the deciding."
+    }
+   ],
+   "tldr": "Secrecy, not nudging itself, is the problem.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 defaults matter. P2 the case for nudges. P3 the critics. P4 the author's resolution."
+    },
+    {
+     "label": "Main idea",
+     "body": "Public nudges answer the critics' best objection."
+    }
+   ],
+   "takeaway": "In debate passages, the main idea is the author's resolution, not either side's view.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0122",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p25",
+   "position": 2,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.6,
+   "rank": 111,
+   "targetSec": 102,
+   "prompt": "The advocates' claim that \"there is no neutral way to design a form\" is meant to suggest that",
+   "options": [
+    {
+     "id": "A",
+     "text": "designers should hide defaults from users.",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "Nothing in the advocates' argument calls for hiding defaults."
+    },
+    {
+     "id": "B",
+     "text": "since some arrangement will influence choices anyway, choosing it deliberately adds no new imposition.",
+     "correct": true,
+     "trap": null,
+     "why": "Paragraph 2 reasons that if influence is unavoidable, it may as well be helpful."
+    },
+    {
+     "id": "C",
+     "text": "forms should be eliminated.",
+     "correct": false,
+     "trap": "distortion",
+     "why": "The advocates want better forms, not none."
+    },
+    {
+     "id": "D",
+     "text": "people's choices are never affected by design.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The advocates' point is that design always affects choices."
+    }
+   ],
+   "tldr": "Influence is unavoidable, so aim it well.",
+   "steps": [
+    {
+     "label": "Locate",
+     "body": "Paragraph 2, the advocates' argument."
+    },
+    {
+     "label": "Infer",
+     "body": "Unavoidable influence makes deliberate design acceptable."
+    }
+   ],
+   "takeaway": "Follow the \"if... then\" structure of an argument to infer its point.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0123",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p25",
+   "position": 3,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 4,
+   "rating": 3.45,
+   "rank": 95,
+   "targetSec": 102,
+   "prompt": "Which policy would best pass the test proposed in paragraph 4?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A city enrolls residents in a renewable-energy plan by default, announces the change by mail and lets anyone switch back with one phone call.",
+     "correct": true,
+     "trap": null,
+     "why": "The default is announced, explained and easy to reverse."
+    },
+    {
+     "id": "B",
+     "text": "A cafeteria removes all desserts from its menu.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Removing an option is a ban, not a nudge."
+    },
+    {
+     "id": "C",
+     "text": "A company renews subscriptions automatically under a clause buried in its terms of service.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author's test fails a default hidden in fine print."
+    },
+    {
+     "id": "D",
+     "text": "A government places a tax on sugary drinks.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "A tax changes incentives, so it isn't a nudge at all."
+    }
+   ],
+   "tldr": "Announced, explained, easy to undo.",
+   "steps": [
+    {
+     "label": "Test",
+     "body": "Would the nudge survive being made public?"
+    },
+    {
+     "label": "Apply",
+     "body": "The city's announced, reversible default does."
+    }
+   ],
+   "takeaway": "First check that the example is the kind of thing the test is for.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0124",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p25",
+   "position": 4,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 5,
+   "rating": 4.4,
+   "rank": 126,
+   "targetSec": 102,
+   "prompt": "Which finding, if true, would most weaken the author's claim that an announced default invites the scrutiny critics demand?",
+   "options": [
+    {
+     "id": "A",
+     "text": "People told about a default and how to change it keep it at the same rate as people who are not told, and rarely reconsider it.",
+     "correct": true,
+     "trap": null,
+     "why": "If announcing a default doesn't prompt any more thought, publicity doesn't create the scrutiny the author expects."
+    },
+    {
+     "id": "B",
+     "text": "Some defaults are hidden in fine print.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The author already acknowledges hidden nudges."
+    },
+    {
+     "id": "C",
+     "text": "Automatic enrollment raises retirement savings rates.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The passage already grants this."
+    },
+    {
+     "id": "D",
+     "text": "Voters often oppose new taxes.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The claim concerns how people respond to announced defaults, not taxes."
+    }
+   ],
+   "tldr": "If announcing changes nothing, publicity doesn't bring scrutiny.",
+   "steps": [
+    {
+     "label": "Claim",
+     "body": "Public defaults get people thinking."
+    },
+    {
+     "label": "Weaken",
+     "body": "Evidence that people told about defaults think no more than others."
+    }
+   ],
+   "takeaway": "Weaken a claim about a mechanism by showing the mechanism doesn't operate.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0125",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p25",
+   "position": 5,
+   "type": "cars_function",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-author-function"
+   ],
+   "difficulty": 3,
+   "rating": 3.4,
+   "rank": 83,
+   "targetSec": 102,
+   "prompt": "Taxes and bans are mentioned in paragraph 3 primarily to",
+   "options": [
+    {
+     "id": "A",
+     "text": "give examples of nudges",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Taxes and bans are the opposite of nudges by the passage's definition."
+    },
+    {
+     "id": "B",
+     "text": "show that the author prefers bans to nudges",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "This is the critics' comparison, and the author never states that preference."
+    },
+    {
+     "id": "C",
+     "text": "argue that taxes and bans work better than nudges",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The comparison is about visibility, not effectiveness."
+    },
+    {
+     "id": "D",
+     "text": "contrast policies citizens can see and debate with nudges that work unnoticed",
+     "correct": true,
+     "trap": null,
+     "why": "The critics use them to show what a nudge lacks: visibility."
+    }
+   ],
+   "tldr": "They're the visible contrast to an invisible nudge.",
+   "steps": [
+    {
+     "label": "Context",
+     "body": "The critics' argument that nudges bypass deliberation."
+    },
+    {
+     "label": "Role",
+     "body": "Taxes and bans can be seen and argued about; nudges can't."
+    }
+   ],
+   "takeaway": "Comparisons in a passage usually highlight one specific difference.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0126",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p26",
+   "position": 1,
+   "type": "cars_main_idea",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-main-idea"
+   ],
+   "difficulty": 2,
+   "rating": 2.75,
+   "rank": 27,
+   "targetSec": 102,
+   "prompt": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The way societies think about children is fixed by biology.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author credits Ariès with showing it is not."
+    },
+    {
+     "id": "B",
+     "text": "Paintings are the best evidence of how past societies viewed children.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The critics argue paintings follow conventions and can mislead."
+    },
+    {
+     "id": "C",
+     "text": "Medieval parents did not care about their children.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "Even Ariès didn't claim this, and the critics found evidence of deep care."
+    },
+    {
+     "id": "D",
+     "text": "Although Ariès's claim that medieval society lacked an idea of childhood has been widely rejected, his insistence that childhood has a history reshaped the field.",
+     "correct": true,
+     "trap": null,
+     "why": "The passage presents the claim (P1–P2), the criticism (P3) and the lasting contribution (P4)."
+    }
+   ],
+   "tldr": "Wrong on the big claim, right to ask the question.",
+   "steps": [
+    {
+     "label": "Map",
+     "body": "P1 the claim. P2 the evidence. P3 the critics. P4 the lasting value."
+    },
+    {
+     "label": "Main idea",
+     "body": "A failed thesis that still changed the field."
+    }
+   ],
+   "takeaway": "When a passage ends with \"Yet...\", the main idea usually includes that turn.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0127",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p26",
+   "position": 2,
+   "type": "cars_tone",
+   "family": "cars_foc",
+   "knowledgePoints": [
+    "kp-cars-tone"
+   ],
+   "difficulty": 1,
+   "rating": 2.7,
+   "rank": 1,
+   "targetSec": 102,
+   "prompt": "The author's attitude toward Ariès is best described as",
+   "options": [
+    {
+     "id": "A",
+     "text": "uncritically admiring",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author accepts that his central claim may not survive."
+    },
+    {
+     "id": "B",
+     "text": "confused",
+     "correct": false,
+     "trap": "unsupported",
+     "why": "The author's position is clear and consistent."
+    },
+    {
+     "id": "C",
+     "text": "dismissive",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The author says it would be a mistake to conclude he simply got it wrong."
+    },
+    {
+     "id": "D",
+     "text": "respectful of his contribution, while accepting much of the case against his central claim",
+     "correct": true,
+     "trap": null,
+     "why": "The author calls his evidence ingenious and his question productive, but says his sharpest claim may not survive."
+    }
+   ],
+   "tldr": "Respect for the question, doubt about the answer.",
+   "steps": [
+    {
+     "label": "Evidence",
+     "body": "\"Varied and often ingenious\"; \"sharpest claim may not survive\"; \"remarkably productive.\""
+    },
+    {
+     "label": "Tone",
+     "body": "Respectful but critical."
+    }
+   ],
+   "takeaway": "Mixed praise and criticism point to a qualified-respect answer.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0128",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p26",
+   "position": 3,
+   "type": "cars_inference",
+   "family": "cars_rwt",
+   "knowledgePoints": [
+    "kp-cars-inference"
+   ],
+   "difficulty": 4,
+   "rating": 3.6,
+   "rank": 113,
+   "targetSec": 102,
+   "prompt": "The critics in paragraph 3 would most likely say that a medieval painting of a child in adult clothing",
+   "options": [
+    {
+     "id": "A",
+     "text": "shows that children actually wore adult clothing.",
+     "correct": false,
+     "trap": "too_strong",
+     "why": "The critics doubt that paintings can be read so literally."
+    },
+    {
+     "id": "B",
+     "text": "proves that medieval people saw children as small adults.",
+     "correct": false,
+     "trap": "wrong_viewpoint",
+     "why": "That is Ariès's reading, which the critics dispute."
+    },
+    {
+     "id": "C",
+     "text": "may reflect how children were conventionally painted rather than how they were regarded.",
+     "correct": true,
+     "trap": null,
+     "why": "The critics say paintings follow artistic conventions and aren't photographs of how people saw."
+    },
+    {
+     "id": "D",
+     "text": "should be dismissed as a forgery.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The critics question how to read paintings, not whether they're authentic."
+    }
+   ],
+   "tldr": "Conventions, not perceptions.",
+   "steps": [
+    {
+     "label": "Critics' rule",
+     "body": "Paintings follow conventions."
+    },
+    {
+     "label": "Apply",
+     "body": "A child in adult dress may just reflect how painters worked."
+    }
+   ],
+   "takeaway": "Apply a viewpoint's stated principle to the new case, and no further.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0129",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p26",
+   "position": 4,
+   "type": "cars_challenge",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-challenge"
+   ],
+   "difficulty": 5,
+   "rating": 4.4,
+   "rank": 125,
+   "targetSec": 102,
+   "prompt": "Which of the following findings, if true, would most challenge the critics' use of diaries and letters?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Court records sometimes mention children's ages.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That is consistent with the critics' evidence."
+    },
+    {
+     "id": "B",
+     "text": "Some medieval paintings show children playing games.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That would add support to the critics, not challenge them."
+    },
+    {
+     "id": "C",
+     "text": "Ariès's book was widely read.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Its popularity says nothing about the quality of the critics' evidence."
+    },
+    {
+     "id": "D",
+     "text": "The surviving diaries and letters were written almost entirely by a small, wealthy minority whose family life differed from that of most people.",
+     "correct": true,
+     "trap": null,
+     "why": "Evidence from an unrepresentative group can't show how most medieval families thought about childhood."
+    }
+   ],
+   "tldr": "Unrepresentative sources weaken a general conclusion.",
+   "steps": [
+    {
+     "label": "Critics' evidence",
+     "body": "Diaries, letters and court records show parents caring."
+    },
+    {
+     "label": "Challenge",
+     "body": "If those sources come from a narrow elite, they can't speak for everyone."
+    }
+   ],
+   "takeaway": "Questioning who produced the evidence is a classic way to challenge it.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "mcat-cars-0130",
+   "version": 1,
+   "exam": "MCAT",
+   "section": "CARS",
+   "passageId": "mcat-cars-p26",
+   "position": 5,
+   "type": "cars_application",
+   "family": "cars_rbt",
+   "knowledgePoints": [
+    "kp-cars-application"
+   ],
+   "difficulty": 5,
+   "rating": 3.75,
+   "rank": 118,
+   "targetSec": 102,
+   "prompt": "The author's final claim, that \"a thesis can fail and still change what scholars think is worth asking,\" is best illustrated by which of the following?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A scientist's theory about a disease's cause is disproved, but the questions it raised start a new line of research.",
+     "correct": true,
+     "trap": null,
+     "why": "The theory fails, yet it changes what researchers study, just like Ariès's thesis."
+    },
+    {
+     "id": "B",
+     "text": "A historian's book is ignored and soon forgotten.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "A forgotten thesis changes nothing."
+    },
+    {
+     "id": "C",
+     "text": "New evidence confirms a long-doubted thesis.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The claim concerns a thesis that fails."
+    },
+    {
+     "id": "D",
+     "text": "A theory goes unchallenged for centuries.",
+     "correct": false,
+     "trap": "contradicts",
+     "why": "The claim concerns a thesis that fails."
+    }
+   ],
+   "tldr": "Failed answer, fruitful question.",
+   "steps": [
+    {
+     "label": "Claim",
+     "body": "Failure plus lasting influence on the questions asked."
+    },
+    {
+     "label": "Match",
+     "body": "A disproved theory that launches new research."
+    }
+   ],
+   "takeaway": "For analogy questions, match both parts of the claim.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
    "id": "mcat-cars-0031",
    "version": 1,
    "exam": "MCAT",
@@ -28155,7 +29705,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 15,
+   "rank": 20,
    "targetSec": 102,
    "prompt": "The author's primary purpose in the passage is to",
    "options": [
@@ -28217,7 +29767,7 @@
    ],
    "difficulty": 2,
    "rating": 2.9,
-   "rank": 32,
+   "rank": 38,
    "targetSec": 102,
    "prompt": "According to the monitoring explanation, tipping benefits employers by",
    "options": [
@@ -28279,7 +29829,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 44,
+   "rank": 52,
    "targetSec": 102,
    "prompt": "The author mentions party size, the weather and the server's appearance (paragraph 3) in order to",
    "options": [
@@ -28339,9 +29889,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 3.75,
-   "rank": 95,
+   "rank": 114,
    "targetSec": 102,
    "prompt": "Which of the following findings would most support the explanation proposed in paragraph 4?",
    "options": [
@@ -28403,7 +29953,7 @@
    ],
    "difficulty": 4,
    "rating": 3.55,
-   "rank": 84,
+   "rank": 100,
    "targetSec": 102,
    "prompt": "The \"uncomfortable implication\" mentioned in paragraph 4 is that tipping",
    "options": [
@@ -28465,7 +30015,7 @@
    ],
    "difficulty": 1,
    "rating": 2.75,
-   "rank": 18,
+   "rank": 23,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -28527,7 +30077,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 35,
+   "rank": 42,
    "targetSec": 102,
    "prompt": "The author mentions a busy highway interchange in order to",
    "options": [
@@ -28589,7 +30139,7 @@
    ],
    "difficulty": 4,
    "rating": 3.45,
-   "rank": 82,
+   "rank": 97,
    "targetSec": 102,
    "prompt": "The critic described in paragraph 2 would most likely regard which of the following as contributing to a street's safety?",
    "options": [
@@ -28649,9 +30199,9 @@
    "knowledgePoints": [
     "kp-cars-inference"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "rating": 3.2,
-   "rank": 48,
+   "rank": 58,
    "targetSec": 102,
    "prompt": "The passage suggests that the mid-century planners erred mainly in",
    "options": [
@@ -28713,7 +30263,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 1,
+   "rank": 2,
    "targetSec": 102,
    "prompt": "The author's attitude toward informal surveillance is best described as",
    "options": [
@@ -28775,7 +30325,7 @@
    ],
    "difficulty": 1,
    "rating": 2.72,
-   "rank": 8,
+   "rank": 12,
    "targetSec": 102,
    "prompt": "The central thesis of the passage is that",
    "options": [
@@ -28835,9 +30385,9 @@
    "knowledgePoints": [
     "kp-cars-application"
    ],
-   "difficulty": 5,
+   "difficulty": 4,
    "rating": 3.75,
-   "rank": 98,
+   "rank": 117,
    "targetSec": 102,
    "prompt": "Based on paragraph 2, a government that began counting people with a particular chronic disease would most likely",
    "options": [
@@ -28899,7 +30449,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 38,
+   "rank": 45,
    "targetSec": 102,
    "prompt": "The statement that \"administrative convenience... could harden into social identity\" serves mainly to",
    "options": [
@@ -28961,7 +30511,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 65,
+   "rank": 76,
    "targetSec": 102,
    "prompt": "The author would most likely advise a researcher using a nineteenth-century census table to",
    "options": [
@@ -29023,7 +30573,7 @@
    ],
    "difficulty": 5,
    "rating": 4.42,
-   "rank": 102,
+   "rank": 127,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the claim made in paragraph 3?",
    "options": [
@@ -29085,7 +30635,7 @@
    ],
    "difficulty": 2,
    "rating": 2.81,
-   "rank": 26,
+   "rank": 32,
    "targetSec": 102,
    "prompt": "Which of the following best expresses the main idea of the passage?",
    "options": [
@@ -29147,7 +30697,7 @@
    ],
    "difficulty": 2,
    "rating": 3,
-   "rank": 39,
+   "rank": 46,
    "targetSec": 102,
    "prompt": "The author notes that the associations \"persist in cities where banks are plentiful\" in order to",
    "options": [
@@ -29209,7 +30759,7 @@
    ],
    "difficulty": 4,
    "rating": 3.6,
-   "rank": 91,
+   "rank": 108,
    "targetSec": 102,
    "prompt": "According to the second explanation, the association's \"apparent inefficiency\" benefits members because",
    "options": [
@@ -29271,7 +30821,7 @@
    ],
    "difficulty": 5,
    "rating": 3.76,
-   "rank": 99,
+   "rank": 120,
    "targetSec": 102,
    "prompt": "Which of the following best exemplifies the \"public obligation\" described in paragraph 3?",
    "options": [
@@ -29333,7 +30883,7 @@
    ],
    "difficulty": 3,
    "rating": 3.2,
-   "rank": 54,
+   "rank": 65,
    "targetSec": 102,
    "prompt": "The author would most likely say that an economist who judged rotating associations only by the interest their members forgo would",
    "options": [
@@ -29395,7 +30945,7 @@
    ],
    "difficulty": 2,
    "rating": 2.81,
-   "rank": 25,
+   "rank": 31,
    "targetSec": 102,
    "prompt": "The passage is primarily concerned with",
    "options": [
@@ -29457,7 +31007,7 @@
    ],
    "difficulty": 2,
    "rating": 3.05,
-   "rank": 41,
+   "rank": 48,
    "targetSec": 102,
    "prompt": "The author discusses \"Saint Monday\" primarily in order to",
    "options": [
@@ -29519,7 +31069,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 58,
+   "rank": 69,
    "targetSec": 102,
    "prompt": "It can be inferred from the passage that some employers came to accept a shorter work week partly because they",
    "options": [
@@ -29581,7 +31131,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 67,
+   "rank": 78,
    "targetSec": 102,
    "prompt": "Which of the following developments would the author most likely regard as a threat to the weekend?",
    "options": [
@@ -29643,7 +31193,7 @@
    ],
    "difficulty": 1,
    "rating": 2.7,
-   "rank": 4,
+   "rank": 6,
    "targetSec": 102,
    "prompt": "The author's attitude toward the future of the weekend is best described as",
    "options": [
@@ -29705,7 +31255,7 @@
    ],
    "difficulty": 2,
    "rating": 2.76,
-   "rank": 22,
+   "rank": 28,
    "targetSec": 102,
    "prompt": "The central thesis of the passage is that",
    "options": [
@@ -29767,7 +31317,7 @@
    ],
    "difficulty": 4,
    "rating": 3.4,
-   "rank": 79,
+   "rank": 92,
    "targetSec": 102,
    "prompt": "The author describes the critics' position as having \"the appeal of modesty\" (paragraph 2) most likely in order to",
    "options": [
@@ -29829,7 +31379,7 @@
    ],
    "difficulty": 3,
    "rating": 3.25,
-   "rank": 57,
+   "rank": 68,
    "targetSec": 102,
    "prompt": "Based on the passage, the author would most likely say that a strictly literal translation of a comic poem",
    "options": [
@@ -29891,7 +31441,7 @@
    ],
    "difficulty": 3,
    "rating": 3.4,
-   "rank": 62,
+   "rank": 73,
    "targetSec": 102,
    "prompt": "Which of the following practices would the author most likely endorse?",
    "options": [
@@ -29953,7 +31503,7 @@
    ],
    "difficulty": 5,
    "rating": 4.42,
-   "rank": 103,
+   "rank": 128,
    "targetSec": 102,
    "prompt": "Which of the following findings, if true, would most challenge the author's argument against strict literalism in paragraph 2?",
    "options": [
@@ -40470,24 +42020,24 @@
    "options": [
     {
      "id": "A",
-     "text": "2",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "0.001 M is 10⁻3 M, not 10⁻2 M."
-    },
-    {
-     "id": "B",
      "text": "3",
      "correct": true,
      "trap": null,
      "why": "[H⁺] = 10⁻3 M, so pH = 3."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "4",
      "correct": false,
      "trap": "power_of_ten",
      "why": "0.001 M is 10⁻3 M, not 10⁻4 M."
+    },
+    {
+     "id": "C",
+     "text": "7",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Only pure water (or a neutral salt) sits at pH 7."
     },
     {
      "id": "D",
@@ -40542,24 +42092,24 @@
    "options": [
     {
      "id": "A",
-     "text": "3",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "0.0001 M is 10⁻4 M, not 10⁻3 M."
-    },
-    {
-     "id": "B",
      "text": "4",
      "correct": true,
      "trap": null,
      "why": "[H⁺] = 10⁻4 M, so pH = 4."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "5",
      "correct": false,
      "trap": "power_of_ten",
      "why": "0.0001 M is 10⁻4 M, not 10⁻5 M."
+    },
+    {
+     "id": "C",
+     "text": "7",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Only pure water (or a neutral salt) sits at pH 7."
     },
     {
      "id": "D",
@@ -40621,24 +42171,24 @@
     },
     {
      "id": "B",
+     "text": "7",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Only pure water (or a neutral salt) sits at pH 7."
+    },
+    {
+     "id": "C",
      "text": "11",
      "correct": false,
      "trap": "power_of_ten",
      "why": "0.01 M is 10⁻2 M, not 10⁻3 M."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "12",
      "correct": true,
      "trap": null,
      "why": "[OH⁻] = 10⁻2 M, so pOH = 2 and pH = 14 − 2 = 12."
-    },
-    {
-     "id": "D",
-     "text": "13",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "0.01 M is 10⁻2 M, not 10⁻1 M."
     }
    ],
    "tldr": "NaOH dissociates fully: pOH = 2, so pH = 14 − 2 = 12.",
@@ -40693,24 +42243,24 @@
     },
     {
      "id": "B",
+     "text": "7",
+     "correct": false,
+     "trap": "false_fact",
+     "why": "Only pure water (or a neutral salt) sits at pH 7."
+    },
+    {
+     "id": "C",
      "text": "10",
      "correct": false,
      "trap": "power_of_ten",
      "why": "0.001 M is 10⁻3 M, not 10⁻4 M."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "11",
      "correct": true,
      "trap": null,
      "why": "[OH⁻] = 10⁻3 M, so pOH = 3 and pH = 14 − 3 = 11."
-    },
-    {
-     "id": "D",
-     "text": "12",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "0.001 M is 10⁻3 M, not 10⁻2 M."
     }
    ],
    "tldr": "KOH dissociates fully: pOH = 3, so pH = 14 − 3 = 11.",
@@ -40758,24 +42308,24 @@
    "options": [
     {
      "id": "A",
+     "text": "0.04 M",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "A factor of 10 slipped in. Check the arithmetic."
+    },
+    {
+     "id": "B",
      "text": "0.333 M",
      "correct": false,
      "trap": "misread_data",
      "why": "That treats 250 mL as the water added. 250 mL is the final volume."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "0.4 M",
      "correct": true,
      "trap": null,
      "why": "M₂ = M₁V₁/V₂ = (2 × 50)/250 = 0.4 M."
-    },
-    {
-     "id": "C",
-     "text": "4 M",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "A factor of 10 slipped in. Check the arithmetic."
     },
     {
      "id": "D",
@@ -40902,24 +42452,24 @@
    "options": [
     {
      "id": "A",
+     "text": "0.013 M",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "A factor of 10 slipped in. Check the arithmetic."
+    },
+    {
+     "id": "B",
      "text": "0.1 M",
      "correct": false,
      "trap": "misread_data",
      "why": "That treats 400 mL as the water added. 400 mL is the final volume."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "0.125 M",
      "correct": true,
      "trap": null,
      "why": "M₂ = M₁V₁/V₂ = (0.5 × 100)/400 = 0.125 M."
-    },
-    {
-     "id": "C",
-     "text": "1.25 M",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "A factor of 10 slipped in. Check the arithmetic."
     },
     {
      "id": "D",
@@ -41046,17 +42596,17 @@
    "options": [
     {
      "id": "A",
-     "text": "0.167 M",
-     "correct": false,
-     "trap": "misread_data",
-     "why": "That treats 100 mL as the water added. 100 mL is the final volume."
-    },
-    {
-     "id": "B",
      "text": "0.2 M",
      "correct": true,
      "trap": null,
      "why": "M₂ = M₁V₁/V₂ = (1 × 20)/100 = 0.2 M."
+    },
+    {
+     "id": "B",
+     "text": "0.25 M",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That divides by the water added (80 mL). V₂ is the final total volume."
     },
     {
      "id": "C",
@@ -41118,31 +42668,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.041 L",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses R (0.0821 L·atm/(mol·K)) as if it were the molar volume."
+    },
+    {
+     "id": "B",
+     "text": "1.12 L",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "The molar volume at STP is 22.4 L/mol, not 2.24."
+    },
+    {
+     "id": "C",
      "text": "4.2 L",
      "correct": false,
      "trap": "lookalike",
      "why": "That uses the gas constant R as if it were the molar volume."
     },
     {
-     "id": "B",
+     "id": "D",
      "text": "11.2 L",
      "correct": true,
      "trap": null,
      "why": "0.5 mol × 22.4 L/mol = 11.2 L."
-    },
-    {
-     "id": "C",
-     "text": "12.3 L",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "24.5 L/mol is the molar volume near 25 °C, not at STP."
-    },
-    {
-     "id": "D",
-     "text": "44.8 L",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "That divides by the moles instead of multiplying."
     }
    ],
    "tldr": "At STP each mole takes 22.4 L, so 0.5 mol occupies 11.2 L.",
@@ -41190,31 +42740,31 @@
    "options": [
     {
      "id": "A",
+     "text": "4.48 L",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "The molar volume at STP is 22.4 L/mol, not 2.24."
+    },
+    {
+     "id": "B",
      "text": "11.2 L",
      "correct": false,
      "trap": "wrong_direction",
      "why": "That divides by the moles instead of multiplying."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "16.6 L",
      "correct": false,
      "trap": "lookalike",
      "why": "That uses the gas constant R as if it were the molar volume."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "44.8 L",
      "correct": true,
      "trap": null,
      "why": "2 mol × 22.4 L/mol = 44.8 L."
-    },
-    {
-     "id": "D",
-     "text": "49 L",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "24.5 L/mol is the molar volume near 25 °C, not at STP."
     }
    ],
    "tldr": "At STP each mole takes 22.4 L, so 2 mol occupies 44.8 L.",
@@ -41334,24 +42884,24 @@
    "options": [
     {
      "id": "A",
+     "text": "0.15 mol",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "Divide by 22.4, not 224."
+    },
+    {
+     "id": "B",
      "text": "1.37 mol",
      "correct": false,
      "trap": "lookalike",
      "why": "24.5 L/mol applies near 25 °C, not at STP."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "1.5 mol",
      "correct": true,
      "trap": null,
      "why": "33.6 L ÷ 22.4 L/mol = 1.5 mol."
-    },
-    {
-     "id": "C",
-     "text": "3 mol",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "That doubles the correct answer. Recheck the division."
     },
     {
      "id": "D",
@@ -41406,24 +42956,24 @@
    "options": [
     {
      "id": "A",
-     "text": "2.74 mol",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "24.5 L/mol applies near 25 °C, not at STP."
-    },
-    {
-     "id": "B",
      "text": "3 mol",
      "correct": true,
      "trap": null,
      "why": "67.2 L ÷ 22.4 L/mol = 3 mol."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "6 mol",
      "correct": false,
      "trap": "power_of_ten",
      "why": "That doubles the correct answer. Recheck the division."
+    },
+    {
+     "id": "C",
+     "text": "8.08 mol",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses the gas constant R as if it were the molar volume."
     },
     {
      "id": "D",
@@ -41873,17 +43423,17 @@
     },
     {
      "id": "C",
-     "text": "4 A",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That uses only the 6 Ω resistor."
-    },
-    {
-     "id": "D",
      "text": "6 A",
      "correct": true,
      "trap": null,
      "why": "R = 4 Ω, so I = 24 V ÷ 4 Ω = 6 A."
+    },
+    {
+     "id": "D",
+     "text": "96 A",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That multiplies V by R. Ohm’s law gives I = V/R."
     }
    ],
    "tldr": "Parallel: R = 4 Ω, so I = 24/4 = 6 A.",
@@ -42302,24 +43852,24 @@
     },
     {
      "id": "B",
-     "text": "20 W",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "There’s no ½ in P = V²/R. That factor belongs to capacitor energy."
-    },
-    {
-     "id": "C",
      "text": "40 W",
      "correct": true,
      "trap": null,
      "why": "P = V²/R = 20²/10 = 40 W."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "200 W",
      "correct": false,
      "trap": "lookalike",
      "why": "V × R isn’t a power formula. Use V²/R or IV."
+    },
+    {
+     "id": "D",
+     "text": "400 W",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s V² alone. Divide by R."
     }
    ],
    "tldr": "P = V²/R = 400/10 = 40 W.",
@@ -42374,24 +43924,24 @@
     },
     {
      "id": "B",
+     "text": "4 W",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s I². Power is I²R."
+    },
+    {
+     "id": "C",
      "text": "10 W",
      "correct": false,
      "trap": "skipped_step",
      "why": "There’s no ½ in P = V²/R. That factor belongs to capacitor energy."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "20 W",
      "correct": true,
      "trap": null,
      "why": "P = V²/R = 10²/5 = 20 W."
-    },
-    {
-     "id": "D",
-     "text": "50 W",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "V × R isn’t a power formula. Use V²/R or IV."
     }
    ],
    "tldr": "P = V²/R = 100/5 = 20 W.",
@@ -42439,31 +43989,31 @@
    "options": [
     {
      "id": "A",
-     "text": "2 W",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "V/R = 2 is the current in amperes, not the power."
-    },
-    {
-     "id": "B",
-     "text": "100 W",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "There’s no ½ in P = V²/R. That factor belongs to capacitor energy."
-    },
-    {
-     "id": "C",
      "text": "200 W",
      "correct": true,
      "trap": null,
      "why": "P = V²/R = 100²/50 = 200 W."
     },
     {
-     "id": "D",
+     "id": "B",
      "text": "5000 W",
      "correct": false,
      "trap": "lookalike",
      "why": "V × R isn’t a power formula. Use V²/R or IV."
+    },
+    {
+     "id": "C",
+     "text": "10000 W",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s V² alone. Divide by R."
+    },
+    {
+     "id": "D",
+     "text": "500000 W",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That multiplies by R. P = V²/R."
     }
    ],
    "tldr": "P = V²/R = 10000/50 = 200 W.",
@@ -42669,17 +44219,17 @@
     },
     {
      "id": "C",
+     "text": "25 µC",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "There’s no ½ in Q = CV. That factor belongs to the stored energy."
+    },
+    {
+     "id": "D",
      "text": "50 µC",
      "correct": true,
      "trap": null,
      "why": "Q = CV = 10 µF × 5 V = 50 µC."
-    },
-    {
-     "id": "D",
-     "text": "125 µC",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "½CV² is the stored energy (in µJ), not the charge."
     }
    ],
    "tldr": "Q = CV = 10 × 5 = 50 µC.",
@@ -42733,24 +44283,24 @@
     },
     {
      "id": "B",
-     "text": "6 µC",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "That divides V by C. Q = CV."
-    },
-    {
-     "id": "C",
      "text": "24 µC",
      "correct": true,
      "trap": null,
      "why": "Q = CV = 2 µF × 12 V = 24 µC."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "144 µC",
      "correct": false,
      "trap": "lookalike",
      "why": "½CV² is the stored energy (in µJ), not the charge."
+    },
+    {
+     "id": "D",
+     "text": "288 µC",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "CV² isn’t a charge. Q = CV."
     }
    ],
    "tldr": "Q = CV = 2 × 12 = 24 µC.",
@@ -42875,24 +44425,24 @@
     },
     {
      "id": "B",
-     "text": "60 µJ",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "CV is the charge in µC, not the energy."
-    },
-    {
-     "id": "C",
      "text": "90 µJ",
      "correct": true,
      "trap": null,
      "why": "U = ½CV² = ½ × 20 × 3² = 90 µJ."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "180 µJ",
      "correct": false,
      "trap": "skipped_step",
      "why": "That leaves out the ½ in U = ½CV²."
+    },
+    {
+     "id": "D",
+     "text": "1800 µJ",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Only the voltage is squared: U = ½CV²."
     }
    ],
    "tldr": "U = ½CV² = ½(20)(9) = 90 µJ.",
@@ -43299,31 +44849,31 @@
    "options": [
     {
      "id": "A",
-     "text": "2.1 s",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "That drops the ½ from h = ½gt²."
-    },
-    {
-     "id": "B",
      "text": "3 s",
      "correct": true,
      "trap": null,
      "why": "45 = ½(10)t², so t² = 9 and t = 3 s."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "4.5 s",
      "correct": false,
      "trap": "lookalike",
      "why": "h/g isn’t a time formula here; the stone accelerates."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "9 s",
      "correct": false,
      "trap": "skipped_step",
      "why": "That’s t². Take the square root."
+    },
+    {
+     "id": "D",
+     "text": "9.5 s",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That leaves g out of t = √(2h/g)."
     }
    ],
    "tldr": "h = ½gt² → 45 = 5t² → t = 3 s.",
@@ -43441,31 +44991,31 @@
    "options": [
     {
      "id": "A",
+     "text": "2.5 m/s",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That divides g by t. Speed grows with time: v = gt."
+    },
+    {
+     "id": "B",
      "text": "20 m/s",
      "correct": false,
      "trap": "lookalike",
      "why": "That’s the average speed over the fall, not the final speed."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "40 m/s",
      "correct": true,
      "trap": null,
      "why": "v = gt = 10 × 4 = 40 m/s."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "80 m/s",
      "correct": false,
      "trap": "lookalike",
      "why": "½gt² = 80 is the distance fallen in meters, not the speed."
-    },
-    {
-     "id": "D",
-     "text": "160 m/s",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Speed grows linearly with time: v = gt."
     }
    ],
    "tldr": "v = gt = 10 × 4 = 40 m/s.",
@@ -43512,31 +45062,31 @@
    "options": [
     {
      "id": "A",
+     "text": "9 m",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s t² alone. Multiply by ½g = 5 m/s²."
+    },
+    {
+     "id": "B",
      "text": "15 m",
      "correct": false,
      "trap": "skipped_step",
      "why": "Time must be squared: d = ½gt²."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "30 m",
      "correct": false,
      "trap": "lookalike",
      "why": "gt = 30 is the final speed in m/s, not the distance."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "45 m",
      "correct": true,
      "trap": null,
      "why": "d = ½gt² = 5 × 9 = 45 m."
-    },
-    {
-     "id": "D",
-     "text": "90 m",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That leaves out the ½ in d = ½gt²."
     }
    ],
    "tldr": "d = ½gt² = ½(10)(3)² = 45 m.",
@@ -43655,31 +45205,31 @@
    "options": [
     {
      "id": "A",
-     "text": "5 m",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "Recheck the fall time: t = √(2h/g)."
-    },
-    {
-     "id": "B",
      "text": "7.07 m",
      "correct": false,
      "trap": "lookalike",
      "why": "That drops the ½ in h = ½gt² when finding the fall time."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "10 m",
      "correct": true,
      "trap": null,
      "why": "Fall time t = √(2h/g) = 2 s, so x = 5 × 2 = 10 m."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "20 m",
      "correct": false,
      "trap": "skipped_step",
      "why": "That multiplies by t² instead of t."
+    },
+    {
+     "id": "D",
+     "text": "31.6 m",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That leaves g out of t = √(2h/g)."
     }
    ],
    "tldr": "t = √(2h/g) = 2 s; x = v·t = 5 × 2 = 10 m.",
@@ -43727,24 +45277,24 @@
    "options": [
     {
      "id": "A",
-     "text": "21.21 m",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "That drops the ½ in h = ½gt² when finding the fall time."
-    },
-    {
-     "id": "B",
      "text": "30 m",
      "correct": true,
      "trap": null,
      "why": "Fall time t = √(2h/g) = 3 s, so x = 10 × 3 = 30 m."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "45 m",
      "correct": false,
      "trap": "misread_data",
      "why": "That’s the height, not the horizontal distance."
+    },
+    {
+     "id": "C",
+     "text": "60 m",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Recheck the fall time: t = √(2h/g)."
     },
     {
      "id": "D",
@@ -43799,31 +45349,31 @@
    "options": [
     {
      "id": "A",
+     "text": "2 m",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Recheck the fall time: t = √(2h/g)."
+    },
+    {
+     "id": "B",
      "text": "2.83 m",
      "correct": false,
      "trap": "lookalike",
      "why": "That drops the ½ in h = ½gt² when finding the fall time."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "4 m",
      "correct": true,
      "trap": null,
      "why": "Fall time t = √(2h/g) = 1 s, so x = 4 × 1 = 4 m."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "5 m",
      "correct": false,
      "trap": "misread_data",
      "why": "That’s the height, not the horizontal distance."
-    },
-    {
-     "id": "D",
-     "text": "8 m",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "Recheck the fall time: t = √(2h/g)."
     }
    ],
    "tldr": "t = √(2h/g) = 1 s; x = v·t = 4 × 1 = 4 m.",
@@ -43871,17 +45421,17 @@
    "options": [
     {
      "id": "A",
-     "text": "8.49 m",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "That drops the ½ in h = ½gt² when finding the fall time."
-    },
-    {
-     "id": "B",
      "text": "12 m",
      "correct": true,
      "trap": null,
      "why": "Fall time t = √(2h/g) = 4 s, so x = 3 × 4 = 12 m."
+    },
+    {
+     "id": "B",
+     "text": "24 m",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Recheck the fall time: t = √(2h/g)."
     },
     {
      "id": "C",
@@ -44587,31 +46137,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.1 kPa",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³."
+    },
+    {
+     "id": "B",
      "text": "10 kPa",
      "correct": false,
      "trap": "skipped_step",
      "why": "That leaves out g in ρgh."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "100 kPa",
      "correct": true,
      "trap": null,
      "why": "ρgh = 1000 × 10 × 10 = 100 kPa."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "200 kPa",
      "correct": false,
      "trap": "lookalike",
      "why": "That adds atmospheric pressure. Gauge pressure leaves it out."
-    },
-    {
-     "id": "D",
-     "text": "1000 kPa",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "A factor of 10 slipped in. Check ρgh in pascals."
     }
    ],
    "tldr": "Gauge pressure = ρgh = 100 kPa.",
@@ -44659,31 +46209,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.2 kPa",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³."
+    },
+    {
+     "id": "B",
      "text": "20 kPa",
      "correct": false,
      "trap": "skipped_step",
      "why": "That leaves out g in ρgh."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "200 kPa",
      "correct": true,
      "trap": null,
      "why": "ρgh = 1000 × 10 × 20 = 200 kPa."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "300 kPa",
      "correct": false,
      "trap": "lookalike",
      "why": "That adds atmospheric pressure. Gauge pressure leaves it out."
-    },
-    {
-     "id": "D",
-     "text": "2000 kPa",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "A factor of 10 slipped in. Check ρgh in pascals."
     }
    ],
    "tldr": "Gauge pressure = ρgh = 200 kPa.",
@@ -44731,31 +46281,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.3 kPa",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³."
+    },
+    {
+     "id": "B",
      "text": "30 kPa",
      "correct": false,
      "trap": "skipped_step",
      "why": "That leaves out g in ρgh."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "300 kPa",
      "correct": false,
      "trap": "lookalike",
      "why": "That’s the gauge pressure. Absolute adds the 100 kPa at the surface."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "400 kPa",
      "correct": true,
      "trap": null,
      "why": "ρgh = 300 kPa, plus 100 kPa at the surface = 400 kPa."
-    },
-    {
-     "id": "D",
-     "text": "3000 kPa",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "A factor of 10 slipped in. Check ρgh in pascals."
     }
    ],
    "tldr": "Absolute = 100 kPa + ρgh = 400 kPa.",
@@ -44875,31 +46425,31 @@
    "options": [
     {
      "id": "A",
+     "text": "0.1 kPa",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That uses ρ = 1 (g/cm³). In SI units, water’s density is 1000 kg/m³."
+    },
+    {
+     "id": "B",
      "text": "10 kPa",
      "correct": false,
      "trap": "skipped_step",
      "why": "That leaves out g in ρgh."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "100 kPa",
      "correct": false,
      "trap": "lookalike",
      "why": "That’s the gauge pressure. Absolute adds the 100 kPa at the surface."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "200 kPa",
      "correct": true,
      "trap": null,
      "why": "ρgh = 100 kPa, plus 100 kPa at the surface = 200 kPa."
-    },
-    {
-     "id": "D",
-     "text": "1000 kPa",
-     "correct": false,
-     "trap": "power_of_ten",
-     "why": "A factor of 10 slipped in. Check ρgh in pascals."
     }
    ],
    "tldr": "Absolute = 100 kPa + ρgh = 200 kPa.",
@@ -45167,17 +46717,17 @@
     },
     {
      "id": "B",
+     "text": "60%",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That uses water’s density, but the fluid is oil."
+    },
+    {
+     "id": "C",
      "text": "75%",
      "correct": true,
      "trap": null,
      "why": "Submerged fraction = 600/800 = 75%."
-    },
-    {
-     "id": "C",
-     "text": "100%",
-     "correct": false,
-     "trap": "false_fact",
-     "why": "It floats because it’s less dense than the fluid, so part of it stays above the surface."
     },
     {
      "id": "D",
@@ -45522,24 +47072,24 @@
     },
     {
      "id": "B",
+     "text": "20 cm on the opposite side (real)",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Images form at the focal point only for distant objects."
+    },
+    {
+     "id": "C",
      "text": "30 cm on the opposite side (real)",
      "correct": true,
      "trap": null,
      "why": "1/dᵢ = 1/20 − 1/60, so dᵢ = 30 cm (positive: real, inverted)."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "30 cm on the object’s side (virtual)",
      "correct": false,
      "trap": "sign_flip",
      "why": "A positive dᵢ means a real image on the far side of the lens."
-    },
-    {
-     "id": "D",
-     "text": "40 cm on the opposite side (real)",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "dₒ − f isn’t the lens equation. Use 1/f = 1/dₒ + 1/dᵢ."
     }
    ],
    "tldr": "1/dᵢ = 1/f − 1/dₒ = 1/20 − 1/60 → dᵢ = 30 cm (real).",
@@ -45757,17 +47307,17 @@
     },
     {
      "id": "C",
+     "text": "15 cm on the opposite side (real)",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Images form at the focal point only for distant objects."
+    },
+    {
+     "id": "D",
      "text": "30 cm on the object’s side (virtual)",
      "correct": true,
      "trap": null,
      "why": "1/dᵢ = 1/15 − 1/10, so dᵢ = −30 cm (negative: virtual, upright)."
-    },
-    {
-     "id": "D",
-     "text": "30 cm on the opposite side (real)",
-     "correct": false,
-     "trap": "sign_flip",
-     "why": "A negative dᵢ means a virtual image on the object’s side."
     }
    ],
    "tldr": "1/dᵢ = 1/f − 1/dₒ = 1/15 − 1/10 → dᵢ = −30 cm (virtual).",
@@ -45826,24 +47376,24 @@
     },
     {
      "id": "B",
+     "text": "8 cm on the opposite side (real)",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "Images form at the focal point only for distant objects."
+    },
+    {
+     "id": "C",
      "text": "12 cm on the opposite side (real)",
      "correct": true,
      "trap": null,
      "why": "1/dᵢ = 1/8 − 1/24, so dᵢ = 12 cm (positive: real, inverted)."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "12 cm on the object’s side (virtual)",
      "correct": false,
      "trap": "sign_flip",
      "why": "A positive dᵢ means a real image on the far side of the lens."
-    },
-    {
-     "id": "D",
-     "text": "16 cm on the opposite side (real)",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "dₒ − f isn’t the lens equation. Use 1/f = 1/dₒ + 1/dᵢ."
     }
    ],
    "tldr": "1/dᵢ = 1/f − 1/dₒ = 1/8 − 1/24 → dᵢ = 12 cm (real).",
@@ -46538,17 +48088,17 @@
    "options": [
     {
      "id": "A",
-     "text": "2 dB",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That leaves out the factor of 10 in β = 10 log(I/I₀)."
-    },
-    {
-     "id": "B",
      "text": "20 dB",
      "correct": true,
      "trap": null,
      "why": "Δβ = 10 log(100) = 20 dB."
+    },
+    {
+     "id": "B",
+     "text": "30 dB",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Count the factors of 10 again: each one adds exactly 10 dB."
     },
     {
      "id": "C",
@@ -46609,17 +48159,17 @@
    "options": [
     {
      "id": "A",
-     "text": "3 dB",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That leaves out the factor of 10 in β = 10 log(I/I₀)."
-    },
-    {
-     "id": "B",
      "text": "30 dB",
      "correct": true,
      "trap": null,
      "why": "Δβ = 10 log(1,000) = 30 dB."
+    },
+    {
+     "id": "B",
+     "text": "40 dB",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Count the factors of 10 again: each one adds exactly 10 dB."
     },
     {
      "id": "C",
@@ -47050,17 +48600,17 @@
     },
     {
      "id": "C",
+     "text": "0.34 V",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s the cathode’s potential alone. Subtract the anode’s."
+    },
+    {
+     "id": "D",
      "text": "1.10 V",
      "correct": true,
      "trap": null,
      "why": "Cu is the cathode (higher E°): 0.34 − (−0.76) = 1.10 V."
-    },
-    {
-     "id": "D",
-     "text": "1.20 V",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Recompute E°(cathode) − E°(anode) with the signs given."
     }
    ],
    "tldr": "E°cell = E°cathode − E°anode = 0.34 − (−0.76) = 1.10 V.",
@@ -47196,17 +48746,17 @@
     },
     {
      "id": "C",
+     "text": "0.80 V",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s the cathode’s potential alone. Subtract the anode’s."
+    },
+    {
+     "id": "D",
      "text": "1.56 V",
      "correct": true,
      "trap": null,
      "why": "Ag is the cathode (higher E°): 0.80 − (−0.76) = 1.56 V."
-    },
-    {
-     "id": "D",
-     "text": "2.36 V",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Potentials are intensive: don’t multiply by the 2 that balances electrons."
     }
    ],
    "tldr": "E°cell = E°cathode − E°anode = 0.80 − (−0.76) = 1.56 V.",
@@ -47269,17 +48819,17 @@
     },
     {
      "id": "C",
+     "text": "0.34 V",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s the cathode’s potential alone. Subtract the anode’s."
+    },
+    {
+     "id": "D",
      "text": "0.78 V",
      "correct": true,
      "trap": null,
      "why": "Cu is the cathode (higher E°): 0.34 − (−0.44) = 0.78 V."
-    },
-    {
-     "id": "D",
-     "text": "0.88 V",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Recompute E°(cathode) − E°(anode) with the signs given."
     }
    ],
    "tldr": "E°cell = E°cathode − E°anode = 0.34 − (−0.44) = 0.78 V.",
@@ -64631,14 +66181,14 @@
      "text": "34%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share between the mean and 1 SD on one side."
     },
     {
      "id": "B",
      "text": "50%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share on one side of the mean."
     },
     {
      "id": "C",
@@ -64652,7 +66202,7 @@
      "text": "95%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share within 2 SD of the mean."
     }
    ],
    "tldr": "About 68% of scores lie within ±1 SD.",
@@ -64699,31 +66249,31 @@
    "options": [
     {
      "id": "A",
-     "text": "47.5%",
+     "text": "34%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share between the mean and 1 SD on one side."
     },
     {
      "id": "B",
-     "text": "68%",
+     "text": "47.5%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share between the mean and 2 SD on one side."
     },
     {
      "id": "C",
+     "text": "68%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That’s the share within 1 SD of the mean."
+    },
+    {
+     "id": "D",
      "text": "95%",
      "correct": true,
      "trap": null,
      "why": "About 95% of scores lie within ±2 SD."
-    },
-    {
-     "id": "D",
-     "text": "99.7%",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
     }
    ],
    "tldr": "About 95% of scores lie within ±2 SD.",
@@ -64770,31 +66320,31 @@
    "options": [
     {
      "id": "A",
+     "text": "2.5%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That’s the share more than 2 SD out on one side."
+    },
+    {
+     "id": "B",
      "text": "16%",
      "correct": true,
      "trap": null,
      "why": "68% lie within ±1 SD, so 32% are outside, split evenly: 16% above."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "32%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
-    },
-    {
-     "id": "C",
-     "text": "34%",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share more than 1 SD out on both sides combined."
     },
     {
      "id": "D",
-     "text": "50%",
+     "text": "34%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share between the mean and 1 SD on one side."
     }
    ],
    "tldr": "68% lie within ±1 SD, so 32% are outside, split evenly: 16% above.",
@@ -64841,31 +66391,31 @@
    "options": [
     {
      "id": "A",
-     "text": "0.15%",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
-    },
-    {
-     "id": "B",
      "text": "2.5%",
      "correct": true,
      "trap": null,
      "why": "95% lie within ±2 SD; the remaining 5% splits into 2.5% in each tail."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "5%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share more than 2 SD out on both sides combined."
+    },
+    {
+     "id": "C",
+     "text": "13.5%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That’s the share between 1 and 2 SD on one side."
     },
     {
      "id": "D",
      "text": "16%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share more than 1 SD out on one side."
     }
    ],
    "tldr": "95% lie within ±2 SD; the remaining 5% splits into 2.5% in each tail.",
@@ -64912,31 +66462,31 @@
    "options": [
     {
      "id": "A",
-     "text": "16%",
+     "text": "13.5%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share between 1 and 2 SD on one side."
     },
     {
      "id": "B",
+     "text": "16%",
+     "correct": false,
+     "trap": "lookalike",
+     "why": "That’s the share more than 1 SD out on one side."
+    },
+    {
+     "id": "C",
      "text": "34%",
      "correct": true,
      "trap": null,
      "why": "Half of the 68% within ±1 SD: 34%."
     },
     {
-     "id": "C",
-     "text": "50%",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
-    },
-    {
      "id": "D",
      "text": "68%",
      "correct": false,
      "trap": "lookalike",
-     "why": "Recall the 68–95–99.7 rule and split the tails evenly."
+     "why": "That’s the share within 1 SD of the mean."
     }
    ],
    "tldr": "Half of the 68% within ±1 SD: 34%.",
@@ -64997,17 +66547,17 @@
     },
     {
      "id": "C",
+     "text": "0.5",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That inverts the fraction. z = (score − mean)/SD."
+    },
+    {
+     "id": "D",
      "text": "2",
      "correct": true,
      "trap": null,
      "why": "z = (130 − 100)/15 = 2."
-    },
-    {
-     "id": "D",
-     "text": "30",
-     "correct": false,
-     "trap": "skipped_step",
-     "why": "That’s the raw difference. Divide by the standard deviation."
     }
    ],
    "tldr": "z = (score − mean)/SD = 2.",
@@ -65265,17 +66815,17 @@
    "options": [
     {
      "id": "A",
-     "text": "3",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "That’s the median (the middle value)."
-    },
-    {
-     "id": "B",
      "text": "6",
      "correct": true,
      "trap": null,
      "why": "Sum 30 ÷ 5 = 6."
+    },
+    {
+     "id": "B",
+     "text": "7.5",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Divide by all 5 values, not 4."
     },
     {
      "id": "C",
@@ -65767,24 +67317,24 @@
     },
     {
      "id": "B",
+     "text": "0.25%",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "r² = 0.25, which is 25% as a percentage."
+    },
+    {
+     "id": "C",
      "text": "25%",
      "correct": true,
      "trap": null,
      "why": "r² = (0.5)² = 0.25 = 25%."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "50%",
      "correct": false,
      "trap": "skipped_step",
      "why": "Variance explained is r², not r."
-    },
-    {
-     "id": "D",
-     "text": "75%",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "That’s the variance left unexplained."
     }
    ],
    "tldr": "Variance explained = r² = 25%.",
@@ -65837,17 +67387,17 @@
     },
     {
      "id": "B",
+     "text": "0.49%",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "r² = 0.49, which is 49% as a percentage."
+    },
+    {
+     "id": "C",
      "text": "49%",
      "correct": true,
      "trap": null,
      "why": "r² = (−0.7)² = 0.49 = 49%."
-    },
-    {
-     "id": "C",
-     "text": "51%",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "That’s the variance left unexplained."
     },
     {
      "id": "D",
@@ -66195,17 +67745,17 @@
     },
     {
      "id": "C",
+     "text": "4 g",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That’s how many times larger the new stimulus is, not the detectable change."
+    },
+    {
+     "id": "D",
      "text": "8 g",
      "correct": true,
      "trap": null,
      "why": "Weber fraction = 2/100 = 0.02; 0.02 × 400 = 8 g."
-    },
-    {
-     "id": "D",
-     "text": "302 g",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Weber’s law is proportional, not additive."
     }
    ],
    "tldr": "JND = k × stimulus: 0.02 × 400 = 8 g.",
@@ -66252,31 +67802,31 @@
    "options": [
     {
      "id": "A",
-     "text": "1.25 lumens",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "That inverts the scaling. Bigger stimuli need bigger changes."
-    },
-    {
-     "id": "B",
      "text": "5 lumens",
      "correct": false,
      "trap": "lookalike",
      "why": "The JND isn’t a fixed amount; it’s a fixed fraction of the stimulus."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "20 lumens",
      "correct": true,
      "trap": null,
      "why": "Weber fraction = 5/50 = 0.1; 0.1 × 200 = 20 lumens."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "155 lumens",
      "correct": false,
      "trap": "lookalike",
      "why": "Weber’s law is proportional, not additive."
+    },
+    {
+     "id": "D",
+     "text": "1000 lumens",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Multiply by the Weber fraction (5/50), not by the JND itself."
     }
    ],
    "tldr": "JND = k × stimulus: 0.1 × 200 = 20 lumens.",
@@ -66323,31 +67873,31 @@
    "options": [
     {
      "id": "A",
+     "text": "3 g",
+     "correct": false,
+     "trap": "misread_data",
+     "why": "That’s how many times larger the new stimulus is, not the detectable change."
+    },
+    {
+     "id": "B",
      "text": "3.33 g",
      "correct": false,
      "trap": "wrong_direction",
      "why": "That inverts the scaling. Bigger stimuli need bigger changes."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "10 g",
      "correct": false,
      "trap": "lookalike",
      "why": "The JND isn’t a fixed amount; it’s a fixed fraction of the stimulus."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "30 g",
      "correct": true,
      "trap": null,
      "why": "Weber fraction = 10/200 = 0.05; 0.05 × 600 = 30 g."
-    },
-    {
-     "id": "D",
-     "text": "410 g",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "Weber’s law is proportional, not additive."
     }
    ],
    "tldr": "JND = k × stimulus: 0.05 × 600 = 30 g.",
@@ -66394,31 +67944,31 @@
    "options": [
     {
      "id": "A",
-     "text": "1 lumens",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "That inverts the scaling. Bigger stimuli need bigger changes."
-    },
-    {
-     "id": "B",
      "text": "4 lumens",
      "correct": false,
      "trap": "lookalike",
      "why": "The JND isn’t a fixed amount; it’s a fixed fraction of the stimulus."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "16 lumens",
      "correct": true,
      "trap": null,
      "why": "Weber fraction = 4/40 = 0.1; 0.1 × 160 = 16 lumens."
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "124 lumens",
      "correct": false,
      "trap": "lookalike",
      "why": "Weber’s law is proportional, not additive."
+    },
+    {
+     "id": "D",
+     "text": "640 lumens",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "Multiply by the Weber fraction (4/40), not by the JND itself."
     }
    ],
    "tldr": "JND = k × stimulus: 0.1 × 160 = 16 lumens.",
@@ -66465,24 +68015,24 @@
    "options": [
     {
      "id": "A",
+     "text": "0.015 per 1,000",
+     "correct": false,
+     "trap": "skipped_step",
+     "why": "That’s the raw ratio. Multiply by 1,000."
+    },
+    {
+     "id": "B",
      "text": "1.5 per 1,000",
      "correct": false,
      "trap": "lookalike",
      "why": "That’s a percentage. Crude rates are per 1,000 people."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "15 per 1,000",
      "correct": true,
      "trap": null,
      "why": "15,000 ÷ 1,000,000 × 1,000 = 15."
-    },
-    {
-     "id": "C",
-     "text": "66.7 per 1,000",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "That inverts the ratio."
     },
     {
      "id": "D",
@@ -66609,31 +68159,31 @@
    "options": [
     {
      "id": "A",
+     "text": "4 years",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "The rule of thumb uses 70, not 7."
+    },
+    {
+     "id": "B",
      "text": "25 years",
      "correct": false,
      "trap": "lookalike",
      "why": "The rule of thumb uses 70 (≈ 100 × ln 2), not 50."
     },
     {
-     "id": "B",
+     "id": "C",
      "text": "35 years",
      "correct": true,
      "trap": null,
      "why": "Rule of 70: 70 ÷ 2 ≈ 35 years."
     },
     {
-     "id": "C",
+     "id": "D",
      "text": "50 years",
      "correct": false,
      "trap": "lookalike",
      "why": "That ignores compounding (100 ÷ rate). Growth compounds, so doubling comes sooner."
-    },
-    {
-     "id": "D",
-     "text": "140 years",
-     "correct": false,
-     "trap": "wrong_direction",
-     "why": "Divide 70 by the rate; faster growth means a shorter doubling time."
     }
    ],
    "tldr": "Doubling time ≈ 70 ÷ 2% ≈ 35 years.",
@@ -66681,24 +68231,24 @@
    "options": [
     {
      "id": "A",
-     "text": "14 years",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "The rule of thumb uses 70 (≈ 100 × ln 2), not 50."
-    },
-    {
-     "id": "B",
      "text": "20 years",
      "correct": true,
      "trap": null,
      "why": "Rule of 70: 70 ÷ 3.5 ≈ 20 years."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "29 years",
      "correct": false,
      "trap": "lookalike",
      "why": "That ignores compounding (100 ÷ rate). Growth compounds, so doubling comes sooner."
+    },
+    {
+     "id": "C",
+     "text": "200 years",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "The rule of thumb uses 70, not 700."
     },
     {
      "id": "D",
@@ -66753,24 +68303,24 @@
    "options": [
     {
      "id": "A",
-     "text": "7 years",
-     "correct": false,
-     "trap": "lookalike",
-     "why": "The rule of thumb uses 70 (≈ 100 × ln 2), not 50."
-    },
-    {
-     "id": "B",
      "text": "10 years",
      "correct": true,
      "trap": null,
      "why": "Rule of 70: 70 ÷ 7 ≈ 10 years."
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "14 years",
      "correct": false,
      "trap": "lookalike",
      "why": "That ignores compounding (100 ÷ rate). Growth compounds, so doubling comes sooner."
+    },
+    {
+     "id": "C",
+     "text": "100 years",
+     "correct": false,
+     "trap": "power_of_ten",
+     "why": "The rule of thumb uses 70, not 700."
     },
     {
      "id": "D",
@@ -68691,6 +70241,48 @@
    ]
   },
   {
+   "id": "mcat-cars-p22",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "A promise broken",
+   "domain": "humanities",
+   "paragraphs": [
+    "When Franz Kafka died in 1924, he left his friend Max Brod instructions to burn his diaries, letters and unfinished manuscripts unread. Brod refused. Within a few years he had published The Trial, The Castle and Amerika, the novels on which Kafka's reputation now largely rests. Readers have been grateful ever since, and Brod's disobedience is usually told as a happy ending: a friend's wise refusal saved some of the century's most important fiction from the flames.",
+    "The gratitude is understandable, but it settles the question too quickly. If authors have any claim over what they make, Kafka's request deserves more weight than the story usually gives it. He was not a careless or impulsive writer; he revised constantly, published little and knew the novels were unfinished. His instruction may have expressed a judgment about the work, not merely a passing mood of despair. To say that the result justified the disobedience is to say that his wishes mattered only so long as they agreed with ours.",
+    "Defenders of Brod reply that Kafka chose his executor strangely if he truly wanted the papers destroyed. Brod had told him plainly that he would never burn them, and Kafka, knowing this, named him anyway. On this reading, the instruction was less a command than a gesture, a way of disowning the work while making sure it survived. The argument is clever, and it may even be true. But it makes the case for publication depend on guessing what Kafka secretly wanted, which is exactly the kind of knowledge no one has.",
+    "Perhaps the honest position is that both claims are real and cannot be fully reconciled. Readers gain something irreplaceable from the novels, and Kafka lost something when his last wish was overruled. What we owe him is not to pretend that loss away. We can be glad to have The Trial and still admit that we have it because a promise was broken."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0106",
+    "mcat-cars-0107",
+    "mcat-cars-0108",
+    "mcat-cars-0109",
+    "mcat-cars-0110"
+   ]
+  },
+  {
+   "id": "mcat-cars-p23",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "Notes in the margin",
+   "domain": "humanities",
+   "paragraphs": [
+    "Libraries and schools have long taught readers to keep their pencils away from the page. A clean book is treated as a sign of respect and a marked one as damaged goods, valuable only if its previous owner happened to be famous. The rule makes sense for shared copies. As a general principle, though, it reflects a narrow idea of reading: a private act in which a reader receives the text and leaves it as it was found.",
+    "The history of marginalia suggests another idea. For centuries, readers wrote in their books as a matter of course, arguing with authors, correcting errors, cross-referencing other works and recording when and where they had read. Medieval scribes copied earlier readers' comments along with the text itself, so that a single page might hold a conversation spanning generations. The most famous marginal note in mathematics, Pierre de Fermat's claim that he had found a proof too large for the margin to contain, set mathematicians a problem that took more than three hundred and fifty years to solve.",
+    "Marginalia also turned books into social objects. Charles Lamb, who lent books to his friend Samuel Taylor Coleridge, wrote that they came back enriched with notes that tripled their value. Readers today treasure secondhand copies marked by a stranger for a similar reason: the marks show another mind at work, sometimes agreeing and sometimes objecting, and the reader discovers that they are not reading alone.",
+    "None of this means every book should be covered in ink. A note in a library copy imposes one reader's reactions on everyone who follows. But a reader who writes in their own book is not defacing it. They are doing what readers did for most of the history of the written word: treating the book as the start of a conversation rather than the end of one."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0111",
+    "mcat-cars-0112",
+    "mcat-cars-0113",
+    "mcat-cars-0114",
+    "mcat-cars-0115"
+   ]
+  },
+  {
    "id": "mcat-cars-p02",
    "exam": "MCAT",
    "section": "CARS",
@@ -68898,6 +70490,69 @@
     "mcat-cars-0103",
     "mcat-cars-0104",
     "mcat-cars-0105"
+   ]
+  },
+  {
+   "id": "mcat-cars-p24",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The shape of the world on paper",
+   "domain": "social sciences",
+   "paragraphs": [
+    "Every flat map of the world is a compromise. A globe can show the shapes, sizes, distances and directions of the continents all at once, but no flat map can. Flattening the surface of a sphere forces the mapmaker to stretch or tear it somewhere, and each projection chooses which properties to keep and which to give up.",
+    "The projection that Gerardus Mercator published in 1569 made a choice suited to its purpose. Mercator was making a map for navigators, and on his projection a course of constant compass bearing appears as a straight line, so a sailor could plot a route with a ruler. The price was size. Mercator's map enlarges regions more and more the farther they lie from the equator, so that Greenland appears roughly as large as Africa, although Africa is about fourteen times larger.",
+    "For centuries the distortion mattered little to sailors, but it mattered more once Mercator's map moved off ships and onto classroom walls. Critics argued that a map which shrinks the tropics and swells Europe and North America teaches a distorted sense of the world's proportions, and in the 1970s the German historian Arno Peters promoted an equal-area projection as a fairer alternative. Cartographers were often unimpressed. Equal-area projections were nothing new, they pointed out, and Peters's map achieved its fairness by badly distorting shapes, stretching Africa and South America into long, thin forms.",
+    "The dispute is sometimes told as a contest between a biased map and a fair one. It is better understood as a reminder that no map is neutral. Choosing a projection means choosing what the map is for, and a map that serves navigators well may serve students poorly. The mistake is not using Mercator's projection. It is forgetting that it was a choice at all."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0116",
+    "mcat-cars-0117",
+    "mcat-cars-0118",
+    "mcat-cars-0119",
+    "mcat-cars-0120"
+   ]
+  },
+  {
+   "id": "mcat-cars-p25",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "The gentle push",
+   "domain": "social sciences",
+   "paragraphs": [
+    "Whether workers save for retirement often depends less on their preferences than on what happens if they do nothing. Workers who are enrolled in a savings plan automatically, with the option to leave, save at far higher rates than workers who must sign up on their own. Countries where citizens are presumed to consent to organ donation unless they opt out record far higher rates of consent than countries where citizens must opt in. In each case, the default does much of the deciding.",
+    "Findings like these underlie the idea of the \"nudge\": a change in how choices are presented that steers people toward better outcomes without forbidding any option or significantly changing incentives. Its advocates argue that there is no neutral way to design a form or arrange a cafeteria. Something must be the default, and something must come first. If the arrangement will influence people anyway, the argument goes, it might as well influence them toward choices they would endorse on reflection.",
+    "Critics answer that a nudge works precisely because it bypasses deliberation. A tax or a ban is at least visible: citizens can see it, argue about it and vote against it. A default slips into decisions unnoticed, and its power depends on people not thinking too hard about it. Persuasion treats people as reasoners; a nudge, on this view, treats them as predictable machines to be steered. And the claim that people would endorse the outcome on reflection places great trust in whoever decides what reflection would produce.",
+    "Both sides have a point, but the critics' strongest objection is not to nudging as such. It is to nudging in secret. A default that is announced, explained and easy to reverse invites exactly the scrutiny the critics demand, while one buried in fine print does not. The question to ask of any nudge is whether it would survive being made public, and many, though not all, would."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0121",
+    "mcat-cars-0122",
+    "mcat-cars-0123",
+    "mcat-cars-0124",
+    "mcat-cars-0125"
+   ]
+  },
+  {
+   "id": "mcat-cars-p26",
+   "exam": "MCAT",
+   "section": "CARS",
+   "title": "When did childhood begin?",
+   "domain": "social sciences",
+   "paragraphs": [
+    "In 1960 the French historian Philippe Ariès made a claim that startled his readers: in medieval society, he wrote, the idea of childhood did not exist. He did not mean that there were no children or that parents did not care for them. He meant that medieval people lacked the modern sense of childhood as a distinct stage of life, with its own needs, clothing, games and emotional weight. Children, in his account, entered the adult world as soon as they could manage without constant care.",
+    "Ariès's evidence was varied and often ingenious. He pointed to medieval paintings in which children appear as miniature adults, with adult proportions and adult dress, and to the late appearance of clothing, toys and books made especially for the young. He argued that a sentimental attachment to childhood developed gradually, alongside schooling and the private family home, over the early modern centuries.",
+    "Later historians were less persuaded. Studies of diaries, letters and court records found parents across the medieval and early modern periods grieving for dead children, worrying over their illnesses and recognizing stages of development. Paintings, the critics noted, follow artistic conventions and cannot be read as photographs of how people saw the world. That artists painted children as small adults may tell us more about the rules of painting than about the feelings of parents.",
+    "Yet it would be a mistake to conclude that Ariès simply got it wrong. His sharpest claim may not survive, but his larger question has proved remarkably productive. By insisting that childhood has a history, that the way societies think about the young is not fixed by biology, he helped open a field of study that had barely existed before him. A thesis can fail and still change what scholars think is worth asking."
+   ],
+   "mini": false,
+   "itemIds": [
+    "mcat-cars-0126",
+    "mcat-cars-0127",
+    "mcat-cars-0128",
+    "mcat-cars-0129",
+    "mcat-cars-0130"
    ]
   },
   {

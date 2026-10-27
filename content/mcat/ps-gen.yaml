@@ -18,13 +18,13 @@
       why: About 68% of scores lie within ±1 SD.
     - text: 95%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share within 2 SD of the mean.
     - text: 50%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share on one side of the mean.
     - text: 34%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share between the mean and 1 SD on one side.
   tldr: About 68% of scores lie within ±1 SD.
   steps:
     - label: Rule
@@ -54,13 +54,13 @@
       why: About 95% of scores lie within ±2 SD.
     - text: 68%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
-    - text: 99.7%
-      trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share within 1 SD of the mean.
     - text: 47.5%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share between the mean and 2 SD on one side.
+    - text: 34%
+      trap: lookalike
+      why: That’s the share between the mean and 1 SD on one side.
   tldr: About 95% of scores lie within ±2 SD.
   steps:
     - label: Rule
@@ -90,13 +90,13 @@
       why: '68% lie within ±1 SD, so 32% are outside, split evenly: 16% above.'
     - text: 32%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share more than 1 SD out on both sides combined.
     - text: 34%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
-    - text: 50%
+      why: That’s the share between the mean and 1 SD on one side.
+    - text: 2.5%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share more than 2 SD out on one side.
   tldr: '68% lie within ±1 SD, so 32% are outside, split evenly: 16% above.'
   steps:
     - label: Rule
@@ -126,13 +126,13 @@
       why: 95% lie within ±2 SD; the remaining 5% splits into 2.5% in each tail.
     - text: 5%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share more than 2 SD out on both sides combined.
     - text: 16%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
-    - text: 0.15%
+      why: That’s the share more than 1 SD out on one side.
+    - text: 13.5%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share between 1 and 2 SD on one side.
   tldr: 95% lie within ±2 SD; the remaining 5% splits into 2.5% in each tail.
   steps:
     - label: Rule
@@ -162,13 +162,13 @@
       why: 'Half of the 68% within ±1 SD: 34%.'
     - text: 68%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share within 1 SD of the mean.
     - text: 16%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
-    - text: 50%
+      why: That’s the share more than 1 SD out on one side.
+    - text: 13.5%
       trap: lookalike
-      why: Recall the 68–95–99.7 rule and split the tails evenly.
+      why: That’s the share between 1 and 2 SD on one side.
   tldr: 'Half of the 68% within ±1 SD: 34%.'
   steps:
     - label: Rule
@@ -197,12 +197,12 @@
     - text: −2
       trap: sign_flip
       why: Subtract the mean from the score, not the reverse.
-    - text: '30'
-      trap: skipped_step
-      why: That’s the raw difference. Divide by the standard deviation.
     - text: '0.133'
       trap: lookalike
       why: Divide by the standard deviation, not the variance.
+    - text: '0.5'
+      trap: wrong_direction
+      why: That inverts the fraction. z = (score − mean)/SD.
   tldr: z = (score − mean)/SD = 2.
   steps:
     - label: Difference
@@ -332,15 +332,15 @@
     - text: '6'
       correct: true
       why: Sum 30 ÷ 5 = 6.
-    - text: '3'
-      trap: lookalike
-      why: That’s the median (the middle value).
     - text: '30'
       trap: skipped_step
       why: That’s the sum. Divide by the number of values.
     - text: '16'
       trap: lookalike
       why: That’s the range (largest minus smallest).
+    - text: '7.5'
+      trap: skipped_step
+      why: Divide by all 5 values, not 4.
   tldr: Mean = 6. The outlier pulls the mean above the median.
   steps:
     - label: Sort
@@ -576,9 +576,9 @@
     - text: −25%
       trap: sign_flip
       why: r² can’t be negative.
-    - text: 75%
-      trap: wrong_direction
-      why: That’s the variance left unexplained.
+    - text: 0.25%
+      trap: power_of_ten
+      why: r² = 0.25, which is 25% as a percentage.
   tldr: Variance explained = r² = 25%.
   steps:
     - label: Square
@@ -611,9 +611,9 @@
     - text: −49%
       trap: sign_flip
       why: r² can’t be negative.
-    - text: 51%
-      trap: wrong_direction
-      why: That’s the variance left unexplained.
+    - text: 0.49%
+      trap: power_of_ten
+      why: r² = 0.49, which is 49% as a percentage.
   tldr: Variance explained = r² = 49%.
   steps:
     - label: Square
@@ -785,9 +785,9 @@
     - text: 0.5 g
       trap: wrong_direction
       why: That inverts the scaling. Bigger stimuli need bigger changes.
-    - text: 302 g
-      trap: lookalike
-      why: Weber’s law is proportional, not additive.
+    - text: 4 g
+      trap: misread_data
+      why: That’s how many times larger the new stimulus is, not the detectable change.
   tldr: 'JND = k × stimulus: 0.02 × 400 = 8 g.'
   steps:
     - label: Weber fraction
@@ -818,12 +818,12 @@
     - text: 5 lumens
       trap: lookalike
       why: The JND isn’t a fixed amount; it’s a fixed fraction of the stimulus.
-    - text: 1.25 lumens
-      trap: wrong_direction
-      why: That inverts the scaling. Bigger stimuli need bigger changes.
     - text: 155 lumens
       trap: lookalike
       why: Weber’s law is proportional, not additive.
+    - text: 1000 lumens
+      trap: skipped_step
+      why: Multiply by the Weber fraction (5/50), not by the JND itself.
   tldr: 'JND = k × stimulus: 0.1 × 200 = 20 lumens.'
   steps:
     - label: Weber fraction
@@ -857,9 +857,9 @@
     - text: 3.33 g
       trap: wrong_direction
       why: That inverts the scaling. Bigger stimuli need bigger changes.
-    - text: 410 g
-      trap: lookalike
-      why: Weber’s law is proportional, not additive.
+    - text: 3 g
+      trap: misread_data
+      why: That’s how many times larger the new stimulus is, not the detectable change.
   tldr: 'JND = k × stimulus: 0.05 × 600 = 30 g.'
   steps:
     - label: Weber fraction
@@ -890,12 +890,12 @@
     - text: 4 lumens
       trap: lookalike
       why: The JND isn’t a fixed amount; it’s a fixed fraction of the stimulus.
-    - text: 1 lumens
-      trap: wrong_direction
-      why: That inverts the scaling. Bigger stimuli need bigger changes.
     - text: 124 lumens
       trap: lookalike
       why: Weber’s law is proportional, not additive.
+    - text: 640 lumens
+      trap: skipped_step
+      why: Multiply by the Weber fraction (4/40), not by the JND itself.
   tldr: 'JND = k × stimulus: 0.1 × 160 = 16 lumens.'
   steps:
     - label: Weber fraction
@@ -927,9 +927,9 @@
     - text: 150 per 1,000
       trap: power_of_ten
       why: That’s per 10,000. Crude rates use 1,000.
-    - text: 66.7 per 1,000
-      trap: wrong_direction
-      why: That inverts the ratio.
+    - text: 0.015 per 1,000
+      trap: skipped_step
+      why: That’s the raw ratio. Multiply by 1,000.
   tldr: Crude birth rate = births/population × 1,000 = 15.
   steps:
     - label: Ratio
@@ -997,9 +997,9 @@
     - text: 25 years
       trap: lookalike
       why: The rule of thumb uses 70 (≈ 100 × ln 2), not 50.
-    - text: 140 years
-      trap: wrong_direction
-      why: Divide 70 by the rate; faster growth means a shorter doubling time.
+    - text: 4 years
+      trap: power_of_ten
+      why: The rule of thumb uses 70, not 7.
   tldr: Doubling time ≈ 70 ÷ 2% ≈ 35 years.
   steps:
     - label: Rule of 70
@@ -1029,12 +1029,12 @@
     - text: 29 years
       trap: lookalike
       why: That ignores compounding (100 ÷ rate). Growth compounds, so doubling comes sooner.
-    - text: 14 years
-      trap: lookalike
-      why: The rule of thumb uses 70 (≈ 100 × ln 2), not 50.
     - text: 245 years
       trap: wrong_direction
       why: Divide 70 by the rate; faster growth means a shorter doubling time.
+    - text: 200 years
+      trap: power_of_ten
+      why: The rule of thumb uses 70, not 700.
   tldr: Doubling time ≈ 70 ÷ 3.5% ≈ 20 years.
   steps:
     - label: Rule of 70
@@ -1064,12 +1064,12 @@
     - text: 14 years
       trap: lookalike
       why: That ignores compounding (100 ÷ rate). Growth compounds, so doubling comes sooner.
-    - text: 7 years
-      trap: lookalike
-      why: The rule of thumb uses 70 (≈ 100 × ln 2), not 50.
     - text: 490 years
       trap: wrong_direction
       why: Divide 70 by the rate; faster growth means a shorter doubling time.
+    - text: 100 years
+      trap: power_of_ten
+      why: The rule of thumb uses 70, not 700.
   tldr: Doubling time ≈ 70 ÷ 7% ≈ 10 years.
   steps:
     - label: Rule of 70
