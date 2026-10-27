@@ -10,9 +10,10 @@ The free plan is enough to launch.
 
 1. At supabase.com, create a project named `apexprep` (free plan, nearest region).
    Save the database password in a password manager.
-2. **Project Settings → API Keys**: copy the **Project URL** and the **publishable
-   key** (`sb_publishable_…`; older projects call it the anon key). Never put the
-   secret / service_role key in the app.
+2. Click **Connect** at the top of the project dashboard and copy the **Project
+   URL** and the **publishable key** (`sb_publishable_…`; older projects call it
+   the anon key). **Settings → API Keys** lists every key. Never put the secret /
+   service_role key in the app.
 
 ## 2. Create the tables
 
@@ -35,8 +36,9 @@ deletion.
 - **Apple**: enable it. Under *Client IDs* add `com.mikaelaarey.apexprep` (and
   `host.exp.Exponent` to test in Expo Go). The native flow uses Apple's ID token,
   so no secret key is needed.
-- **Email**: keep it on. In **Authentication → Emails → Magic Link**, make sure the
-  template includes `{{ .Token }}` so students get a 6-digit code.
+- **Email**: keep it on. Students sign in with a 6-digit code, so in
+  **Authentication → Emails** add `{{ .Token }}` to two templates: **Magic Link**
+  (returning students) and **Confirm signup** (a student's first email sign-in).
 
 Supabase's built-in email sender only allows a few messages an hour. Before launch,
 add a custom SMTP sender (Resend's free tier works) under **Authentication →
