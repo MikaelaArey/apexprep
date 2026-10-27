@@ -36,13 +36,32 @@ deletion.
 - **Apple**: enable it. Under *Client IDs* add `com.mikaelaarey.apexprep` (and
   `host.exp.Exponent` to test in Expo Go). The native flow uses Apple's ID token,
   so no secret key is needed.
-- **Email**: keep it on. Students sign in with a 6-digit code, so in
-  **Authentication → Emails** add `{{ .Token }}` to two templates: **Magic Link**
-  (returning students) and **Confirm signup** (a student's first email sign-in).
+- **Email**: keep it on.
 
-Supabase's built-in email sender only allows a few messages an hour. Before launch,
-add a custom SMTP sender (Resend's free tier works) under **Authentication →
-Emails → SMTP Settings**.
+### Email codes need your own email sender
+
+Students who sign in by email get a 6-digit code. Supabase's built-in sender can't
+handle that for real students:
+
+- It only emails members of your Supabase team, two messages an hour.
+- On free projects created after 3 June 2026, its email templates can't be edited.
+
+Email sign-in therefore needs a custom SMTP sender. Resend's free tier works, with a
+domain you own.
+
+1. Set up the sender and verify your domain. Enter its details under
+   **Authentication → Emails → SMTP Settings**.
+2. In **Authentication → Emails → Templates**, open **Magic Link**, replace the
+   message body with the code template below, and save. Do the same for **Confirm
+   signup**, which is the email a student gets the first time they sign in this way.
+
+```html
+<h2>Your ApexPrep code</h2>
+<p>Enter this code in the app: <strong>{{ .Token }}</strong></p>
+```
+
+Until then, guest accounts, backup and Sign in with Apple all work. Only email
+sign-in waits.
 
 ## 4. Point the app at it
 
