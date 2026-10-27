@@ -1,7 +1,7 @@
 {
  "exam": "LSAT",
- "version": "bbf14e4e37fa",
- "generatedAt": "2026-10-27T14:19:16.581Z",
+ "version": "ad33d38da8fe",
+ "generatedAt": "2026-10-27T14:22:12.819Z",
  "items": [
   {
    "id": "lsat-lr-0300",
@@ -12323,6 +12323,1707 @@
     "lsat-lr-5092",
     "lsat-lr-5093"
    ],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0500",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The new reading app must improve children's literacy. In the schools that adopted it this year, students' reading scores rose by 12 percent.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The app was developed with input from experienced reading teachers.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Expert input, if anything, makes the app's effectiveness more plausible."
+    },
+    {
+     "id": "B",
+     "text": "The app costs schools less than printed workbooks.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't bear on whether the app improves literacy."
+    },
+    {
+     "id": "C",
+     "text": "Children who used the app reported enjoying it.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Enjoyment says nothing about whether the app raised scores."
+    },
+    {
+     "id": "D",
+     "text": "A few children in the adopting schools showed no improvement.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "An average rise is compatible with some children not improving."
+    },
+    {
+     "id": "E",
+     "text": "The same schools also hired additional reading specialists this year.",
+     "correct": true,
+     "trap": null,
+     "why": "The specialists offer a rival explanation for the higher scores."
+    }
+   ],
+   "tldr": "Another change in the same schools could explain the gains.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "The app was adopted and scores rose, so the argument concludes the app worked."
+    },
+    {
+     "label": "Weaken",
+     "body": "Supply a rival cause that arrived at the same time."
+    }
+   ],
+   "takeaway": "Rival causes that coincide with the proposed cause are the classic weakener.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0501",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-plan"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "To reduce rush-hour traffic congestion downtown, the city will raise parking fees there. Higher fees will discourage people from driving downtown, so congestion will decrease.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Parking fees in nearby cities are higher than the city's new fees.",
+     "correct": false,
+     "trap": "irrelevant_comparison",
+     "why": "Other cities' fees don't affect how drivers here will respond."
+    },
+    {
+     "id": "B",
+     "text": "Most of the cars on downtown streets at rush hour are passing through on their way elsewhere and never park downtown.",
+     "correct": true,
+     "trap": null,
+     "why": "Parking fees can't change the behavior of drivers who don't park, and they cause most of the congestion."
+    },
+    {
+     "id": "C",
+     "text": "Some downtown workers already take the bus.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "That doesn't show the fees won't discourage those who still drive and park."
+    },
+    {
+     "id": "D",
+     "text": "The city will spend the extra fee revenue on road repairs.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How the revenue is spent doesn't affect congestion now."
+    },
+    {
+     "id": "E",
+     "text": "Downtown merchants oppose the fee increase.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Opposition doesn't show the plan won't reduce congestion."
+    }
+   ],
+   "tldr": "Fees can't deter drivers who don't park downtown.",
+   "steps": [
+    {
+     "label": "Plan",
+     "body": "Raise parking fees, deter drivers, reduce congestion."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show that the people causing congestion aren't affected by the plan."
+    }
+   ],
+   "takeaway": "A plan is weakened when its lever doesn't reach the main source of the problem.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0502",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Children who eat dinner with their families most nights are less likely than other children to use illegal drugs as teenagers. So families that want to keep their children away from drugs should eat dinner together.",
+   "prompt": "Which one of the following, if true, most seriously undermines the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Parents who hold nightly family dinners also tend to monitor their children's activities closely, and close monitoring itself reduces teenage drug use.",
+     "correct": true,
+     "trap": null,
+     "why": "If monitoring is what protects children, family dinners alone wouldn't help."
+    },
+    {
+     "id": "B",
+     "text": "Family dinners are more common in households with younger children.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The age of children at dinner doesn't explain the link to later drug use."
+    },
+    {
+     "id": "C",
+     "text": "Children who eat with their families tend to have healthier diets.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "Diet is another benefit of family dinners, not a challenge to the argument."
+    },
+    {
+     "id": "D",
+     "text": "Family dinners have become less common over the past few decades.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How common dinners are doesn't affect whether they reduce drug use."
+    },
+    {
+     "id": "E",
+     "text": "Some teenagers who ate dinner with their families still used drugs.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The claim is about reduced likelihood, which allows exceptions."
+    }
+   ],
+   "tldr": "A third factor, parental monitoring, may produce both the dinners and the lower drug use.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "The correlation leads to a recommendation to eat together."
+    },
+    {
+     "label": "Weaken",
+     "body": "A common cause means the recommended action may not work on its own."
+    }
+   ],
+   "takeaway": "Recommendations based on correlations are weakened by a common cause.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0503",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-sampling"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "A survey of members of the city's gyms found that 80 percent want the city to build more bike paths. So most of the city's residents want more bike paths.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Some gym members did not answer the bike-path question.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "A few skipped questions don't show the sample is unrepresentative."
+    },
+    {
+     "id": "B",
+     "text": "Gym members in the city are far more likely than other residents to ride bicycles.",
+     "correct": true,
+     "trap": null,
+     "why": "The sample overrepresents cyclists, so its enthusiasm for bike paths may not reflect residents generally."
+    },
+    {
+     "id": "C",
+     "text": "Building bike paths would be expensive.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't tell us what residents want."
+    },
+    {
+     "id": "D",
+     "text": "Most of the gym members surveyed live in the city.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That makes the sample more relevant to residents, if anything."
+    },
+    {
+     "id": "E",
+     "text": "The survey was conducted in the spring.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The season alone gives no clear reason to think the results are skewed."
+    }
+   ],
+   "tldr": "Gym members are likelier to be cyclists than residents in general.",
+   "steps": [
+    {
+     "label": "Sample",
+     "body": "Gym members."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show the sample differs from residents in a way that matters for the question."
+    }
+   ],
+   "takeaway": "To weaken a survey argument, show the sample is biased on exactly the issue asked about.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0504",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-analogy"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Talking on a hands-free phone while driving is no more dangerous than talking with a passenger, since both involve the same kind of conversation. So drivers should be allowed to use hands-free phones.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Hands-free phones are more expensive than handheld phones.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Price is irrelevant to safety."
+    },
+    {
+     "id": "B",
+     "text": "Some drivers find conversations with passengers distracting.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "If passenger talk is also distracting, the analogy is untouched; it just lowers both."
+    },
+    {
+     "id": "C",
+     "text": "Many drivers already use hands-free phones.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How common the practice is doesn't show whether it's safe."
+    },
+    {
+     "id": "D",
+     "text": "Passengers tend to stop talking when traffic becomes demanding, but people on the phone cannot see the road and keep talking.",
+     "correct": true,
+     "trap": null,
+     "why": "This is a relevant difference between the two conversations, so the analogy fails."
+    },
+    {
+     "id": "E",
+     "text": "Talking with a passenger is less dangerous than texting while driving.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "The comparison with texting doesn't affect the comparison the argument makes."
+    }
+   ],
+   "tldr": "Passengers adjust to traffic; callers can't. The analogy breaks.",
+   "steps": [
+    {
+     "label": "Analogy",
+     "body": "Phone talk is like passenger talk, so it should be equally acceptable."
+    },
+    {
+     "label": "Weaken",
+     "body": "Find a relevant way the two differ."
+    }
+   ],
+   "takeaway": "Analogies are weakened by a relevant difference between the compared cases.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0505",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause",
+    "kp-lsat-numbers-proportions"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Most people struck by lightning are men. So there must be some physical difference between men and women that makes men more likely to be struck by lightning.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Most people struck by lightning survive.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Survival rates don't explain who gets struck."
+    },
+    {
+     "id": "B",
+     "text": "Men are much more likely than women to work and spend leisure time outdoors during thunderstorms.",
+     "correct": true,
+     "trap": null,
+     "why": "Greater exposure explains the pattern without any physical difference."
+    },
+    {
+     "id": "C",
+     "text": "Lightning safety campaigns are aimed at both men and women.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "Campaigns aimed at both groups don't explain a difference between them."
+    },
+    {
+     "id": "D",
+     "text": "Lightning strikes are more common in summer than in winter.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "Seasonal patterns affect men and women alike."
+    },
+    {
+     "id": "E",
+     "text": "Men are, on average, taller than women.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Height is a physical difference, so this could support the argument."
+    }
+   ],
+   "tldr": "Exposure, not physiology, can explain who gets struck.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "More men are struck, so the argument concludes men's bodies must differ."
+    },
+    {
+     "label": "Weaken",
+     "body": "Offer a difference in exposure instead."
+    }
+   ],
+   "takeaway": "Differences in outcomes often reflect differences in exposure, not in the groups themselves.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0506",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-flaw-post-hoc"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Since the city began adding fluoride to its water ten years ago, tooth decay among its children has dropped by half. Fluoridation, then, is responsible for the decline.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Over the same ten years, tooth decay among children dropped by about half in nearby cities that do not fluoridate their water.",
+     "correct": true,
+     "trap": null,
+     "why": "If decay fell just as much without fluoride, something other than fluoridation drove the decline."
+    },
+    {
+     "id": "B",
+     "text": "Some residents of the city drink only bottled water.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "A few residents avoiding tap water doesn't undercut the citywide effect."
+    },
+    {
+     "id": "C",
+     "text": "Tooth decay among adults in the city also declined.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That's consistent with fluoridated water helping everyone."
+    },
+    {
+     "id": "D",
+     "text": "Fluoride is also found in many brands of toothpaste.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Toothpaste fluoride doesn't by itself show that the water fluoride did nothing."
+    },
+    {
+     "id": "E",
+     "text": "The city's dentists support continued fluoridation.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Dentists' views aren't evidence about the cause."
+    }
+   ],
+   "tldr": "The same decline without fluoride points to another cause.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Fluoride came, decay fell, so the argument credits fluoride."
+    },
+    {
+     "label": "Weaken",
+     "body": "A comparison group without fluoride saw the same decline."
+    }
+   ],
+   "takeaway": "A matching change where the proposed cause is absent undercuts the causal claim.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0507",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-flaw-possible-certain"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Zentrix's share price will rise next quarter. Its new tablet has received excellent reviews from technology critics.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The tablet was designed by Zentrix's most experienced engineers.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That supports the product's quality, not a weakness in the argument."
+    },
+    {
+     "id": "B",
+     "text": "Some critics found the tablet's battery life disappointing.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Minor criticism doesn't undo excellent overall reviews."
+    },
+    {
+     "id": "C",
+     "text": "Technology critics review hundreds of products each year.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How many products critics review doesn't bear on this one's effect on Zentrix."
+    },
+    {
+     "id": "D",
+     "text": "Excellent reviews from technology critics have historically had little effect on Zentrix's sales or share price.",
+     "correct": true,
+     "trap": null,
+     "why": "This cuts the link between good reviews and a rising share price."
+    },
+    {
+     "id": "E",
+     "text": "Zentrix has released several products in the past decade.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The number of past products doesn't affect the prediction."
+    }
+   ],
+   "tldr": "Good reviews matter only if they move sales and the share price.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Great reviews, so the argument predicts a rising share price."
+    },
+    {
+     "label": "Weaken",
+     "body": "Break the link between reviews and share price."
+    }
+   ],
+   "takeaway": "Weaken a prediction by cutting the connection between its evidence and its outcome.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0508",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Archaeologists have found that nearly every house in the ancient city of Tessa had a large cistern for storing rainwater. This shows that Tessa's climate was dry.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Some of Tessa's cisterns were larger than others.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Variation in size doesn't bear on the climate."
+    },
+    {
+     "id": "B",
+     "text": "Other ancient cities in the region also had cisterns.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "That's consistent with the whole region being dry."
+    },
+    {
+     "id": "C",
+     "text": "Tessa's houses were built mostly of stone.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Building materials don't explain the cisterns."
+    },
+    {
+     "id": "D",
+     "text": "Cisterns were expensive to build.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Costly cisterns suggest residents badly needed stored water, which fits a dry climate."
+    },
+    {
+     "id": "E",
+     "text": "Tessa's river was heavily polluted by the city's many tanneries, making its water unsafe to drink.",
+     "correct": true,
+     "trap": null,
+     "why": "Polluted river water gives residents a reason to store rainwater even in a wet climate."
+    }
+   ],
+   "tldr": "Polluted rivers, not a dry climate, could explain the cisterns.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Cisterns everywhere, so the argument concludes the climate was dry."
+    },
+    {
+     "label": "Weaken",
+     "body": "Give another reason people would store rainwater."
+    }
+   ],
+   "takeaway": "When an argument explains evidence one way, a weakener offers another explanation.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0509",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-plan"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "After the Dalton Mall installed security cameras, shoplifting there fell by 30 percent. So installing cameras in all of the city's malls would reduce shoplifting in the city.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Some shoplifters at the Dalton Mall were caught on camera.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That supports the cameras' usefulness."
+    },
+    {
+     "id": "B",
+     "text": "The cameras at the Dalton Mall were expensive to install.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't affect whether cameras reduce shoplifting."
+    },
+    {
+     "id": "C",
+     "text": "After the Dalton Mall installed its cameras, shoplifting rose by a similar amount at stores without cameras nearby.",
+     "correct": true,
+     "trap": null,
+     "why": "If shoplifters simply moved elsewhere, cameras shift shoplifting rather than reducing it citywide."
+    },
+    {
+     "id": "D",
+     "text": "Shoplifting at the Dalton Mall had been rising before the cameras were installed.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "A rising trend that reversed makes the cameras' effect look stronger."
+    },
+    {
+     "id": "E",
+     "text": "The Dalton Mall is the largest mall in the city.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Size alone doesn't show the effect wouldn't repeat elsewhere."
+    }
+   ],
+   "tldr": "If shoplifting just moved, cameras don't cut the city's total.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Cameras cut shoplifting at one mall, so cameras everywhere would cut it citywide."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show the effect was displacement, not reduction."
+    }
+   ],
+   "takeaway": "Local successes can hide displacement; check whether the problem simply moved.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0510",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "In a large study, people who drank three or more cups of coffee a day lived longer, on average, than people who drank no coffee. So drinking coffee extends life.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Tea drinkers in the study also lived longer than average.",
+     "correct": false,
+     "trap": "doesnt_differentiate",
+     "why": "That says nothing about why coffee drinkers outlived non-drinkers."
+    },
+    {
+     "id": "B",
+     "text": "Some participants drank more than six cups of coffee a day.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Heavy drinkers' existence doesn't explain the difference between groups."
+    },
+    {
+     "id": "C",
+     "text": "Coffee contains several compounds that act as antioxidants.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That suggests a way coffee might help, strengthening the argument."
+    },
+    {
+     "id": "D",
+     "text": "Many of the study's participants who drank no coffee had given it up on their doctors' advice because of serious heart conditions.",
+     "correct": true,
+     "trap": null,
+     "why": "The no-coffee group included many sick people, which explains their shorter lives without coffee doing anything."
+    },
+    {
+     "id": "E",
+     "text": "The study included participants from several countries.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "A diverse sample doesn't introduce a bias."
+    }
+   ],
+   "tldr": "The no-coffee group was sicker to begin with.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Coffee drinkers lived longer, so the argument concludes coffee extends life."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show the comparison group differed in a way that explains the result."
+    }
+   ],
+   "takeaway": "A group defined by not doing something may include people who stopped for health reasons.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0511",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-analogy"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "When Norland banned single-use plastic bags, plastic litter on its beaches fell by half. So a similar ban in Southport would cut plastic litter on Southport's beaches by half.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Southport's beaches are larger than Norland's.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Size alone doesn't show the ban would work differently."
+    },
+    {
+     "id": "B",
+     "text": "Norland's ban took effect three years ago.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The timing of Norland's ban doesn't affect the comparison."
+    },
+    {
+     "id": "C",
+     "text": "Norland's ban was popular with its residents.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Popularity in Norland doesn't affect the outcome in Southport."
+    },
+    {
+     "id": "D",
+     "text": "Most of the plastic litter on Southport's beaches washes ashore from fishing boats rather than coming from shoppers.",
+     "correct": true,
+     "trap": null,
+     "why": "A bag ban targets shoppers, so it can't cut litter that mostly comes from fishing boats."
+    },
+    {
+     "id": "E",
+     "text": "Plastic bags harm sea turtles and other wildlife.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Harm to wildlife doesn't bear on how much litter the ban would remove."
+    }
+   ],
+   "tldr": "Southport's litter has a different source, so the ban won't have the same effect.",
+   "steps": [
+    {
+     "label": "Analogy",
+     "body": "It worked in Norland, so it will work the same way in Southport."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show a relevant difference in where the litter comes from."
+    }
+   ],
+   "takeaway": "Transferring a result between places assumes the places are alike in the relevant way.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0512",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Since the city installed speed cameras on Harbor Road, the number of speeding tickets issued there has risen sharply. So the cameras have failed to reduce speeding on Harbor Road.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Speeding tickets on nearby roads also increased.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "That doesn't explain why tickets on Harbor Road rose."
+    },
+    {
+     "id": "B",
+     "text": "Before the cameras were installed, police rarely patrolled Harbor Road, so few speeders were ever ticketed.",
+     "correct": true,
+     "trap": null,
+     "why": "More tickets can reflect far better detection, even if speeding itself declined."
+    },
+    {
+     "id": "C",
+     "text": "Some drivers on Harbor Road were ticketed more than once.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Repeat offenders suggest the cameras didn't deter some drivers."
+    },
+    {
+     "id": "D",
+     "text": "The cameras cost the city a great deal to install.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Cost doesn't bear on whether speeding fell."
+    },
+    {
+     "id": "E",
+     "text": "Speed cameras are used in many other cities.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Use elsewhere says nothing about speeding on Harbor Road."
+    }
+   ],
+   "tldr": "More tickets may mean more detection, not more speeding.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Tickets rose, so the argument concludes speeding didn't fall."
+    },
+    {
+     "label": "Weaken",
+     "body": "Tickets measure detection as well as speeding; detection jumped."
+    }
+   ],
+   "takeaway": "Counts of detected events depend on how hard anyone was looking.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0513",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-sampling"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "In our survey, 70 percent of respondents said they would buy a fully electric pickup truck. So electric pickups will soon make up a majority of pickup truck sales.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Some respondents already own electric cars.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "That doesn't show their intentions are unreliable."
+    },
+    {
+     "id": "B",
+     "text": "In past surveys, far fewer people bought new kinds of vehicles than said they would.",
+     "correct": true,
+     "trap": null,
+     "why": "If stated intentions overstate purchases, the 70 percent figure won't translate into sales."
+    },
+    {
+     "id": "C",
+     "text": "The survey was conducted online.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "An online survey isn't, by itself, shown to be biased on this question."
+    },
+    {
+     "id": "D",
+     "text": "Electric pickups can tow heavy loads.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "A useful feature makes sales more likely."
+    },
+    {
+     "id": "E",
+     "text": "Several manufacturers plan to release electric pickups next year.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "More supply makes higher sales more plausible."
+    }
+   ],
+   "tldr": "People's stated buying plans have overstated real purchases.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Stated intent, so the argument predicts actual sales."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show that intent poorly predicts behavior."
+    }
+   ],
+   "takeaway": "Survey answers about future behavior are weak evidence; history of the gap weakens them further.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0514",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Students who take private music lessons score higher on math tests than students who do not. So music lessons improve math skills.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Music involves counting beats and recognizing patterns.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That suggests a way music might help math, strengthening the argument."
+    },
+    {
+     "id": "B",
+     "text": "Music lessons are offered at many schools.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Availability doesn't affect the causal claim."
+    },
+    {
+     "id": "C",
+     "text": "Math tests measure only some mathematical skills.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "The argument concerns the skills the tests measure; this doesn't undercut the link."
+    },
+    {
+     "id": "D",
+     "text": "Some students who take music lessons dislike math.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Dislike doesn't undercut the score difference."
+    },
+    {
+     "id": "E",
+     "text": "Most families that pay for music lessons also pay for math tutoring.",
+     "correct": true,
+     "trap": null,
+     "why": "Tutoring is a rival explanation for the higher math scores."
+    }
+   ],
+   "tldr": "Tutoring, which comes with the same families, could explain the scores.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Music students score higher, so the argument concludes music helps math."
+    },
+    {
+     "label": "Weaken",
+     "body": "Supply a factor that comes with music lessons and boosts math directly."
+    }
+   ],
+   "takeaway": "Look for something that travels with the proposed cause and could produce the effect.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0515",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Sales of the store's organic produce have doubled over the past year. Clearly, shoppers are increasingly willing to pay more for organic food.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Organic farming uses fewer synthetic pesticides.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Farming methods don't address shoppers' willingness to pay."
+    },
+    {
+     "id": "B",
+     "text": "The store advertised its organic produce more heavily.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Advertising could boost sales while shoppers still pay more."
+    },
+    {
+     "id": "C",
+     "text": "The store's sales of conventional produce stayed the same.",
+     "correct": false,
+     "trap": "true_irrelevant",
+     "why": "That doesn't explain why organic sales rose."
+    },
+    {
+     "id": "D",
+     "text": "Over the past year, the store cut its prices for organic produce to match those for conventional produce.",
+     "correct": true,
+     "trap": null,
+     "why": "If organic produce no longer costs more, rising sales show nothing about willingness to pay more."
+    },
+    {
+     "id": "E",
+     "text": "Several new customers began shopping at the store this year.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "New customers could still be paying a premium for organic food."
+    }
+   ],
+   "tldr": "Sales can't show willingness to pay more if the price premium vanished.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Organic sales doubled, so the argument concludes shoppers will pay more."
+    },
+    {
+     "label": "Weaken",
+     "body": "Remove the premium, and rising sales say nothing about paying more."
+    }
+   ],
+   "takeaway": "Check whether the evidence actually involves the thing the conclusion is about.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0516",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-source-attack"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "The diary of a nineteenth-century sailor describes a violent storm that wrecked a merchant ship off the coast of Alder Point in 1854. So a merchant ship was wrecked off Alder Point that year.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The diary was written decades after the voyage, and many of the other events it describes are known to have been invented.",
+     "correct": true,
+     "trap": null,
+     "why": "This undermines the diary as a source for any event it reports."
+    },
+    {
+     "id": "B",
+     "text": "The sailor later became a ship's captain.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "His later career doesn't affect the diary's reliability."
+    },
+    {
+     "id": "C",
+     "text": "Storms were common off Alder Point in the 1850s.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That makes a wreck there more plausible."
+    },
+    {
+     "id": "D",
+     "text": "Several merchant ships sailed past Alder Point in 1854.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "More ships nearby makes a wreck slightly more plausible."
+    },
+    {
+     "id": "E",
+     "text": "The diary is now kept in a museum.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Where it's kept doesn't bear on its accuracy."
+    }
+   ],
+   "tldr": "An unreliable source can't establish the wreck.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "The diary says it happened, so the argument concludes it happened."
+    },
+    {
+     "label": "Weaken",
+     "body": "Undermine the source's reliability."
+    }
+   ],
+   "takeaway": "When a conclusion rests on one source, attack the source.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0517",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Two years ago the city raised its tax on hotel rooms, and since then the number of conventions held in the city has fallen sharply. Clearly, the higher tax has driven conventions away.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Hotel taxes in other cities are lower than this city's tax.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That would make the city less attractive, supporting the argument."
+    },
+    {
+     "id": "B",
+     "text": "The city's only large convention center has been closed for renovation for the past two years.",
+     "correct": true,
+     "trap": null,
+     "why": "The closure explains the drop in conventions without the tax."
+    },
+    {
+     "id": "C",
+     "text": "The tax revenue has been used to improve city parks.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "How the revenue is spent doesn't affect the causal claim."
+    },
+    {
+     "id": "D",
+     "text": "Some conventions held in the city before the tax increase were small.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Their size doesn't explain why conventions declined."
+    },
+    {
+     "id": "E",
+     "text": "Tourists who are not attending conventions also stay in the city's hotels.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Other hotel guests don't bear on why conventions fell."
+    }
+   ],
+   "tldr": "The convention center closed, which explains the drop by itself.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Tax rose, conventions fell, so the argument blames the tax."
+    },
+    {
+     "label": "Weaken",
+     "body": "A simultaneous rival cause."
+    }
+   ],
+   "takeaway": "Before/after evidence is weakened by anything else that changed at the same time.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0518",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "In a clinical trial, 60 percent of patients who took an herbal remedy for headaches reported that their headaches improved. So the remedy is effective against headaches.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The remedy is sold in many pharmacies.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Availability isn't evidence about effectiveness."
+    },
+    {
+     "id": "B",
+     "text": "In a similar trial, 60 percent of patients given a sugar pill reported that their headaches improved.",
+     "correct": true,
+     "trap": null,
+     "why": "The remedy did no better than a placebo, so the improvement isn't evidence of its effect."
+    },
+    {
+     "id": "C",
+     "text": "Some patients in the trial had migraines.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Mixed headache types don't undercut the reported improvement."
+    },
+    {
+     "id": "D",
+     "text": "Patients in the trial were not told what the remedy contained.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "That doesn't show the improvement came from anything other than the remedy."
+    },
+    {
+     "id": "E",
+     "text": "The herbal remedy has been used for centuries.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Long use doesn't show effectiveness."
+    }
+   ],
+   "tldr": "A placebo produced the same improvement.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Most patients improved, so the argument calls the remedy effective."
+    },
+    {
+     "label": "Weaken",
+     "body": "Without a control, improvement could be placebo or natural recovery; the sugar pill shows exactly that."
+    }
+   ],
+   "takeaway": "Claims of effectiveness need a comparison with no treatment or a placebo.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0519",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-plan"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "To increase use of the campus library, the board plans to keep it open until midnight. Many students have said they would use the library more if it stayed open later.",
+   "prompt": "Which one of the following, if true, most seriously calls into question the board's plan?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The library's study rooms are often full in the afternoon.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Crowding suggests demand that later hours might relieve."
+    },
+    {
+     "id": "B",
+     "text": "Some students prefer to study in their rooms.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Some students staying home doesn't show later hours won't increase use."
+    },
+    {
+     "id": "C",
+     "text": "The library has more books than any other in the region.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "The size of the collection doesn't affect late-night use."
+    },
+    {
+     "id": "D",
+     "text": "Students who study late often drink coffee.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Study habits like this don't bear on the plan."
+    },
+    {
+     "id": "E",
+     "text": "When the library tried staying open until midnight last year, almost no one visited after ten o'clock.",
+     "correct": true,
+     "trap": null,
+     "why": "A direct trial showed late hours didn't bring students in."
+    }
+   ],
+   "tldr": "A past trial of late hours drew almost no one.",
+   "steps": [
+    {
+     "label": "Plan",
+     "body": "Later hours, supported by what students say they'd do."
+    },
+    {
+     "label": "Weaken",
+     "body": "What students actually did when the hours were tried."
+    }
+   ],
+   "takeaway": "Evidence of actual behavior trumps stated intentions.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0520",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "The number of people diagnosed with a particular sleep disorder has risen sharply over the past thirty years. So the disorder has become much more common over that time.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The disorder can be treated effectively with medication.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Treatment doesn't bear on how common the disorder is."
+    },
+    {
+     "id": "B",
+     "text": "The population has grown slightly over the past thirty years.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Slight growth can't explain a sharp rise."
+    },
+    {
+     "id": "C",
+     "text": "Over the past thirty years, the criteria for diagnosing the disorder have been broadened, and doctors have become much more aware of it.",
+     "correct": true,
+     "trap": null,
+     "why": "More diagnoses can come from broader criteria and awareness rather than more cases."
+    },
+    {
+     "id": "D",
+     "text": "People with the disorder often feel tired during the day.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Symptoms don't explain the trend in diagnoses."
+    },
+    {
+     "id": "E",
+     "text": "The disorder affects both children and adults.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Who is affected doesn't explain the rise."
+    }
+   ],
+   "tldr": "Broader criteria and awareness can raise diagnoses without more cases.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "More diagnoses, so the argument concludes there are more cases."
+    },
+    {
+     "label": "Weaken",
+     "body": "Diagnosis rates also depend on how the condition is defined and noticed."
+    }
+   ],
+   "takeaway": "A rise in diagnoses can reflect changes in diagnosis, not in the condition.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0521",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-sampling"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Ninety percent of the customers who filled out our feedback form said they were satisfied with their purchases. So our customers are overwhelmingly satisfied.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Customer satisfaction is important to the company's success.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Importance doesn't bear on whether the result is accurate."
+    },
+    {
+     "id": "B",
+     "text": "The feedback form takes only a minute to complete.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "A short form makes it easier for everyone to respond, reducing bias."
+    },
+    {
+     "id": "C",
+     "text": "The company sells a wide range of products.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Product range doesn't affect the survey's representativeness."
+    },
+    {
+     "id": "D",
+     "text": "The feedback form is given only to customers who return to make a second purchase.",
+     "correct": true,
+     "trap": null,
+     "why": "Repeat buyers are likely to be satisfied, so the sample overstates satisfaction."
+    },
+    {
+     "id": "E",
+     "text": "Some customers who were satisfied did not fill out the form.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That would mean satisfaction is, if anything, underestimated."
+    }
+   ],
+   "tldr": "Only repeat customers, who are likely happy, got the form.",
+   "steps": [
+    {
+     "label": "Sample",
+     "body": "People who filled out the form."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show the form reached a group biased toward satisfaction."
+    }
+   ],
+   "takeaway": "Feedback samples are often filtered toward happy customers.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0522",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-rival-cause"
+   ],
+   "difficulty": 2,
+   "targetSec": 84,
+   "stimulus": "Plants grown in the east wing of the greenhouse, which were watered with a new fertilizer solution, grew taller than plants of the same species in the west wing, which received plain water. So the fertilizer promotes plant growth.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The fertilizer contains nitrogen, which plants need to grow.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That suggests how the fertilizer could help."
+    },
+    {
+     "id": "B",
+     "text": "The new fertilizer is more expensive than older fertilizers.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Price doesn't bear on whether it works."
+    },
+    {
+     "id": "C",
+     "text": "The plants in both wings were planted on the same day.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That removes one possible difference, strengthening the comparison."
+    },
+    {
+     "id": "D",
+     "text": "A few plants in the east wing did not grow taller than the west wing's average.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Exceptions don't undercut an average difference."
+    },
+    {
+     "id": "E",
+     "text": "The east wing receives several more hours of direct sunlight each day than the west wing.",
+     "correct": true,
+     "trap": null,
+     "why": "More sunlight could explain the extra growth without the fertilizer."
+    }
+   ],
+   "tldr": "Extra sunlight, not fertilizer, may explain the taller plants.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Fertilized plants grew taller, so the argument credits the fertilizer."
+    },
+    {
+     "label": "Weaken",
+     "body": "Another difference between the wings could explain the result."
+    }
+   ],
+   "takeaway": "Comparisons are weakened by any other difference between the groups.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0523",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-flaw-possible-certain"
+   ],
+   "difficulty": 1,
+   "targetSec": 84,
+   "stimulus": "The Hawks have won their last ten games against the Eagles. So the Hawks will win tomorrow's game against the Eagles.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Tickets for tomorrow's game have sold out.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Ticket sales don't bear on the outcome."
+    },
+    {
+     "id": "B",
+     "text": "The Eagles have a new team logo this season.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "A logo doesn't affect who wins."
+    },
+    {
+     "id": "C",
+     "text": "The Hawks have also won most of their games against other teams.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "That suggests the Hawks are strong, supporting the prediction."
+    },
+    {
+     "id": "D",
+     "text": "Tomorrow's game will be played at the Eagles' home stadium.",
+     "correct": false,
+     "trap": "too_weak",
+     "why": "Without more, home field doesn't clearly offset ten straight wins."
+    },
+    {
+     "id": "E",
+     "text": "The Hawks' three best players were injured this week and will not play tomorrow.",
+     "correct": true,
+     "trap": null,
+     "why": "The team that won those games won't be the team playing tomorrow."
+    }
+   ],
+   "tldr": "The winning streak came from players who won't be playing.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Past wins, so the argument predicts another win."
+    },
+    {
+     "label": "Weaken",
+     "body": "Show that what produced the past wins has changed."
+    }
+   ],
+   "takeaway": "Predictions from a track record assume the conditions behind it still hold.",
+   "siblings": [],
+   "status": "review"
+  },
+  {
+   "id": "lsat-lr-0524",
+   "version": 1,
+   "exam": "LSAT",
+   "section": "LR",
+   "passageId": null,
+   "position": null,
+   "type": "weaken",
+   "family": "argument_evaluation",
+   "knowledgePoints": [
+    "kp-lsat-plan"
+   ],
+   "difficulty": 3,
+   "targetSec": 84,
+   "stimulus": "Switching the company's delivery fleet to electric vans will save money, because electricity costs far less per mile than gasoline.",
+   "prompt": "Which one of the following, if true, most seriously weakens the argument?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Electric vans produce no tailpipe emissions.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Emissions don't bear on whether the switch saves money."
+    },
+    {
+     "id": "B",
+     "text": "Some of the company's drivers prefer gasoline vans.",
+     "correct": false,
+     "trap": "out_of_scope",
+     "why": "Preferences don't affect costs."
+    },
+    {
+     "id": "C",
+     "text": "Electricity prices have been stable for several years.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Stable prices make the fuel savings more reliable."
+    },
+    {
+     "id": "D",
+     "text": "Electric vans cost so much more to buy that the fuel savings would not make up the difference within the vans' expected lifespan.",
+     "correct": true,
+     "trap": null,
+     "why": "Then the switch costs more overall, despite cheaper fuel."
+    },
+    {
+     "id": "E",
+     "text": "Gasoline prices rose last year.",
+     "correct": false,
+     "trap": "wrong_direction",
+     "why": "Higher gasoline prices increase the savings from switching."
+    }
+   ],
+   "tldr": "Higher purchase costs can outweigh fuel savings.",
+   "steps": [
+    {
+     "label": "Argument",
+     "body": "Cheaper fuel per mile, so the argument predicts savings overall."
+    },
+    {
+     "label": "Weaken",
+     "body": "Bring in a cost the argument ignores."
+    }
+   ],
+   "takeaway": "Savings claims based on one cost are weakened by a larger cost elsewhere.",
+   "siblings": [],
    "status": "review"
   },
   {
