@@ -149,11 +149,23 @@ describe('session building', () => {
   });
 
   it('filters drills and keeps passage questions together in order', () => {
-    const ids = buildDrill(ctx('MCAT'), { sections: ['BB'], types: [], difficulty: 'any', count: 20 });
+    const ids = buildDrill(ctx('MCAT'), { sections: ['BB'], types: [], difficulty: 'any', count: 1000 });
     expect(ids.length).toBeGreaterThan(0);
     for (const id of ids) expect(itemMap.get(id)?.section).toBe('BB');
     const passageIds = ids.filter((id) => itemMap.get(id)?.passageId === 'mcat-bb-p01');
     expect(passageIds).toEqual(['mcat-bb-0006', 'mcat-bb-0007', 'mcat-bb-0008']);
+  });
+
+  it('never splits a passage across drills', () => {
+    const bb = packFor('MCAT').items.filter((i) => i.section === 'BB');
+    for (let seed = 1; seed <= 25; seed++) {
+      const ids = buildDrill(ctx('MCAT', [], { rng: seededRng(seed) }), { sections: ['BB'], types: [], difficulty: 'any', count: 20 });
+      expect(ids.length).toBeGreaterThanOrEqual(20);
+      for (const passageId of new Set(ids.map((id) => itemMap.get(id)?.passageId).filter(Boolean))) {
+        const whole = bb.filter((i) => i.passageId === passageId).map((i) => i.id);
+        expect(ids.filter((id) => whole.includes(id))).toEqual(whole.sort((a, b) => itemMap.get(a)!.position! - itemMap.get(b)!.position!));
+      }
+    }
   });
 
   it('turns due knowledge points into review tasks', () => {

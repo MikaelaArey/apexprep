@@ -177,7 +177,19 @@ function groupPassages(items: Item[]): Item[] {
 
 export function buildDrill(ctx: SelectContext, f: DrillFilters): string[] {
   const history = historyFrom(ctx.attempts);
-  const chosen = freshestFirst(drillPool(ctx, f), history, ctx.rng).slice(0, f.count);
+  const pool = drillPool(ctx, f);
+  const chosen: Item[] = [];
+  const taken = new Set<string>();
+  for (const item of freshestFirst(pool, history, ctx.rng)) {
+    if (chosen.length >= f.count) break;
+    if (taken.has(item.id)) continue;
+    // A passage comes with all of its matching questions, so it's only read once.
+    const group = item.passageId === null ? [item] : pool.filter((i) => i.passageId === item.passageId);
+    for (const g of group) {
+      taken.add(g.id);
+      chosen.push(g);
+    }
+  }
   return groupPassages(chosen).map((i) => i.id);
 }
 

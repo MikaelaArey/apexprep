@@ -191,3 +191,449 @@
   title: Demographic rates
   front: How are crude birth rates and doubling times calculated?
   back: Crude rate = events per 1,000 people per year. Doubling time ≈ 70 ÷ annual growth rate (%).
+- id: kp-mcat-orgo-reagents
+  section: CP
+  title: Oxidizing and reducing agents
+  front: PCC vs. chromic acid; NaBH₄ vs. LiAlH₄?
+  back: >-
+    PCC stops a primary alcohol at the aldehyde; chromic acid goes on to the carboxylic acid. NaBH₄ reduces
+    aldehydes and ketones only; LiAlH₄ also reduces esters and acids.
+- id: kp-mcat-ir-peaks
+  section: CP
+  title: IR spectroscopy landmarks
+  front: Where do C=O, alcohol O–H and carboxylic acid O–H absorb?
+  back: >-
+    C=O: sharp, strong, about 1700 cm⁻¹. Alcohol O–H: broad, 3200–3600. Carboxylic acid O–H: very broad,
+    2500–3300. Nitrile C≡N: about 2250.
+- id: kp-mcat-nmr-shifts
+  section: CP
+  title: ¹H NMR chemical shifts
+  front: Where do aldehyde, carboxylic acid and aromatic protons appear?
+  back: >-
+    Carboxylic acid O–H: 10–12 ppm. Aldehyde C–H: 9–10. Aromatic: 6.5–8. H on carbon bonded to O: 3.3–4. Plain
+    alkyl: 0.9–1.5.
+- id: kp-mcat-separation-techniques
+  section: CP
+  title: Separation techniques
+  front: Which chromatography separates by size, which by charge, and which by specific binding?
+  back: >-
+    Gel filtration: size (large elute first). Ion exchange: charge. Affinity: specific binding to an
+    immobilized ligand. SDS-PAGE: mass of denatured proteins.
+- id: kp-mcat-si-units
+  section: CP
+  title: Derived SI units
+  front: Write the newton, joule, watt and pascal in base units.
+  back: N = kg·m/s². J = N·m = kg·m²/s². W = J/s = kg·m²/s³. Pa = N/m² = kg/(m·s²).
+- id: kp-mcat-electrical-units
+  section: CP
+  title: Electrical units
+  front: Express the volt, ohm, farad and ampere in terms of other units.
+  back: V = J/C. Ω = V/A. F = C/V. A = C/s. The tesla is N/(A·m).
+- id: kp-mcat-decay-types
+  section: CP
+  title: Types of radioactive decay
+  front: How does each decay type change the atomic number (Z) and mass number (A)?
+  back: 'Alpha: A −4, Z −2. Beta-minus: Z +1. Positron emission and electron capture: Z −1. Gamma: no change.'
+- id: kp-mcat-isomer-types
+  section: CP
+  title: Kinds of isomers
+  front: Enantiomers vs. diastereomers?
+  back: >-
+    Enantiomers are non-superimposable mirror images (opposite configuration at every stereocenter).
+    Diastereomers are stereoisomers that aren’t mirror images.
+- id: kp-mcat-biomolecule-bonds
+  section: CP
+  title: Bonds that build biomolecules
+  front: Which bond links each kind of monomer?
+  back: 'Sugars: glycosidic. Amino acids: peptide. Nucleotides: phosphodiester. Fatty acids to glycerol: ester.'
+- id: kp-mcat-em-spectrum
+  section: CP
+  title: The electromagnetic spectrum
+  front: Order the EM spectrum from lowest to highest frequency.
+  back: >-
+    Radio, microwave, infrared, visible (red to violet), ultraviolet, X-ray, gamma. Energy rises with
+    frequency (E = hf).
+- id: kp-mcat-intermolecular-forces
+  section: CP
+  title: Intermolecular forces
+  front: Rank the intermolecular forces from weakest to strongest.
+  back: >-
+    London dispersion < dipole–dipole < hydrogen bonding < ion–dipole. Dispersion grows with molecular size
+    and can dominate in big molecules.
+- id: kp-mcat-hybridization
+  section: CP
+  title: Hybridization
+  front: How do you find an atom’s hybridization?
+  back: 'Count electron domains (bonds count once, lone pairs count once): 2 = sp, 3 = sp², 4 = sp³, 5 = sp³d.'
+- id: kp-mcat-vsepr
+  section: CP
+  title: VSEPR shapes
+  front: Why is water bent but CO₂ linear?
+  back: >-
+    Water’s O has two bonds and two lone pairs (four domains, bent). CO₂’s C has two double bonds and no lone
+    pairs (two domains, linear).
+- id: kp-mcat-acid-base-definitions
+  section: CP
+  title: Acid–base definitions
+  front: Brønsted–Lowry vs. Lewis acids?
+  back: >-
+    Brønsted–Lowry acids donate protons. Lewis acids accept electron pairs; Lewis bases donate them. Every
+    Brønsted base is also a Lewis base.
+- id: kp-mcat-gas-laws
+  section: CP
+  title: The gas laws
+  front: Which variables does each gas law hold constant?
+  back: >-
+    Boyle: P ∝ 1/V (constant n, T). Charles: V ∝ T (constant n, P). Gay-Lussac: P ∝ T (constant n, V).
+    Avogadro: V ∝ n (constant P, T).
+- id: kp-mcat-thermo-processes
+  section: CP
+  title: Thermodynamic processes
+  front: In which process does a gas do no work, and in which is ΔU = 0 for an ideal gas?
+  back: >-
+    Isochoric (constant volume): no work, so ΔU = Q. Isothermal (ideal gas): ΔU = 0, so Q = W. Adiabatic: Q =
+    0, so ΔU = −W.
+- id: kp-mcat-mirrors-lenses
+  section: CP
+  title: Mirrors and lenses
+  front: Which optical elements can only form upright, reduced, virtual images?
+  back: >-
+    Convex mirrors and diverging lenses. Concave mirrors and converging lenses can form real or virtual images
+    depending on where the object sits.
+- id: kp-mcat-wave-phenomena
+  section: CP
+  title: Wave phenomena
+  front: What causes beats, and what is their frequency?
+  back: >-
+    Two waves of slightly different frequency interfere, alternating between constructive and destructive. The
+    beat frequency is the difference of the two frequencies.
+- id: kp-mcat-periodic-groups
+  section: CP
+  title: Families of the periodic table
+  front: What makes alkali metals so reactive and noble gases so inert?
+  back: >-
+    Alkali metals have one valence electron to lose (low ionization energy). Noble gases have full valence
+    shells and the highest ionization energies in each period.
+- id: kp-mcat-hormone-sources
+  section: BB
+  title: Where hormones come from
+  front: Which hormones does the posterior pituitary release, and where are they made?
+  back: >-
+    ADH and oxytocin. They are made in the hypothalamus and carried down axons to the posterior pituitary,
+    which releases them into the blood.
+- id: kp-mcat-hormone-actions
+  section: BB
+  title: What hormones do
+  front: PTH vs. calcitonin; oxytocin vs. prolactin?
+  back: >-
+    PTH raises blood Ca²⁺; calcitonin lowers it. Prolactin makes milk; oxytocin ejects it (and drives labor
+    contractions).
+- id: kp-mcat-hormone-classes
+  section: BB
+  title: Steroid, peptide and amine hormones
+  front: How do steroid and peptide hormones differ in receptor, transport and speed?
+  back: >-
+    Steroids: lipid-soluble, carried by proteins, intracellular receptors, slow gene effects. Peptides:
+    water-soluble, travel free, surface receptors and second messengers, fast.
+- id: kp-mcat-amino-acid-facts
+  section: BB
+  title: Amino acid essentials
+  front: Which amino acids are acidic, which are basic, and which one is achiral?
+  back: >-
+    Acidic: Asp (D), Glu (E). Basic: Lys (K), Arg (R), His (H). Glycine is achiral. Cys forms disulfides; Pro
+    breaks helices.
+- id: kp-mcat-organelles
+  section: BB
+  title: Organelles and their jobs
+  front: Rough ER vs. smooth ER?
+  back: >-
+    Rough ER: ribosomes making secreted and membrane proteins. Smooth ER: lipid and steroid synthesis,
+    detoxification and Ca²⁺ storage.
+- id: kp-mcat-regulated-enzymes
+  section: BB
+  title: Regulated enzymes of metabolism
+  front: Name the rate-limiting enzymes of glycolysis, the citric acid cycle and cholesterol synthesis.
+  back: >-
+    Glycolysis: PFK-1. Citric acid cycle: isocitrate dehydrogenase. Cholesterol: HMG-CoA reductase (the statin
+    target). Pentose phosphate pathway: G6PD.
+- id: kp-mcat-digestive-enzymes
+  section: BB
+  title: Digestive enzymes
+  front: How is trypsinogen activated, and why does that matter?
+  back: >-
+    Enteropeptidase on the duodenal brush border cleaves trypsinogen to trypsin, which then activates the
+    other pancreatic zymogens.
+- id: kp-mcat-immune-cells
+  section: BB
+  title: Immune cell roles
+  front: Which cells kill infected cells, and which kill cells that hide their MHC I?
+  back: >-
+    Cytotoxic (CD8⁺) T cells kill cells showing foreign peptide on MHC I. Natural killer cells kill cells that
+    have lost MHC I.
+- id: kp-mcat-nephron-segments
+  section: BB
+  title: Nephron segments
+  front: Which nephron segment is permeable to water but not salt, and which is the reverse?
+  back: >-
+    Descending limb: water out, salt stays. Thick ascending limb: salt pumped out, water can’t follow.
+    Together they build the medullary gradient.
+- id: kp-mcat-germ-layers
+  section: BB
+  title: Germ layer derivatives
+  front: Which germ layer forms the adrenal medulla, and which forms the adrenal cortex?
+  back: >-
+    Medulla: ectoderm (neural crest). Cortex: mesoderm. Endoderm lines the gut and lungs and forms the liver
+    and pancreas.
+- id: kp-mcat-neurotransmitters
+  section: BB
+  title: Neurotransmitters
+  front: Which neurotransmitter is the brain’s main excitatory signal, and which is its main inhibitory one?
+  back: >-
+    Glutamate excites; GABA inhibits. Acetylcholine runs the neuromuscular junction; dopamine handles reward
+    and movement.
+- id: kp-mcat-blood-flow
+  section: BB
+  title: The path of blood through the heart
+  front: Trace blood from the venae cavae to the aorta.
+  back: >-
+    Venae cavae → right atrium → tricuspid → right ventricle → pulmonary artery → lungs → pulmonary veins →
+    left atrium → mitral → left ventricle → aorta.
+- id: kp-mcat-inheritance-patterns
+  section: BB
+  title: Inheritance patterns
+  front: Incomplete dominance vs. codominance?
+  back: Incomplete dominance blends (red × white → pink). Codominance shows both fully (type AB blood).
+- id: kp-mcat-evolution-processes
+  section: BB
+  title: Mechanisms of evolution
+  front: Founder effect vs. bottleneck effect?
+  back: >-
+    Both are genetic drift. Founder: a few individuals start a new population. Bottleneck: a disaster shrinks
+    an existing one. Either way, allele frequencies shift by chance.
+- id: kp-mcat-receptor-types
+  section: BB
+  title: Receptor types
+  front: Which receptor type acts in milliseconds, and which changes gene expression?
+  back: >-
+    Ligand-gated ion channels act in milliseconds. GPCRs and RTKs use signaling cascades (seconds to minutes).
+    Intracellular receptors change transcription (hours).
+- id: kp-mcat-membrane-transport
+  section: BB
+  title: Membrane transport
+  front: Primary vs. secondary active transport?
+  back: >-
+    Primary uses ATP directly (Na⁺/K⁺-ATPase). Secondary uses an ion gradient made by a primary pump to move
+    another solute uphill (SGLT, Na⁺/Ca²⁺ exchanger).
+- id: kp-mcat-bone-cells
+  section: BB
+  title: Bone cells
+  front: Osteoblasts vs. osteoclasts?
+  back: >-
+    Osteoblasts build bone matrix. Osteoclasts resorb bone and release Ca²⁺. PTH activates osteoclasts
+    indirectly; calcitonin inhibits them.
+- id: kp-mcat-muscle-proteins
+  section: BB
+  title: Sarcomere proteins
+  front: How does Ca²⁺ switch on contraction?
+  back: >-
+    Ca²⁺ binds troponin, which shifts tropomyosin off actin’s myosin-binding sites. ATP binding then releases
+    each myosin head so the cycle can repeat.
+- id: kp-mcat-bacterial-gene-transfer
+  section: BB
+  title: Bacterial gene transfer
+  front: Transformation vs. transduction vs. conjugation?
+  back: >-
+    Transformation: naked DNA taken up. Transduction: DNA carried by a phage. Conjugation: DNA passed through
+    a pilus from cell to cell.
+- id: kp-mcat-cell-cycle-phases
+  section: BB
+  title: Cell cycle and mitosis
+  front: What happens in each phase of mitosis?
+  back: >-
+    Prophase: chromosomes condense, envelope breaks down. Metaphase: chromosomes line up. Anaphase: sister
+    chromatids separate. Telophase: envelopes re-form.
+- id: kp-mcat-meiosis-events
+  section: BB
+  title: Meiosis I vs. meiosis II
+  front: In which division do homologs separate, and in which do sister chromatids separate?
+  back: >-
+    Homologs separate in anaphase I (the reductional division). Sister chromatids separate in anaphase II, as
+    in mitosis.
+- id: kp-mcat-embryo-stages
+  section: BB
+  title: Early embryonic stages
+  front: Order the early stages of development.
+  back: >-
+    Zygote → morula (solid ball) → blastocyst (implants; inner cell mass + trophoblast) → gastrula (germ
+    layers) → neurula (neural tube).
+- id: kp-mcat-menstrual-hormones
+  section: BB
+  title: Hormones of the menstrual cycle
+  front: What does each hormone do across the menstrual cycle?
+  back: >-
+    FSH grows follicles; follicles make estrogen; an LH surge triggers ovulation; the corpus luteum makes
+    progesterone; hCG from the embryo keeps the corpus luteum alive.
+- id: kp-mcat-carbs-lipids
+  section: BB
+  title: Carbohydrates and lipids
+  front: Why can humans digest starch but not cellulose?
+  back: >-
+    Starch has α-1,4 (and α-1,6) glycosidic bonds that amylase cuts. Cellulose has β-1,4 bonds, and humans
+    lack an enzyme to break them.
+- id: kp-mcat-vitamins
+  section: BB
+  title: Vitamins
+  front: Which vitamins are fat-soluble?
+  back: A, D, E and K. They are stored in fat and the liver, so they can build up to toxic levels.
+- id: kp-mcat-group-processes
+  section: PS
+  title: Group processes
+  front: 'Social facilitation vs. social loafing vs. deindividuation: what does each need?'
+  back: >-
+    Facilitation: an audience boosts well-learned tasks. Loafing: pooled, untracked effort drops.
+    Deindividuation: anonymity in a crowd lowers restraint.
+- id: kp-mcat-attribution-biases
+  section: PS
+  title: Attribution biases
+  front: Fundamental attribution error vs. actor–observer bias vs. self-serving bias?
+  back: >-
+    FAE: others’ behavior → their character. Actor–observer: my behavior → situation, yours → character.
+    Self-serving: my wins → me, my losses → situation.
+- id: kp-mcat-persuasion
+  section: PS
+  title: Persuasion and attitude change
+  front: Foot-in-the-door vs. door-in-the-face, and the two routes to persuasion?
+  back: >-
+    FITD: small request first. DITF: big refused request first. Central route: argument quality, lasting
+    change. Peripheral route: surface cues, fleeting change.
+- id: kp-mcat-defense-mechanisms
+  section: PS
+  title: Defense mechanisms
+  front: Repression vs. suppression; projection vs. displacement vs. sublimation?
+  back: >-
+    Repression is unconscious, suppression deliberate. Projection moves a feeling onto another person;
+    displacement moves it to a safer target; sublimation channels it into something valued.
+- id: kp-mcat-operant-quadrants
+  section: PS
+  title: Reinforcement and punishment
+  front: 'Positive/negative reinforcement vs. punishment: how do you tell them apart?'
+  back: >-
+    Reinforcement raises a behavior, punishment lowers it. Positive adds a stimulus, negative removes one.
+    Negative reinforcement is not punishment.
+- id: kp-mcat-reinforcement-schedules
+  section: PS
+  title: Reinforcement schedules
+  front: Which schedule gives the highest response rate and the most resistance to extinction?
+  back: >-
+    Variable ratio (slot machines). Fixed ratio: pause after each reward. Fixed interval: scalloped
+    responding. Variable interval: slow and steady.
+- id: kp-mcat-classical-elements
+  section: PS
+  title: Elements of classical conditioning
+  front: >-
+    Which stimulus is “conditioned”: the one that triggered the response from the start, or the one that
+    learned to?
+  back: >-
+    The one that learned to. The UCS (food, pain) triggers the UCR naturally; a neutral stimulus paired with
+    it becomes the CS, which triggers the CR.
+- id: kp-mcat-classical-phenomena
+  section: PS
+  title: Generalization, discrimination, extinction
+  front: What is spontaneous recovery, and what does it show about extinction?
+  back: >-
+    After extinction and a rest, the CR briefly returns. Extinction suppresses the learned response; it
+    doesn’t erase it.
+- id: kp-mcat-memory-phenomena
+  section: PS
+  title: Memory phenomena
+  front: Proactive vs. retroactive interference; context- vs. state-dependent memory?
+  back: >-
+    Proactive: old learning blocks new. Retroactive: new learning blocks old. Context-dependent: same place
+    helps recall. State-dependent: same internal state helps recall.
+- id: kp-mcat-validity-threats
+  section: PS
+  title: Threats to validity
+  front: Hawthorne effect vs. demand characteristics vs. placebo effect?
+  back: >-
+    Hawthorne: behavior changes because people know they’re observed. Demand characteristics: participants
+    guess the hypothesis and act to fit it. Placebo: expecting treatment brings improvement.
+- id: kp-mcat-study-designs
+  section: PS
+  title: Study designs
+  front: 'Cohort vs. case–control: which direction does each look?'
+  back: >-
+    Cohort: start from exposure, follow forward to outcomes. Case–control: start from the outcome, look back
+    for exposures (good for rare diseases).
+- id: kp-mcat-erikson
+  section: PS
+  title: Erikson’s psychosocial stages
+  front: List Erikson’s eight stages in order.
+  back: >-
+    Trust vs. mistrust, autonomy vs. shame, initiative vs. guilt, industry vs. inferiority, identity vs. role
+    confusion, intimacy vs. isolation, generativity vs. stagnation, integrity vs. despair.
+- id: kp-mcat-brain-regions
+  section: PS
+  title: Brain regions and functions
+  front: 'Broca’s vs. Wernicke’s aphasia: which area does what?'
+  back: >-
+    Broca’s area (frontal lobe) produces speech: damage gives slow, effortful speech with intact
+    comprehension. Wernicke’s area (temporal lobe) comprehends: damage gives fluent nonsense.
+- id: kp-mcat-sleep-stages
+  section: PS
+  title: Sleep stages
+  front: Which EEG waves go with wakefulness, N1, N2, N3 and REM?
+  back: >-
+    Awake alert: beta. Relaxed: alpha. N1: theta. N2: sleep spindles and K-complexes. N3: delta. REM:
+    beta-like, with muscle atonia and dreaming.
+- id: kp-mcat-sensation-basics
+  section: PS
+  title: Thresholds, adaptation and processing
+  front: Top-down vs. bottom-up processing?
+  back: Bottom-up builds a percept from raw features. Top-down uses expectations and context to interpret input.
+- id: kp-mcat-signal-detection
+  section: PS
+  title: Signal detection theory
+  front: Name the four outcomes of signal detection theory.
+  back: >-
+    Signal present: hit (“yes”) or miss (“no”). Signal absent: false alarm (“yes”) or correct rejection
+    (“no”).
+- id: kp-mcat-sociology-theories
+  section: PS
+  title: Sociological theories
+  front: Functionalism vs. conflict theory vs. symbolic interactionism?
+  back: >-
+    Functionalism: parts keep society stable. Conflict theory: groups compete for power and resources.
+    Symbolic interactionism: meaning is built in everyday interaction.
+- id: kp-mcat-mobility-capital
+  section: PS
+  title: Mobility and capital
+  front: Intergenerational vs. intragenerational mobility; cultural vs. social capital?
+  back: >-
+    Intergenerational: between parents and children. Intragenerational: within one lifetime. Cultural capital:
+    knowledge, tastes and credentials. Social capital: useful relationships.
+- id: kp-mcat-roles-status
+  section: PS
+  title: Roles and statuses
+  front: Role conflict vs. role strain?
+  back: 'Role conflict: two different roles clash. Role strain: one role makes competing demands.'
+- id: kp-mcat-emotion-theories
+  section: PS
+  title: Theories of emotion
+  front: James–Lange vs. Cannon–Bard vs. Schachter–Singer?
+  back: >-
+    James–Lange: arousal, then emotion. Cannon–Bard: arousal and emotion together. Schachter–Singer: arousal
+    plus a cognitive label creates the emotion.
+- id: kp-mcat-motivation-theories
+  section: PS
+  title: Theories of motivation
+  front: Why can’t drive-reduction theory explain skydiving?
+  back: >-
+    Skydiving raises arousal instead of reducing a need. Arousal theory explains it: people seek an optimal
+    level of arousal.
+- id: kp-mcat-disorder-vignettes
+  section: PS
+  title: Recognizing psychological disorders
+  front: GAD vs. panic disorder vs. specific phobia?
+  back: >-
+    GAD: constant, wide-ranging worry for 6+ months. Panic disorder: unexpected panic attacks plus fear of
+    more. Specific phobia: intense fear of one object or situation.
