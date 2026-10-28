@@ -156,25 +156,28 @@ describe('sync against Supabase schema', () => {
     expect(data?.map((r) => r.item_id)).toContain('lsat-lr-0005');
   });
 
-  it('reports how everyone answered, counting each student’s first answer', async () => {
+  it('reports how everyone answered once 30 students have, counting each first answer', async () => {
     const id = `lsat-lr-77${Math.floor(Math.random() * 90 + 10)}`;
-    for (const [first, second] of [
-      [false, true],
-      [true, true],
-      [false, false],
-    ]) {
+    const answer = async (first: boolean, second: boolean) => {
       const phone = device();
       await phone.repo.addAttempt(attempt(id, first, Date.now() - 1000));
       await phone.repo.addAttempt(attempt(id, second));
       await phone.sync();
-    }
+    };
+    await answer(false, true);
+    await answer(true, true);
+    await answer(false, false);
     const asker = device();
     await asker.sync();
-    const { data, error } = await asker.client.rpc('item_answer_counts', { p_item_id: id });
-    expect(error).toBeNull();
-    const counts = Object.fromEntries((data as { selected: string; n: number }[]).map((r) => [r.selected, Number(r.n)]));
-    expect(counts).toEqual({ A: 2, B: 1 });
-  });
+    const counts = async () => {
+      const { data, error } = await asker.client.rpc('item_answer_counts', { p_item_id: id });
+      expect(error).toBeNull();
+      return Object.fromEntries((data as { selected: string; n: number }[]).map((r) => [r.selected, Number(r.n)]));
+    };
+    expect(await counts()).toEqual({}); // three students: still hidden
+    for (let i = 0; i < 27; i++) await answer(true, false);
+    expect(await counts()).toEqual({ A: 2, B: 28 });
+  }, 60000);
 
   it('deletes the account and all of its rows', async () => {
     const phone = device();

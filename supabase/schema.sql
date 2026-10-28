@@ -128,20 +128,23 @@ create policy "own rows" on public.profiles for all to authenticated
 
 -- ---------------------------------------------------------------------------
 -- How everyone answered a question: counts of each student's first answer.
--- Returns aggregates only; the app shows them once 30+ students have answered.
+-- Returns aggregates only, and nothing until 30+ students have answered, so a
+-- small tally can't reveal how a particular classmate answered.
 -- ---------------------------------------------------------------------------
 
 create or replace function public.item_answer_counts(p_item_id text)
 returns table (selected text, n bigint)
 language sql stable security definer set search_path = '' as $$
-  select first_answer.selected, count(*) as n
-  from (
+  with first_answer as (
     select distinct on (a.user_id) a.data ->> 'selected' as selected
     from public.attempts a
     where a.item_id = p_item_id
     order by a.user_id, a.at
-  ) as first_answer
-  group by first_answer.selected;
+  )
+  select f.selected, count(*) as n
+  from first_answer f
+  where (select count(*) from first_answer) >= 30
+  group by f.selected;
 $$;
 revoke all on function public.item_answer_counts(text) from public, anon;
 grant execute on function public.item_answer_counts(text) to authenticated;

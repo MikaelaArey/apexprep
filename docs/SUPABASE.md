@@ -29,7 +29,7 @@ It creates five tables (attempts, reviews, xp_events, cards, profiles), each
 private to its owner through row-level security; a function that reports how
 everyone answered a question (counts only, shown once 30+ students have
 answered); and `delete_my_account`, which Apple requires for in-app account
-deletion.
+deletion. If `schema.sql` changes later, run it again; it updates in place.
 
 ## 3. Auth settings
 
