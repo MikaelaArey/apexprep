@@ -49,7 +49,7 @@ export async function signInWithApple(): Promise<{ ok: boolean; message?: string
   let token: string | null = null;
   try {
     const credential = await AppleAuthentication.signInAsync({
-      requestedScopes: [AppleAuthentication.AppleAuthenticationScope.FULL_NAME, AppleAuthentication.AppleAuthenticationScope.EMAIL],
+      requestedScopes: [AppleAuthentication.AppleAuthenticationScope.EMAIL],
     });
     token = credential.identityToken;
   } catch (e) {

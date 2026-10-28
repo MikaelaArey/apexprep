@@ -45,3 +45,6 @@ example
 # Maestro run output
 .maestro/out/
 supabase/test/.data/
+
+# Vercel link for the website
+.vercel

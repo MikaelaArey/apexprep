@@ -1,7 +1,7 @@
 {
  "exam": "MCAT",
- "version": "d21d611d3290",
- "generatedAt": "2026-10-27T22:52:04.741Z",
+ "version": "919198e61cef",
+ "generatedAt": "2026-10-28T14:47:12.956Z",
  "items": [
   {
    "id": "mcat-bb-6000",
@@ -22475,14 +22475,14 @@
      "text": "20%",
      "correct": false,
      "trap": "lookalike",
-     "why": "guanine isn’t adenine’s partner, so it doesn’t equal 20%."
+     "why": "Guanine isn’t adenine’s partner, so it doesn’t equal 20%."
     },
     {
      "id": "B",
      "text": "30%",
      "correct": true,
      "trap": null,
-     "why": "adenine pairs with thymine (20% each), leaving 60% split evenly between the other two bases."
+     "why": "Adenine pairs with thymine (20% each), leaving 60% split evenly between the other two bases."
     },
     {
      "id": "C",
@@ -22503,7 +22503,7 @@
    "steps": [
     {
      "label": "Pair",
-     "body": "adenine = thymine = 20%."
+     "body": "Adenine = thymine = 20%."
     },
     {
      "label": "Split",
@@ -22553,14 +22553,14 @@
      "text": "15%",
      "correct": true,
      "trap": null,
-     "why": "guanine pairs with cytosine (35% each), leaving 30% split evenly between the other two bases."
+     "why": "Guanine pairs with cytosine (35% each), leaving 30% split evenly between the other two bases."
     },
     {
      "id": "C",
      "text": "35%",
      "correct": false,
      "trap": "lookalike",
-     "why": "thymine isn’t guanine’s partner, so it doesn’t equal 35%."
+     "why": "Thymine isn’t guanine’s partner, so it doesn’t equal 35%."
     },
     {
      "id": "D",
@@ -22574,7 +22574,7 @@
    "steps": [
     {
      "label": "Pair",
-     "body": "guanine = cytosine = 35%."
+     "body": "Guanine = cytosine = 35%."
     },
     {
      "label": "Split",
@@ -22617,14 +22617,14 @@
      "text": "20%",
      "correct": true,
      "trap": null,
-     "why": "thymine pairs with adenine (30% each), leaving 40% split evenly between the other two bases."
+     "why": "Thymine pairs with adenine (30% each), leaving 40% split evenly between the other two bases."
     },
     {
      "id": "B",
      "text": "30%",
      "correct": false,
      "trap": "lookalike",
-     "why": "cytosine isn’t thymine’s partner, so it doesn’t equal 30%."
+     "why": "Cytosine isn’t thymine’s partner, so it doesn’t equal 30%."
     },
     {
      "id": "C",
@@ -22645,7 +22645,7 @@
    "steps": [
     {
      "label": "Pair",
-     "body": "thymine = adenine = 30%."
+     "body": "Thymine = adenine = 30%."
     },
     {
      "label": "Split",
@@ -22688,7 +22688,7 @@
      "text": "15%",
      "correct": false,
      "trap": "lookalike",
-     "why": "adenine isn’t cytosine’s partner, so it doesn’t equal 15%."
+     "why": "Adenine isn’t cytosine’s partner, so it doesn’t equal 15%."
     },
     {
      "id": "B",
@@ -22709,14 +22709,14 @@
      "text": "35%",
      "correct": true,
      "trap": null,
-     "why": "cytosine pairs with guanine (15% each), leaving 70% split evenly between the other two bases."
+     "why": "Cytosine pairs with guanine (15% each), leaving 70% split evenly between the other two bases."
     }
    ],
    "tldr": "A = T and G = C: 15% cytosine means 15% guanine, and 35% each of the others.",
    "steps": [
     {
      "label": "Pair",
-     "body": "cytosine = guanine = 15%."
+     "body": "Cytosine = guanine = 15%."
     },
     {
      "label": "Split",

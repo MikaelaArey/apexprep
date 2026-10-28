@@ -161,7 +161,7 @@ export const finishEvent = (correct: number, total: number): CoachEvent =>
 /** Sprout grows as you level up. */
 export const STAGES = [
   { level: 1, name: 'Seedling' },
-  { level: 5, name: 'Sprout' },
+  { level: 5, name: 'Sapling' },
   { level: 10, name: 'Bloom' },
   { level: 20, name: 'Scholar' },
   { level: 30, name: 'Sage' },

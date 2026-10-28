@@ -1,0 +1,14 @@
+# App Store screenshots, step 1: seed three weeks of sample MCAT history.
+# Run on an iPhone 17 Pro Max simulator with the dev server in dev mode, offline:
+#   EXPO_NO_DOTENV=1 npx expo start --clear
+appId: com.mikaelaarey.apexprep
+---
+- runFlow:
+    file: ../native/_reset.yaml
+    env:
+      EXAM: MCAT
+      DEMO: "1"
+- extendedWaitUntil:
+    visible:
+      id: "sprout-card"
+    timeout: 20000

@@ -76,7 +76,7 @@ UI flows (simulator must be booted and the dev server running):
 
 ```bash
 maestro test .maestro/onboarding.yaml .maestro/daily5.yaml .maestro/tour.yaml   # Expo Go
-maestro test .maestro/native/                                                   # native build
+maestro test .maestro/native/first-run.yaml .maestro/native/review.yaml .maestro/native/exams.yaml .maestro/native/game.yaml   # native build
 ```
 
 The dev-only link `apexprep://dev-reset?onboarded=1&exam=LSAT&demo=1` resets the

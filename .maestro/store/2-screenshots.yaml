@@ -1,0 +1,112 @@
+# App Store screenshots, step 2: capture seven 6.9-inch screenshots.
+# Restart the dev server in production mode first, so no developer overlays show:
+#   EXPO_NO_DOTENV=1 npx expo start --no-dev --minify --clear
+# Then: maestro --device <Pro Max UDID> test .maestro/store/2-screenshots.yaml
+appId: com.mikaelaarey.apexprep
+---
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible:
+      id: "sprout-card"
+    timeout: 60000
+- waitForAnimationToEnd
+- takeScreenshot: shot-01-home
+# A question with its explanation.
+- tapOn:
+    id: "home-cta"
+- extendedWaitUntil:
+    visible:
+      id: "option-A"
+    timeout: 15000
+- tapOn:
+    id: "option-A"
+- tapOn:
+    id: "check"
+- extendedWaitUntil:
+    visible:
+      id: "next"
+    timeout: 8000
+- waitForAnimationToEnd
+- takeScreenshot: shot-02-explanation
+- tapOn:
+    id: "session-close"
+- tapOn: "End session"
+- extendedWaitUntil:
+    visible:
+      id: "summary-done"
+    timeout: 8000
+    optional: true
+- tapOn:
+    id: "summary-done"
+    optional: true
+# A science passage with a data table.
+- tapOn: "Practice"
+- scrollUntilVisible:
+    element:
+      id: "passage-mcat-bb-p04"
+    direction: DOWN
+    centerElement: true
+- tapOn:
+    id: "passage-mcat-bb-p04"
+- extendedWaitUntil:
+    visible:
+      id: "start-questions"
+    timeout: 10000
+- waitForAnimationToEnd
+- takeScreenshot: shot-03-passage
+- tapOn:
+    id: "session-close"
+- tapOn:
+    text: "End session"
+    optional: true
+# The Climb.
+- tapOn: "Practice"
+- scrollUntilVisible:
+    element:
+      id: "mode-climb"
+    direction: UP
+- tapOn:
+    id: "mode-climb"
+- extendedWaitUntil:
+    visible:
+      id: "climb-start"
+    timeout: 10000
+- waitForAnimationToEnd
+- takeScreenshot: shot-04-climb
+- tapOn:
+    id: "climb-close"
+# Stats.
+- tapOn: "Stats"
+- waitForAnimationToEnd
+- takeScreenshot: shot-05-stats
+# Score history.
+- tapOn: "Home"
+- tapOn:
+    id: "open-settings"
+- tapOn:
+    id: "scores-row"
+- extendedWaitUntil:
+    visible:
+      id: "score-add"
+    timeout: 8000
+- waitForAnimationToEnd
+- takeScreenshot: shot-06-scores
+- tapOn:
+    id: "scores-close"
+- tapOn:
+    id: "settings-close"
+# Badges.
+- scrollUntilVisible:
+    element:
+      id: "next-badges"
+    direction: DOWN
+    centerElement: true
+- tapOn:
+    id: "next-badges"
+- extendedWaitUntil:
+    visible:
+      id: "badges-close"
+    timeout: 8000
+- waitForAnimationToEnd
+- takeScreenshot: shot-07-badges

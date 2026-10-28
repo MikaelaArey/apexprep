@@ -317,6 +317,7 @@ export function build(make) {
   }
 
   // 10. Chargaff’s rules
+  const cap = (s) => s[0].toUpperCase() + s.slice(1);
   for (const [base, value, ask] of [
     ['adenine', 0.2, 'guanine'],
     ['guanine', 0.35, 'thymine'],
@@ -332,8 +333,8 @@ export function build(make) {
       outline: { category: '1B', sirs: 2 },
       difficulty: 1,
       prompt: `A sample of double-stranded DNA is ${pct(value)} ${base}. What percentage is ${ask}?`,
-      options: options(4, { text: pct(ans), why: `${base} pairs with ${pairOf[base]} (${pct(value)} each), leaving ${pct(1 - 2 * value)} split evenly between the other two bases.` }, [
-        { text: pct(value), trap: 'lookalike', why: `${ask} isn’t ${base}’s partner, so it doesn’t equal ${pct(value)}.` },
+      options: options(4, { text: pct(ans), why: `${cap(base)} pairs with ${pairOf[base]} (${pct(value)} each), leaving ${pct(1 - 2 * value)} split evenly between the other two bases.` }, [
+        { text: pct(value), trap: 'lookalike', why: `${cap(ask)} isn’t ${base}’s partner, so it doesn’t equal ${pct(value)}.` },
         { text: pct(1 - value), trap: 'skipped_step', why: `Subtract both ${base} and its partner ${pairOf[base]} before splitting.` },
         { text: pct(1 - 2 * value), trap: 'skipped_step', why: 'That’s the two remaining bases together. Split it in half.' },
         { text: pct((1 - value) / 3), trap: 'lookalike', why: 'The other bases aren’t equal thirds: A = T and G = C.' },
@@ -341,7 +342,7 @@ export function build(make) {
         { text: pct(ans / 2), trap: 'skipped_step', why: 'That splits the remaining bases four ways instead of two.' },
       ]),
       tldr: `A = T and G = C: ${pct(value)} ${base} means ${pct(value)} ${pairOf[base]}, and ${pct((1 - 2 * value) / 2)} each of the others.`,
-      steps: steps(['Pair', `${base} = ${pairOf[base]} = ${pct(value)}.`], ['Split', `The remaining ${pct(1 - 2 * value)} is shared equally: ${pct((1 - 2 * value) / 2)} each.`]),
+      steps: steps(['Pair', `${cap(base)} = ${pairOf[base]} = ${pct(value)}.`], ['Split', `The remaining ${pct(1 - 2 * value)} is shared equally: ${pct((1 - 2 * value) / 2)} each.`]),
       takeaway: 'In double-stranded DNA, A = T and G = C, so the four percentages come in matching pairs.',
     });
   }

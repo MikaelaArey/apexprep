@@ -82,4 +82,34 @@ export async function loadDemoHistory(exam: Exam, days = 21): Promise<void> {
   for (const r of reviews) await repo.addReview(r);
   for (const card of cards.values()) await repo.putCard(card);
   await useStore.getState().reload();
+
+  // A test date and a few practice-test scores trending toward the goal.
+  const now = new Date().getTime();
+  const store = useStore.getState();
+  const { plans } = store.settings;
+  store.updateSettings({ plans: { ...plans, [exam]: { ...plans[exam], testDate: dayKey(now + 52 * DAY_MS) } } });
+  const scores =
+    exam === 'MCAT'
+      ? [
+          { ago: 20, total: 497, sections: { CP: 124, CARS: 123, BB: 125, PS: 125 } },
+          { ago: 12, total: 501, sections: { CP: 125, CARS: 124, BB: 126, PS: 126 } },
+          { ago: 4, total: 505, sections: { CP: 126, CARS: 125, BB: 127, PS: 127 } },
+        ]
+      : [
+          { ago: 20, total: 158, sections: null },
+          { ago: 12, total: 161, sections: null },
+          { ago: 4, total: 164, sections: null },
+        ];
+  scores.forEach((s, i) =>
+    store.saveScore({
+      id: `demo-score-${exam}-${i}`,
+      exam,
+      date: dayKey(now - s.ago * DAY_MS),
+      kind: 'practice',
+      label: `Practice test ${i + 1}`,
+      total: s.total,
+      sections: s.sections,
+      createdAt: now - s.ago * DAY_MS,
+    }),
+  );
 }
