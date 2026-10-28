@@ -11,10 +11,14 @@ The free plan is enough to launch.
 
 1. At supabase.com, create a project named `apexprep` (free plan, nearest region).
    Save the database password in a password manager.
-2. Click **Connect** at the top of the project dashboard and copy the **Project
-   URL** and the **publishable key** (`sb_publishable_…`; older projects call it
-   the anon key). **Settings → API Keys** lists every key. Never put the secret /
-   service_role key in the app.
+2. Copy two values:
+   - **Project URL:** open **Project Settings** (the gear at the bottom left), then
+     **Data API**. Or build it from the browser's address bar: the ID after
+     `/project/` gives `https://<that ID>.supabase.co`.
+   - **Publishable key:** open **Project Settings → API Keys** and copy the key
+     that starts with `sb_publishable_`. Older projects call it the anon key.
+
+   Never put the secret or service_role key in the app.
 
 ## 2. Create the tables
 
