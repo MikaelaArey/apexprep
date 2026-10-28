@@ -4,8 +4,8 @@ Bundle ID `com.mikaelaarey.apexprep` · SKU `apexprep-ios-1` · Team D28MYG4A35 
 
 ## Name and subtitle
 
-- **Name (30 max):** ApexPrep: MCAT & LSAT Prep
-- **Subtitle (30 max):** Two-minute practice, explained
+- **Name (30 max):** ApexPrep (chosen when the listing was created)
+- **Subtitle (30 max):** MCAT & LSAT practice questions
 
 ## Promotional text (170 max)
 
@@ -46,20 +46,20 @@ ApexPrep's questions are original practice items, not official test content. MCA
 
 ## Keywords (100 max, comma-separated)
 
-premed,medical school,law school,practice test,questions,cars,biochem,psychology,flashcards,study
+mcat,lsat,premed,medical school,law school,practice test,cars,biochem,psychology,flashcards,study
 
 ## URLs
 
-- **Support:** https://apexprep.vercel.app/support (after the site is published)
-- **Marketing:** https://apexprep.vercel.app
-- **Privacy policy:** https://apexprep.vercel.app/privacy
+- **Support:** https://apexprep-omega.vercel.app/support
+- **Marketing:** https://apexprep-omega.vercel.app
+- **Privacy policy:** https://apexprep-omega.vercel.app/privacy
 
 ## Other fields
 
 - **Category:** Education
 - **Price:** Free, in all territories except mainland China (it would need an ICP filing), matching Foundry.
 - **Copyright:** 2026 Mikaela Arey
-- **Age rating:** 13+. Answer the questionnaire honestly (Medical or treatment information: Infrequent, because the MCAT covers physiology and psychological disorders; everything else None or No), then set the 13+ override to match the privacy policy.
+- **Age rating:** 13+. Every questionnaire answer is None or No. The only flagged words were scientific: alcohol as a chemistry functional group, endorphins as "natural opioids" and a literary "heroine". The 13+ override matches the privacy policy.
 
 ## App Review notes
 
