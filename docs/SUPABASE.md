@@ -2,7 +2,8 @@
 
 ApexPrep keeps everything on the phone first. Supabase is the backup and the way
 progress moves between devices. Students start as anonymous guests (their progress
-backs up from day one) and can upgrade with Sign in with Apple or an email code.
+backs up from day one) and can upgrade with Sign in with Apple. Email-code sign-in
+is built but switched off until there's an email sender (see below).
 
 The free plan is enough to launch.
 
@@ -54,14 +55,16 @@ domain you own.
 2. In **Authentication → Emails → Templates**, open **Magic Link**, replace the
    message body with the code template below, and save. Do the same for **Confirm
    signup**, which is the email a student gets the first time they sign in this way.
+3. Add `EXPO_PUBLIC_EMAIL_SIGN_IN=1` to `.env.local` and restart. The Account
+   screen then offers "Or use an email code" under the Apple button.
 
 ```html
 <h2>Your ApexPrep code</h2>
 <p>Enter this code in the app: <strong>{{ .Token }}</strong></p>
 ```
 
-Until then, guest accounts, backup and Sign in with Apple all work. Only email
-sign-in waits.
+Until then, the app offers Sign in with Apple only, along with guest accounts and
+backup. None of those need email.
 
 ## 4. Point the app at it
 

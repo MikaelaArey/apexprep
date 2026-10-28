@@ -1,5 +1,6 @@
 # Sync end to end against the local stand-in: a guest account backs up a Daily 5,
-# then signs in with an email code (the stand-in accepts 123456).
+# then signs in with an email code (the stand-in accepts 123456). Email sign-in is
+# hidden by default, so start the dev server with EXPO_PUBLIC_EMAIL_SIGN_IN=1.
 appId: host.exp.Exponent
 ---
 - runFlow:

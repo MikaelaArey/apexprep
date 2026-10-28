@@ -1,5 +1,7 @@
-// Account: back up progress with Sign in with Apple or an email code, sign out,
-// or delete the account (required by the App Store when accounts exist).
+// Account: back up progress with Sign in with Apple, sign out, or delete the
+// account (required by the App Store when accounts exist). Email-code sign-in is
+// built but hidden: it needs a custom email sender in Supabase first
+// (docs/SUPABASE.md), then EXPO_PUBLIC_EMAIL_SIGN_IN=1 turns it on.
 
 import * as AppleAuthentication from 'expo-apple-authentication';
 import { router } from 'expo-router';
@@ -12,6 +14,8 @@ import { Icon } from '@/ui/Icon';
 import { Button, Card, Eyebrow, IconButton } from '@/ui/kit';
 import { T } from '@/ui/Text';
 import { radius, space, useColors } from '@/ui/theme';
+
+const EMAIL_SIGN_IN = process.env.EXPO_PUBLIC_EMAIL_SIGN_IN === '1';
 
 export default function Account() {
   const c = useColors();
@@ -107,52 +111,58 @@ export default function Account() {
                 style={{ height: 54 }}
                 onPress={() => run('apple', signInWithApple)}
               />
-            ) : null}
-            <Card style={{ gap: space.md }}>
-              <Eyebrow>Or use an email code</Eyebrow>
-              <TextInput
-                testID="email-input"
-                value={email}
-                onChangeText={setEmail}
-                placeholder="you@school.edu"
-                placeholderTextColor={c.textFaint}
-                autoCapitalize="none"
-                autoComplete="email"
-                keyboardType="email-address"
-                textContentType="emailAddress"
-                style={input}
-              />
-              {sent ? (
+            ) : (
+              <T variant="footnote" color="textMuted" testID="apple-unavailable">
+                Sign in with Apple isn’t available on this device.
+              </T>
+            )}
+            {EMAIL_SIGN_IN ? (
+              <Card style={{ gap: space.md }}>
+                <Eyebrow>Or use an email code</Eyebrow>
                 <TextInput
-                  testID="code-input"
-                  value={code}
-                  onChangeText={setCode}
-                  placeholder="6-digit code"
+                  testID="email-input"
+                  value={email}
+                  onChangeText={setEmail}
+                  placeholder="you@school.edu"
                   placeholderTextColor={c.textFaint}
-                  keyboardType="number-pad"
-                  textContentType="oneTimeCode"
-                  maxLength={8}
+                  autoCapitalize="none"
+                  autoComplete="email"
+                  keyboardType="email-address"
+                  textContentType="emailAddress"
                   style={input}
                 />
-              ) : null}
-              {sent ? (
-                <Button title="Sign in" loading={busy === 'verify'} disabled={code.trim().length < 6} onPress={() => run('verify', () => verifyEmailCode(email, code))} />
-              ) : (
-                <Button
-                  kind="secondary"
-                  title="Email me a code"
-                  loading={busy === 'send'}
-                  disabled={!/^\S+@\S+\.\S+$/.test(email.trim())}
-                  onPress={() =>
-                    run('send', async () => {
-                      const r = await sendEmailCode(email);
-                      if (r.ok) setSent(true);
-                      return r;
-                    })
-                  }
-                />
-              )}
-            </Card>
+                {sent ? (
+                  <TextInput
+                    testID="code-input"
+                    value={code}
+                    onChangeText={setCode}
+                    placeholder="6-digit code"
+                    placeholderTextColor={c.textFaint}
+                    keyboardType="number-pad"
+                    textContentType="oneTimeCode"
+                    maxLength={8}
+                    style={input}
+                  />
+                ) : null}
+                {sent ? (
+                  <Button title="Sign in" loading={busy === 'verify'} disabled={code.trim().length < 6} onPress={() => run('verify', () => verifyEmailCode(email, code))} />
+                ) : (
+                  <Button
+                    kind="secondary"
+                    title="Email me a code"
+                    loading={busy === 'send'}
+                    disabled={!/^\S+@\S+\.\S+$/.test(email.trim())}
+                    onPress={() =>
+                      run('send', async () => {
+                        const r = await sendEmailCode(email);
+                        if (r.ok) setSent(true);
+                        return r;
+                      })
+                    }
+                  />
+                )}
+              </Card>
+            ) : null}
           </>
         )}
 

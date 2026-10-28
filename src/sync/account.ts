@@ -1,7 +1,7 @@
 // Accounts. Everyone starts as an anonymous guest (progress still backs up);
 // signing in with Apple upgrades the guest account in place, so nothing is lost.
 // Email codes sign in to an existing or new account and upload this device's
-// progress to it.
+// progress to it; the app only offers them when EXPO_PUBLIC_EMAIL_SIGN_IN=1.
 
 import * as AppleAuthentication from 'expo-apple-authentication';
 import { useEffect, useState } from 'react';
