@@ -35,6 +35,11 @@ export function useAccount(): Account {
   return account;
 }
 
+/** Network failures surface as "fetch failed…"; tell the student what to do instead. */
+function friendly(message: string): string {
+  return /fetch failed|network request failed|offline|timed out|aborted/i.test(message) ? 'You’re offline. Connect to the internet and try again.' : message;
+}
+
 export async function appleSignInAvailable(): Promise<boolean> {
   return AppleAuthentication.isAvailableAsync().catch(() => false);
 }
@@ -49,7 +54,7 @@ export async function signInWithApple(): Promise<{ ok: boolean; message?: string
     token = credential.identityToken;
   } catch (e) {
     if ((e as { code?: string }).code === 'ERR_REQUEST_CANCELED') return { ok: false };
-    return { ok: false, message: (e as Error).message };
+    return { ok: false, message: friendly((e as Error).message) };
   }
   if (!token) return { ok: false, message: 'Apple didn’t return a sign-in token.' };
 
@@ -64,7 +69,7 @@ export async function signInWithApple(): Promise<{ ok: boolean; message?: string
     }
   }
   const { error } = await supabase.auth.signInWithIdToken({ provider: 'apple', token });
-  if (error) return { ok: false, message: error.message };
+  if (error) return { ok: false, message: friendly(error.message) };
   await syncNow();
   return { ok: true };
 }
@@ -72,13 +77,13 @@ export async function signInWithApple(): Promise<{ ok: boolean; message?: string
 export async function sendEmailCode(email: string): Promise<{ ok: boolean; message?: string }> {
   if (!supabase) return { ok: false, message: 'Sync isn’t set up in this build.' };
   const { error } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { shouldCreateUser: true } });
-  return error ? { ok: false, message: error.message } : { ok: true };
+  return error ? { ok: false, message: friendly(error.message) } : { ok: true };
 }
 
 export async function verifyEmailCode(email: string, code: string): Promise<{ ok: boolean; message?: string }> {
   if (!supabase) return { ok: false, message: 'Sync isn’t set up in this build.' };
   const { error } = await supabase.auth.verifyOtp({ email: email.trim(), token: code.trim(), type: 'email' });
-  if (error) return { ok: false, message: error.message };
+  if (error) return { ok: false, message: friendly(error.message) };
   await syncNow();
   return { ok: true };
 }
@@ -96,7 +101,7 @@ export async function deleteAccount(): Promise<{ ok: boolean; message?: string }
     const { data } = await supabase.auth.getSession();
     if (data.session) {
       const { error } = await supabase.rpc('delete_my_account');
-      if (error) return { ok: false, message: error.message };
+      if (error) return { ok: false, message: friendly(error.message) };
       await supabase.auth.signOut();
     }
   }
