@@ -1,5 +1,13 @@
 # ApexPrep
 
+**[Download on the App Store](https://apps.apple.com/us/app/apexprep/id6828028145)** · [Website](https://apexprep-omega.vercel.app)
+
+<p>
+  <img src="docs/app-store/screenshots/shot-01-home.png" width="200" alt="Home screen with the Daily 5">
+  <img src="docs/app-store/screenshots/shot-02-explanation.png" width="200" alt="Answer explanation">
+  <img src="docs/app-store/screenshots/shot-04-climb.png" width="200" alt="The Climb">
+</p>
+
 MCAT and LSAT practice built for two-minute gaps. An iPhone app (Expo / React
 Native) with a Daily 5, Quick Drills, passage sets, spaced review that plans around
 the test date, streaks, stats, and explanations for every answer choice. It works
@@ -22,8 +30,8 @@ npx expo start --ios        # opens in Expo Go on the simulator
 npm run ios:native          # full native build (needs Xcode + CocoaPods)
 ```
 
-The native build is needed for Sign in with Apple and real notifications. On this
-Mac, Xcode isn't the active developer directory, so prefix commands with
+The native build is needed for Sign in with Apple and real notifications. If Xcode
+isn't your active developer directory, prefix commands with
 `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer` (or run
 `sudo xcode-select -s /Applications/Xcode.app` once).
 
@@ -88,3 +96,7 @@ tools. None of it ships in release builds.
 ```bash
 python3 -m pip install pillow && python3 scripts/make-icons.py
 ```
+
+## License
+
+Copyright © 2026 Mikaela Arey. All rights reserved; see [LICENSE](LICENSE).
